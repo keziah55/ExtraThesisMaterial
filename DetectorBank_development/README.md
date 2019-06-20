@@ -28,4 +28,4 @@ Uses the FFT method, but FIRs can be selected.
 is automatically applied is found. Again, frequency shifitng should be disabled in the 
 DetectorBank source.
  
- 
+- **freqz.py** plots the frequency response curve seen in Figure 2.16
