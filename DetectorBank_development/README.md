@@ -12,3 +12,6 @@ sample rate limitation.
 Figures 2.4 and 2.7. Requires `peakdetect.py`, originally found 
 [here](https://gist.github.com/endolith/250860#file-peakdetect-py).
 
+- **eccentricity.py** plots the complex response at 5Hz and 400Hz, to illustrate
+orbital eccentricity. Figures 2.5 and 2.6.
+
