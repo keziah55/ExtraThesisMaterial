@@ -1,11 +1,8 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Created on Mon Feb 27 14:46:46 2017
-
-@author: keziah
-
-Turn off frequency shifting
+Empirically determine at which point frequency shifting should automatically 
+be applied.
 """
 
 import numpy as np
@@ -17,10 +14,6 @@ import os.path
 import seaborn as sns
 sns.set_style('whitegrid')
  
-## read audio from file
-## the sample rate should be 48000 or 44100
-#sr, audio = scipy.io.wavfile.read('../Data/dre48.wav')
-
 savepath = '/home/keziah/onsets/hsj/Visualisation/'
 savefile = 'f_mod_rk4.pdf'
 base, ext = os.path.splitext(savefile)

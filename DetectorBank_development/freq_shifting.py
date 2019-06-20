@@ -1,9 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Created on Wed Jul 26 11:52:47 2017
-
-@author: keziah
+Test frequency shifting
 """
 
 import numpy as np

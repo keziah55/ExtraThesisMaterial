@@ -21,6 +21,11 @@ orbital eccentricity. Figures 2.5 and 2.6.
  used to generate the `scale_values.inc` file found in the DetectorBank repo.
  Obviously, this requires amplitude scaling to be disabled, along with frequency shifting.
  
- 
+- **freq_shifting.py** tests frequency shifting and makes Figure 2.14. 
+Uses the FFT method, but FIRs can be selected.
+
+- **find_f_shift.py** makes Figure 2.15, from which the point at which frequency shifting
+is automatically applied is found. Again, frequency shifitng should be disabled in the 
+DetectorBank source.
  
  
