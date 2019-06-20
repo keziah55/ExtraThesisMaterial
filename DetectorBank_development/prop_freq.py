@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Rewritten version of Visualisation/hopf_response_oscillations.py
+Plot responses near to the driving frequency
 """
 
 import numpy as np
@@ -11,13 +11,11 @@ import matplotlib.pyplot as plt
 from matplotlib.ticker import MultipleLocator
 import seaborn as sns
 
-from save_plot import SavePlot, SaveLegend
+from save_plot import SavePlot
 
-#plt.style.use('thesis-small-fig')
 sns.set_style('whitegrid')
 
-sp = SavePlot(False, '../Visualisation/pm_1_2_Hz.pdf')
-#sl = SaveLegend('../Visualisation/pm_1_2_Hz_legend.pdf', auto_overwrite=True)
+sp = SavePlot(False)
 
 def formatLabelFreq(label):
     if label == 27.5:
@@ -36,7 +34,7 @@ def formatLabelFreqDiff(label):
 
 method = DetectorBank.runge_kutta
 f_norm = DetectorBank.freq_unnormalized
-a_norm = DetectorBank.amp_unnormalized
+a_norm = DetectorBank.amp_normalized
     
 sr = 48000
 f0 = 440
@@ -73,6 +71,7 @@ t0 = 0
 t1 = len(audio) # int(sr * 0.2) # 
 for k in range(len(r)):
     plt.plot(t[t0:t1], r[k][t0:t1], c[k], label=f[k])
+    print('Det freq: {}Hz'.format(det.getW(k)/(2*np.pi)))
 #    plt.plot(t[t0:t1], r[k][t0:t1], 'black', label=f[k], linestyle=style[k])
     
 
@@ -188,16 +187,10 @@ labels = map(formatLabelFreqDiff, labels)
 plt.legend(handles, labels, title='Detector freq.')#, bbox_to_anchor=(1.0, 1))
 
 plt.xlabel('Time (s)')
-#plt.xlabel('Time (ms)')
 plt.ylabel('|z|', rotation='horizontal')
-
-#xtx = ax.get_xticks()
-#xlabels = ['{}'.format(int(1000*x)) for x in xtx]
-#ax.set_xticklabels(xlabels)
 
 # make plot slightly wider, so the legend doesn't overlap with the line
 plt.xlim(right=3.25)
 
 sp.plot(plt)
 
-#sl.plot(labels=list(labels), colours=c, title='Detector freq.')
