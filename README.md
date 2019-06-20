@@ -8,3 +8,5 @@ The software – DetectorBank – is hosted [here](https://github.com/keziah55/D
 Each directory contains it's own readme, describing the files.
 These will be updated shortly.
 
+A number of the files use `SavePlot` or `SaveLegend` objects, which can 
+be found [here](https://github.com/keziah55/save_plot).

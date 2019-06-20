@@ -1,8 +1,14 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-New version of previous frequency_range scripts (as you can probably guess)
-and also hopf_response.py
+This file generates the figures found in Section 2.2.1 of the thesis, and 
+represent the initial investigation into how the DetectorBank responds to
+inputs across a range of frequencies, using both numerical methods and 
+with and without frequency normalisation.
+
+In order to reproduce the results found in the thesis, the DetectorBank source
+must be altered to turn off amplitude scaling, frequency shifting and sample
+rate limitations.
 """
 
 import numpy as np
