@@ -19,5 +19,8 @@ orbital eccentricity. Figures 2.5 and 2.6.
  as frequency increases. This script calculates this at two sample rates, for both
  numerical methods and both with and without frequency normalisation, and was originally
  used to generate the `scale_values.inc` file found in the DetectorBank repo.
+ Obviously, this requires amplitude scaling to be disabled, along with frequency shifting.
+ 
+ 
  
  

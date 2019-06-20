@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-New version on amplitude_decay.py
+Generate scale_values.inc file
 """
 
 import numpy as np
