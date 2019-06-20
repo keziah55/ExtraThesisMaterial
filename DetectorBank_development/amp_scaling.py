@@ -168,4 +168,4 @@ if __name__ == '__main__':
     file = 'scale_values.inc'
     incPath = '../DetectorBank/src/' #'.' #
     
-    writeIncFile(freqsStr+scaleStr, incPath, file)
+#    writeIncFile(freqsStr+scaleStr, incPath, file)
