@@ -3,7 +3,6 @@
 """
 Use GA to find relationship between first Lyapunov coefficient and bandwidth
 
-New version of lyapunov_1Hz_ga.py
 """
 
 from lyapunov_bandwidth_amplitude_ga import GA, write_summary
