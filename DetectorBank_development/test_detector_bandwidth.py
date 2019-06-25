@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Created on Sun Oct 21 14:24:21 2018
-
-@author: keziah
+Find the minimum detector bandwidth at various sample rates and damping
+factors by making a DetectorBank of closely-spaced detectors and finding the
+points at which the maximum response in 3dB less than that at the centre
+frequency.
 """
 
 from detector_bandwidth import EmpiricalBandwidth

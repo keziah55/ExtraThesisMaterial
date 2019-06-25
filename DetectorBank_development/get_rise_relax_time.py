@@ -1,19 +1,13 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Created on Wed Oct 24 16:00:22 2018
-
-@author: keziah
-
-Re-written version of Visualisation/hopf_time_responses.py
-To make monochrome graphs, see this (it also has stuff about subsampling)
+Find detector rise and relaxation times.
 """
 
 
 import numpy as np
 from detectorbank import DetectorBank
 import matplotlib.pyplot as plt
-from matplotlib.ticker import MultipleLocator
 from save_plot import SavePlot
 import os
 
@@ -336,13 +330,8 @@ if __name__ == '__main__':
     d = [1e-4, 2e-4, 3e-4, 4e-4, 5e-4]
     
     # make SavePlot objects before calling get_rise_relax_times()
-    path = os.path.join('..', 'Visualisation')
-    
-    fname0 = 'damping_5_rise_time_final.pdf'
-    sp0 = SavePlot(False, os.path.join(path, fname0))
-    
-    fname1 = 'damping_5_relaxation_time_final.pdf'
-    sp1 = SavePlot(False, os.path.join(path, fname1))
+    sp0 = SavePlot(False)
+    sp1 = SavePlot(False)
     
     sp = [sp0, sp1]
     

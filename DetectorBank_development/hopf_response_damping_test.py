@@ -16,7 +16,6 @@ from time import time
 
 from save_plot import SavePlot, SaveLegend
 
-plt.style.use('thesis-small-fig')
 
 def formatLabelFreq(label):
     if label == 27.5:
