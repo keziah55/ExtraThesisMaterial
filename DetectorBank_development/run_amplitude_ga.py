@@ -3,8 +3,6 @@
 """
 Use GA to find relationship between first Lyapunov coefficient and bandwidth
 at different amplitudes and dampings.
-
-New version of amplitude_ga.py
 """
 
 from lyapunov_bandwidth_amplitude_ga import GA, write_summary

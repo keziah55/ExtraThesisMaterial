@@ -11,8 +11,6 @@ from matplotlib.ticker import MultipleLocator
 from save_plot import SavePlot, SaveLegend
 import os
 
-#plt.style.use('thesis-small-fig')
-
 
 def splitFiles(lst):
     
