@@ -1,0 +1,315 @@
+Check onsetdetector results
+===========================
+
+Wed Apr 24 13:09:40 2019
+
+OnsetDetector if statement: if (count >= 3 && last >= threshold)
+findExactTime() local min decision: if (std::isnan(current/mn) || current/mn >= 0.95) 
+OnsetDetector segment size: 20ms
+Threshold: 0.0003
+Searching for 1 frequency
+NoteDetector args:
+    EDO: 12
+    Bandwidth: 0
+    Method: Runge-Kutta
+    Freq norm: Freq unnormalized
+    Amp norm: Amp normalized
+    Damping: 0.0001
+    Gain: 25
+Onset tolerance: 50.000ms
+
+
+Percussion/Crotale/Crotale.ff.C8.stereo.wav
+-------------------------------------------
+Onset at   0.037 seconds, delay:  -6ms.
+
+False positives:
+  0.130
+  0.250
+  0.350
+  0.469
+
+Percussion/Xylophone.hardrubber/Xylophone.hardrubber.ff.C8.stereo.wav
+---------------------------------------------------------------------
+Onset at   0.000 seconds, delay:  50ms.
+
+False positives:
+  0.110
+
+Percussion/Xylophone.hardrubber.roll/Xylophone.hardrubber.roll.ff.C8.stereo.wav
+-------------------------------------------------------------------------------
+
+False negatives:
+  0.001
+  0.071
+  0.157
+  0.232
+  0.324
+  0.413
+  0.506
+  0.594
+  0.682
+  0.769
+  0.852
+  0.938
+  1.023
+  1.108
+  1.194
+  1.281
+  1.378
+  1.461
+  1.555
+
+Percussion/Xylophone.rosewood/Xylophone.rosewood.ff.C8.stereo.wav
+-----------------------------------------------------------------
+Onset at   0.002 seconds, delay:  48ms.
+
+False positives:
+  0.110
+
+Percussion/Xylophone.rosewood.roll/Xylophone.rosewood.roll.ff.C8.stereo.wav
+---------------------------------------------------------------------------
+Onset at   0.027 seconds, delay:  -1ms.
+Onset at   0.084 seconds, delay: -36ms.
+Onset at   0.172 seconds, delay:  -1ms.
+Onset at   0.255 seconds, delay:   7ms.
+Onset at   0.344 seconds, delay:   5ms.
+Onset at   0.433 seconds, delay:  -3ms.
+Onset at   0.525 seconds, delay:   3ms.
+Onset at   0.620 seconds, delay:   3ms.
+Onset at   0.704 seconds, delay:   2ms.
+Onset at   0.803 seconds, delay:   3ms.
+Onset at   0.882 seconds, delay:   5ms.
+Onset at   0.988 seconds, delay:   4ms.
+Onset at   1.069 seconds, delay:   1ms.
+Onset at   1.167 seconds, delay:   4ms.
+Onset at   1.258 seconds, delay:  -8ms.
+Onset at   1.349 seconds, delay:   1ms.
+Onset at   1.445 seconds, delay:   2ms.
+Onset at   1.540 seconds, delay:  10ms.
+Onset at   1.627 seconds, delay:   2ms.
+Onset at   1.720 seconds, delay:   4ms.
+Onset at   1.808 seconds, delay:   2ms.
+Onset at   1.904 seconds, delay: -14ms.
+Onset at   1.995 seconds, delay:  -5ms.
+Onset at   2.090 seconds
+Onset at   2.181 seconds, delay:   3ms.
+Onset at   2.267 seconds, delay:   3ms.
+Onset at   2.363 seconds, delay: -12ms.
+Onset at   2.447 seconds, delay:   3ms.
+Onset at   2.543 seconds, delay: -13ms.
+Onset at   2.627 seconds, delay:   3ms.
+Onset at   2.717 seconds, delay:   3ms.
+
+False positives:
+  0.790
+  0.970
+  1.150
+  1.430
+  1.950
+  2.150
+  2.410
+  2.590
+  2.810
+  2.850
+
+Percussion/bells.brass/bells.brass.ff.C8.stereo.wav
+---------------------------------------------------
+
+False negatives:
+  0.125
+
+False positives:
+  0.072
+  0.250
+  0.330
+  0.370
+  0.430
+  0.510
+  0.550
+  0.610
+  0.690
+  0.750
+  0.790
+  0.870
+  0.930
+  0.970
+  1.030
+
+Percussion/bells.brass/bells.brass.ff.D8.stereo.wav
+---------------------------------------------------
+Onset at   0.092 seconds, delay: -21ms.
+
+False positives:
+  0.190
+  0.230
+  0.290
+  0.370
+  0.430
+  0.470
+  0.550
+  0.610
+  0.670
+  0.730
+  0.770
+
+Percussion/bells.brass/bells.brass.ff.Db8.stereo.wav
+----------------------------------------------------
+Onset at   0.085 seconds, delay: -16ms.
+All onsets found!
+
+Percussion/bells.brass/bells.brass.ff.E8.stereo.wav
+---------------------------------------------------
+Onset at   0.053 seconds, delay: -12ms.
+
+False positives:
+  0.150
+  0.190
+  0.270
+  0.330
+  0.390
+  0.450
+  0.510
+  0.550
+  0.610
+  0.670
+  0.730
+  0.790
+
+Percussion/bells.brass/bells.brass.ff.Eb8.stereo.wav
+----------------------------------------------------
+Onset at   0.079 seconds, delay:  -9ms.
+
+False positives:
+  0.170
+  0.230
+  0.290
+  0.350
+  0.410
+  0.450
+  0.530
+  0.570
+  0.630
+  0.710
+  0.770
+
+Percussion/bells.plastic/bells.plastic.ff.C8.stereo.wav
+-------------------------------------------------------
+Onset at   0.031 seconds, delay:  -1ms.
+
+False positives:
+  0.110
+  0.190
+  0.250
+  0.310
+  0.370
+  0.410
+  0.490
+  0.550
+  0.590
+  0.670
+  0.730
+  0.790
+  0.830
+  0.910
+
+Percussion/bells.plastic/bells.plastic.ff.D8.stereo.wav
+-------------------------------------------------------
+Onset at   0.047 seconds, delay: -10ms.
+All onsets found!
+
+Percussion/bells.plastic/bells.plastic.ff.Db8.stereo.wav
+--------------------------------------------------------
+Onset at   0.037 seconds, delay:  -6ms.
+
+False positives:
+  0.170
+  0.250
+  0.290
+  0.350
+  0.430
+  0.490
+  0.550
+  0.610
+  0.670
+  0.710
+  0.770
+  0.850
+  0.910
+  0.950
+
+Percussion/bells.plastic/bells.plastic.ff.E8.stereo.wav
+-------------------------------------------------------
+Onset at   0.210 seconds
+
+False positives:
+  0.021
+  0.110
+  0.150
+  0.270
+  0.330
+  0.390
+  0.470
+  0.510
+  0.570
+  0.650
+  0.710
+  0.770
+
+Percussion/bells.plastic/bells.plastic.ff.Eb8.stereo.wav
+--------------------------------------------------------
+Onset at   0.072 seconds, delay:  -2ms.
+
+False positives:
+  0.150
+  0.230
+  0.290
+  0.350
+  0.390
+  0.470
+  0.510
+  0.590
+  0.630
+  0.710
+
+Piano_Guitar/Piano/Piano.ff.C8.wav
+----------------------------------
+
+False negatives:
+  0.328
+
+Piano_Guitar/Piano/Piano.mf.C8.wav
+----------------------------------
+
+False negatives:
+  0.168
+
+Piano_Guitar/Piano/Piano.pp.C8.wav
+----------------------------------
+
+False negatives:
+  0.051
+
+
+Stats
+=====
+Total number of onsets:     66
+Total number of detections: 158
+Total true positives:       43
+Total false positives:      115
+Total erroneous detections: 115
+
+Largest advance: -36ms
+Mean advance:    -21.000ms
+Largest delay:    50ms
+Mean delay:       50.000ms
+Mean difference:   1.600ms
+Number of advances <-15.00ms: 3
+Number of delays   > 15.00ms: 2
+
+Precision:             27.2152%
+Recall:                65.1515%
+F-measure:             38.3929%
+Precision (tot. err.): 27.2152%
+F-measure (tot. err.): 38.3929%
+

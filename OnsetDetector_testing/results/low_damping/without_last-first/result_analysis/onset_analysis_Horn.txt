@@ -1,0 +1,1074 @@
+Check onsetdetector results
+===========================
+
+Wed Apr 24 13:09:40 2019
+
+OnsetDetector if statement: if (count >= 3 && last >= threshold)
+findExactTime() local min decision: if (std::isnan(current/mn) || current/mn >= 0.95) 
+OnsetDetector segment size: 20ms
+Threshold: 0.0003
+Searching for 1 frequency
+NoteDetector args:
+    EDO: 12
+    Bandwidth: 0
+    Method: Runge-Kutta
+    Freq norm: Freq unnormalized
+    Amp norm: Amp normalized
+    Damping: 0.0001
+    Gain: 25
+Onset tolerance: 50.000ms
+
+
+Brass/Horn/Horn.ff.A2.stereo.wav
+--------------------------------
+Onset at   0.027 seconds, delay:  -6ms.
+
+False positives:
+  0.290
+  0.350
+  0.430
+  0.487
+  0.630
+  0.710
+  0.890
+  0.936
+  1.130
+  1.249
+  1.350
+  1.506
+  1.610
+  1.650
+  1.727
+  1.830
+  1.910
+  1.984
+  2.085
+  2.149
+  2.210
+  2.287
+  2.443
+  2.526
+  2.664
+  2.750
+  2.830
+
+Brass/Horn/Horn.ff.A3.stereo.wav
+--------------------------------
+Onset at   0.020 seconds
+All onsets found!
+
+Brass/Horn/Horn.ff.A4.stereo.wav
+--------------------------------
+Onset at   0.020 seconds
+
+False positives:
+  0.210
+  0.303
+  0.387
+  0.461
+  0.533
+  0.601
+  0.730
+  0.790
+  0.890
+  0.950
+  1.030
+  1.063
+  1.168
+  1.310
+  1.368
+  1.450
+  1.498
+  1.585
+  1.688
+  1.765
+  1.830
+  1.890
+  1.970
+  2.030
+  2.090
+  2.150
+  2.230
+
+Brass/Horn/Horn.ff.Ab2.stereo.wav
+---------------------------------
+Onset at   0.040 seconds, delay: -10ms.
+All onsets found!
+
+Brass/Horn/Horn.ff.Ab3.stereo.wav
+---------------------------------
+Onset at   0.029 seconds
+
+False positives:
+  0.217
+  0.367
+  0.470
+  0.522
+  0.590
+  0.690
+  0.726
+  0.850
+  0.968
+  1.089
+  1.210
+  1.346
+  1.450
+  1.510
+  1.610
+  1.650
+  1.730
+  1.790
+  1.930
+  2.050
+  2.089
+  2.170
+  2.230
+  2.290
+  2.369
+  2.509
+  2.630
+  2.668
+  2.789
+  2.890
+  2.930
+  3.010
+
+Brass/Horn/Horn.ff.Ab4.stereo.wav
+---------------------------------
+Onset at   0.020 seconds
+All onsets found!
+
+Brass/Horn/Horn.ff.B1.stereo.wav
+--------------------------------
+
+False negatives:
+  0.139
+
+False positives:
+  0.023
+  0.490
+  0.555
+  0.730
+  0.810
+  0.907
+  1.070
+  1.150
+  1.275
+  1.490
+  1.570
+  1.690
+  1.770
+  1.850
+  1.890
+  1.970
+  2.044
+  2.190
+  2.250
+  2.409
+  2.667
+  2.730
+  2.810
+
+Brass/Horn/Horn.ff.B2.stereo.wav
+--------------------------------
+Onset at   0.045 seconds, delay: -24ms.
+
+False positives:
+  0.390
+  0.430
+  0.510
+  0.610
+  0.708
+  0.810
+  0.870
+  0.990
+  1.090
+  1.170
+  1.290
+  1.350
+  1.410
+  1.528
+  1.610
+  1.683
+  1.830
+  1.950
+  2.089
+  2.230
+  2.310
+  2.389
+  2.490
+  2.570
+  2.610
+  2.670
+  2.730
+
+Brass/Horn/Horn.ff.B3.stereo.wav
+--------------------------------
+Onset at   0.026 seconds, delay:  -5ms.
+
+False positives:
+  0.290
+  0.370
+  0.422
+  0.550
+  0.630
+  0.690
+  0.770
+  0.890
+  0.950
+  1.028
+  1.092
+  1.230
+  1.383
+  1.590
+  1.650
+  1.730
+  1.790
+  1.902
+  2.128
+  2.210
+  2.270
+  2.350
+  2.390
+  2.470
+
+Brass/Horn/Horn.ff.B4.stereo.wav
+--------------------------------
+Onset at   0.019 seconds, delay:   1ms.
+All onsets found!
+
+Brass/Horn/Horn.ff.Bb1.stereo.wav
+---------------------------------
+
+False negatives:
+  0.135
+
+False positives:
+  0.020
+  0.710
+  0.800
+  0.950
+  1.110
+  1.170
+  1.249
+  1.329
+  1.430
+  1.510
+  1.549
+  1.610
+  1.690
+  1.730
+  1.810
+  1.870
+  1.929
+  2.110
+  2.210
+  2.270
+  2.330
+  2.390
+  2.470
+
+Brass/Horn/Horn.ff.Bb2.stereo.wav
+---------------------------------
+Onset at   0.019 seconds, delay:   1ms.
+
+False positives:
+  0.303
+  0.450
+  0.545
+  0.690
+  0.830
+  0.943
+  1.050
+  1.110
+  1.250
+  1.350
+  1.428
+  1.630
+  1.730
+  1.870
+  1.930
+  2.007
+  2.190
+  2.309
+  2.370
+  2.449
+  2.508
+  2.630
+  2.690
+  2.750
+  2.830
+
+Brass/Horn/Horn.ff.Bb3.stereo.wav
+---------------------------------
+Onset at   0.022 seconds, delay:  -1ms.
+
+False positives:
+  0.243
+  0.387
+  0.490
+  0.513
+  0.630
+  0.666
+  0.770
+  0.903
+  1.020
+  1.169
+  1.330
+  1.424
+  1.530
+  1.610
+  1.637
+  1.765
+  1.870
+  1.901
+  2.010
+  2.050
+  2.110
+  2.190
+  2.290
+  2.330
+  2.424
+  2.530
+  2.589
+  2.690
+  2.750
+  2.850
+  2.890
+
+Brass/Horn/Horn.ff.Bb4.stereo.wav
+---------------------------------
+Onset at   0.026 seconds, delay:  -5ms.
+
+False positives:
+  0.250
+  0.327
+  0.430
+  0.490
+  0.590
+  0.690
+  0.770
+  0.850
+  0.930
+  1.021
+  1.125
+  1.250
+  1.345
+  1.430
+  1.510
+  1.590
+  1.670
+  1.725
+  1.847
+  1.910
+  1.956
+  2.030
+  2.110
+  2.170
+  2.230
+
+Brass/Horn/Horn.ff.C2.stereo.wav
+--------------------------------
+Onset at   0.018 seconds, delay:   6ms.
+
+False positives:
+  0.490
+  0.628
+  0.768
+  0.810
+  0.877
+  1.062
+  1.130
+  1.210
+  1.405
+  1.470
+  1.560
+  1.746
+  1.990
+  2.067
+  2.128
+  2.190
+  2.283
+  2.346
+  2.430
+  2.467
+  2.530
+  2.590
+
+Brass/Horn/Horn.ff.C3.stereo.wav
+--------------------------------
+Onset at   0.016 seconds, delay:   5ms.
+All onsets found!
+
+Brass/Horn/Horn.ff.C4.stereo.wav
+--------------------------------
+Onset at   0.018 seconds, delay:   2ms.
+
+False positives:
+  0.189
+  0.270
+  0.370
+  0.490
+  0.534
+  0.650
+  0.750
+  0.870
+  0.988
+  1.090
+  1.161
+  1.270
+  1.307
+  1.410
+  1.449
+  1.570
+  1.610
+  1.690
+  1.790
+  1.890
+  1.950
+  2.050
+  2.130
+  2.210
+  2.250
+  2.310
+
+Brass/Horn/Horn.ff.C5.stereo.wav
+--------------------------------
+Onset at   0.025 seconds, delay:  -1ms.
+
+False positives:
+  0.209
+  0.268
+  0.322
+  0.410
+  0.490
+  0.541
+  0.679
+  0.746
+  0.803
+  0.866
+  0.983
+  1.050
+  1.130
+  1.264
+  1.371
+  1.530
+  1.588
+  1.740
+  1.850
+  1.910
+  1.970
+  2.050
+  2.110
+  2.170
+  2.250
+
+Brass/Horn/Horn.ff.D2.stereo.wav
+--------------------------------
+Onset at   0.022 seconds
+
+False positives:
+  0.270
+  0.398
+  0.530
+  0.579
+  0.650
+  0.750
+  0.829
+  0.990
+  1.050
+  1.190
+  1.250
+  1.370
+  1.510
+  1.570
+  1.688
+  1.867
+  1.950
+  2.168
+  2.223
+  2.306
+  2.389
+  2.485
+  2.608
+  2.649
+  2.704
+  2.790
+
+Brass/Horn/Horn.ff.D3.stereo.wav
+--------------------------------
+Onset at   0.025 seconds, delay:  -2ms.
+All onsets found!
+
+Brass/Horn/Horn.ff.D4.stereo.wav
+--------------------------------
+Onset at   0.021 seconds, delay:  -1ms.
+
+False positives:
+  0.185
+  0.303
+  0.370
+  0.450
+  0.540
+  0.630
+  0.753
+  0.850
+  0.964
+  1.069
+  1.208
+  1.330
+  1.390
+  1.430
+  1.510
+  1.550
+  1.639
+  1.750
+  1.805
+  1.910
+  2.016
+  2.110
+  2.150
+  2.230
+  2.270
+  2.330
+  2.390
+
+Brass/Horn/Horn.ff.D5.stereo.wav
+--------------------------------
+Onset at   0.023 seconds, delay:  -2ms.
+
+False positives:
+  0.181
+  0.270
+  0.348
+  0.450
+  0.527
+  0.590
+  0.706
+  0.790
+  0.834
+  0.930
+  1.034
+  1.149
+  1.181
+  1.279
+  1.389
+  1.470
+  1.539
+  1.630
+  1.707
+  1.810
+  1.870
+  1.930
+  1.999
+  2.110
+  2.170
+  2.230
+
+Brass/Horn/Horn.ff.Db2.stereo.wav
+---------------------------------
+Onset at   0.015 seconds, delay:  11ms.
+
+False positives:
+  0.576
+  1.404
+
+Brass/Horn/Horn.ff.Db3.stereo.wav
+---------------------------------
+Onset at   0.026 seconds, delay:  -5ms.
+
+False positives:
+  0.286
+  0.450
+  0.629
+  0.730
+  0.823
+  0.950
+  1.010
+  1.110
+  1.212
+  1.350
+  1.429
+  1.550
+  1.630
+  1.689
+  1.730
+  1.830
+  1.869
+  1.970
+  2.090
+  2.230
+  2.389
+  2.430
+  2.510
+  2.606
+  2.690
+  2.750
+
+Brass/Horn/Horn.ff.Db4.stereo.wav
+---------------------------------
+Onset at   0.018 seconds, delay:   2ms.
+All onsets found!
+
+Brass/Horn/Horn.ff.Db5.stereo.wav
+---------------------------------
+Onset at   0.022 seconds, delay:  -1ms.
+
+False positives:
+  0.210
+  0.270
+  0.370
+  0.470
+  0.590
+  0.669
+  0.728
+  0.806
+  0.870
+  0.970
+  1.021
+  1.100
+  1.182
+  1.298
+  1.390
+  1.470
+  1.510
+  1.584
+  1.688
+  1.790
+  1.850
+  1.910
+  1.970
+  2.050
+  2.102
+  2.170
+  2.250
+
+Brass/Horn/Horn.ff.E2.stereo.wav
+--------------------------------
+Onset at   0.026 seconds, delay:  -4ms.
+
+False positives:
+  0.240
+
+Brass/Horn/Horn.ff.E3.stereo.wav
+--------------------------------
+Onset at   0.028 seconds, delay:  -8ms.
+
+False positives:
+  0.330
+  0.370
+  0.469
+  0.530
+  0.608
+  0.750
+  0.850
+  0.950
+  1.037
+  1.130
+  1.210
+  1.262
+  1.419
+  1.510
+  1.607
+  1.730
+  1.790
+  1.850
+  2.007
+  2.090
+  2.170
+  2.230
+  2.350
+  2.410
+  2.490
+  2.550
+  2.590
+  2.650
+  2.710
+
+Brass/Horn/Horn.ff.E4.stereo.wav
+--------------------------------
+Onset at   0.020 seconds
+All onsets found!
+
+Brass/Horn/Horn.ff.E5.stereo.wav
+--------------------------------
+Onset at   0.024 seconds, delay:  -4ms.
+
+False positives:
+  0.230
+  0.305
+  0.450
+  0.476
+  0.570
+  0.639
+  0.710
+  0.761
+  0.850
+  0.910
+  0.959
+  1.015
+  1.164
+  1.315
+  1.430
+  1.479
+  1.567
+  1.710
+  1.781
+  1.870
+  1.925
+  2.010
+  2.090
+  2.170
+  2.250
+
+Brass/Horn/Horn.ff.Eb2.stereo.wav
+---------------------------------
+Onset at   0.012 seconds, delay:  18ms.
+All onsets found!
+
+Brass/Horn/Horn.ff.Eb3.stereo.wav
+---------------------------------
+Onset at   0.023 seconds
+
+False positives:
+  0.350
+  0.409
+  0.490
+  0.613
+  0.730
+  0.786
+  0.930
+  1.030
+  1.067
+  1.190
+  1.250
+  1.322
+  1.510
+  1.570
+  1.650
+  1.730
+  1.810
+  1.890
+  2.030
+  2.110
+  2.210
+  2.270
+  2.470
+  2.510
+  2.590
+  2.648
+  2.710
+  2.770
+  2.830
+
+Brass/Horn/Horn.ff.Eb4.stereo.wav
+---------------------------------
+Onset at   0.018 seconds, delay:   2ms.
+
+False positives:
+  0.170
+  0.250
+  0.285
+  0.370
+  0.444
+  0.507
+  0.546
+  0.630
+  0.710
+  0.786
+  0.890
+  0.930
+  1.048
+  1.170
+  1.253
+  1.345
+  1.510
+  1.610
+  1.710
+  1.810
+  1.910
+  2.009
+  2.110
+  2.210
+  2.250
+  2.310
+  2.370
+  2.450
+
+Brass/Horn/Horn.ff.Eb5.stereo.wav
+---------------------------------
+Onset at   0.019 seconds, delay:   1ms.
+All onsets found!
+
+Brass/Horn/Horn.ff.F2.stereo.wav
+--------------------------------
+Onset at   0.038 seconds, delay: -18ms.
+
+False positives:
+  0.302
+  0.510
+  0.583
+  0.690
+  0.770
+  0.829
+  0.888
+  0.947
+  1.204
+  1.366
+  1.484
+  1.588
+  1.670
+  1.809
+  1.867
+  1.950
+  2.007
+  2.089
+  2.148
+  2.229
+  2.368
+  2.449
+  2.589
+  2.650
+
+Brass/Horn/Horn.ff.F3.stereo.wav
+--------------------------------
+Onset at   0.030 seconds, delay:  -9ms.
+
+False positives:
+  0.210
+  0.290
+  0.340
+  0.470
+  0.550
+  0.630
+  0.710
+  0.790
+  0.890
+  0.930
+  1.057
+  1.190
+  1.228
+  1.310
+  1.353
+  1.470
+  1.545
+  1.670
+  1.790
+  1.870
+  1.949
+  2.010
+  2.130
+  2.210
+  2.250
+  2.370
+  2.450
+  2.510
+  2.550
+  2.610
+
+Brass/Horn/Horn.ff.F4.stereo.wav
+--------------------------------
+Onset at   0.025 seconds, delay:  -5ms.
+All onsets found!
+
+Brass/Horn/Horn.ff.F5.stereo.wav
+--------------------------------
+Onset at   0.021 seconds, delay:  -1ms.
+
+False positives:
+  0.210
+  0.290
+  0.404
+  0.490
+  0.570
+  0.610
+  0.690
+  0.788
+  0.845
+  0.930
+  1.010
+  1.114
+  1.210
+  1.263
+  1.350
+  1.470
+  1.508
+  1.630
+  1.675
+  1.770
+  1.845
+  1.930
+  1.990
+  2.050
+  2.130
+
+Brass/Horn/Horn.ff.G2.stereo.wav
+--------------------------------
+Onset at   0.024 seconds, delay:  -2ms.
+
+False positives:
+  0.310
+  0.346
+  0.450
+  0.490
+  0.570
+  0.609
+  0.770
+  0.850
+  0.945
+  1.190
+  1.270
+  1.302
+  1.430
+  1.490
+  1.550
+  1.784
+  1.948
+  2.030
+  2.122
+  2.270
+  2.350
+  2.410
+  2.470
+  2.530
+  2.610
+  2.650
+  2.730
+
+Brass/Horn/Horn.ff.G3.stereo.wav
+--------------------------------
+Onset at   0.021 seconds, delay:  -1ms.
+
+False positives:
+  0.320
+  0.470
+  0.543
+  0.630
+  0.750
+  0.808
+  0.869
+  0.970
+  1.050
+  1.118
+  1.250
+  1.310
+  1.370
+  1.408
+  1.510
+  1.550
+  1.650
+  1.748
+  1.870
+  1.910
+  2.010
+  2.089
+  2.170
+  2.270
+  2.330
+  2.410
+  2.450
+  2.530
+  2.590
+  2.650
+
+Brass/Horn/Horn.ff.G4.stereo.wav
+--------------------------------
+Onset at   0.022 seconds, delay:  -1ms.
+
+False positives:
+  0.330
+  0.462
+  0.574
+  0.688
+  0.770
+  0.870
+  0.950
+  1.005
+  1.089
+  1.170
+  1.270
+  1.293
+  1.401
+  1.510
+  1.548
+  1.664
+  1.750
+  1.790
+  1.848
+  1.930
+  1.989
+  2.050
+  2.108
+  2.190
+  2.250
+  2.330
+
+Brass/Horn/Horn.ff.Gb2.stereo.wav
+---------------------------------
+Onset at   0.035 seconds, delay:   9ms.
+All onsets found!
+
+Brass/Horn/Horn.ff.Gb3.stereo.wav
+---------------------------------
+Onset at   0.019 seconds, delay:   2ms.
+
+False positives:
+  0.228
+  0.368
+  0.427
+  0.508
+  0.561
+  0.664
+  0.770
+  0.830
+  0.910
+  0.987
+  1.090
+  1.115
+  1.250
+  1.309
+  1.426
+  1.577
+  1.690
+  1.726
+  1.850
+  1.950
+  1.990
+  2.090
+  2.130
+  2.210
+  2.250
+  2.330
+  2.370
+  2.430
+  2.510
+  2.550
+
+Brass/Horn/Horn.ff.Gb4.stereo.wav
+---------------------------------
+Onset at   0.023 seconds, delay:  -2ms.
+All onsets found!
+
+
+Stats
+=====
+Total number of onsets:     44
+Total number of detections: 817
+Total true positives:       42
+Total false positives:      775
+Total erroneous detections: 775
+
+Largest advance: -24ms
+Mean advance:    -13.333ms
+Largest delay:    18ms
+Mean delay:        9.000ms
+Mean difference:  -0.286ms
+Number of advances <-15.00ms: 2
+Number of delays   > 15.00ms: 1
+
+Precision:             5.14076%
+Recall:                95.4545%
+F-measure:             9.7561%
+Precision (tot. err.): 5.14076%
+F-measure (tot. err.): 9.7561%
+

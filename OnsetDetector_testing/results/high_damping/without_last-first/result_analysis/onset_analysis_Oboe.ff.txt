@@ -1,0 +1,850 @@
+Check onsetdetector results
+===========================
+
+Wed Apr 24 13:14:03 2019
+
+OnsetDetector if statement: if (count >= 3 && last >= threshold)
+findExactTime() local min decision: if (std::isnan(current/mn) || current/mn >= 0.95) 
+OnsetDetector segment size: 20ms
+Threshold: 0.0005
+Searching for 1 frequency
+NoteDetector args:
+    EDO: 12
+    Bandwidth: 0
+    Method: Runge-Kutta
+    Freq norm: Freq unnormalized
+    Amp norm: Amp normalized
+    Damping: 0.0005
+    Gain: 25
+Onset tolerance: 50.000ms
+
+
+Woodwind/Oboe.ff/Oboe.ff.A4.stereo.wav
+--------------------------------------
+Onset at   0.027 seconds, delay:  -6ms.
+
+False positives:
+  0.148
+  0.228
+  0.370
+  0.830
+  0.970
+  1.150
+  1.230
+  1.290
+  1.330
+  1.390
+  1.450
+  1.510
+
+Woodwind/Oboe.ff/Oboe.ff.A5.stereo.wav
+--------------------------------------
+Onset at   0.044 seconds, delay:  -8ms.
+
+False positives:
+  0.176
+  0.270
+  0.370
+  0.450
+  0.543
+  0.650
+  0.762
+  0.823
+  0.930
+  0.970
+  1.030
+  1.129
+  1.210
+  1.250
+  1.370
+  1.430
+  1.510
+  1.550
+  1.630
+  1.670
+  1.750
+  1.810
+
+Woodwind/Oboe.ff/Oboe.ff.Ab4.stereo.wav
+---------------------------------------
+Onset at   0.038 seconds, delay: -16ms.
+
+False positives:
+  0.270
+  0.470
+  0.530
+  0.590
+  0.650
+  0.850
+  1.029
+  1.210
+  1.290
+  1.350
+  1.390
+  1.450
+  1.510
+  1.570
+  1.630
+
+Woodwind/Oboe.ff/Oboe.ff.Ab5.stereo.wav
+---------------------------------------
+Onset at   0.039 seconds, delay:  -1ms.
+
+False positives:
+  0.150
+  0.229
+  0.302
+  0.423
+  0.510
+  0.590
+  0.710
+  0.790
+  0.898
+  0.990
+  1.070
+  1.110
+  1.170
+  1.250
+  1.290
+  1.350
+  1.430
+  1.470
+  1.550
+
+Woodwind/Oboe.ff/Oboe.ff.Ab6.stereo.wav
+---------------------------------------
+Onset at   0.054 seconds, delay: -13ms.
+
+False positives:
+  0.309
+  0.410
+  0.450
+  0.590
+  0.701
+  0.810
+  0.910
+  0.989
+  1.107
+  1.170
+  1.230
+  1.290
+  1.370
+
+Woodwind/Oboe.ff/Oboe.ff.B3.stereo.wav
+--------------------------------------
+Onset at   0.063 seconds, delay: -41ms.
+
+False positives:
+  0.207
+  0.369
+  0.570
+  0.650
+  0.749
+  0.850
+  0.930
+  0.989
+  1.090
+  1.189
+  1.290
+  1.369
+  1.430
+  1.470
+  1.530
+  1.590
+  1.650
+  1.710
+  1.790
+
+Woodwind/Oboe.ff/Oboe.ff.B4.stereo.wav
+--------------------------------------
+Onset at   0.039 seconds, delay: -18ms.
+
+False positives:
+  0.209
+  0.290
+  0.350
+  0.489
+  0.569
+  0.630
+  0.730
+  0.790
+  0.910
+  1.030
+  1.210
+  1.270
+  1.370
+  1.410
+  1.470
+  1.530
+  1.590
+  1.670
+  1.710
+
+Woodwind/Oboe.ff/Oboe.ff.B5.stereo.wav
+--------------------------------------
+Onset at   0.061 seconds, delay:  -6ms.
+
+False positives:
+  0.210
+  0.263
+  0.330
+  0.481
+  0.610
+  0.680
+  0.790
+  0.849
+  0.930
+  0.977
+  1.090
+  1.150
+  1.190
+  1.270
+  1.330
+  1.370
+  1.430
+  1.490
+  1.550
+  1.610
+
+Woodwind/Oboe.ff/Oboe.ff.Bb3.stereo.wav
+---------------------------------------
+Onset at   0.045 seconds, delay: -24ms.
+
+False positives:
+  0.206
+  0.287
+  1.070
+  1.190
+  1.350
+  1.430
+  1.490
+  1.550
+  1.610
+  1.670
+  1.730
+  1.810
+  1.850
+
+Woodwind/Oboe.ff/Oboe.ff.Bb4.stereo.wav
+---------------------------------------
+Onset at   0.056 seconds, delay: -35ms.
+
+False positives:
+  0.189
+  0.290
+  0.389
+  0.550
+  0.630
+  0.790
+  1.010
+  1.250
+  1.370
+  1.430
+  1.490
+  1.550
+  1.610
+  1.670
+
+Woodwind/Oboe.ff/Oboe.ff.Bb5.stereo.wav
+---------------------------------------
+Onset at   0.059 seconds, delay: -16ms.
+
+False positives:
+  0.194
+  0.290
+  0.390
+  0.490
+  0.580
+  0.670
+  0.770
+  0.870
+  0.930
+  0.990
+  1.070
+  1.130
+  1.190
+  1.250
+  1.310
+  1.390
+  1.430
+  1.490
+  1.550
+  1.630
+  1.670
+  1.750
+  1.790
+
+Woodwind/Oboe.ff/Oboe.ff.C4.stereo.wav
+--------------------------------------
+Onset at   0.065 seconds, delay: -35ms.
+
+False positives:
+  0.210
+  0.310
+  0.590
+  0.789
+  0.889
+  0.970
+  1.010
+  1.089
+  1.150
+  1.250
+  1.310
+  1.350
+  1.430
+  1.490
+  1.550
+  1.610
+
+Woodwind/Oboe.ff/Oboe.ff.C5.stereo.wav
+--------------------------------------
+Onset at   0.051 seconds, delay:  -8ms.
+
+False positives:
+  0.170
+  0.289
+  0.429
+  0.530
+  0.689
+  0.769
+  0.830
+  0.950
+  1.010
+  1.130
+  1.210
+  1.310
+  1.390
+  1.430
+  1.490
+  1.550
+  1.610
+  1.670
+  1.750
+  1.810
+
+Woodwind/Oboe.ff/Oboe.ff.C6.stereo.wav
+--------------------------------------
+Onset at   0.051 seconds, delay:  -6ms.
+
+False positives:
+  0.210
+  0.263
+  0.330
+  0.405
+  0.490
+  0.625
+  0.707
+  0.770
+  0.809
+  0.910
+  0.934
+  1.050
+  1.130
+  1.190
+  1.270
+  1.330
+  1.390
+  1.470
+  1.510
+  1.570
+
+Woodwind/Oboe.ff/Oboe.ff.D4.stereo.wav
+--------------------------------------
+Onset at   0.030 seconds, delay:  -9ms.
+
+False positives:
+  0.169
+  0.267
+  0.370
+  0.689
+  0.910
+  1.030
+  1.170
+  1.270
+  1.350
+  1.410
+  1.470
+  1.530
+  1.590
+  1.650
+
+Woodwind/Oboe.ff/Oboe.ff.D5.stereo.wav
+--------------------------------------
+Onset at   0.055 seconds, delay: -15ms.
+
+False positives:
+  0.238
+  0.292
+  0.470
+  0.570
+  0.650
+  0.730
+  0.830
+  1.050
+  1.110
+  1.170
+  1.230
+  1.290
+  1.350
+  1.410
+  1.470
+  1.550
+
+Woodwind/Oboe.ff/Oboe.ff.D6.stereo.wav
+--------------------------------------
+Onset at   0.062 seconds, delay:  -6ms.
+
+False positives:
+  0.263
+  0.316
+  0.464
+  0.570
+  0.650
+  0.730
+  0.830
+  1.010
+  1.098
+  1.250
+  1.290
+  1.350
+  1.410
+  1.470
+  1.550
+
+Woodwind/Oboe.ff/Oboe.ff.Db4.stereo.wav
+---------------------------------------
+Onset at   0.042 seconds, delay: -20ms.
+
+False positives:
+  0.170
+  0.250
+  0.350
+  0.470
+  0.650
+  0.770
+  0.810
+  0.910
+  1.030
+  1.130
+  1.210
+  1.350
+  1.430
+  1.490
+  1.530
+  1.590
+  1.650
+
+Woodwind/Oboe.ff/Oboe.ff.Db5.stereo.wav
+---------------------------------------
+Onset at   0.057 seconds, delay: -19ms.
+
+False positives:
+  0.265
+  0.350
+  0.402
+  0.689
+  0.850
+  0.910
+  0.970
+  1.030
+  1.090
+  1.170
+  1.210
+  1.270
+  1.330
+  1.390
+  1.450
+  1.510
+  1.570
+  1.630
+  1.710
+
+Woodwind/Oboe.ff/Oboe.ff.Db6.stereo.wav
+---------------------------------------
+Onset at   0.047 seconds, delay: -11ms.
+
+False positives:
+  0.269
+  0.350
+  0.450
+  0.486
+  0.650
+  0.743
+  0.810
+  0.930
+  1.012
+  1.130
+  1.170
+  1.230
+  1.290
+  1.350
+  1.430
+  1.470
+
+Woodwind/Oboe.ff/Oboe.ff.E4.stereo.wav
+--------------------------------------
+Onset at   0.035 seconds, delay: -15ms.
+
+False positives:
+  0.164
+  0.264
+  0.370
+  0.529
+  0.710
+  0.810
+  0.970
+  1.230
+  1.290
+  1.370
+  1.410
+  1.470
+  1.530
+  1.590
+
+Woodwind/Oboe.ff/Oboe.ff.E5.stereo.wav
+--------------------------------------
+Onset at   0.054 seconds, delay: -13ms.
+
+False positives:
+  0.158
+  0.203
+  0.276
+  0.509
+  0.790
+  0.910
+  1.010
+  1.070
+  1.150
+  1.190
+  1.250
+  1.330
+  1.390
+  1.430
+  1.490
+  1.550
+  1.610
+  1.670
+  1.750
+  1.810
+
+Woodwind/Oboe.ff/Oboe.ff.E6.stereo.wav
+--------------------------------------
+Onset at   0.058 seconds, delay: -15ms.
+
+False positives:
+  0.282
+  0.427
+  0.570
+  0.650
+  0.708
+  0.830
+  0.910
+  0.970
+  1.030
+  1.090
+  1.170
+  1.230
+  1.270
+  1.330
+  1.390
+  1.450
+  1.510
+  1.570
+  1.630
+
+Woodwind/Oboe.ff/Oboe.ff.Eb4.stereo.wav
+---------------------------------------
+Onset at   0.044 seconds, delay: -22ms.
+
+False positives:
+  0.170
+  0.270
+  0.570
+  0.790
+  0.870
+  0.930
+  1.010
+  1.149
+  1.250
+  1.330
+  1.390
+  1.450
+  1.510
+  1.570
+  1.630
+  1.690
+
+Woodwind/Oboe.ff/Oboe.ff.Eb5.stereo.wav
+---------------------------------------
+Onset at   0.065 seconds, delay: -24ms.
+
+False positives:
+  0.210
+  0.290
+  0.410
+  0.530
+  0.610
+  0.690
+  0.810
+  0.890
+  0.970
+  1.030
+  1.129
+  1.210
+  1.270
+  1.310
+  1.370
+  1.430
+  1.490
+  1.570
+
+Woodwind/Oboe.ff/Oboe.ff.Eb6.stereo.wav
+---------------------------------------
+Onset at   0.045 seconds, delay:  -9ms.
+
+False positives:
+  0.165
+  0.257
+  0.330
+  0.390
+  0.470
+  0.550
+  0.590
+  0.670
+  0.709
+  0.810
+  0.930
+  1.010
+  1.097
+  1.270
+  1.310
+  1.370
+  1.430
+  1.490
+  1.550
+  1.610
+
+Woodwind/Oboe.ff/Oboe.ff.F4.stereo.wav
+--------------------------------------
+Onset at   0.025 seconds, delay:  -4ms.
+
+False positives:
+  0.168
+  0.269
+  0.470
+  0.609
+  0.750
+  1.129
+  1.290
+  1.330
+  1.390
+  1.450
+  1.530
+
+Woodwind/Oboe.ff/Oboe.ff.F5.stereo.wav
+--------------------------------------
+Onset at   0.048 seconds, delay:  -9ms.
+
+False positives:
+  0.209
+  0.270
+  0.410
+  0.510
+  0.630
+  0.690
+  0.750
+  0.829
+  0.890
+  0.950
+  0.990
+  1.049
+  1.130
+  1.170
+  1.229
+  1.290
+  1.350
+  1.410
+  1.470
+  1.530
+  1.610
+
+Woodwind/Oboe.ff/Oboe.ff.F6.stereo.wav
+--------------------------------------
+Onset at   0.054 seconds, delay: -10ms.
+
+False positives:
+  0.270
+  0.383
+  0.510
+  0.610
+  0.710
+  0.783
+  0.890
+  0.987
+  1.270
+  1.330
+  1.390
+  1.450
+  1.510
+  1.570
+  1.650
+
+Woodwind/Oboe.ff/Oboe.ff.G4.stereo.wav
+--------------------------------------
+Onset at   0.029 seconds, delay:  -9ms.
+
+False positives:
+  0.130
+  0.202
+  0.290
+  0.549
+  0.650
+  0.890
+  1.010
+  1.230
+  1.310
+  1.370
+  1.430
+  1.490
+  1.550
+  1.610
+
+Woodwind/Oboe.ff/Oboe.ff.G5.stereo.wav
+--------------------------------------
+Onset at   0.048 seconds, delay: -10ms.
+
+False positives:
+  0.227
+  0.281
+  0.492
+  0.610
+  0.670
+  0.770
+  0.850
+  0.910
+  0.990
+  1.070
+  1.110
+  1.190
+  1.250
+  1.290
+  1.370
+  1.410
+  1.470
+  1.530
+  1.590
+  1.670
+  1.730
+  1.770
+
+Woodwind/Oboe.ff/Oboe.ff.G6.stereo.wav
+--------------------------------------
+Onset at   0.024 seconds, delay:  -4ms.
+
+False positives:
+  0.147
+  0.230
+  0.290
+  0.390
+  0.461
+  0.534
+  0.617
+  0.693
+  0.777
+  0.863
+  0.906
+  0.998
+  1.090
+  1.144
+  1.230
+  1.273
+  1.350
+  1.430
+
+Woodwind/Oboe.ff/Oboe.ff.Gb4.stereo.wav
+---------------------------------------
+Onset at   0.031 seconds, delay:  -9ms.
+
+False positives:
+  0.150
+  0.250
+  0.430
+  0.570
+  0.670
+  0.850
+  1.050
+  1.110
+  1.170
+  1.270
+  1.310
+  1.370
+  1.430
+  1.490
+  1.550
+
+Woodwind/Oboe.ff/Oboe.ff.Gb5.stereo.wav
+---------------------------------------
+Onset at   0.057 seconds, delay: -17ms.
+
+False positives:
+  0.190
+  0.250
+  0.330
+  0.510
+  0.590
+  0.750
+  0.850
+  0.910
+  0.989
+  1.070
+  1.130
+  1.190
+  1.250
+  1.330
+  1.370
+
+Woodwind/Oboe.ff/Oboe.ff.Gb6.stereo.wav
+---------------------------------------
+Onset at   0.049 seconds, delay:  -8ms.
+
+False positives:
+  0.299
+  0.507
+  0.579
+  0.670
+  0.745
+  0.865
+  0.950
+  1.010
+  1.050
+  1.110
+  1.170
+  1.250
+  1.290
+  1.350
+  1.430
+  1.470
+
+
+Stats
+=====
+Total number of onsets:     35
+Total number of detections: 631
+Total true positives:       35
+Total false positives:      596
+Total erroneous detections: 596
+
+Largest advance: -41ms
+Mean advance:    -17.750ms
+Largest delay:     0ms
+Mean delay:        0.000ms
+Mean difference: -17.750ms
+Number of advances <-15.00ms: 12
+Number of delays   > 15.00ms: 0
+
+Precision:             5.54675%
+Recall:                100%
+F-measure:             10.5105%
+Precision (tot. err.): 5.54675%
+F-measure (tot. err.): 10.5105%
+

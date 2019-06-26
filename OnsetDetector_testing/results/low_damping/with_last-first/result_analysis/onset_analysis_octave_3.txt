@@ -1,0 +1,4397 @@
+Check onsetdetector results
+===========================
+
+Wed Apr 24 13:03:27 2019
+
+OnsetDetector if statement: if (count >= 3 && last >= threshold),  if (last-first >= std::log(2))
+findExactTime() local min decision: if (std::isnan(current/mn) || current/mn >= 0.95) 
+OnsetDetector segment size: 20ms
+Threshold: 0.0003
+Searching for 1 frequency
+NoteDetector args:
+    EDO: 12
+    Bandwidth: 0
+    Method: Runge-Kutta
+    Freq norm: Freq unnormalized
+    Amp norm: Amp normalized
+    Damping: 0.0001
+    Gain: 25
+Onset tolerance: 50.000ms
+
+
+Brass/BassTrombone/BassTrombone.ff.C3.stereo.wav
+------------------------------------------------
+Onset at   0.073 seconds, delay: -32ms.
+All onsets found!
+
+Brass/BassTrombone/BassTrombone.ff.D3.stereo.wav
+------------------------------------------------
+Onset at   0.079 seconds, delay: -32ms.
+All onsets found!
+
+Brass/BassTrombone/BassTrombone.ff.Db3.stereo.wav
+-------------------------------------------------
+Onset at   0.082 seconds, delay: -22ms.
+All onsets found!
+
+Brass/BassTrombone/BassTrombone.ff.Eb3.stereo.wav
+-------------------------------------------------
+Onset at   0.063 seconds, delay: -23ms.
+All onsets found!
+
+Brass/Horn/Horn.ff.A3.stereo.wav
+--------------------------------
+Onset at   0.020 seconds
+All onsets found!
+
+Brass/Horn/Horn.ff.Ab3.stereo.wav
+---------------------------------
+Onset at   0.029 seconds
+All onsets found!
+
+Brass/Horn/Horn.ff.B3.stereo.wav
+--------------------------------
+Onset at   0.026 seconds, delay:  -5ms.
+All onsets found!
+
+Brass/Horn/Horn.ff.Bb3.stereo.wav
+---------------------------------
+Onset at   0.022 seconds, delay:  -1ms.
+All onsets found!
+
+Brass/Horn/Horn.ff.C3.stereo.wav
+--------------------------------
+Onset at   0.016 seconds, delay:   5ms.
+All onsets found!
+
+Brass/Horn/Horn.ff.D3.stereo.wav
+--------------------------------
+Onset at   0.025 seconds, delay:  -2ms.
+All onsets found!
+
+Brass/Horn/Horn.ff.Db3.stereo.wav
+---------------------------------
+Onset at   0.026 seconds, delay:  -5ms.
+All onsets found!
+
+Brass/Horn/Horn.ff.E3.stereo.wav
+--------------------------------
+Onset at   0.028 seconds, delay:  -8ms.
+All onsets found!
+
+Brass/Horn/Horn.ff.Eb3.stereo.wav
+---------------------------------
+Onset at   0.023 seconds
+All onsets found!
+
+Brass/Horn/Horn.ff.F3.stereo.wav
+--------------------------------
+Onset at   0.030 seconds, delay:  -9ms.
+All onsets found!
+
+Brass/Horn/Horn.ff.G3.stereo.wav
+--------------------------------
+Onset at   0.021 seconds, delay:  -1ms.
+All onsets found!
+
+Brass/Horn/Horn.ff.Gb3.stereo.wav
+---------------------------------
+Onset at   0.019 seconds, delay:   2ms.
+All onsets found!
+
+Brass/TenorTrombone/TenorTrombone.ff.A3.stereo.wav
+--------------------------------------------------
+Onset at   0.042 seconds, delay: -22ms.
+All onsets found!
+
+Brass/TenorTrombone/TenorTrombone.ff.Ab3.stereo.wav
+---------------------------------------------------
+Onset at   0.046 seconds, delay: -22ms.
+All onsets found!
+
+Brass/TenorTrombone/TenorTrombone.ff.B3.stereo.wav
+--------------------------------------------------
+Onset at   0.049 seconds, delay: -28ms.
+All onsets found!
+
+Brass/TenorTrombone/TenorTrombone.ff.Bb3.stereo.wav
+---------------------------------------------------
+Onset at   0.042 seconds, delay: -22ms.
+All onsets found!
+
+Brass/TenorTrombone/TenorTrombone.ff.C3.stereo.wav
+--------------------------------------------------
+Onset at   0.061 seconds, delay: -31ms.
+All onsets found!
+
+Brass/TenorTrombone/TenorTrombone.ff.D3.stereo.wav
+--------------------------------------------------
+Onset at   0.044 seconds, delay: -23ms.
+All onsets found!
+
+Brass/TenorTrombone/TenorTrombone.ff.Db3.stereo.wav
+---------------------------------------------------
+Onset at   0.043 seconds, delay: -20ms.
+All onsets found!
+
+Brass/TenorTrombone/TenorTrombone.ff.E3.stereo.wav
+--------------------------------------------------
+Onset at   0.046 seconds, delay: -16ms.
+All onsets found!
+
+Brass/TenorTrombone/TenorTrombone.ff.Eb3.stereo.wav
+---------------------------------------------------
+Onset at   0.043 seconds, delay: -22ms.
+All onsets found!
+
+Brass/TenorTrombone/TenorTrombone.ff.F3.stereo.wav
+--------------------------------------------------
+Onset at   0.042 seconds, delay: -22ms.
+All onsets found!
+
+Brass/TenorTrombone/TenorTrombone.ff.G3.stereo.wav
+--------------------------------------------------
+Onset at   0.046 seconds, delay: -26ms.
+All onsets found!
+
+Brass/TenorTrombone/TenorTrombone.ff.Gb3.stereo.wav
+---------------------------------------------------
+Onset at   0.041 seconds, delay: -21ms.
+All onsets found!
+
+Brass/Trumpet.novib/Trumpet.novib.ff.A3.stereo.wav
+--------------------------------------------------
+Onset at   0.032 seconds, delay: -10ms.
+All onsets found!
+
+Brass/Trumpet.novib/Trumpet.novib.ff.Ab3.stereo.wav
+---------------------------------------------------
+
+False negatives:
+  0.044
+
+Brass/Trumpet.novib/Trumpet.novib.ff.B3.stereo.wav
+--------------------------------------------------
+Onset at   0.049 seconds, delay:  -5ms.
+All onsets found!
+
+Brass/Trumpet.novib/Trumpet.novib.ff.Bb3.stereo.wav
+---------------------------------------------------
+Onset at   0.043 seconds
+All onsets found!
+
+Brass/Trumpet.novib/Trumpet.novib.ff.E3.stereo.wav
+--------------------------------------------------
+Onset at   0.055 seconds, delay: -25ms.
+All onsets found!
+
+Brass/Trumpet.novib/Trumpet.novib.ff.F3.stereo.wav
+--------------------------------------------------
+Onset at   0.048 seconds, delay: -18ms.
+All onsets found!
+
+Brass/Trumpet.novib/Trumpet.novib.ff.G3.stereo.wav
+--------------------------------------------------
+Onset at   0.048 seconds, delay:  -5ms.
+All onsets found!
+
+Brass/Trumpet.novib/Trumpet.novib.ff.Gb3.stereo.wav
+---------------------------------------------------
+Onset at   0.036 seconds, delay: -14ms.
+All onsets found!
+
+Brass/Trumpet.vib/Trumpet.vib.ff.A3.stereo.wav
+----------------------------------------------
+
+False negatives:
+  0.076
+
+Brass/Trumpet.vib/Trumpet.vib.ff.Ab3.stereo.wav
+-----------------------------------------------
+Onset at   0.061 seconds, delay:  -9ms.
+All onsets found!
+
+Brass/Trumpet.vib/Trumpet.vib.ff.B3.stereo.wav
+----------------------------------------------
+Onset at   0.072 seconds, delay: -14ms.
+All onsets found!
+
+Brass/Trumpet.vib/Trumpet.vib.ff.Bb3.stereo.wav
+-----------------------------------------------
+Onset at   0.074 seconds, delay:  -8ms.
+All onsets found!
+
+Brass/Trumpet.vib/Trumpet.vib.ff.E3.stereo.wav
+----------------------------------------------
+
+False negatives:
+  0.089
+
+Brass/Trumpet.vib/Trumpet.vib.ff.F3.stereo.wav
+----------------------------------------------
+
+False negatives:
+  0.119
+
+Brass/Trumpet.vib/Trumpet.vib.ff.G3.stereo.wav
+----------------------------------------------
+Onset at   0.076 seconds, delay:  -5ms.
+All onsets found!
+
+Brass/Trumpet.vib/Trumpet.vib.ff.Gb3.stereo.wav
+-----------------------------------------------
+
+False negatives:
+  0.064
+
+Brass/Tuba/Tuba.ff.A3.stereo.wav
+--------------------------------
+Onset at   0.049 seconds, delay:  -9ms.
+All onsets found!
+
+Brass/Tuba/Tuba.ff.Ab3.stereo.wav
+---------------------------------
+Onset at   0.043 seconds, delay:  -3ms.
+All onsets found!
+
+Brass/Tuba/Tuba.ff.B3.stereo.wav
+--------------------------------
+Onset at   0.044 seconds, delay:  -2ms.
+All onsets found!
+
+Brass/Tuba/Tuba.ff.Bb3.stereo.wav
+---------------------------------
+Onset at   0.051 seconds, delay: -10ms.
+All onsets found!
+
+Brass/Tuba/Tuba.ff.C3.stereo.wav
+--------------------------------
+Onset at   0.045 seconds, delay:  -3ms.
+All onsets found!
+
+Brass/Tuba/Tuba.ff.D3.stereo.wav
+--------------------------------
+Onset at   0.039 seconds, delay: -19ms.
+All onsets found!
+
+Brass/Tuba/Tuba.ff.Db3.stereo.wav
+---------------------------------
+Onset at   0.055 seconds, delay: -15ms.
+All onsets found!
+
+Brass/Tuba/Tuba.ff.E3.stereo.wav
+--------------------------------
+Onset at   0.043 seconds, delay:  -2ms.
+All onsets found!
+
+Brass/Tuba/Tuba.ff.Eb3.stereo.wav
+---------------------------------
+Onset at   0.042 seconds
+All onsets found!
+
+Brass/Tuba/Tuba.ff.F3.stereo.wav
+--------------------------------
+Onset at   0.032 seconds, delay: -12ms.
+All onsets found!
+
+Brass/Tuba/Tuba.ff.G3.stereo.wav
+--------------------------------
+Onset at   0.050 seconds, delay:  -8ms.
+
+False positives:
+  0.187
+
+Brass/Tuba/Tuba.ff.Gb3.stereo.wav
+---------------------------------
+Onset at   0.049 seconds, delay:  -9ms.
+All onsets found!
+
+Percussion/Marimba.cord/Marimba.cord.ff.A3.stereo.wav
+-----------------------------------------------------
+Onset at   0.059 seconds, delay:  -8ms.
+All onsets found!
+
+Percussion/Marimba.cord/Marimba.cord.ff.Ab3.stereo.wav
+------------------------------------------------------
+Onset at   0.065 seconds, delay:  -2ms.
+All onsets found!
+
+Percussion/Marimba.cord/Marimba.cord.ff.B3.stereo.wav
+-----------------------------------------------------
+Onset at   0.072 seconds, delay: -10ms.
+All onsets found!
+
+Percussion/Marimba.cord/Marimba.cord.ff.Bb3.stereo.wav
+------------------------------------------------------
+Onset at   0.044 seconds
+All onsets found!
+
+Percussion/Marimba.cord/Marimba.cord.ff.C3.stereo.wav
+-----------------------------------------------------
+Onset at   0.070 seconds, delay:  -6ms.
+All onsets found!
+
+Percussion/Marimba.cord/Marimba.cord.ff.D3.stereo.wav
+-----------------------------------------------------
+Onset at   0.061 seconds, delay:  -9ms.
+All onsets found!
+
+Percussion/Marimba.cord/Marimba.cord.ff.Db3.stereo.wav
+------------------------------------------------------
+Onset at   0.056 seconds, delay: -12ms.
+All onsets found!
+
+Percussion/Marimba.cord/Marimba.cord.ff.E3.stereo.wav
+-----------------------------------------------------
+Onset at   0.084 seconds, delay: -13ms.
+All onsets found!
+
+Percussion/Marimba.cord/Marimba.cord.ff.Eb3.stereo.wav
+------------------------------------------------------
+Onset at   0.088 seconds, delay: -26ms.
+All onsets found!
+
+Percussion/Marimba.cord/Marimba.cord.ff.F3.stereo.wav
+-----------------------------------------------------
+Onset at   0.063 seconds, delay: -10ms.
+All onsets found!
+
+Percussion/Marimba.cord/Marimba.cord.ff.G3.stereo.wav
+-----------------------------------------------------
+Onset at   0.075 seconds, delay: -15ms.
+All onsets found!
+
+Percussion/Marimba.cord/Marimba.cord.ff.Gb3.stereo.wav
+------------------------------------------------------
+Onset at   0.072 seconds, delay:  -6ms.
+All onsets found!
+
+Percussion/Marimba.deadstroke/Marimba.deadstroke.ff.A3.stereo.wav
+-----------------------------------------------------------------
+Onset at   0.074 seconds, delay: -16ms.
+All onsets found!
+
+Percussion/Marimba.deadstroke/Marimba.deadstroke.ff.Ab3.stereo.wav
+------------------------------------------------------------------
+Onset at   0.029 seconds, delay:  -9ms.
+All onsets found!
+
+Percussion/Marimba.deadstroke/Marimba.deadstroke.ff.B3.stereo.wav
+-----------------------------------------------------------------
+Onset at   0.033 seconds, delay: -12ms.
+All onsets found!
+
+Percussion/Marimba.deadstroke/Marimba.deadstroke.ff.Bb3.stereo.wav
+------------------------------------------------------------------
+Onset at   0.030 seconds, delay:  -5ms.
+All onsets found!
+
+Percussion/Marimba.deadstroke/Marimba.deadstroke.ff.C3.stereo.wav
+-----------------------------------------------------------------
+Onset at   0.021 seconds
+All onsets found!
+
+Percussion/Marimba.deadstroke/Marimba.deadstroke.ff.D3.stereo.wav
+-----------------------------------------------------------------
+Onset at   0.022 seconds
+All onsets found!
+
+Percussion/Marimba.deadstroke/Marimba.deadstroke.ff.Db3.stereo.wav
+------------------------------------------------------------------
+Onset at   0.021 seconds, delay:  -1ms.
+All onsets found!
+
+Percussion/Marimba.deadstroke/Marimba.deadstroke.ff.E3.stereo.wav
+-----------------------------------------------------------------
+Onset at   0.029 seconds, delay:  -4ms.
+All onsets found!
+
+Percussion/Marimba.deadstroke/Marimba.deadstroke.ff.Eb3.stereo.wav
+------------------------------------------------------------------
+Onset at   0.040 seconds, delay:  -1ms.
+All onsets found!
+
+Percussion/Marimba.deadstroke/Marimba.deadstroke.ff.F3.stereo.wav
+-----------------------------------------------------------------
+Onset at   0.036 seconds, delay:  -5ms.
+All onsets found!
+
+Percussion/Marimba.deadstroke/Marimba.deadstroke.ff.G3.stereo.wav
+-----------------------------------------------------------------
+Onset at   0.040 seconds, delay:  -6ms.
+All onsets found!
+
+Percussion/Marimba.deadstroke/Marimba.deadstroke.ff.Gb3.stereo.wav
+------------------------------------------------------------------
+Onset at   0.041 seconds, delay:  -3ms.
+All onsets found!
+
+Percussion/Marimba.roll/Marimba.roll.ff.A3.stereo.wav
+-----------------------------------------------------
+Onset at   0.042 seconds, delay:  -1ms.
+
+False negatives:
+  0.132
+  0.213
+  0.307
+  0.408
+  0.506
+  0.623
+  0.732
+  0.840
+  0.959
+  1.071
+  1.184
+  1.297
+  1.412
+  1.528
+  1.632
+  1.744
+  1.869
+  1.967
+  2.084
+  2.196
+  2.307
+  2.408
+  2.517
+  2.634
+  2.735
+  2.855
+  2.971
+  3.077
+  3.193
+  3.297
+  3.420
+  3.523
+  3.636
+  3.749
+  3.869
+  3.975
+  4.087
+  4.200
+  4.306
+  4.414
+  4.530
+  4.635
+  4.750
+  4.859
+  4.969
+  5.075
+  5.182
+  5.291
+  5.403
+  5.511
+  5.606
+  5.723
+  5.839
+  5.936
+  6.054
+  6.161
+  6.271
+  6.375
+  6.487
+  6.591
+  6.694
+  6.805
+  6.907
+  7.020
+  7.125
+  7.231
+  7.343
+  7.438
+  7.555
+  7.656
+  7.765
+  7.878
+
+Percussion/Marimba.roll/Marimba.roll.ff.Ab3.stereo.wav
+------------------------------------------------------
+Onset at   0.044 seconds, delay:  -6ms.
+
+False negatives:
+  0.122
+  0.234
+  0.323
+  0.430
+  0.531
+  0.646
+  0.747
+  0.860
+  0.964
+  1.076
+  1.187
+  1.299
+  1.407
+  1.524
+  1.628
+  1.748
+  1.851
+  1.970
+  2.073
+  2.184
+  2.289
+  2.401
+  2.498
+  2.610
+  2.715
+  2.824
+  2.936
+  3.044
+  3.147
+  3.255
+  3.362
+  3.475
+  3.584
+  3.689
+  3.799
+  3.909
+  4.014
+  4.126
+  4.229
+  4.338
+  4.446
+  4.557
+  4.665
+  4.771
+  4.883
+  4.983
+  5.091
+  5.204
+  5.310
+  5.427
+  5.536
+  5.649
+  5.763
+  5.873
+  5.980
+  6.094
+  6.203
+  6.314
+  6.418
+  6.530
+  6.637
+  6.750
+  6.862
+  6.973
+  7.076
+  7.199
+  7.303
+  7.421
+  7.521
+  7.637
+  7.750
+  7.860
+  7.973
+  8.088
+  8.191
+  8.306
+  8.417
+  8.524
+  8.636
+  8.740
+  8.849
+  8.951
+  9.058
+  9.166
+  9.263
+  9.391
+
+Percussion/Marimba.roll/Marimba.roll.ff.B3.stereo.wav
+-----------------------------------------------------
+Onset at   0.046 seconds
+
+False negatives:
+  0.136
+  0.221
+  0.323
+  0.415
+  0.516
+  0.616
+  0.713
+  0.817
+  0.923
+  1.028
+  1.132
+  1.237
+  1.345
+  1.441
+  1.554
+  1.649
+  1.762
+  1.865
+  1.976
+  2.080
+  2.187
+  2.291
+  2.395
+  2.497
+  2.598
+  2.700
+  2.816
+  2.905
+  3.012
+  3.106
+  3.219
+  3.316
+  3.427
+  3.529
+  3.626
+  3.735
+  3.845
+  3.948
+  4.058
+  4.161
+  4.266
+  4.382
+  4.480
+  4.588
+  4.697
+  4.801
+  4.910
+  5.018
+  5.124
+  5.235
+  5.331
+  5.449
+  5.553
+  5.660
+  5.763
+  5.874
+  5.983
+  6.085
+  6.195
+  6.294
+  6.402
+  6.512
+  6.614
+  6.718
+  6.832
+  6.928
+  7.038
+  7.138
+  7.243
+  7.346
+  7.459
+  7.564
+  7.667
+  7.775
+  7.881
+  7.989
+
+Percussion/Marimba.roll/Marimba.roll.ff.Bb3.stereo.wav
+------------------------------------------------------
+Onset at   0.057 seconds, delay:  -6ms.
+
+False negatives:
+  0.139
+  0.231
+  0.324
+  0.417
+  0.520
+  0.628
+  0.727
+  0.830
+  0.931
+  1.038
+  1.139
+  1.243
+  1.340
+  1.444
+  1.544
+  1.646
+  1.746
+  1.852
+  1.952
+  2.059
+  2.167
+  2.268
+  2.380
+  2.475
+  2.591
+  2.691
+  2.796
+  2.900
+  3.015
+  3.114
+  3.213
+  3.321
+  3.427
+  3.528
+  3.637
+  3.738
+  3.842
+  3.947
+  4.052
+  4.151
+  4.251
+  4.359
+  4.467
+  4.568
+  4.682
+  4.780
+  4.883
+  4.993
+  5.089
+  5.199
+  5.303
+  5.405
+  5.514
+  5.620
+  5.726
+  5.831
+  5.938
+  6.044
+  6.153
+  6.257
+  6.365
+  6.466
+  6.577
+  6.678
+  6.790
+  6.890
+  6.997
+  7.107
+  7.202
+  7.324
+
+Percussion/Marimba.roll/Marimba.roll.ff.C3.stereo.wav
+-----------------------------------------------------
+Onset at   0.043 seconds, delay:  -5ms.
+Onset at   0.719 seconds, delay:  11ms.
+Onset at   3.206 seconds, delay:  28ms.
+Onset at   4.765 seconds, delay:  28ms.
+Onset at   6.344 seconds, delay: -14ms.
+
+False negatives:
+  0.103
+  0.202
+  0.264
+  0.365
+  0.443
+  0.537
+  0.626
+  0.815
+  0.911
+  1.005
+  1.101
+  1.191
+  1.287
+  1.379
+  1.478
+  1.576
+  1.667
+  1.767
+  1.861
+  1.964
+  2.059
+  2.153
+  2.259
+  2.351
+  2.437
+  2.540
+  2.632
+  2.729
+  2.829
+  2.925
+  3.010
+  3.115
+  3.299
+  3.399
+  3.498
+  3.593
+  3.690
+  3.782
+  3.886
+  3.981
+  4.083
+  4.186
+  4.287
+  4.373
+  4.474
+  4.574
+  4.675
+  4.871
+  4.970
+  5.066
+  5.152
+  5.246
+  5.350
+  5.442
+  5.548
+  5.645
+  5.740
+  5.842
+  5.937
+  6.041
+  6.139
+  6.252
+  6.443
+  6.534
+  6.634
+  6.748
+
+Percussion/Marimba.roll/Marimba.roll.ff.D3.stereo.wav
+-----------------------------------------------------
+Onset at   0.038 seconds, delay: -13ms.
+Onset at   0.387 seconds, delay:  21ms.
+Onset at   2.173 seconds, delay:  21ms.
+
+False negatives:
+  0.117
+  0.209
+  0.304
+  0.483
+  0.570
+  0.679
+  0.760
+  0.872
+  0.962
+  1.065
+  1.160
+  1.265
+  1.350
+  1.460
+  1.553
+  1.664
+  1.767
+  1.865
+  1.973
+  2.073
+  2.274
+  2.376
+  2.482
+  2.577
+  2.676
+  2.780
+  2.883
+  2.984
+  3.090
+  3.186
+  3.293
+  3.389
+  3.495
+  3.588
+  3.697
+  3.798
+  3.900
+  3.997
+  4.106
+  4.200
+  4.309
+  4.402
+  4.508
+  4.605
+  4.706
+  4.798
+  4.907
+  5.007
+  5.107
+  5.202
+  5.318
+  5.413
+  5.519
+  5.620
+  5.729
+  5.821
+  5.933
+  6.025
+  6.128
+  6.234
+
+Percussion/Marimba.roll/Marimba.roll.ff.Db3.stereo.wav
+------------------------------------------------------
+Onset at   0.052 seconds, delay:  -1ms.
+Onset at   4.563 seconds, delay: -30ms.
+Onset at   5.250 seconds, delay:  14ms.
+
+False negatives:
+  0.102
+  0.201
+  0.274
+  0.371
+  0.461
+  0.554
+  0.643
+  0.741
+  0.848
+  0.934
+  1.026
+  1.124
+  1.217
+  1.306
+  1.405
+  1.495
+  1.594
+  1.681
+  1.777
+  1.866
+  1.964
+  2.058
+  2.152
+  2.246
+  2.348
+  2.429
+  2.530
+  2.625
+  2.725
+  2.817
+  2.915
+  3.009
+  3.111
+  3.200
+  3.295
+  3.394
+  3.502
+  3.584
+  3.688
+  3.780
+  3.886
+  3.976
+  4.080
+  4.176
+  4.279
+  4.369
+  4.471
+  4.674
+  4.758
+  4.861
+  4.953
+  5.058
+  5.149
+  5.340
+  5.441
+  5.534
+  5.637
+  5.729
+  5.832
+  5.918
+  6.027
+  6.115
+  6.224
+  6.313
+  6.423
+  6.523
+  6.620
+  6.715
+
+Percussion/Marimba.roll/Marimba.roll.ff.E3.stereo.wav
+-----------------------------------------------------
+Onset at   0.035 seconds, delay:  -5ms.
+
+False negatives:
+  0.104
+  0.194
+  0.295
+  0.380
+  0.466
+  0.569
+  0.663
+  0.754
+  0.858
+  0.951
+  1.046
+  1.146
+  1.245
+  1.337
+  1.446
+  1.534
+  1.637
+  1.733
+  1.830
+  1.927
+  2.017
+  2.128
+  2.222
+  2.316
+  2.423
+  2.517
+  2.619
+  2.706
+  2.813
+  2.907
+  3.001
+  3.103
+  3.212
+  3.303
+  3.410
+  3.501
+  3.605
+  3.703
+  3.800
+  3.897
+  4.002
+  4.088
+  4.189
+  4.289
+  4.388
+  4.485
+  4.580
+  4.688
+  4.785
+  4.881
+  4.984
+  5.079
+  5.179
+  5.270
+  5.379
+  5.462
+  5.569
+  5.662
+  5.761
+  5.866
+  5.964
+  6.062
+  6.162
+  6.255
+  6.364
+  6.464
+
+Percussion/Marimba.roll/Marimba.roll.ff.Eb3.stereo.wav
+------------------------------------------------------
+Onset at   0.053 seconds, delay:  -2ms.
+
+False negatives:
+  0.119
+  0.226
+  0.306
+  0.402
+  0.487
+  0.590
+  0.685
+  0.783
+  0.885
+  0.983
+  1.084
+  1.181
+  1.283
+  1.386
+  1.477
+  1.576
+  1.676
+  1.771
+  1.872
+  1.965
+  2.063
+  2.159
+  2.263
+  2.358
+  2.448
+  2.552
+  2.654
+  2.747
+  2.847
+  2.951
+  3.044
+  3.153
+  3.244
+  3.350
+  3.451
+  3.542
+  3.653
+  3.747
+  3.854
+  3.941
+  4.049
+  4.138
+  4.245
+  4.346
+  4.446
+  4.547
+  4.647
+  4.747
+  4.851
+  4.948
+  5.052
+  5.145
+  5.246
+  5.341
+  5.457
+  5.549
+  5.646
+  5.747
+  5.849
+  5.946
+  6.051
+  6.143
+  6.240
+  6.358
+
+Percussion/Marimba.roll/Marimba.roll.ff.F3.stereo.wav
+-----------------------------------------------------
+Onset at   0.049 seconds
+Onset at   1.722 seconds, delay:  40ms.
+
+False negatives:
+  0.118
+  0.218
+  0.318
+  0.407
+  0.507
+  0.607
+  0.689
+  0.803
+  0.912
+  0.996
+  1.111
+  1.202
+  1.318
+  1.405
+  1.524
+  1.618
+  1.819
+  1.927
+  2.019
+  2.127
+  2.224
+  2.331
+  2.418
+  2.526
+  2.616
+  2.725
+  2.825
+  2.934
+  3.033
+  3.140
+  3.236
+  3.347
+  3.446
+  3.547
+  3.650
+  3.760
+  3.855
+  3.963
+  4.062
+  4.166
+  4.268
+  4.374
+  4.471
+  4.591
+  4.674
+  4.785
+  4.883
+  4.990
+  5.109
+
+Percussion/Marimba.roll/Marimba.roll.ff.G3.stereo.wav
+-----------------------------------------------------
+Onset at   0.040 seconds
+Onset at   0.196 seconds, delay: -31ms.
+Onset at   0.486 seconds, delay:  13ms.
+
+False negatives:
+  0.106
+  0.301
+  0.394
+  0.595
+  0.700
+  0.798
+  0.911
+  1.009
+  1.122
+  1.227
+  1.339
+  1.448
+  1.563
+  1.668
+  1.785
+  1.893
+  2.011
+  2.121
+  2.240
+  2.350
+  2.464
+  2.573
+  2.699
+  2.804
+  2.921
+  3.030
+  3.145
+  3.251
+  3.362
+  3.471
+  3.582
+  3.688
+  3.798
+  3.905
+  4.016
+  4.126
+  4.241
+  4.355
+  4.465
+  4.579
+  4.694
+  4.802
+  4.911
+  5.018
+  5.138
+  5.242
+  5.361
+  5.468
+  5.578
+  5.686
+  5.798
+  5.913
+  6.028
+  6.137
+  6.250
+  6.360
+  6.466
+  6.577
+  6.676
+  6.789
+  6.903
+  7.006
+  7.122
+  7.219
+  7.341
+  7.438
+  7.553
+  7.659
+  7.771
+  7.876
+  7.992
+  8.088
+  8.209
+  8.303
+  8.415
+  8.540
+
+Percussion/Marimba.roll/Marimba.roll.ff.Gb3.stereo.wav
+------------------------------------------------------
+Onset at   0.035 seconds, delay: -12ms.
+
+False negatives:
+  0.090
+  0.199
+  0.285
+  0.384
+  0.485
+  0.579
+  0.677
+  0.770
+  0.875
+  0.974
+  1.075
+  1.174
+  1.278
+  1.373
+  1.479
+  1.574
+  1.680
+  1.775
+  1.876
+  1.973
+  2.083
+  2.173
+  2.279
+  2.378
+  2.482
+  2.577
+  2.682
+  2.778
+  2.895
+  2.983
+  3.093
+  3.188
+  3.290
+  3.387
+  3.491
+  3.585
+  3.696
+  3.789
+  3.900
+  3.993
+  4.098
+  4.189
+  4.295
+  4.394
+  4.493
+  4.600
+  4.704
+  4.799
+  4.901
+  5.005
+  5.106
+  5.205
+  5.311
+  5.404
+  5.513
+  5.609
+  5.720
+  5.812
+  5.926
+  6.013
+  6.116
+  6.207
+  6.311
+  6.405
+  6.505
+  6.611
+  6.711
+  6.831
+
+Percussion/Marimba.rubber/Marimba.rubber.ff.A3.stereo.wav
+---------------------------------------------------------
+Onset at   0.016 seconds, delay:   4ms.
+All onsets found!
+
+Percussion/Marimba.rubber/Marimba.rubber.ff.Ab3.stereo.wav
+----------------------------------------------------------
+Onset at   0.017 seconds, delay:   2ms.
+All onsets found!
+
+Percussion/Marimba.rubber/Marimba.rubber.ff.B3.stereo.wav
+---------------------------------------------------------
+Onset at   0.015 seconds, delay:   5ms.
+All onsets found!
+
+Percussion/Marimba.rubber/Marimba.rubber.ff.Bb3.stereo.wav
+----------------------------------------------------------
+Onset at   0.018 seconds, delay:   2ms.
+All onsets found!
+
+Percussion/Marimba.rubber/Marimba.rubber.ff.C3.stereo.wav
+---------------------------------------------------------
+Onset at   0.043 seconds, delay:  -3ms.
+All onsets found!
+
+Percussion/Marimba.rubber/Marimba.rubber.ff.D3.stereo.wav
+---------------------------------------------------------
+Onset at   0.048 seconds, delay:  -8ms.
+All onsets found!
+
+Percussion/Marimba.rubber/Marimba.rubber.ff.Db3.stereo.wav
+----------------------------------------------------------
+Onset at   0.057 seconds, delay:  -6ms.
+All onsets found!
+
+Percussion/Marimba.rubber/Marimba.rubber.ff.E3.stereo.wav
+---------------------------------------------------------
+Onset at   0.054 seconds, delay:  -3ms.
+All onsets found!
+
+Percussion/Marimba.rubber/Marimba.rubber.ff.Eb3.stereo.wav
+----------------------------------------------------------
+Onset at   0.050 seconds
+All onsets found!
+
+Percussion/Marimba.rubber/Marimba.rubber.ff.F3.stereo.wav
+---------------------------------------------------------
+Onset at   0.015 seconds, delay:   6ms.
+All onsets found!
+
+Percussion/Marimba.rubber/Marimba.rubber.ff.G3.stereo.wav
+---------------------------------------------------------
+Onset at   0.013 seconds, delay:   7ms.
+All onsets found!
+
+Percussion/Marimba.rubber/Marimba.rubber.ff.Gb3.stereo.wav
+----------------------------------------------------------
+Onset at   0.010 seconds, delay:  11ms.
+All onsets found!
+
+Percussion/Marimba.yarn/Marimba.yarn.ff.A3.stereo.wav
+-----------------------------------------------------
+Onset at   0.091 seconds, delay: -19ms.
+All onsets found!
+
+Percussion/Marimba.yarn/Marimba.yarn.ff.Ab3.stereo.wav
+------------------------------------------------------
+Onset at   0.094 seconds, delay:  -7ms.
+All onsets found!
+
+Percussion/Marimba.yarn/Marimba.yarn.ff.B3.stereo.wav
+-----------------------------------------------------
+Onset at   0.080 seconds, delay: -19ms.
+All onsets found!
+
+Percussion/Marimba.yarn/Marimba.yarn.ff.Bb3.stereo.wav
+------------------------------------------------------
+Onset at   0.118 seconds, delay:  -1ms.
+All onsets found!
+
+Percussion/Marimba.yarn/Marimba.yarn.ff.C3.stereo.wav
+-----------------------------------------------------
+Onset at   0.127 seconds
+All onsets found!
+
+Percussion/Marimba.yarn/Marimba.yarn.ff.D3.stereo.wav
+-----------------------------------------------------
+Onset at   0.112 seconds, delay: -15ms.
+All onsets found!
+
+Percussion/Marimba.yarn/Marimba.yarn.ff.Db3.stereo.wav
+------------------------------------------------------
+Onset at   0.125 seconds
+All onsets found!
+
+Percussion/Marimba.yarn/Marimba.yarn.ff.E3.stereo.wav
+-----------------------------------------------------
+Onset at   0.084 seconds
+All onsets found!
+
+Percussion/Marimba.yarn/Marimba.yarn.ff.Eb3.stereo.wav
+------------------------------------------------------
+Onset at   0.127 seconds, delay:  -4ms.
+All onsets found!
+
+Percussion/Marimba.yarn/Marimba.yarn.ff.F3.stereo.wav
+-----------------------------------------------------
+Onset at   0.064 seconds, delay:  -5ms.
+All onsets found!
+
+Percussion/Marimba.yarn/Marimba.yarn.ff.G3.stereo.wav
+-----------------------------------------------------
+Onset at   0.083 seconds, delay: -18ms.
+All onsets found!
+
+Percussion/Marimba.yarn/Marimba.yarn.ff.Gb3.stereo.wav
+------------------------------------------------------
+Onset at   0.120 seconds, delay: -49ms.
+All onsets found!
+
+Percussion/Vibraphone.bow/Vibraphone.bow.A3.stereo.wav
+------------------------------------------------------
+
+False negatives:
+  0.393
+
+False positives:
+  0.119
+
+Percussion/Vibraphone.bow/Vibraphone.bow.Ab3.stereo.wav
+-------------------------------------------------------
+
+False negatives:
+  0.304
+
+False positives:
+  0.022
+
+Percussion/Vibraphone.bow/Vibraphone.bow.B3.stereo.wav
+------------------------------------------------------
+Onset at   0.066 seconds, delay:  28ms.
+All onsets found!
+
+Percussion/Vibraphone.bow/Vibraphone.bow.Bb3.stereo.wav
+-------------------------------------------------------
+Onset at   0.065 seconds, delay: -35ms.
+All onsets found!
+
+Percussion/Vibraphone.bow/Vibraphone.bow.C3.stereo.wav
+------------------------------------------------------
+Onset at   0.000 seconds, delay:  20ms.
+All onsets found!
+
+Percussion/Vibraphone.bow/Vibraphone.bow.D3.stereo.wav
+------------------------------------------------------
+Onset at   0.095 seconds, delay:  33ms.
+All onsets found!
+
+Percussion/Vibraphone.bow/Vibraphone.bow.Db3.stereo.wav
+-------------------------------------------------------
+
+False negatives:
+  0.153
+
+False positives:
+  0.040
+
+Percussion/Vibraphone.bow/Vibraphone.bow.E3.stereo.wav
+------------------------------------------------------
+
+False negatives:
+  0.194
+
+False positives:
+  0.030
+
+Percussion/Vibraphone.bow/Vibraphone.bow.Eb3.stereo.wav
+-------------------------------------------------------
+
+False negatives:
+  0.151
+
+False positives:
+  0.083
+
+Percussion/Vibraphone.bow/Vibraphone.bow.F3.stereo.wav
+------------------------------------------------------
+Onset at   0.141 seconds, delay: -11ms.
+
+False positives:
+  0.528
+
+Percussion/Vibraphone.bow/Vibraphone.bow.G3.stereo.wav
+------------------------------------------------------
+
+False negatives:
+  0.364
+
+False positives:
+  0.046
+
+Percussion/Vibraphone.bow/Vibraphone.bow.Gb3.stereo.wav
+-------------------------------------------------------
+
+False negatives:
+  0.156
+
+False positives:
+  0.021
+
+Percussion/Vibraphone.dampen/Vibraphone.dampen.ff.A3.stereo.wav
+---------------------------------------------------------------
+Onset at   0.006 seconds, delay:  14ms.
+All onsets found!
+
+Percussion/Vibraphone.dampen/Vibraphone.dampen.ff.Ab3.stereo.wav
+----------------------------------------------------------------
+Onset at   0.008 seconds, delay:  12ms.
+All onsets found!
+
+Percussion/Vibraphone.dampen/Vibraphone.dampen.ff.B3.stereo.wav
+---------------------------------------------------------------
+Onset at   0.005 seconds, delay:  15ms.
+All onsets found!
+
+Percussion/Vibraphone.dampen/Vibraphone.dampen.ff.Bb3.stereo.wav
+----------------------------------------------------------------
+Onset at   0.011 seconds, delay:   9ms.
+All onsets found!
+
+Percussion/Vibraphone.dampen/Vibraphone.dampen.ff.C3.stereo.wav
+---------------------------------------------------------------
+Onset at   0.010 seconds, delay:  11ms.
+All onsets found!
+
+Percussion/Vibraphone.dampen/Vibraphone.dampen.ff.D3.stereo.wav
+---------------------------------------------------------------
+Onset at   0.013 seconds, delay:   8ms.
+All onsets found!
+
+Percussion/Vibraphone.dampen/Vibraphone.dampen.ff.Db3.stereo.wav
+----------------------------------------------------------------
+Onset at   0.027 seconds, delay:  -4ms.
+All onsets found!
+
+Percussion/Vibraphone.dampen/Vibraphone.dampen.ff.E3.stereo.wav
+---------------------------------------------------------------
+Onset at   0.008 seconds, delay:  13ms.
+All onsets found!
+
+Percussion/Vibraphone.dampen/Vibraphone.dampen.ff.Eb3.stereo.wav
+----------------------------------------------------------------
+Onset at   0.011 seconds, delay:   9ms.
+All onsets found!
+
+Percussion/Vibraphone.dampen/Vibraphone.dampen.ff.F3.stereo.wav
+---------------------------------------------------------------
+Onset at   0.014 seconds, delay:   7ms.
+All onsets found!
+
+Percussion/Vibraphone.dampen/Vibraphone.dampen.ff.G3.stereo.wav
+---------------------------------------------------------------
+Onset at   0.009 seconds, delay:  11ms.
+All onsets found!
+
+Percussion/Vibraphone.dampen/Vibraphone.dampen.ff.Gb3.stereo.wav
+----------------------------------------------------------------
+Onset at   0.014 seconds, delay:   6ms.
+All onsets found!
+
+Percussion/Vibraphone.shortsustain/Vibraphone.shortsustain.ff.A3.stereo.wav
+---------------------------------------------------------------------------
+Onset at   0.011 seconds, delay:   9ms.
+All onsets found!
+
+Percussion/Vibraphone.shortsustain/Vibraphone.shortsustain.ff.Ab3.stereo.wav
+----------------------------------------------------------------------------
+Onset at   0.006 seconds, delay:  15ms.
+All onsets found!
+
+Percussion/Vibraphone.shortsustain/Vibraphone.shortsustain.ff.B3.stereo.wav
+---------------------------------------------------------------------------
+Onset at   0.011 seconds, delay:   9ms.
+All onsets found!
+
+Percussion/Vibraphone.shortsustain/Vibraphone.shortsustain.ff.Bb3.stereo.wav
+----------------------------------------------------------------------------
+Onset at   0.012 seconds, delay:   8ms.
+All onsets found!
+
+Percussion/Vibraphone.shortsustain/Vibraphone.shortsustain.ff.C3.stereo.wav
+---------------------------------------------------------------------------
+Onset at   0.005 seconds, delay:  16ms.
+All onsets found!
+
+Percussion/Vibraphone.shortsustain/Vibraphone.shortsustain.ff.D3.stereo.wav
+---------------------------------------------------------------------------
+Onset at   0.001 seconds, delay:  19ms.
+All onsets found!
+
+Percussion/Vibraphone.shortsustain/Vibraphone.shortsustain.ff.Db3.stereo.wav
+----------------------------------------------------------------------------
+Onset at   0.006 seconds, delay:  14ms.
+All onsets found!
+
+Percussion/Vibraphone.shortsustain/Vibraphone.shortsustain.ff.E3.stereo.wav
+---------------------------------------------------------------------------
+Onset at   0.009 seconds, delay:  11ms.
+All onsets found!
+
+Percussion/Vibraphone.shortsustain/Vibraphone.shortsustain.ff.Eb3.stereo.wav
+----------------------------------------------------------------------------
+Onset at   0.004 seconds, delay:  17ms.
+All onsets found!
+
+Percussion/Vibraphone.shortsustain/Vibraphone.shortsustain.ff.F3.stereo.wav
+---------------------------------------------------------------------------
+Onset at   0.006 seconds, delay:  14ms.
+All onsets found!
+
+Percussion/Vibraphone.shortsustain/Vibraphone.shortsustain.ff.G3.stereo.wav
+---------------------------------------------------------------------------
+Onset at   0.034 seconds, delay:  -4ms.
+All onsets found!
+
+Percussion/Vibraphone.shortsustain/Vibraphone.shortsustain.ff.Gb3.stereo.wav
+----------------------------------------------------------------------------
+Onset at   0.003 seconds, delay:  17ms.
+All onsets found!
+
+Percussion/Vibraphone.sustain/Vibraphone.sustain.ff.A3.stereo.wav
+-----------------------------------------------------------------
+Onset at   0.180 seconds
+All onsets found!
+
+Percussion/Vibraphone.sustain/Vibraphone.sustain.ff.Ab3.stereo.wav
+------------------------------------------------------------------
+Onset at   0.177 seconds, delay: -13ms.
+All onsets found!
+
+Percussion/Vibraphone.sustain/Vibraphone.sustain.ff.B3.stereo.wav
+-----------------------------------------------------------------
+Onset at   0.179 seconds, delay:  -5ms.
+All onsets found!
+
+Percussion/Vibraphone.sustain/Vibraphone.sustain.ff.Bb3.stereo.wav
+------------------------------------------------------------------
+Onset at   0.161 seconds
+All onsets found!
+
+Percussion/Vibraphone.sustain/Vibraphone.sustain.ff.C3.stereo.wav
+-----------------------------------------------------------------
+Onset at   0.143 seconds
+All onsets found!
+
+Percussion/Vibraphone.sustain/Vibraphone.sustain.ff.D3.stereo.wav
+-----------------------------------------------------------------
+Onset at   0.168 seconds, delay:  -3ms.
+All onsets found!
+
+Percussion/Vibraphone.sustain/Vibraphone.sustain.ff.Db3.stereo.wav
+------------------------------------------------------------------
+Onset at   0.252 seconds, delay: -15ms.
+All onsets found!
+
+Percussion/Vibraphone.sustain/Vibraphone.sustain.ff.E3.stereo.wav
+-----------------------------------------------------------------
+Onset at   0.184 seconds, delay:  -2ms.
+All onsets found!
+
+Percussion/Vibraphone.sustain/Vibraphone.sustain.ff.Eb3.stereo.wav
+------------------------------------------------------------------
+Onset at   0.157 seconds, delay:  -6ms.
+All onsets found!
+
+Percussion/Vibraphone.sustain/Vibraphone.sustain.ff.F3.stereo.wav
+-----------------------------------------------------------------
+Onset at   0.194 seconds, delay:  -4ms.
+All onsets found!
+
+Percussion/Vibraphone.sustain/Vibraphone.sustain.ff.G3.stereo.wav
+-----------------------------------------------------------------
+Onset at   0.195 seconds, delay: -12ms.
+All onsets found!
+
+Percussion/Vibraphone.sustain/Vibraphone.sustain.ff.Gb3.stereo.wav
+------------------------------------------------------------------
+Onset at   0.159 seconds
+All onsets found!
+
+Piano_Guitar/Guitar/Guitar.ff.sulA.A3.wav
+-----------------------------------------
+Onset at   0.501 seconds, delay: -16ms.
+All onsets found!
+
+Piano_Guitar/Guitar/Guitar.ff.sulA.Ab3.wav
+------------------------------------------
+Onset at   0.402 seconds, delay: -26ms.
+All onsets found!
+
+Piano_Guitar/Guitar/Guitar.ff.sulA.B3.wav
+-----------------------------------------
+Onset at   0.568 seconds, delay: -47ms.
+All onsets found!
+
+Piano_Guitar/Guitar/Guitar.ff.sulA.Bb3.wav
+------------------------------------------
+Onset at   0.582 seconds, delay:  -4ms.
+All onsets found!
+
+Piano_Guitar/Guitar/Guitar.ff.sulA.C3.wav
+-----------------------------------------
+Onset at   0.043 seconds, delay:   7ms.
+All onsets found!
+
+Piano_Guitar/Guitar/Guitar.ff.sulA.D3.wav
+-----------------------------------------
+Onset at   0.309 seconds, delay: -14ms.
+All onsets found!
+
+Piano_Guitar/Guitar/Guitar.ff.sulA.Db3.wav
+------------------------------------------
+Onset at   0.592 seconds, delay: -12ms.
+All onsets found!
+
+Piano_Guitar/Guitar/Guitar.ff.sulA.E3.wav
+-----------------------------------------
+Onset at   0.333 seconds, delay: -10ms.
+All onsets found!
+
+Piano_Guitar/Guitar/Guitar.ff.sulA.Eb3.wav
+------------------------------------------
+Onset at   0.586 seconds, delay: -44ms.
+All onsets found!
+
+Piano_Guitar/Guitar/Guitar.ff.sulA.F3.wav
+-----------------------------------------
+Onset at   0.540 seconds, delay: -24ms.
+All onsets found!
+
+Piano_Guitar/Guitar/Guitar.ff.sulA.G3.wav
+-----------------------------------------
+Onset at   0.672 seconds, delay:  -3ms.
+All onsets found!
+
+Piano_Guitar/Guitar/Guitar.ff.sulA.Gb3.wav
+------------------------------------------
+Onset at   0.452 seconds, delay: -33ms.
+All onsets found!
+
+Piano_Guitar/Guitar/Guitar.ff.sulB.B3.wav
+-----------------------------------------
+Onset at   0.019 seconds, delay:   1ms.
+All onsets found!
+
+Piano_Guitar/Guitar/Guitar.ff.sulD.A3.wav
+-----------------------------------------
+Onset at   0.249 seconds, delay: -24ms.
+All onsets found!
+
+Piano_Guitar/Guitar/Guitar.ff.sulD.Ab3.wav
+------------------------------------------
+Onset at   0.720 seconds, delay: -21ms.
+All onsets found!
+
+Piano_Guitar/Guitar/Guitar.ff.sulD.B3.wav
+-----------------------------------------
+Onset at   0.956 seconds, delay: -32ms.
+All onsets found!
+
+Piano_Guitar/Guitar/Guitar.ff.sulD.Bb3.wav
+------------------------------------------
+Onset at   0.240 seconds, delay: -18ms.
+All onsets found!
+
+Piano_Guitar/Guitar/Guitar.ff.sulD.D3.wav
+-----------------------------------------
+Onset at   0.027 seconds, delay:  -5ms.
+All onsets found!
+
+Piano_Guitar/Guitar/Guitar.ff.sulD.E3.wav
+-----------------------------------------
+Onset at   0.911 seconds, delay: -27ms.
+All onsets found!
+
+Piano_Guitar/Guitar/Guitar.ff.sulD.Eb3.wav
+------------------------------------------
+Onset at   0.884 seconds, delay: -20ms.
+All onsets found!
+
+Piano_Guitar/Guitar/Guitar.ff.sulD.F3.wav
+-----------------------------------------
+Onset at   0.712 seconds, delay:  -3ms.
+All onsets found!
+
+Piano_Guitar/Guitar/Guitar.ff.sulD.G3.wav
+-----------------------------------------
+Onset at   0.477 seconds, delay: -26ms.
+All onsets found!
+
+Piano_Guitar/Guitar/Guitar.ff.sulD.Gb3.wav
+------------------------------------------
+Onset at   0.583 seconds, delay: -20ms.
+All onsets found!
+
+Piano_Guitar/Guitar/Guitar.ff.sulE.A3.wav
+-----------------------------------------
+Onset at   0.486 seconds, delay: -18ms.
+All onsets found!
+
+Piano_Guitar/Guitar/Guitar.ff.sulE.Ab3.wav
+------------------------------------------
+Onset at   0.451 seconds, delay:  -1ms.
+
+False positives:
+  3.100
+  3.235
+
+Piano_Guitar/Guitar/Guitar.ff.sulE.B3.wav
+-----------------------------------------
+Onset at   0.532 seconds, delay: -35ms.
+All onsets found!
+
+Piano_Guitar/Guitar/Guitar.ff.sulE.Bb3.wav
+------------------------------------------
+Onset at   0.355 seconds, delay:  -5ms.
+All onsets found!
+
+Piano_Guitar/Guitar/Guitar.ff.sulE.C3.wav
+-----------------------------------------
+Onset at   0.038 seconds, delay:   1ms.
+All onsets found!
+
+Piano_Guitar/Guitar/Guitar.ff.sulE.D3.wav
+-----------------------------------------
+Onset at   0.439 seconds, delay: -39ms.
+
+False positives:
+  2.385
+
+Piano_Guitar/Guitar/Guitar.ff.sulE.Db3.wav
+------------------------------------------
+Onset at   0.483 seconds
+All onsets found!
+
+Piano_Guitar/Guitar/Guitar.ff.sulE.E3.wav
+-----------------------------------------
+Onset at   0.510 seconds, delay: -41ms.
+All onsets found!
+
+Piano_Guitar/Guitar/Guitar.ff.sulE.Eb3.wav
+------------------------------------------
+Onset at   0.409 seconds, delay: -36ms.
+All onsets found!
+
+Piano_Guitar/Guitar/Guitar.ff.sulE.F3.wav
+-----------------------------------------
+Onset at   0.419 seconds, delay: -42ms.
+All onsets found!
+
+Piano_Guitar/Guitar/Guitar.ff.sulE.G3.wav
+-----------------------------------------
+Onset at   0.352 seconds, delay: -34ms.
+All onsets found!
+
+Piano_Guitar/Guitar/Guitar.ff.sulE.Gb3.wav
+------------------------------------------
+Onset at   0.599 seconds, delay: -28ms.
+All onsets found!
+
+Piano_Guitar/Guitar/Guitar.ff.sulG.A3.wav
+-----------------------------------------
+Onset at   0.179 seconds, delay: -12ms.
+All onsets found!
+
+Piano_Guitar/Guitar/Guitar.ff.sulG.Ab3.wav
+------------------------------------------
+Onset at   0.250 seconds, delay: -12ms.
+All onsets found!
+
+Piano_Guitar/Guitar/Guitar.ff.sulG.B3.wav
+-----------------------------------------
+Onset at   0.243 seconds, delay: -19ms.
+All onsets found!
+
+Piano_Guitar/Guitar/Guitar.ff.sulG.Bb3.wav
+------------------------------------------
+Onset at   0.268 seconds, delay: -18ms.
+All onsets found!
+
+Piano_Guitar/Guitar/Guitar.ff.sulG.G3.wav
+-----------------------------------------
+Onset at   0.017 seconds, delay:   2ms.
+All onsets found!
+
+Piano_Guitar/Guitar/Guitar.mf.sulA.A3.wav
+-----------------------------------------
+Onset at   0.401 seconds, delay:   1ms.
+All onsets found!
+
+Piano_Guitar/Guitar/Guitar.mf.sulA.Ab3.wav
+------------------------------------------
+Onset at   0.494 seconds, delay: -17ms.
+All onsets found!
+
+Piano_Guitar/Guitar/Guitar.mf.sulA.B3.wav
+-----------------------------------------
+Onset at   0.454 seconds, delay: -47ms.
+All onsets found!
+
+Piano_Guitar/Guitar/Guitar.mf.sulA.Bb3.wav
+------------------------------------------
+Onset at   0.335 seconds, delay: -22ms.
+All onsets found!
+
+Piano_Guitar/Guitar/Guitar.mf.sulA.C3.wav
+-----------------------------------------
+Onset at   0.035 seconds, delay:   7ms.
+All onsets found!
+
+Piano_Guitar/Guitar/Guitar.mf.sulA.D3.wav
+-----------------------------------------
+Onset at   0.653 seconds, delay: -11ms.
+
+False positives:
+  1.567
+
+Piano_Guitar/Guitar/Guitar.mf.sulA.Db3.wav
+------------------------------------------
+Onset at   0.803 seconds, delay: -17ms.
+All onsets found!
+
+Piano_Guitar/Guitar/Guitar.mf.sulA.E3.wav
+-----------------------------------------
+
+False negatives:
+  0.297
+
+False positives:
+  0.233
+
+Piano_Guitar/Guitar/Guitar.mf.sulA.Eb3.wav
+------------------------------------------
+
+False negatives:
+  1.046
+
+False positives:
+  0.390
+  8.757
+  9.607
+ 10.010
+
+Piano_Guitar/Guitar/Guitar.mf.sulA.F3.wav
+-----------------------------------------
+Onset at   0.536 seconds, delay: -38ms.
+All onsets found!
+
+Piano_Guitar/Guitar/Guitar.mf.sulA.G3.wav
+-----------------------------------------
+Onset at   0.360 seconds, delay: -28ms.
+All onsets found!
+
+Piano_Guitar/Guitar/Guitar.mf.sulA.Gb3.wav
+------------------------------------------
+Onset at   0.355 seconds, delay: -38ms.
+
+False positives:
+  1.702
+
+Piano_Guitar/Guitar/Guitar.mf.sulB.B3.wav
+-----------------------------------------
+Onset at   0.014 seconds, delay:   6ms.
+All onsets found!
+
+Piano_Guitar/Guitar/Guitar.mf.sulD.A3.wav
+-----------------------------------------
+Onset at   0.670 seconds, delay:  -8ms.
+All onsets found!
+
+Piano_Guitar/Guitar/Guitar.mf.sulD.Ab3.wav
+------------------------------------------
+Onset at   0.722 seconds, delay: -25ms.
+All onsets found!
+
+Piano_Guitar/Guitar/Guitar.mf.sulD.B3.wav
+-----------------------------------------
+Onset at   0.659 seconds, delay: -16ms.
+All onsets found!
+
+Piano_Guitar/Guitar/Guitar.mf.sulD.Bb3.wav
+------------------------------------------
+Onset at   0.618 seconds, delay: -25ms.
+All onsets found!
+
+Piano_Guitar/Guitar/Guitar.mf.sulD.D3.wav
+-----------------------------------------
+Onset at   0.031 seconds, delay:  -1ms.
+All onsets found!
+
+Piano_Guitar/Guitar/Guitar.mf.sulD.E3.wav
+-----------------------------------------
+Onset at   0.977 seconds, delay:  -6ms.
+
+False positives:
+  0.304
+  8.275
+  8.902
+ 10.632
+ 10.858
+
+Piano_Guitar/Guitar/Guitar.mf.sulD.Eb3.wav
+------------------------------------------
+Onset at   0.466 seconds, delay:  -7ms.
+All onsets found!
+
+Piano_Guitar/Guitar/Guitar.mf.sulD.F3.wav
+-----------------------------------------
+Onset at   0.150 seconds, delay: -22ms.
+All onsets found!
+
+Piano_Guitar/Guitar/Guitar.mf.sulD.G3.wav
+-----------------------------------------
+Onset at   0.571 seconds, delay: -16ms.
+All onsets found!
+
+Piano_Guitar/Guitar/Guitar.mf.sulD.Gb3.wav
+------------------------------------------
+Onset at   0.425 seconds, delay: -25ms.
+All onsets found!
+
+Piano_Guitar/Guitar/Guitar.mf.sulE.A3.wav
+-----------------------------------------
+Onset at   0.736 seconds, delay:  -1ms.
+All onsets found!
+
+Piano_Guitar/Guitar/Guitar.mf.sulE.Ab3.wav
+------------------------------------------
+Onset at   1.128 seconds, delay:   1ms.
+All onsets found!
+
+Piano_Guitar/Guitar/Guitar.mf.sulE.B3.wav
+-----------------------------------------
+Onset at   0.870 seconds, delay:  -9ms.
+All onsets found!
+
+Piano_Guitar/Guitar/Guitar.mf.sulE.Bb3.wav
+------------------------------------------
+Onset at   0.545 seconds
+All onsets found!
+
+Piano_Guitar/Guitar/Guitar.mf.sulE.C3.wav
+-----------------------------------------
+Onset at   0.080 seconds
+All onsets found!
+
+Piano_Guitar/Guitar/Guitar.mf.sulE.D3.wav
+-----------------------------------------
+
+False negatives:
+  0.805
+
+False positives:
+  0.600
+
+Piano_Guitar/Guitar/Guitar.mf.sulE.Db3.wav
+------------------------------------------
+Onset at   0.598 seconds, delay:  -3ms.
+All onsets found!
+
+Piano_Guitar/Guitar/Guitar.mf.sulE.E3.wav
+-----------------------------------------
+Onset at   0.643 seconds, delay:  -5ms.
+All onsets found!
+
+Piano_Guitar/Guitar/Guitar.mf.sulE.Eb3.wav
+------------------------------------------
+
+False negatives:
+  0.733
+
+False positives:
+  0.679
+
+Piano_Guitar/Guitar/Guitar.mf.sulE.F3.wav
+-----------------------------------------
+Onset at   0.585 seconds, delay: -15ms.
+All onsets found!
+
+Piano_Guitar/Guitar/Guitar.mf.sulE.G3.wav
+-----------------------------------------
+
+False negatives:
+  0.528
+
+False positives:
+  0.474
+
+Piano_Guitar/Guitar/Guitar.mf.sulE.Gb3.wav
+------------------------------------------
+
+False negatives:
+  0.975
+
+False positives:
+  0.871
+
+Piano_Guitar/Guitar/Guitar.mf.sulG.A3.wav
+-----------------------------------------
+Onset at   0.662 seconds, delay: -37ms.
+All onsets found!
+
+Piano_Guitar/Guitar/Guitar.mf.sulG.Ab3.wav
+------------------------------------------
+Onset at   0.449 seconds, delay: -19ms.
+All onsets found!
+
+Piano_Guitar/Guitar/Guitar.mf.sulG.B3.wav
+-----------------------------------------
+Onset at   0.647 seconds, delay: -31ms.
+All onsets found!
+
+Piano_Guitar/Guitar/Guitar.mf.sulG.Bb3.wav
+------------------------------------------
+Onset at   0.600 seconds, delay: -17ms.
+All onsets found!
+
+Piano_Guitar/Guitar/Guitar.mf.sulG.G3.wav
+-----------------------------------------
+Onset at   0.028 seconds
+All onsets found!
+
+Piano_Guitar/Guitar/Guitar.pp.sulA.A3.wav
+-----------------------------------------
+
+False negatives:
+  0.463
+
+False positives:
+  0.403
+
+Piano_Guitar/Guitar/Guitar.pp.sulA.Ab3.wav
+------------------------------------------
+Onset at   0.638 seconds, delay: -39ms.
+All onsets found!
+
+Piano_Guitar/Guitar/Guitar.pp.sulA.B3.wav
+-----------------------------------------
+Onset at   0.826 seconds, delay:  -1ms.
+All onsets found!
+
+Piano_Guitar/Guitar/Guitar.pp.sulA.Bb3.wav
+------------------------------------------
+Onset at   0.350 seconds, delay:  -9ms.
+All onsets found!
+
+Piano_Guitar/Guitar/Guitar.pp.sulA.C3.wav
+-----------------------------------------
+Onset at   0.098 seconds
+
+False positives:
+  1.558
+
+Piano_Guitar/Guitar/Guitar.pp.sulA.D3.wav
+-----------------------------------------
+Onset at   0.416 seconds, delay:   1ms.
+All onsets found!
+
+Piano_Guitar/Guitar/Guitar.pp.sulA.Db3.wav
+------------------------------------------
+Onset at   0.432 seconds, delay: -19ms.
+
+False positives:
+  3.998
+  4.180
+  4.864
+
+Piano_Guitar/Guitar/Guitar.pp.sulA.E3.wav
+-----------------------------------------
+
+False negatives:
+  0.522
+
+Piano_Guitar/Guitar/Guitar.pp.sulA.Eb3.wav
+------------------------------------------
+Onset at   0.618 seconds, delay: -12ms.
+All onsets found!
+
+Piano_Guitar/Guitar/Guitar.pp.sulA.F3.wav
+-----------------------------------------
+Onset at   0.771 seconds, delay: -30ms.
+All onsets found!
+
+Piano_Guitar/Guitar/Guitar.pp.sulA.G3.wav
+-----------------------------------------
+Onset at   0.489 seconds, delay:  -3ms.
+All onsets found!
+
+Piano_Guitar/Guitar/Guitar.pp.sulA.Gb3.wav
+------------------------------------------
+Onset at   0.681 seconds, delay: -14ms.
+All onsets found!
+
+Piano_Guitar/Guitar/Guitar.pp.sulB.B3.wav
+-----------------------------------------
+Onset at   0.091 seconds, delay:  -3ms.
+All onsets found!
+
+Piano_Guitar/Guitar/Guitar.pp.sulD.A3.wav
+-----------------------------------------
+Onset at   0.245 seconds, delay: -24ms.
+All onsets found!
+
+Piano_Guitar/Guitar/Guitar.pp.sulD.Ab3.wav
+------------------------------------------
+Onset at   0.212 seconds, delay: -24ms.
+All onsets found!
+
+Piano_Guitar/Guitar/Guitar.pp.sulD.B3.wav
+-----------------------------------------
+Onset at   0.315 seconds, delay: -15ms.
+All onsets found!
+
+Piano_Guitar/Guitar/Guitar.pp.sulD.Bb3.wav
+------------------------------------------
+
+False negatives:
+  0.397
+
+False positives:
+  0.347
+
+Piano_Guitar/Guitar/Guitar.pp.sulD.D3.wav
+-----------------------------------------
+Onset at   0.657 seconds, delay:  -3ms.
+All onsets found!
+
+Piano_Guitar/Guitar/Guitar.pp.sulD.E3.wav
+-----------------------------------------
+Onset at   0.250 seconds, delay: -40ms.
+All onsets found!
+
+Piano_Guitar/Guitar/Guitar.pp.sulD.Eb3.wav
+------------------------------------------
+
+False negatives:
+  0.538
+
+False positives:
+  0.070
+  6.376
+
+Piano_Guitar/Guitar/Guitar.pp.sulD.F3.wav
+-----------------------------------------
+Onset at   0.335 seconds, delay: -45ms.
+All onsets found!
+
+Piano_Guitar/Guitar/Guitar.pp.sulD.G3.wav
+-----------------------------------------
+
+False negatives:
+  0.528
+
+False positives:
+  0.422
+
+Piano_Guitar/Guitar/Guitar.pp.sulD.Gb3.wav
+------------------------------------------
+Onset at   0.506 seconds, delay: -19ms.
+All onsets found!
+
+Piano_Guitar/Guitar/Guitar.pp.sulE.A3.wav
+-----------------------------------------
+Onset at   0.072 seconds, delay: -23ms.
+All onsets found!
+
+Piano_Guitar/Guitar/Guitar.pp.sulE.Ab3.wav
+------------------------------------------
+Onset at   0.769 seconds
+All onsets found!
+
+Piano_Guitar/Guitar/Guitar.pp.sulE.B3.wav
+-----------------------------------------
+Onset at   0.196 seconds, delay: -31ms.
+All onsets found!
+
+Piano_Guitar/Guitar/Guitar.pp.sulE.Bb3.wav
+------------------------------------------
+Onset at   0.271 seconds, delay: -15ms.
+All onsets found!
+
+Piano_Guitar/Guitar/Guitar.pp.sulE.C3.wav
+-----------------------------------------
+Onset at   0.053 seconds, delay:   4ms.
+All onsets found!
+
+Piano_Guitar/Guitar/Guitar.pp.sulE.Db3.wav
+------------------------------------------
+
+False negatives:
+  0.508
+
+False positives:
+  0.420
+
+Piano_Guitar/Guitar/Guitar.pp.sulE.E3.wav
+-----------------------------------------
+Onset at   0.289 seconds
+All onsets found!
+
+Piano_Guitar/Guitar/Guitar.pp.sulE.Eb3.wav
+------------------------------------------
+Onset at   0.446 seconds, delay: -30ms.
+All onsets found!
+
+Piano_Guitar/Guitar/Guitar.pp.sulE.F3.wav
+-----------------------------------------
+
+False negatives:
+  0.218
+
+False positives:
+  0.160
+
+Piano_Guitar/Guitar/Guitar.pp.sulE.G3.wav
+-----------------------------------------
+Onset at   0.307 seconds, delay: -28ms.
+All onsets found!
+
+Piano_Guitar/Guitar/Guitar.pp.sulE.Gb3.wav
+------------------------------------------
+Onset at   0.325 seconds, delay: -10ms.
+All onsets found!
+
+Piano_Guitar/Guitar/Guitar.pp.sulG.A3.wav
+-----------------------------------------
+Onset at   0.358 seconds, delay: -48ms.
+All onsets found!
+
+Piano_Guitar/Guitar/Guitar.pp.sulG.Ab3.wav
+------------------------------------------
+Onset at   0.422 seconds, delay: -21ms.
+All onsets found!
+
+Piano_Guitar/Guitar/Guitar.pp.sulG.B3.wav
+-----------------------------------------
+Onset at   0.366 seconds, delay: -35ms.
+All onsets found!
+
+Piano_Guitar/Guitar/Guitar.pp.sulG.Bb3.wav
+------------------------------------------
+Onset at   0.545 seconds, delay: -48ms.
+All onsets found!
+
+Piano_Guitar/Guitar/Guitar.pp.sulG.G3.wav
+-----------------------------------------
+Onset at   0.033 seconds, delay: -12ms.
+All onsets found!
+
+Piano_Guitar/Piano/Piano.ff.A3.wav
+----------------------------------
+Onset at   0.763 seconds, delay:  -3ms.
+All onsets found!
+
+Piano_Guitar/Piano/Piano.ff.Ab3.wav
+-----------------------------------
+Onset at   0.815 seconds, delay: -14ms.
+All onsets found!
+
+Piano_Guitar/Piano/Piano.ff.B3.wav
+----------------------------------
+Onset at   0.590 seconds, delay:  -3ms.
+All onsets found!
+
+Piano_Guitar/Piano/Piano.ff.Bb3.wav
+-----------------------------------
+Onset at   0.258 seconds, delay: -12ms.
+All onsets found!
+
+Piano_Guitar/Piano/Piano.ff.C3.wav
+----------------------------------
+Onset at   0.580 seconds, delay: -12ms.
+All onsets found!
+
+Piano_Guitar/Piano/Piano.ff.D3.wav
+----------------------------------
+Onset at   0.526 seconds, delay: -11ms.
+All onsets found!
+
+Piano_Guitar/Piano/Piano.ff.Db3.wav
+-----------------------------------
+Onset at   0.652 seconds, delay: -13ms.
+All onsets found!
+
+Piano_Guitar/Piano/Piano.ff.E3.wav
+----------------------------------
+Onset at   0.760 seconds, delay: -23ms.
+All onsets found!
+
+Piano_Guitar/Piano/Piano.ff.Eb3.wav
+-----------------------------------
+Onset at   0.342 seconds, delay: -11ms.
+All onsets found!
+
+Piano_Guitar/Piano/Piano.ff.F3.wav
+----------------------------------
+Onset at   0.922 seconds, delay:  -2ms.
+All onsets found!
+
+Piano_Guitar/Piano/Piano.ff.G3.wav
+----------------------------------
+Onset at   0.497 seconds, delay: -17ms.
+All onsets found!
+
+Piano_Guitar/Piano/Piano.ff.Gb3.wav
+-----------------------------------
+Onset at   0.375 seconds, delay:  -9ms.
+All onsets found!
+
+Piano_Guitar/Piano/Piano.mf.A3.wav
+----------------------------------
+
+False negatives:
+  0.527
+
+Piano_Guitar/Piano/Piano.mf.Ab3.wav
+-----------------------------------
+Onset at   0.542 seconds, delay: -10ms.
+All onsets found!
+
+Piano_Guitar/Piano/Piano.mf.B3.wav
+----------------------------------
+Onset at   0.633 seconds, delay: -27ms.
+All onsets found!
+
+Piano_Guitar/Piano/Piano.mf.Bb3.wav
+-----------------------------------
+Onset at   0.499 seconds, delay:  -9ms.
+All onsets found!
+
+Piano_Guitar/Piano/Piano.mf.C3.wav
+----------------------------------
+Onset at   0.556 seconds, delay: -14ms.
+All onsets found!
+
+Piano_Guitar/Piano/Piano.mf.D3.wav
+----------------------------------
+Onset at   0.844 seconds, delay:  -5ms.
+All onsets found!
+
+Piano_Guitar/Piano/Piano.mf.Db3.wav
+-----------------------------------
+Onset at   0.440 seconds, delay:  -7ms.
+All onsets found!
+
+Piano_Guitar/Piano/Piano.mf.E3.wav
+----------------------------------
+Onset at   0.169 seconds, delay: -21ms.
+All onsets found!
+
+Piano_Guitar/Piano/Piano.mf.Eb3.wav
+-----------------------------------
+Onset at   0.147 seconds, delay: -10ms.
+All onsets found!
+
+Piano_Guitar/Piano/Piano.mf.F3.wav
+----------------------------------
+Onset at   0.102 seconds, delay: -44ms.
+All onsets found!
+
+Piano_Guitar/Piano/Piano.mf.G3.wav
+----------------------------------
+Onset at   0.546 seconds, delay:  -2ms.
+All onsets found!
+
+Piano_Guitar/Piano/Piano.mf.Gb3.wav
+-----------------------------------
+Onset at   0.440 seconds, delay: -10ms.
+All onsets found!
+
+Piano_Guitar/Piano/Piano.pp.A3.wav
+----------------------------------
+
+False negatives:
+  0.460
+
+Piano_Guitar/Piano/Piano.pp.Ab3.wav
+-----------------------------------
+
+False negatives:
+  0.721
+
+Piano_Guitar/Piano/Piano.pp.B3.wav
+----------------------------------
+Onset at   0.336 seconds, delay:   1ms.
+All onsets found!
+
+Piano_Guitar/Piano/Piano.pp.Bb3.wav
+-----------------------------------
+Onset at   0.293 seconds, delay: -13ms.
+All onsets found!
+
+Piano_Guitar/Piano/Piano.pp.C3.wav
+----------------------------------
+
+False negatives:
+  0.482
+
+Piano_Guitar/Piano/Piano.pp.D3.wav
+----------------------------------
+
+False negatives:
+  0.365
+
+Piano_Guitar/Piano/Piano.pp.Db3.wav
+-----------------------------------
+
+False negatives:
+  0.210
+
+Piano_Guitar/Piano/Piano.pp.E3.wav
+----------------------------------
+Onset at   0.207 seconds, delay: -20ms.
+All onsets found!
+
+Piano_Guitar/Piano/Piano.pp.Eb3.wav
+-----------------------------------
+Onset at   0.329 seconds, delay:  -1ms.
+All onsets found!
+
+Piano_Guitar/Piano/Piano.pp.F3.wav
+----------------------------------
+Onset at   0.772 seconds, delay:   3ms.
+All onsets found!
+
+Piano_Guitar/Piano/Piano.pp.G3.wav
+----------------------------------
+Onset at   0.484 seconds
+All onsets found!
+
+Piano_Guitar/Piano/Piano.pp.Gb3.wav
+-----------------------------------
+Onset at   0.460 seconds, delay: -35ms.
+All onsets found!
+
+Strings/Bass.arco.ff.sulA/Bass.arco.ff.sulA.A3.stereo.wav
+---------------------------------------------------------
+Onset at   0.149 seconds, delay: -21ms.
+All onsets found!
+
+Strings/Bass.arco.ff.sulA/Bass.arco.ff.sulA.Ab3.stereo.wav
+----------------------------------------------------------
+Onset at   0.087 seconds, delay:  -9ms.
+
+False positives:
+  0.240
+
+Strings/Bass.arco.ff.sulA/Bass.arco.ff.sulA.C3.stereo.wav
+---------------------------------------------------------
+Onset at   0.229 seconds, delay: -23ms.
+
+False positives:
+  0.405
+
+Strings/Bass.arco.ff.sulA/Bass.arco.ff.sulA.D3.stereo.wav
+---------------------------------------------------------
+Onset at   0.186 seconds, delay:  -8ms.
+All onsets found!
+
+Strings/Bass.arco.ff.sulA/Bass.arco.ff.sulA.Db3.stereo.wav
+----------------------------------------------------------
+Onset at   0.252 seconds, delay: -15ms.
+All onsets found!
+
+Strings/Bass.arco.ff.sulA/Bass.arco.ff.sulA.E3.stereo.wav
+---------------------------------------------------------
+Onset at   0.098 seconds, delay: -27ms.
+All onsets found!
+
+Strings/Bass.arco.ff.sulA/Bass.arco.ff.sulA.Eb3.stereo.wav
+----------------------------------------------------------
+Onset at   0.106 seconds, delay: -16ms.
+All onsets found!
+
+Strings/Bass.arco.ff.sulA/Bass.arco.ff.sulA.F3.stereo.wav
+---------------------------------------------------------
+Onset at   0.096 seconds, delay: -20ms.
+All onsets found!
+
+Strings/Bass.arco.ff.sulA/Bass.arco.ff.sulA.G3.stereo.wav
+---------------------------------------------------------
+Onset at   0.109 seconds, delay:  -8ms.
+
+False positives:
+  0.189
+
+Strings/Bass.arco.ff.sulA/Bass.arco.ff.sulA.Gb3.stereo.wav
+----------------------------------------------------------
+Onset at   0.105 seconds, delay: -28ms.
+
+False positives:
+  0.305
+
+Strings/Bass.arco.ff.sulD/Bass.arco.ff.sulD.A3.stereo.wav
+---------------------------------------------------------
+Onset at   0.095 seconds, delay: -22ms.
+All onsets found!
+
+Strings/Bass.arco.ff.sulD/Bass.arco.ff.sulD.Ab3.stereo.wav
+----------------------------------------------------------
+Onset at   0.076 seconds, delay: -12ms.
+All onsets found!
+
+Strings/Bass.arco.ff.sulD/Bass.arco.ff.sulD.B3.stereo.wav
+---------------------------------------------------------
+Onset at   0.105 seconds, delay: -33ms.
+All onsets found!
+
+Strings/Bass.arco.ff.sulD/Bass.arco.ff.sulD.Bb3.stereo.wav
+----------------------------------------------------------
+Onset at   0.151 seconds, delay: -25ms.
+All onsets found!
+
+Strings/Bass.arco.ff.sulD/Bass.arco.ff.sulD.C3.stereo.wav
+---------------------------------------------------------
+Onset at   0.099 seconds, delay: -44ms.
+All onsets found!
+
+Strings/Bass.arco.ff.sulD/Bass.arco.ff.sulD.D3.stereo.wav
+---------------------------------------------------------
+Onset at   0.097 seconds, delay: -24ms.
+All onsets found!
+
+Strings/Bass.arco.ff.sulD/Bass.arco.ff.sulD.Db3.stereo.wav
+----------------------------------------------------------
+Onset at   0.086 seconds, delay: -29ms.
+All onsets found!
+
+Strings/Bass.arco.ff.sulD/Bass.arco.ff.sulD.E3.stereo.wav
+---------------------------------------------------------
+Onset at   0.084 seconds, delay: -24ms.
+All onsets found!
+
+Strings/Bass.arco.ff.sulD/Bass.arco.ff.sulD.Eb3.stereo.wav
+----------------------------------------------------------
+Onset at   0.167 seconds, delay: -12ms.
+All onsets found!
+
+Strings/Bass.arco.ff.sulD/Bass.arco.ff.sulD.F3.stereo.wav
+---------------------------------------------------------
+Onset at   0.057 seconds, delay:  -6ms.
+All onsets found!
+
+Strings/Bass.arco.ff.sulD/Bass.arco.ff.sulD.G3.stereo.wav
+---------------------------------------------------------
+Onset at   0.097 seconds, delay: -36ms.
+All onsets found!
+
+Strings/Bass.arco.ff.sulD/Bass.arco.ff.sulD.Gb3.stereo.wav
+----------------------------------------------------------
+Onset at   0.106 seconds, delay: -46ms.
+All onsets found!
+
+Strings/Bass.arco.ff.sulE/Bass.arco.ff.sulE.C3.stereo.wav
+---------------------------------------------------------
+Onset at   0.160 seconds, delay: -25ms.
+
+False positives:
+  1.897
+
+Strings/Bass.arco.ff.sulE/Bass.arco.ff.sulE.D3.stereo.wav
+---------------------------------------------------------
+Onset at   0.186 seconds, delay: -17ms.
+All onsets found!
+
+Strings/Bass.arco.ff.sulE/Bass.arco.ff.sulE.Db3.stereo.wav
+----------------------------------------------------------
+Onset at   0.150 seconds, delay: -27ms.
+All onsets found!
+
+Strings/Bass.arco.ff.sulE/Bass.arco.ff.sulE.E3.stereo.wav
+---------------------------------------------------------
+Onset at   0.078 seconds, delay: -18ms.
+All onsets found!
+
+Strings/Bass.arco.ff.sulE/Bass.arco.ff.sulE.Eb3.stereo.wav
+----------------------------------------------------------
+Onset at   0.104 seconds, delay:  -4ms.
+All onsets found!
+
+Strings/Bass.arco.ff.sulG/Bass.arco.ff.sulG.A3.stereo.wav
+---------------------------------------------------------
+
+False negatives:
+  0.145
+
+False positives:
+  0.070
+  0.396
+
+Strings/Bass.arco.ff.sulG/Bass.arco.ff.sulG.Ab3.stereo.wav
+----------------------------------------------------------
+Onset at   0.184 seconds, delay:  -6ms.
+All onsets found!
+
+Strings/Bass.arco.ff.sulG/Bass.arco.ff.sulG.B3.stereo.wav
+---------------------------------------------------------
+
+False negatives:
+  0.216
+
+False positives:
+  0.141
+
+Strings/Bass.arco.ff.sulG/Bass.arco.ff.sulG.Bb3.stereo.wav
+----------------------------------------------------------
+Onset at   0.119 seconds, delay: -38ms.
+
+False positives:
+  0.895
+
+Strings/Bass.arco.ff.sulG/Bass.arco.ff.sulG.C3.stereo.wav
+---------------------------------------------------------
+Onset at   0.142 seconds, delay: -25ms.
+
+False positives:
+  0.362
+
+Strings/Bass.arco.ff.sulG/Bass.arco.ff.sulG.D3.stereo.wav
+---------------------------------------------------------
+Onset at   0.204 seconds, delay: -16ms.
+All onsets found!
+
+Strings/Bass.arco.ff.sulG/Bass.arco.ff.sulG.Db3.stereo.wav
+----------------------------------------------------------
+
+False negatives:
+  0.142
+
+False positives:
+  0.087
+
+Strings/Bass.arco.ff.sulG/Bass.arco.ff.sulG.E3.stereo.wav
+---------------------------------------------------------
+Onset at   0.167 seconds, delay: -38ms.
+All onsets found!
+
+Strings/Bass.arco.ff.sulG/Bass.arco.ff.sulG.Eb3.stereo.wav
+----------------------------------------------------------
+Onset at   0.123 seconds, delay: -21ms.
+All onsets found!
+
+Strings/Bass.arco.ff.sulG/Bass.arco.ff.sulG.F3.stereo.wav
+---------------------------------------------------------
+Onset at   0.149 seconds, delay: -28ms.
+All onsets found!
+
+Strings/Bass.arco.ff.sulG/Bass.arco.ff.sulG.G3.stereo.wav
+---------------------------------------------------------
+Onset at   0.218 seconds, delay: -12ms.
+All onsets found!
+
+Strings/Bass.arco.ff.sulG/Bass.arco.ff.sulG.Gb3.stereo.wav
+----------------------------------------------------------
+Onset at   0.122 seconds, delay: -28ms.
+All onsets found!
+
+Strings/Bass.pizz.ff.sulA/Bass.pizz.ff.sulA.A3.stereo.wav
+---------------------------------------------------------
+Onset at   0.180 seconds
+All onsets found!
+
+Strings/Bass.pizz.ff.sulA/Bass.pizz.ff.sulA.Ab3.stereo.wav
+----------------------------------------------------------
+
+False negatives:
+  0.114
+
+False positives:
+  0.050
+
+Strings/Bass.pizz.ff.sulA/Bass.pizz.ff.sulA.C3.stereo.wav
+---------------------------------------------------------
+Onset at   0.091 seconds, delay: -20ms.
+All onsets found!
+
+Strings/Bass.pizz.ff.sulA/Bass.pizz.ff.sulA.D3.stereo.wav
+---------------------------------------------------------
+Onset at   0.089 seconds, delay: -18ms.
+All onsets found!
+
+Strings/Bass.pizz.ff.sulA/Bass.pizz.ff.sulA.Db3.stereo.wav
+----------------------------------------------------------
+Onset at   0.109 seconds, delay: -11ms.
+All onsets found!
+
+Strings/Bass.pizz.ff.sulA/Bass.pizz.ff.sulA.E3.stereo.wav
+---------------------------------------------------------
+Onset at   0.211 seconds, delay:  -2ms.
+All onsets found!
+
+Strings/Bass.pizz.ff.sulA/Bass.pizz.ff.sulA.Eb3.stereo.wav
+----------------------------------------------------------
+
+False negatives:
+  0.289
+
+False positives:
+  0.235
+
+Strings/Bass.pizz.ff.sulA/Bass.pizz.ff.sulA.F3.stereo.wav
+---------------------------------------------------------
+Onset at   0.280 seconds
+All onsets found!
+
+Strings/Bass.pizz.ff.sulA/Bass.pizz.ff.sulA.G3.stereo.wav
+---------------------------------------------------------
+
+False negatives:
+  0.142
+
+False positives:
+  0.065
+
+Strings/Bass.pizz.ff.sulA/Bass.pizz.ff.sulA.Gb3.stereo.wav
+----------------------------------------------------------
+Onset at   0.181 seconds, delay:  -3ms.
+All onsets found!
+
+Strings/Bass.pizz.ff.sulD/Bass.pizz.ff.sulD.A3.stereo.wav
+---------------------------------------------------------
+Onset at   0.202 seconds, delay: -18ms.
+All onsets found!
+
+Strings/Bass.pizz.ff.sulD/Bass.pizz.ff.sulD.Ab3.stereo.wav
+----------------------------------------------------------
+Onset at   0.187 seconds, delay: -13ms.
+All onsets found!
+
+Strings/Bass.pizz.ff.sulD/Bass.pizz.ff.sulD.B3.stereo.wav
+---------------------------------------------------------
+Onset at   0.440 seconds, delay:  -2ms.
+All onsets found!
+
+Strings/Bass.pizz.ff.sulD/Bass.pizz.ff.sulD.Bb3.stereo.wav
+----------------------------------------------------------
+Onset at   0.291 seconds, delay: -10ms.
+All onsets found!
+
+Strings/Bass.pizz.ff.sulD/Bass.pizz.ff.sulD.C3.stereo.wav
+---------------------------------------------------------
+Onset at   0.083 seconds, delay: -13ms.
+All onsets found!
+
+Strings/Bass.pizz.ff.sulD/Bass.pizz.ff.sulD.D3.stereo.wav
+---------------------------------------------------------
+Onset at   0.094 seconds, delay: -11ms.
+All onsets found!
+
+Strings/Bass.pizz.ff.sulD/Bass.pizz.ff.sulD.Db3.stereo.wav
+----------------------------------------------------------
+Onset at   0.082 seconds, delay: -21ms.
+All onsets found!
+
+Strings/Bass.pizz.ff.sulD/Bass.pizz.ff.sulD.E3.stereo.wav
+---------------------------------------------------------
+Onset at   0.101 seconds, delay:  -3ms.
+All onsets found!
+
+Strings/Bass.pizz.ff.sulD/Bass.pizz.ff.sulD.Eb3.stereo.wav
+----------------------------------------------------------
+Onset at   0.207 seconds, delay:  -3ms.
+All onsets found!
+
+Strings/Bass.pizz.ff.sulD/Bass.pizz.ff.sulD.F3.stereo.wav
+---------------------------------------------------------
+Onset at   0.074 seconds, delay:  -3ms.
+All onsets found!
+
+Strings/Bass.pizz.ff.sulD/Bass.pizz.ff.sulD.G3.stereo.wav
+---------------------------------------------------------
+Onset at   0.229 seconds, delay: -22ms.
+All onsets found!
+
+Strings/Bass.pizz.ff.sulD/Bass.pizz.ff.sulD.Gb3.stereo.wav
+----------------------------------------------------------
+
+False negatives:
+  0.144
+
+False positives:
+  0.081
+
+Strings/Bass.pizz.ff.sulE/Bass.pizz.ff.sulE.C3.stereo.wav
+---------------------------------------------------------
+Onset at   0.190 seconds, delay:  -1ms.
+All onsets found!
+
+Strings/Bass.pizz.ff.sulE/Bass.pizz.ff.sulE.D3.stereo.wav
+---------------------------------------------------------
+Onset at   0.150 seconds, delay: -33ms.
+All onsets found!
+
+Strings/Bass.pizz.ff.sulE/Bass.pizz.ff.sulE.Db3.stereo.wav
+----------------------------------------------------------
+Onset at   0.194 seconds, delay: -39ms.
+All onsets found!
+
+Strings/Bass.pizz.ff.sulE/Bass.pizz.ff.sulE.E3.stereo.wav
+---------------------------------------------------------
+Onset at   0.085 seconds, delay: -22ms.
+All onsets found!
+
+Strings/Bass.pizz.ff.sulE/Bass.pizz.ff.sulE.Eb3.stereo.wav
+----------------------------------------------------------
+Onset at   0.240 seconds, delay: -11ms.
+All onsets found!
+
+Strings/Bass.pizz.ff.sulG/Bass.pizz.ff.sulG.A3.stereo.wav
+---------------------------------------------------------
+Onset at   0.217 seconds, delay:  -1ms.
+All onsets found!
+
+Strings/Bass.pizz.ff.sulG/Bass.pizz.ff.sulG.Ab3.stereo.wav
+----------------------------------------------------------
+Onset at   0.432 seconds, delay:  -2ms.
+All onsets found!
+
+Strings/Bass.pizz.ff.sulG/Bass.pizz.ff.sulG.B3.stereo.wav
+---------------------------------------------------------
+Onset at   0.141 seconds, delay: -17ms.
+All onsets found!
+
+Strings/Bass.pizz.ff.sulG/Bass.pizz.ff.sulG.Bb3.stereo.wav
+----------------------------------------------------------
+Onset at   0.164 seconds, delay:  -1ms.
+All onsets found!
+
+Strings/Bass.pizz.ff.sulG/Bass.pizz.ff.sulG.C3.stereo.wav
+---------------------------------------------------------
+Onset at   0.101 seconds, delay: -26ms.
+
+False positives:
+  1.198
+
+Strings/Bass.pizz.ff.sulG/Bass.pizz.ff.sulG.D3.stereo.wav
+---------------------------------------------------------
+Onset at   0.193 seconds, delay: -17ms.
+All onsets found!
+
+Strings/Bass.pizz.ff.sulG/Bass.pizz.ff.sulG.Db3.stereo.wav
+----------------------------------------------------------
+Onset at   0.086 seconds, delay: -20ms.
+
+False positives:
+  1.197
+
+Strings/Bass.pizz.ff.sulG/Bass.pizz.ff.sulG.E3.stereo.wav
+---------------------------------------------------------
+Onset at   0.194 seconds, delay:  -9ms.
+All onsets found!
+
+Strings/Bass.pizz.ff.sulG/Bass.pizz.ff.sulG.Eb3.stereo.wav
+----------------------------------------------------------
+Onset at   0.101 seconds, delay: -13ms.
+All onsets found!
+
+Strings/Bass.pizz.ff.sulG/Bass.pizz.ff.sulG.F3.stereo.wav
+---------------------------------------------------------
+Onset at   0.487 seconds, delay:  -1ms.
+
+False positives:
+  1.597
+
+Strings/Bass.pizz.ff.sulG/Bass.pizz.ff.sulG.G3.stereo.wav
+---------------------------------------------------------
+Onset at   0.408 seconds, delay:   1ms.
+All onsets found!
+
+Strings/Bass.pizz.ff.sulG/Bass.pizz.ff.sulG.Gb3.stereo.wav
+----------------------------------------------------------
+
+False negatives:
+  0.230
+
+False positives:
+  0.174
+
+Strings/Cello.arco.ff.sulA/Cello.arco.ff.sulA.A3.stereo.wav
+-----------------------------------------------------------
+Onset at   0.331 seconds, delay: -24ms.
+All onsets found!
+
+Strings/Cello.arco.ff.sulA/Cello.arco.ff.sulA.B3.stereo.wav
+-----------------------------------------------------------
+
+False negatives:
+  0.178
+
+False positives:
+  0.118
+  2.098
+
+Strings/Cello.arco.ff.sulA/Cello.arco.ff.sulA.Bb3.stereo.wav
+------------------------------------------------------------
+
+False negatives:
+  0.163
+
+False positives:
+  0.100
+  1.850
+
+Strings/Cello.arco.ff.sulC/Cello.arco.ff.sulC.A3.stereo.wav
+-----------------------------------------------------------
+Onset at   0.298 seconds, delay: -37ms.
+
+False positives:
+  0.513
+
+Strings/Cello.arco.ff.sulC/Cello.arco.ff.sulC.Ab3.stereo.wav
+------------------------------------------------------------
+
+False negatives:
+  0.343
+
+False positives:
+  0.287
+  0.427
+  0.552
+
+Strings/Cello.arco.ff.sulC/Cello.arco.ff.sulC.B3.stereo.wav
+-----------------------------------------------------------
+
+False negatives:
+  0.286
+
+False positives:
+  0.212
+
+Strings/Cello.arco.ff.sulC/Cello.arco.ff.sulC.Bb3.stereo.wav
+------------------------------------------------------------
+
+False negatives:
+  0.219
+
+False positives:
+  0.160
+  0.390
+
+Strings/Cello.arco.ff.sulC/Cello.arco.ff.sulC.C3.stereo.wav
+-----------------------------------------------------------
+Onset at   0.230 seconds, delay: -32ms.
+All onsets found!
+
+Strings/Cello.arco.ff.sulC/Cello.arco.ff.sulC.D3.stereo.wav
+-----------------------------------------------------------
+Onset at   0.203 seconds, delay: -47ms.
+All onsets found!
+
+Strings/Cello.arco.ff.sulC/Cello.arco.ff.sulC.Db3.stereo.wav
+------------------------------------------------------------
+Onset at   0.296 seconds, delay: -21ms.
+All onsets found!
+
+Strings/Cello.arco.ff.sulC/Cello.arco.ff.sulC.E3.stereo.wav
+-----------------------------------------------------------
+Onset at   0.233 seconds, delay: -11ms.
+
+False positives:
+  0.370
+
+Strings/Cello.arco.ff.sulC/Cello.arco.ff.sulC.Eb3.stereo.wav
+------------------------------------------------------------
+
+False negatives:
+  0.258
+
+False positives:
+  0.178
+
+Strings/Cello.arco.ff.sulC/Cello.arco.ff.sulC.F3.stereo.wav
+-----------------------------------------------------------
+
+False negatives:
+  0.232
+
+False positives:
+  0.165
+
+Strings/Cello.arco.ff.sulC/Cello.arco.ff.sulC.G3.stereo.wav
+-----------------------------------------------------------
+
+False negatives:
+  0.302
+
+False positives:
+  0.246
+
+Strings/Cello.arco.ff.sulC/Cello.arco.ff.sulC.Gb3.stereo.wav
+------------------------------------------------------------
+Onset at   0.302 seconds, delay: -30ms.
+All onsets found!
+
+Strings/Cello.arco.ff.sulD/Cello.arco.ff.sulD.A3.stereo.wav
+-----------------------------------------------------------
+Onset at   0.131 seconds, delay: -20ms.
+All onsets found!
+
+Strings/Cello.arco.ff.sulD/Cello.arco.ff.sulD.Ab3.stereo.wav
+------------------------------------------------------------
+
+False negatives:
+  0.161
+
+False positives:
+  0.101
+
+Strings/Cello.arco.ff.sulD/Cello.arco.ff.sulD.B3.stereo.wav
+-----------------------------------------------------------
+
+False negatives:
+  0.141
+
+False positives:
+  0.090
+  1.970
+
+Strings/Cello.arco.ff.sulD/Cello.arco.ff.sulD.Bb3.stereo.wav
+------------------------------------------------------------
+Onset at   0.187 seconds, delay: -28ms.
+
+False positives:
+  2.213
+
+Strings/Cello.arco.ff.sulD/Cello.arco.ff.sulD.D3.stereo.wav
+-----------------------------------------------------------
+Onset at   0.323 seconds, delay: -26ms.
+All onsets found!
+
+Strings/Cello.arco.ff.sulD/Cello.arco.ff.sulD.E3.stereo.wav
+-----------------------------------------------------------
+Onset at   0.137 seconds, delay: -23ms.
+All onsets found!
+
+Strings/Cello.arco.ff.sulD/Cello.arco.ff.sulD.Eb3.stereo.wav
+------------------------------------------------------------
+
+False negatives:
+  0.151
+
+False positives:
+  0.065
+  0.337
+
+Strings/Cello.arco.ff.sulD/Cello.arco.ff.sulD.F3.stereo.wav
+-----------------------------------------------------------
+
+False negatives:
+  0.130
+
+False positives:
+  0.073
+
+Strings/Cello.arco.ff.sulD/Cello.arco.ff.sulD.G3.stereo.wav
+-----------------------------------------------------------
+Onset at   0.147 seconds, delay: -37ms.
+
+False positives:
+  1.639
+  2.184
+
+Strings/Cello.arco.ff.sulD/Cello.arco.ff.sulD.Gb3.stereo.wav
+------------------------------------------------------------
+
+False negatives:
+  0.120
+
+False positives:
+  0.065
+
+Strings/Cello.arco.ff.sulG/Cello.arco.ff.sulG.A3.stereo.wav
+-----------------------------------------------------------
+
+False negatives:
+  0.221
+
+False positives:
+  0.132
+
+Strings/Cello.arco.ff.sulG/Cello.arco.ff.sulG.Ab3.stereo.wav
+------------------------------------------------------------
+
+False negatives:
+  0.216
+
+False positives:
+  0.136
+
+Strings/Cello.arco.ff.sulG/Cello.arco.ff.sulG.B3.stereo.wav
+-----------------------------------------------------------
+
+False negatives:
+  0.284
+
+False positives:
+  0.225
+  1.543
+
+Strings/Cello.arco.ff.sulG/Cello.arco.ff.sulG.Bb3.stereo.wav
+------------------------------------------------------------
+
+False negatives:
+  0.266
+
+False positives:
+  0.212
+
+Strings/Cello.arco.ff.sulG/Cello.arco.ff.sulG.C3.stereo.wav
+-----------------------------------------------------------
+Onset at   0.296 seconds, delay: -21ms.
+All onsets found!
+
+Strings/Cello.arco.ff.sulG/Cello.arco.ff.sulG.D3.stereo.wav
+-----------------------------------------------------------
+
+False negatives:
+  0.226
+
+False positives:
+  0.131
+
+Strings/Cello.arco.ff.sulG/Cello.arco.ff.sulG.Db3.stereo.wav
+------------------------------------------------------------
+Onset at   0.246 seconds, delay: -42ms.
+
+False positives:
+  0.371
+
+Strings/Cello.arco.ff.sulG/Cello.arco.ff.sulG.E3.stereo.wav
+-----------------------------------------------------------
+Onset at   0.241 seconds, delay: -38ms.
+All onsets found!
+
+Strings/Cello.arco.ff.sulG/Cello.arco.ff.sulG.Eb3.stereo.wav
+------------------------------------------------------------
+
+False negatives:
+  0.260
+
+False positives:
+  0.209
+
+Strings/Cello.arco.ff.sulG/Cello.arco.ff.sulG.F3.stereo.wav
+-----------------------------------------------------------
+Onset at   0.223 seconds, delay: -34ms.
+All onsets found!
+
+Strings/Cello.arco.ff.sulG/Cello.arco.ff.sulG.G3.stereo.wav
+-----------------------------------------------------------
+Onset at   0.259 seconds, delay: -26ms.
+All onsets found!
+
+Strings/Cello.arco.ff.sulG/Cello.arco.ff.sulG.Gb3.stereo.wav
+------------------------------------------------------------
+Onset at   0.198 seconds, delay: -31ms.
+All onsets found!
+
+Strings/Cello.pizz.ff.sulA/Cello.pizz.ff.sulA.A3.stereo.wav
+-----------------------------------------------------------
+Onset at   0.086 seconds, delay:  -2ms.
+All onsets found!
+
+Strings/Cello.pizz.ff.sulA/Cello.pizz.ff.sulA.B3.stereo.wav
+-----------------------------------------------------------
+Onset at   0.167 seconds, delay: -11ms.
+All onsets found!
+
+Strings/Cello.pizz.ff.sulA/Cello.pizz.ff.sulA.Bb3.stereo.wav
+------------------------------------------------------------
+Onset at   0.151 seconds, delay: -49ms.
+All onsets found!
+
+Strings/Cello.pizz.ff.sulC/Cello.pizz.ff.sulC.A3.stereo.wav
+-----------------------------------------------------------
+Onset at   0.066 seconds, delay:  -8ms.
+All onsets found!
+
+Strings/Cello.pizz.ff.sulC/Cello.pizz.ff.sulC.Ab3.stereo.wav
+------------------------------------------------------------
+Onset at   0.074 seconds, delay: -12ms.
+All onsets found!
+
+Strings/Cello.pizz.ff.sulC/Cello.pizz.ff.sulC.B3.stereo.wav
+-----------------------------------------------------------
+Onset at   0.065 seconds, delay:  -9ms.
+All onsets found!
+
+Strings/Cello.pizz.ff.sulC/Cello.pizz.ff.sulC.Bb3.stereo.wav
+------------------------------------------------------------
+Onset at   0.076 seconds, delay:  -6ms.
+All onsets found!
+
+Strings/Cello.pizz.ff.sulC/Cello.pizz.ff.sulC.C3.stereo.wav
+-----------------------------------------------------------
+Onset at   0.087 seconds, delay: -32ms.
+All onsets found!
+
+Strings/Cello.pizz.ff.sulC/Cello.pizz.ff.sulC.D3.stereo.wav
+-----------------------------------------------------------
+Onset at   0.088 seconds, delay: -36ms.
+All onsets found!
+
+Strings/Cello.pizz.ff.sulC/Cello.pizz.ff.sulC.Db3.stereo.wav
+------------------------------------------------------------
+Onset at   0.092 seconds, delay: -36ms.
+All onsets found!
+
+Strings/Cello.pizz.ff.sulC/Cello.pizz.ff.sulC.E3.stereo.wav
+-----------------------------------------------------------
+Onset at   0.078 seconds, delay: -15ms.
+All onsets found!
+
+Strings/Cello.pizz.ff.sulC/Cello.pizz.ff.sulC.Eb3.stereo.wav
+------------------------------------------------------------
+Onset at   0.087 seconds, delay: -31ms.
+All onsets found!
+
+Strings/Cello.pizz.ff.sulC/Cello.pizz.ff.sulC.F3.stereo.wav
+-----------------------------------------------------------
+Onset at   0.064 seconds, delay:  -6ms.
+All onsets found!
+
+Strings/Cello.pizz.ff.sulC/Cello.pizz.ff.sulC.G3.stereo.wav
+-----------------------------------------------------------
+Onset at   0.088 seconds, delay: -28ms.
+All onsets found!
+
+Strings/Cello.pizz.ff.sulC/Cello.pizz.ff.sulC.Gb3.stereo.wav
+------------------------------------------------------------
+Onset at   0.079 seconds, delay: -12ms.
+All onsets found!
+
+Strings/Cello.pizz.ff.sulD/Cello.pizz.ff.sulD.A3.stereo.wav
+-----------------------------------------------------------
+Onset at   0.153 seconds, delay: -22ms.
+All onsets found!
+
+Strings/Cello.pizz.ff.sulD/Cello.pizz.ff.sulD.Ab3.stereo.wav
+------------------------------------------------------------
+
+False negatives:
+  0.179
+
+False positives:
+  0.070
+
+Strings/Cello.pizz.ff.sulD/Cello.pizz.ff.sulD.B3.stereo.wav
+-----------------------------------------------------------
+Onset at   0.122 seconds, delay: -49ms.
+All onsets found!
+
+Strings/Cello.pizz.ff.sulD/Cello.pizz.ff.sulD.Bb3.stereo.wav
+------------------------------------------------------------
+Onset at   0.107 seconds, delay: -10ms.
+All onsets found!
+
+Strings/Cello.pizz.ff.sulD/Cello.pizz.ff.sulD.D3.stereo.wav
+-----------------------------------------------------------
+Onset at   0.184 seconds, delay: -38ms.
+All onsets found!
+
+Strings/Cello.pizz.ff.sulD/Cello.pizz.ff.sulD.E3.stereo.wav
+-----------------------------------------------------------
+
+False negatives:
+  0.165
+
+False positives:
+  0.104
+
+Strings/Cello.pizz.ff.sulD/Cello.pizz.ff.sulD.Eb3.stereo.wav
+------------------------------------------------------------
+
+False negatives:
+  0.151
+
+False positives:
+  0.099
+
+Strings/Cello.pizz.ff.sulD/Cello.pizz.ff.sulD.F3.stereo.wav
+-----------------------------------------------------------
+Onset at   0.110 seconds, delay: -28ms.
+All onsets found!
+
+Strings/Cello.pizz.ff.sulD/Cello.pizz.ff.sulD.G3.stereo.wav
+-----------------------------------------------------------
+Onset at   0.135 seconds, delay: -31ms.
+All onsets found!
+
+Strings/Cello.pizz.ff.sulD/Cello.pizz.ff.sulD.Gb3.stereo.wav
+------------------------------------------------------------
+
+False negatives:
+  0.144
+
+False positives:
+  0.089
+
+Strings/Cello.pizz.ff.sulG/Cello.pizz.ff.sulG.A3.stereo.wav
+-----------------------------------------------------------
+Onset at   0.108 seconds, delay: -44ms.
+All onsets found!
+
+Strings/Cello.pizz.ff.sulG/Cello.pizz.ff.sulG.Ab3.stereo.wav
+------------------------------------------------------------
+Onset at   0.138 seconds, delay:  -8ms.
+All onsets found!
+
+Strings/Cello.pizz.ff.sulG/Cello.pizz.ff.sulG.B3.stereo.wav
+-----------------------------------------------------------
+Onset at   0.102 seconds, delay: -36ms.
+All onsets found!
+
+Strings/Cello.pizz.ff.sulG/Cello.pizz.ff.sulG.Bb3.stereo.wav
+------------------------------------------------------------
+Onset at   0.158 seconds, delay: -17ms.
+All onsets found!
+
+Strings/Cello.pizz.ff.sulG/Cello.pizz.ff.sulG.C3.stereo.wav
+-----------------------------------------------------------
+
+False negatives:
+  0.102
+
+False positives:
+  0.020
+
+Strings/Cello.pizz.ff.sulG/Cello.pizz.ff.sulG.D3.stereo.wav
+-----------------------------------------------------------
+Onset at   0.071 seconds, delay: -15ms.
+All onsets found!
+
+Strings/Cello.pizz.ff.sulG/Cello.pizz.ff.sulG.Db3.stereo.wav
+------------------------------------------------------------
+Onset at   0.074 seconds, delay: -11ms.
+All onsets found!
+
+Strings/Cello.pizz.ff.sulG/Cello.pizz.ff.sulG.E3.stereo.wav
+-----------------------------------------------------------
+Onset at   0.070 seconds, delay:  -8ms.
+All onsets found!
+
+Strings/Cello.pizz.ff.sulG/Cello.pizz.ff.sulG.Eb3.stereo.wav
+------------------------------------------------------------
+
+False negatives:
+  0.107
+
+False positives:
+  0.055
+
+Strings/Cello.pizz.ff.sulG/Cello.pizz.ff.sulG.F3.stereo.wav
+-----------------------------------------------------------
+Onset at   0.072 seconds, delay: -16ms.
+All onsets found!
+
+Strings/Cello.pizz.ff.sulG/Cello.pizz.ff.sulG.G3.stereo.wav
+-----------------------------------------------------------
+Onset at   0.129 seconds, delay: -47ms.
+All onsets found!
+
+Strings/Cello.pizz.ff.sulG/Cello.pizz.ff.sulG.Gb3.stereo.wav
+------------------------------------------------------------
+Onset at   0.086 seconds, delay: -26ms.
+All onsets found!
+
+Strings/Viola.arco.ff.sulC/Viola.arco.ff.sulC.A3.stereo.wav
+-----------------------------------------------------------
+Onset at   0.068 seconds
+All onsets found!
+
+Strings/Viola.arco.ff.sulC/Viola.arco.ff.sulC.Ab3.stereo.wav
+------------------------------------------------------------
+Onset at   0.166 seconds, delay: -38ms.
+All onsets found!
+
+Strings/Viola.arco.ff.sulC/Viola.arco.ff.sulC.B3.stereo.wav
+-----------------------------------------------------------
+Onset at   0.359 seconds, delay:  -6ms.
+All onsets found!
+
+Strings/Viola.arco.ff.sulC/Viola.arco.ff.sulC.Bb3.stereo.wav
+------------------------------------------------------------
+
+False negatives:
+  0.239
+
+False positives:
+  0.041
+
+Strings/Viola.arco.ff.sulC/Viola.arco.ff.sulC.C3.stereo.wav
+-----------------------------------------------------------
+Onset at   0.073 seconds, delay: -13ms.
+
+False positives:
+  0.448
+
+Strings/Viola.arco.ff.sulC/Viola.arco.ff.sulC.D3.stereo.wav
+-----------------------------------------------------------
+Onset at   0.083 seconds, delay: -20ms.
+All onsets found!
+
+Strings/Viola.arco.ff.sulC/Viola.arco.ff.sulC.Db3.stereo.wav
+------------------------------------------------------------
+Onset at   0.080 seconds, delay: -18ms.
+All onsets found!
+
+Strings/Viola.arco.ff.sulC/Viola.arco.ff.sulC.E3.stereo.wav
+-----------------------------------------------------------
+Onset at   0.131 seconds, delay: -32ms.
+All onsets found!
+
+Strings/Viola.arco.ff.sulC/Viola.arco.ff.sulC.Eb3.stereo.wav
+------------------------------------------------------------
+Onset at   0.062 seconds, delay: -15ms.
+All onsets found!
+
+Strings/Viola.arco.ff.sulC/Viola.arco.ff.sulC.F3.stereo.wav
+-----------------------------------------------------------
+Onset at   0.086 seconds, delay: -22ms.
+
+False positives:
+  0.348
+
+Strings/Viola.arco.ff.sulC/Viola.arco.ff.sulC.G3.stereo.wav
+-----------------------------------------------------------
+Onset at   0.136 seconds, delay: -15ms.
+
+False positives:
+  0.393
+
+Strings/Viola.arco.ff.sulC/Viola.arco.ff.sulC.Gb3.stereo.wav
+------------------------------------------------------------
+Onset at   0.140 seconds, delay: -29ms.
+All onsets found!
+
+Strings/Viola.arco.ff.sulG/Viola.arco.ff.sulG.A3.stereo.wav
+-----------------------------------------------------------
+Onset at   0.213 seconds, delay:  -9ms.
+
+False positives:
+  0.400
+
+Strings/Viola.arco.ff.sulG/Viola.arco.ff.sulG.Ab3.stereo.wav
+------------------------------------------------------------
+
+False negatives:
+  0.288
+
+False positives:
+  0.236
+
+Strings/Viola.arco.ff.sulG/Viola.arco.ff.sulG.B3.stereo.wav
+-----------------------------------------------------------
+Onset at   0.148 seconds, delay: -45ms.
+All onsets found!
+
+Strings/Viola.arco.ff.sulG/Viola.arco.ff.sulG.Bb3.stereo.wav
+------------------------------------------------------------
+Onset at   0.247 seconds, delay: -25ms.
+All onsets found!
+
+Strings/Viola.arco.ff.sulG/Viola.arco.ff.sulG.G3.stereo.wav
+-----------------------------------------------------------
+Onset at   0.551 seconds, delay: -14ms.
+All onsets found!
+
+Strings/Viola.pizz.ff.sulC/Viola.pizz.ff.sulC.A3.stereo.wav
+-----------------------------------------------------------
+
+False negatives:
+  0.171
+
+False positives:
+  0.120
+
+Strings/Viola.pizz.ff.sulC/Viola.pizz.ff.sulC.Ab3.stereo.wav
+------------------------------------------------------------
+Onset at   0.166 seconds, delay: -15ms.
+All onsets found!
+
+Strings/Viola.pizz.ff.sulC/Viola.pizz.ff.sulC.B3.stereo.wav
+-----------------------------------------------------------
+Onset at   0.140 seconds, delay: -23ms.
+All onsets found!
+
+Strings/Viola.pizz.ff.sulC/Viola.pizz.ff.sulC.Bb3.stereo.wav
+------------------------------------------------------------
+Onset at   0.188 seconds, delay:  -1ms.
+All onsets found!
+
+Strings/Viola.pizz.ff.sulC/Viola.pizz.ff.sulC.C3.stereo.wav
+-----------------------------------------------------------
+Onset at   0.168 seconds, delay:  -7ms.
+All onsets found!
+
+Strings/Viola.pizz.ff.sulC/Viola.pizz.ff.sulC.D3.stereo.wav
+-----------------------------------------------------------
+Onset at   0.157 seconds, delay: -11ms.
+All onsets found!
+
+Strings/Viola.pizz.ff.sulC/Viola.pizz.ff.sulC.Db3.stereo.wav
+------------------------------------------------------------
+Onset at   0.145 seconds, delay:  -7ms.
+All onsets found!
+
+Strings/Viola.pizz.ff.sulC/Viola.pizz.ff.sulC.E3.stereo.wav
+-----------------------------------------------------------
+Onset at   0.160 seconds, delay: -11ms.
+All onsets found!
+
+Strings/Viola.pizz.ff.sulC/Viola.pizz.ff.sulC.Eb3.stereo.wav
+------------------------------------------------------------
+Onset at   0.140 seconds, delay: -19ms.
+All onsets found!
+
+Strings/Viola.pizz.ff.sulC/Viola.pizz.ff.sulC.F3.stereo.wav
+-----------------------------------------------------------
+Onset at   0.206 seconds, delay:  -2ms.
+All onsets found!
+
+Strings/Viola.pizz.ff.sulC/Viola.pizz.ff.sulC.G3.stereo.wav
+-----------------------------------------------------------
+Onset at   0.246 seconds
+All onsets found!
+
+Strings/Viola.pizz.ff.sulC/Viola.pizz.ff.sulC.Gb3.stereo.wav
+------------------------------------------------------------
+Onset at   0.141 seconds, delay: -35ms.
+All onsets found!
+
+Strings/Viola.pizz.ff.sulG/Viola.pizz.ff.sulG.A3.stereo.wav
+-----------------------------------------------------------
+Onset at   0.110 seconds, delay: -12ms.
+All onsets found!
+
+Strings/Viola.pizz.ff.sulG/Viola.pizz.ff.sulG.Ab3.stereo.wav
+------------------------------------------------------------
+Onset at   0.130 seconds, delay: -24ms.
+All onsets found!
+
+Strings/Viola.pizz.ff.sulG/Viola.pizz.ff.sulG.B3.stereo.wav
+-----------------------------------------------------------
+Onset at   0.089 seconds, delay: -23ms.
+All onsets found!
+
+Strings/Viola.pizz.ff.sulG/Viola.pizz.ff.sulG.Bb3.stereo.wav
+------------------------------------------------------------
+Onset at   0.127 seconds, delay: -11ms.
+All onsets found!
+
+Strings/Viola.pizz.ff.sulG/Viola.pizz.ff.sulG.G3.stereo.wav
+-----------------------------------------------------------
+Onset at   0.109 seconds, delay:  -4ms.
+All onsets found!
+
+Strings/Violin.arco.ff.sulG/Violin.arco.ff.sulG.A3.stereo.wav
+-------------------------------------------------------------
+Onset at   0.035 seconds, delay: -13ms.
+
+False positives:
+  0.610
+
+Strings/Violin.arco.ff.sulG/Violin.arco.ff.sulG.Ab3.stereo.wav
+--------------------------------------------------------------
+Onset at   0.020 seconds
+All onsets found!
+
+Strings/Violin.arco.ff.sulG/Violin.arco.ff.sulG.B3.stereo.wav
+-------------------------------------------------------------
+Onset at   0.041 seconds, delay: -11ms.
+All onsets found!
+
+Strings/Violin.arco.ff.sulG/Violin.arco.ff.sulG.Bb3.stereo.wav
+--------------------------------------------------------------
+Onset at   0.044 seconds, delay:  -8ms.
+All onsets found!
+
+Strings/Violin.arco.ff.sulG/Violin.arco.ff.sulG.G3.stereo.wav
+-------------------------------------------------------------
+Onset at   0.006 seconds, delay:  23ms.
+
+False positives:
+  0.746
+
+Strings/Violin.pizz.ff.sulG/Violin.pizz.ff.sulG.A3.stereo.wav
+-------------------------------------------------------------
+Onset at   0.067 seconds, delay:  -2ms.
+All onsets found!
+
+Strings/Violin.pizz.ff.sulG/Violin.pizz.ff.sulG.Ab3.stereo.wav
+--------------------------------------------------------------
+Onset at   0.070 seconds, delay: -25ms.
+All onsets found!
+
+Strings/Violin.pizz.ff.sulG/Violin.pizz.ff.sulG.B3.stereo.wav
+-------------------------------------------------------------
+Onset at   0.079 seconds, delay: -13ms.
+All onsets found!
+
+Strings/Violin.pizz.ff.sulG/Violin.pizz.ff.sulG.Bb3.stereo.wav
+--------------------------------------------------------------
+Onset at   0.085 seconds, delay: -16ms.
+All onsets found!
+
+Strings/Violin.pizz.ff.sulG/Violin.pizz.ff.sulG.G3.stereo.wav
+-------------------------------------------------------------
+Onset at   0.112 seconds, delay: -19ms.
+All onsets found!
+
+Woodwind/AltoFlute.vib.ff/AltoFlute.vib.ff.A3.stereo.wav
+--------------------------------------------------------
+
+False negatives:
+  0.113
+
+False positives:
+  0.060
+
+Woodwind/AltoFlute.vib.ff/AltoFlute.vib.ff.Ab3.stereo.wav
+---------------------------------------------------------
+
+False negatives:
+  0.244
+
+False positives:
+  0.020
+  0.701
+
+Woodwind/AltoFlute.vib.ff/AltoFlute.vib.ff.B3.stereo.wav
+--------------------------------------------------------
+
+False negatives:
+  0.098
+
+False positives:
+  0.041
+
+Woodwind/AltoFlute.vib.ff/AltoFlute.vib.ff.Bb3.stereo.wav
+---------------------------------------------------------
+Onset at   0.089 seconds, delay: -48ms.
+
+False positives:
+  1.574
+
+Woodwind/AltoFlute.vib.ff/AltoFlute.vib.ff.G3.stereo.wav
+--------------------------------------------------------
+
+False negatives:
+  0.090
+
+False positives:
+  0.022
+
+Woodwind/AltoSax.NoVib.ff/AltoSax.NoVib.ff.A3.stereo.wav
+--------------------------------------------------------
+
+False negatives:
+  0.148
+
+False positives:
+  0.059
+
+Woodwind/AltoSax.NoVib.ff/AltoSax.NoVib.ff.Ab3.stereo.wav
+---------------------------------------------------------
+
+False negatives:
+  0.147
+
+False positives:
+  0.074
+
+Woodwind/AltoSax.NoVib.ff/AltoSax.NoVib.ff.B3.stereo.wav
+--------------------------------------------------------
+Onset at   0.170 seconds, delay: -44ms.
+All onsets found!
+
+Woodwind/AltoSax.NoVib.ff/AltoSax.NoVib.ff.Bb3.stereo.wav
+---------------------------------------------------------
+Onset at   0.120 seconds, delay: -33ms.
+All onsets found!
+
+Woodwind/AltoSax.NoVib.ff/AltoSax.NoVib.ff.D3.stereo.wav
+--------------------------------------------------------
+
+False negatives:
+  0.161
+
+False positives:
+  0.070
+  0.521
+
+Woodwind/AltoSax.NoVib.ff/AltoSax.NoVib.ff.Db3.stereo.wav
+---------------------------------------------------------
+Onset at   0.109 seconds, delay: -39ms.
+All onsets found!
+
+Woodwind/AltoSax.NoVib.ff/AltoSax.NoVib.ff.E3.stereo.wav
+--------------------------------------------------------
+
+False negatives:
+  0.163
+
+False positives:
+  0.108
+  2.183
+
+Woodwind/AltoSax.NoVib.ff/AltoSax.NoVib.ff.Eb3.stereo.wav
+---------------------------------------------------------
+
+False negatives:
+  0.152
+
+False positives:
+  0.092
+
+Woodwind/AltoSax.NoVib.ff/AltoSax.NoVib.ff.F3.stereo.wav
+--------------------------------------------------------
+
+False negatives:
+  0.139
+
+False positives:
+  0.069
+
+Woodwind/AltoSax.NoVib.ff/AltoSax.NoVib.ff.G3.stereo.wav
+--------------------------------------------------------
+
+False negatives:
+  0.187
+
+False positives:
+  0.064
+
+Woodwind/AltoSax.NoVib.ff/AltoSax.NoVib.ff.Gb3.stereo.wav
+---------------------------------------------------------
+
+False negatives:
+  0.168
+
+False positives:
+  0.113
+
+Woodwind/AltoSax.vib.ff/AltoSax.vib.ff.A3.stereo.wav
+----------------------------------------------------
+Onset at   0.218 seconds, delay: -40ms.
+All onsets found!
+
+Woodwind/AltoSax.vib.ff/AltoSax.vib.ff.Ab3.stereo.wav
+-----------------------------------------------------
+
+False negatives:
+  0.305
+
+False positives:
+  0.215
+
+Woodwind/AltoSax.vib.ff/AltoSax.vib.ff.B3.stereo.wav
+----------------------------------------------------
+
+False negatives:
+  0.330
+
+False positives:
+  0.256
+
+Woodwind/AltoSax.vib.ff/AltoSax.vib.ff.Bb3.stereo.wav
+-----------------------------------------------------
+Onset at   0.296 seconds, delay: -48ms.
+All onsets found!
+
+Woodwind/AltoSax.vib.ff/AltoSax.vib.ff.D3.stereo.wav
+----------------------------------------------------
+
+False negatives:
+  0.227
+
+False positives:
+  0.175
+
+Woodwind/AltoSax.vib.ff/AltoSax.vib.ff.Db3.stereo.wav
+-----------------------------------------------------
+
+False negatives:
+  0.297
+
+False positives:
+  0.050
+
+Woodwind/AltoSax.vib.ff/AltoSax.vib.ff.E3.stereo.wav
+----------------------------------------------------
+Onset at   0.299 seconds, delay: -14ms.
+All onsets found!
+
+Woodwind/AltoSax.vib.ff/AltoSax.vib.ff.Eb3.stereo.wav
+-----------------------------------------------------
+
+False negatives:
+  0.317
+
+False positives:
+  0.162
+
+Woodwind/AltoSax.vib.ff/AltoSax.vib.ff.F3.stereo.wav
+----------------------------------------------------
+
+False negatives:
+  0.265
+
+False positives:
+  0.211
+
+Woodwind/AltoSax.vib.ff/AltoSax.vib.ff.G3.stereo.wav
+----------------------------------------------------
+Onset at   0.237 seconds, delay: -15ms.
+All onsets found!
+
+Woodwind/AltoSax.vib.ff/AltoSax.vib.ff.Gb3.stereo.wav
+-----------------------------------------------------
+
+False negatives:
+  0.324
+
+False positives:
+  0.251
+
+Woodwind/BassClarinet.ff/BassClarinet.ff.A3.stereo.wav
+------------------------------------------------------
+
+False negatives:
+  0.169
+
+False positives:
+  0.040
+
+Woodwind/BassClarinet.ff/BassClarinet.ff.Ab3.stereo.wav
+-------------------------------------------------------
+
+False negatives:
+  0.107
+
+False positives:
+  0.040
+
+Woodwind/BassClarinet.ff/BassClarinet.ff.B3.stereo.wav
+------------------------------------------------------
+Onset at   0.121 seconds, delay: -33ms.
+All onsets found!
+
+Woodwind/BassClarinet.ff/BassClarinet.ff.Bb3.stereo.wav
+-------------------------------------------------------
+
+False negatives:
+  0.114
+
+False positives:
+  0.022
+
+Woodwind/BassClarinet.ff/BassClarinet.ff.C3.stereo.wav
+------------------------------------------------------
+Onset at   0.137 seconds, delay:  -3ms.
+All onsets found!
+
+Woodwind/BassClarinet.ff/BassClarinet.ff.D3.stereo.wav
+------------------------------------------------------
+Onset at   0.116 seconds, delay: -48ms.
+All onsets found!
+
+Woodwind/BassClarinet.ff/BassClarinet.ff.Db3.stereo.wav
+-------------------------------------------------------
+Onset at   0.078 seconds, delay:  -9ms.
+All onsets found!
+
+Woodwind/BassClarinet.ff/BassClarinet.ff.E3.stereo.wav
+------------------------------------------------------
+Onset at   0.064 seconds, delay: -23ms.
+All onsets found!
+
+Woodwind/BassClarinet.ff/BassClarinet.ff.Eb3.stereo.wav
+-------------------------------------------------------
+Onset at   0.128 seconds, delay: -24ms.
+All onsets found!
+
+Woodwind/BassClarinet.ff/BassClarinet.ff.F3.stereo.wav
+------------------------------------------------------
+
+False negatives:
+  0.173
+
+False positives:
+  0.111
+
+Woodwind/BassClarinet.ff/BassClarinet.ff.G3.stereo.wav
+------------------------------------------------------
+Onset at   0.112 seconds, delay: -41ms.
+All onsets found!
+
+Woodwind/BassClarinet.ff/BassClarinet.ff.Gb3.stereo.wav
+-------------------------------------------------------
+Onset at   0.060 seconds, delay: -19ms.
+All onsets found!
+
+Woodwind/BassFlute.ff/BassFlute.ff.A3.stereo.wav
+------------------------------------------------
+Onset at   0.101 seconds, delay: -31ms.
+All onsets found!
+
+Woodwind/BassFlute.ff/BassFlute.ff.Ab3.stereo.wav
+-------------------------------------------------
+Onset at   0.108 seconds, delay: -46ms.
+
+False positives:
+  1.193
+
+Woodwind/BassFlute.ff/BassFlute.ff.B3.stereo.wav
+------------------------------------------------
+Onset at   0.072 seconds, delay:  -8ms.
+All onsets found!
+
+Woodwind/BassFlute.ff/BassFlute.ff.Bb3.stereo.wav
+-------------------------------------------------
+Onset at   0.073 seconds, delay: -12ms.
+All onsets found!
+
+Woodwind/BassFlute.ff/BassFlute.ff.C3.stereo.wav
+------------------------------------------------
+Onset at   0.067 seconds, delay: -11ms.
+All onsets found!
+
+Woodwind/BassFlute.ff/BassFlute.ff.D3.stereo.wav
+------------------------------------------------
+Onset at   0.088 seconds, delay: -45ms.
+All onsets found!
+
+Woodwind/BassFlute.ff/BassFlute.ff.Db3.stereo.wav
+-------------------------------------------------
+
+False negatives:
+  0.173
+
+False positives:
+  0.061
+
+Woodwind/BassFlute.ff/BassFlute.ff.E3.stereo.wav
+------------------------------------------------
+Onset at   0.107 seconds, delay:  -3ms.
+All onsets found!
+
+Woodwind/BassFlute.ff/BassFlute.ff.Eb3.stereo.wav
+-------------------------------------------------
+
+False negatives:
+  0.126
+
+False positives:
+  0.061
+  0.938
+
+Woodwind/BassFlute.ff/BassFlute.ff.F3.stereo.wav
+------------------------------------------------
+Onset at   0.131 seconds, delay: -41ms.
+All onsets found!
+
+Woodwind/BassFlute.ff/BassFlute.ff.G3.stereo.wav
+------------------------------------------------
+Onset at   0.090 seconds, delay: -36ms.
+All onsets found!
+
+Woodwind/BassFlute.ff/BassFlute.ff.Gb3.stereo.wav
+-------------------------------------------------
+
+False negatives:
+  0.115
+
+False positives:
+  0.059
+
+Woodwind/Bassoon.ff/Bassoon.ff.A3.stereo.wav
+--------------------------------------------
+Onset at   0.024 seconds, delay:  -4ms.
+All onsets found!
+
+Woodwind/Bassoon.ff/Bassoon.ff.Ab3.stereo.wav
+---------------------------------------------
+Onset at   0.021 seconds
+All onsets found!
+
+Woodwind/Bassoon.ff/Bassoon.ff.Bb3.stereo.wav
+---------------------------------------------
+Onset at   0.032 seconds, delay: -10ms.
+All onsets found!
+
+Woodwind/Bassoon.ff/Bassoon.ff.C3.stereo.wav
+--------------------------------------------
+Onset at   0.025 seconds, delay:  -1ms.
+All onsets found!
+
+Woodwind/Bassoon.ff/Bassoon.ff.D3.stereo.wav
+--------------------------------------------
+Onset at   0.022 seconds, delay:   3ms.
+All onsets found!
+
+Woodwind/Bassoon.ff/Bassoon.ff.Db3.stereo.wav
+---------------------------------------------
+Onset at   0.025 seconds, delay:  -4ms.
+All onsets found!
+
+Woodwind/Bassoon.ff/Bassoon.ff.E3.stereo.wav
+--------------------------------------------
+Onset at   0.029 seconds, delay:  -6ms.
+All onsets found!
+
+Woodwind/Bassoon.ff/Bassoon.ff.Eb3.stereo.wav
+---------------------------------------------
+Onset at   0.022 seconds, delay:   3ms.
+All onsets found!
+
+Woodwind/Bassoon.ff/Bassoon.ff.F3.stereo.wav
+--------------------------------------------
+Onset at   0.022 seconds, delay:  -1ms.
+All onsets found!
+
+Woodwind/Bassoon.ff/Bassoon.ff.G3.stereo.wav
+--------------------------------------------
+Onset at   0.020 seconds
+All onsets found!
+
+Woodwind/Bassoon.ff/Bassoon.ff.Gb3.stereo.wav
+---------------------------------------------
+Onset at   0.027 seconds, delay:  -6ms.
+All onsets found!
+
+Woodwind/BbClarinet.ff/BbClarinet.ff.A3.stereo.wav
+--------------------------------------------------
+
+False negatives:
+  0.667
+
+False positives:
+  0.564
+
+Woodwind/BbClarinet.ff/BbClarinet.ff.Ab3.stereo.wav
+---------------------------------------------------
+
+False negatives:
+  0.567
+
+False positives:
+  0.499
+
+Woodwind/BbClarinet.ff/BbClarinet.ff.B3.stereo.wav
+--------------------------------------------------
+
+False negatives:
+  0.550
+
+False positives:
+  0.472
+
+Woodwind/BbClarinet.ff/BbClarinet.ff.Bb3.stereo.wav
+---------------------------------------------------
+
+False negatives:
+  0.764
+
+False positives:
+  0.645
+
+Woodwind/BbClarinet.ff/BbClarinet.ff.D3.stereo.wav
+--------------------------------------------------
+
+False negatives:
+  0.519
+
+False positives:
+  0.030
+
+Woodwind/BbClarinet.ff/BbClarinet.ff.E3.stereo.wav
+--------------------------------------------------
+
+False negatives:
+  0.675
+
+False positives:
+  0.086
+
+Woodwind/BbClarinet.ff/BbClarinet.ff.Eb3.stereo.wav
+---------------------------------------------------
+Onset at   0.659 seconds, delay: -15ms.
+All onsets found!
+
+Woodwind/BbClarinet.ff/BbClarinet.ff.F3.stereo.wav
+--------------------------------------------------
+
+False negatives:
+  0.754
+
+False positives:
+  0.603
+
+Woodwind/BbClarinet.ff/BbClarinet.ff.G3.stereo.wav
+--------------------------------------------------
+
+False negatives:
+  0.744
+
+False positives:
+  0.683
+
+Woodwind/BbClarinet.ff/BbClarinet.ff.Gb3.stereo.wav
+---------------------------------------------------
+
+False negatives:
+  0.647
+
+False positives:
+  0.558
+
+Woodwind/EbClarinet.ff/EbClarinet.ff.A3.stereo.wav
+--------------------------------------------------
+Onset at   0.192 seconds, delay: -33ms.
+All onsets found!
+
+Woodwind/EbClarinet.ff/EbClarinet.ff.Ab3.stereo.wav
+---------------------------------------------------
+
+False negatives:
+  0.143
+
+False positives:
+  0.084
+
+Woodwind/EbClarinet.ff/EbClarinet.ff.B3.stereo.wav
+--------------------------------------------------
+Onset at   0.186 seconds, delay: -48ms.
+All onsets found!
+
+Woodwind/EbClarinet.ff/EbClarinet.ff.Bb3.stereo.wav
+---------------------------------------------------
+
+False negatives:
+  0.167
+
+False positives:
+  0.073
+
+Woodwind/EbClarinet.ff/EbClarinet.ff.G3.stereo.wav
+--------------------------------------------------
+Onset at   0.155 seconds, delay: -48ms.
+All onsets found!
+
+Woodwind/Flute.nonvib.ff/Flute.nonvib.ff.B3.stereo.wav
+------------------------------------------------------
+Onset at   0.169 seconds, delay:  25ms.
+
+False positives:
+  0.059
+  0.846
+
+Woodwind/Flute.vib.ff/Flute.vib.ff.B3.stereo.wav
+------------------------------------------------
+Onset at   0.047 seconds, delay: -22ms.
+All onsets found!
+
+Woodwind/Oboe.ff/Oboe.ff.B3.stereo.wav
+--------------------------------------
+Onset at   0.063 seconds, delay: -41ms.
+All onsets found!
+
+Woodwind/Oboe.ff/Oboe.ff.Bb3.stereo.wav
+---------------------------------------
+Onset at   0.045 seconds, delay: -24ms.
+All onsets found!
+
+Woodwind/SopSax.nonvib.ff/SopSax.nonvib.ff.A3.stereo.wav
+--------------------------------------------------------
+Onset at   0.242 seconds, delay:  -2ms.
+All onsets found!
+
+Woodwind/SopSax.nonvib.ff/SopSax.nonvib.ff.Ab3.stereo.wav
+---------------------------------------------------------
+
+False negatives:
+  0.199
+
+False positives:
+  0.129
+  0.357
+
+Woodwind/SopSax.nonvib.ff/SopSax.nonvib.ff.B3.stereo.wav
+--------------------------------------------------------
+Onset at   0.249 seconds, delay:  -9ms.
+All onsets found!
+
+Woodwind/SopSax.nonvib.ff/SopSax.nonvib.ff.Bb3.stereo.wav
+---------------------------------------------------------
+Onset at   0.338 seconds, delay:  -4ms.
+All onsets found!
+
+Woodwind/SopSax.vib.ff/SopSax.vib.ff.A3.stereo.wav
+--------------------------------------------------
+
+False negatives:
+  0.164
+
+False positives:
+  0.065
+
+Woodwind/SopSax.vib.ff/SopSax.vib.ff.Ab3.stereo.wav
+---------------------------------------------------
+
+False negatives:
+  0.150
+
+False positives:
+  0.040
+
+Woodwind/SopSax.vib.ff/SopSax.vib.ff.B3.stereo.wav
+--------------------------------------------------
+Onset at   0.154 seconds, delay: -24ms.
+All onsets found!
+
+Woodwind/SopSax.vib.ff/SopSax.vib.ff.Bb3.stereo.wav
+---------------------------------------------------
+
+False negatives:
+  0.159
+
+False positives:
+  0.055
+
+
+Stats
+=====
+Total number of onsets:     1436
+Total number of detections: 663
+Total true positives:       507
+Total false positives:      156
+Total erroneous detections: 156
+
+Largest advance: -49ms
+Mean advance:    -40.500ms
+Largest delay:    40ms
+Mean delay:       21.000ms
+Mean difference:   0.075ms
+Number of advances <-15.00ms: 204
+Number of delays   > 15.00ms: 14
+
+Precision:             76.4706%
+Recall:                35.3064%
+F-measure:             48.3087%
+Precision (tot. err.): 76.4706%
+F-measure (tot. err.): 48.3087%
+

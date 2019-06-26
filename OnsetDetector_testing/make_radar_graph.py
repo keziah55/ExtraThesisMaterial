@@ -1,9 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Created on Wed Apr 17 12:38:57 2019
-
-@author: keziah
+Make radar plots of precision, recall and F-measure
 """
 
 import numpy as np

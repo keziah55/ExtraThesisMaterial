@@ -1,0 +1,731 @@
+Check onsetdetector results
+===========================
+
+Wed Apr 24 13:09:40 2019
+
+OnsetDetector if statement: if (count >= 3 && last >= threshold)
+findExactTime() local min decision: if (std::isnan(current/mn) || current/mn >= 0.95) 
+OnsetDetector segment size: 20ms
+Threshold: 0.0003
+Searching for 1 frequency
+NoteDetector args:
+    EDO: 12
+    Bandwidth: 0
+    Method: Runge-Kutta
+    Freq norm: Freq unnormalized
+    Amp norm: Amp normalized
+    Damping: 0.0001
+    Gain: 25
+Onset tolerance: 50.000ms
+
+
+Brass/Tuba/Tuba.ff.A1.stereo.wav
+--------------------------------
+Onset at   0.053 seconds, delay:  -2ms.
+All onsets found!
+
+Brass/Tuba/Tuba.ff.A2.stereo.wav
+--------------------------------
+Onset at   0.038 seconds, delay:  -8ms.
+
+False positives:
+  0.290
+  0.410
+  0.510
+  0.610
+  0.770
+  0.850
+  0.910
+  0.950
+  1.030
+  1.090
+  1.150
+  1.208
+  1.270
+  1.330
+  1.390
+  1.450
+  1.530
+  1.590
+
+Brass/Tuba/Tuba.ff.A3.stereo.wav
+--------------------------------
+Onset at   0.049 seconds, delay:  -9ms.
+All onsets found!
+
+Brass/Tuba/Tuba.ff.Ab1.stereo.wav
+---------------------------------
+Onset at   0.065 seconds, delay: -43ms.
+
+False positives:
+  0.640
+  0.730
+  0.790
+  0.890
+  1.050
+  1.130
+  1.210
+  1.270
+  1.310
+  1.430
+  1.510
+  1.630
+  1.690
+  1.770
+
+Brass/Tuba/Tuba.ff.Ab2.stereo.wav
+---------------------------------
+Onset at   0.052 seconds, delay:  -9ms.
+
+False positives:
+  0.350
+  0.390
+  0.466
+  0.550
+  0.647
+  0.770
+  0.830
+  0.910
+  0.950
+  1.010
+  1.090
+  1.150
+  1.190
+  1.250
+  1.310
+  1.370
+  1.430
+  1.510
+
+Brass/Tuba/Tuba.ff.Ab3.stereo.wav
+---------------------------------
+Onset at   0.043 seconds, delay:  -3ms.
+
+False positives:
+  0.249
+  0.370
+  0.430
+  0.489
+  0.568
+  0.688
+  0.849
+  0.930
+  0.990
+  1.030
+  1.130
+  1.166
+  1.270
+  1.350
+  1.390
+  1.450
+  1.510
+  1.570
+  1.630
+  1.690
+
+Brass/Tuba/Tuba.ff.B1.stereo.wav
+--------------------------------
+Onset at   0.051 seconds, delay: -10ms.
+
+False positives:
+  0.270
+  0.430
+  0.589
+  0.669
+  0.749
+  0.829
+  0.890
+  0.970
+  1.030
+  1.130
+  1.290
+  1.370
+  1.450
+  1.510
+  1.570
+  1.650
+  1.710
+
+Brass/Tuba/Tuba.ff.B2.stereo.wav
+--------------------------------
+Onset at   0.045 seconds, delay: -24ms.
+
+False positives:
+  0.270
+  0.389
+  0.429
+  0.509
+  0.588
+  0.628
+  0.690
+  0.770
+  0.850
+  0.890
+  0.970
+  1.050
+  1.129
+  1.209
+  1.249
+  1.310
+  1.370
+  1.430
+  1.490
+  1.570
+  1.610
+
+Brass/Tuba/Tuba.ff.B3.stereo.wav
+--------------------------------
+Onset at   0.044 seconds, delay:  -2ms.
+
+False positives:
+  0.210
+  0.283
+  0.410
+  0.449
+  0.509
+  0.590
+  0.621
+  0.730
+  0.830
+  0.930
+  1.030
+  1.090
+  1.170
+  1.270
+  1.310
+  1.390
+  1.430
+  1.490
+  1.570
+  1.630
+  1.670
+
+Brass/Tuba/Tuba.ff.Bb1.stereo.wav
+---------------------------------
+Onset at   0.046 seconds, delay:  -3ms.
+
+False positives:
+  0.410
+  0.470
+  0.630
+  0.690
+  0.770
+  0.810
+  0.910
+  0.990
+  1.070
+  1.130
+  1.230
+  1.330
+  1.390
+  1.449
+  1.530
+  1.590
+  1.630
+
+Brass/Tuba/Tuba.ff.Bb2.stereo.wav
+---------------------------------
+Onset at   0.061 seconds, delay: -17ms.
+
+False positives:
+  0.270
+  0.390
+  0.449
+  0.530
+  0.590
+  0.650
+  0.750
+  0.810
+  0.890
+  0.950
+  1.010
+  1.070
+  1.150
+  1.210
+  1.270
+  1.330
+  1.370
+  1.430
+  1.490
+  1.570
+  1.630
+
+Brass/Tuba/Tuba.ff.Bb3.stereo.wav
+---------------------------------
+Onset at   0.051 seconds, delay: -10ms.
+
+False positives:
+  0.370
+  0.427
+  0.529
+  0.630
+  0.710
+  0.850
+  0.909
+  0.990
+  1.050
+  1.130
+  1.170
+  1.270
+  1.310
+  1.370
+  1.430
+  1.490
+  1.570
+  1.630
+  1.690
+
+Brass/Tuba/Tuba.ff.C1.stereo.wav
+--------------------------------
+
+False negatives:
+  0.039
+
+Brass/Tuba/Tuba.ff.C2.stereo.wav
+--------------------------------
+Onset at   0.061 seconds, delay: -19ms.
+
+False positives:
+  0.410
+  0.470
+  0.590
+  0.650
+  0.710
+  0.770
+  0.830
+  0.968
+  1.029
+  1.089
+  1.149
+  1.209
+  1.269
+  1.330
+  1.390
+  1.450
+  1.510
+  1.570
+  1.630
+  1.710
+
+Brass/Tuba/Tuba.ff.C3.stereo.wav
+--------------------------------
+Onset at   0.045 seconds, delay:  -3ms.
+
+False positives:
+  0.310
+  0.410
+  0.490
+  0.590
+  0.650
+  0.710
+  0.770
+  0.850
+  0.909
+  0.970
+  1.030
+  1.090
+  1.150
+  1.210
+  1.270
+  1.330
+  1.390
+  1.450
+  1.530
+  1.570
+
+Brass/Tuba/Tuba.ff.C4.stereo.wav
+--------------------------------
+Onset at   0.051 seconds, delay:  -8ms.
+
+False positives:
+  0.230
+  0.370
+  0.435
+  0.530
+  0.570
+  0.628
+  0.730
+  0.790
+  0.850
+  0.909
+  1.010
+  1.049
+  1.146
+  1.250
+  1.290
+  1.370
+  1.410
+  1.470
+  1.550
+  1.590
+  1.650
+  1.710
+  1.770
+  1.830
+
+Brass/Tuba/Tuba.ff.D1.stereo.wav
+--------------------------------
+
+False negatives:
+  0.064
+
+Brass/Tuba/Tuba.ff.D2.stereo.wav
+--------------------------------
+Onset at   0.042 seconds, delay: -21ms.
+
+False positives:
+  0.350
+  0.430
+  0.490
+  0.570
+  0.670
+  0.750
+  0.830
+  0.910
+  0.990
+  1.089
+  1.170
+  1.250
+  1.330
+  1.410
+  1.450
+  1.530
+  1.570
+  1.650
+  1.690
+
+Brass/Tuba/Tuba.ff.D3.stereo.wav
+--------------------------------
+Onset at   0.039 seconds, delay: -19ms.
+
+False positives:
+  0.270
+  0.310
+  0.406
+  0.490
+  0.528
+  0.650
+  0.725
+  0.830
+  0.910
+  0.970
+  1.050
+  1.110
+  1.170
+  1.250
+  1.290
+  1.350
+  1.410
+  1.470
+  1.550
+
+Brass/Tuba/Tuba.ff.Db1.stereo.wav
+---------------------------------
+
+False negatives:
+  0.109
+
+Brass/Tuba/Tuba.ff.Db2.stereo.wav
+---------------------------------
+Onset at   0.056 seconds, delay: -16ms.
+All onsets found!
+
+Brass/Tuba/Tuba.ff.Db3.stereo.wav
+---------------------------------
+Onset at   0.055 seconds, delay: -15ms.
+
+False positives:
+  0.370
+  0.430
+  0.530
+  0.650
+  0.747
+  0.869
+  0.950
+  1.025
+  1.150
+  1.210
+  1.270
+  1.330
+  1.390
+  1.450
+  1.530
+  1.590
+
+Brass/Tuba/Tuba.ff.E1.stereo.wav
+--------------------------------
+
+False negatives:
+  0.037
+
+Brass/Tuba/Tuba.ff.E2.stereo.wav
+--------------------------------
+Onset at   0.044 seconds, delay: -13ms.
+
+False positives:
+  0.310
+  0.429
+  0.489
+  0.549
+  0.630
+  0.690
+  0.750
+  0.810
+  0.870
+  0.930
+  0.990
+  1.050
+  1.110
+  1.169
+  1.229
+  1.310
+  1.370
+  1.430
+  1.470
+  1.530
+  1.590
+  1.650
+
+Brass/Tuba/Tuba.ff.E3.stereo.wav
+--------------------------------
+Onset at   0.043 seconds, delay:  -2ms.
+
+False positives:
+  0.208
+  0.368
+  0.470
+  0.529
+  0.610
+  0.647
+  0.870
+  0.908
+  1.050
+  1.150
+  1.187
+  1.350
+  1.410
+  1.490
+  1.550
+  1.610
+  1.670
+
+Brass/Tuba/Tuba.ff.Eb1.stereo.wav
+---------------------------------
+
+False negatives:
+  0.065
+
+Brass/Tuba/Tuba.ff.Eb2.stereo.wav
+---------------------------------
+Onset at   0.046 seconds, delay: -19ms.
+
+False positives:
+  0.350
+  0.430
+  0.490
+  0.570
+  0.630
+  0.709
+  0.770
+  0.849
+  0.910
+  0.989
+  1.050
+  1.090
+  1.150
+  1.229
+  1.290
+  1.368
+  1.430
+  1.470
+  1.530
+  1.610
+
+Brass/Tuba/Tuba.ff.Eb3.stereo.wav
+---------------------------------
+Onset at   0.042 seconds
+
+False positives:
+  0.250
+  0.322
+  0.373
+  0.470
+  0.550
+  0.650
+  0.687
+  0.770
+  0.850
+  0.890
+  0.970
+  1.009
+  1.090
+  1.170
+  1.230
+  1.290
+  1.350
+  1.410
+  1.470
+  1.530
+  1.610
+  1.650
+
+Brass/Tuba/Tuba.ff.F1.stereo.wav
+--------------------------------
+
+False negatives:
+  0.054
+
+Brass/Tuba/Tuba.ff.F2.stereo.wav
+--------------------------------
+Onset at   0.056 seconds, delay: -11ms.
+
+False positives:
+  0.390
+  0.526
+  0.650
+  0.730
+  0.830
+  0.889
+  0.990
+  1.090
+  1.149
+  1.228
+  1.270
+  1.330
+  1.410
+  1.450
+  1.510
+  1.590
+  1.630
+
+Brass/Tuba/Tuba.ff.F3.stereo.wav
+--------------------------------
+Onset at   0.032 seconds, delay: -12ms.
+
+False positives:
+  0.210
+  0.330
+  0.387
+  0.470
+  0.530
+  0.610
+  0.730
+  0.790
+  0.870
+  0.989
+  1.028
+  1.110
+  1.140
+  1.230
+  1.270
+  1.330
+  1.390
+  1.470
+  1.510
+  1.570
+
+Brass/Tuba/Tuba.ff.G1.stereo.wav
+--------------------------------
+Onset at   0.043 seconds, delay: -21ms.
+All onsets found!
+
+Brass/Tuba/Tuba.ff.G2.stereo.wav
+--------------------------------
+Onset at   0.044 seconds, delay:  -3ms.
+All onsets found!
+
+Brass/Tuba/Tuba.ff.G3.stereo.wav
+--------------------------------
+Onset at   0.050 seconds, delay:  -8ms.
+
+False positives:
+  0.187
+  0.467
+  0.570
+  0.630
+  0.710
+  0.830
+  0.930
+  1.010
+  1.070
+  1.170
+  1.330
+  1.410
+  1.470
+  1.530
+
+Brass/Tuba/Tuba.ff.Gb1.stereo.wav
+---------------------------------
+
+False negatives:
+  0.024
+
+Brass/Tuba/Tuba.ff.Gb2.stereo.wav
+---------------------------------
+Onset at   0.043 seconds, delay: -12ms.
+
+False positives:
+  0.349
+  0.390
+  0.466
+  0.570
+  0.669
+  0.750
+  0.829
+  0.890
+  0.950
+  1.030
+  1.110
+  1.230
+  1.290
+  1.350
+  1.410
+  1.470
+
+Brass/Tuba/Tuba.ff.Gb3.stereo.wav
+---------------------------------
+Onset at   0.049 seconds, delay:  -9ms.
+
+False positives:
+  0.309
+  0.410
+  0.469
+  0.570
+  0.629
+  0.670
+  0.750
+  0.810
+  0.910
+  0.990
+  1.070
+  1.130
+  1.170
+  1.230
+  1.290
+  1.350
+  1.410
+  1.470
+
+
+Stats
+=====
+Total number of onsets:     37
+Total number of detections: 500
+Total true positives:       30
+Total false positives:      470
+Total erroneous detections: 470
+
+Largest advance: -43ms
+Mean advance:    -15.500ms
+Largest delay:     0ms
+Mean delay:        0.000ms
+Mean difference: -12.400ms
+Number of advances <-15.00ms: 9
+Number of delays   > 15.00ms: 0
+
+Precision:             6%
+Recall:                81.0811%
+F-measure:             11.1732%
+Precision (tot. err.): 6%
+F-measure (tot. err.): 11.1732%
+

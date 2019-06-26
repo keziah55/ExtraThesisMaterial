@@ -1,0 +1,267 @@
+Check onsetdetector results
+===========================
+
+Wed Apr 24 13:03:27 2019
+
+OnsetDetector if statement: if (count >= 3 && last >= threshold),  if (last-first >= std::log(2))
+findExactTime() local min decision: if (std::isnan(current/mn) || current/mn >= 0.95) 
+OnsetDetector segment size: 20ms
+Threshold: 0.0003
+Searching for 1 frequency
+NoteDetector args:
+    EDO: 12
+    Bandwidth: 0
+    Method: Runge-Kutta
+    Freq norm: Freq unnormalized
+    Amp norm: Amp normalized
+    Damping: 0.0001
+    Gain: 25
+Onset tolerance: 50.000ms
+
+
+Percussion/bells.brass/bells.brass.ff.A5.stereo.wav
+---------------------------------------------------
+Onset at   0.128 seconds, delay: -19ms.
+All onsets found!
+
+Percussion/bells.brass/bells.brass.ff.A6.stereo.wav
+---------------------------------------------------
+Onset at   0.122 seconds, delay: -35ms.
+All onsets found!
+
+Percussion/bells.brass/bells.brass.ff.A7.stereo.wav
+---------------------------------------------------
+Onset at   0.110 seconds, delay: -38ms.
+All onsets found!
+
+Percussion/bells.brass/bells.brass.ff.Ab5.stereo.wav
+----------------------------------------------------
+Onset at   0.084 seconds, delay: -13ms.
+All onsets found!
+
+Percussion/bells.brass/bells.brass.ff.Ab6.stereo.wav
+----------------------------------------------------
+Onset at   0.106 seconds, delay: -34ms.
+All onsets found!
+
+Percussion/bells.brass/bells.brass.ff.Ab7.stereo.wav
+----------------------------------------------------
+Onset at   0.085 seconds, delay: -19ms.
+All onsets found!
+
+Percussion/bells.brass/bells.brass.ff.B5.stereo.wav
+---------------------------------------------------
+Onset at   0.092 seconds, delay: -21ms.
+All onsets found!
+
+Percussion/bells.brass/bells.brass.ff.B6.stereo.wav
+---------------------------------------------------
+Onset at   0.109 seconds, delay: -37ms.
+All onsets found!
+
+Percussion/bells.brass/bells.brass.ff.B7.stereo.wav
+---------------------------------------------------
+Onset at   0.121 seconds, delay: -49ms.
+All onsets found!
+
+Percussion/bells.brass/bells.brass.ff.Bb5.stereo.wav
+----------------------------------------------------
+Onset at   0.078 seconds, delay: -13ms.
+All onsets found!
+
+Percussion/bells.brass/bells.brass.ff.Bb6.stereo.wav
+----------------------------------------------------
+Onset at   0.116 seconds, delay: -45ms.
+All onsets found!
+
+Percussion/bells.brass/bells.brass.ff.Bb7.stereo.wav
+----------------------------------------------------
+Onset at   0.063 seconds, delay: -10ms.
+All onsets found!
+
+Percussion/bells.brass/bells.brass.ff.C5.stereo.wav
+---------------------------------------------------
+Onset at   0.072 seconds, delay: -17ms.
+All onsets found!
+
+Percussion/bells.brass/bells.brass.ff.C6.stereo.wav
+---------------------------------------------------
+Onset at   0.213 seconds, delay: -31ms.
+All onsets found!
+
+Percussion/bells.brass/bells.brass.ff.C7.stereo.wav
+---------------------------------------------------
+Onset at   0.094 seconds, delay: -21ms.
+All onsets found!
+
+Percussion/bells.brass/bells.brass.ff.C8.stereo.wav
+---------------------------------------------------
+
+False negatives:
+  0.125
+
+False positives:
+  0.072
+
+Percussion/bells.brass/bells.brass.ff.D5.stereo.wav
+---------------------------------------------------
+
+False negatives:
+  0.603
+
+False positives:
+  0.550
+
+Percussion/bells.brass/bells.brass.ff.D6.stereo.wav
+---------------------------------------------------
+
+False negatives:
+  0.171
+
+False positives:
+  0.072
+
+Percussion/bells.brass/bells.brass.ff.D7.stereo.wav
+---------------------------------------------------
+Onset at   0.078 seconds, delay: -22ms.
+All onsets found!
+
+Percussion/bells.brass/bells.brass.ff.D8.stereo.wav
+---------------------------------------------------
+Onset at   0.092 seconds, delay: -21ms.
+All onsets found!
+
+Percussion/bells.brass/bells.brass.ff.Db5.stereo.wav
+----------------------------------------------------
+Onset at   0.462 seconds, delay: -20ms.
+All onsets found!
+
+Percussion/bells.brass/bells.brass.ff.Db6.stereo.wav
+----------------------------------------------------
+Onset at   0.062 seconds
+All onsets found!
+
+Percussion/bells.brass/bells.brass.ff.Db7.stereo.wav
+----------------------------------------------------
+Onset at   0.087 seconds, delay: -24ms.
+All onsets found!
+
+Percussion/bells.brass/bells.brass.ff.Db8.stereo.wav
+----------------------------------------------------
+Onset at   0.085 seconds, delay: -16ms.
+All onsets found!
+
+Percussion/bells.brass/bells.brass.ff.E5.stereo.wav
+---------------------------------------------------
+Onset at   0.588 seconds, delay: -32ms.
+All onsets found!
+
+Percussion/bells.brass/bells.brass.ff.E6.stereo.wav
+---------------------------------------------------
+Onset at   0.083 seconds, delay: -24ms.
+All onsets found!
+
+Percussion/bells.brass/bells.brass.ff.E7.stereo.wav
+---------------------------------------------------
+Onset at   0.076 seconds, delay:  -8ms.
+All onsets found!
+
+Percussion/bells.brass/bells.brass.ff.E8.stereo.wav
+---------------------------------------------------
+Onset at   0.053 seconds, delay: -12ms.
+All onsets found!
+
+Percussion/bells.brass/bells.brass.ff.Eb5.stereo.wav
+----------------------------------------------------
+Onset at   0.304 seconds, delay:  -9ms.
+All onsets found!
+
+Percussion/bells.brass/bells.brass.ff.Eb6.stereo.wav
+----------------------------------------------------
+Onset at   0.061 seconds
+All onsets found!
+
+Percussion/bells.brass/bells.brass.ff.Eb7.stereo.wav
+----------------------------------------------------
+Onset at   0.096 seconds, delay: -24ms.
+All onsets found!
+
+Percussion/bells.brass/bells.brass.ff.Eb8.stereo.wav
+----------------------------------------------------
+Onset at   0.079 seconds, delay:  -9ms.
+All onsets found!
+
+Percussion/bells.brass/bells.brass.ff.F5.stereo.wav
+---------------------------------------------------
+Onset at   0.260 seconds, delay: -18ms.
+All onsets found!
+
+Percussion/bells.brass/bells.brass.ff.F6.stereo.wav
+---------------------------------------------------
+Onset at   0.054 seconds, delay:  -9ms.
+All onsets found!
+
+Percussion/bells.brass/bells.brass.ff.F7.stereo.wav
+---------------------------------------------------
+Onset at   0.079 seconds, delay:  -9ms.
+All onsets found!
+
+Percussion/bells.brass/bells.brass.ff.G5.stereo.wav
+---------------------------------------------------
+Onset at   0.117 seconds, delay: -43ms.
+All onsets found!
+
+Percussion/bells.brass/bells.brass.ff.G6.stereo.wav
+---------------------------------------------------
+Onset at   0.117 seconds, delay: -44ms.
+
+False positives:
+  1.805
+
+Percussion/bells.brass/bells.brass.ff.G7.stereo.wav
+---------------------------------------------------
+Onset at   0.110 seconds, delay: -38ms.
+All onsets found!
+
+Percussion/bells.brass/bells.brass.ff.Gb5.stereo.wav
+----------------------------------------------------
+Onset at   0.165 seconds, delay: -23ms.
+All onsets found!
+
+Percussion/bells.brass/bells.brass.ff.Gb6.stereo.wav
+----------------------------------------------------
+
+False negatives:
+  0.130
+
+False positives:
+  0.072
+
+Percussion/bells.brass/bells.brass.ff.Gb7.stereo.wav
+----------------------------------------------------
+Onset at   0.073 seconds, delay: -16ms.
+All onsets found!
+
+
+Stats
+=====
+Total number of onsets:     41
+Total number of detections: 42
+Total true positives:       37
+Total false positives:      5
+Total erroneous detections: 5
+
+Largest advance: -49ms
+Mean advance:    -35.250ms
+Largest delay:     0ms
+Mean delay:        0.000ms
+Mean difference: -23.500ms
+Number of advances <-15.00ms: 26
+Number of delays   > 15.00ms: 0
+
+Precision:             88.0952%
+Recall:                90.2439%
+F-measure:             89.1566%
+Precision (tot. err.): 88.0952%
+F-measure (tot. err.): 89.1566%
+

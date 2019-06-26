@@ -1,0 +1,298 @@
+Check onsetdetector results
+===========================
+
+Wed Apr 24 12:55:20 2019
+
+OnsetDetector if statement: if (count >= 3 && last >= threshold),  if (last-first >= std::log(2))
+findExactTime() local min decision: if (std::isnan(current/mn) || current/mn >= 0.95) 
+OnsetDetector segment size: 20ms
+Threshold: 0.0005
+Searching for 1 frequency
+NoteDetector args:
+    EDO: 12
+    Bandwidth: 0
+    Method: Runge-Kutta
+    Freq norm: Freq unnormalized
+    Amp norm: Amp normalized
+    Damping: 0.0005
+    Gain: 25
+Onset tolerance: 50.000ms
+
+
+Percussion/Xylophone.rosewood/Xylophone.rosewood.ff.A4.stereo.wav
+-----------------------------------------------------------------
+Onset at   0.007 seconds, delay:  13ms.
+All onsets found!
+
+Percussion/Xylophone.rosewood/Xylophone.rosewood.ff.A5.stereo.wav
+-----------------------------------------------------------------
+
+False negatives:
+  0.002
+
+Percussion/Xylophone.rosewood/Xylophone.rosewood.ff.A6.stereo.wav
+-----------------------------------------------------------------
+
+False negatives:
+  0.002
+
+Percussion/Xylophone.rosewood/Xylophone.rosewood.ff.A7.stereo.wav
+-----------------------------------------------------------------
+
+False negatives:
+  0.002
+
+Percussion/Xylophone.rosewood/Xylophone.rosewood.ff.Ab4.stereo.wav
+------------------------------------------------------------------
+Onset at   0.007 seconds, delay:  13ms.
+All onsets found!
+
+Percussion/Xylophone.rosewood/Xylophone.rosewood.ff.Ab5.stereo.wav
+------------------------------------------------------------------
+
+False negatives:
+  0.002
+
+Percussion/Xylophone.rosewood/Xylophone.rosewood.ff.Ab6.stereo.wav
+------------------------------------------------------------------
+
+False negatives:
+  0.002
+
+Percussion/Xylophone.rosewood/Xylophone.rosewood.ff.Ab7.stereo.wav
+------------------------------------------------------------------
+
+False negatives:
+  0.003
+
+Percussion/Xylophone.rosewood/Xylophone.rosewood.ff.B4.stereo.wav
+-----------------------------------------------------------------
+Onset at   0.004 seconds, delay:  16ms.
+All onsets found!
+
+Percussion/Xylophone.rosewood/Xylophone.rosewood.ff.B5.stereo.wav
+-----------------------------------------------------------------
+
+False negatives:
+  0.003
+
+Percussion/Xylophone.rosewood/Xylophone.rosewood.ff.B6.stereo.wav
+-----------------------------------------------------------------
+
+False negatives:
+  0.002
+
+Percussion/Xylophone.rosewood/Xylophone.rosewood.ff.B7.stereo.wav
+-----------------------------------------------------------------
+
+False negatives:
+  0.002
+
+Percussion/Xylophone.rosewood/Xylophone.rosewood.ff.Bb4.stereo.wav
+------------------------------------------------------------------
+Onset at   0.004 seconds, delay:  16ms.
+All onsets found!
+
+Percussion/Xylophone.rosewood/Xylophone.rosewood.ff.Bb5.stereo.wav
+------------------------------------------------------------------
+
+False negatives:
+  0.003
+
+Percussion/Xylophone.rosewood/Xylophone.rosewood.ff.Bb6.stereo.wav
+------------------------------------------------------------------
+
+False negatives:
+  0.002
+
+Percussion/Xylophone.rosewood/Xylophone.rosewood.ff.Bb7.stereo.wav
+------------------------------------------------------------------
+
+False negatives:
+  0.002
+
+Percussion/Xylophone.rosewood/Xylophone.rosewood.ff.C5.stereo.wav
+-----------------------------------------------------------------
+
+False negatives:
+  0.003
+
+Percussion/Xylophone.rosewood/Xylophone.rosewood.ff.C6.stereo.wav
+-----------------------------------------------------------------
+
+False negatives:
+  0.002
+
+Percussion/Xylophone.rosewood/Xylophone.rosewood.ff.C7.stereo.wav
+-----------------------------------------------------------------
+
+False negatives:
+  0.002
+
+Percussion/Xylophone.rosewood/Xylophone.rosewood.ff.C8.stereo.wav
+-----------------------------------------------------------------
+
+False negatives:
+  0.002
+
+Percussion/Xylophone.rosewood/Xylophone.rosewood.ff.D5.stereo.wav
+-----------------------------------------------------------------
+Onset at   0.004 seconds, delay:  16ms.
+All onsets found!
+
+Percussion/Xylophone.rosewood/Xylophone.rosewood.ff.D6.stereo.wav
+-----------------------------------------------------------------
+
+False negatives:
+  0.002
+
+Percussion/Xylophone.rosewood/Xylophone.rosewood.ff.D7.stereo.wav
+-----------------------------------------------------------------
+
+False negatives:
+  0.002
+
+Percussion/Xylophone.rosewood/Xylophone.rosewood.ff.Db5.stereo.wav
+------------------------------------------------------------------
+Onset at   0.004 seconds, delay:  16ms.
+All onsets found!
+
+Percussion/Xylophone.rosewood/Xylophone.rosewood.ff.Db6.stereo.wav
+------------------------------------------------------------------
+
+False negatives:
+  0.003
+
+Percussion/Xylophone.rosewood/Xylophone.rosewood.ff.Db7.stereo.wav
+------------------------------------------------------------------
+
+False negatives:
+  0.002
+
+Percussion/Xylophone.rosewood/Xylophone.rosewood.ff.E5.stereo.wav
+-----------------------------------------------------------------
+
+False negatives:
+  0.002
+
+Percussion/Xylophone.rosewood/Xylophone.rosewood.ff.E6.stereo.wav
+-----------------------------------------------------------------
+
+False negatives:
+  0.002
+
+Percussion/Xylophone.rosewood/Xylophone.rosewood.ff.E7.stereo.wav
+-----------------------------------------------------------------
+
+False negatives:
+  0.002
+
+Percussion/Xylophone.rosewood/Xylophone.rosewood.ff.Eb5.stereo.wav
+------------------------------------------------------------------
+Onset at   0.005 seconds, delay:  15ms.
+All onsets found!
+
+Percussion/Xylophone.rosewood/Xylophone.rosewood.ff.Eb6.stereo.wav
+------------------------------------------------------------------
+
+False negatives:
+  0.002
+
+Percussion/Xylophone.rosewood/Xylophone.rosewood.ff.Eb7.stereo.wav
+------------------------------------------------------------------
+
+False negatives:
+  0.002
+
+Percussion/Xylophone.rosewood/Xylophone.rosewood.ff.F4.stereo.wav
+-----------------------------------------------------------------
+Onset at   0.005 seconds, delay:  15ms.
+All onsets found!
+
+Percussion/Xylophone.rosewood/Xylophone.rosewood.ff.F5.stereo.wav
+-----------------------------------------------------------------
+
+False negatives:
+  0.003
+
+Percussion/Xylophone.rosewood/Xylophone.rosewood.ff.F6.stereo.wav
+-----------------------------------------------------------------
+
+False negatives:
+  0.003
+
+Percussion/Xylophone.rosewood/Xylophone.rosewood.ff.F7.stereo.wav
+-----------------------------------------------------------------
+
+False negatives:
+  0.002
+
+Percussion/Xylophone.rosewood/Xylophone.rosewood.ff.G4.stereo.wav
+-----------------------------------------------------------------
+Onset at   0.005 seconds, delay:  15ms.
+All onsets found!
+
+Percussion/Xylophone.rosewood/Xylophone.rosewood.ff.G5.stereo.wav
+-----------------------------------------------------------------
+
+False negatives:
+  0.002
+
+Percussion/Xylophone.rosewood/Xylophone.rosewood.ff.G6.stereo.wav
+-----------------------------------------------------------------
+
+False negatives:
+  0.002
+
+Percussion/Xylophone.rosewood/Xylophone.rosewood.ff.G7.stereo.wav
+-----------------------------------------------------------------
+
+False negatives:
+  0.002
+
+Percussion/Xylophone.rosewood/Xylophone.rosewood.ff.Gb4.stereo.wav
+------------------------------------------------------------------
+Onset at   0.005 seconds, delay:  15ms.
+All onsets found!
+
+Percussion/Xylophone.rosewood/Xylophone.rosewood.ff.Gb5.stereo.wav
+------------------------------------------------------------------
+
+False negatives:
+  0.003
+
+Percussion/Xylophone.rosewood/Xylophone.rosewood.ff.Gb6.stereo.wav
+------------------------------------------------------------------
+
+False negatives:
+  0.002
+
+Percussion/Xylophone.rosewood/Xylophone.rosewood.ff.Gb7.stereo.wav
+------------------------------------------------------------------
+
+False negatives:
+  0.002
+
+
+Stats
+=====
+Total number of onsets:     44
+Total number of detections: 10
+Total true positives:       10
+Total false positives:      0
+Total erroneous detections: 0
+
+Largest advance:   0ms
+Mean advance:      0.000ms
+Largest delay:    16ms
+Mean delay:       14.500ms
+Mean difference:  14.500ms
+Number of advances <-15.00ms: 0
+Number of delays   > 15.00ms: 4
+
+Precision:             100%
+Recall:                22.7273%
+F-measure:             37.037%
+Precision (tot. err.): 100%
+F-measure (tot. err.): 37.037%
+

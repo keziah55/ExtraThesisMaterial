@@ -1,0 +1,2500 @@
+Check onsetdetector results
+===========================
+
+Wed Apr 24 12:55:20 2019
+
+OnsetDetector if statement: if (count >= 3 && last >= threshold),  if (last-first >= std::log(2))
+findExactTime() local min decision: if (std::isnan(current/mn) || current/mn >= 0.95) 
+OnsetDetector segment size: 20ms
+Threshold: 0.0005
+Searching for 1 frequency
+NoteDetector args:
+    EDO: 12
+    Bandwidth: 0
+    Method: Runge-Kutta
+    Freq norm: Freq unnormalized
+    Amp norm: Amp normalized
+    Damping: 0.0005
+    Gain: 25
+Onset tolerance: 50.000ms
+
+
+Strings/Bass.arco.ff.sulA/Bass.arco.ff.sulA.A1.stereo.wav
+---------------------------------------------------------
+Onset at   0.263 seconds, delay: -38ms.
+All onsets found!
+
+Strings/Bass.arco.ff.sulA/Bass.arco.ff.sulA.A2.stereo.wav
+---------------------------------------------------------
+Onset at   0.092 seconds, delay: -26ms.
+All onsets found!
+
+Strings/Bass.arco.ff.sulA/Bass.arco.ff.sulA.A3.stereo.wav
+---------------------------------------------------------
+Onset at   0.149 seconds, delay: -28ms.
+
+False positives:
+  1.548
+
+Strings/Bass.arco.ff.sulA/Bass.arco.ff.sulA.Ab2.stereo.wav
+----------------------------------------------------------
+Onset at   0.080 seconds, delay: -23ms.
+All onsets found!
+
+Strings/Bass.arco.ff.sulA/Bass.arco.ff.sulA.Ab3.stereo.wav
+----------------------------------------------------------
+Onset at   0.087 seconds, delay:  -9ms.
+
+False positives:
+  0.234
+  0.459
+  0.786
+
+Strings/Bass.arco.ff.sulA/Bass.arco.ff.sulA.B1.stereo.wav
+---------------------------------------------------------
+
+False negatives:
+  0.160
+
+False positives:
+  0.102
+
+Strings/Bass.arco.ff.sulA/Bass.arco.ff.sulA.B2.stereo.wav
+---------------------------------------------------------
+
+False negatives:
+  0.224
+
+False positives:
+  0.131
+
+Strings/Bass.arco.ff.sulA/Bass.arco.ff.sulA.Bb1.stereo.wav
+----------------------------------------------------------
+Onset at   0.174 seconds, delay: -15ms.
+All onsets found!
+
+Strings/Bass.arco.ff.sulA/Bass.arco.ff.sulA.Bb2.stereo.wav
+----------------------------------------------------------
+Onset at   0.080 seconds, delay: -13ms.
+All onsets found!
+
+Strings/Bass.arco.ff.sulA/Bass.arco.ff.sulA.C2.stereo.wav
+---------------------------------------------------------
+Onset at   0.086 seconds, delay: -29ms.
+All onsets found!
+
+Strings/Bass.arco.ff.sulA/Bass.arco.ff.sulA.C3.stereo.wav
+---------------------------------------------------------
+Onset at   0.229 seconds, delay: -25ms.
+All onsets found!
+
+Strings/Bass.arco.ff.sulA/Bass.arco.ff.sulA.D2.stereo.wav
+---------------------------------------------------------
+Onset at   0.109 seconds, delay: -17ms.
+All onsets found!
+
+Strings/Bass.arco.ff.sulA/Bass.arco.ff.sulA.D3.stereo.wav
+---------------------------------------------------------
+Onset at   0.186 seconds, delay:  -8ms.
+All onsets found!
+
+Strings/Bass.arco.ff.sulA/Bass.arco.ff.sulA.Db2.stereo.wav
+----------------------------------------------------------
+Onset at   0.075 seconds, delay: -16ms.
+All onsets found!
+
+Strings/Bass.arco.ff.sulA/Bass.arco.ff.sulA.Db3.stereo.wav
+----------------------------------------------------------
+Onset at   0.252 seconds, delay:  -8ms.
+All onsets found!
+
+Strings/Bass.arco.ff.sulA/Bass.arco.ff.sulA.E2.stereo.wav
+---------------------------------------------------------
+
+False negatives:
+  0.136
+
+False positives:
+  0.073
+
+Strings/Bass.arco.ff.sulA/Bass.arco.ff.sulA.E3.stereo.wav
+---------------------------------------------------------
+Onset at   0.098 seconds, delay: -27ms.
+All onsets found!
+
+Strings/Bass.arco.ff.sulA/Bass.arco.ff.sulA.Eb2.stereo.wav
+----------------------------------------------------------
+Onset at   0.096 seconds, delay: -16ms.
+All onsets found!
+
+Strings/Bass.arco.ff.sulA/Bass.arco.ff.sulA.Eb3.stereo.wav
+----------------------------------------------------------
+Onset at   0.106 seconds, delay: -16ms.
+All onsets found!
+
+Strings/Bass.arco.ff.sulA/Bass.arco.ff.sulA.F2.stereo.wav
+---------------------------------------------------------
+Onset at   0.099 seconds, delay: -21ms.
+All onsets found!
+
+Strings/Bass.arco.ff.sulA/Bass.arco.ff.sulA.F3.stereo.wav
+---------------------------------------------------------
+Onset at   0.096 seconds, delay: -21ms.
+All onsets found!
+
+Strings/Bass.arco.ff.sulA/Bass.arco.ff.sulA.G2.stereo.wav
+---------------------------------------------------------
+Onset at   0.112 seconds, delay: -23ms.
+All onsets found!
+
+Strings/Bass.arco.ff.sulA/Bass.arco.ff.sulA.G3.stereo.wav
+---------------------------------------------------------
+Onset at   0.109 seconds, delay: -25ms.
+
+False positives:
+  0.186
+
+Strings/Bass.arco.ff.sulA/Bass.arco.ff.sulA.Gb2.stereo.wav
+----------------------------------------------------------
+Onset at   0.103 seconds, delay: -32ms.
+All onsets found!
+
+Strings/Bass.arco.ff.sulA/Bass.arco.ff.sulA.Gb3.stereo.wav
+----------------------------------------------------------
+Onset at   0.105 seconds, delay: -33ms.
+All onsets found!
+
+Strings/Bass.arco.ff.sulC/Bass.arco.ff.sulC.C1.stereo.wav
+---------------------------------------------------------
+Onset at   0.053 seconds, delay: -12ms.
+
+False positives:
+  0.114
+
+Strings/Bass.arco.ff.sulC/Bass.arco.ff.sulC.D1.stereo.wav
+---------------------------------------------------------
+Onset at   0.096 seconds, delay: -23ms.
+All onsets found!
+
+Strings/Bass.arco.ff.sulC/Bass.arco.ff.sulC.Db1.stereo.wav
+----------------------------------------------------------
+Onset at   0.076 seconds, delay: -15ms.
+All onsets found!
+
+Strings/Bass.arco.ff.sulC/Bass.arco.ff.sulC.Eb1.stereo.wav
+----------------------------------------------------------
+Onset at   0.093 seconds, delay: -18ms.
+All onsets found!
+
+Strings/Bass.arco.ff.sulD/Bass.arco.ff.sulD.A2.stereo.wav
+---------------------------------------------------------
+Onset at   0.309 seconds, delay:  -9ms.
+
+False positives:
+  2.410
+
+Strings/Bass.arco.ff.sulD/Bass.arco.ff.sulD.A3.stereo.wav
+---------------------------------------------------------
+Onset at   0.095 seconds, delay: -22ms.
+All onsets found!
+
+Strings/Bass.arco.ff.sulD/Bass.arco.ff.sulD.Ab2.stereo.wav
+----------------------------------------------------------
+
+False negatives:
+  0.316
+
+False positives:
+  0.264
+  0.628
+
+Strings/Bass.arco.ff.sulD/Bass.arco.ff.sulD.Ab3.stereo.wav
+----------------------------------------------------------
+Onset at   0.076 seconds, delay: -16ms.
+All onsets found!
+
+Strings/Bass.arco.ff.sulD/Bass.arco.ff.sulD.B2.stereo.wav
+---------------------------------------------------------
+Onset at   0.365 seconds, delay: -39ms.
+All onsets found!
+
+Strings/Bass.arco.ff.sulD/Bass.arco.ff.sulD.B3.stereo.wav
+---------------------------------------------------------
+Onset at   0.105 seconds, delay: -30ms.
+All onsets found!
+
+Strings/Bass.arco.ff.sulD/Bass.arco.ff.sulD.Bb2.stereo.wav
+----------------------------------------------------------
+Onset at   0.180 seconds, delay: -24ms.
+All onsets found!
+
+Strings/Bass.arco.ff.sulD/Bass.arco.ff.sulD.Bb3.stereo.wav
+----------------------------------------------------------
+Onset at   0.151 seconds, delay: -25ms.
+
+False positives:
+  1.897
+
+Strings/Bass.arco.ff.sulD/Bass.arco.ff.sulD.C3.stereo.wav
+---------------------------------------------------------
+Onset at   0.099 seconds, delay:  32ms.
+
+False positives:
+  0.054
+
+Strings/Bass.arco.ff.sulD/Bass.arco.ff.sulD.C4.stereo.wav
+---------------------------------------------------------
+Onset at   0.077 seconds, delay: -18ms.
+All onsets found!
+
+Strings/Bass.arco.ff.sulD/Bass.arco.ff.sulD.D2.stereo.wav
+---------------------------------------------------------
+Onset at   0.164 seconds, delay: -45ms.
+All onsets found!
+
+Strings/Bass.arco.ff.sulD/Bass.arco.ff.sulD.D3.stereo.wav
+---------------------------------------------------------
+Onset at   0.097 seconds, delay: -25ms.
+All onsets found!
+
+Strings/Bass.arco.ff.sulD/Bass.arco.ff.sulD.D4.stereo.wav
+---------------------------------------------------------
+Onset at   0.112 seconds, delay: -26ms.
+
+False positives:
+  0.229
+  0.582
+  0.934
+
+Strings/Bass.arco.ff.sulD/Bass.arco.ff.sulD.Db3.stereo.wav
+----------------------------------------------------------
+Onset at   0.086 seconds, delay: -29ms.
+All onsets found!
+
+Strings/Bass.arco.ff.sulD/Bass.arco.ff.sulD.Db4.stereo.wav
+----------------------------------------------------------
+Onset at   0.068 seconds, delay: -15ms.
+All onsets found!
+
+Strings/Bass.arco.ff.sulD/Bass.arco.ff.sulD.E2.stereo.wav
+---------------------------------------------------------
+Onset at   0.168 seconds, delay: -13ms.
+
+False positives:
+  2.174
+
+Strings/Bass.arco.ff.sulD/Bass.arco.ff.sulD.E3.stereo.wav
+---------------------------------------------------------
+Onset at   0.084 seconds, delay: -23ms.
+
+False positives:
+  2.224
+
+Strings/Bass.arco.ff.sulD/Bass.arco.ff.sulD.Eb2.stereo.wav
+----------------------------------------------------------
+Onset at   0.205 seconds, delay: -15ms.
+All onsets found!
+
+Strings/Bass.arco.ff.sulD/Bass.arco.ff.sulD.Eb3.stereo.wav
+----------------------------------------------------------
+Onset at   0.167 seconds, delay: -12ms.
+All onsets found!
+
+Strings/Bass.arco.ff.sulD/Bass.arco.ff.sulD.F2.stereo.wav
+---------------------------------------------------------
+Onset at   0.187 seconds, delay: -20ms.
+All onsets found!
+
+Strings/Bass.arco.ff.sulD/Bass.arco.ff.sulD.F3.stereo.wav
+---------------------------------------------------------
+Onset at   0.057 seconds, delay:  -6ms.
+All onsets found!
+
+Strings/Bass.arco.ff.sulD/Bass.arco.ff.sulD.G2.stereo.wav
+---------------------------------------------------------
+Onset at   0.188 seconds, delay: -47ms.
+All onsets found!
+
+Strings/Bass.arco.ff.sulD/Bass.arco.ff.sulD.G3.stereo.wav
+---------------------------------------------------------
+Onset at   0.097 seconds, delay: -37ms.
+
+False positives:
+  0.382
+
+Strings/Bass.arco.ff.sulD/Bass.arco.ff.sulD.Gb2.stereo.wav
+----------------------------------------------------------
+
+False negatives:
+  0.191
+
+False positives:
+  0.128
+
+Strings/Bass.arco.ff.sulD/Bass.arco.ff.sulD.Gb3.stereo.wav
+----------------------------------------------------------
+Onset at   0.106 seconds, delay: -46ms.
+
+False positives:
+  1.518
+
+Strings/Bass.arco.ff.sulE/Bass.arco.ff.sulE.A1.stereo.wav
+---------------------------------------------------------
+Onset at   0.055 seconds, delay:  -8ms.
+All onsets found!
+
+Strings/Bass.arco.ff.sulE/Bass.arco.ff.sulE.A2.stereo.wav
+---------------------------------------------------------
+Onset at   0.129 seconds, delay: -33ms.
+All onsets found!
+
+Strings/Bass.arco.ff.sulE/Bass.arco.ff.sulE.Ab1.stereo.wav
+----------------------------------------------------------
+Onset at   0.077 seconds, delay: -18ms.
+All onsets found!
+
+Strings/Bass.arco.ff.sulE/Bass.arco.ff.sulE.Ab2.stereo.wav
+----------------------------------------------------------
+Onset at   0.089 seconds, delay: -27ms.
+All onsets found!
+
+Strings/Bass.arco.ff.sulE/Bass.arco.ff.sulE.B1.stereo.wav
+---------------------------------------------------------
+Onset at   0.077 seconds, delay: -11ms.
+All onsets found!
+
+Strings/Bass.arco.ff.sulE/Bass.arco.ff.sulE.B2.stereo.wav
+---------------------------------------------------------
+Onset at   0.090 seconds, delay: -19ms.
+
+False positives:
+  0.770
+
+Strings/Bass.arco.ff.sulE/Bass.arco.ff.sulE.Bb1.stereo.wav
+----------------------------------------------------------
+Onset at   0.136 seconds, delay: -15ms.
+All onsets found!
+
+Strings/Bass.arco.ff.sulE/Bass.arco.ff.sulE.Bb2.stereo.wav
+----------------------------------------------------------
+Onset at   0.096 seconds, delay: -36ms.
+All onsets found!
+
+Strings/Bass.arco.ff.sulE/Bass.arco.ff.sulE.C2.stereo.wav
+---------------------------------------------------------
+Onset at   0.072 seconds, delay: -20ms.
+All onsets found!
+
+Strings/Bass.arco.ff.sulE/Bass.arco.ff.sulE.C3.stereo.wav
+---------------------------------------------------------
+Onset at   0.160 seconds, delay: -25ms.
+All onsets found!
+
+Strings/Bass.arco.ff.sulE/Bass.arco.ff.sulE.D2.stereo.wav
+---------------------------------------------------------
+Onset at   0.067 seconds, delay: -16ms.
+All onsets found!
+
+Strings/Bass.arco.ff.sulE/Bass.arco.ff.sulE.D3.stereo.wav
+---------------------------------------------------------
+Onset at   0.186 seconds, delay: -19ms.
+All onsets found!
+
+Strings/Bass.arco.ff.sulE/Bass.arco.ff.sulE.Db2.stereo.wav
+----------------------------------------------------------
+Onset at   0.070 seconds, delay: -11ms.
+All onsets found!
+
+Strings/Bass.arco.ff.sulE/Bass.arco.ff.sulE.Db3.stereo.wav
+----------------------------------------------------------
+Onset at   0.150 seconds, delay: -20ms.
+All onsets found!
+
+Strings/Bass.arco.ff.sulE/Bass.arco.ff.sulE.E1.stereo.wav
+---------------------------------------------------------
+Onset at   0.057 seconds, delay: -13ms.
+All onsets found!
+
+Strings/Bass.arco.ff.sulE/Bass.arco.ff.sulE.E2.stereo.wav
+---------------------------------------------------------
+Onset at   0.132 seconds, delay: -27ms.
+All onsets found!
+
+Strings/Bass.arco.ff.sulE/Bass.arco.ff.sulE.E3.stereo.wav
+---------------------------------------------------------
+Onset at   0.078 seconds, delay: -18ms.
+All onsets found!
+
+Strings/Bass.arco.ff.sulE/Bass.arco.ff.sulE.Eb2.stereo.wav
+----------------------------------------------------------
+Onset at   0.095 seconds, delay: -36ms.
+All onsets found!
+
+Strings/Bass.arco.ff.sulE/Bass.arco.ff.sulE.Eb3.stereo.wav
+----------------------------------------------------------
+Onset at   0.104 seconds, delay: -32ms.
+All onsets found!
+
+Strings/Bass.arco.ff.sulE/Bass.arco.ff.sulE.F1.stereo.wav
+---------------------------------------------------------
+Onset at   0.072 seconds, delay: -18ms.
+All onsets found!
+
+Strings/Bass.arco.ff.sulE/Bass.arco.ff.sulE.F2.stereo.wav
+---------------------------------------------------------
+Onset at   0.098 seconds, delay: -26ms.
+All onsets found!
+
+Strings/Bass.arco.ff.sulE/Bass.arco.ff.sulE.G1.stereo.wav
+---------------------------------------------------------
+Onset at   0.062 seconds, delay: -20ms.
+All onsets found!
+
+Strings/Bass.arco.ff.sulE/Bass.arco.ff.sulE.G2.stereo.wav
+---------------------------------------------------------
+Onset at   0.106 seconds, delay: -23ms.
+All onsets found!
+
+Strings/Bass.arco.ff.sulE/Bass.arco.ff.sulE.Gb1.stereo.wav
+----------------------------------------------------------
+Onset at   0.047 seconds, delay:  -9ms.
+All onsets found!
+
+Strings/Bass.arco.ff.sulE/Bass.arco.ff.sulE.Gb2.stereo.wav
+----------------------------------------------------------
+Onset at   0.081 seconds, delay: -24ms.
+All onsets found!
+
+Strings/Bass.arco.ff.sulG/Bass.arco.ff.sulG.A2.stereo.wav
+---------------------------------------------------------
+Onset at   0.426 seconds, delay: -32ms.
+
+False positives:
+  0.541
+  1.769
+
+Strings/Bass.arco.ff.sulG/Bass.arco.ff.sulG.A3.stereo.wav
+---------------------------------------------------------
+Onset at   0.145 seconds, delay: -21ms.
+All onsets found!
+
+Strings/Bass.arco.ff.sulG/Bass.arco.ff.sulG.Ab2.stereo.wav
+----------------------------------------------------------
+Onset at   0.472 seconds, delay: -21ms.
+All onsets found!
+
+Strings/Bass.arco.ff.sulG/Bass.arco.ff.sulG.Ab3.stereo.wav
+----------------------------------------------------------
+Onset at   0.184 seconds, delay:  -6ms.
+All onsets found!
+
+Strings/Bass.arco.ff.sulG/Bass.arco.ff.sulG.B2.stereo.wav
+---------------------------------------------------------
+Onset at   0.144 seconds, delay: -17ms.
+All onsets found!
+
+Strings/Bass.arco.ff.sulG/Bass.arco.ff.sulG.B3.stereo.wav
+---------------------------------------------------------
+Onset at   0.216 seconds, delay: -28ms.
+All onsets found!
+
+Strings/Bass.arco.ff.sulG/Bass.arco.ff.sulG.Bb2.stereo.wav
+----------------------------------------------------------
+Onset at   0.118 seconds, delay: -33ms.
+
+False positives:
+  1.870
+
+Strings/Bass.arco.ff.sulG/Bass.arco.ff.sulG.Bb3.stereo.wav
+----------------------------------------------------------
+Onset at   0.119 seconds, delay: -21ms.
+
+False positives:
+  0.224
+  0.892
+  2.190
+
+Strings/Bass.arco.ff.sulG/Bass.arco.ff.sulG.C3.stereo.wav
+---------------------------------------------------------
+Onset at   0.142 seconds, delay: -25ms.
+
+False positives:
+  0.347
+
+Strings/Bass.arco.ff.sulG/Bass.arco.ff.sulG.C4.stereo.wav
+---------------------------------------------------------
+Onset at   0.100 seconds, delay: -28ms.
+
+False positives:
+  0.246
+
+Strings/Bass.arco.ff.sulG/Bass.arco.ff.sulG.D3.stereo.wav
+---------------------------------------------------------
+Onset at   0.204 seconds, delay: -16ms.
+All onsets found!
+
+Strings/Bass.arco.ff.sulG/Bass.arco.ff.sulG.D4.stereo.wav
+---------------------------------------------------------
+Onset at   0.119 seconds, delay: -38ms.
+
+False positives:
+  0.321
+  1.930
+
+Strings/Bass.arco.ff.sulG/Bass.arco.ff.sulG.Db3.stereo.wav
+----------------------------------------------------------
+
+False negatives:
+  0.142
+
+False positives:
+  0.084
+
+Strings/Bass.arco.ff.sulG/Bass.arco.ff.sulG.Db4.stereo.wav
+----------------------------------------------------------
+Onset at   0.192 seconds, delay: -16ms.
+All onsets found!
+
+Strings/Bass.arco.ff.sulG/Bass.arco.ff.sulG.E3.stereo.wav
+---------------------------------------------------------
+Onset at   0.167 seconds, delay: -39ms.
+All onsets found!
+
+Strings/Bass.arco.ff.sulG/Bass.arco.ff.sulG.E4.stereo.wav
+---------------------------------------------------------
+Onset at   0.145 seconds, delay:  -6ms.
+
+False positives:
+  0.286
+
+Strings/Bass.arco.ff.sulG/Bass.arco.ff.sulG.Eb3.stereo.wav
+----------------------------------------------------------
+Onset at   0.123 seconds, delay: -22ms.
+All onsets found!
+
+Strings/Bass.arco.ff.sulG/Bass.arco.ff.sulG.Eb4.stereo.wav
+----------------------------------------------------------
+Onset at   0.106 seconds, delay:  -3ms.
+
+False positives:
+  0.568
+
+Strings/Bass.arco.ff.sulG/Bass.arco.ff.sulG.F3.stereo.wav
+---------------------------------------------------------
+Onset at   0.149 seconds, delay: -34ms.
+All onsets found!
+
+Strings/Bass.arco.ff.sulG/Bass.arco.ff.sulG.F4.stereo.wav
+---------------------------------------------------------
+Onset at   0.100 seconds, delay: -13ms.
+
+False positives:
+  0.392
+
+Strings/Bass.arco.ff.sulG/Bass.arco.ff.sulG.G2.stereo.wav
+---------------------------------------------------------
+Onset at   0.297 seconds, delay: -18ms.
+All onsets found!
+
+Strings/Bass.arco.ff.sulG/Bass.arco.ff.sulG.G3.stereo.wav
+---------------------------------------------------------
+Onset at   0.218 seconds, delay: -18ms.
+All onsets found!
+
+Strings/Bass.arco.ff.sulG/Bass.arco.ff.sulG.G4.stereo.wav
+---------------------------------------------------------
+Onset at   0.090 seconds, delay: -18ms.
+All onsets found!
+
+Strings/Bass.arco.ff.sulG/Bass.arco.ff.sulG.Gb3.stereo.wav
+----------------------------------------------------------
+Onset at   0.122 seconds, delay: -30ms.
+
+False positives:
+  1.841
+
+Strings/Bass.arco.ff.sulG/Bass.arco.ff.sulG.Gb4.stereo.wav
+----------------------------------------------------------
+Onset at   0.075 seconds, delay:  -4ms.
+
+False positives:
+  0.202
+
+Strings/Cello.arco.ff.sulA/Cello.arco.ff.sulA.A3.stereo.wav
+-----------------------------------------------------------
+Onset at   0.331 seconds, delay: -24ms.
+All onsets found!
+
+Strings/Cello.arco.ff.sulA/Cello.arco.ff.sulA.A4.stereo.wav
+-----------------------------------------------------------
+Onset at   0.150 seconds, delay: -10ms.
+
+False positives:
+  2.262
+
+Strings/Cello.arco.ff.sulA/Cello.arco.ff.sulA.A5.stereo.wav
+-----------------------------------------------------------
+Onset at   0.121 seconds, delay: -45ms.
+All onsets found!
+
+Strings/Cello.arco.ff.sulA/Cello.arco.ff.sulA.Ab4.stereo.wav
+------------------------------------------------------------
+Onset at   0.150 seconds, delay: -26ms.
+All onsets found!
+
+Strings/Cello.arco.ff.sulA/Cello.arco.ff.sulA.Ab5.stereo.wav
+------------------------------------------------------------
+Onset at   0.080 seconds, delay: -23ms.
+
+False positives:
+  1.439
+  1.672
+
+Strings/Cello.arco.ff.sulA/Cello.arco.ff.sulA.B3.stereo.wav
+-----------------------------------------------------------
+
+False negatives:
+  0.178
+
+False positives:
+  0.120
+
+Strings/Cello.arco.ff.sulA/Cello.arco.ff.sulA.B4.stereo.wav
+-----------------------------------------------------------
+Onset at   0.159 seconds, delay: -22ms.
+All onsets found!
+
+Strings/Cello.arco.ff.sulA/Cello.arco.ff.sulA.Bb3.stereo.wav
+------------------------------------------------------------
+
+False negatives:
+  0.163
+
+False positives:
+  0.099
+  1.836
+
+Strings/Cello.arco.ff.sulA/Cello.arco.ff.sulA.Bb4.stereo.wav
+------------------------------------------------------------
+
+False negatives:
+  0.139
+
+False positives:
+  0.078
+  2.022
+
+Strings/Cello.arco.ff.sulA/Cello.arco.ff.sulA.C4.stereo.wav
+-----------------------------------------------------------
+
+False negatives:
+  0.127
+
+False positives:
+  0.061
+
+Strings/Cello.arco.ff.sulA/Cello.arco.ff.sulA.C5.stereo.wav
+-----------------------------------------------------------
+
+False negatives:
+  0.136
+
+False positives:
+  0.082
+
+Strings/Cello.arco.ff.sulA/Cello.arco.ff.sulA.D4.stereo.wav
+-----------------------------------------------------------
+Onset at   0.129 seconds, delay: -30ms.
+
+False positives:
+  0.921
+  1.464
+  1.985
+
+Strings/Cello.arco.ff.sulA/Cello.arco.ff.sulA.D5.stereo.wav
+-----------------------------------------------------------
+Onset at   0.187 seconds, delay:  -8ms.
+
+False positives:
+  2.045
+
+Strings/Cello.arco.ff.sulA/Cello.arco.ff.sulA.Db4.stereo.wav
+------------------------------------------------------------
+Onset at   0.110 seconds, delay: -37ms.
+All onsets found!
+
+Strings/Cello.arco.ff.sulA/Cello.arco.ff.sulA.Db5.stereo.wav
+------------------------------------------------------------
+Onset at   0.209 seconds, delay:  -7ms.
+
+False positives:
+  2.010
+
+Strings/Cello.arco.ff.sulA/Cello.arco.ff.sulA.E4.stereo.wav
+-----------------------------------------------------------
+Onset at   0.126 seconds, delay: -40ms.
+
+False positives:
+  2.084
+
+Strings/Cello.arco.ff.sulA/Cello.arco.ff.sulA.E5.stereo.wav
+-----------------------------------------------------------
+Onset at   0.105 seconds, delay: -22ms.
+
+False positives:
+  1.810
+  1.951
+
+Strings/Cello.arco.ff.sulA/Cello.arco.ff.sulA.Eb4.stereo.wav
+------------------------------------------------------------
+Onset at   0.180 seconds, delay: -33ms.
+
+False positives:
+  1.882
+
+Strings/Cello.arco.ff.sulA/Cello.arco.ff.sulA.Eb5.stereo.wav
+------------------------------------------------------------
+Onset at   0.213 seconds, delay: -25ms.
+
+False positives:
+  2.155
+
+Strings/Cello.arco.ff.sulA/Cello.arco.ff.sulA.F4.stereo.wav
+-----------------------------------------------------------
+Onset at   0.171 seconds, delay: -29ms.
+All onsets found!
+
+Strings/Cello.arco.ff.sulA/Cello.arco.ff.sulA.F5.stereo.wav
+-----------------------------------------------------------
+Onset at   0.117 seconds, delay: -46ms.
+
+False positives:
+  1.979
+
+Strings/Cello.arco.ff.sulA/Cello.arco.ff.sulA.G4.stereo.wav
+-----------------------------------------------------------
+Onset at   0.128 seconds, delay: -27ms.
+
+False positives:
+  3.026
+
+Strings/Cello.arco.ff.sulA/Cello.arco.ff.sulA.G5.stereo.wav
+-----------------------------------------------------------
+Onset at   0.156 seconds, delay: -30ms.
+
+False positives:
+  1.461
+  1.911
+
+Strings/Cello.arco.ff.sulA/Cello.arco.ff.sulA.Gb4.stereo.wav
+------------------------------------------------------------
+Onset at   0.170 seconds, delay: -28ms.
+
+False positives:
+  0.290
+
+Strings/Cello.arco.ff.sulA/Cello.arco.ff.sulA.Gb5.stereo.wav
+------------------------------------------------------------
+
+False negatives:
+  0.171
+
+False positives:
+  0.102
+
+Strings/Cello.arco.ff.sulC/Cello.arco.ff.sulC.A2.stereo.wav
+-----------------------------------------------------------
+
+False negatives:
+  0.312
+
+False positives:
+  0.251
+
+Strings/Cello.arco.ff.sulC/Cello.arco.ff.sulC.A3.stereo.wav
+-----------------------------------------------------------
+Onset at   0.298 seconds, delay: -36ms.
+All onsets found!
+
+Strings/Cello.arco.ff.sulC/Cello.arco.ff.sulC.Ab2.stereo.wav
+------------------------------------------------------------
+Onset at   0.260 seconds, delay: -44ms.
+All onsets found!
+
+Strings/Cello.arco.ff.sulC/Cello.arco.ff.sulC.Ab3.stereo.wav
+------------------------------------------------------------
+
+False negatives:
+  0.343
+
+False positives:
+  0.291
+  0.422
+  0.538
+
+Strings/Cello.arco.ff.sulC/Cello.arco.ff.sulC.B2.stereo.wav
+-----------------------------------------------------------
+Onset at   0.200 seconds, delay: -48ms.
+All onsets found!
+
+Strings/Cello.arco.ff.sulC/Cello.arco.ff.sulC.B3.stereo.wav
+-----------------------------------------------------------
+
+False negatives:
+  0.286
+
+False positives:
+  0.212
+
+Strings/Cello.arco.ff.sulC/Cello.arco.ff.sulC.Bb2.stereo.wav
+------------------------------------------------------------
+Onset at   0.287 seconds, delay: -45ms.
+All onsets found!
+
+Strings/Cello.arco.ff.sulC/Cello.arco.ff.sulC.Bb3.stereo.wav
+------------------------------------------------------------
+
+False negatives:
+  0.219
+
+False positives:
+  0.157
+  0.439
+
+Strings/Cello.arco.ff.sulC/Cello.arco.ff.sulC.C2.stereo.wav
+-----------------------------------------------------------
+Onset at   0.372 seconds, delay: -23ms.
+All onsets found!
+
+Strings/Cello.arco.ff.sulC/Cello.arco.ff.sulC.C3.stereo.wav
+-----------------------------------------------------------
+Onset at   0.230 seconds, delay: -35ms.
+All onsets found!
+
+Strings/Cello.arco.ff.sulC/Cello.arco.ff.sulC.C4.stereo.wav
+-----------------------------------------------------------
+
+False negatives:
+  0.159
+
+False positives:
+  0.088
+
+Strings/Cello.arco.ff.sulC/Cello.arco.ff.sulC.D2.stereo.wav
+-----------------------------------------------------------
+Onset at   0.222 seconds, delay: -18ms.
+All onsets found!
+
+Strings/Cello.arco.ff.sulC/Cello.arco.ff.sulC.D3.stereo.wav
+-----------------------------------------------------------
+
+False negatives:
+  0.203
+
+False positives:
+  0.143
+
+Strings/Cello.arco.ff.sulC/Cello.arco.ff.sulC.Db2.stereo.wav
+------------------------------------------------------------
+
+False negatives:
+  0.188
+
+False positives:
+  0.113
+
+Strings/Cello.arco.ff.sulC/Cello.arco.ff.sulC.Db3.stereo.wav
+------------------------------------------------------------
+Onset at   0.296 seconds, delay: -32ms.
+All onsets found!
+
+Strings/Cello.arco.ff.sulC/Cello.arco.ff.sulC.E2.stereo.wav
+-----------------------------------------------------------
+Onset at   0.252 seconds, delay: -41ms.
+All onsets found!
+
+Strings/Cello.arco.ff.sulC/Cello.arco.ff.sulC.E3.stereo.wav
+-----------------------------------------------------------
+
+False negatives:
+  0.233
+
+False positives:
+  0.170
+  0.341
+
+Strings/Cello.arco.ff.sulC/Cello.arco.ff.sulC.Eb2.stereo.wav
+------------------------------------------------------------
+Onset at   0.229 seconds, delay: -28ms.
+All onsets found!
+
+Strings/Cello.arco.ff.sulC/Cello.arco.ff.sulC.Eb3.stereo.wav
+------------------------------------------------------------
+
+False negatives:
+  0.258
+
+False positives:
+  0.182
+
+Strings/Cello.arco.ff.sulC/Cello.arco.ff.sulC.F2.stereo.wav
+-----------------------------------------------------------
+Onset at   0.205 seconds, delay: -41ms.
+All onsets found!
+
+Strings/Cello.arco.ff.sulC/Cello.arco.ff.sulC.F3.stereo.wav
+-----------------------------------------------------------
+
+False negatives:
+  0.232
+
+False positives:
+  0.164
+
+Strings/Cello.arco.ff.sulC/Cello.arco.ff.sulC.G2.stereo.wav
+-----------------------------------------------------------
+
+False negatives:
+  0.272
+
+False positives:
+  0.219
+
+Strings/Cello.arco.ff.sulC/Cello.arco.ff.sulC.G3.stereo.wav
+-----------------------------------------------------------
+
+False negatives:
+  0.302
+
+False positives:
+  0.246
+
+Strings/Cello.arco.ff.sulC/Cello.arco.ff.sulC.Gb2.stereo.wav
+------------------------------------------------------------
+
+False negatives:
+  0.241
+
+False positives:
+  0.182
+
+Strings/Cello.arco.ff.sulC/Cello.arco.ff.sulC.Gb3.stereo.wav
+------------------------------------------------------------
+Onset at   0.302 seconds, delay: -31ms.
+
+False positives:
+  0.430
+
+Strings/Cello.arco.ff.sulD/Cello.arco.ff.sulD.A3.stereo.wav
+-----------------------------------------------------------
+Onset at   0.131 seconds, delay: -37ms.
+All onsets found!
+
+Strings/Cello.arco.ff.sulD/Cello.arco.ff.sulD.A4.stereo.wav
+-----------------------------------------------------------
+Onset at   0.148 seconds, delay: -22ms.
+
+False positives:
+  1.287
+  2.106
+  2.251
+
+Strings/Cello.arco.ff.sulD/Cello.arco.ff.sulD.Ab3.stereo.wav
+------------------------------------------------------------
+Onset at   0.161 seconds, delay: -45ms.
+All onsets found!
+
+Strings/Cello.arco.ff.sulD/Cello.arco.ff.sulD.Ab4.stereo.wav
+------------------------------------------------------------
+Onset at   0.113 seconds, delay: -18ms.
+All onsets found!
+
+Strings/Cello.arco.ff.sulD/Cello.arco.ff.sulD.B3.stereo.wav
+-----------------------------------------------------------
+
+False negatives:
+  0.141
+
+False positives:
+  0.090
+  1.962
+
+Strings/Cello.arco.ff.sulD/Cello.arco.ff.sulD.B4.stereo.wav
+-----------------------------------------------------------
+Onset at   0.142 seconds, delay: -13ms.
+
+False positives:
+  0.560
+
+Strings/Cello.arco.ff.sulD/Cello.arco.ff.sulD.Bb3.stereo.wav
+------------------------------------------------------------
+Onset at   0.187 seconds, delay: -30ms.
+
+False positives:
+  2.172
+
+Strings/Cello.arco.ff.sulD/Cello.arco.ff.sulD.Bb4.stereo.wav
+------------------------------------------------------------
+Onset at   0.166 seconds, delay: -23ms.
+
+False positives:
+  1.990
+
+Strings/Cello.arco.ff.sulD/Cello.arco.ff.sulD.C4.stereo.wav
+-----------------------------------------------------------
+Onset at   0.103 seconds, delay: -43ms.
+All onsets found!
+
+Strings/Cello.arco.ff.sulD/Cello.arco.ff.sulD.C5.stereo.wav
+-----------------------------------------------------------
+Onset at   0.081 seconds, delay: -24ms.
+
+False positives:
+  2.164
+
+Strings/Cello.arco.ff.sulD/Cello.arco.ff.sulD.D3.stereo.wav
+-----------------------------------------------------------
+Onset at   0.323 seconds, delay: -29ms.
+All onsets found!
+
+Strings/Cello.arco.ff.sulD/Cello.arco.ff.sulD.D4.stereo.wav
+-----------------------------------------------------------
+Onset at   0.241 seconds, delay: -11ms.
+
+False positives:
+  2.627
+
+Strings/Cello.arco.ff.sulD/Cello.arco.ff.sulD.D5.stereo.wav
+-----------------------------------------------------------
+
+False negatives:
+  0.173
+
+False positives:
+  0.117
+  0.445
+
+Strings/Cello.arco.ff.sulD/Cello.arco.ff.sulD.Db4.stereo.wav
+------------------------------------------------------------
+Onset at   0.142 seconds, delay: -26ms.
+All onsets found!
+
+Strings/Cello.arco.ff.sulD/Cello.arco.ff.sulD.Db5.stereo.wav
+------------------------------------------------------------
+
+False negatives:
+  0.112
+
+False positives:
+  0.061
+
+Strings/Cello.arco.ff.sulD/Cello.arco.ff.sulD.E3.stereo.wav
+-----------------------------------------------------------
+Onset at   0.137 seconds, delay: -23ms.
+All onsets found!
+
+Strings/Cello.arco.ff.sulD/Cello.arco.ff.sulD.E4.stereo.wav
+-----------------------------------------------------------
+
+False negatives:
+  0.135
+
+False positives:
+  0.063
+  2.126
+  2.324
+
+Strings/Cello.arco.ff.sulD/Cello.arco.ff.sulD.Eb3.stereo.wav
+------------------------------------------------------------
+
+False negatives:
+  0.151
+
+False positives:
+  0.099
+  0.317
+
+Strings/Cello.arco.ff.sulD/Cello.arco.ff.sulD.Eb4.stereo.wav
+------------------------------------------------------------
+Onset at   0.112 seconds, delay: -40ms.
+
+False positives:
+  2.104
+
+Strings/Cello.arco.ff.sulD/Cello.arco.ff.sulD.F3.stereo.wav
+-----------------------------------------------------------
+
+False negatives:
+  0.130
+
+False positives:
+  0.077
+
+Strings/Cello.arco.ff.sulD/Cello.arco.ff.sulD.F4.stereo.wav
+-----------------------------------------------------------
+Onset at   0.108 seconds, delay: -45ms.
+All onsets found!
+
+Strings/Cello.arco.ff.sulD/Cello.arco.ff.sulD.G3.stereo.wav
+-----------------------------------------------------------
+Onset at   0.147 seconds, delay: -40ms.
+
+False positives:
+  1.646
+  1.895
+  2.214
+
+Strings/Cello.arco.ff.sulD/Cello.arco.ff.sulD.G4.stereo.wav
+-----------------------------------------------------------
+Onset at   0.115 seconds, delay: -39ms.
+All onsets found!
+
+Strings/Cello.arco.ff.sulD/Cello.arco.ff.sulD.Gb3.stereo.wav
+------------------------------------------------------------
+
+False negatives:
+  0.120
+
+False positives:
+  0.056
+
+Strings/Cello.arco.ff.sulD/Cello.arco.ff.sulD.Gb4.stereo.wav
+------------------------------------------------------------
+Onset at   0.162 seconds, delay: -45ms.
+All onsets found!
+
+Strings/Cello.arco.ff.sulG/Cello.arco.ff.sulG.A2.stereo.wav
+-----------------------------------------------------------
+Onset at   0.207 seconds, delay: -48ms.
+All onsets found!
+
+Strings/Cello.arco.ff.sulG/Cello.arco.ff.sulG.A3.stereo.wav
+-----------------------------------------------------------
+
+False negatives:
+  0.221
+
+False positives:
+  0.170
+
+Strings/Cello.arco.ff.sulG/Cello.arco.ff.sulG.Ab2.stereo.wav
+------------------------------------------------------------
+
+False negatives:
+  0.265
+
+False positives:
+  0.210
+  0.595
+
+Strings/Cello.arco.ff.sulG/Cello.arco.ff.sulG.Ab3.stereo.wav
+------------------------------------------------------------
+
+False negatives:
+  0.216
+
+False positives:
+  0.136
+
+Strings/Cello.arco.ff.sulG/Cello.arco.ff.sulG.B2.stereo.wav
+-----------------------------------------------------------
+Onset at   0.200 seconds, delay: -25ms.
+
+False positives:
+  0.261
+
+Strings/Cello.arco.ff.sulG/Cello.arco.ff.sulG.B3.stereo.wav
+-----------------------------------------------------------
+
+False negatives:
+  0.284
+
+False positives:
+  0.230
+  1.546
+
+Strings/Cello.arco.ff.sulG/Cello.arco.ff.sulG.Bb2.stereo.wav
+------------------------------------------------------------
+
+False negatives:
+  0.253
+
+False positives:
+  0.182
+
+Strings/Cello.arco.ff.sulG/Cello.arco.ff.sulG.Bb3.stereo.wav
+------------------------------------------------------------
+
+False negatives:
+  0.266
+
+False positives:
+  0.212
+
+Strings/Cello.arco.ff.sulG/Cello.arco.ff.sulG.C3.stereo.wav
+-----------------------------------------------------------
+Onset at   0.296 seconds, delay: -47ms.
+All onsets found!
+
+Strings/Cello.arco.ff.sulG/Cello.arco.ff.sulG.C4.stereo.wav
+-----------------------------------------------------------
+Onset at   0.300 seconds, delay: -33ms.
+All onsets found!
+
+Strings/Cello.arco.ff.sulG/Cello.arco.ff.sulG.D3.stereo.wav
+-----------------------------------------------------------
+
+False negatives:
+  0.226
+
+False positives:
+  0.141
+
+Strings/Cello.arco.ff.sulG/Cello.arco.ff.sulG.D4.stereo.wav
+-----------------------------------------------------------
+Onset at   0.209 seconds, delay: -31ms.
+All onsets found!
+
+Strings/Cello.arco.ff.sulG/Cello.arco.ff.sulG.Db3.stereo.wav
+------------------------------------------------------------
+Onset at   0.246 seconds, delay: -46ms.
+
+False positives:
+  0.363
+
+Strings/Cello.arco.ff.sulG/Cello.arco.ff.sulG.Db4.stereo.wav
+------------------------------------------------------------
+Onset at   0.252 seconds, delay: -32ms.
+All onsets found!
+
+Strings/Cello.arco.ff.sulG/Cello.arco.ff.sulG.E3.stereo.wav
+-----------------------------------------------------------
+Onset at   0.241 seconds, delay: -38ms.
+All onsets found!
+
+Strings/Cello.arco.ff.sulG/Cello.arco.ff.sulG.Eb3.stereo.wav
+------------------------------------------------------------
+
+False negatives:
+  0.260
+
+False positives:
+  0.208
+
+Strings/Cello.arco.ff.sulG/Cello.arco.ff.sulG.F3.stereo.wav
+-----------------------------------------------------------
+Onset at   0.223 seconds, delay: -33ms.
+All onsets found!
+
+Strings/Cello.arco.ff.sulG/Cello.arco.ff.sulG.G2.stereo.wav
+-----------------------------------------------------------
+Onset at   0.241 seconds, delay: -37ms.
+All onsets found!
+
+Strings/Cello.arco.ff.sulG/Cello.arco.ff.sulG.G3.stereo.wav
+-----------------------------------------------------------
+Onset at   0.259 seconds, delay: -37ms.
+All onsets found!
+
+Strings/Cello.arco.ff.sulG/Cello.arco.ff.sulG.Gb3.stereo.wav
+------------------------------------------------------------
+Onset at   0.198 seconds, delay: -43ms.
+All onsets found!
+
+Strings/Viola.arco.ff.sulA/Viola.arco.ff.sulA.A4.stereo.wav
+-----------------------------------------------------------
+
+False negatives:
+  0.129
+
+False positives:
+  0.071
+
+Strings/Viola.arco.ff.sulA/Viola.arco.ff.sulA.A5.stereo.wav
+-----------------------------------------------------------
+Onset at   0.175 seconds, delay: -32ms.
+All onsets found!
+
+Strings/Viola.arco.ff.sulA/Viola.arco.ff.sulA.A6.stereo.wav
+-----------------------------------------------------------
+Onset at   0.110 seconds, delay: -36ms.
+
+False positives:
+  0.939
+
+Strings/Viola.arco.ff.sulA/Viola.arco.ff.sulA.Ab5.stereo.wav
+------------------------------------------------------------
+Onset at   0.144 seconds, delay: -25ms.
+
+False positives:
+  0.257
+
+Strings/Viola.arco.ff.sulA/Viola.arco.ff.sulA.Ab6.stereo.wav
+------------------------------------------------------------
+Onset at   0.171 seconds, delay: -31ms.
+All onsets found!
+
+Strings/Viola.arco.ff.sulA/Viola.arco.ff.sulA.B4.stereo.wav
+-----------------------------------------------------------
+Onset at   0.135 seconds, delay: -39ms.
+All onsets found!
+
+Strings/Viola.arco.ff.sulA/Viola.arco.ff.sulA.B5.stereo.wav
+-----------------------------------------------------------
+Onset at   0.155 seconds, delay: -27ms.
+
+False positives:
+  0.319
+
+Strings/Viola.arco.ff.sulA/Viola.arco.ff.sulA.Bb4.stereo.wav
+------------------------------------------------------------
+Onset at   0.421 seconds, delay:  -7ms.
+All onsets found!
+
+Strings/Viola.arco.ff.sulA/Viola.arco.ff.sulA.Bb5.stereo.wav
+------------------------------------------------------------
+Onset at   0.187 seconds, delay: -16ms.
+All onsets found!
+
+Strings/Viola.arco.ff.sulA/Viola.arco.ff.sulA.C5.stereo.wav
+-----------------------------------------------------------
+Onset at   0.139 seconds, delay:  -9ms.
+
+False positives:
+  1.797
+
+Strings/Viola.arco.ff.sulA/Viola.arco.ff.sulA.C6.stereo.wav
+-----------------------------------------------------------
+Onset at   0.146 seconds, delay: -29ms.
+All onsets found!
+
+Strings/Viola.arco.ff.sulA/Viola.arco.ff.sulA.D5.stereo.wav
+-----------------------------------------------------------
+Onset at   0.143 seconds, delay: -26ms.
+
+False positives:
+  0.283
+
+Strings/Viola.arco.ff.sulA/Viola.arco.ff.sulA.D6.stereo.wav
+-----------------------------------------------------------
+Onset at   0.162 seconds, delay: -43ms.
+
+False positives:
+  0.354
+
+Strings/Viola.arco.ff.sulA/Viola.arco.ff.sulA.Db5.stereo.wav
+------------------------------------------------------------
+Onset at   0.201 seconds, delay: -31ms.
+All onsets found!
+
+Strings/Viola.arco.ff.sulA/Viola.arco.ff.sulA.Db6.stereo.wav
+------------------------------------------------------------
+Onset at   0.165 seconds, delay: -39ms.
+
+False positives:
+  0.332
+
+Strings/Viola.arco.ff.sulA/Viola.arco.ff.sulA.E5.stereo.wav
+-----------------------------------------------------------
+Onset at   0.151 seconds, delay: -26ms.
+
+False positives:
+  0.357
+
+Strings/Viola.arco.ff.sulA/Viola.arco.ff.sulA.E6.stereo.wav
+-----------------------------------------------------------
+Onset at   0.177 seconds, delay: -27ms.
+
+False positives:
+  0.348
+  0.602
+
+Strings/Viola.arco.ff.sulA/Viola.arco.ff.sulA.Eb5.stereo.wav
+------------------------------------------------------------
+Onset at   0.112 seconds, delay: -24ms.
+
+False positives:
+  0.271
+
+Strings/Viola.arco.ff.sulA/Viola.arco.ff.sulA.Eb6.stereo.wav
+------------------------------------------------------------
+Onset at   0.231 seconds, delay: -42ms.
+All onsets found!
+
+Strings/Viola.arco.ff.sulA/Viola.arco.ff.sulA.F5.stereo.wav
+-----------------------------------------------------------
+Onset at   0.148 seconds, delay: -18ms.
+All onsets found!
+
+Strings/Viola.arco.ff.sulA/Viola.arco.ff.sulA.F6.stereo.wav
+-----------------------------------------------------------
+Onset at   0.255 seconds, delay: -14ms.
+
+False positives:
+  0.423
+
+Strings/Viola.arco.ff.sulA/Viola.arco.ff.sulA.G5.stereo.wav
+-----------------------------------------------------------
+Onset at   0.107 seconds, delay: -36ms.
+
+False positives:
+  0.242
+
+Strings/Viola.arco.ff.sulA/Viola.arco.ff.sulA.G6.stereo.wav
+-----------------------------------------------------------
+Onset at   0.225 seconds, delay: -21ms.
+
+False positives:
+  0.490
+
+Strings/Viola.arco.ff.sulA/Viola.arco.ff.sulA.Gb5.stereo.wav
+------------------------------------------------------------
+
+False negatives:
+  0.128
+
+False positives:
+  0.074
+
+Strings/Viola.arco.ff.sulA/Viola.arco.ff.sulA.Gb6.stereo.wav
+------------------------------------------------------------
+Onset at   0.149 seconds, delay: -14ms.
+All onsets found!
+
+Strings/Viola.arco.ff.sulC/Viola.arco.ff.sulC.A3.stereo.wav
+-----------------------------------------------------------
+Onset at   0.068 seconds
+All onsets found!
+
+Strings/Viola.arco.ff.sulC/Viola.arco.ff.sulC.A4.stereo.wav
+-----------------------------------------------------------
+Onset at   0.217 seconds, delay: -23ms.
+
+False positives:
+  0.396
+  0.874
+
+Strings/Viola.arco.ff.sulC/Viola.arco.ff.sulC.Ab3.stereo.wav
+------------------------------------------------------------
+Onset at   0.166 seconds, delay: -44ms.
+All onsets found!
+
+Strings/Viola.arco.ff.sulC/Viola.arco.ff.sulC.Ab4.stereo.wav
+------------------------------------------------------------
+Onset at   0.219 seconds, delay: -30ms.
+
+False positives:
+  0.350
+
+Strings/Viola.arco.ff.sulC/Viola.arco.ff.sulC.B3.stereo.wav
+-----------------------------------------------------------
+Onset at   0.359 seconds, delay: -20ms.
+All onsets found!
+
+Strings/Viola.arco.ff.sulC/Viola.arco.ff.sulC.B4.stereo.wav
+-----------------------------------------------------------
+
+False negatives:
+  0.500
+
+False positives:
+  0.059
+
+Strings/Viola.arco.ff.sulC/Viola.arco.ff.sulC.Bb3.stereo.wav
+------------------------------------------------------------
+Onset at   0.239 seconds, delay:  -3ms.
+
+False positives:
+  0.041
+
+Strings/Viola.arco.ff.sulC/Viola.arco.ff.sulC.Bb4.stereo.wav
+------------------------------------------------------------
+Onset at   0.180 seconds, delay: -19ms.
+
+False positives:
+  0.419
+
+Strings/Viola.arco.ff.sulC/Viola.arco.ff.sulC.C3.stereo.wav
+-----------------------------------------------------------
+Onset at   0.073 seconds, delay: -12ms.
+
+False positives:
+  0.440
+
+Strings/Viola.arco.ff.sulC/Viola.arco.ff.sulC.C4.stereo.wav
+-----------------------------------------------------------
+Onset at   0.444 seconds, delay:  -6ms.
+All onsets found!
+
+Strings/Viola.arco.ff.sulC/Viola.arco.ff.sulC.C5.stereo.wav
+-----------------------------------------------------------
+Onset at   0.625 seconds, delay: -43ms.
+All onsets found!
+
+Strings/Viola.arco.ff.sulC/Viola.arco.ff.sulC.D3.stereo.wav
+-----------------------------------------------------------
+Onset at   0.083 seconds, delay: -24ms.
+All onsets found!
+
+Strings/Viola.arco.ff.sulC/Viola.arco.ff.sulC.D4.stereo.wav
+-----------------------------------------------------------
+Onset at   0.300 seconds, delay: -27ms.
+All onsets found!
+
+Strings/Viola.arco.ff.sulC/Viola.arco.ff.sulC.Db3.stereo.wav
+------------------------------------------------------------
+Onset at   0.080 seconds, delay: -18ms.
+
+False positives:
+  0.490
+
+Strings/Viola.arco.ff.sulC/Viola.arco.ff.sulC.Db4.stereo.wav
+------------------------------------------------------------
+
+False negatives:
+  0.132
+
+False positives:
+  0.067
+
+Strings/Viola.arco.ff.sulC/Viola.arco.ff.sulC.E3.stereo.wav
+-----------------------------------------------------------
+Onset at   0.131 seconds, delay: -37ms.
+All onsets found!
+
+Strings/Viola.arco.ff.sulC/Viola.arco.ff.sulC.E4.stereo.wav
+-----------------------------------------------------------
+Onset at   0.382 seconds, delay: -17ms.
+All onsets found!
+
+Strings/Viola.arco.ff.sulC/Viola.arco.ff.sulC.Eb3.stereo.wav
+------------------------------------------------------------
+Onset at   0.062 seconds, delay: -22ms.
+All onsets found!
+
+Strings/Viola.arco.ff.sulC/Viola.arco.ff.sulC.Eb4.stereo.wav
+------------------------------------------------------------
+
+False negatives:
+  0.201
+
+False positives:
+  0.146
+
+Strings/Viola.arco.ff.sulC/Viola.arco.ff.sulC.F3.stereo.wav
+-----------------------------------------------------------
+Onset at   0.086 seconds, delay: -22ms.
+All onsets found!
+
+Strings/Viola.arco.ff.sulC/Viola.arco.ff.sulC.F4.stereo.wav
+-----------------------------------------------------------
+Onset at   0.172 seconds, delay: -33ms.
+
+False positives:
+  0.427
+
+Strings/Viola.arco.ff.sulC/Viola.arco.ff.sulC.G3.stereo.wav
+-----------------------------------------------------------
+Onset at   0.136 seconds, delay: -16ms.
+All onsets found!
+
+Strings/Viola.arco.ff.sulC/Viola.arco.ff.sulC.G4.stereo.wav
+-----------------------------------------------------------
+Onset at   0.147 seconds, delay: -18ms.
+All onsets found!
+
+Strings/Viola.arco.ff.sulC/Viola.arco.ff.sulC.Gb3.stereo.wav
+------------------------------------------------------------
+Onset at   0.140 seconds, delay: -30ms.
+All onsets found!
+
+Strings/Viola.arco.ff.sulC/Viola.arco.ff.sulC.Gb4.stereo.wav
+------------------------------------------------------------
+Onset at   0.341 seconds, delay:  -3ms.
+All onsets found!
+
+Strings/Viola.arco.ff.sulD/Viola.arco.ff.sulD.A4.stereo.wav
+-----------------------------------------------------------
+
+False negatives:
+  0.135
+
+False positives:
+  0.077
+
+Strings/Viola.arco.ff.sulD/Viola.arco.ff.sulD.A5.stereo.wav
+-----------------------------------------------------------
+Onset at   0.157 seconds, delay: -47ms.
+
+False positives:
+  0.361
+
+Strings/Viola.arco.ff.sulD/Viola.arco.ff.sulD.Ab4.stereo.wav
+------------------------------------------------------------
+
+False negatives:
+  0.202
+
+False positives:
+  0.126
+  0.364
+
+Strings/Viola.arco.ff.sulD/Viola.arco.ff.sulD.Ab5.stereo.wav
+------------------------------------------------------------
+Onset at   0.225 seconds, delay: -18ms.
+All onsets found!
+
+Strings/Viola.arco.ff.sulD/Viola.arco.ff.sulD.B4.stereo.wav
+-----------------------------------------------------------
+Onset at   0.210 seconds, delay: -31ms.
+All onsets found!
+
+Strings/Viola.arco.ff.sulD/Viola.arco.ff.sulD.B5.stereo.wav
+-----------------------------------------------------------
+Onset at   0.267 seconds, delay: -21ms.
+
+False positives:
+  0.390
+  0.719
+
+Strings/Viola.arco.ff.sulD/Viola.arco.ff.sulD.Bb4.stereo.wav
+------------------------------------------------------------
+Onset at   0.169 seconds, delay: -26ms.
+
+False positives:
+  0.315
+
+Strings/Viola.arco.ff.sulD/Viola.arco.ff.sulD.Bb5.stereo.wav
+------------------------------------------------------------
+Onset at   0.317 seconds, delay: -14ms.
+All onsets found!
+
+Strings/Viola.arco.ff.sulD/Viola.arco.ff.sulD.C5.stereo.wav
+-----------------------------------------------------------
+Onset at   0.261 seconds, delay: -32ms.
+All onsets found!
+
+Strings/Viola.arco.ff.sulD/Viola.arco.ff.sulD.C6.stereo.wav
+-----------------------------------------------------------
+Onset at   0.266 seconds, delay: -18ms.
+
+False positives:
+  0.393
+
+Strings/Viola.arco.ff.sulD/Viola.arco.ff.sulD.D4.stereo.wav
+-----------------------------------------------------------
+Onset at   0.232 seconds, delay: -20ms.
+
+False positives:
+  0.555
+
+Strings/Viola.arco.ff.sulD/Viola.arco.ff.sulD.D5.stereo.wav
+-----------------------------------------------------------
+Onset at   0.174 seconds, delay: -19ms.
+
+False positives:
+  0.294
+
+Strings/Viola.arco.ff.sulD/Viola.arco.ff.sulD.D6.stereo.wav
+-----------------------------------------------------------
+Onset at   0.218 seconds, delay: -46ms.
+
+False positives:
+  1.872
+
+Strings/Viola.arco.ff.sulD/Viola.arco.ff.sulD.Db5.stereo.wav
+------------------------------------------------------------
+Onset at   0.163 seconds, delay: -21ms.
+All onsets found!
+
+Strings/Viola.arco.ff.sulD/Viola.arco.ff.sulD.Db6.stereo.wav
+------------------------------------------------------------
+Onset at   0.207 seconds, delay: -31ms.
+
+False positives:
+  0.444
+
+Strings/Viola.arco.ff.sulD/Viola.arco.ff.sulD.E4.stereo.wav
+-----------------------------------------------------------
+Onset at   0.319 seconds, delay: -41ms.
+All onsets found!
+
+Strings/Viola.arco.ff.sulD/Viola.arco.ff.sulD.E5.stereo.wav
+-----------------------------------------------------------
+Onset at   0.172 seconds, delay: -18ms.
+
+False positives:
+  0.352
+  1.398
+
+Strings/Viola.arco.ff.sulD/Viola.arco.ff.sulD.Eb4.stereo.wav
+------------------------------------------------------------
+
+False negatives:
+  0.454
+
+False positives:
+  0.194
+  0.561
+
+Strings/Viola.arco.ff.sulD/Viola.arco.ff.sulD.Eb5.stereo.wav
+------------------------------------------------------------
+Onset at   0.359 seconds, delay: -30ms.
+
+False positives:
+  0.493
+
+Strings/Viola.arco.ff.sulD/Viola.arco.ff.sulD.F4.stereo.wav
+-----------------------------------------------------------
+Onset at   0.134 seconds, delay: -18ms.
+All onsets found!
+
+Strings/Viola.arco.ff.sulD/Viola.arco.ff.sulD.F5.stereo.wav
+-----------------------------------------------------------
+
+False negatives:
+  0.141
+
+False positives:
+  0.071
+  0.367
+
+Strings/Viola.arco.ff.sulD/Viola.arco.ff.sulD.G4.stereo.wav
+-----------------------------------------------------------
+Onset at   0.334 seconds, delay: -29ms.
+
+False positives:
+  0.550
+
+Strings/Viola.arco.ff.sulD/Viola.arco.ff.sulD.G5.stereo.wav
+-----------------------------------------------------------
+Onset at   0.101 seconds, delay: -29ms.
+
+False positives:
+  2.310
+
+Strings/Viola.arco.ff.sulD/Viola.arco.ff.sulD.Gb4.stereo.wav
+------------------------------------------------------------
+Onset at   0.303 seconds, delay: -22ms.
+
+False positives:
+  0.518
+
+Strings/Viola.arco.ff.sulD/Viola.arco.ff.sulD.Gb5.stereo.wav
+------------------------------------------------------------
+
+False negatives:
+  0.203
+
+False positives:
+  0.142
+
+Strings/Viola.arco.ff.sulG/Viola.arco.ff.sulG.A3.stereo.wav
+-----------------------------------------------------------
+Onset at   0.213 seconds, delay: -21ms.
+All onsets found!
+
+Strings/Viola.arco.ff.sulG/Viola.arco.ff.sulG.A4.stereo.wav
+-----------------------------------------------------------
+Onset at   0.326 seconds, delay: -16ms.
+All onsets found!
+
+Strings/Viola.arco.ff.sulG/Viola.arco.ff.sulG.Ab3.stereo.wav
+------------------------------------------------------------
+Onset at   0.288 seconds, delay: -22ms.
+All onsets found!
+
+Strings/Viola.arco.ff.sulG/Viola.arco.ff.sulG.Ab4.stereo.wav
+------------------------------------------------------------
+Onset at   0.217 seconds, delay: -26ms.
+
+False positives:
+  0.339
+
+Strings/Viola.arco.ff.sulG/Viola.arco.ff.sulG.B3.stereo.wav
+-----------------------------------------------------------
+
+False negatives:
+  0.148
+
+False positives:
+  0.074
+  0.503
+
+Strings/Viola.arco.ff.sulG/Viola.arco.ff.sulG.B4.stereo.wav
+-----------------------------------------------------------
+
+False negatives:
+  0.254
+
+False positives:
+  0.196
+
+Strings/Viola.arco.ff.sulG/Viola.arco.ff.sulG.Bb3.stereo.wav
+------------------------------------------------------------
+Onset at   0.247 seconds, delay: -25ms.
+
+False positives:
+  0.498
+
+Strings/Viola.arco.ff.sulG/Viola.arco.ff.sulG.Bb4.stereo.wav
+------------------------------------------------------------
+Onset at   0.376 seconds, delay: -16ms.
+All onsets found!
+
+Strings/Viola.arco.ff.sulG/Viola.arco.ff.sulG.C4.stereo.wav
+-----------------------------------------------------------
+Onset at   0.278 seconds, delay: -10ms.
+All onsets found!
+
+Strings/Viola.arco.ff.sulG/Viola.arco.ff.sulG.C5.stereo.wav
+-----------------------------------------------------------
+Onset at   0.337 seconds, delay: -46ms.
+All onsets found!
+
+Strings/Viola.arco.ff.sulG/Viola.arco.ff.sulG.D4.stereo.wav
+-----------------------------------------------------------
+Onset at   0.457 seconds, delay: -24ms.
+All onsets found!
+
+Strings/Viola.arco.ff.sulG/Viola.arco.ff.sulG.D5.stereo.wav
+-----------------------------------------------------------
+Onset at   0.606 seconds, delay: -24ms.
+
+False positives:
+  1.439
+  1.594
+
+Strings/Viola.arco.ff.sulG/Viola.arco.ff.sulG.Db4.stereo.wav
+------------------------------------------------------------
+Onset at   0.262 seconds, delay: -42ms.
+All onsets found!
+
+Strings/Viola.arco.ff.sulG/Viola.arco.ff.sulG.Db5.stereo.wav
+------------------------------------------------------------
+Onset at   0.237 seconds, delay: -22ms.
+
+False positives:
+  0.601
+
+Strings/Viola.arco.ff.sulG/Viola.arco.ff.sulG.E4.stereo.wav
+-----------------------------------------------------------
+Onset at   0.278 seconds, delay: -16ms.
+All onsets found!
+
+Strings/Viola.arco.ff.sulG/Viola.arco.ff.sulG.E5.stereo.wav
+-----------------------------------------------------------
+Onset at   0.138 seconds, delay: -38ms.
+
+False positives:
+  0.269
+
+Strings/Viola.arco.ff.sulG/Viola.arco.ff.sulG.Eb4.stereo.wav
+------------------------------------------------------------
+
+False negatives:
+  0.457
+
+False positives:
+  0.211
+  0.648
+  0.790
+
+Strings/Viola.arco.ff.sulG/Viola.arco.ff.sulG.Eb5.stereo.wav
+------------------------------------------------------------
+
+False negatives:
+  0.180
+
+False positives:
+  0.120
+
+Strings/Viola.arco.ff.sulG/Viola.arco.ff.sulG.F4.stereo.wav
+-----------------------------------------------------------
+Onset at   0.180 seconds, delay: -12ms.
+All onsets found!
+
+Strings/Viola.arco.ff.sulG/Viola.arco.ff.sulG.F5.stereo.wav
+-----------------------------------------------------------
+Onset at   0.267 seconds, delay: -18ms.
+All onsets found!
+
+Strings/Viola.arco.ff.sulG/Viola.arco.ff.sulG.G3.stereo.wav
+-----------------------------------------------------------
+Onset at   0.551 seconds, delay: -14ms.
+All onsets found!
+
+Strings/Viola.arco.ff.sulG/Viola.arco.ff.sulG.G4.stereo.wav
+-----------------------------------------------------------
+Onset at   0.239 seconds, delay:  -9ms.
+
+False positives:
+  0.356
+
+Strings/Viola.arco.ff.sulG/Viola.arco.ff.sulG.G5.stereo.wav
+-----------------------------------------------------------
+Onset at   0.194 seconds, delay: -26ms.
+
+False positives:
+  0.483
+
+Strings/Viola.arco.ff.sulG/Viola.arco.ff.sulG.Gb4.stereo.wav
+------------------------------------------------------------
+Onset at   0.263 seconds, delay: -17ms.
+All onsets found!
+
+Strings/Viola.arco.ff.sulG/Viola.arco.ff.sulG.Gb5.stereo.wav
+------------------------------------------------------------
+Onset at   0.157 seconds, delay: -27ms.
+All onsets found!
+
+Strings/Violin.arco.ff.sulA/Violin.arco.ff.sulA.A4.stereo.wav
+-------------------------------------------------------------
+Onset at   0.045 seconds, delay:  -4ms.
+All onsets found!
+
+Strings/Violin.arco.ff.sulA/Violin.arco.ff.sulA.A5.stereo.wav
+-------------------------------------------------------------
+Onset at   0.167 seconds, delay: -15ms.
+All onsets found!
+
+Strings/Violin.arco.ff.sulA/Violin.arco.ff.sulA.Ab5.stereo.wav
+--------------------------------------------------------------
+Onset at   0.039 seconds, delay: -15ms.
+All onsets found!
+
+Strings/Violin.arco.ff.sulA/Violin.arco.ff.sulA.Ab6.stereo.wav
+--------------------------------------------------------------
+Onset at   0.112 seconds, delay: -39ms.
+All onsets found!
+
+Strings/Violin.arco.ff.sulA/Violin.arco.ff.sulA.B4.stereo.wav
+-------------------------------------------------------------
+Onset at   0.131 seconds, delay: -27ms.
+
+False positives:
+  1.923
+
+Strings/Violin.arco.ff.sulA/Violin.arco.ff.sulA.B5.stereo.wav
+-------------------------------------------------------------
+Onset at   0.088 seconds, delay: -17ms.
+All onsets found!
+
+Strings/Violin.arco.ff.sulA/Violin.arco.ff.sulA.Bb4.stereo.wav
+--------------------------------------------------------------
+Onset at   0.062 seconds, delay:  -4ms.
+All onsets found!
+
+Strings/Violin.arco.ff.sulA/Violin.arco.ff.sulA.C5.stereo.wav
+-------------------------------------------------------------
+Onset at   0.044 seconds, delay:  -3ms.
+All onsets found!
+
+Strings/Violin.arco.ff.sulA/Violin.arco.ff.sulA.C6.stereo.wav
+-------------------------------------------------------------
+Onset at   0.051 seconds, delay: -10ms.
+All onsets found!
+
+Strings/Violin.arco.ff.sulA/Violin.arco.ff.sulA.D5.stereo.wav
+-------------------------------------------------------------
+Onset at   0.034 seconds, delay:   5ms.
+
+False positives:
+  1.220
+  1.450
+
+Strings/Violin.arco.ff.sulA/Violin.arco.ff.sulA.D6.stereo.wav
+-------------------------------------------------------------
+Onset at   0.054 seconds, delay: -13ms.
+
+False positives:
+  0.492
+
+Strings/Violin.arco.ff.sulA/Violin.arco.ff.sulA.Db5.stereo.wav
+--------------------------------------------------------------
+Onset at   0.030 seconds, delay:  -1ms.
+All onsets found!
+
+Strings/Violin.arco.ff.sulA/Violin.arco.ff.sulA.Db6.stereo.wav
+--------------------------------------------------------------
+Onset at   0.022 seconds, delay:   3ms.
+
+False positives:
+  1.212
+
+Strings/Violin.arco.ff.sulA/Violin.arco.ff.sulA.E5.stereo.wav
+-------------------------------------------------------------
+Onset at   0.092 seconds, delay: -21ms.
+
+False positives:
+  0.353
+  0.584
+  1.201
+  1.887
+
+Strings/Violin.arco.ff.sulA/Violin.arco.ff.sulA.E6.stereo.wav
+-------------------------------------------------------------
+Onset at   0.073 seconds, delay: -14ms.
+
+False positives:
+  0.418
+  0.870
+
+Strings/Violin.arco.ff.sulA/Violin.arco.ff.sulA.Eb5.stereo.wav
+--------------------------------------------------------------
+Onset at   0.027 seconds, delay:  -5ms.
+
+False positives:
+  1.544
+  1.620
+
+Strings/Violin.arco.ff.sulA/Violin.arco.ff.sulA.Eb6.stereo.wav
+--------------------------------------------------------------
+Onset at   0.033 seconds, delay: -10ms.
+
+False positives:
+  0.298
+  1.396
+
+Strings/Violin.arco.ff.sulA/Violin.arco.ff.sulA.F5.stereo.wav
+-------------------------------------------------------------
+Onset at   0.117 seconds, delay:  -8ms.
+
+False positives:
+  0.594
+  1.063
+  1.259
+
+Strings/Violin.arco.ff.sulA/Violin.arco.ff.sulA.F6.stereo.wav
+-------------------------------------------------------------
+Onset at   0.022 seconds, delay:   2ms.
+
+False positives:
+  0.120
+  0.355
+  0.881
+  1.090
+  1.283
+  1.416
+
+Strings/Violin.arco.ff.sulA/Violin.arco.ff.sulA.G5.stereo.wav
+-------------------------------------------------------------
+Onset at   0.079 seconds, delay: -15ms.
+All onsets found!
+
+Strings/Violin.arco.ff.sulA/Violin.arco.ff.sulA.G6.stereo.wav
+-------------------------------------------------------------
+Onset at   0.075 seconds, delay:  -2ms.
+
+False positives:
+  1.460
+
+Strings/Violin.arco.ff.sulA/Violin.arco.ff.sulA.Gb5.stereo.wav
+--------------------------------------------------------------
+
+False negatives:
+  0.155
+
+False positives:
+  0.041
+
+Strings/Violin.arco.ff.sulA/Violin.arco.ff.sulA.Gb6.stereo.wav
+--------------------------------------------------------------
+Onset at   0.125 seconds, delay:  -2ms.
+All onsets found!
+
+Strings/Violin.arco.ff.sulD/Violin.arco.ff.sulD.A4.stereo.wav
+-------------------------------------------------------------
+Onset at   0.079 seconds, delay: -17ms.
+
+False positives:
+  1.215
+
+Strings/Violin.arco.ff.sulD/Violin.arco.ff.sulD.A5.stereo.wav
+-------------------------------------------------------------
+Onset at   0.036 seconds, delay:  -5ms.
+All onsets found!
+
+Strings/Violin.arco.ff.sulD/Violin.arco.ff.sulD.Ab4.stereo.wav
+--------------------------------------------------------------
+Onset at   0.115 seconds, delay:  -9ms.
+All onsets found!
+
+Strings/Violin.arco.ff.sulD/Violin.arco.ff.sulD.Ab5.stereo.wav
+--------------------------------------------------------------
+Onset at   0.046 seconds, delay:  -3ms.
+All onsets found!
+
+Strings/Violin.arco.ff.sulD/Violin.arco.ff.sulD.B4.stereo.wav
+-------------------------------------------------------------
+Onset at   0.081 seconds, delay:  -8ms.
+All onsets found!
+
+Strings/Violin.arco.ff.sulD/Violin.arco.ff.sulD.B5.stereo.wav
+-------------------------------------------------------------
+Onset at   0.032 seconds, delay:  -6ms.
+All onsets found!
+
+Strings/Violin.arco.ff.sulD/Violin.arco.ff.sulD.Bb4.stereo.wav
+--------------------------------------------------------------
+Onset at   0.103 seconds, delay: -24ms.
+
+False positives:
+  0.226
+  1.041
+
+Strings/Violin.arco.ff.sulD/Violin.arco.ff.sulD.Bb5.stereo.wav
+--------------------------------------------------------------
+Onset at   0.036 seconds, delay: -15ms.
+
+False positives:
+  0.380
+
+Strings/Violin.arco.ff.sulD/Violin.arco.ff.sulD.C5.stereo.wav
+-------------------------------------------------------------
+Onset at   0.047 seconds, delay:  -8ms.
+
+False positives:
+  0.819
+
+Strings/Violin.arco.ff.sulD/Violin.arco.ff.sulD.C6.stereo.wav
+-------------------------------------------------------------
+Onset at   0.124 seconds, delay:  -6ms.
+
+False positives:
+  0.407
+
+Strings/Violin.arco.ff.sulD/Violin.arco.ff.sulD.D4.stereo.wav
+-------------------------------------------------------------
+Onset at   0.011 seconds, delay:  15ms.
+
+False positives:
+  2.870
+
+Strings/Violin.arco.ff.sulD/Violin.arco.ff.sulD.D5.stereo.wav
+-------------------------------------------------------------
+Onset at   0.046 seconds, delay: -24ms.
+
+False positives:
+  0.732
+
+Strings/Violin.arco.ff.sulD/Violin.arco.ff.sulD.Db5.stereo.wav
+--------------------------------------------------------------
+Onset at   0.026 seconds, delay:  -5ms.
+All onsets found!
+
+Strings/Violin.arco.ff.sulD/Violin.arco.ff.sulD.E4.stereo.wav
+-------------------------------------------------------------
+Onset at   0.097 seconds, delay: -25ms.
+All onsets found!
+
+Strings/Violin.arco.ff.sulD/Violin.arco.ff.sulD.E5.stereo.wav
+-------------------------------------------------------------
+Onset at   0.066 seconds, delay: -13ms.
+
+False positives:
+  1.217
+
+Strings/Violin.arco.ff.sulD/Violin.arco.ff.sulD.Eb4.stereo.wav
+--------------------------------------------------------------
+Onset at   0.152 seconds, delay:  -7ms.
+All onsets found!
+
+Strings/Violin.arco.ff.sulD/Violin.arco.ff.sulD.Eb5.stereo.wav
+--------------------------------------------------------------
+Onset at   0.045 seconds, delay:  -9ms.
+All onsets found!
+
+Strings/Violin.arco.ff.sulD/Violin.arco.ff.sulD.F4.stereo.wav
+-------------------------------------------------------------
+Onset at   0.104 seconds, delay: -32ms.
+All onsets found!
+
+Strings/Violin.arco.ff.sulD/Violin.arco.ff.sulD.F5.stereo.wav
+-------------------------------------------------------------
+Onset at   0.056 seconds, delay: -15ms.
+All onsets found!
+
+Strings/Violin.arco.ff.sulD/Violin.arco.ff.sulD.G4.stereo.wav
+-------------------------------------------------------------
+Onset at   0.108 seconds, delay: -19ms.
+All onsets found!
+
+Strings/Violin.arco.ff.sulD/Violin.arco.ff.sulD.G5.stereo.wav
+-------------------------------------------------------------
+Onset at   0.047 seconds, delay:  -4ms.
+All onsets found!
+
+Strings/Violin.arco.ff.sulD/Violin.arco.ff.sulD.Gb5.stereo.wav
+--------------------------------------------------------------
+Onset at   0.044 seconds, delay:  -6ms.
+All onsets found!
+
+Strings/Violin.arco.ff.sulE/Violin.arco.ff.sulE.A5.stereo.wav
+-------------------------------------------------------------
+Onset at   0.104 seconds, delay: -30ms.
+All onsets found!
+
+Strings/Violin.arco.ff.sulE/Violin.arco.ff.sulE.A6.stereo.wav
+-------------------------------------------------------------
+Onset at   0.068 seconds, delay: -14ms.
+All onsets found!
+
+Strings/Violin.arco.ff.sulE/Violin.arco.ff.sulE.Ab5.stereo.wav
+--------------------------------------------------------------
+Onset at   0.056 seconds, delay: -13ms.
+All onsets found!
+
+Strings/Violin.arco.ff.sulE/Violin.arco.ff.sulE.Ab6.stereo.wav
+--------------------------------------------------------------
+Onset at   0.070 seconds, delay: -14ms.
+
+False positives:
+  1.850
+
+Strings/Violin.arco.ff.sulE/Violin.arco.ff.sulE.B5.stereo.wav
+-------------------------------------------------------------
+Onset at   0.038 seconds, delay:  -8ms.
+All onsets found!
+
+Strings/Violin.arco.ff.sulE/Violin.arco.ff.sulE.B6.stereo.wav
+-------------------------------------------------------------
+Onset at   0.050 seconds, delay: -27ms.
+All onsets found!
+
+Strings/Violin.arco.ff.sulE/Violin.arco.ff.sulE.Bb5.stereo.wav
+--------------------------------------------------------------
+Onset at   0.105 seconds, delay: -31ms.
+All onsets found!
+
+Strings/Violin.arco.ff.sulE/Violin.arco.ff.sulE.Bb6.stereo.wav
+--------------------------------------------------------------
+Onset at   0.062 seconds, delay: -11ms.
+All onsets found!
+
+Strings/Violin.arco.ff.sulE/Violin.arco.ff.sulE.C6.stereo.wav
+-------------------------------------------------------------
+Onset at   0.096 seconds, delay:  -9ms.
+
+False positives:
+  0.787
+
+Strings/Violin.arco.ff.sulE/Violin.arco.ff.sulE.C7.stereo.wav
+-------------------------------------------------------------
+Onset at   0.037 seconds, delay: -16ms.
+All onsets found!
+
+Strings/Violin.arco.ff.sulE/Violin.arco.ff.sulE.D6.stereo.wav
+-------------------------------------------------------------
+
+False negatives:
+  0.056
+
+Strings/Violin.arco.ff.sulE/Violin.arco.ff.sulE.D7.stereo.wav
+-------------------------------------------------------------
+Onset at   0.036 seconds, delay:  -5ms.
+All onsets found!
+
+Strings/Violin.arco.ff.sulE/Violin.arco.ff.sulE.Db6.stereo.wav
+--------------------------------------------------------------
+Onset at   0.077 seconds, delay: -16ms.
+All onsets found!
+
+Strings/Violin.arco.ff.sulE/Violin.arco.ff.sulE.Db7.stereo.wav
+--------------------------------------------------------------
+Onset at   0.041 seconds, delay:  -2ms.
+All onsets found!
+
+Strings/Violin.arco.ff.sulE/Violin.arco.ff.sulE.E5.stereo.wav
+-------------------------------------------------------------
+Onset at   0.022 seconds, delay:  -1ms.
+
+False positives:
+  0.254
+  0.658
+
+Strings/Violin.arco.ff.sulE/Violin.arco.ff.sulE.E6.stereo.wav
+-------------------------------------------------------------
+Onset at   0.049 seconds, delay:  -5ms.
+All onsets found!
+
+Strings/Violin.arco.ff.sulE/Violin.arco.ff.sulE.E7.stereo.wav
+-------------------------------------------------------------
+Onset at   0.040 seconds, delay: -17ms.
+
+False positives:
+  0.501
+  0.834
+
+Strings/Violin.arco.ff.sulE/Violin.arco.ff.sulE.Eb6.stereo.wav
+--------------------------------------------------------------
+Onset at   0.052 seconds, delay: -11ms.
+
+False positives:
+  0.370
+
+Strings/Violin.arco.ff.sulE/Violin.arco.ff.sulE.Eb7.stereo.wav
+--------------------------------------------------------------
+Onset at   0.035 seconds, delay: -13ms.
+All onsets found!
+
+Strings/Violin.arco.ff.sulE/Violin.arco.ff.sulE.F5.stereo.wav
+-------------------------------------------------------------
+Onset at   0.057 seconds, delay:  -6ms.
+All onsets found!
+
+Strings/Violin.arco.ff.sulE/Violin.arco.ff.sulE.F6.stereo.wav
+-------------------------------------------------------------
+Onset at   0.086 seconds, delay: -24ms.
+
+False positives:
+  1.389
+
+Strings/Violin.arco.ff.sulE/Violin.arco.ff.sulE.G5.stereo.wav
+-------------------------------------------------------------
+Onset at   0.044 seconds, delay:  -3ms.
+All onsets found!
+
+Strings/Violin.arco.ff.sulE/Violin.arco.ff.sulE.G6.stereo.wav
+-------------------------------------------------------------
+Onset at   0.072 seconds, delay: -20ms.
+All onsets found!
+
+Strings/Violin.arco.ff.sulE/Violin.arco.ff.sulE.Gb5.stereo.wav
+--------------------------------------------------------------
+Onset at   0.043 seconds, delay:  -7ms.
+All onsets found!
+
+Strings/Violin.arco.ff.sulE/Violin.arco.ff.sulE.Gb6.stereo.wav
+--------------------------------------------------------------
+Onset at   0.059 seconds, delay:  -9ms.
+All onsets found!
+
+Strings/Violin.arco.ff.sulG/Violin.arco.ff.sulG.A3.stereo.wav
+-------------------------------------------------------------
+Onset at   0.035 seconds, delay: -14ms.
+All onsets found!
+
+Strings/Violin.arco.ff.sulG/Violin.arco.ff.sulG.A4.stereo.wav
+-------------------------------------------------------------
+Onset at   0.060 seconds, delay: -19ms.
+
+False positives:
+  0.709
+  1.627
+
+Strings/Violin.arco.ff.sulG/Violin.arco.ff.sulG.Ab3.stereo.wav
+--------------------------------------------------------------
+Onset at   0.020 seconds
+All onsets found!
+
+Strings/Violin.arco.ff.sulG/Violin.arco.ff.sulG.Ab4.stereo.wav
+--------------------------------------------------------------
+Onset at   0.061 seconds, delay: -15ms.
+All onsets found!
+
+Strings/Violin.arco.ff.sulG/Violin.arco.ff.sulG.B3.stereo.wav
+-------------------------------------------------------------
+Onset at   0.041 seconds, delay: -11ms.
+All onsets found!
+
+Strings/Violin.arco.ff.sulG/Violin.arco.ff.sulG.B4.stereo.wav
+-------------------------------------------------------------
+Onset at   0.059 seconds, delay: -17ms.
+All onsets found!
+
+Strings/Violin.arco.ff.sulG/Violin.arco.ff.sulG.Bb3.stereo.wav
+--------------------------------------------------------------
+Onset at   0.044 seconds, delay:  -8ms.
+All onsets found!
+
+Strings/Violin.arco.ff.sulG/Violin.arco.ff.sulG.Bb4.stereo.wav
+--------------------------------------------------------------
+Onset at   0.042 seconds, delay: -17ms.
+All onsets found!
+
+Strings/Violin.arco.ff.sulG/Violin.arco.ff.sulG.C4.stereo.wav
+-------------------------------------------------------------
+Onset at   0.050 seconds, delay:  -7ms.
+All onsets found!
+
+Strings/Violin.arco.ff.sulG/Violin.arco.ff.sulG.C5.stereo.wav
+-------------------------------------------------------------
+Onset at   0.120 seconds, delay: -33ms.
+All onsets found!
+
+Strings/Violin.arco.ff.sulG/Violin.arco.ff.sulG.D4.stereo.wav
+-------------------------------------------------------------
+Onset at   0.066 seconds, delay: -26ms.
+All onsets found!
+
+Strings/Violin.arco.ff.sulG/Violin.arco.ff.sulG.D5.stereo.wav
+-------------------------------------------------------------
+Onset at   0.059 seconds
+All onsets found!
+
+Strings/Violin.arco.ff.sulG/Violin.arco.ff.sulG.Db4.stereo.wav
+--------------------------------------------------------------
+Onset at   0.062 seconds, delay:  -5ms.
+All onsets found!
+
+Strings/Violin.arco.ff.sulG/Violin.arco.ff.sulG.Db5.stereo.wav
+--------------------------------------------------------------
+Onset at   0.066 seconds, delay: -10ms.
+All onsets found!
+
+Strings/Violin.arco.ff.sulG/Violin.arco.ff.sulG.E4.stereo.wav
+-------------------------------------------------------------
+Onset at   0.064 seconds, delay: -11ms.
+All onsets found!
+
+Strings/Violin.arco.ff.sulG/Violin.arco.ff.sulG.Eb4.stereo.wav
+--------------------------------------------------------------
+Onset at   0.047 seconds, delay: -23ms.
+All onsets found!
+
+Strings/Violin.arco.ff.sulG/Violin.arco.ff.sulG.F4.stereo.wav
+-------------------------------------------------------------
+Onset at   0.053 seconds, delay: -10ms.
+All onsets found!
+
+Strings/Violin.arco.ff.sulG/Violin.arco.ff.sulG.G3.stereo.wav
+-------------------------------------------------------------
+Onset at   0.006 seconds, delay:  34ms.
+
+False positives:
+  0.842
+
+Strings/Violin.arco.ff.sulG/Violin.arco.ff.sulG.G4.stereo.wav
+-------------------------------------------------------------
+Onset at   0.050 seconds, delay:  -8ms.
+All onsets found!
+
+Strings/Violin.arco.ff.sulG/Violin.arco.ff.sulG.Gb4.stereo.wav
+--------------------------------------------------------------
+Onset at   0.058 seconds, delay: -17ms.
+All onsets found!
+
+
+Stats
+=====
+Total number of onsets:     389
+Total number of detections: 563
+Total true positives:       333
+Total false positives:      230
+Total erroneous detections: 230
+
+Largest advance: -48ms
+Mean advance:    -43.400ms
+Largest delay:    34ms
+Mean delay:       33.000ms
+Mean difference: -15.100ms
+Number of advances <-15.00ms: 226
+Number of delays   > 15.00ms: 2
+
+Precision:             59.1474%
+Recall:                85.6041%
+F-measure:             69.958%
+Precision (tot. err.): 59.1474%
+F-measure (tot. err.): 69.958%
+

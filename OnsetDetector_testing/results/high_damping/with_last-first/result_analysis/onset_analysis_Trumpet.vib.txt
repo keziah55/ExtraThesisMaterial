@@ -1,0 +1,219 @@
+Check onsetdetector results
+===========================
+
+Wed Apr 24 12:55:20 2019
+
+OnsetDetector if statement: if (count >= 3 && last >= threshold),  if (last-first >= std::log(2))
+findExactTime() local min decision: if (std::isnan(current/mn) || current/mn >= 0.95) 
+OnsetDetector segment size: 20ms
+Threshold: 0.0005
+Searching for 1 frequency
+NoteDetector args:
+    EDO: 12
+    Bandwidth: 0
+    Method: Runge-Kutta
+    Freq norm: Freq unnormalized
+    Amp norm: Amp normalized
+    Damping: 0.0005
+    Gain: 25
+Onset tolerance: 50.000ms
+
+
+Brass/Trumpet.vib/Trumpet.vib.ff.A3.stereo.wav
+----------------------------------------------
+Onset at   0.076 seconds, delay: -11ms.
+All onsets found!
+
+Brass/Trumpet.vib/Trumpet.vib.ff.A4.stereo.wav
+----------------------------------------------
+Onset at   0.075 seconds, delay:  -4ms.
+All onsets found!
+
+Brass/Trumpet.vib/Trumpet.vib.ff.A5.stereo.wav
+----------------------------------------------
+Onset at   0.087 seconds, delay: -13ms.
+All onsets found!
+
+Brass/Trumpet.vib/Trumpet.vib.ff.Ab3.stereo.wav
+-----------------------------------------------
+Onset at   0.061 seconds, delay:  -9ms.
+All onsets found!
+
+Brass/Trumpet.vib/Trumpet.vib.ff.Ab4.stereo.wav
+-----------------------------------------------
+Onset at   0.068 seconds, delay:  -8ms.
+All onsets found!
+
+Brass/Trumpet.vib/Trumpet.vib.ff.Ab5.stereo.wav
+-----------------------------------------------
+Onset at   0.061 seconds, delay: -10ms.
+All onsets found!
+
+Brass/Trumpet.vib/Trumpet.vib.ff.B3.stereo.wav
+----------------------------------------------
+Onset at   0.072 seconds, delay: -14ms.
+All onsets found!
+
+Brass/Trumpet.vib/Trumpet.vib.ff.B4.stereo.wav
+----------------------------------------------
+Onset at   0.073 seconds, delay: -10ms.
+All onsets found!
+
+Brass/Trumpet.vib/Trumpet.vib.ff.B5.stereo.wav
+----------------------------------------------
+Onset at   0.074 seconds, delay: -12ms.
+All onsets found!
+
+Brass/Trumpet.vib/Trumpet.vib.ff.Bb3.stereo.wav
+-----------------------------------------------
+Onset at   0.074 seconds, delay:  -8ms.
+All onsets found!
+
+Brass/Trumpet.vib/Trumpet.vib.ff.Bb4.stereo.wav
+-----------------------------------------------
+Onset at   0.063 seconds, delay:  -3ms.
+All onsets found!
+
+Brass/Trumpet.vib/Trumpet.vib.ff.Bb5.stereo.wav
+-----------------------------------------------
+Onset at   0.067 seconds, delay: -10ms.
+All onsets found!
+
+Brass/Trumpet.vib/Trumpet.vib.ff.C4.stereo.wav
+----------------------------------------------
+Onset at   0.076 seconds, delay:  -6ms.
+All onsets found!
+
+Brass/Trumpet.vib/Trumpet.vib.ff.C5.stereo.wav
+----------------------------------------------
+Onset at   0.068 seconds, delay:  -9ms.
+All onsets found!
+
+Brass/Trumpet.vib/Trumpet.vib.ff.C6.stereo.wav
+----------------------------------------------
+Onset at   0.106 seconds, delay: -21ms.
+All onsets found!
+
+Brass/Trumpet.vib/Trumpet.vib.ff.D4.stereo.wav
+----------------------------------------------
+Onset at   0.073 seconds, delay: -13ms.
+All onsets found!
+
+Brass/Trumpet.vib/Trumpet.vib.ff.D5.stereo.wav
+----------------------------------------------
+Onset at   0.056 seconds, delay:  -5ms.
+All onsets found!
+
+Brass/Trumpet.vib/Trumpet.vib.ff.D6.stereo.wav
+----------------------------------------------
+Onset at   0.112 seconds, delay: -49ms.
+All onsets found!
+
+Brass/Trumpet.vib/Trumpet.vib.ff.Db4.stereo.wav
+-----------------------------------------------
+Onset at   0.059 seconds, delay:  -2ms.
+All onsets found!
+
+Brass/Trumpet.vib/Trumpet.vib.ff.Db5.stereo.wav
+-----------------------------------------------
+Onset at   0.077 seconds, delay: -11ms.
+All onsets found!
+
+Brass/Trumpet.vib/Trumpet.vib.ff.Db6.stereo.wav
+-----------------------------------------------
+Onset at   0.092 seconds, delay: -31ms.
+All onsets found!
+
+Brass/Trumpet.vib/Trumpet.vib.ff.E3.stereo.wav
+----------------------------------------------
+Onset at   0.089 seconds, delay: -47ms.
+All onsets found!
+
+Brass/Trumpet.vib/Trumpet.vib.ff.E4.stereo.wav
+----------------------------------------------
+Onset at   0.083 seconds, delay: -11ms.
+All onsets found!
+
+Brass/Trumpet.vib/Trumpet.vib.ff.E5.stereo.wav
+----------------------------------------------
+Onset at   0.077 seconds, delay:  -6ms.
+All onsets found!
+
+Brass/Trumpet.vib/Trumpet.vib.ff.Eb4.stereo.wav
+-----------------------------------------------
+Onset at   0.085 seconds, delay:  -4ms.
+All onsets found!
+
+Brass/Trumpet.vib/Trumpet.vib.ff.Eb5.stereo.wav
+-----------------------------------------------
+Onset at   0.080 seconds, delay:  -6ms.
+All onsets found!
+
+Brass/Trumpet.vib/Trumpet.vib.ff.F3.stereo.wav
+----------------------------------------------
+Onset at   0.119 seconds, delay: -20ms.
+All onsets found!
+
+Brass/Trumpet.vib/Trumpet.vib.ff.F4.stereo.wav
+----------------------------------------------
+Onset at   0.084 seconds
+All onsets found!
+
+Brass/Trumpet.vib/Trumpet.vib.ff.F5.stereo.wav
+----------------------------------------------
+Onset at   0.076 seconds, delay: -11ms.
+All onsets found!
+
+Brass/Trumpet.vib/Trumpet.vib.ff.G3.stereo.wav
+----------------------------------------------
+Onset at   0.076 seconds, delay:  -5ms.
+All onsets found!
+
+Brass/Trumpet.vib/Trumpet.vib.ff.G4.stereo.wav
+----------------------------------------------
+Onset at   0.094 seconds, delay:  -5ms.
+All onsets found!
+
+Brass/Trumpet.vib/Trumpet.vib.ff.G5.stereo.wav
+----------------------------------------------
+Onset at   0.071 seconds, delay: -11ms.
+All onsets found!
+
+Brass/Trumpet.vib/Trumpet.vib.ff.Gb3.stereo.wav
+-----------------------------------------------
+Onset at   0.064 seconds, delay:  -3ms.
+All onsets found!
+
+Brass/Trumpet.vib/Trumpet.vib.ff.Gb4.stereo.wav
+-----------------------------------------------
+Onset at   0.063 seconds, delay:  -2ms.
+All onsets found!
+
+Brass/Trumpet.vib/Trumpet.vib.ff.Gb5.stereo.wav
+-----------------------------------------------
+Onset at   0.086 seconds, delay:  -1ms.
+All onsets found!
+
+
+Stats
+=====
+Total number of onsets:     35
+Total number of detections: 35
+Total true positives:       35
+Total false positives:      0
+Total erroneous detections: 0
+
+Largest advance: -49ms
+Mean advance:    -21.600ms
+Largest delay:     0ms
+Mean delay:        0.000ms
+Mean difference: -18.000ms
+Number of advances <-15.00ms: 5
+Number of delays   > 15.00ms: 0
+
+Precision:             100%
+Recall:                100%
+F-measure:             100%
+Precision (tot. err.): 100%
+F-measure (tot. err.): 100%
+

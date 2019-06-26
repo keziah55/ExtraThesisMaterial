@@ -1,0 +1,113 @@
+Check onsetdetector results
+===========================
+
+Wed Apr 24 13:03:27 2019
+
+OnsetDetector if statement: if (count >= 3 && last >= threshold),  if (last-first >= std::log(2))
+findExactTime() local min decision: if (std::isnan(current/mn) || current/mn >= 0.95) 
+OnsetDetector segment size: 20ms
+Threshold: 0.0003
+Searching for 1 frequency
+NoteDetector args:
+    EDO: 12
+    Bandwidth: 0
+    Method: Runge-Kutta
+    Freq norm: Freq unnormalized
+    Amp norm: Amp normalized
+    Damping: 0.0001
+    Gain: 25
+Onset tolerance: 50.000ms
+
+
+Percussion/thaigong/thaigong.ff.A4.stereo.wav
+---------------------------------------------
+Onset at   0.091 seconds, delay: -20ms.
+All onsets found!
+
+Percussion/thaigong/thaigong.ff.Ab4.stereo.wav
+----------------------------------------------
+Onset at   0.084 seconds, delay: -10ms.
+All onsets found!
+
+Percussion/thaigong/thaigong.ff.B4.stereo.wav
+---------------------------------------------
+Onset at   0.101 seconds, delay: -29ms.
+All onsets found!
+
+Percussion/thaigong/thaigong.ff.Bb4.stereo.wav
+----------------------------------------------
+Onset at   0.104 seconds, delay: -34ms.
+All onsets found!
+
+Percussion/thaigong/thaigong.ff.C4.stereo.wav
+---------------------------------------------
+Onset at   0.102 seconds
+All onsets found!
+
+Percussion/thaigong/thaigong.ff.C5.stereo.wav
+---------------------------------------------
+Onset at   0.055 seconds, delay: -11ms.
+All onsets found!
+
+Percussion/thaigong/thaigong.ff.D4.stereo.wav
+---------------------------------------------
+Onset at   0.082 seconds
+All onsets found!
+
+Percussion/thaigong/thaigong.ff.Db4.stereo.wav
+----------------------------------------------
+Onset at   0.054 seconds, delay:  -5ms.
+All onsets found!
+
+Percussion/thaigong/thaigong.ff.E4.stereo.wav
+---------------------------------------------
+Onset at   0.112 seconds, delay:  -2ms.
+All onsets found!
+
+Percussion/thaigong/thaigong.ff.Eb4.stereo.wav
+----------------------------------------------
+Onset at   0.085 seconds, delay:  -7ms.
+All onsets found!
+
+Percussion/thaigong/thaigong.ff.F4.stereo.wav
+---------------------------------------------
+Onset at   0.086 seconds, delay: -12ms.
+All onsets found!
+
+Percussion/thaigong/thaigong.ff.G4.stereo.wav
+---------------------------------------------
+Onset at   0.063 seconds
+All onsets found!
+
+Percussion/thaigong/thaigong.ff.Gb4.stereo.wav
+----------------------------------------------
+
+False negatives:
+  0.138
+
+False positives:
+  0.071
+
+
+Stats
+=====
+Total number of onsets:     13
+Total number of detections: 13
+Total true positives:       12
+Total false positives:      1
+Total erroneous detections: 1
+
+Largest advance: -34ms
+Mean advance:    -27.667ms
+Largest delay:     0ms
+Mean delay:        0.000ms
+Mean difference: -13.833ms
+Number of advances <-15.00ms: 3
+Number of delays   > 15.00ms: 0
+
+Precision:             92.3077%
+Recall:                92.3077%
+F-measure:             92.3077%
+Precision (tot. err.): 92.3077%
+F-measure (tot. err.): 92.3077%
+

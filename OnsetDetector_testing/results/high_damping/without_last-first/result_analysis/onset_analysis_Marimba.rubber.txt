@@ -1,0 +1,1581 @@
+Check onsetdetector results
+===========================
+
+Wed Apr 24 13:14:03 2019
+
+OnsetDetector if statement: if (count >= 3 && last >= threshold)
+findExactTime() local min decision: if (std::isnan(current/mn) || current/mn >= 0.95) 
+OnsetDetector segment size: 20ms
+Threshold: 0.0005
+Searching for 1 frequency
+NoteDetector args:
+    EDO: 12
+    Bandwidth: 0
+    Method: Runge-Kutta
+    Freq norm: Freq unnormalized
+    Amp norm: Amp normalized
+    Damping: 0.0005
+    Gain: 25
+Onset tolerance: 50.000ms
+
+
+Percussion/Marimba.rubber/Marimba.rubber.ff.A2.stereo.wav
+---------------------------------------------------------
+Onset at   0.042 seconds, delay:  -5ms.
+
+False positives:
+  0.290
+  0.330
+  0.390
+  0.450
+  0.530
+  0.590
+  0.650
+  0.690
+  0.750
+  0.830
+  0.870
+  0.930
+  0.990
+  1.050
+  1.110
+  1.190
+  1.250
+  1.290
+  1.350
+  1.430
+  1.490
+  1.530
+  1.590
+  1.670
+  1.710
+  1.770
+  1.850
+
+Percussion/Marimba.rubber/Marimba.rubber.ff.A3.stereo.wav
+---------------------------------------------------------
+Onset at   0.016 seconds, delay:   4ms.
+
+False positives:
+  0.150
+  0.230
+  0.270
+  0.330
+  0.410
+  0.450
+  0.510
+  0.590
+  0.650
+  0.690
+  0.770
+  0.810
+  0.890
+  0.930
+  1.010
+  1.050
+  1.110
+  1.190
+  1.230
+  1.310
+  1.350
+  1.430
+  1.470
+  1.550
+
+Percussion/Marimba.rubber/Marimba.rubber.ff.A4.stereo.wav
+---------------------------------------------------------
+Onset at   0.016 seconds, delay:   1ms.
+
+False positives:
+  0.130
+  0.210
+  0.290
+  0.330
+  0.390
+  0.450
+  0.510
+  0.590
+  0.650
+  0.690
+  0.750
+  0.810
+
+Percussion/Marimba.rubber/Marimba.rubber.ff.A5.stereo.wav
+---------------------------------------------------------
+Onset at   0.010 seconds, delay:  10ms.
+
+False positives:
+  0.090
+  0.150
+  0.210
+  0.290
+  0.330
+
+Percussion/Marimba.rubber/Marimba.rubber.ff.A6.stereo.wav
+---------------------------------------------------------
+Onset at   0.011 seconds, delay:  12ms.
+
+False positives:
+  0.090
+  0.170
+  0.230
+  0.290
+
+Percussion/Marimba.rubber/Marimba.rubber.ff.Ab2.stereo.wav
+----------------------------------------------------------
+Onset at   0.074 seconds, delay:  -3ms.
+
+False positives:
+  0.310
+  0.370
+  0.430
+  0.510
+  0.570
+  0.630
+  0.669
+  0.730
+  0.790
+  0.850
+  0.930
+  0.990
+  1.050
+  1.110
+  1.150
+  1.210
+  1.290
+  1.330
+  1.410
+  1.470
+  1.510
+  1.590
+  1.630
+  1.690
+  1.770
+  1.810
+  1.890
+  1.950
+  1.990
+  2.070
+  2.130
+  2.170
+  2.250
+  2.310
+  2.350
+  2.430
+  2.470
+  2.530
+  2.610
+  2.650
+
+Percussion/Marimba.rubber/Marimba.rubber.ff.Ab3.stereo.wav
+----------------------------------------------------------
+Onset at   0.017 seconds, delay:   2ms.
+
+False positives:
+  0.170
+  0.250
+  0.290
+  0.370
+  0.410
+  0.470
+  0.530
+  0.590
+  0.670
+  0.730
+  0.790
+  0.830
+  0.910
+  0.950
+  1.010
+  1.090
+  1.150
+  1.190
+  1.250
+  1.310
+  1.390
+  1.430
+  1.510
+  1.550
+  1.610
+  1.670
+
+Percussion/Marimba.rubber/Marimba.rubber.ff.Ab4.stereo.wav
+----------------------------------------------------------
+Onset at   0.028 seconds, delay:  -6ms.
+
+False positives:
+  0.130
+  0.210
+  0.250
+  0.310
+  0.370
+  0.430
+  0.510
+  0.570
+  0.610
+  0.670
+  0.750
+  0.810
+  0.870
+  0.910
+  0.970
+  1.050
+  1.090
+  1.170
+
+Percussion/Marimba.rubber/Marimba.rubber.ff.Ab5.stereo.wav
+----------------------------------------------------------
+Onset at   0.010 seconds, delay:   4ms.
+
+False positives:
+  0.109
+  0.141
+  0.201
+  0.270
+  0.330
+  0.410
+
+Percussion/Marimba.rubber/Marimba.rubber.ff.Ab6.stereo.wav
+----------------------------------------------------------
+Onset at   0.012 seconds
+
+False positives:
+  0.110
+  0.170
+  0.230
+  0.290
+  0.330
+  0.410
+
+Percussion/Marimba.rubber/Marimba.rubber.ff.B2.stereo.wav
+---------------------------------------------------------
+Onset at   0.060 seconds, delay: -19ms.
+
+False positives:
+  0.310
+  0.370
+  0.430
+  0.490
+  0.550
+  0.630
+  0.690
+  0.750
+  0.790
+  0.870
+  0.910
+  0.970
+  1.030
+  1.090
+  1.170
+  1.210
+  1.290
+  1.350
+  1.390
+  1.470
+  1.510
+  1.570
+  1.650
+  1.690
+  1.770
+  1.810
+  1.870
+  1.950
+  1.990
+
+Percussion/Marimba.rubber/Marimba.rubber.ff.B3.stereo.wav
+---------------------------------------------------------
+Onset at   0.015 seconds, delay:   5ms.
+
+False positives:
+  0.150
+  0.230
+  0.270
+  0.330
+  0.410
+  0.450
+  0.510
+  0.570
+  0.630
+  0.710
+  0.750
+  0.830
+  0.870
+  0.950
+  1.010
+  1.050
+  1.130
+  1.170
+  1.230
+  1.310
+  1.350
+  1.410
+  1.490
+  1.530
+  1.610
+
+Percussion/Marimba.rubber/Marimba.rubber.ff.B4.stereo.wav
+---------------------------------------------------------
+Onset at   0.016 seconds
+
+False positives:
+  0.110
+  0.190
+  0.250
+  0.310
+  0.370
+  0.410
+  0.470
+  0.530
+  0.610
+  0.650
+  0.710
+  0.790
+  0.850
+
+Percussion/Marimba.rubber/Marimba.rubber.ff.B5.stereo.wav
+---------------------------------------------------------
+Onset at   0.011 seconds, delay:   9ms.
+
+False positives:
+  0.090
+  0.170
+  0.210
+  0.270
+  0.330
+
+Percussion/Marimba.rubber/Marimba.rubber.ff.B6.stereo.wav
+---------------------------------------------------------
+Onset at   0.010 seconds, delay:  19ms.
+
+False positives:
+  0.090
+  0.150
+  0.210
+  0.290
+
+Percussion/Marimba.rubber/Marimba.rubber.ff.Bb2.stereo.wav
+----------------------------------------------------------
+Onset at   0.062 seconds, delay:  -5ms.
+
+False positives:
+  0.290
+  0.370
+  0.430
+  0.490
+  0.550
+  0.610
+  0.650
+  0.710
+  0.770
+  0.830
+  0.890
+  0.950
+  1.030
+  1.090
+  1.150
+  1.210
+  1.270
+  1.310
+  1.370
+  1.430
+  1.490
+  1.550
+  1.610
+  1.690
+  1.750
+  1.810
+  1.870
+  1.930
+  1.970
+  2.030
+  2.090
+  2.170
+  2.230
+  2.270
+  2.350
+  2.410
+  2.470
+  2.530
+  2.590
+  2.630
+  2.690
+  2.750
+  2.830
+  2.870
+  2.930
+  3.010
+  3.050
+  3.130
+  3.190
+
+Percussion/Marimba.rubber/Marimba.rubber.ff.Bb3.stereo.wav
+----------------------------------------------------------
+Onset at   0.018 seconds, delay:   2ms.
+
+False positives:
+  0.150
+  0.230
+  0.270
+  0.330
+  0.410
+  0.450
+  0.530
+  0.590
+  0.650
+  0.690
+  0.770
+  0.810
+  0.890
+  0.930
+  1.010
+  1.070
+  1.130
+  1.170
+  1.250
+  1.310
+  1.370
+  1.410
+  1.470
+  1.530
+  1.610
+  1.670
+  1.710
+  1.770
+
+Percussion/Marimba.rubber/Marimba.rubber.ff.Bb4.stereo.wav
+----------------------------------------------------------
+Onset at   0.016 seconds, delay:   1ms.
+
+False positives:
+  0.110
+  0.190
+  0.230
+  0.290
+  0.350
+  0.430
+  0.470
+  0.530
+  0.610
+  0.650
+  0.710
+  0.770
+  0.850
+  0.890
+
+Percussion/Marimba.rubber/Marimba.rubber.ff.Bb5.stereo.wav
+----------------------------------------------------------
+Onset at   0.010 seconds, delay:   2ms.
+
+False positives:
+  0.110
+  0.170
+  0.203
+  0.290
+  0.350
+  0.410
+
+Percussion/Marimba.rubber/Marimba.rubber.ff.Bb6.stereo.wav
+----------------------------------------------------------
+Onset at   0.013 seconds, delay:   2ms.
+
+False positives:
+  0.110
+  0.170
+  0.210
+  0.290
+  0.350
+
+Percussion/Marimba.rubber/Marimba.rubber.ff.C2.stereo.wav
+---------------------------------------------------------
+Onset at   0.043 seconds, delay:  -5ms.
+
+False positives:
+  0.410
+  0.470
+  0.530
+  0.610
+  0.670
+  0.730
+  0.770
+  0.830
+  0.890
+  0.950
+  1.030
+  1.090
+  1.150
+  1.190
+  1.250
+  1.310
+  1.370
+  1.450
+  1.510
+  1.570
+  1.630
+  1.670
+  1.730
+  1.790
+  1.850
+  1.910
+  1.990
+  2.050
+  2.110
+  2.150
+  2.210
+  2.270
+  2.330
+  2.390
+  2.470
+  2.530
+  2.590
+  2.650
+  2.710
+  2.750
+  2.810
+  2.870
+  2.930
+  3.010
+
+Percussion/Marimba.rubber/Marimba.rubber.ff.C3.stereo.wav
+---------------------------------------------------------
+Onset at   0.043 seconds, delay:  -6ms.
+
+False positives:
+  0.310
+  0.350
+  0.430
+  0.470
+  0.550
+  0.590
+  0.670
+  0.710
+  0.790
+  0.850
+  0.890
+  0.970
+  1.010
+  1.090
+  1.130
+  1.210
+  1.250
+  1.330
+  1.370
+  1.450
+  1.510
+  1.550
+  1.630
+  1.670
+  1.750
+  1.790
+  1.870
+  1.910
+  1.990
+  2.030
+  2.090
+
+Percussion/Marimba.rubber/Marimba.rubber.ff.C4.stereo.wav
+---------------------------------------------------------
+Onset at   0.017 seconds, delay:   2ms.
+
+False positives:
+  0.190
+  0.230
+  0.310
+  0.370
+  0.410
+  0.470
+  0.530
+  0.590
+  0.650
+  0.730
+  0.790
+  0.850
+  0.910
+  0.970
+  1.030
+  1.070
+  1.130
+  1.190
+
+Percussion/Marimba.rubber/Marimba.rubber.ff.C5.stereo.wav
+---------------------------------------------------------
+Onset at   0.015 seconds, delay:   2ms.
+
+False positives:
+  0.150
+  0.230
+  0.270
+  0.350
+  0.390
+  0.470
+  0.530
+  0.570
+  0.630
+  0.690
+  0.770
+
+Percussion/Marimba.rubber/Marimba.rubber.ff.C6.stereo.wav
+---------------------------------------------------------
+Onset at   0.090 seconds
+
+False positives:
+  0.030
+  0.170
+  0.220
+  0.310
+  0.370
+
+Percussion/Marimba.rubber/Marimba.rubber.ff.C7.stereo.wav
+---------------------------------------------------------
+Onset at   0.029 seconds, delay:  -3ms.
+
+False positives:
+  0.130
+  0.190
+  0.250
+  0.290
+  0.370
+
+Percussion/Marimba.rubber/Marimba.rubber.ff.D2.stereo.wav
+---------------------------------------------------------
+Onset at   0.053 seconds, delay: -12ms.
+
+False positives:
+  0.410
+  0.450
+  0.530
+  0.570
+  0.650
+  0.690
+  0.770
+  0.830
+  0.870
+  0.950
+  0.990
+  1.070
+  1.110
+  1.190
+  1.230
+  1.310
+  1.370
+  1.410
+  1.490
+  1.530
+  1.610
+  1.650
+  1.730
+  1.770
+  1.830
+  1.890
+  1.970
+  2.010
+  2.090
+  2.130
+  2.210
+  2.250
+  2.330
+  2.370
+  2.430
+  2.510
+
+Percussion/Marimba.rubber/Marimba.rubber.ff.D3.stereo.wav
+---------------------------------------------------------
+Onset at   0.048 seconds, delay:  -8ms.
+
+False positives:
+  0.250
+  0.310
+  0.370
+  0.430
+  0.490
+  0.550
+  0.610
+  0.670
+  0.750
+  0.790
+  0.870
+  0.930
+  0.990
+  1.030
+  1.110
+  1.150
+  1.230
+  1.270
+  1.350
+  1.390
+  1.470
+  1.510
+  1.590
+  1.630
+  1.710
+  1.750
+  1.830
+  1.890
+  1.930
+
+Percussion/Marimba.rubber/Marimba.rubber.ff.D4.stereo.wav
+---------------------------------------------------------
+Onset at   0.020 seconds
+
+False positives:
+  0.150
+  0.230
+  0.290
+  0.330
+  0.390
+  0.470
+  0.510
+  0.590
+  0.650
+  0.690
+  0.750
+  0.810
+  0.870
+  0.930
+  0.990
+  1.070
+  1.110
+  1.170
+
+Percussion/Marimba.rubber/Marimba.rubber.ff.D5.stereo.wav
+---------------------------------------------------------
+Onset at   0.013 seconds, delay:   7ms.
+
+False positives:
+  0.150
+  0.210
+  0.270
+  0.350
+  0.390
+  0.450
+  0.530
+  0.570
+  0.650
+
+Percussion/Marimba.rubber/Marimba.rubber.ff.D6.stereo.wav
+---------------------------------------------------------
+Onset at   0.014 seconds
+
+False positives:
+  0.090
+  0.170
+  0.220
+  0.290
+  0.350
+
+Percussion/Marimba.rubber/Marimba.rubber.ff.Db2.stereo.wav
+----------------------------------------------------------
+Onset at   0.048 seconds, delay:  -2ms.
+
+False positives:
+  0.350
+  0.410
+  0.470
+  0.530
+  0.610
+  0.670
+  0.730
+  0.790
+  0.850
+  0.890
+  0.950
+  1.010
+  1.090
+  1.130
+  1.190
+  1.270
+  1.310
+  1.390
+  1.450
+  1.490
+  1.570
+  1.610
+  1.670
+  1.730
+  1.810
+  1.870
+  1.930
+  1.970
+  2.050
+  2.090
+  2.150
+  2.230
+  2.270
+  2.350
+  2.390
+  2.450
+  2.510
+  2.570
+  2.630
+  2.690
+  2.750
+  2.830
+  2.890
+  2.950
+  2.990
+  3.050
+  3.110
+  3.170
+
+Percussion/Marimba.rubber/Marimba.rubber.ff.Db3.stereo.wav
+----------------------------------------------------------
+Onset at   0.057 seconds, delay: -15ms.
+
+False positives:
+  0.250
+  0.330
+  0.370
+  0.450
+  0.510
+  0.550
+  0.610
+  0.670
+  0.750
+  0.790
+  0.850
+  0.930
+  0.990
+  1.030
+  1.090
+  1.170
+  1.230
+  1.270
+  1.330
+  1.410
+  1.470
+  1.510
+  1.570
+  1.650
+  1.710
+  1.750
+  1.810
+  1.890
+  1.950
+  1.990
+  2.050
+  2.130
+  2.190
+  2.250
+  2.290
+  2.370
+  2.410
+  2.470
+
+Percussion/Marimba.rubber/Marimba.rubber.ff.Db4.stereo.wav
+----------------------------------------------------------
+Onset at   0.015 seconds, delay:   4ms.
+
+False positives:
+  0.170
+  0.210
+  0.290
+  0.350
+  0.390
+  0.470
+  0.530
+  0.590
+  0.650
+  0.710
+  0.770
+  0.810
+  0.870
+  0.930
+  0.990
+  1.050
+  1.110
+  1.170
+  1.230
+
+Percussion/Marimba.rubber/Marimba.rubber.ff.Db5.stereo.wav
+----------------------------------------------------------
+Onset at   0.017 seconds
+
+False positives:
+  0.130
+  0.170
+  0.250
+  0.310
+  0.390
+  0.450
+  0.510
+  0.550
+  0.610
+  0.670
+  0.750
+  0.810
+
+Percussion/Marimba.rubber/Marimba.rubber.ff.Db6.stereo.wav
+----------------------------------------------------------
+Onset at   0.014 seconds
+
+False positives:
+  0.090
+  0.150
+  0.230
+  0.290
+  0.350
+  0.410
+
+Percussion/Marimba.rubber/Marimba.rubber.ff.E2.stereo.wav
+---------------------------------------------------------
+Onset at   0.062 seconds, delay:  -9ms.
+
+False positives:
+  0.370
+  0.430
+  0.490
+  0.570
+  0.610
+  0.690
+  0.750
+  0.790
+  0.870
+  0.930
+  0.990
+  1.050
+  1.110
+  1.170
+  1.210
+  1.270
+  1.350
+  1.410
+  1.450
+  1.530
+  1.590
+  1.630
+  1.710
+  1.770
+  1.810
+  1.870
+  1.950
+  1.990
+  2.070
+  2.130
+  2.170
+  2.230
+  2.310
+  2.350
+  2.430
+  2.470
+
+Percussion/Marimba.rubber/Marimba.rubber.ff.E3.stereo.wav
+---------------------------------------------------------
+Onset at   0.054 seconds, delay:  -3ms.
+
+False positives:
+  0.270
+  0.330
+  0.370
+  0.450
+  0.490
+  0.570
+  0.610
+  0.670
+  0.730
+  0.810
+  0.870
+  0.910
+  0.990
+  1.030
+  1.110
+  1.150
+  1.210
+  1.290
+  1.330
+  1.390
+  1.450
+  1.510
+  1.570
+  1.630
+
+Percussion/Marimba.rubber/Marimba.rubber.ff.E4.stereo.wav
+---------------------------------------------------------
+Onset at   0.013 seconds, delay:   7ms.
+
+False positives:
+  0.130
+  0.210
+  0.290
+  0.350
+  0.390
+  0.450
+  0.530
+  0.590
+  0.630
+  0.690
+  0.750
+  0.830
+  0.890
+  0.950
+  0.990
+  1.050
+  1.110
+  1.170
+  1.250
+  1.310
+
+Percussion/Marimba.rubber/Marimba.rubber.ff.E5.stereo.wav
+---------------------------------------------------------
+Onset at   0.023 seconds, delay:  -1ms.
+
+False positives:
+  0.162
+  0.230
+  0.290
+  0.330
+  0.382
+  0.450
+  0.530
+
+Percussion/Marimba.rubber/Marimba.rubber.ff.E6.stereo.wav
+---------------------------------------------------------
+Onset at   0.011 seconds, delay:   5ms.
+
+False positives:
+  0.090
+  0.150
+  0.230
+  0.270
+  0.350
+  0.410
+
+Percussion/Marimba.rubber/Marimba.rubber.ff.Eb2.stereo.wav
+----------------------------------------------------------
+Onset at   0.064 seconds
+
+False positives:
+  0.270
+  0.310
+  0.390
+  0.430
+  0.490
+  0.570
+  0.610
+  0.670
+  0.750
+  0.790
+  0.870
+  0.910
+  0.970
+  1.050
+  1.090
+  1.170
+  1.230
+  1.270
+  1.330
+  1.410
+  1.450
+  1.530
+  1.590
+  1.650
+  1.690
+  1.770
+  1.810
+  1.890
+  1.950
+  1.990
+  2.070
+  2.110
+  2.190
+  2.230
+
+Percussion/Marimba.rubber/Marimba.rubber.ff.Eb3.stereo.wav
+----------------------------------------------------------
+Onset at   0.050 seconds, delay:  -9ms.
+
+False positives:
+  0.230
+  0.310
+  0.350
+  0.430
+  0.490
+  0.530
+  0.590
+  0.650
+  0.730
+  0.790
+  0.850
+  0.910
+  0.970
+  1.030
+  1.090
+  1.150
+  1.190
+  1.250
+  1.310
+  1.390
+  1.430
+  1.490
+  1.550
+  1.610
+  1.690
+  1.730
+  1.790
+  1.870
+  1.930
+  1.990
+
+Percussion/Marimba.rubber/Marimba.rubber.ff.Eb4.stereo.wav
+----------------------------------------------------------
+Onset at   0.014 seconds, delay:   4ms.
+
+False positives:
+  0.110
+  0.170
+  0.230
+  0.290
+  0.370
+  0.410
+  0.470
+  0.550
+  0.590
+  0.670
+  0.730
+  0.790
+  0.830
+  0.890
+  0.950
+  1.010
+  1.090
+  1.150
+  1.210
+  1.250
+  1.330
+
+Percussion/Marimba.rubber/Marimba.rubber.ff.Eb5.stereo.wav
+----------------------------------------------------------
+Onset at   0.025 seconds, delay:  -5ms.
+
+False positives:
+  0.130
+  0.190
+  0.224
+  0.290
+  0.350
+  0.430
+  0.470
+  0.530
+  0.610
+  0.670
+
+Percussion/Marimba.rubber/Marimba.rubber.ff.Eb6.stereo.wav
+----------------------------------------------------------
+Onset at   0.014 seconds, delay:  -1ms.
+
+False positives:
+  0.110
+  0.170
+  0.230
+  0.270
+  0.330
+  0.410
+
+Percussion/Marimba.rubber/Marimba.rubber.ff.F2.stereo.wav
+---------------------------------------------------------
+Onset at   0.076 seconds, delay:  -5ms.
+
+False positives:
+  0.390
+  0.470
+  0.510
+  0.590
+  0.630
+  0.690
+  0.770
+  0.810
+  0.870
+  0.950
+  0.990
+  1.050
+  1.130
+  1.170
+  1.250
+  1.290
+  1.350
+  1.430
+  1.470
+  1.550
+  1.610
+  1.650
+  1.710
+  1.790
+  1.830
+  1.910
+  1.950
+  2.030
+  2.090
+  2.130
+  2.210
+  2.250
+  2.310
+  2.370
+  2.450
+  2.490
+  2.550
+  2.630
+  2.670
+  2.750
+  2.790
+
+Percussion/Marimba.rubber/Marimba.rubber.ff.F3.stereo.wav
+---------------------------------------------------------
+Onset at   0.015 seconds, delay:   6ms.
+
+False positives:
+  0.230
+  0.290
+  0.330
+  0.390
+  0.450
+  0.530
+  0.590
+  0.630
+  0.710
+  0.750
+  0.830
+  0.870
+  0.930
+  1.010
+  1.050
+  1.130
+  1.170
+  1.250
+  1.310
+  1.350
+  1.430
+  1.470
+  1.530
+  1.590
+  1.670
+  1.730
+  1.770
+  1.850
+
+Percussion/Marimba.rubber/Marimba.rubber.ff.F4.stereo.wav
+---------------------------------------------------------
+Onset at   0.017 seconds
+
+False positives:
+  0.150
+  0.210
+  0.290
+  0.350
+  0.390
+  0.470
+  0.510
+  0.570
+  0.650
+  0.710
+  0.770
+  0.810
+  0.870
+  0.930
+  1.010
+  1.070
+  1.110
+  1.170
+  1.230
+  1.310
+  1.350
+
+Percussion/Marimba.rubber/Marimba.rubber.ff.F5.stereo.wav
+---------------------------------------------------------
+Onset at   0.016 seconds, delay:  -1ms.
+
+False positives:
+  0.170
+  0.220
+  0.310
+  0.350
+  0.430
+  0.470
+  0.550
+
+Percussion/Marimba.rubber/Marimba.rubber.ff.F6.stereo.wav
+---------------------------------------------------------
+Onset at   0.014 seconds, delay:  -1ms.
+
+False positives:
+  0.090
+  0.170
+  0.222
+  0.270
+  0.330
+  0.390
+
+Percussion/Marimba.rubber/Marimba.rubber.ff.G2.stereo.wav
+---------------------------------------------------------
+Onset at   0.062 seconds, delay: -10ms.
+
+False positives:
+  0.350
+  0.390
+  0.450
+  0.510
+  0.590
+  0.630
+  0.690
+  0.770
+  0.830
+  0.870
+  0.950
+  1.010
+  1.050
+  1.110
+  1.170
+  1.230
+  1.290
+  1.350
+  1.430
+  1.490
+  1.530
+  1.610
+  1.670
+  1.710
+  1.790
+  1.850
+  1.910
+  1.950
+  2.010
+  2.070
+  2.150
+  2.190
+  2.250
+  2.330
+  2.390
+  2.450
+  2.510
+  2.570
+  2.630
+  2.670
+  2.730
+  2.790
+  2.870
+  2.910
+  2.990
+
+Percussion/Marimba.rubber/Marimba.rubber.ff.G3.stereo.wav
+---------------------------------------------------------
+Onset at   0.013 seconds, delay:   7ms.
+
+False positives:
+  0.210
+  0.250
+  0.310
+  0.390
+  0.430
+  0.510
+  0.550
+  0.630
+  0.670
+  0.730
+  0.790
+  0.870
+  0.910
+  0.990
+  1.050
+  1.090
+  1.150
+  1.230
+  1.270
+  1.330
+  1.390
+  1.470
+  1.510
+  1.570
+  1.630
+  1.690
+  1.770
+  1.810
+  1.870
+  1.950
+
+Percussion/Marimba.rubber/Marimba.rubber.ff.G4.stereo.wav
+---------------------------------------------------------
+Onset at   0.027 seconds, delay:  -1ms.
+
+False positives:
+  0.130
+  0.210
+  0.250
+  0.310
+  0.370
+  0.450
+  0.490
+  0.550
+  0.610
+  0.690
+  0.750
+  0.810
+  0.870
+  0.910
+  0.970
+  1.050
+
+Percussion/Marimba.rubber/Marimba.rubber.ff.G5.stereo.wav
+---------------------------------------------------------
+Onset at   0.012 seconds, delay:   2ms.
+
+False positives:
+  0.090
+  0.170
+  0.210
+  0.288
+  0.330
+  0.410
+
+Percussion/Marimba.rubber/Marimba.rubber.ff.G6.stereo.wav
+---------------------------------------------------------
+Onset at   0.011 seconds, delay:  19ms.
+
+False positives:
+  0.110
+  0.170
+  0.230
+  0.270
+  0.330
+
+Percussion/Marimba.rubber/Marimba.rubber.ff.Gb2.stereo.wav
+----------------------------------------------------------
+Onset at   0.063 seconds, delay:  -4ms.
+
+False positives:
+  0.290
+  0.350
+  0.410
+  0.490
+  0.550
+  0.610
+  0.650
+  0.710
+  0.770
+  0.830
+  0.910
+  0.970
+  1.030
+  1.090
+  1.130
+  1.190
+  1.250
+  1.310
+  1.390
+  1.450
+  1.510
+  1.550
+  1.630
+  1.670
+  1.730
+  1.790
+  1.870
+  1.910
+
+Percussion/Marimba.rubber/Marimba.rubber.ff.Gb3.stereo.wav
+----------------------------------------------------------
+Onset at   0.010 seconds, delay:  11ms.
+
+False positives:
+  0.210
+  0.250
+  0.310
+  0.370
+  0.430
+  0.490
+  0.570
+  0.610
+  0.670
+  0.750
+  0.790
+  0.850
+  0.930
+  0.970
+  1.030
+  1.110
+  1.150
+  1.230
+  1.290
+  1.330
+  1.410
+  1.470
+  1.510
+  1.590
+  1.630
+  1.710
+  1.770
+  1.810
+  1.890
+  1.950
+
+Percussion/Marimba.rubber/Marimba.rubber.ff.Gb4.stereo.wav
+----------------------------------------------------------
+Onset at   0.020 seconds, delay:  -2ms.
+
+False positives:
+  0.120
+  0.210
+  0.290
+  0.330
+  0.390
+  0.470
+  0.530
+  0.570
+  0.630
+  0.710
+  0.770
+  0.810
+  0.870
+  0.950
+  1.010
+  1.050
+  1.130
+  1.190
+  1.250
+  1.290
+  1.370
+  1.430
+
+Percussion/Marimba.rubber/Marimba.rubber.ff.Gb5.stereo.wav
+----------------------------------------------------------
+Onset at   0.013 seconds, delay:   1ms.
+
+False positives:
+  0.085
+  0.150
+  0.230
+  0.310
+  0.350
+  0.430
+  0.470
+
+Percussion/Marimba.rubber/Marimba.rubber.ff.Gb6.stereo.wav
+----------------------------------------------------------
+Onset at   0.015 seconds
+
+False positives:
+  0.110
+  0.170
+  0.210
+  0.290
+  0.350
+
+
+Stats
+=====
+Total number of onsets:     61
+Total number of detections: 1232
+Total true positives:       61
+Total false positives:      1171
+Total erroneous detections: 1171
+
+Largest advance: -19ms
+Mean advance:    -10.000ms
+Largest delay:    19ms
+Mean delay:       11.250ms
+Mean difference:   0.882ms
+Number of advances <-15.00ms: 1
+Number of delays   > 15.00ms: 2
+
+Precision:             4.9513%
+Recall:                100%
+F-measure:             9.43542%
+Precision (tot. err.): 4.9513%
+F-measure (tot. err.): 9.43542%
+

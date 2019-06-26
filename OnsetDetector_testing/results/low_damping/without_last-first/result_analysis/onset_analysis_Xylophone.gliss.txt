@@ -1,0 +1,85 @@
+Check onsetdetector results
+===========================
+
+Wed Apr 24 13:09:40 2019
+
+OnsetDetector if statement: if (count >= 3 && last >= threshold)
+findExactTime() local min decision: if (std::isnan(current/mn) || current/mn >= 0.95) 
+OnsetDetector segment size: 20ms
+Threshold: 0.0003
+Searching for 1 frequency
+NoteDetector args:
+    EDO: 12
+    Bandwidth: 0
+    Method: Runge-Kutta
+    Freq norm: Freq unnormalized
+    Amp norm: Amp normalized
+    Damping: 0.0001
+    Gain: 25
+Onset tolerance: 50.000ms
+
+
+Percussion/Xylophone.gliss/Xylophone.gliss.down.stereo.wav
+----------------------------------------------------------
+Onset at   0.016 seconds, delay:  13ms.
+
+False positives:
+  0.250
+  0.330
+  0.370
+  0.444
+  0.530
+  0.570
+  0.650
+  0.690
+  0.750
+  0.830
+  0.890
+  0.930
+  1.010
+  1.050
+  1.110
+  1.170
+  1.230
+  1.290
+
+Percussion/Xylophone.gliss/Xylophone.gliss.up.stereo.wav
+--------------------------------------------------------
+Onset at   0.009 seconds, delay:  12ms.
+
+False positives:
+  0.130
+  0.190
+  0.249
+  0.349
+  0.450
+  0.490
+  0.550
+  0.630
+  0.710
+  0.790
+  0.850
+
+
+Stats
+=====
+Total number of onsets:     2
+Total number of detections: 31
+Total true positives:       2
+Total false positives:      29
+Total erroneous detections: 29
+
+Largest advance:   0ms
+Mean advance:      0.000ms
+Largest delay:    13ms
+Mean delay:       13.000ms
+Mean difference:  13.000ms
+Number of advances <-15.00ms: 0
+Number of delays   > 15.00ms: 0
+
+Precision:             6.45161%
+Recall:                100%
+F-measure:             12.1212%
+Precision (tot. err.): 6.45161%
+F-measure (tot. err.): 12.1212%
+

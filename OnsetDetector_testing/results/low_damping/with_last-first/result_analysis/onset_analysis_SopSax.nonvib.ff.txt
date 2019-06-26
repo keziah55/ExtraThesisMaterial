@@ -1,0 +1,290 @@
+Check onsetdetector results
+===========================
+
+Wed Apr 24 13:03:27 2019
+
+OnsetDetector if statement: if (count >= 3 && last >= threshold),  if (last-first >= std::log(2))
+findExactTime() local min decision: if (std::isnan(current/mn) || current/mn >= 0.95) 
+OnsetDetector segment size: 20ms
+Threshold: 0.0003
+Searching for 1 frequency
+NoteDetector args:
+    EDO: 12
+    Bandwidth: 0
+    Method: Runge-Kutta
+    Freq norm: Freq unnormalized
+    Amp norm: Amp normalized
+    Damping: 0.0001
+    Gain: 25
+Onset tolerance: 50.000ms
+
+
+Woodwind/SopSax.nonvib.ff/SopSax.nonvib.ff.A3.stereo.wav
+--------------------------------------------------------
+Onset at   0.242 seconds, delay:  -2ms.
+All onsets found!
+
+Woodwind/SopSax.nonvib.ff/SopSax.nonvib.ff.A4.stereo.wav
+--------------------------------------------------------
+
+False negatives:
+  0.269
+
+False positives:
+  0.075
+  2.770
+
+Woodwind/SopSax.nonvib.ff/SopSax.nonvib.ff.A5.stereo.wav
+--------------------------------------------------------
+
+False negatives:
+  0.296
+
+False positives:
+  0.207
+
+Woodwind/SopSax.nonvib.ff/SopSax.nonvib.ff.Ab3.stereo.wav
+---------------------------------------------------------
+
+False negatives:
+  0.199
+
+False positives:
+  0.129
+  0.357
+
+Woodwind/SopSax.nonvib.ff/SopSax.nonvib.ff.Ab4.stereo.wav
+---------------------------------------------------------
+
+False negatives:
+  0.298
+
+False positives:
+  0.072
+
+Woodwind/SopSax.nonvib.ff/SopSax.nonvib.ff.Ab5.stereo.wav
+---------------------------------------------------------
+
+False negatives:
+  0.232
+
+False positives:
+  0.118
+
+Woodwind/SopSax.nonvib.ff/SopSax.nonvib.ff.B3.stereo.wav
+--------------------------------------------------------
+Onset at   0.249 seconds, delay:  -9ms.
+All onsets found!
+
+Woodwind/SopSax.nonvib.ff/SopSax.nonvib.ff.B4.stereo.wav
+--------------------------------------------------------
+Onset at   0.355 seconds, delay: -23ms.
+All onsets found!
+
+Woodwind/SopSax.nonvib.ff/SopSax.nonvib.ff.B5.stereo.wav
+--------------------------------------------------------
+
+False negatives:
+  0.347
+
+False positives:
+  0.278
+
+Woodwind/SopSax.nonvib.ff/SopSax.nonvib.ff.Bb3.stereo.wav
+---------------------------------------------------------
+Onset at   0.338 seconds, delay:  -4ms.
+All onsets found!
+
+Woodwind/SopSax.nonvib.ff/SopSax.nonvib.ff.Bb4.stereo.wav
+---------------------------------------------------------
+Onset at   0.285 seconds, delay: -10ms.
+All onsets found!
+
+Woodwind/SopSax.nonvib.ff/SopSax.nonvib.ff.Bb5.stereo.wav
+---------------------------------------------------------
+
+False negatives:
+  0.274
+
+False positives:
+  0.161
+
+Woodwind/SopSax.nonvib.ff/SopSax.nonvib.ff.C4.stereo.wav
+--------------------------------------------------------
+Onset at   0.353 seconds, delay: -29ms.
+All onsets found!
+
+Woodwind/SopSax.nonvib.ff/SopSax.nonvib.ff.C5.stereo.wav
+--------------------------------------------------------
+Onset at   0.270 seconds, delay: -44ms.
+All onsets found!
+
+Woodwind/SopSax.nonvib.ff/SopSax.nonvib.ff.C6.stereo.wav
+--------------------------------------------------------
+
+False negatives:
+  0.151
+
+False positives:
+  0.098
+
+Woodwind/SopSax.nonvib.ff/SopSax.nonvib.ff.D4.stereo.wav
+--------------------------------------------------------
+Onset at   0.308 seconds, delay:  25ms.
+All onsets found!
+
+Woodwind/SopSax.nonvib.ff/SopSax.nonvib.ff.D5.stereo.wav
+--------------------------------------------------------
+
+False negatives:
+  0.262
+
+False positives:
+  0.072
+
+Woodwind/SopSax.nonvib.ff/SopSax.nonvib.ff.D6.stereo.wav
+--------------------------------------------------------
+
+False negatives:
+  0.264
+
+False positives:
+  0.174
+
+Woodwind/SopSax.nonvib.ff/SopSax.nonvib.ff.Db4.stereo.wav
+---------------------------------------------------------
+
+False negatives:
+  0.331
+
+False positives:
+  0.261
+
+Woodwind/SopSax.nonvib.ff/SopSax.nonvib.ff.Db5.stereo.wav
+---------------------------------------------------------
+
+False negatives:
+  0.303
+
+False positives:
+  0.178
+
+Woodwind/SopSax.nonvib.ff/SopSax.nonvib.ff.E4.stereo.wav
+--------------------------------------------------------
+
+False negatives:
+  0.384
+
+False positives:
+  0.318
+
+Woodwind/SopSax.nonvib.ff/SopSax.nonvib.ff.E5.stereo.wav
+--------------------------------------------------------
+
+False negatives:
+  0.290
+
+False positives:
+  0.222
+
+Woodwind/SopSax.nonvib.ff/SopSax.nonvib.ff.E6.stereo.wav
+--------------------------------------------------------
+
+False negatives:
+  0.332
+
+False positives:
+  0.244
+
+Woodwind/SopSax.nonvib.ff/SopSax.nonvib.ff.Eb4.stereo.wav
+---------------------------------------------------------
+Onset at   0.306 seconds, delay: -32ms.
+All onsets found!
+
+Woodwind/SopSax.nonvib.ff/SopSax.nonvib.ff.Eb5.stereo.wav
+---------------------------------------------------------
+Onset at   0.263 seconds, delay: -26ms.
+All onsets found!
+
+Woodwind/SopSax.nonvib.ff/SopSax.nonvib.ff.Eb6.stereo.wav
+---------------------------------------------------------
+
+False negatives:
+  0.282
+
+False positives:
+  0.072
+
+Woodwind/SopSax.nonvib.ff/SopSax.nonvib.ff.F4.stereo.wav
+--------------------------------------------------------
+
+False negatives:
+  0.316
+
+False positives:
+  0.207
+
+Woodwind/SopSax.nonvib.ff/SopSax.nonvib.ff.F5.stereo.wav
+--------------------------------------------------------
+
+False negatives:
+  0.213
+
+False positives:
+  0.074
+
+Woodwind/SopSax.nonvib.ff/SopSax.nonvib.ff.G4.stereo.wav
+--------------------------------------------------------
+
+False negatives:
+  0.334
+
+False positives:
+  0.222
+
+Woodwind/SopSax.nonvib.ff/SopSax.nonvib.ff.G5.stereo.wav
+--------------------------------------------------------
+
+False negatives:
+  0.231
+
+False positives:
+  0.172
+
+Woodwind/SopSax.nonvib.ff/SopSax.nonvib.ff.Gb4.stereo.wav
+---------------------------------------------------------
+Onset at   0.497 seconds, delay: -39ms.
+All onsets found!
+
+Woodwind/SopSax.nonvib.ff/SopSax.nonvib.ff.Gb5.stereo.wav
+---------------------------------------------------------
+
+False negatives:
+  0.248
+
+False positives:
+  0.107
+
+
+Stats
+=====
+Total number of onsets:     32
+Total number of detections: 34
+Total true positives:       11
+Total false positives:      23
+Total erroneous detections: 23
+
+Largest advance: -44ms
+Mean advance:    -21.400ms
+Largest delay:    25ms
+Mean delay:       25.000ms
+Mean difference: -13.667ms
+Number of advances <-15.00ms: 6
+Number of delays   > 15.00ms: 1
+
+Precision:             32.3529%
+Recall:                34.375%
+F-measure:             33.3333%
+Precision (tot. err.): 32.3529%
+F-measure (tot. err.): 33.3333%
+

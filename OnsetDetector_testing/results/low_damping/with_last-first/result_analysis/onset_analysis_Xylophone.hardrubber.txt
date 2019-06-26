@@ -1,0 +1,281 @@
+Check onsetdetector results
+===========================
+
+Wed Apr 24 13:03:27 2019
+
+OnsetDetector if statement: if (count >= 3 && last >= threshold),  if (last-first >= std::log(2))
+findExactTime() local min decision: if (std::isnan(current/mn) || current/mn >= 0.95) 
+OnsetDetector segment size: 20ms
+Threshold: 0.0003
+Searching for 1 frequency
+NoteDetector args:
+    EDO: 12
+    Bandwidth: 0
+    Method: Runge-Kutta
+    Freq norm: Freq unnormalized
+    Amp norm: Amp normalized
+    Damping: 0.0001
+    Gain: 25
+Onset tolerance: 50.000ms
+
+
+Percussion/Xylophone.hardrubber/Xylophone.hardrubber.ff.A4.stereo.wav
+---------------------------------------------------------------------
+Onset at   0.019 seconds, delay:   1ms.
+All onsets found!
+
+Percussion/Xylophone.hardrubber/Xylophone.hardrubber.ff.A5.stereo.wav
+---------------------------------------------------------------------
+Onset at   0.018 seconds
+All onsets found!
+
+Percussion/Xylophone.hardrubber/Xylophone.hardrubber.ff.A6.stereo.wav
+---------------------------------------------------------------------
+
+False negatives:
+  0.001
+
+Percussion/Xylophone.hardrubber/Xylophone.hardrubber.ff.A7.stereo.wav
+---------------------------------------------------------------------
+
+False negatives:
+  0.001
+
+Percussion/Xylophone.hardrubber/Xylophone.hardrubber.ff.Ab4.stereo.wav
+----------------------------------------------------------------------
+Onset at   0.027 seconds, delay:  -2ms.
+All onsets found!
+
+Percussion/Xylophone.hardrubber/Xylophone.hardrubber.ff.Ab5.stereo.wav
+----------------------------------------------------------------------
+Onset at   0.024 seconds, delay:  -1ms.
+All onsets found!
+
+Percussion/Xylophone.hardrubber/Xylophone.hardrubber.ff.Ab6.stereo.wav
+----------------------------------------------------------------------
+
+False negatives:
+  0.001
+
+Percussion/Xylophone.hardrubber/Xylophone.hardrubber.ff.Ab7.stereo.wav
+----------------------------------------------------------------------
+
+False negatives:
+  0.002
+
+Percussion/Xylophone.hardrubber/Xylophone.hardrubber.ff.B4.stereo.wav
+---------------------------------------------------------------------
+Onset at   0.025 seconds
+All onsets found!
+
+Percussion/Xylophone.hardrubber/Xylophone.hardrubber.ff.B5.stereo.wav
+---------------------------------------------------------------------
+Onset at   0.012 seconds, delay:   8ms.
+All onsets found!
+
+Percussion/Xylophone.hardrubber/Xylophone.hardrubber.ff.B6.stereo.wav
+---------------------------------------------------------------------
+
+False negatives:
+  0.002
+
+Percussion/Xylophone.hardrubber/Xylophone.hardrubber.ff.B7.stereo.wav
+---------------------------------------------------------------------
+
+False negatives:
+  0.001
+
+Percussion/Xylophone.hardrubber/Xylophone.hardrubber.ff.Bb4.stereo.wav
+----------------------------------------------------------------------
+Onset at   0.027 seconds, delay:  -5ms.
+All onsets found!
+
+Percussion/Xylophone.hardrubber/Xylophone.hardrubber.ff.Bb5.stereo.wav
+----------------------------------------------------------------------
+Onset at   0.021 seconds, delay:  -3ms.
+All onsets found!
+
+Percussion/Xylophone.hardrubber/Xylophone.hardrubber.ff.Bb6.stereo.wav
+----------------------------------------------------------------------
+
+False negatives:
+  0.001
+
+Percussion/Xylophone.hardrubber/Xylophone.hardrubber.ff.Bb7.stereo.wav
+----------------------------------------------------------------------
+
+False negatives:
+  0.001
+
+Percussion/Xylophone.hardrubber/Xylophone.hardrubber.ff.C5.stereo.wav
+---------------------------------------------------------------------
+Onset at   0.017 seconds, delay:   2ms.
+All onsets found!
+
+Percussion/Xylophone.hardrubber/Xylophone.hardrubber.ff.C6.stereo.wav
+---------------------------------------------------------------------
+Onset at   0.017 seconds
+All onsets found!
+
+Percussion/Xylophone.hardrubber/Xylophone.hardrubber.ff.C7.stereo.wav
+---------------------------------------------------------------------
+
+False negatives:
+  0.001
+
+Percussion/Xylophone.hardrubber/Xylophone.hardrubber.ff.C8.stereo.wav
+---------------------------------------------------------------------
+
+False negatives:
+  0.000
+
+Percussion/Xylophone.hardrubber/Xylophone.hardrubber.ff.D5.stereo.wav
+---------------------------------------------------------------------
+Onset at   0.022 seconds
+All onsets found!
+
+Percussion/Xylophone.hardrubber/Xylophone.hardrubber.ff.D6.stereo.wav
+---------------------------------------------------------------------
+Onset at   0.013 seconds, delay:   7ms.
+All onsets found!
+
+Percussion/Xylophone.hardrubber/Xylophone.hardrubber.ff.D7.stereo.wav
+---------------------------------------------------------------------
+
+False negatives:
+  0.001
+
+Percussion/Xylophone.hardrubber/Xylophone.hardrubber.ff.Db5.stereo.wav
+----------------------------------------------------------------------
+Onset at   0.021 seconds
+All onsets found!
+
+Percussion/Xylophone.hardrubber/Xylophone.hardrubber.ff.Db6.stereo.wav
+----------------------------------------------------------------------
+Onset at   0.013 seconds, delay:   7ms.
+All onsets found!
+
+Percussion/Xylophone.hardrubber/Xylophone.hardrubber.ff.Db7.stereo.wav
+----------------------------------------------------------------------
+
+False negatives:
+  0.001
+
+Percussion/Xylophone.hardrubber/Xylophone.hardrubber.ff.E5.stereo.wav
+---------------------------------------------------------------------
+Onset at   0.023 seconds
+All onsets found!
+
+Percussion/Xylophone.hardrubber/Xylophone.hardrubber.ff.E6.stereo.wav
+---------------------------------------------------------------------
+Onset at   0.013 seconds, delay:   7ms.
+All onsets found!
+
+Percussion/Xylophone.hardrubber/Xylophone.hardrubber.ff.E7.stereo.wav
+---------------------------------------------------------------------
+
+False negatives:
+  0.001
+
+Percussion/Xylophone.hardrubber/Xylophone.hardrubber.ff.Eb5.stereo.wav
+----------------------------------------------------------------------
+Onset at   0.024 seconds
+All onsets found!
+
+Percussion/Xylophone.hardrubber/Xylophone.hardrubber.ff.Eb6.stereo.wav
+----------------------------------------------------------------------
+Onset at   0.011 seconds, delay:   9ms.
+All onsets found!
+
+Percussion/Xylophone.hardrubber/Xylophone.hardrubber.ff.Eb7.stereo.wav
+----------------------------------------------------------------------
+
+False negatives:
+  0.001
+
+Percussion/Xylophone.hardrubber/Xylophone.hardrubber.ff.F4.stereo.wav
+---------------------------------------------------------------------
+Onset at   0.016 seconds, delay:   4ms.
+All onsets found!
+
+Percussion/Xylophone.hardrubber/Xylophone.hardrubber.ff.F5.stereo.wav
+---------------------------------------------------------------------
+Onset at   0.024 seconds, delay:  -2ms.
+All onsets found!
+
+Percussion/Xylophone.hardrubber/Xylophone.hardrubber.ff.F6.stereo.wav
+---------------------------------------------------------------------
+Onset at   0.011 seconds, delay:   9ms.
+All onsets found!
+
+Percussion/Xylophone.hardrubber/Xylophone.hardrubber.ff.F7.stereo.wav
+---------------------------------------------------------------------
+
+False negatives:
+  0.003
+
+Percussion/Xylophone.hardrubber/Xylophone.hardrubber.ff.G4.stereo.wav
+---------------------------------------------------------------------
+Onset at   0.025 seconds, delay:  -1ms.
+All onsets found!
+
+Percussion/Xylophone.hardrubber/Xylophone.hardrubber.ff.G5.stereo.wav
+---------------------------------------------------------------------
+Onset at   0.027 seconds
+All onsets found!
+
+Percussion/Xylophone.hardrubber/Xylophone.hardrubber.ff.G6.stereo.wav
+---------------------------------------------------------------------
+Onset at   0.010 seconds, delay:  10ms.
+All onsets found!
+
+Percussion/Xylophone.hardrubber/Xylophone.hardrubber.ff.G7.stereo.wav
+---------------------------------------------------------------------
+
+False negatives:
+  0.002
+
+Percussion/Xylophone.hardrubber/Xylophone.hardrubber.ff.Gb4.stereo.wav
+----------------------------------------------------------------------
+Onset at   0.022 seconds
+All onsets found!
+
+Percussion/Xylophone.hardrubber/Xylophone.hardrubber.ff.Gb5.stereo.wav
+----------------------------------------------------------------------
+Onset at   0.024 seconds, delay:  -1ms.
+All onsets found!
+
+Percussion/Xylophone.hardrubber/Xylophone.hardrubber.ff.Gb6.stereo.wav
+----------------------------------------------------------------------
+Onset at   0.011 seconds, delay:   9ms.
+All onsets found!
+
+Percussion/Xylophone.hardrubber/Xylophone.hardrubber.ff.Gb7.stereo.wav
+----------------------------------------------------------------------
+
+False negatives:
+  0.001
+
+
+Stats
+=====
+Total number of onsets:     44
+Total number of detections: 27
+Total true positives:       27
+Total false positives:      0
+Total erroneous detections: 0
+
+Largest advance:  -5ms
+Mean advance:     -3.500ms
+Largest delay:    10ms
+Mean delay:        7.000ms
+Mean difference:   1.400ms
+Number of advances <-15.00ms: 0
+Number of delays   > 15.00ms: 0
+
+Precision:             100%
+Recall:                61.3636%
+F-measure:             76.0563%
+Precision (tot. err.): 100%
+F-measure (tot. err.): 76.0563%
+

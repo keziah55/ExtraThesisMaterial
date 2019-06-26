@@ -1,0 +1,2297 @@
+Check onsetdetector results
+===========================
+
+Wed Apr 24 13:14:03 2019
+
+OnsetDetector if statement: if (count >= 3 && last >= threshold)
+findExactTime() local min decision: if (std::isnan(current/mn) || current/mn >= 0.95) 
+OnsetDetector segment size: 20ms
+Threshold: 0.0005
+Searching for 1 frequency
+NoteDetector args:
+    EDO: 12
+    Bandwidth: 0
+    Method: Runge-Kutta
+    Freq norm: Freq unnormalized
+    Amp norm: Amp normalized
+    Damping: 0.0005
+    Gain: 25
+Onset tolerance: 50.000ms
+
+
+Strings/Violin.arco.ff.sulA/Violin.arco.ff.sulA.A4.stereo.wav
+-------------------------------------------------------------
+Onset at   0.045 seconds, delay:  -4ms.
+
+False positives:
+  0.195
+  0.252
+  0.350
+  0.370
+  0.450
+  0.528
+  0.625
+  0.790
+  0.902
+  1.170
+  1.277
+  1.459
+  1.550
+  1.610
+  1.690
+  1.750
+  1.810
+  1.850
+  1.930
+  1.990
+  2.050
+  2.090
+  2.150
+  2.210
+  2.290
+  2.350
+
+Strings/Violin.arco.ff.sulA/Violin.arco.ff.sulA.A5.stereo.wav
+-------------------------------------------------------------
+Onset at   0.167 seconds, delay: -15ms.
+
+False positives:
+  0.470
+  0.514
+  0.610
+  0.710
+  0.750
+  0.829
+  1.011
+  1.101
+  1.175
+  1.258
+  1.450
+  1.530
+  1.590
+  1.650
+  1.730
+  1.770
+
+Strings/Violin.arco.ff.sulA/Violin.arco.ff.sulA.Ab5.stereo.wav
+--------------------------------------------------------------
+Onset at   0.039 seconds, delay: -15ms.
+
+False positives:
+  0.190
+  0.250
+  0.330
+  0.390
+  0.435
+  0.550
+  0.625
+  0.725
+  0.838
+  1.038
+  1.130
+  1.190
+  1.250
+  1.350
+  1.430
+  1.510
+  1.750
+  1.810
+  1.870
+  1.930
+  1.990
+  2.050
+
+Strings/Violin.arco.ff.sulA/Violin.arco.ff.sulA.Ab6.stereo.wav
+--------------------------------------------------------------
+Onset at   0.112 seconds, delay: -39ms.
+
+False positives:
+  0.244
+  0.323
+  0.450
+  0.500
+  0.621
+  0.710
+  0.808
+  0.870
+  0.913
+  0.990
+  1.050
+  1.130
+  1.188
+  1.256
+  1.330
+  1.367
+  1.468
+  1.530
+  1.615
+  1.688
+  1.809
+  1.864
+  1.930
+  1.990
+  2.050
+
+Strings/Violin.arco.ff.sulA/Violin.arco.ff.sulA.B4.stereo.wav
+-------------------------------------------------------------
+Onset at   0.131 seconds, delay: -27ms.
+
+False positives:
+  0.370
+  0.468
+  0.577
+  0.806
+  0.959
+  1.130
+  1.190
+  1.230
+  1.310
+  1.410
+  1.510
+  1.580
+  1.741
+  1.830
+  1.923
+  2.170
+  2.250
+  2.290
+  2.350
+  2.410
+
+Strings/Violin.arco.ff.sulA/Violin.arco.ff.sulA.B5.stereo.wav
+-------------------------------------------------------------
+Onset at   0.088 seconds, delay: -17ms.
+
+False positives:
+  0.315
+  0.479
+  0.590
+  0.604
+  0.710
+  0.765
+  0.910
+  1.018
+  1.170
+  1.230
+  1.290
+  1.326
+  1.492
+  1.610
+  1.650
+  1.730
+  1.790
+
+Strings/Violin.arco.ff.sulA/Violin.arco.ff.sulA.Bb4.stereo.wav
+--------------------------------------------------------------
+Onset at   0.062 seconds, delay:  -4ms.
+
+False positives:
+  0.331
+  0.430
+  0.530
+  0.650
+  0.754
+  1.030
+  1.130
+  1.180
+  1.362
+  1.462
+  1.537
+  1.608
+  1.830
+  1.890
+  1.970
+  2.030
+  2.063
+
+Strings/Violin.arco.ff.sulA/Violin.arco.ff.sulA.C5.stereo.wav
+-------------------------------------------------------------
+Onset at   0.044 seconds, delay:  -3ms.
+
+False positives:
+  0.241
+  0.410
+  0.510
+  0.540
+  0.639
+  0.750
+  0.864
+  0.950
+  0.971
+  1.130
+  1.170
+  1.228
+  1.310
+  1.410
+  1.450
+  1.538
+  1.667
+  1.901
+  1.985
+  2.145
+  2.245
+  2.470
+  2.530
+  2.590
+  2.630
+  2.690
+
+Strings/Violin.arco.ff.sulA/Violin.arco.ff.sulA.C6.stereo.wav
+-------------------------------------------------------------
+Onset at   0.051 seconds, delay: -10ms.
+
+False positives:
+  0.250
+  0.330
+  0.426
+  0.558
+  0.618
+  0.698
+  0.744
+  0.799
+  0.879
+  0.950
+  1.050
+  1.073
+  1.181
+  1.250
+  1.347
+  1.394
+  1.550
+  1.610
+  1.650
+  1.730
+  1.790
+
+Strings/Violin.arco.ff.sulA/Violin.arco.ff.sulA.D5.stereo.wav
+-------------------------------------------------------------
+Onset at   0.034 seconds, delay:   5ms.
+
+False positives:
+  0.230
+  0.290
+  0.358
+  0.470
+  0.561
+  0.670
+  0.766
+  0.855
+  0.934
+  1.035
+  1.110
+  1.220
+  1.390
+  1.450
+  1.725
+  1.950
+  2.030
+  2.090
+  2.150
+  2.210
+  2.250
+
+Strings/Violin.arco.ff.sulA/Violin.arco.ff.sulA.D6.stereo.wav
+-------------------------------------------------------------
+Onset at   0.054 seconds, delay: -13ms.
+
+False positives:
+  0.239
+  0.350
+  0.408
+  0.492
+  0.710
+  0.810
+  0.879
+  0.970
+  1.031
+  1.125
+  1.202
+  1.290
+  1.350
+  1.377
+  1.485
+  1.750
+  1.790
+  1.870
+  1.910
+  1.990
+
+Strings/Violin.arco.ff.sulA/Violin.arco.ff.sulA.Db5.stereo.wav
+--------------------------------------------------------------
+Onset at   0.030 seconds, delay:  -1ms.
+
+False positives:
+  0.190
+  0.250
+  0.292
+  0.370
+  0.480
+  0.570
+  0.590
+  0.710
+  0.830
+  0.895
+  0.970
+  1.012
+  1.110
+  1.206
+  1.310
+  1.370
+  1.450
+  1.525
+  1.669
+  1.767
+  1.880
+  2.006
+  2.165
+  2.250
+  2.362
+  2.430
+  2.470
+  2.550
+  2.610
+
+Strings/Violin.arco.ff.sulA/Violin.arco.ff.sulA.Db6.stereo.wav
+--------------------------------------------------------------
+Onset at   0.022 seconds, delay:   3ms.
+
+False positives:
+  0.190
+  0.199
+  0.290
+  0.362
+  0.450
+  0.510
+  0.551
+  0.604
+  0.706
+  0.810
+  0.910
+  1.003
+  1.104
+  1.212
+  1.389
+  1.450
+  1.496
+  1.590
+  1.650
+  1.710
+
+Strings/Violin.arco.ff.sulA/Violin.arco.ff.sulA.E5.stereo.wav
+-------------------------------------------------------------
+Onset at   0.092 seconds, delay: -21ms.
+
+False positives:
+  0.230
+  0.310
+  0.353
+  0.430
+  0.469
+  0.584
+  0.670
+  0.724
+  0.850
+  1.050
+  1.127
+  1.201
+  1.310
+  1.372
+  1.466
+  1.667
+  1.770
+  1.887
+  2.130
+  2.210
+  2.250
+  2.310
+
+Strings/Violin.arco.ff.sulA/Violin.arco.ff.sulA.E6.stereo.wav
+-------------------------------------------------------------
+Onset at   0.073 seconds, delay: -14ms.
+
+False positives:
+  0.210
+  0.270
+  0.330
+  0.418
+  0.510
+  0.550
+  0.586
+  0.670
+  0.769
+  0.870
+  0.948
+  1.030
+  1.166
+  1.225
+  1.287
+  1.326
+  1.429
+  1.550
+  1.610
+  1.690
+
+Strings/Violin.arco.ff.sulA/Violin.arco.ff.sulA.Eb5.stereo.wav
+--------------------------------------------------------------
+Onset at   0.027 seconds, delay:  -5ms.
+
+False positives:
+  0.140
+  0.190
+  0.239
+  0.310
+  0.350
+  0.461
+  0.580
+  0.690
+  0.780
+  0.870
+  0.942
+  1.010
+  1.119
+  1.190
+  1.260
+  1.308
+  1.390
+  1.463
+  1.544
+  1.620
+  1.870
+  2.066
+  2.132
+  2.250
+  2.290
+  2.350
+
+Strings/Violin.arco.ff.sulA/Violin.arco.ff.sulA.Eb6.stereo.wav
+--------------------------------------------------------------
+Onset at   0.033 seconds, delay: -10ms.
+
+False positives:
+  0.182
+  0.298
+  0.430
+  0.513
+  0.621
+  0.724
+  0.800
+  0.990
+  1.050
+  1.110
+  1.151
+  1.220
+  1.396
+  1.650
+  1.710
+  1.750
+  1.810
+
+Strings/Violin.arco.ff.sulA/Violin.arco.ff.sulA.F5.stereo.wav
+-------------------------------------------------------------
+Onset at   0.117 seconds, delay:  -8ms.
+
+False positives:
+  0.270
+  0.349
+  0.416
+  0.500
+  0.594
+  0.710
+  0.737
+  0.830
+  0.881
+  0.948
+  1.063
+  1.170
+  1.259
+  1.361
+  1.478
+  1.570
+  1.667
+  1.810
+  1.838
+  1.973
+  2.218
+  2.370
+  2.450
+  2.510
+  2.590
+  2.650
+
+Strings/Violin.arco.ff.sulA/Violin.arco.ff.sulA.F6.stereo.wav
+-------------------------------------------------------------
+Onset at   0.022 seconds, delay:   2ms.
+
+False positives:
+  0.355
+  0.440
+  0.505
+  0.569
+  0.657
+  0.770
+  0.801
+  0.891
+  1.010
+  1.090
+  1.283
+  1.390
+  1.422
+  1.567
+  1.630
+  1.690
+
+Strings/Violin.arco.ff.sulA/Violin.arco.ff.sulA.G5.stereo.wav
+-------------------------------------------------------------
+Onset at   0.079 seconds, delay: -15ms.
+
+False positives:
+  0.254
+  0.381
+  0.470
+  0.560
+  0.679
+  0.870
+  1.083
+  1.131
+  1.223
+  1.330
+  1.424
+  1.610
+  1.670
+  1.750
+  1.810
+  1.850
+  1.910
+  1.970
+
+Strings/Violin.arco.ff.sulA/Violin.arco.ff.sulA.G6.stereo.wav
+-------------------------------------------------------------
+Onset at   0.075 seconds, delay:  -2ms.
+
+False positives:
+  0.250
+  0.308
+  0.362
+  0.447
+  0.510
+  0.570
+  0.650
+  0.730
+  0.786
+  0.846
+  0.930
+  0.958
+  1.049
+  1.130
+  1.180
+  1.252
+  1.330
+  1.460
+  1.549
+  1.630
+  1.702
+  1.788
+  1.871
+  1.917
+  1.978
+  2.090
+  2.130
+  2.210
+
+Strings/Violin.arco.ff.sulA/Violin.arco.ff.sulA.Gb5.stereo.wav
+--------------------------------------------------------------
+
+False negatives:
+  0.155
+
+False positives:
+  0.041
+  0.379
+  0.470
+  0.530
+  0.610
+  0.709
+  0.761
+  0.863
+  0.955
+  1.043
+  1.130
+  1.162
+  1.270
+  1.432
+  1.650
+  1.730
+  1.810
+  1.841
+  2.130
+  2.210
+  2.250
+  2.310
+  2.390
+
+Strings/Violin.arco.ff.sulA/Violin.arco.ff.sulA.Gb6.stereo.wav
+--------------------------------------------------------------
+Onset at   0.125 seconds, delay:  -2ms.
+
+False positives:
+  0.270
+  0.330
+  0.395
+  0.474
+  0.536
+  0.598
+  0.670
+  0.750
+  0.778
+  0.879
+  0.970
+  1.053
+  1.156
+  1.250
+  1.330
+  1.366
+  1.565
+  1.630
+  1.690
+  1.741
+  1.830
+  1.927
+  2.041
+  2.150
+  2.190
+  2.270
+  2.330
+  2.390
+
+Strings/Violin.arco.ff.sulD/Violin.arco.ff.sulD.A4.stereo.wav
+-------------------------------------------------------------
+Onset at   0.079 seconds, delay: -17ms.
+
+False positives:
+  0.242
+  0.364
+  0.470
+  0.510
+  0.590
+  0.650
+  0.706
+  0.807
+  0.890
+  0.990
+  1.029
+  1.099
+  1.215
+  1.587
+  1.670
+  1.730
+  1.810
+  1.850
+  1.910
+
+Strings/Violin.arco.ff.sulD/Violin.arco.ff.sulD.A5.stereo.wav
+-------------------------------------------------------------
+Onset at   0.036 seconds, delay:  -5ms.
+
+False positives:
+  0.210
+  0.283
+  0.422
+  0.490
+  0.590
+  0.771
+  0.881
+  0.950
+  1.110
+  1.150
+  1.230
+  1.290
+  1.350
+  1.410
+
+Strings/Violin.arco.ff.sulD/Violin.arco.ff.sulD.Ab4.stereo.wav
+--------------------------------------------------------------
+Onset at   0.115 seconds, delay:  -9ms.
+
+False positives:
+  0.548
+  0.690
+  0.765
+  0.867
+  0.950
+  1.110
+  1.177
+  1.270
+  1.390
+  1.485
+  1.544
+  1.790
+  1.870
+  1.930
+  1.990
+  2.050
+  2.130
+
+Strings/Violin.arco.ff.sulD/Violin.arco.ff.sulD.Ab5.stereo.wav
+--------------------------------------------------------------
+Onset at   0.046 seconds, delay:  -3ms.
+
+False positives:
+  0.279
+  0.411
+  0.507
+  0.644
+  0.750
+  0.785
+  0.898
+  0.948
+  1.190
+  1.270
+  1.330
+  1.390
+  1.450
+
+Strings/Violin.arco.ff.sulD/Violin.arco.ff.sulD.B4.stereo.wav
+-------------------------------------------------------------
+Onset at   0.081 seconds, delay:  -8ms.
+
+False positives:
+  0.330
+  0.489
+  0.612
+  1.010
+  1.030
+  1.270
+  1.350
+  1.410
+  1.470
+  1.530
+
+Strings/Violin.arco.ff.sulD/Violin.arco.ff.sulD.B5.stereo.wav
+-------------------------------------------------------------
+Onset at   0.032 seconds, delay:  -6ms.
+
+False positives:
+  0.190
+  0.250
+  0.330
+  0.390
+  0.522
+  0.630
+  0.686
+  0.739
+  1.070
+  1.130
+  1.210
+  1.270
+
+Strings/Violin.arco.ff.sulD/Violin.arco.ff.sulD.Bb4.stereo.wav
+--------------------------------------------------------------
+Onset at   0.103 seconds, delay: -24ms.
+
+False positives:
+  0.226
+  0.490
+  0.610
+  0.690
+  0.810
+  0.890
+  1.041
+  1.530
+  1.610
+  1.650
+  1.710
+  1.790
+
+Strings/Violin.arco.ff.sulD/Violin.arco.ff.sulD.Bb5.stereo.wav
+--------------------------------------------------------------
+Onset at   0.036 seconds, delay: -15ms.
+
+False positives:
+  0.210
+  0.270
+  0.310
+  0.380
+  0.490
+  0.545
+  0.608
+  0.690
+  0.730
+  0.805
+  0.845
+  0.922
+  1.130
+  1.210
+  1.250
+  1.310
+
+Strings/Violin.arco.ff.sulD/Violin.arco.ff.sulD.C5.stereo.wav
+-------------------------------------------------------------
+Onset at   0.047 seconds, delay:  -8ms.
+
+False positives:
+  0.250
+  0.313
+  0.469
+  0.551
+  0.819
+  1.250
+  1.310
+  1.390
+  1.450
+  1.510
+  1.570
+
+Strings/Violin.arco.ff.sulD/Violin.arco.ff.sulD.C6.stereo.wav
+-------------------------------------------------------------
+Onset at   0.124 seconds, delay:  -6ms.
+
+False positives:
+  0.407
+  0.598
+  0.690
+  0.790
+  0.850
+  0.947
+  0.992
+  1.110
+  1.150
+  1.230
+  1.290
+
+Strings/Violin.arco.ff.sulD/Violin.arco.ff.sulD.D4.stereo.wav
+-------------------------------------------------------------
+Onset at   0.011 seconds, delay:  15ms.
+
+False positives:
+  0.327
+  0.445
+  0.542
+  0.637
+  0.739
+  0.865
+  1.250
+  1.290
+  1.370
+  1.410
+  1.470
+  1.550
+  1.610
+  1.670
+  1.730
+  1.790
+  1.830
+  1.890
+  1.970
+  2.010
+  2.070
+  2.130
+  2.190
+  2.250
+  2.310
+  2.370
+  2.450
+  2.490
+  2.550
+  2.630
+  2.670
+  2.730
+  2.870
+  3.370
+  3.470
+  3.510
+  3.590
+  3.650
+  3.730
+  3.790
+  3.850
+  3.890
+
+Strings/Violin.arco.ff.sulD/Violin.arco.ff.sulD.D5.stereo.wav
+-------------------------------------------------------------
+Onset at   0.046 seconds, delay: -24ms.
+
+False positives:
+  0.342
+  0.470
+  0.530
+  0.590
+  0.670
+  0.732
+  0.870
+  0.950
+  0.990
+  1.107
+  1.158
+  1.238
+  1.334
+  1.410
+  1.510
+  1.590
+  1.650
+  1.690
+  1.750
+  1.830
+  1.890
+  1.930
+  2.010
+  2.050
+  2.110
+
+Strings/Violin.arco.ff.sulD/Violin.arco.ff.sulD.Db5.stereo.wav
+--------------------------------------------------------------
+Onset at   0.026 seconds, delay:  -5ms.
+
+False positives:
+  0.230
+  0.336
+  0.460
+  0.579
+  0.779
+  0.870
+  0.954
+  1.050
+  1.118
+  1.204
+  1.330
+  1.390
+  1.470
+  1.510
+  1.570
+  1.650
+
+Strings/Violin.arco.ff.sulD/Violin.arco.ff.sulD.E4.stereo.wav
+-------------------------------------------------------------
+Onset at   0.097 seconds, delay: -25ms.
+
+False positives:
+  0.424
+  0.520
+  0.630
+  0.730
+  0.830
+  0.863
+  1.410
+  1.490
+  1.530
+  1.610
+  1.650
+  1.730
+  1.790
+  1.830
+  1.910
+  1.950
+  2.010
+  2.090
+  2.150
+
+Strings/Violin.arco.ff.sulD/Violin.arco.ff.sulD.E5.stereo.wav
+-------------------------------------------------------------
+Onset at   0.066 seconds, delay: -13ms.
+
+False positives:
+  0.330
+  0.410
+  0.590
+  0.632
+  0.870
+  0.930
+  0.990
+  1.030
+  1.110
+  1.150
+  1.217
+  1.310
+  1.360
+  1.418
+  1.490
+  1.550
+  1.610
+  1.687
+  1.770
+  1.850
+  1.890
+  1.970
+  2.010
+
+Strings/Violin.arco.ff.sulD/Violin.arco.ff.sulD.Eb4.stereo.wav
+--------------------------------------------------------------
+Onset at   0.152 seconds, delay:  -7ms.
+
+False positives:
+  0.421
+  0.532
+  0.649
+  0.770
+  0.887
+  1.269
+  1.550
+  1.610
+  1.690
+  1.750
+  1.790
+  1.870
+  1.930
+  1.970
+  2.050
+  2.090
+  2.150
+  2.230
+  2.290
+  2.330
+  2.410
+  2.450
+  2.530
+  2.570
+
+Strings/Violin.arco.ff.sulD/Violin.arco.ff.sulD.Eb5.stereo.wav
+--------------------------------------------------------------
+Onset at   0.045 seconds, delay:  -9ms.
+
+False positives:
+  0.250
+  0.284
+  0.350
+  0.402
+  0.449
+  0.548
+  0.667
+  0.800
+  0.870
+  0.950
+  1.063
+  1.094
+  1.162
+  1.269
+  1.350
+  1.390
+  1.450
+  1.510
+
+Strings/Violin.arco.ff.sulD/Violin.arco.ff.sulD.F4.stereo.wav
+-------------------------------------------------------------
+Onset at   0.104 seconds, delay: -32ms.
+
+False positives:
+  0.357
+  0.443
+  0.550
+  0.581
+  0.670
+  0.763
+  0.938
+  1.029
+  1.114
+  1.490
+  1.550
+  1.630
+  1.670
+  1.750
+  1.810
+  1.870
+  1.930
+  1.970
+  2.030
+  2.110
+  2.170
+  2.210
+
+Strings/Violin.arco.ff.sulD/Violin.arco.ff.sulD.F5.stereo.wav
+-------------------------------------------------------------
+Onset at   0.056 seconds, delay: -15ms.
+
+False positives:
+  0.290
+  0.374
+  0.454
+  0.578
+  0.670
+  0.714
+  0.830
+  0.920
+  0.990
+  1.066
+  1.170
+  1.250
+  1.310
+  1.390
+  1.430
+  1.490
+
+Strings/Violin.arco.ff.sulD/Violin.arco.ff.sulD.G4.stereo.wav
+-------------------------------------------------------------
+Onset at   0.108 seconds, delay: -19ms.
+
+False positives:
+  0.290
+  0.337
+  0.470
+  0.530
+  0.639
+  0.835
+  0.990
+  1.028
+  1.450
+  1.510
+  1.570
+  1.630
+  1.710
+  1.770
+  1.830
+  1.870
+  1.950
+  2.050
+
+Strings/Violin.arco.ff.sulD/Violin.arco.ff.sulD.G5.stereo.wav
+-------------------------------------------------------------
+Onset at   0.047 seconds, delay:  -4ms.
+
+False positives:
+  0.224
+  0.330
+  0.482
+  0.643
+  0.749
+  1.050
+  1.130
+  1.170
+  1.250
+  1.310
+  1.370
+  1.430
+
+Strings/Violin.arco.ff.sulD/Violin.arco.ff.sulD.Gb5.stereo.wav
+--------------------------------------------------------------
+Onset at   0.044 seconds, delay:  -6ms.
+
+False positives:
+  0.177
+  0.241
+  0.371
+  0.463
+  0.570
+  0.650
+  0.710
+  0.800
+  0.882
+  1.070
+  1.150
+  1.210
+  1.250
+
+Strings/Violin.arco.ff.sulE/Violin.arco.ff.sulE.A5.stereo.wav
+-------------------------------------------------------------
+Onset at   0.104 seconds, delay: -30ms.
+
+False positives:
+  0.390
+  0.430
+  0.504
+  0.710
+  0.770
+  0.850
+  0.930
+
+Strings/Violin.arco.ff.sulE/Violin.arco.ff.sulE.A6.stereo.wav
+-------------------------------------------------------------
+Onset at   0.068 seconds, delay: -14ms.
+
+False positives:
+  0.268
+  0.349
+  0.430
+  0.466
+  0.580
+  0.670
+  0.759
+  0.890
+  1.090
+  1.190
+  1.301
+  1.396
+  1.523
+  1.602
+  1.690
+  1.770
+  1.810
+  1.867
+  2.150
+  2.200
+  2.330
+  2.365
+  2.450
+  2.510
+  2.570
+
+Strings/Violin.arco.ff.sulE/Violin.arco.ff.sulE.Ab5.stereo.wav
+--------------------------------------------------------------
+Onset at   0.056 seconds, delay: -13ms.
+
+False positives:
+  0.308
+  0.447
+  0.650
+  0.730
+  0.770
+  0.830
+
+Strings/Violin.arco.ff.sulE/Violin.arco.ff.sulE.Ab6.stereo.wav
+--------------------------------------------------------------
+Onset at   0.070 seconds, delay: -14ms.
+
+False positives:
+  0.301
+  0.410
+  0.488
+  0.590
+  0.690
+  0.730
+  0.790
+  0.836
+  0.950
+  0.994
+  1.130
+  1.230
+  1.310
+  1.410
+  1.477
+  1.543
+  1.661
+  1.770
+  1.850
+  1.964
+  2.081
+  2.170
+  2.193
+  2.414
+  2.541
+  2.630
+  2.690
+  2.810
+  2.850
+  2.930
+  2.970
+  3.050
+
+Strings/Violin.arco.ff.sulE/Violin.arco.ff.sulE.B5.stereo.wav
+-------------------------------------------------------------
+Onset at   0.038 seconds, delay:  -8ms.
+
+False positives:
+  0.390
+  0.484
+  0.630
+  0.710
+  0.750
+  0.810
+
+Strings/Violin.arco.ff.sulE/Violin.arco.ff.sulE.B6.stereo.wav
+-------------------------------------------------------------
+Onset at   0.050 seconds, delay: -27ms.
+
+False positives:
+  0.170
+  0.308
+  0.417
+  0.550
+  0.590
+  0.686
+  0.786
+  0.869
+  0.990
+  1.070
+  1.166
+  1.250
+  1.288
+  1.369
+  1.470
+  1.548
+  1.666
+  1.748
+  1.806
+  1.930
+  2.029
+  2.110
+  2.170
+  2.230
+  2.310
+  2.350
+  2.480
+  2.570
+  2.684
+  2.790
+  2.870
+  2.927
+  3.050
+
+Strings/Violin.arco.ff.sulE/Violin.arco.ff.sulE.Bb5.stereo.wav
+--------------------------------------------------------------
+Onset at   0.105 seconds, delay: -31ms.
+
+False positives:
+  0.350
+  0.410
+  0.465
+  0.570
+  0.617
+  0.850
+  0.890
+  0.950
+  1.010
+
+Strings/Violin.arco.ff.sulE/Violin.arco.ff.sulE.Bb6.stereo.wav
+--------------------------------------------------------------
+Onset at   0.062 seconds, delay: -11ms.
+
+False positives:
+  0.190
+  0.250
+  0.349
+  0.430
+  0.490
+  0.613
+  0.922
+  0.988
+  1.050
+  1.104
+  1.182
+  1.322
+  1.410
+  1.505
+  1.603
+  1.690
+  1.770
+  1.830
+  1.910
+  1.970
+  2.066
+  2.178
+  2.270
+  2.308
+  2.375
+  2.459
+  2.587
+  2.665
+  2.763
+  2.870
+  2.950
+  2.990
+  3.070
+
+Strings/Violin.arco.ff.sulE/Violin.arco.ff.sulE.C6.stereo.wav
+-------------------------------------------------------------
+Onset at   0.096 seconds, delay:  -9ms.
+
+False positives:
+  0.350
+  0.430
+  0.470
+  0.550
+  0.625
+  0.724
+  0.787
+  1.024
+  1.129
+  1.350
+  1.443
+  1.552
+  1.666
+  1.750
+  1.882
+  1.970
+  2.031
+  2.130
+  2.210
+  2.290
+  2.402
+  2.500
+  2.568
+  2.650
+  2.727
+  2.790
+  2.870
+  2.930
+  2.997
+  3.110
+  3.190
+  3.270
+
+Strings/Violin.arco.ff.sulE/Violin.arco.ff.sulE.C7.stereo.wav
+-------------------------------------------------------------
+Onset at   0.037 seconds, delay: -16ms.
+
+False positives:
+  0.270
+  0.330
+  0.430
+  0.490
+  0.530
+
+Strings/Violin.arco.ff.sulE/Violin.arco.ff.sulE.D6.stereo.wav
+-------------------------------------------------------------
+
+False negatives:
+  0.056
+
+Strings/Violin.arco.ff.sulE/Violin.arco.ff.sulE.D7.stereo.wav
+-------------------------------------------------------------
+Onset at   0.036 seconds, delay:  -5ms.
+
+False positives:
+  0.187
+  0.254
+  0.372
+  0.486
+  0.610
+  0.750
+  0.830
+  0.890
+  0.950
+  0.990
+
+Strings/Violin.arco.ff.sulE/Violin.arco.ff.sulE.Db6.stereo.wav
+--------------------------------------------------------------
+Onset at   0.077 seconds, delay: -16ms.
+
+False positives:
+  0.270
+  0.330
+  0.410
+  0.450
+  0.524
+  0.710
+  0.830
+  0.930
+  0.956
+  1.050
+  1.170
+  1.250
+  1.310
+  1.350
+  1.430
+  1.510
+  1.609
+  1.730
+  1.768
+  1.828
+  1.873
+  1.950
+  2.092
+  2.210
+  2.250
+  2.346
+  2.417
+  2.509
+  2.570
+  2.608
+  2.719
+  2.873
+  2.932
+  3.030
+  3.070
+  3.130
+  3.169
+  3.250
+  3.310
+
+Strings/Violin.arco.ff.sulE/Violin.arco.ff.sulE.Db7.stereo.wav
+--------------------------------------------------------------
+Onset at   0.041 seconds, delay:  -2ms.
+
+False positives:
+  0.249
+  0.375
+  0.530
+  0.590
+  0.650
+  0.710
+  0.770
+
+Strings/Violin.arco.ff.sulE/Violin.arco.ff.sulE.E5.stereo.wav
+-------------------------------------------------------------
+Onset at   0.022 seconds, delay:  -1ms.
+
+False positives:
+  0.254
+  0.658
+  1.070
+  1.150
+  1.210
+  1.270
+  1.310
+  1.370
+  1.430
+  1.510
+  1.570
+
+Strings/Violin.arco.ff.sulE/Violin.arco.ff.sulE.E6.stereo.wav
+-------------------------------------------------------------
+Onset at   0.049 seconds, delay:  -5ms.
+
+False positives:
+  0.270
+  0.330
+  0.430
+  0.530
+  0.594
+  0.729
+  0.960
+  1.050
+  1.110
+  1.128
+  1.229
+  1.337
+  1.430
+  1.526
+  1.610
+  1.830
+  1.890
+  1.922
+  2.171
+  2.358
+  2.490
+  2.592
+  2.670
+  2.730
+  2.810
+  2.850
+
+Strings/Violin.arco.ff.sulE/Violin.arco.ff.sulE.E7.stereo.wav
+-------------------------------------------------------------
+Onset at   0.040 seconds, delay: -17ms.
+
+False positives:
+  0.210
+  0.290
+  0.350
+  0.382
+  0.470
+  0.501
+  0.590
+  0.650
+  0.734
+  0.834
+  0.950
+  1.030
+  1.090
+
+Strings/Violin.arco.ff.sulE/Violin.arco.ff.sulE.Eb6.stereo.wav
+--------------------------------------------------------------
+Onset at   0.052 seconds, delay: -11ms.
+All onsets found!
+
+Strings/Violin.arco.ff.sulE/Violin.arco.ff.sulE.Eb7.stereo.wav
+--------------------------------------------------------------
+Onset at   0.035 seconds, delay: -13ms.
+
+False positives:
+  0.190
+  0.310
+  0.390
+  0.450
+
+Strings/Violin.arco.ff.sulE/Violin.arco.ff.sulE.F5.stereo.wav
+-------------------------------------------------------------
+Onset at   0.057 seconds, delay:  -6ms.
+
+False positives:
+  0.309
+  0.446
+  0.538
+  0.610
+  0.701
+  0.801
+  0.889
+  0.970
+  1.153
+  1.261
+  1.350
+  1.410
+  1.450
+  1.510
+
+Strings/Violin.arco.ff.sulE/Violin.arco.ff.sulE.F6.stereo.wav
+-------------------------------------------------------------
+Onset at   0.086 seconds, delay: -24ms.
+
+False positives:
+  0.248
+  0.310
+  0.390
+  0.470
+  0.570
+  0.678
+  0.814
+  0.930
+  1.020
+  1.128
+  1.209
+  1.304
+  1.389
+  1.470
+  1.535
+  1.620
+  1.710
+  1.780
+  1.870
+  1.930
+  2.012
+  2.090
+  2.250
+  2.320
+  2.393
+  2.444
+  2.511
+  2.610
+  2.805
+  2.950
+  3.030
+  3.090
+  3.170
+
+Strings/Violin.arco.ff.sulE/Violin.arco.ff.sulE.G5.stereo.wav
+-------------------------------------------------------------
+Onset at   0.044 seconds, delay:  -3ms.
+
+False positives:
+  0.212
+  0.370
+  0.417
+  0.810
+  0.875
+  1.050
+  1.110
+  1.150
+  1.230
+  1.270
+  1.330
+
+Strings/Violin.arco.ff.sulE/Violin.arco.ff.sulE.G6.stereo.wav
+-------------------------------------------------------------
+Onset at   0.072 seconds, delay: -20ms.
+
+False positives:
+  0.270
+  0.318
+  0.642
+  0.730
+  0.830
+  0.967
+  1.030
+  1.110
+  1.170
+  1.290
+  1.370
+  1.430
+  1.519
+  1.650
+  1.730
+  1.830
+  1.908
+  2.018
+  2.130
+  2.170
+  2.270
+  2.302
+  2.386
+  2.567
+  2.630
+  2.710
+  2.750
+
+Strings/Violin.arco.ff.sulE/Violin.arco.ff.sulE.Gb5.stereo.wav
+--------------------------------------------------------------
+Onset at   0.043 seconds, delay:  -7ms.
+
+False positives:
+  0.302
+  0.470
+  0.510
+  0.577
+  0.670
+  0.750
+  0.930
+  0.997
+  1.090
+  1.170
+  1.210
+  1.290
+  1.330
+
+Strings/Violin.arco.ff.sulE/Violin.arco.ff.sulE.Gb6.stereo.wav
+--------------------------------------------------------------
+Onset at   0.059 seconds, delay:  -9ms.
+
+False positives:
+  0.210
+  0.290
+  0.341
+  0.582
+  0.890
+  0.946
+  1.046
+  1.150
+  1.230
+  1.255
+  1.370
+  1.430
+  1.490
+  1.630
+  1.690
+  1.712
+  1.764
+  1.845
+  1.902
+  2.008
+  2.150
+  2.190
+  2.270
+  2.348
+  2.490
+  2.638
+  2.750
+  2.828
+  2.910
+  2.970
+  3.050
+  3.110
+
+Strings/Violin.arco.ff.sulG/Violin.arco.ff.sulG.A3.stereo.wav
+-------------------------------------------------------------
+Onset at   0.035 seconds, delay: -14ms.
+
+False positives:
+  0.309
+  0.469
+  0.686
+  0.854
+  1.130
+  1.170
+  1.250
+  1.310
+  1.350
+  1.430
+  1.470
+  1.550
+  1.610
+  1.650
+  1.730
+  1.790
+  1.850
+  1.910
+  1.950
+  2.030
+  2.090
+  2.130
+  2.210
+
+Strings/Violin.arco.ff.sulG/Violin.arco.ff.sulG.A4.stereo.wav
+-------------------------------------------------------------
+Onset at   0.060 seconds, delay: -19ms.
+
+False positives:
+  0.210
+  0.306
+  0.370
+  0.432
+  0.548
+  0.630
+  0.709
+  0.915
+  1.030
+  1.170
+  1.230
+  1.309
+  1.360
+  1.450
+  1.530
+  1.570
+  1.627
+  1.870
+  1.930
+  2.010
+  2.070
+  2.130
+  2.170
+  2.250
+  2.290
+  2.350
+  2.410
+  2.470
+  2.550
+  2.610
+
+Strings/Violin.arco.ff.sulG/Violin.arco.ff.sulG.Ab3.stereo.wav
+--------------------------------------------------------------
+Onset at   0.020 seconds
+
+False positives:
+  0.263
+  0.370
+  0.602
+  0.704
+  0.790
+  0.858
+  1.070
+  1.170
+  1.230
+  1.270
+  1.350
+  1.390
+  1.470
+  1.510
+  1.570
+  1.650
+  1.690
+  1.750
+  1.830
+  1.870
+  1.930
+
+Strings/Violin.arco.ff.sulG/Violin.arco.ff.sulG.Ab4.stereo.wav
+--------------------------------------------------------------
+Onset at   0.061 seconds, delay: -15ms.
+
+False positives:
+  0.270
+  0.289
+  0.372
+  0.490
+  0.609
+  0.684
+  0.867
+  0.947
+  1.170
+  1.230
+  1.290
+  1.370
+  1.430
+  1.490
+  1.530
+
+Strings/Violin.arco.ff.sulG/Violin.arco.ff.sulG.B3.stereo.wav
+-------------------------------------------------------------
+Onset at   0.041 seconds, delay: -11ms.
+
+False positives:
+  0.467
+  0.610
+  0.681
+  0.842
+  0.928
+  1.040
+  1.310
+  1.370
+  1.450
+  1.490
+  1.570
+  1.630
+  1.690
+  1.730
+  1.810
+  1.850
+  1.910
+  1.990
+  2.050
+  2.110
+  2.150
+  2.230
+  2.270
+
+Strings/Violin.arco.ff.sulG/Violin.arco.ff.sulG.B4.stereo.wav
+-------------------------------------------------------------
+Onset at   0.059 seconds, delay: -17ms.
+
+False positives:
+  0.270
+  0.346
+  0.463
+  0.524
+  0.745
+  0.850
+  0.919
+  1.110
+  1.190
+  1.230
+  1.290
+  1.350
+
+Strings/Violin.arco.ff.sulG/Violin.arco.ff.sulG.Bb3.stereo.wav
+--------------------------------------------------------------
+Onset at   0.044 seconds, delay:  -8ms.
+
+False positives:
+  0.389
+  0.450
+  0.550
+  0.650
+  0.770
+  0.889
+  1.135
+  1.310
+  1.370
+  1.450
+  1.490
+  1.570
+  1.610
+
+Strings/Violin.arco.ff.sulG/Violin.arco.ff.sulG.Bb4.stereo.wav
+--------------------------------------------------------------
+Onset at   0.042 seconds, delay: -17ms.
+
+False positives:
+  0.163
+  0.284
+  0.410
+  0.490
+  0.518
+  0.641
+  0.750
+  1.050
+  1.090
+  1.150
+  1.230
+  1.270
+  1.330
+
+Strings/Violin.arco.ff.sulG/Violin.arco.ff.sulG.C4.stereo.wav
+-------------------------------------------------------------
+Onset at   0.050 seconds, delay:  -7ms.
+
+False positives:
+  0.303
+  0.399
+  0.510
+  0.590
+  0.688
+  0.846
+  0.950
+  1.089
+  1.190
+  1.263
+  1.430
+  1.530
+  1.590
+  1.630
+  1.710
+  1.770
+  1.830
+  1.870
+  1.950
+  2.010
+  2.090
+  2.130
+
+Strings/Violin.arco.ff.sulG/Violin.arco.ff.sulG.C5.stereo.wav
+-------------------------------------------------------------
+Onset at   0.120 seconds, delay: -33ms.
+
+False positives:
+  0.374
+  0.520
+  0.715
+  0.883
+  0.982
+  1.088
+  1.198
+  1.410
+  1.450
+  1.510
+  1.570
+  1.650
+  1.690
+
+Strings/Violin.arco.ff.sulG/Violin.arco.ff.sulG.D4.stereo.wav
+-------------------------------------------------------------
+Onset at   0.066 seconds, delay: -26ms.
+
+False positives:
+  0.266
+  0.366
+  0.470
+  0.506
+  0.590
+  0.668
+  0.730
+  0.816
+  0.904
+  1.004
+  1.110
+  1.210
+  1.450
+  1.485
+  1.590
+  1.630
+  1.710
+  1.770
+  1.810
+  1.870
+  1.950
+  2.010
+  2.050
+  2.142
+  2.250
+  2.290
+  2.370
+  2.430
+  2.479
+  2.870
+  2.930
+  2.970
+  3.050
+  3.110
+  3.150
+  3.210
+  3.290
+  3.350
+  3.390
+  3.470
+  3.510
+  3.570
+
+Strings/Violin.arco.ff.sulG/Violin.arco.ff.sulG.D5.stereo.wav
+-------------------------------------------------------------
+Onset at   0.059 seconds
+
+False positives:
+  0.224
+  0.310
+  0.370
+  0.426
+  0.510
+  0.570
+  0.651
+  0.749
+  0.855
+  0.936
+  1.047
+  1.119
+  1.219
+  1.590
+  1.650
+  1.730
+  1.770
+
+Strings/Violin.arco.ff.sulG/Violin.arco.ff.sulG.Db4.stereo.wav
+--------------------------------------------------------------
+Onset at   0.062 seconds, delay:  -5ms.
+
+False positives:
+  0.360
+  0.470
+  0.510
+  0.590
+  0.630
+  0.711
+  0.976
+  1.066
+  1.331
+  1.530
+  1.590
+  1.670
+  1.710
+  1.790
+  1.850
+  1.890
+  1.970
+
+Strings/Violin.arco.ff.sulG/Violin.arco.ff.sulG.Db5.stereo.wav
+--------------------------------------------------------------
+Onset at   0.066 seconds, delay: -10ms.
+
+False positives:
+  0.240
+  0.280
+  0.326
+  0.417
+  0.510
+  0.586
+  0.650
+  0.730
+  0.787
+  1.018
+  1.117
+  1.290
+  1.350
+  1.410
+  1.470
+  1.550
+  1.590
+  1.650
+
+Strings/Violin.arco.ff.sulG/Violin.arco.ff.sulG.E4.stereo.wav
+-------------------------------------------------------------
+Onset at   0.064 seconds, delay: -11ms.
+
+False positives:
+  0.367
+  0.490
+  0.590
+  0.625
+  0.730
+  0.999
+  1.088
+  1.280
+  1.410
+  1.450
+  1.530
+  1.630
+  1.670
+  1.750
+  1.790
+  1.850
+
+Strings/Violin.arco.ff.sulG/Violin.arco.ff.sulG.Eb4.stereo.wav
+--------------------------------------------------------------
+Onset at   0.047 seconds, delay: -23ms.
+
+False positives:
+  0.486
+  0.590
+  0.615
+  0.730
+  0.802
+  0.883
+  0.983
+  1.095
+  1.250
+  1.310
+  1.390
+  1.430
+  1.510
+  1.570
+  1.610
+  1.690
+  1.730
+  1.810
+
+Strings/Violin.arco.ff.sulG/Violin.arco.ff.sulG.F4.stereo.wav
+-------------------------------------------------------------
+Onset at   0.053 seconds, delay: -10ms.
+
+False positives:
+  0.270
+  0.357
+  0.502
+  0.627
+  1.200
+  1.350
+  1.410
+  1.470
+  1.530
+  1.590
+  1.650
+  1.710
+
+Strings/Violin.arco.ff.sulG/Violin.arco.ff.sulG.G3.stereo.wav
+-------------------------------------------------------------
+Onset at   0.006 seconds, delay:  34ms.
+
+False positives:
+  0.446
+  0.502
+  0.603
+  0.842
+  0.970
+  1.050
+  1.090
+  1.150
+  1.230
+  1.290
+  1.330
+  1.410
+  1.450
+  1.510
+  1.590
+  1.630
+  1.710
+  1.750
+  1.810
+  1.890
+  1.930
+  2.010
+  2.070
+  2.110
+  2.170
+  2.230
+  2.310
+  2.350
+  2.430
+  2.490
+  2.550
+  2.610
+  2.670
+  2.730
+  2.770
+  2.850
+  2.890
+  2.970
+  3.010
+  3.090
+
+Strings/Violin.arco.ff.sulG/Violin.arco.ff.sulG.G4.stereo.wav
+-------------------------------------------------------------
+Onset at   0.050 seconds, delay:  -8ms.
+
+False positives:
+  0.238
+  0.368
+  0.487
+  0.602
+  0.690
+  0.767
+  0.854
+  0.970
+  1.056
+  1.370
+  1.405
+  1.470
+  1.550
+  1.610
+  1.670
+
+Strings/Violin.arco.ff.sulG/Violin.arco.ff.sulG.Gb4.stereo.wav
+--------------------------------------------------------------
+Onset at   0.058 seconds, delay: -17ms.
+
+False positives:
+  0.290
+  0.390
+  0.480
+  0.590
+  0.670
+  0.733
+  0.855
+  1.170
+  1.213
+  1.301
+  1.470
+  1.510
+  1.590
+  1.630
+  1.690
+  1.770
+  1.810
+
+
+Stats
+=====
+Total number of onsets:     90
+Total number of detections: 1800
+Total true positives:       88
+Total false positives:      1712
+Total erroneous detections: 1712
+
+Largest advance: -39ms
+Mean advance:    -19.333ms
+Largest delay:    34ms
+Mean delay:       18.000ms
+Mean difference:  -0.500ms
+Number of advances <-15.00ms: 25
+Number of delays   > 15.00ms: 1
+
+Precision:             4.88889%
+Recall:                97.7778%
+F-measure:             9.31217%
+Precision (tot. err.): 4.88889%
+F-measure (tot. err.): 9.31217%
+

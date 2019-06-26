@@ -1,0 +1,10376 @@
+Check onsetdetector results
+===========================
+
+Wed Apr 24 13:14:03 2019
+
+OnsetDetector if statement: if (count >= 3 && last >= threshold)
+findExactTime() local min decision: if (std::isnan(current/mn) || current/mn >= 0.95) 
+OnsetDetector segment size: 20ms
+Threshold: 0.0005
+Searching for 1 frequency
+NoteDetector args:
+    EDO: 12
+    Bandwidth: 0
+    Method: Runge-Kutta
+    Freq norm: Freq unnormalized
+    Amp norm: Amp normalized
+    Damping: 0.0005
+    Gain: 25
+Onset tolerance: 50.000ms
+
+
+Brass/Trumpet.novib/Trumpet.novib.ff.C6.stereo.wav
+--------------------------------------------------
+Onset at   0.075 seconds, delay:  -5ms.
+
+False positives:
+  0.303
+  0.390
+  0.430
+  0.490
+  0.650
+  0.710
+  0.770
+  0.846
+  0.983
+  1.090
+  1.150
+  1.219
+  1.310
+  1.390
+  1.450
+  1.510
+  1.569
+  1.650
+  1.710
+  1.797
+  1.870
+  1.930
+  2.007
+  2.160
+  2.230
+  2.330
+  2.390
+  2.510
+  2.662
+  2.810
+  2.907
+  3.022
+  3.130
+  3.162
+  3.288
+  3.359
+  3.470
+  3.550
+  3.610
+  3.710
+  3.810
+  3.910
+  3.990
+  4.050
+  4.110
+  4.170
+  4.250
+
+Brass/Trumpet.novib/Trumpet.novib.ff.D6.stereo.wav
+--------------------------------------------------
+Onset at   0.069 seconds, delay:  -3ms.
+
+False positives:
+  0.210
+  0.270
+  0.350
+  0.390
+  0.484
+  0.542
+  0.646
+  0.750
+  0.810
+  0.930
+  0.989
+  1.069
+  1.122
+  1.190
+  1.228
+  1.310
+  1.450
+  1.565
+  1.618
+  1.760
+  1.910
+  1.955
+  2.050
+  2.190
+  2.250
+  2.302
+  2.370
+  2.448
+  2.530
+  2.650
+  2.670
+  2.750
+  2.791
+  2.870
+  2.930
+  3.038
+  3.150
+  3.192
+  3.285
+  3.337
+  3.408
+  3.490
+  3.576
+  3.698
+  3.810
+  3.840
+  3.970
+  4.004
+  4.090
+  4.150
+  4.210
+  4.290
+  4.350
+  4.389
+  4.450
+  4.530
+
+Brass/Trumpet.novib/Trumpet.novib.ff.Db6.stereo.wav
+---------------------------------------------------
+Onset at   0.052 seconds, delay:  -4ms.
+
+False positives:
+  0.244
+  0.315
+  0.450
+  0.550
+  0.608
+  0.721
+  0.830
+  0.869
+  0.963
+  1.013
+  1.089
+  1.190
+  1.270
+  1.386
+  1.450
+  1.537
+  1.609
+  1.665
+  1.729
+  1.810
+  1.930
+  1.973
+  2.090
+  2.141
+  2.270
+  2.305
+  2.390
+  2.470
+  2.526
+  2.590
+  2.645
+  2.726
+  2.803
+  2.872
+  2.989
+  3.130
+  3.165
+  3.290
+  3.389
+  3.450
+  3.510
+  3.569
+  3.630
+  3.689
+  3.770
+  3.850
+  3.903
+  3.960
+  4.050
+  4.110
+  4.190
+  4.250
+  4.310
+  4.370
+  4.450
+  4.490
+
+Brass/Trumpet.novib/Trumpet.novib.ff.Eb6.stereo.wav
+---------------------------------------------------
+
+False negatives:
+  0.125
+
+False positives:
+  0.022
+  0.343
+  0.431
+  0.499
+  0.590
+  0.657
+  0.766
+  0.850
+  0.930
+  0.981
+  1.070
+  1.134
+  1.250
+  1.368
+  1.470
+  1.510
+  1.575
+  1.650
+  1.750
+  1.810
+  1.870
+  1.950
+  2.010
+  2.062
+  2.147
+  2.234
+  2.330
+  2.370
+  2.510
+  2.630
+  2.730
+  2.790
+  2.867
+  2.910
+  3.030
+  3.054
+  3.130
+  3.183
+  3.250
+  3.310
+  3.370
+  3.450
+  3.490
+
+Brass/Trumpet.vib/Trumpet.vib.ff.C6.stereo.wav
+----------------------------------------------
+Onset at   0.106 seconds, delay: -21ms.
+
+False positives:
+  0.259
+  0.370
+  0.450
+  0.547
+  0.650
+  0.710
+  0.770
+  0.823
+  0.889
+  1.010
+  1.103
+  1.270
+  1.323
+  1.470
+  1.580
+  1.653
+  1.770
+  1.836
+  1.990
+  2.057
+  2.210
+  2.273
+  2.390
+  2.430
+  2.483
+  2.570
+  2.710
+  2.784
+  2.870
+  2.981
+  3.090
+  3.112
+  3.207
+  3.310
+  3.347
+  3.530
+  3.588
+  3.690
+  3.750
+  3.810
+  3.890
+  3.950
+  4.020
+  4.130
+  4.170
+  4.243
+  4.370
+  4.450
+  4.490
+  4.550
+  4.610
+  4.670
+  4.730
+  4.790
+  4.850
+  4.910
+
+Brass/Trumpet.vib/Trumpet.vib.ff.D6.stereo.wav
+----------------------------------------------
+Onset at   0.112 seconds, delay: -49ms.
+
+False positives:
+  0.270
+  0.354
+  0.450
+  0.550
+  0.596
+  0.710
+  0.790
+  0.830
+  0.966
+  1.083
+  1.170
+  1.289
+  1.384
+  1.490
+  1.550
+  1.630
+  1.690
+  1.770
+  1.908
+  1.970
+  2.049
+  2.102
+  2.170
+  2.257
+  2.367
+  2.450
+  2.525
+  2.622
+  2.710
+  2.770
+  2.870
+  2.910
+  2.967
+  3.070
+  3.150
+  3.210
+  3.290
+  3.350
+  3.423
+  3.530
+  3.607
+  3.730
+  3.810
+  3.910
+  3.995
+  4.142
+  4.281
+  4.429
+  4.537
+  4.610
+  4.670
+  4.730
+  4.790
+  4.870
+  4.910
+
+Brass/Trumpet.vib/Trumpet.vib.ff.Db6.stereo.wav
+-----------------------------------------------
+Onset at   0.092 seconds, delay: -31ms.
+
+False positives:
+  0.246
+  0.331
+  0.409
+  0.487
+  0.587
+  0.670
+  0.730
+  0.781
+  0.870
+  0.913
+  1.010
+  1.079
+  1.210
+  1.310
+  1.365
+  1.550
+  1.617
+  1.810
+  1.870
+  1.901
+  2.050
+  2.111
+  2.230
+  2.289
+  2.370
+  2.416
+  2.490
+  2.528
+  2.610
+  2.644
+  2.739
+  2.787
+  2.930
+  2.990
+  3.110
+  3.200
+  3.290
+  3.370
+  3.417
+  3.524
+  3.590
+  3.650
+  3.770
+  3.882
+  3.990
+  4.049
+  4.170
+  4.281
+  4.370
+  4.450
+  4.490
+  4.550
+  4.610
+  4.690
+  4.750
+
+Percussion/Crotale/Crotale.ff.A6.stereo.wav
+-------------------------------------------
+Onset at   0.044 seconds, delay:  -2ms.
+
+False positives:
+  0.130
+  0.169
+  0.250
+  0.309
+  0.410
+  0.470
+  0.570
+  0.610
+  0.690
+  0.770
+  0.870
+  0.930
+  1.030
+  1.090
+  1.190
+  1.229
+  1.350
+  1.410
+  1.510
+  1.550
+  1.650
+  1.710
+
+Percussion/Crotale/Crotale.ff.Ab6.stereo.wav
+--------------------------------------------
+Onset at   0.074 seconds, delay:  -3ms.
+
+False positives:
+  0.170
+  0.264
+  0.410
+  0.521
+  0.640
+  0.779
+  0.910
+  1.030
+  1.170
+  1.280
+  1.403
+  1.540
+  1.670
+  1.807
+  1.930
+  2.040
+  2.189
+
+Percussion/Crotale/Crotale.ff.B6.stereo.wav
+-------------------------------------------
+Onset at   0.049 seconds, delay:  -8ms.
+
+False positives:
+  0.130
+  0.190
+  0.250
+  0.330
+  0.430
+  0.490
+  0.550
+  0.610
+  0.670
+  0.730
+  0.810
+  0.850
+  0.930
+  0.990
+  1.063
+  1.330
+  1.390
+  1.450
+  1.510
+  1.590
+  1.650
+  1.789
+  1.950
+  2.010
+
+Percussion/Crotale/Crotale.ff.Bb6.stereo.wav
+--------------------------------------------
+Onset at   0.046 seconds, delay:  -6ms.
+
+False positives:
+  0.130
+  0.167
+  0.270
+  0.330
+  0.450
+  0.510
+  0.630
+  0.690
+  0.870
+
+Percussion/Crotale/Crotale.ff.C6.stereo.wav
+-------------------------------------------
+Onset at   0.072 seconds, delay:  -1ms.
+
+False positives:
+  0.210
+  0.390
+  0.450
+  0.570
+  0.770
+  0.950
+
+Percussion/Crotale/Crotale.ff.D6.stereo.wav
+-------------------------------------------
+Onset at   0.086 seconds
+
+False positives:
+  0.190
+  0.250
+  0.390
+  0.461
+  0.630
+  0.710
+  0.870
+  0.950
+  1.190
+  1.430
+
+Percussion/Crotale/Crotale.ff.Db6.stereo.wav
+--------------------------------------------
+Onset at   0.084 seconds
+
+False positives:
+  0.209
+
+Percussion/Crotale/Crotale.ff.E6.stereo.wav
+-------------------------------------------
+Onset at   0.061 seconds, delay:  -2ms.
+
+False positives:
+  0.170
+  0.230
+  0.290
+  0.350
+
+Percussion/Crotale/Crotale.ff.Eb6.stereo.wav
+--------------------------------------------
+
+False negatives:
+  0.085
+
+Percussion/Crotale/Crotale.ff.F6.stereo.wav
+-------------------------------------------
+Onset at   0.094 seconds, delay:  -8ms.
+
+False positives:
+  0.170
+  0.262
+  0.450
+  0.561
+  0.750
+  0.867
+  1.050
+  1.158
+  1.350
+  1.465
+
+Percussion/Crotale/Crotale.ff.G6.stereo.wav
+-------------------------------------------
+Onset at   0.083 seconds, delay:  -1ms.
+
+False positives:
+  0.210
+  0.289
+  0.350
+  0.430
+  0.550
+  0.628
+  0.710
+  0.790
+  0.910
+  0.968
+  1.050
+  1.142
+  1.270
+  1.317
+  1.410
+  1.490
+  1.610
+  1.667
+  1.750
+  1.850
+  1.970
+  2.027
+  2.110
+  2.190
+
+Percussion/Crotale/Crotale.ff.Gb6.stereo.wav
+--------------------------------------------
+Onset at   0.077 seconds, delay:  -6ms.
+
+False positives:
+  0.270
+  0.470
+  0.601
+  0.830
+  0.960
+  1.170
+
+Percussion/Marimba.cord/Marimba.cord.ff.A6.stereo.wav
+-----------------------------------------------------
+Onset at   0.066 seconds, delay:  -1ms.
+
+False positives:
+  0.190
+  0.250
+  0.330
+
+Percussion/Marimba.cord/Marimba.cord.ff.Ab6.stereo.wav
+------------------------------------------------------
+Onset at   0.050 seconds
+
+False positives:
+  0.150
+  0.210
+  0.270
+  0.330
+  0.390
+
+Percussion/Marimba.cord/Marimba.cord.ff.B6.stereo.wav
+-----------------------------------------------------
+Onset at   0.052 seconds, delay:  -1ms.
+
+False positives:
+  0.130
+  0.190
+  0.250
+
+Percussion/Marimba.cord/Marimba.cord.ff.Bb6.stereo.wav
+------------------------------------------------------
+Onset at   0.044 seconds
+
+False positives:
+  0.170
+  0.230
+  0.310
+  0.350
+
+Percussion/Marimba.cord/Marimba.cord.ff.C6.stereo.wav
+-----------------------------------------------------
+Onset at   0.050 seconds, delay:  -9ms.
+
+False positives:
+  0.130
+  0.210
+  0.270
+  0.350
+  0.410
+
+Percussion/Marimba.cord/Marimba.cord.ff.D6.stereo.wav
+-----------------------------------------------------
+Onset at   0.066 seconds, delay:  -2ms.
+
+False positives:
+  0.210
+  0.270
+  0.330
+  0.390
+
+Percussion/Marimba.cord/Marimba.cord.ff.Db6.stereo.wav
+------------------------------------------------------
+Onset at   0.053 seconds, delay:  -2ms.
+
+False positives:
+  0.150
+  0.190
+  0.270
+  0.330
+  0.370
+
+Percussion/Marimba.cord/Marimba.cord.ff.E6.stereo.wav
+-----------------------------------------------------
+Onset at   0.055 seconds, delay:  -4ms.
+
+False positives:
+  0.150
+  0.190
+  0.270
+  0.330
+  0.390
+
+Percussion/Marimba.cord/Marimba.cord.ff.Eb6.stereo.wav
+------------------------------------------------------
+Onset at   0.046 seconds, delay:  -4ms.
+
+False positives:
+  0.130
+  0.190
+  0.230
+  0.310
+  0.350
+  0.410
+
+Percussion/Marimba.cord/Marimba.cord.ff.F6.stereo.wav
+-----------------------------------------------------
+Onset at   0.045 seconds, delay:  -9ms.
+
+False positives:
+  0.130
+  0.190
+  0.230
+  0.310
+  0.370
+
+Percussion/Marimba.cord/Marimba.cord.ff.G6.stereo.wav
+-----------------------------------------------------
+Onset at   0.053 seconds, delay:  -2ms.
+
+False positives:
+  0.130
+  0.190
+  0.270
+  0.310
+
+Percussion/Marimba.cord/Marimba.cord.ff.Gb6.stereo.wav
+------------------------------------------------------
+Onset at   0.054 seconds, delay:  -3ms.
+
+False positives:
+  0.150
+  0.210
+  0.250
+  0.330
+  0.390
+
+Percussion/Marimba.deadstroke/Marimba.deadstroke.ff.A6.stereo.wav
+-----------------------------------------------------------------
+Onset at   0.029 seconds, delay:  -5ms.
+
+False positives:
+  0.130
+  0.190
+  0.250
+  0.310
+  0.350
+
+Percussion/Marimba.deadstroke/Marimba.deadstroke.ff.Ab6.stereo.wav
+------------------------------------------------------------------
+Onset at   0.034 seconds, delay:  -4ms.
+
+False positives:
+  0.130
+  0.190
+  0.230
+  0.290
+  0.370
+
+Percussion/Marimba.deadstroke/Marimba.deadstroke.ff.B6.stereo.wav
+-----------------------------------------------------------------
+Onset at   0.035 seconds, delay:  -5ms.
+
+False positives:
+  0.130
+  0.190
+  0.230
+  0.310
+  0.370
+
+Percussion/Marimba.deadstroke/Marimba.deadstroke.ff.Bb6.stereo.wav
+------------------------------------------------------------------
+Onset at   0.031 seconds, delay:  -1ms.
+
+False positives:
+  0.130
+  0.190
+  0.230
+  0.310
+  0.370
+  0.410
+
+Percussion/Marimba.deadstroke/Marimba.deadstroke.ff.C6.stereo.wav
+-----------------------------------------------------------------
+Onset at   0.033 seconds, delay:  -3ms.
+
+False positives:
+  0.130
+  0.190
+  0.250
+  0.310
+  0.370
+
+Percussion/Marimba.deadstroke/Marimba.deadstroke.ff.D6.stereo.wav
+-----------------------------------------------------------------
+Onset at   0.035 seconds, delay:  -5ms.
+
+False positives:
+  0.110
+  0.170
+  0.250
+  0.310
+  0.350
+  0.410
+
+Percussion/Marimba.deadstroke/Marimba.deadstroke.ff.Db6.stereo.wav
+------------------------------------------------------------------
+Onset at   0.032 seconds, delay:  -2ms.
+
+False positives:
+  0.110
+  0.170
+  0.250
+  0.290
+  0.350
+
+Percussion/Marimba.deadstroke/Marimba.deadstroke.ff.E6.stereo.wav
+-----------------------------------------------------------------
+Onset at   0.042 seconds, delay:  -1ms.
+
+False positives:
+  0.130
+  0.170
+  0.230
+  0.290
+  0.350
+  0.430
+
+Percussion/Marimba.deadstroke/Marimba.deadstroke.ff.Eb6.stereo.wav
+------------------------------------------------------------------
+Onset at   0.034 seconds, delay:  -4ms.
+
+False positives:
+  0.130
+  0.190
+  0.230
+  0.290
+  0.350
+  0.410
+
+Percussion/Marimba.deadstroke/Marimba.deadstroke.ff.F6.stereo.wav
+-----------------------------------------------------------------
+Onset at   0.030 seconds
+
+False positives:
+  0.130
+  0.170
+  0.250
+  0.290
+  0.350
+  0.410
+
+Percussion/Marimba.deadstroke/Marimba.deadstroke.ff.G6.stereo.wav
+-----------------------------------------------------------------
+Onset at   0.031 seconds, delay:  -1ms.
+
+False positives:
+  0.130
+  0.190
+  0.230
+  0.310
+  0.350
+
+Percussion/Marimba.deadstroke/Marimba.deadstroke.ff.Gb6.stereo.wav
+------------------------------------------------------------------
+Onset at   0.050 seconds, delay:  -8ms.
+
+False positives:
+  0.130
+  0.190
+  0.250
+  0.310
+  0.390
+  0.430
+
+Percussion/Marimba.roll/Marimba.roll.ff.A6.stereo.wav
+-----------------------------------------------------
+Onset at   0.021 seconds
+Onset at   0.094 seconds, delay:   1ms.
+Onset at   0.166 seconds, delay:   4ms.
+Onset at   0.256 seconds, delay:  -6ms.
+Onset at   0.339 seconds, delay:   1ms.
+Onset at   0.433 seconds, delay:  -3ms.
+Onset at   0.521 seconds
+Onset at   0.614 seconds, delay:  -4ms.
+Onset at   0.701 seconds, delay:   1ms.
+Onset at   0.800 seconds, delay: -10ms.
+Onset at   0.894 seconds, delay:  -4ms.
+Onset at   0.979 seconds, delay:   1ms.
+Onset at   1.078 seconds, delay:  -6ms.
+Onset at   1.158 seconds, delay:  12ms.
+Onset at   1.271 seconds
+Onset at   1.351 seconds
+Onset at   1.449 seconds
+Onset at   1.545 seconds, delay: -14ms.
+Onset at   1.634 seconds
+Onset at   1.729 seconds
+Onset at   1.812 seconds, delay:  -2ms.
+Onset at   1.915 seconds
+Onset at   1.998 seconds, delay:  -8ms.
+Onset at   2.093 seconds, delay:  -3ms.
+Onset at   2.193 seconds, delay:  -3ms.
+Onset at   2.280 seconds
+Onset at   2.370 seconds
+Onset at   2.463 seconds
+Onset at   2.556 seconds, delay:  -6ms.
+Onset at   2.652 seconds, delay:  -2ms.
+Onset at   2.740 seconds
+Onset at   2.833 seconds, delay:  -3ms.
+Onset at   2.941 seconds
+
+False positives:
+  0.650
+  0.830
+  1.250
+  1.410
+  1.610
+  2.690
+  3.030
+  3.070
+  3.150
+  3.210
+
+Percussion/Marimba.roll/Marimba.roll.ff.Ab6.stereo.wav
+------------------------------------------------------
+Onset at   0.024 seconds, delay:  -6ms.
+Onset at   0.163 seconds, delay:   1ms.
+Onset at   0.248 seconds
+Onset at   0.335 seconds, delay:  -5ms.
+Onset at   0.432 seconds, delay:  -2ms.
+Onset at   0.510 seconds
+Onset at   0.607 seconds, delay:   1ms.
+Onset at   0.700 seconds, delay:  -1ms.
+Onset at   0.791 seconds, delay:  -1ms.
+Onset at   0.879 seconds, delay:   3ms.
+Onset at   0.972 seconds, delay:  -2ms.
+Onset at   1.061 seconds, delay:   2ms.
+Onset at   1.142 seconds, delay:   3ms.
+Onset at   1.245 seconds
+Onset at   1.344 seconds, delay:   6ms.
+Onset at   1.419 seconds, delay:   2ms.
+Onset at   1.516 seconds, delay:   2ms.
+Onset at   1.602 seconds
+Onset at   1.699 seconds, delay:  -1ms.
+Onset at   1.793 seconds, delay:  -2ms.
+Onset at   1.882 seconds, delay:   2ms.
+Onset at   1.978 seconds, delay:   3ms.
+Onset at   2.072 seconds, delay:  -2ms.
+Onset at   2.158 seconds, delay:   2ms.
+Onset at   2.258 seconds
+Onset at   2.340 seconds, delay:   3ms.
+Onset at   2.431 seconds
+Onset at   2.526 seconds
+Onset at   2.611 seconds, delay:  -1ms.
+Onset at   2.707 seconds
+Onset at   2.805 seconds, delay:   2ms.
+Onset at   2.891 seconds
+Onset at   2.989 seconds, delay:   1ms.
+Onset at   3.079 seconds, delay:   1ms.
+Onset at   3.178 seconds
+Onset at   3.273 seconds, delay:  -3ms.
+Onset at   3.357 seconds, delay:   1ms.
+Onset at   3.461 seconds, delay:   1ms.
+
+False negatives:
+  0.089
+
+False positives:
+  0.570
+  1.030
+  1.230
+  2.510
+  2.690
+  3.450
+  3.550
+  3.610
+  3.670
+  3.750
+  3.810
+
+Percussion/Marimba.roll/Marimba.roll.ff.B6.stereo.wav
+-----------------------------------------------------
+Onset at   0.025 seconds, delay:  -5ms.
+Onset at   0.093 seconds, delay: -46ms.
+Onset at   0.175 seconds, delay:  -4ms.
+Onset at   0.258 seconds, delay:  -8ms.
+Onset at   0.347 seconds
+Onset at   0.420 seconds, delay:  10ms.
+Onset at   0.522 seconds
+Onset at   0.612 seconds, delay:  -2ms.
+Onset at   0.704 seconds, delay:   1ms.
+Onset at   0.795 seconds, delay:  -5ms.
+Onset at   0.883 seconds
+Onset at   0.973 seconds, delay:  -3ms.
+Onset at   1.064 seconds
+Onset at   1.156 seconds, delay:  -6ms.
+Onset at   1.245 seconds
+Onset at   1.352 seconds, delay:  -2ms.
+Onset at   1.429 seconds
+Onset at   1.523 seconds
+Onset at   1.619 seconds
+Onset at   1.713 seconds, delay:  -3ms.
+Onset at   1.798 seconds
+Onset at   1.893 seconds, delay:  -3ms.
+Onset at   1.984 seconds
+Onset at   2.085 seconds, delay:  24ms.
+Onset at   2.167 seconds
+Onset at   2.267 seconds
+Onset at   2.359 seconds
+Onset at   2.458 seconds
+Onset at   2.541 seconds
+Onset at   2.644 seconds, delay: -14ms.
+Onset at   2.733 seconds, delay:  -3ms.
+Onset at   2.830 seconds
+Onset at   2.924 seconds, delay: -13ms.
+Onset at   3.020 seconds
+Onset at   3.118 seconds, delay:  -8ms.
+
+False positives:
+  0.330
+  0.650
+  1.230
+  1.510
+  2.050
+  2.250
+  2.670
+  2.970
+  3.210
+  3.250
+  3.310
+
+Percussion/Marimba.roll/Marimba.roll.ff.Bb6.stereo.wav
+------------------------------------------------------
+Onset at   0.030 seconds, delay:  -4ms.
+Onset at   0.161 seconds, delay:   2ms.
+Onset at   0.257 seconds, delay:   1ms.
+Onset at   0.341 seconds, delay:   1ms.
+Onset at   0.434 seconds, delay:   1ms.
+Onset at   0.519 seconds
+Onset at   0.613 seconds, delay:  -3ms.
+Onset at   0.711 seconds, delay:  -1ms.
+Onset at   0.808 seconds, delay:   2ms.
+Onset at   0.896 seconds
+Onset at   0.987 seconds, delay:   3ms.
+Onset at   1.084 seconds, delay:  -1ms.
+Onset at   1.172 seconds, delay:   2ms.
+Onset at   1.263 seconds
+Onset at   1.350 seconds
+Onset at   1.433 seconds, delay:  -3ms.
+Onset at   1.529 seconds, delay:   1ms.
+Onset at   1.617 seconds, delay:   1ms.
+Onset at   1.711 seconds, delay:  -1ms.
+Onset at   1.802 seconds
+Onset at   1.893 seconds, delay:  -3ms.
+Onset at   1.984 seconds
+Onset at   2.065 seconds
+Onset at   2.164 seconds
+Onset at   2.249 seconds
+Onset at   2.331 seconds
+Onset at   2.428 seconds, delay:   2ms.
+Onset at   2.507 seconds
+Onset at   2.604 seconds
+Onset at   2.689 seconds
+Onset at   2.779 seconds, delay:   2ms.
+Onset at   2.875 seconds
+Onset at   2.968 seconds, delay:   2ms.
+Onset at   3.048 seconds, delay:   1ms.
+Onset at   3.155 seconds
+Onset at   3.231 seconds
+Onset at   3.329 seconds
+Onset at   3.411 seconds
+Onset at   3.504 seconds
+Onset at   3.604 seconds
+Onset at   3.682 seconds
+Onset at   3.773 seconds, delay:  -3ms.
+
+False negatives:
+  0.098
+
+False positives:
+  1.070
+  2.150
+  2.590
+  3.490
+  3.850
+  3.910
+  3.970
+  4.050
+  4.110
+
+Percussion/Marimba.roll/Marimba.roll.ff.C6.stereo.wav
+-----------------------------------------------------
+Onset at   0.037 seconds, delay: -13ms.
+Onset at   0.191 seconds, delay:  -1ms.
+Onset at   0.268 seconds, delay:   2ms.
+Onset at   0.367 seconds, delay:   1ms.
+Onset at   0.456 seconds, delay:   3ms.
+Onset at   0.548 seconds, delay:   2ms.
+Onset at   0.643 seconds, delay:   1ms.
+Onset at   0.743 seconds
+Onset at   0.839 seconds, delay:  -3ms.
+Onset at   0.940 seconds
+Onset at   1.024 seconds
+Onset at   1.124 seconds, delay:  -6ms.
+Onset at   1.226 seconds
+Onset at   1.316 seconds
+Onset at   1.402 seconds, delay:   1ms.
+Onset at   1.514 seconds, delay:   2ms.
+Onset at   1.599 seconds, delay:  -4ms.
+Onset at   1.684 seconds, delay:  -6ms.
+Onset at   1.786 seconds
+Onset at   1.871 seconds
+Onset at   1.966 seconds, delay:   3ms.
+Onset at   2.065 seconds
+Onset at   2.153 seconds, delay:  -3ms.
+Onset at   2.245 seconds
+Onset at   2.344 seconds, delay: -20ms.
+Onset at   2.425 seconds, delay:   1ms.
+Onset at   2.531 seconds
+Onset at   2.623 seconds
+Onset at   2.711 seconds
+Onset at   2.816 seconds
+Onset at   2.905 seconds, delay:   1ms.
+Onset at   3.010 seconds
+Onset at   3.104 seconds
+Onset at   3.195 seconds, delay:   2ms.
+Onset at   3.294 seconds, delay:   1ms.
+Onset at   3.399 seconds
+Onset at   3.500 seconds, delay:  -9ms.
+Onset at   3.579 seconds, delay:  -2ms.
+Onset at   3.678 seconds, delay: -12ms.
+Onset at   3.770 seconds
+Onset at   3.872 seconds, delay:  -1ms.
+Onset at   3.973 seconds
+Onset at   4.059 seconds
+Onset at   4.201 seconds, delay:   1ms.
+
+False negatives:
+  0.108
+
+False positives:
+  0.350
+  0.730
+  1.110
+  1.470
+  1.770
+  2.030
+  2.390
+  2.510
+  2.970
+  3.550
+  3.730
+  4.130
+  4.290
+  4.350
+  4.410
+  4.470
+
+Percussion/Marimba.roll/Marimba.roll.ff.D6.stereo.wav
+-----------------------------------------------------
+Onset at   0.018 seconds
+Onset at   0.173 seconds, delay: -12ms.
+Onset at   0.259 seconds
+Onset at   0.357 seconds, delay:  -6ms.
+Onset at   0.439 seconds
+Onset at   0.541 seconds, delay: -11ms.
+Onset at   0.636 seconds, delay:   3ms.
+Onset at   0.724 seconds
+Onset at   0.832 seconds, delay:  -3ms.
+Onset at   0.921 seconds, delay:  -5ms.
+Onset at   1.025 seconds, delay:   1ms.
+Onset at   1.112 seconds, delay:  -2ms.
+Onset at   1.201 seconds
+Onset at   1.307 seconds, delay:  -2ms.
+Onset at   1.401 seconds
+Onset at   1.499 seconds
+Onset at   1.588 seconds, delay:   2ms.
+Onset at   1.684 seconds, delay:  -6ms.
+Onset at   1.781 seconds, delay:   2ms.
+Onset at   1.882 seconds, delay:   2ms.
+Onset at   1.986 seconds
+Onset at   2.068 seconds, delay:   1ms.
+Onset at   2.163 seconds, delay:   1ms.
+Onset at   2.258 seconds
+Onset at   2.356 seconds, delay:  -4ms.
+Onset at   2.451 seconds
+Onset at   2.549 seconds
+Onset at   2.642 seconds, delay:   2ms.
+Onset at   2.740 seconds, delay:  -6ms.
+Onset at   2.830 seconds
+Onset at   2.919 seconds
+Onset at   3.026 seconds, delay:   1ms.
+Onset at   3.125 seconds
+Onset at   3.215 seconds
+Onset at   3.314 seconds, delay:  -4ms.
+Onset at   3.407 seconds, delay:  -6ms.
+Onset at   3.501 seconds, delay: -10ms.
+Onset at   3.619 seconds, delay:  -1ms.
+
+False negatives:
+  0.088
+
+False positives:
+  0.590
+  0.790
+  1.010
+  1.270
+  1.670
+  1.870
+  2.150
+  2.990
+  3.550
+  3.690
+  3.750
+
+Percussion/Marimba.roll/Marimba.roll.ff.Db6.stereo.wav
+------------------------------------------------------
+Onset at   0.010 seconds, delay:  10ms.
+Onset at   0.156 seconds, delay:   1ms.
+Onset at   0.248 seconds, delay:   2ms.
+Onset at   0.337 seconds
+Onset at   0.434 seconds, delay:   1ms.
+Onset at   0.521 seconds, delay:  -1ms.
+Onset at   0.621 seconds, delay:   1ms.
+Onset at   0.714 seconds, delay:  -4ms.
+Onset at   0.807 seconds, delay:   3ms.
+Onset at   0.905 seconds, delay:   2ms.
+Onset at   1.006 seconds
+Onset at   1.095 seconds, delay:   2ms.
+Onset at   1.199 seconds, delay:  -9ms.
+Onset at   1.284 seconds
+Onset at   1.388 seconds
+Onset at   1.473 seconds, delay:  -3ms.
+Onset at   1.581 seconds
+Onset at   1.669 seconds
+Onset at   1.768 seconds, delay:   2ms.
+Onset at   1.865 seconds, delay:   1ms.
+Onset at   1.962 seconds
+Onset at   2.052 seconds, delay:  -2ms.
+Onset at   2.156 seconds, delay:   2ms.
+Onset at   2.252 seconds, delay:  -1ms.
+Onset at   2.345 seconds, delay:   4ms.
+Onset at   2.442 seconds, delay:  -8ms.
+Onset at   2.534 seconds, delay:   3ms.
+Onset at   2.640 seconds
+Onset at   2.739 seconds, delay:  -8ms.
+Onset at   2.827 seconds
+Onset at   2.927 seconds, delay:   3ms.
+Onset at   3.016 seconds
+Onset at   3.116 seconds
+Onset at   3.206 seconds
+Onset at   3.309 seconds, delay:  -1ms.
+Onset at   3.391 seconds
+Onset at   3.489 seconds, delay:   1ms.
+Onset at   3.583 seconds, delay:  -5ms.
+Onset at   3.672 seconds, delay:  -2ms.
+Onset at   3.775 seconds
+Onset at   3.862 seconds, delay:   1ms.
+Onset at   3.970 seconds
+Onset at   4.066 seconds, delay:   4ms.
+Onset at   4.178 seconds
+
+False positives:
+  0.110
+  0.610
+  0.970
+  1.247
+  1.350
+  1.550
+  1.930
+  2.790
+  3.270
+  3.930
+  4.130
+  4.270
+  4.310
+  4.390
+  4.450
+
+Percussion/Marimba.roll/Marimba.roll.ff.E6.stereo.wav
+-----------------------------------------------------
+Onset at   0.012 seconds, delay:   8ms.
+Onset at   0.072 seconds, delay:  18ms.
+Onset at   0.153 seconds, delay:   1ms.
+Onset at   0.220 seconds, delay:   2ms.
+Onset at   0.319 seconds, delay:  -9ms.
+Onset at   0.396 seconds, delay:   1ms.
+Onset at   0.490 seconds
+Onset at   0.575 seconds, delay:  -1ms.
+Onset at   0.664 seconds, delay:   2ms.
+Onset at   0.752 seconds, delay:  -2ms.
+Onset at   0.848 seconds, delay:   2ms.
+Onset at   0.923 seconds, delay:   2ms.
+Onset at   1.021 seconds
+Onset at   1.106 seconds
+Onset at   1.192 seconds, delay:   5ms.
+Onset at   1.282 seconds
+Onset at   1.370 seconds
+Onset at   1.463 seconds
+Onset at   1.544 seconds, delay:   6ms.
+Onset at   1.634 seconds, delay:  -4ms.
+Onset at   1.725 seconds, delay:   4ms.
+Onset at   1.813 seconds
+Onset at   1.895 seconds
+Onset at   1.978 seconds, delay:   1ms.
+Onset at   2.078 seconds, delay:  -8ms.
+Onset at   2.157 seconds
+Onset at   2.250 seconds
+Onset at   2.338 seconds
+Onset at   2.427 seconds
+Onset at   2.507 seconds, delay:   2ms.
+Onset at   2.603 seconds
+Onset at   2.696 seconds, delay:   2ms.
+Onset at   2.773 seconds, delay:  -3ms.
+Onset at   2.866 seconds, delay:  -2ms.
+Onset at   2.950 seconds
+Onset at   3.038 seconds, delay:  -4ms.
+Onset at   3.128 seconds, delay:   1ms.
+Onset at   3.206 seconds
+Onset at   3.306 seconds
+Onset at   3.390 seconds
+Onset at   3.479 seconds
+Onset at   3.562 seconds
+Onset at   3.661 seconds, delay: -11ms.
+
+False positives:
+  0.370
+  2.130
+  2.590
+  3.290
+  3.708
+  3.750
+  3.810
+  3.870
+  3.930
+
+Percussion/Marimba.roll/Marimba.roll.ff.Eb6.stereo.wav
+------------------------------------------------------
+Onset at   0.034 seconds, delay: -14ms.
+Onset at   0.106 seconds, delay:  24ms.
+Onset at   0.174 seconds, delay:   2ms.
+Onset at   0.263 seconds, delay:   2ms.
+Onset at   0.349 seconds, delay:   1ms.
+Onset at   0.445 seconds, delay:   2ms.
+Onset at   0.526 seconds, delay:   4ms.
+Onset at   0.621 seconds, delay:   1ms.
+Onset at   0.714 seconds, delay:  -4ms.
+Onset at   0.813 seconds, delay:   5ms.
+Onset at   0.898 seconds, delay:  -1ms.
+Onset at   0.987 seconds, delay:   3ms.
+Onset at   1.078 seconds, delay:  -5ms.
+Onset at   1.177 seconds
+Onset at   1.263 seconds
+Onset at   1.346 seconds
+Onset at   1.449 seconds
+Onset at   1.534 seconds
+Onset at   1.619 seconds, delay:   2ms.
+Onset at   1.710 seconds
+Onset at   1.799 seconds, delay:   2ms.
+Onset at   1.886 seconds
+Onset at   1.975 seconds
+Onset at   2.065 seconds, delay:   4ms.
+Onset at   2.156 seconds
+Onset at   2.244 seconds, delay:   4ms.
+Onset at   2.337 seconds, delay:  -5ms.
+Onset at   2.427 seconds, delay:   3ms.
+Onset at   2.516 seconds
+Onset at   2.611 seconds, delay:  -1ms.
+Onset at   2.693 seconds, delay:  -3ms.
+Onset at   2.791 seconds
+Onset at   2.873 seconds, delay:  -2ms.
+Onset at   2.974 seconds, delay:   4ms.
+Onset at   3.065 seconds
+Onset at   3.152 seconds, delay:  -2ms.
+Onset at   3.242 seconds, delay:   3ms.
+Onset at   3.335 seconds, delay:   4ms.
+Onset at   3.420 seconds
+Onset at   3.516 seconds, delay:   4ms.
+Onset at   3.603 seconds, delay:   1ms.
+Onset at   3.692 seconds, delay:  -2ms.
+Onset at   3.785 seconds, delay:   4ms.
+Onset at   3.866 seconds, delay:   4ms.
+Onset at   3.957 seconds, delay:   2ms.
+Onset at   4.050 seconds
+Onset at   4.136 seconds, delay:   1ms.
+Onset at   4.234 seconds, delay:   3ms.
+Onset at   4.337 seconds
+
+False positives:
+  0.430
+  1.430
+  4.430
+  4.490
+  4.530
+  4.590
+  4.670
+
+Percussion/Marimba.roll/Marimba.roll.ff.F6.stereo.wav
+-----------------------------------------------------
+Onset at   0.024 seconds
+Onset at   0.176 seconds, delay:  -5ms.
+Onset at   0.243 seconds
+Onset at   0.337 seconds, delay:  -1ms.
+Onset at   0.423 seconds, delay:  -1ms.
+Onset at   0.512 seconds, delay:  -2ms.
+Onset at   0.599 seconds, delay:  -1ms.
+Onset at   0.693 seconds, delay:  -3ms.
+Onset at   0.778 seconds, delay:  -3ms.
+Onset at   0.876 seconds, delay:   2ms.
+Onset at   0.957 seconds, delay:   1ms.
+Onset at   1.052 seconds, delay: -11ms.
+Onset at   1.144 seconds
+Onset at   1.225 seconds
+Onset at   1.315 seconds
+Onset at   1.411 seconds, delay:  -1ms.
+Onset at   1.493 seconds, delay:   2ms.
+Onset at   1.595 seconds
+Onset at   1.688 seconds, delay:   2ms.
+Onset at   1.771 seconds
+Onset at   1.864 seconds
+Onset at   1.955 seconds
+Onset at   2.044 seconds
+Onset at   2.138 seconds
+Onset at   2.223 seconds
+Onset at   2.314 seconds
+Onset at   2.403 seconds, delay:   1ms.
+Onset at   2.495 seconds
+Onset at   2.577 seconds
+Onset at   2.675 seconds, delay:   2ms.
+Onset at   2.768 seconds
+Onset at   2.849 seconds
+Onset at   2.938 seconds
+Onset at   3.031 seconds, delay:  -1ms.
+Onset at   3.119 seconds
+Onset at   3.206 seconds, delay:   4ms.
+Onset at   3.296 seconds, delay:   1ms.
+Onset at   3.382 seconds, delay:   4ms.
+Onset at   3.471 seconds
+Onset at   3.567 seconds, delay:   2ms.
+
+False negatives:
+  0.085
+
+False positives:
+  1.110
+  3.650
+  3.710
+  3.750
+  3.830
+
+Percussion/Marimba.roll/Marimba.roll.ff.G6.stereo.wav
+-----------------------------------------------------
+Onset at   0.039 seconds, delay:  -9ms.
+Onset at   0.103 seconds, delay:  27ms.
+Onset at   0.181 seconds
+Onset at   0.258 seconds, delay:   4ms.
+Onset at   0.354 seconds, delay:  -4ms.
+Onset at   0.444 seconds, delay:   6ms.
+Onset at   0.525 seconds, delay:  -1ms.
+Onset at   0.620 seconds, delay:   5ms.
+Onset at   0.703 seconds, delay:   1ms.
+Onset at   0.803 seconds, delay: -13ms.
+Onset at   0.889 seconds, delay:   1ms.
+Onset at   0.978 seconds, delay:   4ms.
+Onset at   1.069 seconds, delay:   1ms.
+Onset at   1.165 seconds, delay:   4ms.
+Onset at   1.248 seconds
+Onset at   1.345 seconds, delay:   5ms.
+Onset at   1.422 seconds
+Onset at   1.519 seconds, delay:  -8ms.
+Onset at   1.604 seconds
+Onset at   1.700 seconds, delay: -10ms.
+Onset at   1.783 seconds
+Onset at   1.871 seconds, delay:  18ms.
+Onset at   1.973 seconds, delay:  -3ms.
+Onset at   2.062 seconds, delay:   1ms.
+Onset at   2.147 seconds, delay:   1ms.
+Onset at   2.243 seconds, delay:   2ms.
+Onset at   2.332 seconds, delay:  -1ms.
+Onset at   2.426 seconds, delay:   4ms.
+Onset at   2.501 seconds
+Onset at   2.604 seconds
+Onset at   2.697 seconds, delay:  -7ms.
+
+False positives:
+  0.510
+  0.850
+  1.230
+  1.570
+  1.730
+  2.230
+  2.590
+  2.790
+  2.850
+  2.910
+
+Percussion/Marimba.roll/Marimba.roll.ff.Gb6.stereo.wav
+------------------------------------------------------
+Onset at   0.029 seconds, delay:  -5ms.
+Onset at   0.172 seconds, delay:  -1ms.
+Onset at   0.252 seconds, delay:  -2ms.
+Onset at   0.344 seconds, delay:   1ms.
+Onset at   0.434 seconds, delay:  -4ms.
+Onset at   0.514 seconds, delay:   1ms.
+Onset at   0.605 seconds, delay:   1ms.
+Onset at   0.693 seconds, delay:  -3ms.
+Onset at   0.789 seconds, delay:   1ms.
+Onset at   0.870 seconds
+Onset at   0.963 seconds
+Onset at   1.049 seconds, delay:   1ms.
+Onset at   1.143 seconds, delay: -13ms.
+Onset at   1.228 seconds
+Onset at   1.317 seconds, delay:   1ms.
+Onset at   1.403 seconds
+Onset at   1.498 seconds, delay:   1ms.
+Onset at   1.581 seconds, delay:   2ms.
+Onset at   1.667 seconds
+Onset at   1.762 seconds
+Onset at   1.851 seconds
+Onset at   1.942 seconds, delay:   1ms.
+Onset at   2.026 seconds, delay:   1ms.
+Onset at   2.123 seconds, delay:  -8ms.
+Onset at   2.212 seconds, delay:  -2ms.
+Onset at   2.299 seconds
+Onset at   2.389 seconds, delay:   1ms.
+Onset at   2.479 seconds, delay:  -2ms.
+Onset at   2.569 seconds
+Onset at   2.658 seconds, delay:  -4ms.
+Onset at   2.752 seconds, delay:  -1ms.
+Onset at   2.831 seconds
+Onset at   2.922 seconds
+Onset at   3.018 seconds, delay:   3ms.
+Onset at   3.099 seconds, delay:   1ms.
+Onset at   3.202 seconds, delay: -12ms.
+
+False negatives:
+  0.095
+
+False positives:
+  0.490
+  1.170
+  1.750
+  3.230
+  3.290
+  3.370
+  3.430
+
+Percussion/Marimba.rubber/Marimba.rubber.ff.A6.stereo.wav
+---------------------------------------------------------
+Onset at   0.011 seconds, delay:  12ms.
+
+False positives:
+  0.090
+  0.170
+  0.230
+  0.290
+
+Percussion/Marimba.rubber/Marimba.rubber.ff.Ab6.stereo.wav
+----------------------------------------------------------
+Onset at   0.012 seconds
+
+False positives:
+  0.110
+  0.170
+  0.230
+  0.290
+  0.330
+  0.410
+
+Percussion/Marimba.rubber/Marimba.rubber.ff.B6.stereo.wav
+---------------------------------------------------------
+Onset at   0.010 seconds, delay:  19ms.
+
+False positives:
+  0.090
+  0.150
+  0.210
+  0.290
+
+Percussion/Marimba.rubber/Marimba.rubber.ff.Bb6.stereo.wav
+----------------------------------------------------------
+Onset at   0.013 seconds, delay:   2ms.
+
+False positives:
+  0.110
+  0.170
+  0.210
+  0.290
+  0.350
+
+Percussion/Marimba.rubber/Marimba.rubber.ff.C6.stereo.wav
+---------------------------------------------------------
+Onset at   0.090 seconds
+
+False positives:
+  0.030
+  0.170
+  0.220
+  0.310
+  0.370
+
+Percussion/Marimba.rubber/Marimba.rubber.ff.D6.stereo.wav
+---------------------------------------------------------
+Onset at   0.014 seconds
+
+False positives:
+  0.090
+  0.170
+  0.220
+  0.290
+  0.350
+
+Percussion/Marimba.rubber/Marimba.rubber.ff.Db6.stereo.wav
+----------------------------------------------------------
+Onset at   0.014 seconds
+
+False positives:
+  0.090
+  0.150
+  0.230
+  0.290
+  0.350
+  0.410
+
+Percussion/Marimba.rubber/Marimba.rubber.ff.E6.stereo.wav
+---------------------------------------------------------
+Onset at   0.011 seconds, delay:   5ms.
+
+False positives:
+  0.090
+  0.150
+  0.230
+  0.270
+  0.350
+  0.410
+
+Percussion/Marimba.rubber/Marimba.rubber.ff.Eb6.stereo.wav
+----------------------------------------------------------
+Onset at   0.014 seconds, delay:  -1ms.
+
+False positives:
+  0.110
+  0.170
+  0.230
+  0.270
+  0.330
+  0.410
+
+Percussion/Marimba.rubber/Marimba.rubber.ff.F6.stereo.wav
+---------------------------------------------------------
+Onset at   0.014 seconds, delay:  -1ms.
+
+False positives:
+  0.090
+  0.170
+  0.222
+  0.270
+  0.330
+  0.390
+
+Percussion/Marimba.rubber/Marimba.rubber.ff.G6.stereo.wav
+---------------------------------------------------------
+Onset at   0.011 seconds, delay:  19ms.
+
+False positives:
+  0.110
+  0.170
+  0.230
+  0.270
+  0.330
+
+Percussion/Marimba.rubber/Marimba.rubber.ff.Gb6.stereo.wav
+----------------------------------------------------------
+Onset at   0.015 seconds
+
+False positives:
+  0.110
+  0.170
+  0.210
+  0.290
+  0.350
+
+Percussion/Marimba.yarn/Marimba.yarn.ff.A6.stereo.wav
+-----------------------------------------------------
+Onset at   0.106 seconds, delay:  -1ms.
+
+False positives:
+  0.190
+  0.250
+  0.290
+  0.350
+  0.430
+
+Percussion/Marimba.yarn/Marimba.yarn.ff.Ab6.stereo.wav
+------------------------------------------------------
+Onset at   0.083 seconds, delay: -12ms.
+
+False positives:
+  0.230
+  0.270
+  0.330
+  0.390
+
+Percussion/Marimba.yarn/Marimba.yarn.ff.B6.stereo.wav
+-----------------------------------------------------
+Onset at   0.072 seconds, delay:  -1ms.
+
+False positives:
+  0.170
+  0.230
+  0.270
+  0.350
+
+Percussion/Marimba.yarn/Marimba.yarn.ff.Bb6.stereo.wav
+------------------------------------------------------
+Onset at   0.053 seconds, delay:  -2ms.
+
+False positives:
+  0.150
+  0.210
+  0.270
+  0.310
+  0.390
+
+Percussion/Marimba.yarn/Marimba.yarn.ff.C6.stereo.wav
+-----------------------------------------------------
+Onset at   0.077 seconds, delay:  -6ms.
+
+False positives:
+  0.148
+  0.230
+  0.290
+  0.370
+  0.410
+
+Percussion/Marimba.yarn/Marimba.yarn.ff.D6.stereo.wav
+-----------------------------------------------------
+Onset at   0.083 seconds, delay: -12ms.
+
+False positives:
+  0.230
+  0.290
+  0.350
+  0.390
+  0.470
+
+Percussion/Marimba.yarn/Marimba.yarn.ff.Db6.stereo.wav
+------------------------------------------------------
+Onset at   0.071 seconds
+
+False positives:
+  0.170
+  0.210
+  0.290
+  0.350
+  0.390
+  0.470
+
+Percussion/Marimba.yarn/Marimba.yarn.ff.E6.stereo.wav
+-----------------------------------------------------
+Onset at   0.069 seconds
+
+False positives:
+  0.150
+  0.210
+  0.270
+  0.330
+  0.390
+
+Percussion/Marimba.yarn/Marimba.yarn.ff.Eb6.stereo.wav
+------------------------------------------------------
+Onset at   0.089 seconds, delay: -16ms.
+
+False positives:
+  0.190
+  0.250
+  0.310
+  0.350
+  0.410
+
+Percussion/Marimba.yarn/Marimba.yarn.ff.F6.stereo.wav
+-----------------------------------------------------
+Onset at   0.065 seconds, delay:  -1ms.
+
+False positives:
+  0.150
+  0.210
+  0.250
+  0.330
+  0.390
+  0.430
+
+Percussion/Marimba.yarn/Marimba.yarn.ff.G6.stereo.wav
+-----------------------------------------------------
+Onset at   0.066 seconds, delay:  -1ms.
+
+False positives:
+  0.190
+  0.250
+  0.330
+  0.390
+
+Percussion/Marimba.yarn/Marimba.yarn.ff.Gb6.stereo.wav
+------------------------------------------------------
+Onset at   0.063 seconds, delay:  -4ms.
+
+False positives:
+  0.150
+  0.210
+  0.250
+  0.310
+  0.390
+
+Percussion/Vibraphone.bow/Vibraphone.bow.C6.stereo.wav
+------------------------------------------------------
+
+False negatives:
+  0.122
+
+False positives:
+  0.071
+  0.936
+  1.590
+  1.650
+  1.690
+  1.820
+  2.326
+  2.550
+  2.610
+  2.690
+  2.730
+  2.801
+  3.050
+  3.079
+  3.270
+  3.310
+  3.390
+  3.461
+  3.610
+  3.670
+  3.730
+  3.790
+  3.850
+  3.930
+  3.990
+  4.050
+  4.090
+  4.150
+  4.210
+  4.270
+  4.350
+  4.390
+  4.450
+  4.530
+  4.590
+  4.650
+  4.710
+  4.750
+  4.810
+  4.870
+  4.930
+  4.990
+  5.050
+  5.110
+  5.170
+  5.230
+  5.290
+  5.350
+  5.410
+  5.470
+  5.550
+  5.590
+  5.670
+  5.730
+  5.790
+  5.850
+  5.910
+  5.997
+  6.510
+  6.570
+  6.650
+  6.710
+  6.750
+  6.810
+  6.890
+  6.930
+  6.990
+  7.050
+  7.130
+  7.190
+  7.230
+  7.290
+  7.350
+  7.430
+  7.470
+  7.530
+  7.610
+  7.670
+  7.710
+  7.790
+  7.830
+  7.910
+  7.970
+  8.010
+  8.070
+  8.150
+  8.210
+  8.250
+  8.330
+  8.390
+  8.430
+  8.510
+  8.550
+  8.610
+  8.670
+  8.750
+  8.810
+  8.850
+  8.910
+  8.990
+  9.050
+  9.110
+  9.150
+  9.210
+  9.270
+  9.350
+  9.410
+  9.450
+  9.530
+  9.590
+  9.650
+  9.710
+  9.802
+ 10.410
+ 10.510
+ 10.570
+ 10.630
+ 10.690
+ 10.750
+ 10.810
+ 10.890
+ 10.950
+ 10.990
+ 11.070
+ 11.130
+ 11.170
+ 11.230
+ 11.310
+ 11.370
+ 11.410
+ 11.490
+ 11.530
+
+Percussion/Vibraphone.bow/Vibraphone.bow.D6.stereo.wav
+------------------------------------------------------
+Onset at   0.181 seconds, delay:  18ms.
+
+False positives:
+  1.593
+  1.868
+  1.950
+  2.010
+  2.037
+  2.930
+  2.970
+  3.030
+  3.090
+  3.150
+  3.210
+  3.290
+  3.330
+  3.390
+  3.450
+  3.530
+  3.590
+  3.650
+  3.710
+  3.770
+  3.830
+  3.890
+  3.950
+  4.010
+  4.050
+  4.110
+  4.170
+  4.230
+  4.290
+  4.350
+  4.410
+  4.490
+  4.550
+  4.610
+  4.650
+  4.730
+  4.770
+  4.830
+  4.890
+  4.950
+  5.030
+  5.070
+  5.150
+  5.210
+  5.270
+  5.330
+  5.390
+  5.450
+  5.510
+  5.550
+  5.630
+  5.670
+  5.730
+  5.790
+  5.870
+  5.910
+  5.990
+  6.050
+  6.090
+  6.170
+  6.210
+  6.290
+  6.330
+  6.410
+  6.470
+  6.530
+  6.570
+  6.650
+  6.690
+  6.770
+  6.810
+  6.870
+  6.950
+  7.010
+  7.070
+  7.130
+  7.170
+  7.230
+  7.290
+  7.350
+  7.410
+  7.490
+  7.530
+  7.610
+  7.650
+  7.710
+  7.770
+  7.830
+  7.890
+  7.970
+  8.030
+  8.070
+  8.130
+  8.210
+  8.250
+  8.310
+  8.370
+  8.430
+  8.490
+  8.570
+  8.610
+  8.670
+  8.750
+  8.790
+  8.850
+  8.930
+  8.970
+  9.050
+  9.090
+  9.170
+  9.210
+  9.290
+  9.350
+  9.390
+  9.450
+  9.510
+  9.570
+  9.630
+  9.710
+  9.770
+  9.830
+  9.870
+  9.950
+ 10.010
+ 10.070
+ 10.110
+ 10.190
+ 10.250
+ 10.310
+ 10.370
+ 10.430
+ 10.470
+ 10.530
+ 10.590
+ 10.670
+ 10.710
+ 10.770
+ 10.850
+ 10.910
+ 10.950
+ 11.030
+ 11.070
+ 11.130
+ 11.190
+
+Percussion/Vibraphone.bow/Vibraphone.bow.Db6.stereo.wav
+-------------------------------------------------------
+
+False negatives:
+  0.280
+
+False positives:
+  0.206
+  2.510
+  2.550
+  2.610
+  2.670
+  2.730
+  2.790
+  2.870
+  2.930
+  3.075
+  3.250
+  3.310
+  3.390
+  3.450
+  3.510
+  3.550
+  3.610
+  3.670
+  3.730
+  3.810
+  3.870
+  3.910
+  3.970
+  4.030
+  4.090
+  4.150
+  4.210
+  4.290
+  4.350
+  4.410
+  4.470
+  4.530
+  4.572
+  4.850
+  4.950
+  5.010
+  5.070
+  5.130
+  5.210
+  5.250
+  5.310
+  5.370
+  5.430
+  5.490
+  5.570
+  5.610
+  5.690
+  5.730
+  5.810
+  5.850
+  5.910
+  5.990
+  6.050
+  6.090
+  6.170
+  6.230
+  6.270
+  6.350
+
+Percussion/Vibraphone.bow/Vibraphone.bow.E6.stereo.wav
+------------------------------------------------------
+
+False negatives:
+  0.188
+
+False positives:
+  0.071
+  1.893
+  2.006
+  2.315
+  2.930
+  2.990
+  3.050
+  3.130
+  3.190
+  3.250
+  3.290
+  3.350
+  3.430
+  3.473
+  3.710
+  3.790
+  3.830
+  3.910
+  3.950
+  4.030
+  4.090
+  4.149
+  4.250
+  4.310
+  4.370
+  4.430
+  4.510
+  4.570
+  4.610
+  4.670
+  4.750
+  4.810
+  4.870
+  4.910
+  4.970
+  5.030
+  5.090
+  5.150
+  5.230
+  5.290
+  5.330
+  5.410
+  5.450
+  5.530
+  5.570
+  5.650
+  5.690
+  5.770
+  5.830
+  5.870
+  5.930
+  5.990
+  6.050
+  6.110
+  6.170
+  6.250
+  6.290
+  6.370
+  6.430
+  6.490
+  6.550
+  6.610
+  6.670
+  6.730
+  6.790
+  6.850
+  6.890
+  6.970
+  7.030
+  7.090
+  7.150
+  7.190
+  7.250
+  7.310
+  7.370
+  7.450
+  7.510
+  7.570
+  7.630
+  7.670
+  7.750
+  7.810
+  7.870
+  7.930
+  7.970
+  8.030
+  8.110
+  8.150
+  8.230
+  8.270
+  8.330
+  8.410
+  8.450
+  8.530
+  8.590
+  8.650
+  8.690
+  8.750
+  8.810
+  8.890
+  8.950
+  9.010
+  9.050
+  9.130
+  9.190
+  9.230
+  9.310
+  9.370
+  9.430
+  9.490
+  9.530
+  9.590
+  9.670
+  9.730
+  9.770
+  9.850
+  9.910
+  9.970
+ 10.030
+ 10.070
+ 10.130
+
+Percussion/Vibraphone.bow/Vibraphone.bow.Eb6.stereo.wav
+-------------------------------------------------------
+Onset at   0.111 seconds, delay: -40ms.
+
+False positives:
+  2.770
+  2.830
+  2.910
+  2.970
+  3.030
+  3.090
+  3.150
+  3.230
+  3.282
+  3.390
+  3.470
+  3.552
+  3.710
+  3.770
+  3.850
+  3.910
+  3.970
+  4.010
+  4.070
+  4.150
+  4.210
+  4.270
+  4.330
+  4.390
+  4.430
+  4.510
+  4.570
+  4.610
+  4.670
+  4.730
+  4.810
+  4.850
+  4.910
+  4.970
+  5.030
+  5.110
+  5.170
+  5.230
+  5.290
+  5.350
+  5.390
+  5.450
+  5.510
+  5.570
+  5.650
+  5.690
+  5.770
+  5.810
+  5.890
+  5.950
+  6.010
+  6.070
+  6.110
+  6.190
+  6.250
+  6.290
+  6.350
+  6.410
+  6.470
+  6.530
+  6.590
+  6.650
+  6.730
+  6.770
+  6.850
+  6.890
+  6.950
+  7.010
+  7.070
+  7.150
+  7.190
+  7.250
+  7.310
+  7.370
+
+Percussion/Vibraphone.bow/Vibraphone.bow.F6.stereo.wav
+------------------------------------------------------
+
+False negatives:
+  0.008
+
+False positives:
+  0.097
+  2.030
+  2.070
+  2.130
+  2.192
+  2.615
+  2.870
+  2.930
+  2.995
+  3.130
+  3.190
+  3.250
+  3.330
+  3.390
+  3.470
+  3.530
+  3.610
+  3.670
+  3.710
+  3.770
+  3.830
+  3.910
+  3.970
+  4.010
+  4.090
+  4.150
+  4.210
+  4.250
+  4.310
+  4.390
+  4.450
+  4.510
+  4.550
+  4.610
+  4.670
+  4.730
+  4.790
+  4.850
+  4.910
+  4.970
+  5.030
+  5.110
+  5.170
+  5.230
+  5.290
+  5.350
+  5.390
+  5.470
+  5.510
+  5.570
+  5.650
+  5.710
+  5.770
+  5.830
+  5.870
+  5.930
+  6.010
+  6.050
+  6.110
+  6.170
+  6.250
+  6.290
+  6.370
+  6.410
+  6.470
+  6.550
+  6.610
+  6.670
+  6.710
+  6.770
+  6.850
+  6.890
+  6.970
+  7.010
+  7.070
+  7.150
+  7.190
+  7.250
+  7.330
+  7.370
+  7.450
+  7.510
+  7.550
+  7.610
+  7.690
+  7.750
+  7.810
+  7.850
+  7.910
+  7.970
+  8.050
+  8.090
+  8.150
+  8.210
+  8.270
+  8.330
+  8.390
+  8.450
+  8.530
+  8.570
+  8.630
+  8.710
+  8.770
+  8.830
+  8.870
+  8.930
+  8.990
+  9.050
+  9.130
+  9.190
+  9.230
+  9.290
+  9.370
+  9.410
+  9.490
+  9.530
+  9.610
+
+Percussion/Vibraphone.dampen/Vibraphone.dampen.ff.C6.stereo.wav
+---------------------------------------------------------------
+Onset at   0.033 seconds, delay: -13ms.
+
+False positives:
+  0.110
+  0.170
+  0.230
+  0.310
+  0.370
+  0.430
+  0.490
+  0.550
+
+Percussion/Vibraphone.dampen/Vibraphone.dampen.ff.D6.stereo.wav
+---------------------------------------------------------------
+Onset at   0.020 seconds, delay:  -5ms.
+
+False positives:
+  0.110
+  0.162
+  0.210
+  0.290
+  0.350
+  0.410
+  0.470
+  0.510
+
+Percussion/Vibraphone.dampen/Vibraphone.dampen.ff.Db6.stereo.wav
+----------------------------------------------------------------
+Onset at   0.014 seconds
+
+False positives:
+  0.110
+  0.170
+  0.210
+  0.270
+  0.330
+  0.410
+  0.470
+  0.510
+
+Percussion/Vibraphone.dampen/Vibraphone.dampen.ff.E6.stereo.wav
+---------------------------------------------------------------
+Onset at   0.260 seconds, delay:  29ms.
+
+False positives:
+  0.025
+  0.130
+  0.190
+  0.225
+  0.343
+  0.410
+  0.490
+
+Percussion/Vibraphone.dampen/Vibraphone.dampen.ff.Eb6.stereo.wav
+----------------------------------------------------------------
+Onset at   0.026 seconds, delay:  -6ms.
+
+False positives:
+  0.130
+  0.190
+  0.221
+  0.290
+  0.370
+  0.410
+
+Percussion/Vibraphone.dampen/Vibraphone.dampen.ff.F6.stereo.wav
+---------------------------------------------------------------
+Onset at   0.020 seconds, delay:  -6ms.
+
+False positives:
+  0.110
+  0.150
+  0.230
+  0.264
+  0.350
+  0.410
+  0.450
+
+Percussion/Vibraphone.shortsustain/Vibraphone.shortsustain.ff.C6.stereo.wav
+---------------------------------------------------------------------------
+Onset at   0.012 seconds
+
+False positives:
+  0.108
+  0.158
+  0.230
+  0.270
+  0.330
+  0.410
+  0.450
+  0.530
+  0.590
+  0.630
+  0.710
+  0.750
+  0.830
+  0.890
+  0.950
+  1.010
+  1.070
+  1.130
+  1.430
+  1.470
+  1.530
+  1.590
+  1.670
+  1.710
+  1.770
+  1.850
+  1.890
+  1.950
+  2.010
+  2.090
+  2.150
+  2.190
+  2.270
+  2.310
+  2.390
+  2.430
+  2.510
+  2.550
+  2.610
+  2.670
+  2.730
+  2.790
+  2.850
+  2.910
+
+Percussion/Vibraphone.shortsustain/Vibraphone.shortsustain.ff.D6.stereo.wav
+---------------------------------------------------------------------------
+Onset at   0.018 seconds, delay:  -4ms.
+
+False positives:
+  0.110
+  0.170
+  0.250
+  0.290
+  0.350
+  0.410
+  0.490
+  0.530
+  0.590
+  0.670
+  0.710
+  0.770
+  0.850
+  0.890
+  0.950
+  1.030
+  1.090
+  1.150
+  1.210
+  1.270
+  1.330
+  1.610
+  1.670
+  1.730
+  1.810
+  1.850
+  1.910
+  1.990
+  2.030
+  2.090
+  2.150
+  2.230
+  2.290
+  2.350
+  2.390
+  2.450
+  2.510
+  2.590
+  2.630
+  2.710
+  2.750
+  2.810
+  2.890
+  2.950
+  2.990
+  3.050
+  3.110
+  3.190
+
+Percussion/Vibraphone.shortsustain/Vibraphone.shortsustain.ff.Db6.stereo.wav
+----------------------------------------------------------------------------
+Onset at   0.015 seconds
+
+False positives:
+  0.114
+  0.210
+  0.270
+  0.330
+  0.390
+  0.450
+  0.530
+  0.590
+  0.650
+  0.690
+  0.770
+  0.830
+  0.890
+  0.930
+  0.990
+  1.050
+  1.110
+  1.190
+  1.230
+  1.290
+  1.350
+  1.410
+  1.470
+  1.550
+  1.610
+  1.670
+  1.730
+  1.790
+  1.850
+  1.910
+  1.970
+  2.010
+  2.090
+  2.130
+  2.190
+  2.270
+  2.330
+  2.390
+  2.450
+  2.510
+  2.570
+  2.610
+  2.670
+  2.750
+  2.790
+  2.850
+  2.910
+  2.970
+
+Percussion/Vibraphone.shortsustain/Vibraphone.shortsustain.ff.E6.stereo.wav
+---------------------------------------------------------------------------
+Onset at   0.014 seconds
+
+False positives:
+  0.110
+  0.130
+  0.210
+  0.270
+  0.330
+  0.390
+  0.470
+  0.530
+  0.590
+  0.650
+  0.710
+  0.791
+  1.050
+  1.110
+  1.170
+  1.250
+  1.310
+  1.370
+  1.410
+  1.490
+  1.530
+  1.590
+  1.650
+  1.710
+  1.770
+  1.850
+  1.890
+  1.970
+  2.030
+  2.070
+  2.150
+  2.210
+  2.250
+  2.310
+  2.390
+  2.430
+  2.510
+  2.570
+  2.630
+  2.670
+  2.730
+  2.790
+  2.850
+  2.910
+
+Percussion/Vibraphone.shortsustain/Vibraphone.shortsustain.ff.Eb6.stereo.wav
+----------------------------------------------------------------------------
+Onset at   0.016 seconds, delay:  -2ms.
+
+False positives:
+  0.110
+  0.190
+  0.250
+  0.290
+  0.350
+  0.430
+  0.470
+  0.530
+  0.610
+  0.670
+  0.710
+  0.790
+  0.850
+  0.910
+  0.970
+  1.010
+  1.070
+  1.130
+  1.190
+  1.270
+  1.330
+  1.390
+  1.450
+  1.490
+  1.550
+  1.610
+  1.670
+  1.730
+  1.790
+  1.850
+  1.930
+  1.970
+  2.030
+  2.110
+  2.170
+  2.230
+  2.270
+  2.330
+  2.390
+  2.470
+  2.510
+  2.590
+  2.630
+  2.710
+  2.750
+  2.810
+
+Percussion/Vibraphone.shortsustain/Vibraphone.shortsustain.ff.F6.stereo.wav
+---------------------------------------------------------------------------
+Onset at   0.013 seconds, delay:  -2ms.
+
+False positives:
+  0.130
+  0.230
+  0.290
+  0.350
+  0.410
+  0.470
+  0.530
+  0.590
+  0.650
+  0.710
+  0.750
+  0.810
+  0.870
+  0.930
+  1.010
+  1.070
+  1.130
+  1.170
+  1.230
+  1.310
+  1.350
+  1.410
+  1.470
+  1.530
+  1.590
+  1.650
+  1.710
+  1.790
+  1.830
+  1.910
+  1.970
+  2.050
+  2.130
+  2.190
+  2.270
+  2.310
+  2.390
+  2.430
+  2.510
+  2.550
+  2.610
+  2.690
+  2.730
+  2.790
+  2.850
+  2.910
+  2.970
+  3.030
+  3.110
+
+Percussion/Vibraphone.sustain/Vibraphone.sustain.ff.C6.stereo.wav
+-----------------------------------------------------------------
+Onset at   0.010 seconds, delay:   9ms.
+
+False positives:
+  0.125
+  0.190
+  0.270
+  0.310
+  0.370
+  0.450
+  0.490
+  0.550
+  0.610
+  0.670
+  0.750
+  0.810
+  0.870
+  0.910
+  0.990
+  1.030
+  1.090
+  1.150
+  1.230
+  1.270
+  1.350
+  1.390
+  1.470
+  1.510
+  1.590
+  1.630
+  1.710
+  1.750
+  1.830
+  1.890
+  1.930
+  1.990
+  2.050
+  2.130
+  2.190
+  2.250
+  2.310
+  2.370
+  2.430
+  2.470
+  2.550
+  2.590
+  2.670
+  2.710
+  2.790
+  2.850
+  2.890
+  2.950
+  3.010
+  3.090
+  3.130
+  3.210
+  3.250
+  3.310
+  3.370
+  3.430
+  3.510
+  3.570
+  3.630
+  3.670
+  3.730
+  3.790
+  3.850
+  3.910
+  3.990
+  4.050
+  4.090
+  4.170
+  4.210
+  4.270
+  4.350
+  4.390
+  4.450
+  4.530
+  4.590
+  4.650
+  4.690
+  4.750
+  4.810
+  4.890
+  4.930
+  5.010
+  5.070
+  5.110
+  5.190
+  5.250
+  5.310
+  5.350
+  5.410
+  5.490
+  5.550
+  5.590
+  5.650
+  5.710
+  5.770
+  5.850
+  5.890
+  5.950
+  6.030
+  6.090
+  6.150
+  6.210
+  6.270
+  6.310
+  6.390
+  6.430
+  6.510
+  6.550
+  6.610
+  6.670
+  6.730
+  6.810
+  6.870
+  6.910
+  6.970
+  7.050
+  7.110
+  7.170
+  7.230
+  7.290
+  7.350
+  7.410
+  7.450
+  7.510
+  7.570
+  7.630
+  7.690
+  7.770
+  7.810
+  7.870
+  7.930
+  7.990
+  8.070
+  8.130
+  8.190
+  8.250
+  8.310
+  8.370
+  8.410
+  8.470
+  8.550
+  8.590
+  8.670
+  8.710
+  8.770
+  8.830
+  8.910
+  8.950
+  9.030
+  9.090
+  9.130
+  9.210
+  9.270
+  9.330
+  9.390
+  9.450
+  9.490
+  9.550
+  9.610
+  9.670
+  9.730
+  9.810
+  9.870
+  9.930
+  9.990
+ 10.030
+ 10.090
+ 10.170
+ 10.210
+ 10.270
+ 10.350
+ 10.410
+ 10.450
+ 10.530
+ 10.570
+ 10.650
+ 10.710
+ 10.750
+ 10.830
+ 10.870
+ 10.950
+ 11.010
+ 11.050
+ 11.110
+ 11.170
+ 11.250
+ 11.310
+ 11.350
+ 11.430
+ 11.470
+ 11.550
+ 11.590
+ 11.650
+ 11.730
+ 11.790
+ 11.850
+ 11.910
+ 11.970
+
+Percussion/Vibraphone.sustain/Vibraphone.sustain.ff.D6.stereo.wav
+-----------------------------------------------------------------
+Onset at   0.060 seconds, delay:  -9ms.
+
+False positives:
+  0.149
+  0.210
+  0.290
+  0.330
+  0.410
+  0.470
+  0.530
+  0.590
+  0.630
+  0.690
+  0.750
+  0.830
+  0.890
+  0.950
+  0.990
+  1.050
+  1.110
+  1.170
+  1.250
+  1.310
+  1.370
+  1.410
+  1.490
+  1.550
+  1.610
+  1.650
+  1.730
+  1.770
+  1.830
+  1.890
+  1.970
+  2.030
+  2.070
+  2.130
+  2.190
+  2.250
+  2.310
+  2.390
+  2.450
+  2.490
+  2.550
+  2.630
+  2.690
+  2.750
+  2.790
+  2.850
+  2.930
+  2.970
+  3.050
+  3.090
+  3.150
+  3.230
+  3.290
+  3.350
+  3.390
+  3.470
+  3.530
+  3.590
+  3.630
+  3.710
+  3.770
+  3.830
+  3.870
+  3.930
+  3.990
+  4.070
+  4.130
+  4.170
+  4.230
+  4.310
+  4.350
+  4.410
+  4.470
+  4.530
+  4.610
+  4.670
+  4.710
+  4.770
+  4.830
+  4.890
+  4.950
+  5.030
+  5.070
+  5.150
+  5.210
+  5.250
+  5.310
+  5.390
+  5.450
+  5.490
+  5.550
+  5.630
+  5.690
+  5.730
+  5.790
+  5.870
+  5.910
+  5.990
+  6.030
+  6.110
+  6.150
+  6.210
+  6.290
+  6.330
+  6.390
+  6.470
+  6.530
+  6.570
+  6.630
+  6.710
+  6.770
+  6.810
+  6.870
+  6.950
+  7.010
+  7.050
+  7.130
+  7.190
+  7.230
+  7.310
+  7.350
+  7.410
+  7.470
+  7.530
+  7.590
+  7.650
+  7.710
+  7.790
+  7.850
+  7.910
+  7.970
+  8.010
+  8.070
+  8.150
+  8.210
+  8.250
+  8.330
+  8.370
+  8.450
+  8.510
+  8.570
+  8.610
+  8.690
+  8.750
+  8.810
+  8.870
+  8.910
+  8.990
+  9.030
+  9.110
+  9.170
+  9.230
+  9.270
+  9.330
+  9.390
+  9.470
+  9.510
+  9.570
+  9.630
+  9.710
+  9.770
+  9.830
+  9.890
+  9.930
+ 10.010
+ 10.070
+ 10.110
+ 10.170
+ 10.230
+ 10.310
+ 10.370
+ 10.410
+ 10.490
+ 10.550
+ 10.610
+ 10.670
+ 10.730
+ 10.790
+ 10.830
+ 10.910
+ 10.970
+ 11.010
+ 11.070
+
+Percussion/Vibraphone.sustain/Vibraphone.sustain.ff.Db6.stereo.wav
+------------------------------------------------------------------
+Onset at   0.046 seconds, delay:  -4ms.
+
+False positives:
+  0.150
+  0.230
+  0.290
+  0.350
+  0.410
+  0.450
+  0.539
+  0.650
+  0.710
+  0.770
+  0.850
+  0.910
+  0.950
+  1.010
+  1.070
+  1.130
+  1.190
+  1.270
+  1.330
+  1.390
+  1.450
+  1.510
+  1.570
+  1.630
+  1.670
+  1.730
+  1.810
+  1.850
+  1.930
+  1.990
+  2.030
+  2.090
+  2.150
+  2.230
+  2.290
+  2.350
+  2.410
+  2.470
+  2.510
+  2.570
+  2.630
+  2.710
+  2.770
+  2.830
+  2.870
+  2.950
+  3.010
+  3.070
+  3.130
+  3.190
+  3.250
+  3.290
+  3.350
+  3.410
+  3.490
+  3.550
+  3.590
+  3.650
+  3.730
+  3.790
+  3.830
+  3.910
+  3.950
+  4.010
+  4.070
+  4.150
+
+Percussion/Vibraphone.sustain/Vibraphone.sustain.ff.E6.stereo.wav
+-----------------------------------------------------------------
+Onset at   0.031 seconds, delay:  -9ms.
+
+False positives:
+  0.170
+  0.230
+  0.290
+  0.350
+  0.410
+  0.490
+  0.550
+  0.590
+  0.650
+  0.730
+  0.790
+  0.830
+  0.890
+  0.950
+  1.030
+  1.090
+  1.150
+  1.210
+  1.270
+  1.330
+  1.370
+  1.430
+  1.490
+  1.550
+  1.610
+  1.670
+  1.750
+  1.810
+  1.870
+  1.910
+  1.990
+  2.050
+  2.090
+  2.150
+  2.230
+  2.290
+  2.330
+  2.390
+  2.450
+  2.530
+  2.590
+  2.630
+  2.710
+  2.770
+  2.830
+  2.870
+  2.930
+  3.010
+  3.070
+  3.110
+  3.170
+  3.250
+  3.310
+  3.350
+  3.410
+  3.490
+  3.550
+  3.590
+  3.650
+  3.730
+  3.790
+  3.830
+  3.890
+  3.950
+  4.030
+  4.070
+  4.130
+  4.210
+  4.270
+  4.330
+  4.370
+  4.430
+  4.510
+  4.570
+  4.610
+  4.670
+  4.750
+  4.790
+  4.850
+  4.910
+  4.970
+  5.030
+  5.090
+  5.150
+  5.230
+  5.290
+  5.330
+  5.410
+  5.470
+  5.530
+  5.590
+  5.630
+  5.690
+  5.770
+  5.810
+  5.870
+  5.950
+  6.010
+  6.070
+  6.110
+  6.190
+  6.230
+  6.310
+  6.370
+  6.410
+  6.490
+  6.550
+  6.610
+  6.670
+  6.730
+  6.790
+  6.830
+  6.890
+  6.970
+  7.010
+  7.090
+  7.150
+  7.190
+  7.270
+  7.330
+  7.390
+  7.450
+  7.510
+  7.550
+  7.610
+  7.690
+  7.750
+  7.810
+  7.850
+  7.930
+
+Percussion/Vibraphone.sustain/Vibraphone.sustain.ff.Eb6.stereo.wav
+------------------------------------------------------------------
+Onset at   0.015 seconds, delay:  -2ms.
+
+False positives:
+  0.110
+  0.150
+  0.210
+  0.290
+  0.350
+  0.390
+  0.450
+  0.530
+  0.570
+  0.630
+  0.690
+  0.750
+  0.810
+  0.890
+  0.950
+  0.990
+  1.050
+  1.110
+  1.170
+  1.250
+  1.310
+  1.370
+  1.410
+  1.490
+  1.550
+  1.610
+  1.670
+  1.730
+  1.790
+  1.850
+  1.910
+  1.970
+  2.030
+  2.070
+  2.130
+  2.190
+  2.250
+  2.310
+  2.370
+  2.430
+  2.490
+  2.570
+  2.610
+  2.670
+  2.730
+  2.810
+  2.870
+  2.930
+  2.990
+  3.030
+  3.110
+  3.150
+  3.230
+  3.270
+  3.330
+  3.410
+  3.450
+  3.530
+  3.590
+  3.630
+  3.710
+  3.770
+  3.830
+  3.890
+  3.950
+  4.010
+  4.070
+  4.130
+  4.190
+  4.250
+  4.310
+  4.370
+  4.430
+  4.470
+  4.530
+  4.590
+  4.650
+  4.730
+  4.790
+  4.850
+  4.910
+  4.950
+  5.010
+  5.070
+  5.130
+  5.190
+  5.270
+  5.310
+  5.390
+  5.430
+
+Percussion/Vibraphone.sustain/Vibraphone.sustain.ff.F6.stereo.wav
+-----------------------------------------------------------------
+Onset at   0.018 seconds
+
+False positives:
+  0.110
+  0.170
+  0.230
+  0.290
+  0.350
+  0.430
+  0.490
+  0.530
+  0.590
+  0.670
+  0.730
+  0.765
+  0.870
+  0.950
+  1.010
+  1.070
+  1.110
+  1.170
+  1.230
+  1.290
+  1.350
+  1.430
+  1.490
+  1.530
+  1.590
+  1.670
+  1.730
+  1.790
+  1.850
+  1.890
+  1.970
+  2.010
+  2.090
+  2.150
+  2.210
+  2.250
+  2.310
+  2.390
+  2.430
+  2.490
+  2.570
+  2.630
+  2.690
+  2.750
+  2.810
+  2.870
+  2.930
+  2.990
+  3.030
+  3.110
+  3.170
+  3.230
+  3.290
+  3.350
+  3.410
+  3.470
+  3.530
+  3.570
+  3.630
+  3.710
+  3.770
+  3.830
+  3.870
+  3.930
+  4.010
+  4.070
+  4.110
+  4.170
+  4.230
+  4.310
+  4.350
+  4.410
+  4.490
+  4.550
+  4.590
+  4.650
+  4.730
+  4.790
+  4.830
+  4.910
+  4.950
+  5.030
+  5.070
+  5.130
+  5.210
+  5.250
+  5.330
+  5.370
+  5.450
+  5.510
+  5.550
+  5.630
+  5.690
+  5.750
+  5.810
+  5.850
+  5.910
+  5.990
+  6.050
+  6.090
+  6.150
+  6.210
+  6.290
+  6.350
+  6.390
+  6.470
+  6.530
+  6.590
+  6.650
+  6.690
+  6.750
+  6.810
+  6.890
+  6.950
+  6.990
+  7.070
+  7.130
+  7.170
+  7.250
+  7.310
+  7.370
+  7.410
+  7.490
+  7.530
+
+Percussion/Xylophone.hardrubber/Xylophone.hardrubber.ff.A6.stereo.wav
+---------------------------------------------------------------------
+Onset at   0.001 seconds, delay:  49ms.
+
+False positives:
+  0.110
+  0.150
+
+Percussion/Xylophone.hardrubber/Xylophone.hardrubber.ff.Ab6.stereo.wav
+----------------------------------------------------------------------
+Onset at   0.001 seconds, delay:  49ms.
+
+False positives:
+  0.110
+  0.170
+
+Percussion/Xylophone.hardrubber/Xylophone.hardrubber.ff.B6.stereo.wav
+---------------------------------------------------------------------
+Onset at   0.002 seconds, delay:  48ms.
+
+False positives:
+  0.110
+  0.150
+
+Percussion/Xylophone.hardrubber/Xylophone.hardrubber.ff.Bb6.stereo.wav
+----------------------------------------------------------------------
+Onset at   0.001 seconds, delay:  49ms.
+
+False positives:
+  0.090
+  0.150
+  0.210
+
+Percussion/Xylophone.hardrubber/Xylophone.hardrubber.ff.C6.stereo.wav
+---------------------------------------------------------------------
+Onset at   0.017 seconds
+
+False positives:
+  0.110
+  0.170
+  0.210
+  0.270
+  0.330
+  0.390
+
+Percussion/Xylophone.hardrubber/Xylophone.hardrubber.ff.D6.stereo.wav
+---------------------------------------------------------------------
+Onset at   0.013 seconds, delay:   2ms.
+
+False positives:
+  0.090
+  0.170
+  0.210
+  0.290
+  0.350
+
+Percussion/Xylophone.hardrubber/Xylophone.hardrubber.ff.Db6.stereo.wav
+----------------------------------------------------------------------
+Onset at   0.013 seconds, delay:   3ms.
+
+False positives:
+  0.110
+  0.170
+  0.210
+  0.290
+  0.330
+
+Percussion/Xylophone.hardrubber/Xylophone.hardrubber.ff.E6.stereo.wav
+---------------------------------------------------------------------
+Onset at   0.013 seconds
+
+False positives:
+  0.110
+  0.170
+  0.210
+  0.270
+  0.330
+
+Percussion/Xylophone.hardrubber/Xylophone.hardrubber.ff.Eb6.stereo.wav
+----------------------------------------------------------------------
+Onset at   0.011 seconds, delay:   4ms.
+
+False positives:
+  0.090
+  0.150
+  0.210
+  0.270
+  0.330
+
+Percussion/Xylophone.hardrubber/Xylophone.hardrubber.ff.F6.stereo.wav
+---------------------------------------------------------------------
+Onset at   0.011 seconds, delay:   4ms.
+
+False positives:
+  0.110
+  0.170
+  0.210
+  0.270
+
+Percussion/Xylophone.hardrubber/Xylophone.hardrubber.ff.G6.stereo.wav
+---------------------------------------------------------------------
+Onset at   0.010 seconds, delay:  10ms.
+
+False positives:
+  0.110
+  0.150
+  0.210
+
+Percussion/Xylophone.hardrubber/Xylophone.hardrubber.ff.Gb6.stereo.wav
+----------------------------------------------------------------------
+Onset at   0.011 seconds, delay:   1ms.
+
+False positives:
+  0.110
+  0.150
+  0.210
+  0.270
+
+Percussion/Xylophone.hardrubber.roll/Xylophone.hardrubber.roll.ff.A6.stereo.wav
+-------------------------------------------------------------------------------
+Onset at   0.001 seconds, delay:  49ms.
+Onset at   0.070 seconds, delay:   2ms.
+Onset at   0.159 seconds, delay:   3ms.
+Onset at   0.237 seconds, delay:   1ms.
+Onset at   0.333 seconds, delay:  -3ms.
+Onset at   0.419 seconds, delay:   1ms.
+Onset at   0.510 seconds
+Onset at   0.606 seconds
+Onset at   0.687 seconds, delay:   2ms.
+Onset at   0.780 seconds
+Onset at   0.869 seconds, delay:   1ms.
+Onset at   0.961 seconds, delay:  -4ms.
+Onset at   1.052 seconds, delay:  -2ms.
+Onset at   1.140 seconds
+Onset at   1.223 seconds, delay:   6ms.
+Onset at   1.320 seconds, delay:  -2ms.
+Onset at   1.408 seconds, delay:   2ms.
+Onset at   1.498 seconds
+Onset at   1.589 seconds, delay:   1ms.
+
+False positives:
+  0.390
+  0.570
+  1.650
+  1.710
+  1.770
+  1.850
+
+Percussion/Xylophone.hardrubber.roll/Xylophone.hardrubber.roll.ff.Ab6.stereo.wav
+--------------------------------------------------------------------------------
+Onset at   0.001 seconds, delay:  28ms.
+Onset at   0.071 seconds
+Onset at   0.157 seconds, delay:  -7ms.
+Onset at   0.232 seconds, delay:  -2ms.
+Onset at   0.324 seconds
+Onset at   0.413 seconds, delay:  -3ms.
+Onset at   0.506 seconds, delay: -16ms.
+Onset at   0.594 seconds, delay:  -4ms.
+Onset at   0.682 seconds
+Onset at   0.769 seconds
+Onset at   0.852 seconds, delay:  -2ms.
+Onset at   0.938 seconds, delay:  -7ms.
+Onset at   1.024 seconds
+Onset at   1.108 seconds
+Onset at   1.194 seconds, delay:  -4ms.
+Onset at   1.281 seconds
+Onset at   1.378 seconds, delay:  -7ms.
+Onset at   1.461 seconds, delay: -11ms.
+Onset at   1.555 seconds, delay:   1ms.
+
+False positives:
+  0.550
+  1.530
+
+Percussion/Xylophone.hardrubber.roll/Xylophone.hardrubber.roll.ff.B6.stereo.wav
+-------------------------------------------------------------------------------
+Onset at   0.001 seconds, delay:  49ms.
+Onset at   0.074 seconds, delay:  16ms.
+Onset at   0.166 seconds
+Onset at   0.240 seconds, delay:   1ms.
+Onset at   0.337 seconds, delay:   2ms.
+Onset at   0.428 seconds, delay:   1ms.
+Onset at   0.515 seconds, delay:  -5ms.
+Onset at   0.608 seconds, delay:   2ms.
+Onset at   0.703 seconds, delay: -13ms.
+Onset at   0.785 seconds
+Onset at   0.876 seconds, delay:  -6ms.
+Onset at   0.968 seconds, delay:   2ms.
+Onset at   1.056 seconds, delay:  -6ms.
+Onset at   1.144 seconds
+Onset at   1.234 seconds, delay:  -4ms.
+Onset at   1.323 seconds
+Onset at   1.427 seconds
+
+False positives:
+  0.750
+  1.310
+  1.490
+  1.550
+  1.610
+
+Percussion/Xylophone.hardrubber.roll/Xylophone.hardrubber.roll.ff.Bb6.stereo.wav
+--------------------------------------------------------------------------------
+Onset at   0.001 seconds, delay:  49ms.
+Onset at   0.080 seconds, delay:   2ms.
+Onset at   0.158 seconds, delay:   1ms.
+Onset at   0.238 seconds, delay:  -4ms.
+Onset at   0.329 seconds, delay:   1ms.
+Onset at   0.431 seconds
+Onset at   0.514 seconds, delay:  -4ms.
+Onset at   0.599 seconds
+Onset at   0.693 seconds, delay:  -3ms.
+Onset at   0.783 seconds
+Onset at   0.876 seconds, delay:  -6ms.
+Onset at   0.958 seconds
+Onset at   1.049 seconds, delay:   1ms.
+Onset at   1.143 seconds, delay: -13ms.
+Onset at   1.231 seconds, delay:  -1ms.
+Onset at   1.315 seconds, delay:  -4ms.
+Onset at   1.417 seconds
+
+False positives:
+  0.390
+  1.190
+  1.490
+  1.570
+  1.610
+  1.670
+
+Percussion/Xylophone.hardrubber.roll/Xylophone.hardrubber.roll.ff.C6.stereo.wav
+-------------------------------------------------------------------------------
+Onset at   0.003 seconds, delay:  27ms.
+Onset at   0.069 seconds, delay:  -3ms.
+Onset at   0.153 seconds, delay:   5ms.
+Onset at   0.242 seconds
+Onset at   0.324 seconds, delay:   6ms.
+Onset at   0.413 seconds, delay:  -1ms.
+Onset at   0.494 seconds, delay:   4ms.
+Onset at   0.592 seconds
+Onset at   0.673 seconds, delay:   4ms.
+Onset at   0.760 seconds, delay:  -2ms.
+Onset at   0.850 seconds, delay:   7ms.
+Onset at   0.939 seconds
+Onset at   1.030 seconds
+Onset at   1.112 seconds
+Onset at   1.221 seconds, delay:   2ms.
+
+False positives:
+  0.370
+  1.310
+  1.350
+  1.410
+  1.470
+  1.530
+  1.610
+
+Percussion/Xylophone.hardrubber.roll/Xylophone.hardrubber.roll.ff.D6.stereo.wav
+-------------------------------------------------------------------------------
+Onset at   0.001 seconds, delay:  49ms.
+Onset at   0.069 seconds, delay:   2ms.
+Onset at   0.147 seconds, delay:  -6ms.
+Onset at   0.233 seconds, delay:  -3ms.
+Onset at   0.323 seconds, delay:   2ms.
+Onset at   0.418 seconds, delay:  -8ms.
+Onset at   0.494 seconds, delay:   1ms.
+Onset at   0.582 seconds
+Onset at   0.668 seconds, delay:   2ms.
+Onset at   0.762 seconds, delay:   2ms.
+Onset at   0.840 seconds, delay:   1ms.
+Onset at   0.929 seconds, delay:   1ms.
+Onset at   1.012 seconds, delay:  -2ms.
+Onset at   1.104 seconds
+Onset at   1.185 seconds, delay:   2ms.
+Onset at   1.272 seconds, delay:  -2ms.
+Onset at   1.367 seconds, delay:   3ms.
+
+False positives:
+  0.470
+  0.750
+  1.430
+  1.510
+  1.570
+  1.610
+  1.690
+  1.730
+
+Percussion/Xylophone.hardrubber.roll/Xylophone.hardrubber.roll.ff.Db6.stereo.wav
+--------------------------------------------------------------------------------
+Onset at   0.003 seconds, delay:  27ms.
+Onset at   0.065 seconds, delay:   2ms.
+Onset at   0.140 seconds
+Onset at   0.224 seconds, delay:  -3ms.
+Onset at   0.308 seconds, delay:   2ms.
+Onset at   0.391 seconds, delay:  -1ms.
+Onset at   0.484 seconds, delay:   1ms.
+Onset at   0.570 seconds
+Onset at   0.658 seconds, delay:   2ms.
+Onset at   0.742 seconds, delay:   2ms.
+Onset at   0.826 seconds, delay:   1ms.
+Onset at   0.913 seconds, delay:  -3ms.
+Onset at   1.003 seconds, delay:   2ms.
+Onset at   1.091 seconds
+Onset at   1.173 seconds, delay:  -3ms.
+Onset at   1.261 seconds, delay:   4ms.
+Onset at   1.362 seconds, delay:   2ms.
+
+False positives:
+  1.350
+  1.470
+  1.510
+  1.570
+  1.650
+  1.710
+
+Percussion/Xylophone.hardrubber.roll/Xylophone.hardrubber.roll.ff.E6.stereo.wav
+-------------------------------------------------------------------------------
+Onset at   0.002 seconds, delay:  48ms.
+Onset at   0.065 seconds, delay:  -2ms.
+Onset at   0.149 seconds, delay:   1ms.
+Onset at   0.225 seconds, delay:   2ms.
+Onset at   0.317 seconds, delay:  -7ms.
+Onset at   0.395 seconds, delay:   1ms.
+Onset at   0.489 seconds, delay:   1ms.
+Onset at   0.567 seconds, delay:   2ms.
+Onset at   0.658 seconds, delay:  -8ms.
+Onset at   0.751 seconds, delay:  -1ms.
+Onset at   0.827 seconds
+Onset at   0.917 seconds, delay:   1ms.
+Onset at   0.997 seconds, delay:   5ms.
+Onset at   1.087 seconds
+Onset at   1.169 seconds
+Onset at   1.260 seconds
+Onset at   1.348 seconds, delay:   2ms.
+
+False positives:
+  0.370
+  0.710
+  1.410
+  1.490
+  1.550
+  1.610
+  1.670
+
+Percussion/Xylophone.hardrubber.roll/Xylophone.hardrubber.roll.ff.Eb6.stereo.wav
+--------------------------------------------------------------------------------
+Onset at   0.001 seconds, delay:  49ms.
+Onset at   0.066 seconds, delay:  -1ms.
+Onset at   0.148 seconds, delay:   2ms.
+Onset at   0.235 seconds, delay:   4ms.
+Onset at   0.316 seconds, delay:   1ms.
+Onset at   0.401 seconds
+Onset at   0.491 seconds, delay:  -1ms.
+Onset at   0.582 seconds
+Onset at   0.665 seconds, delay:  -4ms.
+Onset at   0.753 seconds, delay:   1ms.
+Onset at   0.840 seconds
+Onset at   0.928 seconds, delay:   2ms.
+Onset at   1.013 seconds, delay:   3ms.
+Onset at   1.104 seconds
+Onset at   1.186 seconds, delay:   4ms.
+Onset at   1.270 seconds
+Onset at   1.363 seconds, delay:   2ms.
+
+False positives:
+  1.450
+  1.510
+  1.570
+  1.630
+  1.690
+
+Percussion/Xylophone.hardrubber.roll/Xylophone.hardrubber.roll.ff.F6.stereo.wav
+-------------------------------------------------------------------------------
+Onset at   0.001 seconds, delay:  49ms.
+Onset at   0.151 seconds, delay:  -1ms.
+Onset at   0.223 seconds, delay:   1ms.
+Onset at   0.317 seconds, delay:   1ms.
+Onset at   0.404 seconds, delay:  -4ms.
+Onset at   0.493 seconds, delay:  -3ms.
+Onset at   0.590 seconds
+Onset at   0.665 seconds, delay:   1ms.
+Onset at   0.758 seconds
+Onset at   0.845 seconds
+Onset at   0.938 seconds
+Onset at   1.015 seconds, delay:   1ms.
+Onset at   1.112 seconds, delay:  -2ms.
+Onset at   1.200 seconds, delay:   3ms.
+Onset at   1.278 seconds
+Onset at   1.371 seconds
+
+False positives:
+  0.110
+  1.470
+  1.510
+  1.570
+  1.650
+
+Percussion/Xylophone.hardrubber.roll/Xylophone.hardrubber.roll.ff.G6.stereo.wav
+-------------------------------------------------------------------------------
+Onset at   0.001 seconds, delay:  49ms.
+Onset at   0.065 seconds, delay:   2ms.
+Onset at   0.153 seconds, delay:  -3ms.
+Onset at   0.223 seconds
+Onset at   0.322 seconds, delay: -12ms.
+Onset at   0.401 seconds
+Onset at   0.488 seconds, delay:   2ms.
+Onset at   0.577 seconds
+Onset at   0.667 seconds, delay:   3ms.
+Onset at   0.758 seconds, delay:  -8ms.
+Onset at   0.836 seconds, delay:  -6ms.
+Onset at   0.929 seconds, delay:   1ms.
+Onset at   1.019 seconds, delay:   2ms.
+Onset at   1.109 seconds, delay:   1ms.
+Onset at   1.197 seconds, delay:   2ms.
+Onset at   1.280 seconds
+Onset at   1.373 seconds, delay:  -2ms.
+Onset at   1.458 seconds
+Onset at   1.554 seconds, delay:  -4ms.
+
+False positives:
+  0.370
+  0.730
+  1.610
+  1.670
+  1.730
+
+Percussion/Xylophone.hardrubber.roll/Xylophone.hardrubber.roll.ff.Gb6.stereo.wav
+--------------------------------------------------------------------------------
+Onset at   0.001 seconds, delay:  49ms.
+Onset at   0.077 seconds
+Onset at   0.157 seconds, delay:  -4ms.
+Onset at   0.236 seconds, delay:   2ms.
+Onset at   0.326 seconds, delay:   2ms.
+Onset at   0.418 seconds, delay:   2ms.
+Onset at   0.501 seconds, delay:   3ms.
+Onset at   0.592 seconds, delay:  -2ms.
+Onset at   0.679 seconds, delay:   3ms.
+Onset at   0.768 seconds
+Onset at   0.855 seconds, delay:   1ms.
+Onset at   0.941 seconds, delay:  -3ms.
+Onset at   1.028 seconds, delay:   2ms.
+Onset at   1.116 seconds
+Onset at   1.204 seconds, delay:   1ms.
+Onset at   1.289 seconds, delay:   1ms.
+Onset at   1.390 seconds
+
+False positives:
+  1.490
+  1.530
+  1.590
+  1.650
+
+Percussion/Xylophone.rosewood/Xylophone.rosewood.ff.A6.stereo.wav
+-----------------------------------------------------------------
+Onset at   0.002 seconds, delay:  48ms.
+
+False positives:
+  0.090
+  0.150
+
+Percussion/Xylophone.rosewood/Xylophone.rosewood.ff.Ab6.stereo.wav
+------------------------------------------------------------------
+Onset at   0.002 seconds, delay:  48ms.
+
+False positives:
+  0.110
+
+Percussion/Xylophone.rosewood/Xylophone.rosewood.ff.B6.stereo.wav
+-----------------------------------------------------------------
+Onset at   0.002 seconds, delay:  48ms.
+
+False positives:
+  0.110
+  0.150
+
+Percussion/Xylophone.rosewood/Xylophone.rosewood.ff.Bb6.stereo.wav
+------------------------------------------------------------------
+Onset at   0.002 seconds, delay:  48ms.
+
+False positives:
+  0.110
+  0.150
+
+Percussion/Xylophone.rosewood/Xylophone.rosewood.ff.C6.stereo.wav
+-----------------------------------------------------------------
+Onset at   0.002 seconds, delay:  27ms.
+
+False positives:
+  0.090
+  0.170
+  0.210
+  0.290
+
+Percussion/Xylophone.rosewood/Xylophone.rosewood.ff.D6.stereo.wav
+-----------------------------------------------------------------
+Onset at   0.002 seconds, delay:  27ms.
+
+False positives:
+  0.090
+  0.150
+  0.210
+  0.270
+
+Percussion/Xylophone.rosewood/Xylophone.rosewood.ff.Db6.stereo.wav
+------------------------------------------------------------------
+Onset at   0.003 seconds, delay:  27ms.
+
+False positives:
+  0.090
+  0.150
+  0.210
+  0.290
+  0.350
+
+Percussion/Xylophone.rosewood/Xylophone.rosewood.ff.E6.stereo.wav
+-----------------------------------------------------------------
+Onset at   0.002 seconds, delay:  27ms.
+
+False positives:
+  0.110
+  0.170
+  0.230
+
+Percussion/Xylophone.rosewood/Xylophone.rosewood.ff.Eb6.stereo.wav
+------------------------------------------------------------------
+Onset at   0.002 seconds, delay:  27ms.
+
+False positives:
+  0.110
+  0.150
+  0.210
+  0.270
+
+Percussion/Xylophone.rosewood/Xylophone.rosewood.ff.F6.stereo.wav
+-----------------------------------------------------------------
+Onset at   0.003 seconds, delay:  47ms.
+
+False positives:
+  0.090
+  0.170
+  0.230
+
+Percussion/Xylophone.rosewood/Xylophone.rosewood.ff.G6.stereo.wav
+-----------------------------------------------------------------
+Onset at   0.002 seconds, delay:  48ms.
+
+False positives:
+  0.090
+  0.170
+
+Percussion/Xylophone.rosewood/Xylophone.rosewood.ff.Gb6.stereo.wav
+------------------------------------------------------------------
+Onset at   0.002 seconds, delay:  27ms.
+
+False positives:
+  0.090
+  0.170
+  0.210
+
+Percussion/Xylophone.rosewood.roll/Xylophone.rosewood.roll.ff.A6.stereo.wav
+---------------------------------------------------------------------------
+Onset at   0.013 seconds, delay:   7ms.
+Onset at   0.165 seconds, delay:   1ms.
+Onset at   0.253 seconds, delay:  -3ms.
+Onset at   0.339 seconds
+Onset at   0.426 seconds, delay:   1ms.
+Onset at   0.514 seconds, delay:  -4ms.
+Onset at   0.614 seconds, delay:  -4ms.
+Onset at   0.694 seconds, delay:  -4ms.
+Onset at   0.793 seconds, delay:  -3ms.
+Onset at   0.879 seconds, delay:   1ms.
+Onset at   0.976 seconds
+Onset at   1.060 seconds
+Onset at   1.156 seconds, delay:   1ms.
+Onset at   1.243 seconds, delay:   2ms.
+Onset at   1.339 seconds, delay:   2ms.
+Onset at   1.426 seconds, delay:   2ms.
+Onset at   1.516 seconds
+Onset at   1.603 seconds
+Onset at   1.689 seconds
+Onset at   1.780 seconds
+Onset at   1.875 seconds, delay:  -4ms.
+Onset at   1.959 seconds
+Onset at   2.056 seconds
+Onset at   2.145 seconds
+Onset at   2.236 seconds, delay:  -6ms.
+Onset at   2.321 seconds
+Onset at   2.413 seconds, delay:  -2ms.
+Onset at   2.496 seconds, delay:  -5ms.
+Onset at   2.598 seconds
+Onset at   2.682 seconds
+Onset at   2.775 seconds, delay:  -4ms.
+Onset at   2.877 seconds
+
+False negatives:
+  0.083
+
+False positives:
+  2.970
+  3.010
+  3.090
+
+Percussion/Xylophone.rosewood.roll/Xylophone.rosewood.roll.ff.Ab6.stereo.wav
+----------------------------------------------------------------------------
+Onset at   0.016 seconds, delay:   4ms.
+Onset at   0.089 seconds, delay:   1ms.
+Onset at   0.184 seconds, delay: -13ms.
+Onset at   0.263 seconds, delay:   1ms.
+Onset at   0.351 seconds, delay:  -1ms.
+Onset at   0.440 seconds
+Onset at   0.537 seconds, delay:   3ms.
+Onset at   0.628 seconds, delay:   2ms.
+Onset at   0.712 seconds, delay:  -2ms.
+Onset at   0.809 seconds, delay:   2ms.
+Onset at   0.896 seconds, delay:  -6ms.
+Onset at   0.989 seconds, delay:   1ms.
+Onset at   1.077 seconds
+Onset at   1.170 seconds
+Onset at   1.259 seconds, delay:   1ms.
+Onset at   1.351 seconds
+Onset at   1.439 seconds
+Onset at   1.532 seconds, delay:  -2ms.
+Onset at   1.616 seconds, delay:  -6ms.
+Onset at   1.708 seconds, delay:   1ms.
+Onset at   1.794 seconds, delay:  -4ms.
+Onset at   1.886 seconds, delay:   1ms.
+Onset at   1.972 seconds, delay:  -2ms.
+Onset at   2.060 seconds
+Onset at   2.151 seconds
+Onset at   2.235 seconds, delay:  -4ms.
+Onset at   2.325 seconds
+Onset at   2.418 seconds
+Onset at   2.502 seconds
+Onset at   2.605 seconds, delay: -15ms.
+Onset at   2.678 seconds
+Onset at   2.772 seconds, delay:  -1ms.
+Onset at   2.869 seconds
+
+False positives:
+  0.230
+  0.790
+  2.650
+  2.930
+  3.010
+
+Percussion/Xylophone.rosewood.roll/Xylophone.rosewood.roll.ff.B6.stereo.wav
+---------------------------------------------------------------------------
+Onset at   0.029 seconds, delay:  -7ms.
+Onset at   0.176 seconds, delay:  -5ms.
+Onset at   0.256 seconds, delay:  -6ms.
+Onset at   0.349 seconds
+Onset at   0.433 seconds, delay:  -3ms.
+Onset at   0.526 seconds, delay:  -7ms.
+Onset at   0.616 seconds, delay:  -6ms.
+Onset at   0.702 seconds, delay:  -1ms.
+Onset at   0.793 seconds, delay:  -3ms.
+Onset at   0.885 seconds, delay:  -4ms.
+Onset at   0.972 seconds, delay:  -2ms.
+Onset at   1.059 seconds, delay:   1ms.
+Onset at   1.148 seconds, delay:   1ms.
+Onset at   1.238 seconds, delay:   1ms.
+Onset at   1.321 seconds
+Onset at   1.415 seconds, delay:  -5ms.
+Onset at   1.504 seconds
+Onset at   1.591 seconds
+Onset at   1.681 seconds, delay:  -6ms.
+Onset at   1.767 seconds
+Onset at   1.858 seconds, delay:  -8ms.
+Onset at   1.941 seconds
+Onset at   2.031 seconds, delay:  -1ms.
+Onset at   2.117 seconds
+Onset at   2.221 seconds
+Onset at   2.297 seconds
+Onset at   2.386 seconds, delay:  -5ms.
+Onset at   2.473 seconds, delay:  -2ms.
+Onset at   2.561 seconds
+Onset at   2.661 seconds
+
+False negatives:
+  0.088
+
+False positives:
+  2.730
+  2.810
+  2.870
+
+Percussion/Xylophone.rosewood.roll/Xylophone.rosewood.roll.ff.Bb6.stereo.wav
+----------------------------------------------------------------------------
+Onset at   0.024 seconds, delay:  -6ms.
+Onset at   0.180 seconds, delay:  -9ms.
+Onset at   0.263 seconds
+Onset at   0.338 seconds
+Onset at   0.431 seconds, delay:  -1ms.
+Onset at   0.522 seconds, delay: -12ms.
+Onset at   0.613 seconds, delay:  -3ms.
+Onset at   0.697 seconds
+Onset at   0.787 seconds, delay:  -7ms.
+Onset at   0.879 seconds, delay:   1ms.
+Onset at   0.970 seconds
+Onset at   1.055 seconds, delay:  -4ms.
+Onset at   1.147 seconds
+Onset at   1.235 seconds, delay:  -5ms.
+Onset at   1.330 seconds
+Onset at   1.415 seconds, delay:  -5ms.
+Onset at   1.507 seconds
+Onset at   1.594 seconds, delay:  -4ms.
+Onset at   1.686 seconds, delay:   1ms.
+Onset at   1.776 seconds, delay:  -6ms.
+Onset at   1.870 seconds
+Onset at   1.957 seconds
+Onset at   2.050 seconds
+Onset at   2.134 seconds, delay:  -4ms.
+Onset at   2.227 seconds
+Onset at   2.314 seconds, delay:  -4ms.
+Onset at   2.405 seconds, delay:   1ms.
+Onset at   2.494 seconds, delay:  -4ms.
+Onset at   2.591 seconds, delay:  -1ms.
+Onset at   2.681 seconds
+Onset at   2.768 seconds, delay:   1ms.
+Onset at   2.855 seconds, delay:  -4ms.
+Onset at   2.940 seconds
+Onset at   3.044 seconds
+
+False negatives:
+  0.084
+
+False positives:
+  0.230
+  0.570
+  3.030
+  3.130
+  3.190
+  3.250
+
+Percussion/Xylophone.rosewood.roll/Xylophone.rosewood.roll.ff.C6.stereo.wav
+---------------------------------------------------------------------------
+Onset at   0.034 seconds, delay:  -4ms.
+Onset at   0.179 seconds
+Onset at   0.247 seconds, delay:   3ms.
+Onset at   0.343 seconds
+Onset at   0.431 seconds, delay:   5ms.
+Onset at   0.516 seconds, delay:  -4ms.
+Onset at   0.604 seconds, delay:   6ms.
+Onset at   0.691 seconds
+Onset at   0.781 seconds, delay:   9ms.
+Onset at   0.870 seconds
+Onset at   0.961 seconds, delay:   2ms.
+Onset at   1.052 seconds
+Onset at   1.137 seconds, delay:   4ms.
+Onset at   1.221 seconds, delay:   2ms.
+Onset at   1.317 seconds, delay:  -6ms.
+Onset at   1.398 seconds, delay:   1ms.
+Onset at   1.490 seconds
+Onset at   1.573 seconds, delay:   1ms.
+Onset at   1.660 seconds, delay:   4ms.
+Onset at   1.746 seconds, delay:   4ms.
+Onset at   1.838 seconds, delay:   2ms.
+Onset at   1.917 seconds, delay:   2ms.
+Onset at   2.014 seconds, delay:   2ms.
+Onset at   2.089 seconds
+Onset at   2.186 seconds
+Onset at   2.264 seconds, delay:   1ms.
+Onset at   2.349 seconds, delay:   4ms.
+Onset at   2.440 seconds
+
+False negatives:
+  0.093
+
+False positives:
+  0.330
+  1.370
+  2.530
+  2.570
+  2.630
+  2.690
+  2.770
+
+Percussion/Xylophone.rosewood.roll/Xylophone.rosewood.roll.ff.D6.stereo.wav
+---------------------------------------------------------------------------
+Onset at   0.027 seconds, delay:  -5ms.
+Onset at   0.096 seconds, delay:   2ms.
+Onset at   0.185 seconds, delay:   1ms.
+Onset at   0.269 seconds, delay:   1ms.
+Onset at   0.354 seconds, delay:   1ms.
+Onset at   0.441 seconds, delay:   4ms.
+Onset at   0.532 seconds, delay:  -2ms.
+Onset at   0.621 seconds, delay:   1ms.
+Onset at   0.702 seconds, delay:  -4ms.
+Onset at   0.802 seconds
+Onset at   0.886 seconds, delay:   2ms.
+Onset at   0.983 seconds, delay: -33ms.
+Onset at   1.064 seconds
+Onset at   1.161 seconds, delay: -11ms.
+Onset at   1.241 seconds
+Onset at   1.335 seconds, delay:   3ms.
+Onset at   1.422 seconds
+Onset at   1.513 seconds, delay:   1ms.
+Onset at   1.601 seconds, delay:  -4ms.
+Onset at   1.695 seconds, delay:   2ms.
+Onset at   1.781 seconds, delay:   1ms.
+Onset at   1.876 seconds, delay:  -5ms.
+Onset at   1.962 seconds, delay:   1ms.
+Onset at   2.050 seconds
+Onset at   2.143 seconds, delay:  -2ms.
+Onset at   2.236 seconds, delay:   4ms.
+Onset at   2.314 seconds, delay:   1ms.
+Onset at   2.401 seconds, delay:   1ms.
+Onset at   2.498 seconds, delay:   1ms.
+
+False positives:
+  0.790
+  1.030
+  1.204
+  1.926
+  2.590
+  2.650
+  2.690
+  2.770
+  2.810
+
+Percussion/Xylophone.rosewood.roll/Xylophone.rosewood.roll.ff.Db6.stereo.wav
+----------------------------------------------------------------------------
+Onset at   0.042 seconds, delay:  -8ms.
+Onset at   0.185 seconds, delay:   1ms.
+Onset at   0.272 seconds, delay:   2ms.
+Onset at   0.350 seconds
+Onset at   0.443 seconds, delay:   2ms.
+Onset at   0.527 seconds
+Onset at   0.613 seconds, delay:   3ms.
+Onset at   0.697 seconds
+Onset at   0.793 seconds, delay:  -1ms.
+Onset at   0.882 seconds
+Onset at   0.965 seconds
+Onset at   1.050 seconds
+Onset at   1.149 seconds
+Onset at   1.231 seconds, delay:  -1ms.
+Onset at   1.321 seconds
+Onset at   1.406 seconds, delay:   4ms.
+Onset at   1.500 seconds, delay: -10ms.
+Onset at   1.582 seconds, delay:   2ms.
+Onset at   1.667 seconds, delay:   2ms.
+Onset at   1.757 seconds, delay:   2ms.
+Onset at   1.850 seconds
+Onset at   1.935 seconds, delay:  -2ms.
+Onset at   2.025 seconds, delay:   4ms.
+Onset at   2.107 seconds, delay:   2ms.
+Onset at   2.197 seconds
+Onset at   2.285 seconds, delay:   1ms.
+Onset at   2.366 seconds, delay:   4ms.
+Onset at   2.459 seconds, delay:  -4ms.
+
+False negatives:
+  0.097
+
+False positives:
+  1.550
+  2.550
+  2.610
+  2.650
+  2.730
+
+Percussion/Xylophone.rosewood.roll/Xylophone.rosewood.roll.ff.E6.stereo.wav
+---------------------------------------------------------------------------
+Onset at   0.024 seconds, delay:   1ms.
+Onset at   0.096 seconds, delay:   5ms.
+Onset at   0.181 seconds, delay:   2ms.
+Onset at   0.260 seconds
+Onset at   0.350 seconds
+Onset at   0.436 seconds
+Onset at   0.529 seconds
+Onset at   0.621 seconds
+Onset at   0.712 seconds, delay:  -2ms.
+Onset at   0.814 seconds, delay:  -3ms.
+Onset at   0.899 seconds, delay:   2ms.
+Onset at   0.990 seconds
+Onset at   1.081 seconds
+Onset at   1.176 seconds
+Onset at   1.262 seconds
+Onset at   1.360 seconds, delay:   4ms.
+Onset at   1.449 seconds
+Onset at   1.541 seconds, delay:   1ms.
+Onset at   1.633 seconds
+Onset at   1.724 seconds
+Onset at   1.814 seconds
+Onset at   1.917 seconds
+Onset at   2.001 seconds, delay:   2ms.
+Onset at   2.099 seconds
+Onset at   2.188 seconds, delay:   1ms.
+Onset at   2.279 seconds
+Onset at   2.376 seconds, delay:  -4ms.
+Onset at   2.466 seconds
+Onset at   2.559 seconds, delay:  -2ms.
+
+False positives:
+  1.350
+  2.090
+  2.630
+  2.710
+  2.750
+  2.810
+
+Percussion/Xylophone.rosewood.roll/Xylophone.rosewood.roll.ff.Eb6.stereo.wav
+----------------------------------------------------------------------------
+Onset at   0.027 seconds, delay:  -1ms.
+Onset at   0.101 seconds
+Onset at   0.182 seconds, delay:   3ms.
+Onset at   0.281 seconds, delay: -11ms.
+Onset at   0.351 seconds, delay:   1ms.
+Onset at   0.454 seconds, delay:   2ms.
+Onset at   0.532 seconds, delay:  -2ms.
+Onset at   0.634 seconds
+Onset at   0.716 seconds, delay:   1ms.
+Onset at   0.817 seconds, delay:   3ms.
+Onset at   0.898 seconds, delay:  -4ms.
+Onset at   0.987 seconds, delay:   3ms.
+Onset at   1.083 seconds
+Onset at   1.175 seconds
+Onset at   1.260 seconds, delay:   2ms.
+Onset at   1.355 seconds, delay:  -2ms.
+Onset at   1.438 seconds
+Onset at   1.539 seconds
+Onset at   1.622 seconds
+Onset at   1.715 seconds
+Onset at   1.802 seconds
+Onset at   1.896 seconds
+Onset at   1.983 seconds, delay:   2ms.
+Onset at   2.073 seconds
+Onset at   2.162 seconds
+Onset at   2.251 seconds
+Onset at   2.340 seconds, delay:   2ms.
+Onset at   2.426 seconds, delay:   1ms.
+Onset at   2.528 seconds, delay:  -2ms.
+
+False positives:
+  0.330
+  1.070
+  2.510
+  2.630
+  2.670
+  2.730
+  2.790
+
+Percussion/Xylophone.rosewood.roll/Xylophone.rosewood.roll.ff.F6.stereo.wav
+---------------------------------------------------------------------------
+Onset at   0.023 seconds, delay:  -4ms.
+Onset at   0.183 seconds, delay:   2ms.
+Onset at   0.264 seconds, delay:   2ms.
+Onset at   0.354 seconds, delay:  -4ms.
+Onset at   0.439 seconds, delay:   1ms.
+Onset at   0.529 seconds, delay:   1ms.
+Onset at   0.624 seconds, delay:   2ms.
+Onset at   0.710 seconds
+Onset at   0.797 seconds, delay:   2ms.
+Onset at   0.890 seconds
+Onset at   0.981 seconds, delay:   2ms.
+Onset at   1.069 seconds, delay:   1ms.
+Onset at   1.154 seconds, delay:  -4ms.
+Onset at   1.246 seconds, delay:   1ms.
+Onset at   1.344 seconds, delay: -14ms.
+Onset at   1.423 seconds, delay:   2ms.
+Onset at   1.521 seconds
+Onset at   1.605 seconds, delay:   2ms.
+Onset at   1.697 seconds
+Onset at   1.786 seconds
+Onset at   1.873 seconds, delay:  -2ms.
+Onset at   1.957 seconds
+Onset at   2.049 seconds
+Onset at   2.133 seconds, delay:  -3ms.
+Onset at   2.221 seconds, delay:   1ms.
+Onset at   2.307 seconds, delay:   3ms.
+Onset at   2.392 seconds, delay:  -1ms.
+Onset at   2.488 seconds, delay:   2ms.
+
+False negatives:
+  0.090
+
+False positives:
+  0.150
+  0.610
+  1.388
+  2.570
+  2.630
+  2.690
+  2.730
+
+Percussion/Xylophone.rosewood.roll/Xylophone.rosewood.roll.ff.G6.stereo.wav
+---------------------------------------------------------------------------
+Onset at   0.025 seconds
+Onset at   0.173 seconds, delay:  -2ms.
+Onset at   0.259 seconds, delay:   1ms.
+Onset at   0.349 seconds, delay:   1ms.
+Onset at   0.441 seconds, delay: -11ms.
+Onset at   0.523 seconds, delay:  -6ms.
+Onset at   0.620 seconds
+Onset at   0.699 seconds, delay:   2ms.
+Onset at   0.798 seconds
+Onset at   0.878 seconds, delay:   1ms.
+Onset at   0.971 seconds, delay:  -1ms.
+Onset at   1.056 seconds, delay:   2ms.
+Onset at   1.149 seconds
+Onset at   1.233 seconds, delay:  -3ms.
+Onset at   1.331 seconds
+Onset at   1.412 seconds, delay:  -2ms.
+Onset at   1.508 seconds, delay:   2ms.
+Onset at   1.594 seconds, delay:  -4ms.
+Onset at   1.684 seconds
+Onset at   1.771 seconds
+Onset at   1.869 seconds, delay:   1ms.
+Onset at   1.950 seconds
+Onset at   2.037 seconds
+Onset at   2.128 seconds, delay:   1ms.
+Onset at   2.208 seconds, delay:   1ms.
+Onset at   2.304 seconds, delay:   1ms.
+Onset at   2.398 seconds
+Onset at   2.481 seconds, delay:   1ms.
+Onset at   2.567 seconds
+Onset at   2.661 seconds
+
+False negatives:
+  0.094
+
+False positives:
+  0.490
+  2.290
+  2.730
+  2.810
+  2.850
+
+Percussion/Xylophone.rosewood.roll/Xylophone.rosewood.roll.ff.Gb6.stereo.wav
+----------------------------------------------------------------------------
+Onset at   0.024 seconds, delay:  -1ms.
+Onset at   0.180 seconds
+Onset at   0.253 seconds, delay:  -3ms.
+Onset at   0.343 seconds
+Onset at   0.431 seconds, delay:  -1ms.
+Onset at   0.512 seconds, delay:  -2ms.
+Onset at   0.613 seconds
+Onset at   0.683 seconds, delay:   1ms.
+Onset at   0.779 seconds, delay:   2ms.
+Onset at   0.857 seconds, delay:   3ms.
+Onset at   0.952 seconds, delay:  -2ms.
+Onset at   1.032 seconds, delay:  -2ms.
+Onset at   1.122 seconds
+Onset at   1.212 seconds, delay:  -2ms.
+Onset at   1.296 seconds
+Onset at   1.382 seconds, delay:   1ms.
+Onset at   1.468 seconds, delay:   2ms.
+Onset at   1.552 seconds, delay:  -2ms.
+Onset at   1.656 seconds, delay:   2ms.
+Onset at   1.729 seconds
+Onset at   1.812 seconds, delay:  -2ms.
+Onset at   1.907 seconds, delay:   2ms.
+Onset at   1.990 seconds
+Onset at   2.074 seconds, delay:  -4ms.
+Onset at   2.167 seconds
+Onset at   2.250 seconds
+Onset at   2.346 seconds
+Onset at   2.425 seconds
+Onset at   2.512 seconds, delay:  -2ms.
+Onset at   2.604 seconds
+
+False negatives:
+  0.089
+
+False positives:
+  2.330
+  2.690
+  2.750
+  2.790
+  2.870
+
+Percussion/bells.brass/bells.brass.ff.A6.stereo.wav
+---------------------------------------------------
+Onset at   0.122 seconds, delay:  -7ms.
+
+False positives:
+  0.269
+  0.330
+  0.389
+  0.449
+  0.530
+  0.590
+  0.630
+  0.690
+  0.770
+  0.830
+  0.890
+  0.950
+  1.010
+  1.050
+  1.130
+  1.170
+  1.250
+  1.290
+  1.350
+  1.409
+  1.469
+  1.529
+  1.590
+  1.650
+  1.730
+  1.790
+  1.850
+  1.890
+  1.950
+  2.030
+  2.090
+  2.190
+  2.270
+  2.330
+  2.370
+  2.430
+  2.510
+  2.570
+  2.610
+  2.689
+  2.729
+  2.810
+  2.850
+  2.930
+  2.970
+  3.050
+  3.110
+  3.150
+  3.210
+  3.270
+  3.330
+  3.410
+  3.470
+  3.530
+  3.570
+  3.650
+  3.690
+  3.769
+  3.829
+  3.889
+  3.950
+  3.990
+  4.070
+  4.130
+  4.170
+  4.250
+  4.290
+  4.350
+  4.430
+  4.490
+  4.530
+  4.590
+  4.670
+  4.730
+  4.770
+  4.850
+  4.909
+  4.969
+  5.009
+  5.070
+  5.130
+  5.210
+  5.250
+  5.310
+  5.370
+  5.430
+  5.490
+  5.550
+
+Percussion/bells.brass/bells.brass.ff.Ab6.stereo.wav
+----------------------------------------------------
+Onset at   0.106 seconds, delay: -34ms.
+
+False positives:
+  0.210
+  0.250
+  0.330
+  0.390
+  0.533
+  0.750
+  0.810
+  0.890
+  0.950
+  1.010
+  1.110
+  1.250
+  1.330
+  1.429
+  1.509
+  1.589
+  1.629
+  1.749
+  1.809
+  1.849
+  1.909
+  1.969
+  2.049
+  2.109
+  2.169
+  2.209
+  2.269
+  2.329
+  2.409
+  2.449
+  2.509
+  2.589
+  2.629
+  2.689
+  2.769
+  2.809
+  2.869
+  2.949
+  3.009
+
+Percussion/bells.brass/bells.brass.ff.B6.stereo.wav
+---------------------------------------------------
+Onset at   0.109 seconds, delay: -37ms.
+
+False positives:
+  0.190
+  0.250
+  0.350
+  0.410
+  0.450
+  0.528
+  0.710
+  0.770
+  0.850
+  0.890
+  0.950
+  1.030
+  1.070
+  1.150
+  1.190
+  1.250
+  1.340
+  1.490
+  1.570
+  1.636
+  1.790
+  1.850
+  2.010
+  2.070
+  2.190
+  2.270
+  2.370
+  2.430
+  2.490
+  2.550
+  2.630
+  2.690
+  2.730
+  2.789
+  2.850
+  2.906
+  2.970
+  3.050
+  3.110
+  3.175
+  3.310
+  3.350
+  3.429
+
+Percussion/bells.brass/bells.brass.ff.Bb6.stereo.wav
+----------------------------------------------------
+Onset at   0.116 seconds, delay: -24ms.
+
+False positives:
+  0.190
+  0.270
+  0.350
+  0.410
+  0.470
+  0.530
+  0.610
+  0.670
+  0.730
+  0.770
+  0.830
+  0.890
+  0.970
+  1.010
+  1.090
+  1.150
+  1.210
+  1.270
+  1.330
+  1.370
+  1.430
+  1.490
+  1.570
+  1.630
+  1.690
+  1.730
+  1.790
+  1.870
+  1.930
+  1.990
+  2.030
+  2.110
+  2.170
+  2.210
+  2.290
+  2.350
+  2.390
+  2.470
+  2.530
+  2.570
+  2.650
+  2.710
+  2.790
+  2.850
+  2.910
+  2.970
+  3.009
+  3.069
+  3.150
+  3.210
+  3.250
+  3.330
+  3.390
+  3.450
+
+Percussion/bells.brass/bells.brass.ff.C6.stereo.wav
+---------------------------------------------------
+Onset at   0.213 seconds, delay: -22ms.
+
+False positives:
+  0.310
+  0.370
+  0.410
+  0.470
+  0.550
+  0.610
+  0.670
+  0.710
+  0.770
+  0.830
+  0.890
+  0.970
+  1.030
+  1.070
+  1.150
+  1.190
+  1.250
+  1.330
+  1.390
+  1.430
+  1.510
+  1.550
+  1.630
+  1.670
+  1.730
+  1.790
+  1.850
+  1.930
+  1.970
+  2.030
+  2.090
+  2.170
+  2.210
+  2.270
+  2.350
+  2.390
+  2.470
+  2.530
+  2.570
+  2.650
+  2.710
+  2.750
+  2.810
+  2.890
+  2.950
+  2.990
+  3.070
+  3.110
+  3.190
+  3.230
+  3.290
+  3.370
+  3.410
+  3.470
+  3.550
+  3.590
+  3.670
+  3.730
+  3.790
+  3.830
+  3.910
+  3.950
+  4.030
+  4.090
+  4.150
+  4.190
+  4.250
+  4.330
+  4.390
+  4.450
+  4.510
+  4.570
+  4.630
+  4.670
+  4.750
+  4.790
+  4.850
+  4.930
+  4.990
+  5.050
+  5.110
+  5.150
+
+Percussion/bells.brass/bells.brass.ff.D6.stereo.wav
+---------------------------------------------------
+
+False negatives:
+  0.171
+
+False positives:
+  0.119
+  0.270
+  0.310
+  0.390
+  0.450
+  0.510
+  0.590
+  0.650
+  0.710
+  0.750
+  0.830
+  0.890
+  0.950
+  0.990
+  1.050
+  1.130
+  1.170
+  1.250
+  1.290
+  1.350
+  1.410
+  1.490
+  1.530
+  1.590
+  1.650
+  1.730
+  1.790
+  1.850
+  1.910
+  1.970
+  2.010
+  2.070
+  2.150
+  2.190
+  2.250
+  2.330
+  2.390
+  2.450
+  2.510
+  2.570
+  2.630
+  2.670
+  2.750
+  2.790
+  2.870
+  2.930
+  2.970
+  3.030
+  3.110
+  3.150
+  3.210
+  3.270
+  3.350
+  3.390
+  3.450
+  3.530
+  3.570
+  3.630
+  3.710
+  3.770
+  3.810
+  3.870
+  3.950
+  3.990
+  4.070
+  4.110
+  4.170
+  4.250
+  4.310
+  4.370
+  4.430
+  4.490
+  4.530
+  4.610
+  4.650
+  4.730
+  4.770
+  4.850
+  4.890
+  4.950
+  5.030
+  5.070
+  5.130
+  5.190
+  5.250
+  5.330
+  5.370
+  5.450
+  5.510
+  5.550
+  5.610
+  5.670
+  5.730
+  5.790
+  5.850
+  5.930
+  5.990
+  6.030
+  6.090
+  6.170
+  6.230
+  6.290
+  6.350
+  6.410
+  6.450
+  6.530
+
+Percussion/bells.brass/bells.brass.ff.Db6.stereo.wav
+----------------------------------------------------
+Onset at   0.062 seconds
+
+False positives:
+  0.150
+  0.190
+  0.270
+  0.330
+  0.390
+  0.430
+  0.490
+  0.550
+  0.610
+  0.670
+  0.750
+  0.810
+  0.870
+  0.930
+  0.970
+  1.050
+  1.110
+  1.150
+  1.210
+  1.270
+  1.350
+  1.390
+  1.470
+  1.510
+  1.570
+  1.650
+  1.690
+  1.750
+  1.830
+  1.890
+  1.930
+  2.010
+  2.050
+  2.130
+  2.190
+  2.250
+  2.290
+  2.370
+  2.410
+  2.490
+  2.530
+  2.610
+  2.650
+  2.710
+  2.790
+  2.850
+  2.910
+  2.970
+  3.010
+  3.070
+  3.150
+  3.190
+  3.250
+  3.330
+  3.370
+  3.450
+  3.490
+  3.570
+  3.610
+  3.690
+  3.730
+  3.790
+  3.870
+  3.910
+  3.990
+  4.050
+  4.110
+  4.150
+  4.210
+  4.290
+  4.350
+  4.390
+  4.450
+  4.510
+  4.590
+  4.630
+  4.710
+  4.750
+
+Percussion/bells.brass/bells.brass.ff.E6.stereo.wav
+---------------------------------------------------
+Onset at   0.083 seconds, delay: -26ms.
+
+False positives:
+  0.170
+  0.229
+  0.288
+  0.350
+  0.410
+  0.490
+  0.550
+  0.630
+  0.710
+  0.810
+  1.010
+  1.430
+  1.910
+  1.990
+  2.030
+  2.090
+  2.170
+  2.230
+  2.270
+  2.350
+  2.390
+  2.470
+  2.530
+  2.590
+  2.650
+  2.710
+  2.770
+  2.810
+  2.870
+  2.930
+  3.010
+  3.070
+  3.110
+  3.190
+  3.230
+  3.310
+  3.350
+  3.430
+  3.470
+  3.550
+  3.610
+  3.670
+  3.710
+  3.790
+  3.850
+  3.890
+  3.950
+  4.010
+  4.090
+
+Percussion/bells.brass/bells.brass.ff.Eb6.stereo.wav
+----------------------------------------------------
+Onset at   0.061 seconds
+
+False positives:
+  0.150
+  0.210
+  0.270
+  0.330
+  0.390
+  0.470
+  0.510
+  0.590
+  0.630
+  0.690
+  0.770
+  0.810
+  0.890
+  0.930
+  0.990
+  1.050
+  1.110
+  1.170
+  1.230
+  1.290
+  1.370
+  1.430
+  1.490
+  1.550
+  1.610
+  1.670
+  1.710
+  1.790
+  1.830
+  1.890
+  1.950
+  2.010
+  2.090
+  2.130
+  2.190
+  2.250
+  2.330
+  2.370
+  2.450
+  2.490
+  2.570
+  2.630
+  2.670
+  2.730
+  2.810
+  2.850
+  2.930
+  2.990
+  3.050
+  3.110
+  3.150
+  3.230
+  3.290
+  3.350
+  3.410
+  3.470
+  3.530
+  3.570
+  3.630
+  3.710
+  3.750
+  3.810
+  3.890
+  3.950
+  4.010
+  4.050
+  4.110
+  4.190
+  4.230
+  4.290
+  4.370
+  4.430
+  4.470
+  4.530
+  4.590
+  4.650
+  4.710
+  4.770
+  4.850
+  4.910
+  4.950
+  5.010
+  5.070
+  5.150
+  5.210
+  5.270
+  5.310
+
+Percussion/bells.brass/bells.brass.ff.F6.stereo.wav
+---------------------------------------------------
+Onset at   0.054 seconds, delay:  -9ms.
+
+False positives:
+  0.150
+  0.210
+  0.290
+  0.350
+  0.410
+  0.470
+  0.510
+  0.570
+  0.630
+  0.690
+  0.750
+  0.830
+  0.870
+  0.950
+  1.010
+  1.070
+  1.185
+  1.570
+  1.650
+  1.710
+  1.770
+  1.830
+  1.890
+  1.970
+  2.030
+  2.070
+  2.150
+  2.210
+  2.250
+  2.330
+  2.410
+  2.470
+  2.550
+  2.610
+  2.683
+  2.770
+  2.850
+  2.930
+  2.970
+  3.050
+  3.110
+  3.170
+  3.230
+  3.290
+  3.370
+  3.430
+  3.510
+  3.590
+  3.650
+  3.690
+  3.750
+  3.810
+  3.870
+  3.930
+  3.990
+  4.050
+  4.130
+  4.190
+  4.230
+  4.310
+  4.370
+  4.430
+  4.490
+  4.550
+  4.610
+  4.670
+  4.750
+  4.830
+  4.870
+  4.950
+  5.025
+  5.090
+  5.168
+  5.210
+  5.270
+  5.350
+  5.390
+  5.448
+  5.530
+  5.590
+  5.650
+
+Percussion/bells.brass/bells.brass.ff.G6.stereo.wav
+---------------------------------------------------
+Onset at   0.117 seconds, delay: -44ms.
+
+False positives:
+  0.270
+  0.350
+  0.430
+  0.510
+  0.570
+  0.607
+  0.670
+  0.750
+  0.829
+  0.909
+  0.989
+  1.069
+  1.149
+  1.210
+  1.247
+  1.310
+  1.370
+  1.450
+  1.490
+  1.550
+  1.806
+  2.350
+  2.430
+  2.510
+  2.589
+  2.669
+  2.749
+  2.810
+  2.890
+  2.970
+  3.050
+  3.130
+  3.210
+  3.290
+  3.370
+  3.450
+  3.530
+  3.610
+  3.690
+  3.770
+  3.869
+  3.950
+  4.010
+  4.048
+  4.110
+  4.190
+  4.230
+  4.290
+  4.350
+  4.430
+  4.490
+  4.530
+  4.590
+  4.650
+  4.730
+  4.809
+  4.889
+  4.969
+  5.050
+  5.130
+  5.209
+  5.289
+  5.369
+  5.448
+  5.529
+  5.609
+  5.689
+  5.769
+  5.830
+  5.929
+  6.009
+  6.070
+  6.168
+  6.230
+  6.310
+  6.409
+  6.470
+  6.550
+  6.630
+  6.665
+  6.729
+  6.790
+
+Percussion/bells.brass/bells.brass.ff.Gb6.stereo.wav
+----------------------------------------------------
+Onset at   0.130 seconds, delay: -25ms.
+
+False positives:
+  0.270
+  0.330
+  0.410
+  0.450
+  0.530
+  0.590
+  0.650
+  0.690
+  0.791
+  0.970
+  1.050
+  1.090
+  1.170
+  1.290
+  1.491
+  1.770
+  1.850
+  1.890
+  1.950
+  2.030
+  2.070
+  2.130
+  2.190
+  2.250
+  2.310
+  2.390
+  2.430
+  2.490
+  2.550
+  2.610
+  2.690
+  2.750
+  2.810
+  2.850
+  2.910
+  2.990
+  3.050
+  3.110
+  3.150
+  3.230
+  3.270
+  3.330
+  3.410
+  3.470
+  3.510
+  3.590
+  3.630
+  3.690
+  3.770
+  3.810
+  3.890
+  3.950
+  3.990
+  4.070
+  4.110
+  4.170
+  4.250
+  4.310
+  4.350
+  4.410
+  4.490
+  4.550
+  4.590
+  4.650
+  4.730
+  4.770
+  4.830
+  4.910
+  4.970
+  5.010
+  5.090
+  5.170
+  5.230
+  5.290
+  5.370
+  5.409
+  5.470
+  5.550
+  5.590
+  5.670
+  5.710
+  5.790
+  5.830
+
+Percussion/bells.plastic/bells.plastic.ff.A6.stereo.wav
+-------------------------------------------------------
+Onset at   0.076 seconds, delay:  -5ms.
+
+False positives:
+  0.230
+  0.290
+  0.350
+  0.430
+  0.470
+  0.550
+  0.610
+  0.650
+  0.730
+  0.790
+  0.850
+  0.890
+  0.970
+  1.030
+  1.070
+  1.130
+  1.190
+  1.270
+  1.310
+  1.370
+  1.430
+  1.510
+  1.570
+  1.610
+  1.670
+  1.730
+  1.810
+  1.870
+  1.930
+  1.990
+  2.050
+  2.110
+  2.170
+  2.210
+  2.290
+  2.350
+  2.410
+  2.470
+  2.510
+  2.570
+  2.630
+  2.690
+  2.770
+  2.830
+
+Percussion/bells.plastic/bells.plastic.ff.Ab6.stereo.wav
+--------------------------------------------------------
+Onset at   0.109 seconds
+
+False positives:
+  0.190
+  0.270
+  0.330
+  0.390
+  0.450
+  0.530
+  0.570
+  0.630
+  0.710
+  0.770
+  0.830
+  0.870
+  0.930
+  1.010
+  1.070
+  1.130
+  1.190
+
+Percussion/bells.plastic/bells.plastic.ff.B6.stereo.wav
+-------------------------------------------------------
+Onset at   0.062 seconds, delay:  -8ms.
+
+False positives:
+  0.150
+  0.210
+  0.249
+  0.310
+  0.423
+  0.570
+  0.610
+  0.670
+  0.750
+  0.810
+  0.850
+  0.930
+  0.990
+  1.050
+  1.110
+  1.150
+  1.210
+  1.270
+  1.350
+  1.410
+  1.470
+  1.510
+
+Percussion/bells.plastic/bells.plastic.ff.Bb6.stereo.wav
+--------------------------------------------------------
+Onset at   0.067 seconds
+
+False positives:
+  0.170
+  0.230
+  0.290
+  0.350
+  0.390
+  0.450
+  0.510
+
+Percussion/bells.plastic/bells.plastic.ff.C6.stereo.wav
+-------------------------------------------------------
+Onset at   0.134 seconds, delay:  -4ms.
+
+False positives:
+  0.230
+  0.270
+  0.330
+  0.390
+  0.470
+  0.530
+  0.590
+  0.630
+  0.690
+  0.750
+  0.830
+  0.890
+  0.950
+  1.010
+  1.070
+  1.110
+  1.190
+  1.250
+  1.310
+  1.350
+  1.410
+  1.490
+  1.530
+  1.590
+  1.650
+  1.730
+  1.790
+  1.830
+  1.890
+  1.970
+  2.030
+  2.070
+  2.130
+  2.190
+  2.270
+  2.310
+  2.370
+  2.450
+  2.510
+  2.550
+  2.610
+  2.670
+  2.750
+  2.790
+  2.870
+  2.910
+  2.990
+  3.050
+  3.110
+  3.170
+  3.210
+  3.270
+  3.330
+  3.390
+  3.450
+  3.510
+  3.590
+  3.630
+  3.690
+  3.750
+  3.830
+  3.890
+  3.950
+  3.990
+  4.070
+  4.130
+  4.190
+  4.230
+
+Percussion/bells.plastic/bells.plastic.ff.D6.stereo.wav
+-------------------------------------------------------
+Onset at   0.071 seconds
+
+False positives:
+  0.170
+  0.210
+  0.290
+  0.370
+  0.410
+  0.490
+  0.550
+  0.590
+  0.670
+  0.730
+  0.790
+  0.850
+  0.910
+  0.950
+  1.010
+  1.070
+  1.130
+  1.210
+  1.270
+  1.330
+  1.390
+  1.430
+  1.490
+  1.550
+  1.630
+  1.670
+  1.730
+  1.790
+  1.870
+  1.930
+  1.970
+  2.030
+  2.090
+  2.170
+  2.210
+  2.290
+  2.350
+  2.390
+  2.470
+  2.530
+  2.590
+  2.630
+  2.690
+  2.750
+  2.810
+  2.870
+  2.930
+  3.010
+  3.070
+  3.110
+  3.190
+  3.230
+  3.290
+  3.350
+  3.410
+  3.490
+  3.530
+  3.610
+  3.650
+  3.710
+  3.790
+  3.830
+  3.910
+  3.950
+  4.010
+  4.070
+  4.130
+  4.210
+  4.270
+  4.330
+  4.370
+  4.450
+
+Percussion/bells.plastic/bells.plastic.ff.Db6.stereo.wav
+--------------------------------------------------------
+Onset at   0.079 seconds, delay:  -4ms.
+
+False positives:
+  0.170
+  0.210
+  0.290
+  0.370
+  0.410
+  0.470
+  0.530
+  0.610
+  0.670
+  0.730
+  0.770
+  0.830
+  0.890
+  0.950
+  1.010
+  1.070
+  1.130
+  1.190
+  1.250
+  1.330
+  1.390
+  1.430
+  1.490
+  1.550
+  1.630
+  1.670
+  1.730
+  1.810
+  1.850
+  1.930
+  1.990
+  2.030
+  2.110
+  2.150
+  2.210
+  2.290
+  2.330
+  2.410
+  2.470
+  2.530
+  2.590
+  2.650
+  2.690
+  2.770
+  2.830
+  2.870
+  2.930
+  3.010
+  3.050
+  3.130
+  3.170
+  3.230
+  3.310
+  3.350
+  3.430
+  3.490
+  3.550
+  3.590
+  3.650
+  3.730
+  3.790
+
+Percussion/bells.plastic/bells.plastic.ff.E6.stereo.wav
+-------------------------------------------------------
+Onset at   0.081 seconds, delay:  -7ms.
+
+False positives:
+  0.167
+  0.270
+  0.310
+  0.470
+  0.530
+  0.590
+  0.630
+  0.690
+  0.750
+  0.810
+  0.870
+  0.930
+  1.010
+  1.070
+  1.130
+  1.190
+  1.230
+  1.310
+  1.370
+  1.410
+  1.490
+  1.550
+  1.610
+  1.650
+  1.730
+  1.790
+  1.850
+  1.910
+  1.970
+  2.030
+  2.090
+  2.130
+  2.210
+  2.270
+  2.330
+  2.390
+  2.450
+  2.510
+  2.550
+  2.610
+  2.670
+  2.730
+  2.790
+  2.850
+  2.930
+  2.990
+  3.050
+  3.090
+  3.150
+  3.230
+  3.270
+  3.330
+  3.390
+  3.470
+  3.510
+  3.570
+  3.650
+  3.710
+  3.750
+  3.810
+  3.870
+  3.930
+  4.010
+  4.070
+  4.110
+  4.170
+  4.250
+  4.290
+  4.370
+  4.410
+  4.490
+  4.530
+  4.590
+  4.670
+  4.710
+  4.790
+  4.830
+  4.910
+  4.970
+  5.030
+  5.070
+  5.130
+  5.190
+
+Percussion/bells.plastic/bells.plastic.ff.Eb6.stereo.wav
+--------------------------------------------------------
+Onset at   0.080 seconds, delay:  -6ms.
+
+False positives:
+  0.170
+  0.230
+  0.290
+  0.350
+  0.410
+  0.490
+  0.530
+  0.610
+  0.650
+  0.730
+  0.770
+  0.830
+  0.890
+  0.950
+  1.010
+  1.090
+  1.150
+  1.190
+  1.250
+  1.310
+  1.390
+  1.450
+  1.510
+  1.570
+  1.630
+  1.690
+  1.750
+  1.790
+  1.850
+
+Percussion/bells.plastic/bells.plastic.ff.F6.stereo.wav
+-------------------------------------------------------
+Onset at   0.096 seconds, delay: -37ms.
+
+False positives:
+  0.190
+  0.250
+  0.330
+  0.390
+  0.430
+  0.510
+  0.570
+  0.630
+  0.690
+  0.730
+  0.790
+  0.850
+  0.910
+  0.970
+  1.030
+  1.090
+  1.170
+  1.230
+  1.270
+  1.330
+  1.410
+  1.470
+  1.510
+  1.590
+  1.650
+  1.710
+  1.770
+  1.810
+  1.890
+  1.930
+  1.990
+  2.050
+  2.130
+  2.190
+  2.230
+  2.310
+  2.350
+  2.430
+  2.490
+  2.550
+  2.590
+  2.650
+  2.730
+  2.790
+  2.850
+  2.890
+  2.950
+  3.030
+  3.090
+  3.130
+  3.190
+  3.250
+  3.310
+  3.390
+  3.450
+  3.490
+  3.550
+  3.630
+  3.670
+  3.730
+  3.810
+  3.870
+  3.910
+  3.970
+  4.030
+  4.090
+  4.150
+  4.230
+  4.290
+  4.350
+  4.410
+  4.450
+  4.530
+  4.590
+  4.650
+  4.690
+  4.770
+  4.810
+  4.890
+  4.930
+  5.010
+  5.070
+  5.130
+  5.190
+  5.230
+  5.310
+  5.350
+
+Percussion/bells.plastic/bells.plastic.ff.G6.stereo.wav
+-------------------------------------------------------
+Onset at   0.126 seconds
+
+False positives:
+  0.224
+  0.288
+  0.350
+  0.430
+  0.510
+  0.590
+  0.670
+  0.705
+  0.769
+  0.830
+  0.910
+  0.945
+  1.009
+  1.089
+  1.150
+  1.186
+  1.249
+  1.329
+  1.390
+  1.426
+  1.489
+  1.569
+  1.630
+  1.666
+  1.729
+  1.809
+  1.870
+  1.905
+  1.969
+  2.049
+  2.129
+  2.209
+  2.289
+  2.369
+  2.430
+  2.510
+  2.590
+  2.670
+  2.750
+  2.830
+  2.910
+  2.990
+  3.070
+  3.150
+  3.230
+  3.310
+  3.390
+  3.470
+  3.550
+  3.630
+  3.710
+  3.790
+  3.870
+  3.950
+  4.030
+  4.110
+  4.190
+  4.270
+  4.350
+  4.430
+  4.510
+  4.590
+  4.670
+  4.750
+  4.830
+  4.910
+  4.990
+  5.070
+
+Percussion/bells.plastic/bells.plastic.ff.Gb6.stereo.wav
+--------------------------------------------------------
+Onset at   0.096 seconds, delay:  -6ms.
+
+False positives:
+  0.230
+  0.290
+  0.370
+  0.430
+  0.490
+  0.550
+  0.610
+  0.650
+  0.710
+  0.770
+  0.830
+  0.890
+  0.950
+  1.010
+  1.070
+  1.130
+  1.210
+  1.250
+  1.310
+  1.390
+  1.450
+  1.510
+  1.570
+  1.630
+  1.690
+  1.730
+  1.810
+  1.870
+  1.930
+  1.990
+  2.030
+  2.110
+  2.150
+  2.210
+  2.270
+  2.330
+  2.390
+  2.450
+  2.510
+  2.590
+  2.630
+
+Piano_Guitar/Piano/Piano.ff.A6.wav
+----------------------------------
+Onset at   0.494 seconds, delay: -29ms.
+
+False positives:
+  0.570
+  0.630
+  0.710
+  0.770
+  0.842
+
+Piano_Guitar/Piano/Piano.ff.Ab6.wav
+-----------------------------------
+Onset at   0.516 seconds, delay:  -6ms.
+
+False positives:
+  0.630
+  0.690
+  0.730
+  0.870
+  0.930
+  1.010
+  1.070
+  1.130
+  1.170
+  1.230
+  1.290
+
+Piano_Guitar/Piano/Piano.ff.B6.wav
+----------------------------------
+Onset at   0.457 seconds, delay:  -7ms.
+
+False positives:
+  0.610
+  0.665
+  0.730
+
+Piano_Guitar/Piano/Piano.ff.Bb6.wav
+-----------------------------------
+Onset at   0.424 seconds
+
+False positives:
+  0.530
+  0.570
+  0.650
+  0.690
+
+Piano_Guitar/Piano/Piano.ff.C6.wav
+----------------------------------
+Onset at   0.474 seconds, delay:  -9ms.
+
+False positives:
+  0.570
+  0.610
+  0.690
+  0.805
+  0.990
+  1.050
+  1.110
+  1.190
+  1.223
+  1.410
+  1.470
+  1.530
+  1.904
+  2.190
+
+Piano_Guitar/Piano/Piano.ff.D6.wav
+----------------------------------
+Onset at   0.503 seconds, delay:  -9ms.
+
+False positives:
+  0.590
+  0.670
+  0.730
+  0.799
+  1.010
+  1.070
+  1.130
+  1.210
+  1.270
+  1.305
+  1.410
+  1.470
+  1.530
+
+Piano_Guitar/Piano/Piano.ff.Db6.wav
+-----------------------------------
+Onset at   0.572 seconds, delay:  -7ms.
+
+False positives:
+  0.670
+  0.730
+  0.760
+  0.930
+  0.970
+  1.050
+  1.090
+  1.150
+  1.210
+  1.280
+  1.490
+  1.550
+  1.620
+  1.810
+
+Piano_Guitar/Piano/Piano.ff.E6.wav
+----------------------------------
+Onset at   0.499 seconds, delay: -10ms.
+
+False positives:
+  0.610
+  0.670
+  0.710
+  0.814
+  1.030
+  1.110
+  1.170
+  1.230
+  1.270
+  1.325
+  1.410
+  1.470
+  1.550
+  1.610
+  1.670
+  1.730
+  1.910
+  1.990
+
+Piano_Guitar/Piano/Piano.ff.Eb6.wav
+-----------------------------------
+Onset at   0.405 seconds, delay:  -4ms.
+
+False positives:
+  0.510
+  0.570
+  0.610
+  0.730
+  0.790
+  0.870
+  0.910
+  1.010
+  1.070
+  1.150
+  1.190
+  1.270
+  1.410
+  1.590
+
+Piano_Guitar/Piano/Piano.ff.F6.wav
+----------------------------------
+Onset at   0.430 seconds
+
+False positives:
+  0.530
+  0.570
+  0.645
+  0.730
+  0.810
+  0.930
+  0.968
+  1.070
+  1.190
+
+Piano_Guitar/Piano/Piano.ff.G6.wav
+----------------------------------
+Onset at   0.413 seconds, delay:  -3ms.
+
+False positives:
+  0.490
+  0.550
+  0.630
+  0.670
+  0.723
+  0.790
+
+Piano_Guitar/Piano/Piano.ff.Gb6.wav
+-----------------------------------
+Onset at   0.439 seconds
+
+False positives:
+  0.550
+  0.590
+  0.670
+  0.730
+  0.758
+  0.910
+  0.990
+  1.049
+  1.190
+  1.250
+
+Piano_Guitar/Piano/Piano.mf.A6.wav
+----------------------------------
+Onset at   0.204 seconds
+
+False positives:
+  0.310
+
+Piano_Guitar/Piano/Piano.mf.Ab6.wav
+-----------------------------------
+Onset at   0.141 seconds
+
+False positives:
+  0.270
+
+Piano_Guitar/Piano/Piano.mf.B6.wav
+----------------------------------
+Onset at   0.217 seconds, delay:  -7ms.
+All onsets found!
+
+Piano_Guitar/Piano/Piano.mf.Bb6.wav
+-----------------------------------
+Onset at   0.209 seconds
+
+False positives:
+  0.350
+  0.390
+
+Piano_Guitar/Piano/Piano.mf.C6.wav
+----------------------------------
+Onset at   0.301 seconds, delay:  -1ms.
+
+False positives:
+  0.390
+  0.470
+  0.530
+  0.630
+  0.870
+
+Piano_Guitar/Piano/Piano.mf.D6.wav
+----------------------------------
+Onset at   0.249 seconds
+
+False positives:
+  0.330
+  0.410
+
+Piano_Guitar/Piano/Piano.mf.Db6.wav
+-----------------------------------
+Onset at   0.239 seconds, delay:  -2ms.
+
+False positives:
+  0.330
+  0.430
+  0.610
+
+Piano_Guitar/Piano/Piano.mf.E6.wav
+----------------------------------
+Onset at   0.197 seconds, delay:  -8ms.
+
+False positives:
+  0.310
+  0.370
+  0.410
+  0.510
+
+Piano_Guitar/Piano/Piano.mf.Eb6.wav
+-----------------------------------
+Onset at   0.348 seconds
+
+False positives:
+  0.450
+  0.510
+  0.555
+  0.670
+  0.730
+
+Piano_Guitar/Piano/Piano.mf.F6.wav
+----------------------------------
+Onset at   0.208 seconds
+
+False positives:
+  0.310
+  0.350
+  0.411
+  0.510
+
+Piano_Guitar/Piano/Piano.mf.G6.wav
+----------------------------------
+Onset at   0.201 seconds, delay:  -1ms.
+
+False positives:
+  0.290
+
+Piano_Guitar/Piano/Piano.mf.Gb6.wav
+-----------------------------------
+Onset at   0.229 seconds
+
+False positives:
+  0.330
+  0.370
+
+Piano_Guitar/Piano/Piano.pp.A6.wav
+----------------------------------
+
+False negatives:
+  0.170
+
+Piano_Guitar/Piano/Piano.pp.Ab6.wav
+-----------------------------------
+
+False negatives:
+  0.177
+
+Piano_Guitar/Piano/Piano.pp.B6.wav
+----------------------------------
+
+False negatives:
+  0.113
+
+Piano_Guitar/Piano/Piano.pp.Bb6.wav
+-----------------------------------
+
+False negatives:
+  0.289
+
+Piano_Guitar/Piano/Piano.pp.C6.wav
+----------------------------------
+
+False negatives:
+  0.118
+
+Piano_Guitar/Piano/Piano.pp.D6.wav
+----------------------------------
+
+False negatives:
+  0.158
+
+Piano_Guitar/Piano/Piano.pp.Db6.wav
+-----------------------------------
+
+False negatives:
+  0.127
+
+Piano_Guitar/Piano/Piano.pp.E6.wav
+----------------------------------
+Onset at   0.178 seconds
+All onsets found!
+
+Piano_Guitar/Piano/Piano.pp.Eb6.wav
+-----------------------------------
+
+False negatives:
+  0.125
+
+Piano_Guitar/Piano/Piano.pp.F6.wav
+----------------------------------
+
+False negatives:
+  0.164
+
+Piano_Guitar/Piano/Piano.pp.G6.wav
+----------------------------------
+
+False negatives:
+  0.335
+
+Piano_Guitar/Piano/Piano.pp.Gb6.wav
+-----------------------------------
+
+False negatives:
+  0.198
+
+Strings/Viola.arco.ff.sulA/Viola.arco.ff.sulA.A6.stereo.wav
+-----------------------------------------------------------
+Onset at   0.110 seconds, delay: -36ms.
+
+False positives:
+  0.269
+  0.318
+  0.519
+  0.630
+  0.710
+  0.830
+  0.868
+  0.939
+  1.016
+  1.167
+  1.260
+  1.414
+  1.576
+  1.690
+  1.730
+  1.810
+  1.850
+  1.910
+  1.970
+  2.050
+
+Strings/Viola.arco.ff.sulA/Viola.arco.ff.sulA.Ab6.stereo.wav
+------------------------------------------------------------
+Onset at   0.171 seconds, delay: -31ms.
+
+False positives:
+  0.350
+  0.475
+  0.607
+  0.724
+  0.810
+  0.862
+  0.938
+  1.010
+  1.130
+  1.209
+  1.278
+  1.410
+  1.470
+  1.527
+  1.610
+  1.663
+  1.708
+  1.828
+  1.889
+  1.970
+  2.030
+  2.110
+  2.150
+  2.230
+
+Strings/Viola.arco.ff.sulA/Viola.arco.ff.sulA.C6.stereo.wav
+-----------------------------------------------------------
+Onset at   0.146 seconds, delay: -29ms.
+
+False positives:
+  0.398
+  0.490
+  0.541
+  0.606
+  0.750
+  0.888
+  1.150
+  1.220
+  1.410
+  1.445
+  1.550
+  1.573
+  1.650
+  1.697
+  1.810
+  1.850
+  1.910
+  1.970
+
+Strings/Viola.arco.ff.sulA/Viola.arco.ff.sulA.D6.stereo.wav
+-----------------------------------------------------------
+Onset at   0.162 seconds, delay: -43ms.
+
+False positives:
+  0.354
+  0.610
+  0.730
+  0.799
+  0.893
+  0.990
+  1.050
+  1.110
+  1.190
+  1.270
+  1.333
+  1.450
+  1.550
+  1.591
+  1.737
+  1.810
+  1.890
+  1.949
+  2.026
+  2.090
+  2.150
+  2.230
+  2.290
+
+Strings/Viola.arco.ff.sulA/Viola.arco.ff.sulA.Db6.stereo.wav
+------------------------------------------------------------
+Onset at   0.165 seconds, delay: -39ms.
+
+False positives:
+  0.310
+  0.332
+  0.637
+  0.747
+  0.830
+  0.990
+  1.070
+  1.170
+  1.281
+  1.377
+  1.570
+  1.593
+  1.681
+  1.870
+  1.965
+  2.030
+  2.110
+  2.150
+  2.230
+  2.270
+
+Strings/Viola.arco.ff.sulA/Viola.arco.ff.sulA.E6.stereo.wav
+-----------------------------------------------------------
+Onset at   0.177 seconds, delay: -27ms.
+
+False positives:
+  0.352
+  0.530
+  0.602
+  0.762
+  0.876
+  0.970
+  1.060
+  1.150
+  1.230
+  1.304
+  1.384
+  1.470
+  1.538
+  1.607
+  1.690
+  1.720
+  1.794
+  1.898
+  2.010
+  2.070
+  2.130
+  2.190
+
+Strings/Viola.arco.ff.sulA/Viola.arco.ff.sulA.Eb6.stereo.wav
+------------------------------------------------------------
+Onset at   0.231 seconds, delay: -42ms.
+
+False positives:
+  0.390
+  0.647
+  0.850
+  0.950
+  1.050
+  1.142
+  1.250
+  1.330
+  1.445
+  1.555
+  1.790
+  1.886
+  2.066
+  2.190
+  2.310
+  2.350
+  2.430
+
+Strings/Viola.arco.ff.sulA/Viola.arco.ff.sulA.F6.stereo.wav
+-----------------------------------------------------------
+Onset at   0.255 seconds, delay: -14ms.
+
+False positives:
+  0.426
+  0.565
+  0.670
+  0.743
+  0.848
+  0.956
+  1.070
+  1.130
+  1.230
+  1.309
+  1.390
+  1.499
+  1.556
+  1.613
+  1.710
+  1.837
+  1.966
+  2.070
+  2.125
+  2.210
+  2.250
+  2.310
+  2.370
+  2.430
+
+Strings/Viola.arco.ff.sulA/Viola.arco.ff.sulA.G6.stereo.wav
+-----------------------------------------------------------
+Onset at   0.225 seconds, delay: -21ms.
+
+False positives:
+  0.390
+  0.490
+  0.688
+  0.769
+  0.836
+  0.937
+  1.030
+  1.084
+  1.170
+  1.211
+  1.264
+  1.370
+  1.371
+  1.443
+  1.550
+  1.610
+  1.670
+  1.747
+  1.830
+  1.910
+  1.990
+  2.050
+  2.110
+  2.170
+
+Strings/Viola.arco.ff.sulA/Viola.arco.ff.sulA.Gb6.stereo.wav
+------------------------------------------------------------
+Onset at   0.149 seconds, delay: -14ms.
+
+False positives:
+  0.514
+  0.630
+  0.746
+  0.884
+  0.975
+  1.087
+  1.170
+  1.230
+  1.310
+  1.395
+  1.647
+  1.720
+  1.810
+  1.870
+  1.950
+  2.010
+  2.050
+  2.110
+  2.170
+  2.250
+
+Strings/Viola.arco.ff.sulD/Viola.arco.ff.sulD.C6.stereo.wav
+-----------------------------------------------------------
+Onset at   0.266 seconds, delay: -18ms.
+
+False positives:
+  0.370
+  0.393
+  0.502
+  0.582
+  0.691
+  0.794
+  0.989
+  1.082
+  1.370
+  1.451
+  1.543
+  1.624
+  1.685
+  1.770
+  1.890
+  1.950
+  2.030
+  2.047
+  2.158
+  2.270
+  2.350
+  2.410
+  2.490
+  2.530
+  2.610
+  2.670
+  2.710
+  2.761
+
+Strings/Viola.arco.ff.sulD/Viola.arco.ff.sulD.D6.stereo.wav
+-----------------------------------------------------------
+Onset at   0.218 seconds, delay: -46ms.
+
+False positives:
+  0.490
+  0.616
+  0.750
+  0.901
+  1.010
+  1.086
+  1.187
+  1.267
+  1.370
+  1.430
+  1.490
+  1.620
+  1.729
+  1.782
+  1.872
+  2.087
+  2.170
+  2.210
+  2.290
+  2.350
+  2.430
+  2.470
+  2.530
+
+Strings/Viola.arco.ff.sulD/Viola.arco.ff.sulD.Db6.stereo.wav
+------------------------------------------------------------
+Onset at   0.207 seconds, delay: -31ms.
+
+False positives:
+  0.444
+  0.670
+  0.757
+  0.824
+  0.950
+  1.050
+  1.078
+  1.166
+  1.250
+  1.344
+  1.424
+  1.490
+  1.587
+  1.690
+  1.802
+  1.962
+  2.064
+  2.129
+  2.190
+  2.250
+  2.330
+  2.410
+  2.450
+  2.530
+  2.570
+
+Strings/Viola.pizz.ff.sulA/Viola.pizz.ff.sulA.A6.stereo.wav
+-----------------------------------------------------------
+
+False negatives:
+  0.131
+
+False positives:
+  0.073
+  0.210
+  0.290
+  0.350
+  0.390
+
+Strings/Viola.pizz.ff.sulA/Viola.pizz.ff.sulA.Ab6.stereo.wav
+------------------------------------------------------------
+Onset at   0.168 seconds, delay: -20ms.
+
+False positives:
+  0.250
+  0.310
+  0.350
+  0.410
+
+Strings/Viola.pizz.ff.sulA/Viola.pizz.ff.sulA.C6.stereo.wav
+-----------------------------------------------------------
+Onset at   0.195 seconds, delay: -23ms.
+
+False positives:
+  0.290
+  0.350
+  0.410
+  0.450
+  0.510
+
+Strings/Viola.pizz.ff.sulA/Viola.pizz.ff.sulA.D6.stereo.wav
+-----------------------------------------------------------
+Onset at   0.220 seconds, delay: -12ms.
+
+False positives:
+  0.310
+  0.350
+  0.410
+  0.490
+  0.550
+
+Strings/Viola.pizz.ff.sulA/Viola.pizz.ff.sulA.Db6.stereo.wav
+------------------------------------------------------------
+Onset at   0.181 seconds, delay: -44ms.
+
+False positives:
+  0.330
+  0.390
+  0.430
+  0.510
+  0.570
+
+Strings/Viola.pizz.ff.sulA/Viola.pizz.ff.sulA.E6.stereo.wav
+-----------------------------------------------------------
+Onset at   0.176 seconds, delay: -15ms.
+
+False positives:
+  0.250
+  0.310
+  0.390
+  0.450
+  0.510
+
+Strings/Viola.pizz.ff.sulA/Viola.pizz.ff.sulA.Eb6.stereo.wav
+------------------------------------------------------------
+
+False negatives:
+  0.136
+
+False positives:
+  0.080
+  0.210
+  0.290
+  0.330
+
+Strings/Viola.pizz.ff.sulA/Viola.pizz.ff.sulA.F6.stereo.wav
+-----------------------------------------------------------
+Onset at   0.195 seconds, delay: -23ms.
+
+False positives:
+  0.270
+  0.350
+  0.410
+  0.450
+  0.510
+
+Strings/Viola.pizz.ff.sulA/Viola.pizz.ff.sulA.G6.stereo.wav
+-----------------------------------------------------------
+Onset at   0.147 seconds, delay:  -4ms.
+
+False positives:
+  0.230
+  0.290
+  0.350
+  0.410
+
+Strings/Viola.pizz.ff.sulA/Viola.pizz.ff.sulA.Gb6.stereo.wav
+------------------------------------------------------------
+Onset at   0.179 seconds, delay:  -8ms.
+
+False positives:
+  0.270
+  0.330
+  0.370
+  0.430
+  0.490
+
+Strings/Viola.pizz.ff.sulD/Viola.pizz.ff.sulD.C6.stereo.wav
+-----------------------------------------------------------
+Onset at   0.350 seconds, delay:  -6ms.
+
+False positives:
+  0.450
+  0.510
+  0.550
+  0.610
+  0.670
+  0.730
+
+Strings/Viola.pizz.ff.sulD/Viola.pizz.ff.sulD.D6.stereo.wav
+-----------------------------------------------------------
+Onset at   0.203 seconds, delay: -11ms.
+
+False positives:
+  0.290
+  0.350
+  0.390
+  0.450
+  0.510
+
+Strings/Viola.pizz.ff.sulD/Viola.pizz.ff.sulD.Db6.stereo.wav
+------------------------------------------------------------
+Onset at   0.330 seconds
+
+False positives:
+  0.430
+  0.470
+  0.530
+  0.610
+  0.650
+
+Strings/Violin.arco.ff.sulA/Violin.arco.ff.sulA.Ab6.stereo.wav
+--------------------------------------------------------------
+Onset at   0.112 seconds, delay: -39ms.
+
+False positives:
+  0.244
+  0.323
+  0.450
+  0.500
+  0.621
+  0.710
+  0.808
+  0.870
+  0.913
+  0.990
+  1.050
+  1.130
+  1.188
+  1.256
+  1.330
+  1.367
+  1.468
+  1.530
+  1.615
+  1.688
+  1.809
+  1.864
+  1.930
+  1.990
+  2.050
+
+Strings/Violin.arco.ff.sulA/Violin.arco.ff.sulA.C6.stereo.wav
+-------------------------------------------------------------
+Onset at   0.051 seconds, delay: -10ms.
+
+False positives:
+  0.250
+  0.330
+  0.426
+  0.558
+  0.618
+  0.698
+  0.744
+  0.799
+  0.879
+  0.950
+  1.050
+  1.073
+  1.181
+  1.250
+  1.347
+  1.394
+  1.550
+  1.610
+  1.650
+  1.730
+  1.790
+
+Strings/Violin.arco.ff.sulA/Violin.arco.ff.sulA.D6.stereo.wav
+-------------------------------------------------------------
+Onset at   0.054 seconds, delay: -13ms.
+
+False positives:
+  0.239
+  0.350
+  0.408
+  0.492
+  0.710
+  0.810
+  0.879
+  0.970
+  1.031
+  1.125
+  1.202
+  1.290
+  1.350
+  1.377
+  1.485
+  1.750
+  1.790
+  1.870
+  1.910
+  1.990
+
+Strings/Violin.arco.ff.sulA/Violin.arco.ff.sulA.Db6.stereo.wav
+--------------------------------------------------------------
+Onset at   0.022 seconds, delay:   3ms.
+
+False positives:
+  0.190
+  0.199
+  0.290
+  0.362
+  0.450
+  0.510
+  0.551
+  0.604
+  0.706
+  0.810
+  0.910
+  1.003
+  1.104
+  1.212
+  1.389
+  1.450
+  1.496
+  1.590
+  1.650
+  1.710
+
+Strings/Violin.arco.ff.sulA/Violin.arco.ff.sulA.E6.stereo.wav
+-------------------------------------------------------------
+Onset at   0.073 seconds, delay: -14ms.
+
+False positives:
+  0.210
+  0.270
+  0.330
+  0.418
+  0.510
+  0.550
+  0.586
+  0.670
+  0.769
+  0.870
+  0.948
+  1.030
+  1.166
+  1.225
+  1.287
+  1.326
+  1.429
+  1.550
+  1.610
+  1.690
+
+Strings/Violin.arco.ff.sulA/Violin.arco.ff.sulA.Eb6.stereo.wav
+--------------------------------------------------------------
+Onset at   0.033 seconds, delay: -10ms.
+
+False positives:
+  0.182
+  0.298
+  0.430
+  0.513
+  0.621
+  0.724
+  0.800
+  0.990
+  1.050
+  1.110
+  1.151
+  1.220
+  1.396
+  1.650
+  1.710
+  1.750
+  1.810
+
+Strings/Violin.arco.ff.sulA/Violin.arco.ff.sulA.F6.stereo.wav
+-------------------------------------------------------------
+Onset at   0.022 seconds, delay:   2ms.
+
+False positives:
+  0.355
+  0.440
+  0.505
+  0.569
+  0.657
+  0.770
+  0.801
+  0.891
+  1.010
+  1.090
+  1.283
+  1.390
+  1.422
+  1.567
+  1.630
+  1.690
+
+Strings/Violin.arco.ff.sulA/Violin.arco.ff.sulA.G6.stereo.wav
+-------------------------------------------------------------
+Onset at   0.075 seconds, delay:  -2ms.
+
+False positives:
+  0.250
+  0.308
+  0.362
+  0.447
+  0.510
+  0.570
+  0.650
+  0.730
+  0.786
+  0.846
+  0.930
+  0.958
+  1.049
+  1.130
+  1.180
+  1.252
+  1.330
+  1.460
+  1.549
+  1.630
+  1.702
+  1.788
+  1.871
+  1.917
+  1.978
+  2.090
+  2.130
+  2.210
+
+Strings/Violin.arco.ff.sulA/Violin.arco.ff.sulA.Gb6.stereo.wav
+--------------------------------------------------------------
+Onset at   0.125 seconds, delay:  -2ms.
+
+False positives:
+  0.270
+  0.330
+  0.395
+  0.474
+  0.536
+  0.598
+  0.670
+  0.750
+  0.778
+  0.879
+  0.970
+  1.053
+  1.156
+  1.250
+  1.330
+  1.366
+  1.565
+  1.630
+  1.690
+  1.741
+  1.830
+  1.927
+  2.041
+  2.150
+  2.190
+  2.270
+  2.330
+  2.390
+
+Strings/Violin.arco.ff.sulD/Violin.arco.ff.sulD.C6.stereo.wav
+-------------------------------------------------------------
+Onset at   0.124 seconds, delay:  -6ms.
+
+False positives:
+  0.407
+  0.598
+  0.690
+  0.790
+  0.850
+  0.947
+  0.992
+  1.110
+  1.150
+  1.230
+  1.290
+
+Strings/Violin.arco.ff.sulE/Violin.arco.ff.sulE.A6.stereo.wav
+-------------------------------------------------------------
+Onset at   0.068 seconds, delay: -14ms.
+
+False positives:
+  0.268
+  0.349
+  0.430
+  0.466
+  0.580
+  0.670
+  0.759
+  0.890
+  1.090
+  1.190
+  1.301
+  1.396
+  1.523
+  1.602
+  1.690
+  1.770
+  1.810
+  1.867
+  2.150
+  2.200
+  2.330
+  2.365
+  2.450
+  2.510
+  2.570
+
+Strings/Violin.arco.ff.sulE/Violin.arco.ff.sulE.Ab6.stereo.wav
+--------------------------------------------------------------
+Onset at   0.070 seconds, delay: -14ms.
+
+False positives:
+  0.301
+  0.410
+  0.488
+  0.590
+  0.690
+  0.730
+  0.790
+  0.836
+  0.950
+  0.994
+  1.130
+  1.230
+  1.310
+  1.410
+  1.477
+  1.543
+  1.661
+  1.770
+  1.850
+  1.964
+  2.081
+  2.170
+  2.193
+  2.414
+  2.541
+  2.630
+  2.690
+  2.810
+  2.850
+  2.930
+  2.970
+  3.050
+
+Strings/Violin.arco.ff.sulE/Violin.arco.ff.sulE.B6.stereo.wav
+-------------------------------------------------------------
+Onset at   0.050 seconds, delay: -27ms.
+
+False positives:
+  0.170
+  0.308
+  0.417
+  0.550
+  0.590
+  0.686
+  0.786
+  0.869
+  0.990
+  1.070
+  1.166
+  1.250
+  1.288
+  1.369
+  1.470
+  1.548
+  1.666
+  1.748
+  1.806
+  1.930
+  2.029
+  2.110
+  2.170
+  2.230
+  2.310
+  2.350
+  2.480
+  2.570
+  2.684
+  2.790
+  2.870
+  2.927
+  3.050
+
+Strings/Violin.arco.ff.sulE/Violin.arco.ff.sulE.Bb6.stereo.wav
+--------------------------------------------------------------
+Onset at   0.062 seconds, delay: -11ms.
+
+False positives:
+  0.190
+  0.250
+  0.349
+  0.430
+  0.490
+  0.613
+  0.922
+  0.988
+  1.050
+  1.104
+  1.182
+  1.322
+  1.410
+  1.505
+  1.603
+  1.690
+  1.770
+  1.830
+  1.910
+  1.970
+  2.066
+  2.178
+  2.270
+  2.308
+  2.375
+  2.459
+  2.587
+  2.665
+  2.763
+  2.870
+  2.950
+  2.990
+  3.070
+
+Strings/Violin.arco.ff.sulE/Violin.arco.ff.sulE.C6.stereo.wav
+-------------------------------------------------------------
+Onset at   0.096 seconds, delay:  -9ms.
+
+False positives:
+  0.350
+  0.430
+  0.470
+  0.550
+  0.625
+  0.724
+  0.787
+  1.024
+  1.129
+  1.350
+  1.443
+  1.552
+  1.666
+  1.750
+  1.882
+  1.970
+  2.031
+  2.130
+  2.210
+  2.290
+  2.402
+  2.500
+  2.568
+  2.650
+  2.727
+  2.790
+  2.870
+  2.930
+  2.997
+  3.110
+  3.190
+  3.270
+
+Strings/Violin.arco.ff.sulE/Violin.arco.ff.sulE.D6.stereo.wav
+-------------------------------------------------------------
+
+False negatives:
+  0.056
+
+Strings/Violin.arco.ff.sulE/Violin.arco.ff.sulE.Db6.stereo.wav
+--------------------------------------------------------------
+Onset at   0.077 seconds, delay: -16ms.
+
+False positives:
+  0.270
+  0.330
+  0.410
+  0.450
+  0.524
+  0.710
+  0.830
+  0.930
+  0.956
+  1.050
+  1.170
+  1.250
+  1.310
+  1.350
+  1.430
+  1.510
+  1.609
+  1.730
+  1.768
+  1.828
+  1.873
+  1.950
+  2.092
+  2.210
+  2.250
+  2.346
+  2.417
+  2.509
+  2.570
+  2.608
+  2.719
+  2.873
+  2.932
+  3.030
+  3.070
+  3.130
+  3.169
+  3.250
+  3.310
+
+Strings/Violin.arco.ff.sulE/Violin.arco.ff.sulE.E6.stereo.wav
+-------------------------------------------------------------
+Onset at   0.049 seconds, delay:  -5ms.
+
+False positives:
+  0.270
+  0.330
+  0.430
+  0.530
+  0.594
+  0.729
+  0.960
+  1.050
+  1.110
+  1.128
+  1.229
+  1.337
+  1.430
+  1.526
+  1.610
+  1.830
+  1.890
+  1.922
+  2.171
+  2.358
+  2.490
+  2.592
+  2.670
+  2.730
+  2.810
+  2.850
+
+Strings/Violin.arco.ff.sulE/Violin.arco.ff.sulE.Eb6.stereo.wav
+--------------------------------------------------------------
+Onset at   0.052 seconds, delay: -11ms.
+All onsets found!
+
+Strings/Violin.arco.ff.sulE/Violin.arco.ff.sulE.F6.stereo.wav
+-------------------------------------------------------------
+Onset at   0.086 seconds, delay: -24ms.
+
+False positives:
+  0.248
+  0.310
+  0.390
+  0.470
+  0.570
+  0.678
+  0.814
+  0.930
+  1.020
+  1.128
+  1.209
+  1.304
+  1.389
+  1.470
+  1.535
+  1.620
+  1.710
+  1.780
+  1.870
+  1.930
+  2.012
+  2.090
+  2.250
+  2.320
+  2.393
+  2.444
+  2.511
+  2.610
+  2.805
+  2.950
+  3.030
+  3.090
+  3.170
+
+Strings/Violin.arco.ff.sulE/Violin.arco.ff.sulE.G6.stereo.wav
+-------------------------------------------------------------
+Onset at   0.072 seconds, delay: -20ms.
+
+False positives:
+  0.270
+  0.318
+  0.642
+  0.730
+  0.830
+  0.967
+  1.030
+  1.110
+  1.170
+  1.290
+  1.370
+  1.430
+  1.519
+  1.650
+  1.730
+  1.830
+  1.908
+  2.018
+  2.130
+  2.170
+  2.270
+  2.302
+  2.386
+  2.567
+  2.630
+  2.710
+  2.750
+
+Strings/Violin.arco.ff.sulE/Violin.arco.ff.sulE.Gb6.stereo.wav
+--------------------------------------------------------------
+Onset at   0.059 seconds, delay:  -9ms.
+
+False positives:
+  0.210
+  0.290
+  0.341
+  0.582
+  0.890
+  0.946
+  1.046
+  1.150
+  1.230
+  1.255
+  1.370
+  1.430
+  1.490
+  1.630
+  1.690
+  1.712
+  1.764
+  1.845
+  1.902
+  2.008
+  2.150
+  2.190
+  2.270
+  2.348
+  2.490
+  2.638
+  2.750
+  2.828
+  2.910
+  2.970
+  3.050
+  3.110
+
+Strings/Violin.pizz.ff.sulA/Violin.pizz.ff.sulA.C6.stereo.wav
+-------------------------------------------------------------
+Onset at   0.087 seconds, delay: -25ms.
+
+False positives:
+  0.230
+  0.290
+  0.350
+  0.410
+
+Strings/Violin.pizz.ff.sulA/Violin.pizz.ff.sulA.D6.stereo.wav
+-------------------------------------------------------------
+Onset at   0.053 seconds, delay: -10ms.
+
+False positives:
+  0.150
+  0.190
+  0.250
+  0.330
+  0.370
+
+Strings/Violin.pizz.ff.sulA/Violin.pizz.ff.sulA.Db6.stereo.wav
+--------------------------------------------------------------
+Onset at   0.073 seconds, delay: -19ms.
+
+False positives:
+  0.170
+  0.230
+  0.290
+  0.350
+  0.410
+
+Strings/Violin.pizz.ff.sulA/Violin.pizz.ff.sulA.E6.stereo.wav
+-------------------------------------------------------------
+Onset at   0.078 seconds, delay: -24ms.
+
+False positives:
+  0.170
+  0.230
+  0.270
+  0.350
+  0.410
+  0.450
+
+Strings/Violin.pizz.ff.sulA/Violin.pizz.ff.sulA.Eb6.stereo.wav
+--------------------------------------------------------------
+
+False negatives:
+  0.127
+
+False positives:
+  0.055
+  0.230
+  0.290
+  0.330
+
+Strings/Violin.pizz.ff.sulA/Violin.pizz.ff.sulA.F6.stereo.wav
+-------------------------------------------------------------
+
+False negatives:
+  0.119
+
+False positives:
+  0.060
+  0.270
+  0.310
+  0.370
+  0.450
+
+Strings/Violin.pizz.ff.sulD/Violin.pizz.ff.sulD.C6.stereo.wav
+-------------------------------------------------------------
+Onset at   0.042 seconds, delay:  -4ms.
+
+False positives:
+  0.130
+  0.170
+  0.230
+
+Strings/Violin.pizz.ff.sulE/Violin.pizz.ff.sulE.A6.stereo.wav
+-------------------------------------------------------------
+Onset at   0.005 seconds, delay:  45ms.
+
+False positives:
+  0.110
+  0.150
+
+Strings/Violin.pizz.ff.sulE/Violin.pizz.ff.sulE.Ab6.stereo.wav
+--------------------------------------------------------------
+Onset at   0.015 seconds, delay:  15ms.
+
+False positives:
+  0.090
+
+Strings/Violin.pizz.ff.sulE/Violin.pizz.ff.sulE.B6.stereo.wav
+-------------------------------------------------------------
+Onset at   0.004 seconds, delay:  46ms.
+All onsets found!
+
+Strings/Violin.pizz.ff.sulE/Violin.pizz.ff.sulE.Bb6.stereo.wav
+--------------------------------------------------------------
+Onset at   0.008 seconds, delay:  42ms.
+All onsets found!
+
+Strings/Violin.pizz.ff.sulE/Violin.pizz.ff.sulE.C6.stereo.wav
+-------------------------------------------------------------
+Onset at   0.024 seconds, delay:  -2ms.
+
+False positives:
+  0.110
+
+Strings/Violin.pizz.ff.sulE/Violin.pizz.ff.sulE.D6.stereo.wav
+-------------------------------------------------------------
+Onset at   0.017 seconds, delay:  11ms.
+All onsets found!
+
+Strings/Violin.pizz.ff.sulE/Violin.pizz.ff.sulE.Db6.stereo.wav
+--------------------------------------------------------------
+Onset at   0.019 seconds, delay:   1ms.
+All onsets found!
+
+Strings/Violin.pizz.ff.sulE/Violin.pizz.ff.sulE.E6.stereo.wav
+-------------------------------------------------------------
+Onset at   0.013 seconds, delay:  17ms.
+All onsets found!
+
+Strings/Violin.pizz.ff.sulE/Violin.pizz.ff.sulE.Eb6.stereo.wav
+--------------------------------------------------------------
+Onset at   0.014 seconds, delay:  16ms.
+All onsets found!
+
+Strings/Violin.pizz.ff.sulE/Violin.pizz.ff.sulE.F6.stereo.wav
+-------------------------------------------------------------
+
+False negatives:
+  0.010
+
+Strings/Violin.pizz.ff.sulE/Violin.pizz.ff.sulE.G6.stereo.wav
+-------------------------------------------------------------
+Onset at   0.014 seconds, delay:  16ms.
+All onsets found!
+
+Strings/Violin.pizz.ff.sulE/Violin.pizz.ff.sulE.Gb6.stereo.wav
+--------------------------------------------------------------
+
+False negatives:
+  0.006
+
+Woodwind/AltoFlute.vib.ff/AltoFlute.vib.ff.C6.stereo.wav
+--------------------------------------------------------
+Onset at   0.053 seconds, delay: -10ms.
+
+False positives:
+  0.326
+  0.430
+  0.453
+  0.511
+  0.630
+  0.687
+  0.738
+  0.870
+  0.970
+  1.090
+  1.130
+  1.173
+  1.310
+  1.390
+  1.430
+  1.546
+  1.752
+  1.862
+  1.964
+  2.050
+  2.131
+  2.250
+  2.330
+  2.370
+  2.430
+  2.510
+
+Woodwind/AltoFlute.vib.ff/AltoFlute.vib.ff.D6.stereo.wav
+--------------------------------------------------------
+Onset at   0.060 seconds, delay: -11ms.
+
+False positives:
+  0.188
+  0.270
+  0.550
+  0.606
+  0.850
+  0.893
+  0.990
+  1.070
+  1.094
+  1.210
+  1.303
+  1.390
+  1.450
+  1.530
+  1.590
+  1.699
+  1.830
+  1.908
+  2.050
+  2.086
+  2.167
+  2.350
+  2.450
+  2.481
+  2.590
+
+Woodwind/AltoFlute.vib.ff/AltoFlute.vib.ff.Db6.stereo.wav
+---------------------------------------------------------
+Onset at   0.045 seconds, delay: -22ms.
+
+False positives:
+  0.428
+  0.750
+  0.827
+  0.990
+  1.061
+  1.120
+  1.230
+  1.294
+  1.450
+  1.510
+  1.630
+  1.730
+  1.850
+  1.938
+  2.050
+  2.110
+  2.210
+  2.250
+  2.350
+  2.430
+  2.470
+  2.550
+  2.590
+
+Woodwind/AltoFlute.vib.ff/AltoFlute.vib.ff.Eb6.stereo.wav
+---------------------------------------------------------
+Onset at   0.054 seconds, delay: -10ms.
+
+False positives:
+  0.218
+  0.409
+  0.510
+  0.590
+  0.650
+  0.710
+  0.790
+  0.838
+  1.010
+  1.058
+  1.138
+  1.263
+  1.374
+  1.469
+  1.525
+  1.578
+  1.681
+  1.770
+  1.879
+  1.982
+  2.088
+  2.210
+  2.288
+  2.410
+  2.490
+
+Woodwind/AltoFlute.vib.ff/AltoFlute.vib.ff.F6.stereo.wav
+--------------------------------------------------------
+Onset at   0.071 seconds, delay: -29ms.
+
+False positives:
+  0.190
+  0.303
+  0.410
+  0.461
+  0.630
+  0.703
+  0.934
+  1.180
+  1.220
+  1.336
+  1.387
+  1.467
+  1.570
+  1.605
+  1.690
+  1.750
+  1.802
+  1.910
+  1.990
+  2.070
+  2.128
+  2.210
+  2.287
+  2.390
+  2.430
+  2.490
+
+Woodwind/AltoFlute.vib.ff/AltoFlute.vib.ff.G6.stereo.wav
+--------------------------------------------------------
+
+False negatives:
+  0.084
+
+False positives:
+  0.025
+  0.547
+  0.650
+  0.710
+  0.790
+  0.870
+  0.930
+  1.010
+  1.070
+  1.180
+  1.290
+  1.361
+  1.470
+  1.550
+  1.576
+  1.775
+  1.866
+  1.986
+  2.130
+  2.190
+  2.410
+  2.510
+  2.570
+  2.630
+
+Woodwind/AltoFlute.vib.ff/AltoFlute.vib.ff.Gb6.stereo.wav
+---------------------------------------------------------
+
+False negatives:
+  0.083
+
+False positives:
+  0.022
+  0.250
+  0.310
+  0.350
+  0.430
+  0.530
+  0.558
+  0.689
+  0.913
+  1.007
+  1.128
+  1.204
+  1.350
+  1.395
+  1.510
+  1.533
+  1.710
+  1.822
+  1.910
+  1.965
+  2.099
+  2.201
+  2.290
+  2.350
+  2.430
+  2.490
+  2.564
+  2.650
+  2.690
+  2.750
+
+Woodwind/BassFlute.ff/BassFlute.ff.C6.stereo.wav
+------------------------------------------------
+
+False negatives:
+  0.132
+
+False positives:
+  0.063
+  0.475
+  0.590
+  0.670
+  0.810
+  0.890
+  0.938
+  1.030
+  1.110
+  1.170
+  1.203
+  1.350
+  1.450
+  1.465
+  1.558
+  1.633
+  1.710
+  1.763
+  1.870
+  1.930
+  1.983
+  2.110
+  2.150
+  2.210
+  2.296
+  2.370
+  2.430
+
+Woodwind/BassFlute.ff/BassFlute.ff.Db6.stereo.wav
+-------------------------------------------------
+
+False negatives:
+  0.221
+
+False positives:
+  0.052
+  0.430
+  0.507
+  0.610
+  0.680
+  0.770
+  0.810
+  0.925
+  0.990
+  1.070
+  1.090
+  1.196
+  1.310
+  1.428
+  1.490
+  1.550
+  1.610
+  1.790
+  1.827
+  1.930
+  1.990
+  2.066
+  2.135
+  2.230
+  2.310
+  2.350
+  2.410
+
+Woodwind/BbClarinet.ff/BbClarinet.ff.A6.stereo.wav
+--------------------------------------------------
+
+False negatives:
+  0.293
+
+False positives:
+  0.210
+  0.448
+  0.574
+  0.670
+  0.725
+  0.830
+  0.929
+  1.070
+  1.249
+  1.390
+  1.509
+  1.610
+  1.730
+  1.786
+  1.850
+  1.930
+  2.049
+  2.170
+  2.270
+  2.350
+  2.390
+  2.450
+  2.510
+  2.570
+
+Woodwind/BbClarinet.ff/BbClarinet.ff.Ab6.stereo.wav
+---------------------------------------------------
+
+False negatives:
+  0.368
+
+False positives:
+  0.274
+  0.464
+  0.625
+  0.708
+  0.827
+  0.927
+  0.990
+  1.170
+  1.227
+  1.286
+  1.410
+  1.469
+  1.530
+  1.600
+  1.686
+  1.786
+  1.850
+  1.910
+  1.987
+  2.070
+  2.146
+  2.207
+  2.287
+  2.349
+  2.388
+  2.470
+
+Woodwind/BbClarinet.ff/BbClarinet.ff.B6.stereo.wav
+--------------------------------------------------
+
+False negatives:
+  0.266
+
+False positives:
+  0.163
+  0.370
+  0.470
+  0.530
+  0.590
+  0.690
+  0.990
+  1.329
+  1.429
+  1.550
+  1.670
+  1.769
+  1.849
+  1.930
+  2.009
+  2.090
+  2.150
+  2.270
+  2.310
+  2.389
+  2.450
+  2.530
+
+Woodwind/BbClarinet.ff/BbClarinet.ff.Bb6.stereo.wav
+---------------------------------------------------
+Onset at   0.256 seconds, delay: -25ms.
+
+False positives:
+  0.403
+  0.499
+  0.650
+  0.730
+  0.810
+  0.856
+  0.930
+  1.010
+  1.108
+  1.167
+  1.270
+  1.350
+  1.430
+  1.509
+  1.610
+  1.650
+  1.710
+  1.810
+  1.850
+  1.910
+  1.970
+  2.029
+  2.090
+  2.150
+  2.210
+  2.290
+  2.329
+  2.390
+  2.449
+  2.530
+  2.590
+
+Woodwind/BbClarinet.ff/BbClarinet.ff.C6.stereo.wav
+--------------------------------------------------
+
+False negatives:
+  0.341
+
+False positives:
+  0.285
+  0.565
+  0.738
+  0.870
+  0.950
+  1.010
+  1.109
+  1.230
+  1.330
+  1.430
+  1.541
+  1.630
+  1.730
+  1.830
+  1.870
+  1.930
+  1.990
+  2.070
+  2.130
+  2.159
+  2.250
+  2.290
+  2.350
+  2.410
+  2.490
+  2.550
+
+Woodwind/BbClarinet.ff/BbClarinet.ff.D6.stereo.wav
+--------------------------------------------------
+
+False negatives:
+  0.482
+
+False positives:
+  0.335
+  0.750
+  0.850
+  0.909
+  1.050
+  1.164
+  1.350
+  1.390
+  1.446
+  1.590
+  1.730
+  1.840
+  1.950
+  2.050
+  2.130
+  2.210
+  2.270
+  2.330
+  2.390
+  2.450
+  2.530
+  2.570
+  2.650
+  2.690
+
+Woodwind/BbClarinet.ff/BbClarinet.ff.Db6.stereo.wav
+---------------------------------------------------
+
+False negatives:
+  0.296
+
+False positives:
+  0.185
+  0.451
+  0.539
+  0.620
+  0.706
+  0.784
+  0.889
+  0.979
+  1.090
+  1.170
+  1.236
+  1.336
+  1.430
+  1.490
+  1.570
+  1.690
+  1.770
+  1.830
+  1.890
+  1.930
+  2.030
+  2.070
+  2.130
+  2.210
+  2.250
+  2.330
+
+Woodwind/BbClarinet.ff/BbClarinet.ff.E6.stereo.wav
+--------------------------------------------------
+
+False negatives:
+  0.143
+
+False positives:
+  0.072
+  0.282
+  0.367
+  0.450
+  0.502
+  0.670
+  0.698
+  0.830
+  0.950
+  1.025
+  1.130
+  1.230
+  1.350
+  1.450
+  1.489
+  1.570
+  1.650
+  1.690
+  1.770
+  1.810
+  1.890
+  1.970
+  2.010
+  2.070
+  2.130
+  2.210
+  2.250
+  2.310
+
+Woodwind/BbClarinet.ff/BbClarinet.ff.Eb6.stereo.wav
+---------------------------------------------------
+
+False negatives:
+  0.280
+
+False positives:
+  0.173
+  0.470
+  0.550
+  0.582
+  0.670
+  0.750
+  0.810
+  0.890
+  0.950
+  1.018
+  1.090
+  1.209
+  1.270
+  1.350
+  1.381
+  1.461
+  1.598
+  1.710
+  1.810
+  1.930
+  2.010
+  2.090
+  2.150
+  2.230
+  2.270
+  2.330
+
+Woodwind/BbClarinet.ff/BbClarinet.ff.F6.stereo.wav
+--------------------------------------------------
+
+False negatives:
+  0.523
+
+False positives:
+  0.455
+  0.770
+  0.843
+  0.910
+  0.984
+  1.070
+  1.190
+  1.290
+  1.410
+  1.510
+  1.610
+  1.730
+  1.810
+  1.950
+  2.010
+  2.090
+  2.210
+  2.290
+  2.370
+  2.410
+  2.470
+
+Woodwind/BbClarinet.ff/BbClarinet.ff.G6.stereo.wav
+--------------------------------------------------
+Onset at   0.674 seconds, delay: -30ms.
+
+False positives:
+  0.830
+  0.910
+  1.010
+  1.060
+  1.167
+  1.310
+  1.430
+  1.550
+  1.650
+  1.750
+  1.805
+  1.964
+  2.074
+  2.189
+  2.292
+  2.390
+  2.486
+  2.550
+  2.610
+  2.670
+
+Woodwind/BbClarinet.ff/BbClarinet.ff.Gb6.stereo.wav
+---------------------------------------------------
+
+False negatives:
+  0.403
+
+False positives:
+  0.348
+  0.510
+  0.598
+  0.670
+  0.730
+  0.810
+  0.858
+  1.010
+  1.090
+  1.240
+  1.330
+  1.390
+  1.450
+  1.550
+  1.670
+  1.770
+  1.870
+  1.970
+  2.030
+  2.110
+  2.190
+  2.250
+  2.310
+  2.390
+  2.450
+  2.510
+
+Woodwind/EbClarinet.ff/EbClarinet.ff.A6.stereo.wav
+--------------------------------------------------
+
+False negatives:
+  0.175
+
+False positives:
+  0.115
+  0.289
+  0.519
+  0.618
+  0.710
+  0.826
+  0.910
+  0.998
+  1.104
+  1.190
+  1.270
+  1.357
+  1.450
+  1.550
+  1.630
+  1.690
+  1.760
+  1.830
+  1.890
+
+Woodwind/EbClarinet.ff/EbClarinet.ff.Ab6.stereo.wav
+---------------------------------------------------
+
+False negatives:
+  0.132
+
+False positives:
+  0.070
+  0.265
+  0.389
+  0.490
+  0.548
+  0.659
+  0.745
+  0.845
+  0.987
+  1.068
+  1.145
+  1.228
+  1.324
+  1.427
+  1.529
+  1.628
+  1.750
+  1.800
+  1.910
+  1.950
+
+Woodwind/EbClarinet.ff/EbClarinet.ff.C6.stereo.wav
+--------------------------------------------------
+
+False negatives:
+  0.153
+
+False positives:
+  0.051
+  0.350
+  0.390
+  0.690
+  0.850
+  0.910
+  0.990
+  1.030
+  1.110
+  1.210
+  1.270
+  1.383
+  1.442
+  1.510
+  1.601
+  1.670
+  1.730
+  1.810
+  1.870
+  1.950
+  2.010
+  2.090
+  2.150
+  2.210
+
+Woodwind/EbClarinet.ff/EbClarinet.ff.D6.stereo.wav
+--------------------------------------------------
+
+False negatives:
+  0.127
+
+False positives:
+  0.074
+  0.333
+  0.418
+  0.490
+  0.554
+  0.661
+  0.768
+  0.907
+  0.970
+  1.047
+  1.130
+  1.190
+  1.230
+  1.310
+  1.350
+  1.457
+  1.542
+  1.650
+  1.750
+  1.790
+  1.850
+  1.910
+
+Woodwind/EbClarinet.ff/EbClarinet.ff.Db6.stereo.wav
+---------------------------------------------------
+Onset at   0.152 seconds, delay: -34ms.
+
+False positives:
+  0.330
+  0.378
+  0.470
+  0.530
+  0.569
+  0.650
+  0.688
+  0.784
+  0.949
+  1.049
+  1.130
+  1.250
+  1.330
+  1.449
+  1.530
+  1.630
+  1.710
+  1.810
+  1.870
+  1.985
+  2.070
+  2.150
+  2.210
+
+Woodwind/EbClarinet.ff/EbClarinet.ff.E6.stereo.wav
+--------------------------------------------------
+Onset at   0.148 seconds, delay:  -9ms.
+
+False positives:
+  0.378
+  0.470
+  0.530
+  0.646
+  0.730
+  0.830
+  0.892
+  0.969
+  1.030
+  1.130
+  1.190
+  1.330
+  1.410
+  1.470
+  1.530
+  1.610
+  1.650
+  1.804
+  1.890
+  1.930
+  2.010
+  2.070
+
+Woodwind/EbClarinet.ff/EbClarinet.ff.Eb6.stereo.wav
+---------------------------------------------------
+
+False negatives:
+  0.142
+
+False positives:
+  0.064
+  0.290
+  0.370
+  0.423
+  0.539
+  0.670
+  0.750
+  0.830
+  0.857
+  0.930
+  1.010
+  1.110
+  1.170
+  1.210
+  1.270
+  1.350
+  1.410
+  1.490
+  1.570
+  1.729
+  1.810
+  1.910
+  1.990
+  2.050
+  2.090
+
+Woodwind/EbClarinet.ff/EbClarinet.ff.F6.stereo.wav
+--------------------------------------------------
+
+False negatives:
+  0.128
+
+False positives:
+  0.070
+  0.270
+  0.370
+  0.470
+  0.610
+  0.791
+  0.990
+  1.090
+  1.189
+  1.304
+  1.390
+  1.490
+  1.570
+  1.610
+  1.730
+  1.770
+  1.830
+
+Woodwind/EbClarinet.ff/EbClarinet.ff.G6.stereo.wav
+--------------------------------------------------
+
+False negatives:
+  0.157
+
+False positives:
+  0.071
+  0.270
+  0.402
+  0.468
+  0.530
+  0.610
+  0.702
+  0.790
+  0.870
+  0.930
+  1.106
+  1.230
+  1.550
+  1.730
+  1.800
+  1.870
+  1.950
+  1.990
+  2.050
+
+Woodwind/EbClarinet.ff/EbClarinet.ff.Gb6.stereo.wav
+---------------------------------------------------
+
+False negatives:
+  0.125
+
+False positives:
+  0.067
+  0.426
+  0.510
+  0.590
+  0.670
+  0.730
+  0.810
+  0.870
+  0.949
+  1.030
+  1.090
+  1.150
+  1.290
+  1.570
+  1.650
+  1.830
+  1.910
+  1.990
+  2.070
+  2.130
+
+Woodwind/Flute.nonvib.ff/Flute.nonvib.ff.A6.stereo.wav
+------------------------------------------------------
+Onset at   0.054 seconds, delay: -17ms.
+
+False positives:
+  0.170
+  0.209
+  0.290
+  0.469
+  0.550
+  0.589
+  0.769
+  0.870
+  0.990
+  1.150
+  1.270
+  1.389
+  1.469
+  1.570
+  1.690
+  1.750
+  1.978
+  2.090
+  2.130
+
+Woodwind/Flute.nonvib.ff/Flute.nonvib.ff.Ab6.stereo.wav
+-------------------------------------------------------
+Onset at   0.058 seconds, delay: -37ms.
+
+False positives:
+  0.150
+  0.250
+  0.369
+  0.430
+  0.550
+  0.630
+  0.750
+  0.810
+  0.930
+  1.050
+  1.130
+  1.190
+  1.250
+  1.350
+  1.429
+  1.550
+  1.629
+  1.710
+  1.830
+  1.930
+  1.970
+  2.050
+
+Woodwind/Flute.nonvib.ff/Flute.nonvib.ff.B6.stereo.wav
+------------------------------------------------------
+
+False negatives:
+  0.112
+
+False positives:
+  0.030
+  0.230
+  0.270
+  0.370
+  0.430
+  0.510
+  0.565
+  0.650
+  0.730
+  0.830
+  0.930
+  0.970
+  1.030
+  1.130
+  1.250
+  1.350
+  1.510
+  1.570
+  1.730
+  1.790
+  1.866
+  2.010
+  2.130
+  2.230
+  2.290
+  2.370
+
+Woodwind/Flute.nonvib.ff/Flute.nonvib.ff.Bb6.stereo.wav
+-------------------------------------------------------
+Onset at   0.052 seconds, delay: -28ms.
+
+False positives:
+  0.150
+  0.230
+  0.430
+  0.549
+  0.649
+  0.750
+  0.810
+  0.850
+  0.966
+  1.069
+  1.210
+  1.290
+  1.489
+  1.570
+  1.670
+  1.770
+  1.870
+  1.949
+  2.010
+  2.070
+  2.129
+  2.190
+  2.250
+  2.330
+
+Woodwind/Flute.nonvib.ff/Flute.nonvib.ff.C6.stereo.wav
+------------------------------------------------------
+Onset at   0.050 seconds, delay: -28ms.
+
+False positives:
+  0.316
+  0.429
+  0.499
+  0.610
+  0.705
+  0.800
+  0.906
+  1.009
+  1.110
+  1.210
+  1.290
+  1.409
+  1.484
+  1.569
+  1.657
+  1.750
+  1.830
+  1.870
+  1.950
+
+Woodwind/Flute.nonvib.ff/Flute.nonvib.ff.D6.stereo.wav
+------------------------------------------------------
+Onset at   0.077 seconds, delay: -34ms.
+
+False positives:
+  0.234
+  0.346
+  0.550
+  0.648
+  0.744
+  0.848
+  0.930
+  1.010
+  1.070
+  1.130
+  1.228
+  1.330
+  1.430
+  1.470
+  1.519
+  1.626
+  1.698
+  1.790
+  1.870
+  1.950
+  2.030
+  2.052
+  2.150
+  2.230
+  2.270
+  2.330
+
+Woodwind/Flute.nonvib.ff/Flute.nonvib.ff.Db6.stereo.wav
+-------------------------------------------------------
+Onset at   0.052 seconds, delay: -23ms.
+
+False positives:
+  0.167
+  0.250
+  0.360
+  0.430
+  0.530
+  0.570
+  0.630
+  0.668
+  0.770
+  0.863
+  0.967
+  1.050
+  1.150
+  1.230
+  1.250
+  1.350
+  1.574
+  1.670
+  1.730
+  1.770
+  1.830
+
+Woodwind/Flute.nonvib.ff/Flute.nonvib.ff.E6.stereo.wav
+------------------------------------------------------
+Onset at   0.053 seconds, delay: -16ms.
+
+False positives:
+  0.176
+  0.282
+  0.370
+  0.470
+  0.527
+  0.650
+  0.747
+  0.850
+  0.944
+  1.030
+  1.190
+  1.290
+  1.350
+  1.430
+  1.483
+  1.607
+  1.730
+  1.810
+  1.908
+  1.990
+  2.050
+  2.110
+
+Woodwind/Flute.nonvib.ff/Flute.nonvib.ff.Eb6.stereo.wav
+-------------------------------------------------------
+Onset at   0.050 seconds, delay: -13ms.
+
+False positives:
+  0.150
+  0.210
+  0.290
+  0.330
+  0.390
+  0.470
+  0.530
+  0.570
+  0.670
+  0.730
+  0.790
+  0.910
+  0.950
+  1.030
+  1.072
+  1.195
+  1.290
+  1.361
+  1.490
+  1.584
+  1.670
+  1.750
+  1.810
+  1.828
+  1.930
+
+Woodwind/Flute.nonvib.ff/Flute.nonvib.ff.F6.stereo.wav
+------------------------------------------------------
+Onset at   0.054 seconds, delay: -15ms.
+
+False positives:
+  0.184
+  0.310
+  0.430
+  0.550
+  0.639
+  0.730
+  0.849
+  0.906
+  1.029
+  1.110
+  1.150
+  1.250
+  1.330
+  1.410
+  1.499
+  1.619
+  1.710
+  1.750
+
+Woodwind/Flute.nonvib.ff/Flute.nonvib.ff.G6.stereo.wav
+------------------------------------------------------
+Onset at   0.054 seconds, delay: -17ms.
+
+False positives:
+  0.150
+  0.230
+  0.256
+  0.390
+  0.450
+  0.521
+  0.630
+  0.730
+  0.761
+  0.910
+  1.003
+  1.069
+  1.134
+  1.250
+  1.350
+  1.469
+  1.590
+  1.730
+  1.810
+  1.950
+  2.010
+
+Woodwind/Flute.nonvib.ff/Flute.nonvib.ff.Gb6.stereo.wav
+-------------------------------------------------------
+Onset at   0.052 seconds, delay: -13ms.
+
+False positives:
+  0.190
+  0.212
+  0.290
+  0.410
+  0.510
+  0.590
+  0.690
+  0.750
+  0.793
+  0.888
+  1.261
+  1.432
+  1.693
+  1.770
+  1.850
+  1.890
+
+Woodwind/Flute.vib.ff/Flute.vib.ff.A6.stereo.wav
+------------------------------------------------
+Onset at   0.044 seconds, delay:  -8ms.
+
+False positives:
+  0.150
+  0.230
+  0.269
+  0.368
+  0.560
+  0.650
+  0.690
+  0.790
+  0.830
+  0.878
+  0.970
+  1.070
+  1.110
+  1.168
+  1.281
+  1.370
+  1.429
+  1.510
+  1.590
+  1.650
+  1.710
+  1.770
+  1.850
+  1.909
+  1.970
+  2.050
+  2.109
+  2.157
+  2.250
+  2.330
+  2.390
+  2.450
+
+Woodwind/Flute.vib.ff/Flute.vib.ff.Ab6.stereo.wav
+-------------------------------------------------
+Onset at   0.034 seconds, delay: -11ms.
+
+False positives:
+  0.160
+  0.270
+  0.449
+  0.549
+  0.630
+  0.661
+  0.770
+  0.849
+  0.890
+  0.970
+  1.129
+  1.265
+  1.430
+  1.459
+  1.589
+  1.688
+  1.829
+  1.902
+  2.000
+  2.085
+  2.162
+  2.309
+  2.350
+  2.410
+  2.470
+  2.530
+
+Woodwind/Flute.vib.ff/Flute.vib.ff.B6.stereo.wav
+------------------------------------------------
+Onset at   0.050 seconds, delay: -21ms.
+
+False positives:
+  0.170
+  0.250
+  0.281
+  0.390
+  0.466
+  0.570
+  0.690
+  0.826
+  0.930
+  1.004
+  1.159
+  1.250
+  1.330
+  1.387
+  1.490
+  1.530
+  1.584
+  1.650
+  1.743
+  1.799
+  1.930
+  2.010
+  2.050
+  2.130
+  2.170
+  2.230
+
+Woodwind/Flute.vib.ff/Flute.vib.ff.Bb6.stereo.wav
+-------------------------------------------------
+Onset at   0.058 seconds, delay: -23ms.
+
+False positives:
+  0.149
+  0.230
+  0.320
+  0.390
+  0.450
+  0.510
+  0.590
+  0.709
+  0.790
+  0.950
+  1.010
+  1.054
+  1.170
+  1.253
+  1.370
+  1.449
+  1.530
+  1.564
+  1.689
+  1.750
+  1.849
+  1.964
+  2.062
+  2.150
+  2.249
+  2.350
+  2.430
+  2.490
+  2.550
+
+Woodwind/Flute.vib.ff/Flute.vib.ff.C6.stereo.wav
+------------------------------------------------
+Onset at   0.207 seconds, delay: -43ms.
+
+False positives:
+  0.310
+  0.390
+  0.450
+  0.530
+  0.606
+  0.759
+  0.852
+  0.970
+  1.058
+  1.190
+  1.258
+  1.390
+  1.452
+  1.590
+  1.651
+  1.770
+  1.830
+  1.970
+  2.070
+  2.130
+  2.190
+  2.230
+  2.310
+  2.370
+
+Woodwind/Flute.vib.ff/Flute.vib.ff.D6.stereo.wav
+------------------------------------------------
+
+False negatives:
+  0.145
+
+False positives:
+  0.061
+  0.270
+  0.354
+  0.490
+  0.610
+  0.667
+  0.769
+  0.856
+  0.950
+  0.989
+  1.070
+  1.190
+  1.270
+  1.280
+  1.370
+  1.430
+  1.485
+  1.590
+  1.670
+  1.702
+  1.790
+  1.883
+  1.990
+  2.069
+  2.170
+  2.219
+  2.310
+  2.350
+  2.430
+  2.470
+  2.530
+  2.610
+  2.670
+
+Woodwind/Flute.vib.ff/Flute.vib.ff.Db6.stereo.wav
+-------------------------------------------------
+Onset at   0.153 seconds, delay: -35ms.
+
+False positives:
+  0.250
+  0.344
+  0.410
+  0.510
+  0.607
+  0.710
+  0.750
+  0.837
+  0.970
+  1.043
+  1.170
+  1.230
+  1.247
+  1.350
+  1.436
+  1.570
+  1.626
+  1.750
+  1.816
+  1.930
+  1.990
+  2.070
+  2.125
+  2.170
+  2.230
+
+Woodwind/Flute.vib.ff/Flute.vib.ff.E6.stereo.wav
+------------------------------------------------
+Onset at   0.135 seconds, delay: -42ms.
+
+False positives:
+  0.270
+  0.330
+  0.410
+  0.470
+  0.538
+  0.690
+  0.770
+  0.870
+  0.990
+  1.039
+  1.170
+  1.218
+  1.370
+  1.408
+  1.530
+  1.607
+  1.730
+  1.781
+  1.910
+  1.953
+  2.118
+  2.261
+  2.350
+  2.410
+  2.470
+  2.510
+
+Woodwind/Flute.vib.ff/Flute.vib.ff.Eb6.stereo.wav
+-------------------------------------------------
+Onset at   0.085 seconds, delay: -20ms.
+
+False positives:
+  0.210
+  0.240
+  0.330
+  0.390
+  0.450
+  0.550
+  0.590
+  0.735
+  0.870
+  0.974
+  1.070
+  1.100
+  1.207
+  1.310
+  1.370
+  1.429
+  1.506
+  1.621
+  1.710
+  1.790
+  1.826
+  1.950
+  2.003
+  2.125
+  2.290
+  2.370
+  2.430
+  2.470
+  2.530
+
+Woodwind/Flute.vib.ff/Flute.vib.ff.F6.stereo.wav
+------------------------------------------------
+Onset at   0.107 seconds, delay: -36ms.
+
+False positives:
+  0.290
+  0.360
+  0.450
+  0.490
+  0.570
+  0.630
+  0.690
+  0.790
+  0.819
+  0.930
+  1.046
+  1.148
+  1.229
+  1.264
+  1.350
+  1.428
+  1.550
+  1.670
+  1.766
+  1.957
+  2.070
+  2.138
+  2.219
+  2.290
+  2.370
+  2.410
+  2.490
+
+Woodwind/Flute.vib.ff/Flute.vib.ff.G6.stereo.wav
+------------------------------------------------
+Onset at   0.066 seconds, delay: -22ms.
+
+False positives:
+  0.190
+  0.238
+  0.350
+  0.390
+  0.470
+  0.550
+  0.610
+  0.750
+  0.830
+  0.890
+  0.990
+  1.093
+  1.190
+  1.284
+  1.390
+  1.480
+  1.590
+  1.657
+  1.810
+  1.850
+  1.930
+  2.010
+  2.037
+  2.110
+  2.159
+  2.268
+  2.350
+  2.410
+  2.450
+
+Woodwind/Flute.vib.ff/Flute.vib.ff.Gb6.stereo.wav
+-------------------------------------------------
+Onset at   0.045 seconds, delay: -22ms.
+
+False positives:
+  0.150
+  0.230
+  0.330
+  0.356
+  0.429
+  0.516
+  0.610
+  0.662
+  0.750
+  0.790
+  0.830
+  0.928
+  1.010
+  1.039
+  1.150
+  1.238
+  1.308
+  1.429
+  1.530
+  1.603
+  1.625
+  1.750
+  1.811
+  1.930
+  1.995
+  2.130
+  2.210
+  2.290
+  2.350
+  2.410
+
+Woodwind/Oboe.ff/Oboe.ff.Ab6.stereo.wav
+---------------------------------------
+Onset at   0.054 seconds, delay: -13ms.
+
+False positives:
+  0.309
+  0.410
+  0.450
+  0.590
+  0.701
+  0.810
+  0.910
+  0.989
+  1.107
+  1.170
+  1.230
+  1.290
+  1.370
+
+Woodwind/Oboe.ff/Oboe.ff.C6.stereo.wav
+--------------------------------------
+Onset at   0.051 seconds, delay:  -6ms.
+
+False positives:
+  0.210
+  0.263
+  0.330
+  0.405
+  0.490
+  0.625
+  0.707
+  0.770
+  0.809
+  0.910
+  0.934
+  1.050
+  1.130
+  1.190
+  1.270
+  1.330
+  1.390
+  1.470
+  1.510
+  1.570
+
+Woodwind/Oboe.ff/Oboe.ff.D6.stereo.wav
+--------------------------------------
+Onset at   0.062 seconds, delay:  -6ms.
+
+False positives:
+  0.263
+  0.316
+  0.464
+  0.570
+  0.650
+  0.730
+  0.830
+  1.010
+  1.098
+  1.250
+  1.290
+  1.350
+  1.410
+  1.470
+  1.550
+
+Woodwind/Oboe.ff/Oboe.ff.Db6.stereo.wav
+---------------------------------------
+Onset at   0.047 seconds, delay: -11ms.
+
+False positives:
+  0.269
+  0.350
+  0.450
+  0.486
+  0.650
+  0.743
+  0.810
+  0.930
+  1.012
+  1.130
+  1.170
+  1.230
+  1.290
+  1.350
+  1.430
+  1.470
+
+Woodwind/Oboe.ff/Oboe.ff.E6.stereo.wav
+--------------------------------------
+Onset at   0.058 seconds, delay: -15ms.
+
+False positives:
+  0.282
+  0.427
+  0.570
+  0.650
+  0.708
+  0.830
+  0.910
+  0.970
+  1.030
+  1.090
+  1.170
+  1.230
+  1.270
+  1.330
+  1.390
+  1.450
+  1.510
+  1.570
+  1.630
+
+Woodwind/Oboe.ff/Oboe.ff.Eb6.stereo.wav
+---------------------------------------
+Onset at   0.045 seconds, delay:  -9ms.
+
+False positives:
+  0.165
+  0.257
+  0.330
+  0.390
+  0.470
+  0.550
+  0.590
+  0.670
+  0.709
+  0.810
+  0.930
+  1.010
+  1.097
+  1.270
+  1.310
+  1.370
+  1.430
+  1.490
+  1.550
+  1.610
+
+Woodwind/Oboe.ff/Oboe.ff.F6.stereo.wav
+--------------------------------------
+Onset at   0.054 seconds, delay: -10ms.
+
+False positives:
+  0.270
+  0.383
+  0.510
+  0.610
+  0.710
+  0.783
+  0.890
+  0.987
+  1.270
+  1.330
+  1.390
+  1.450
+  1.510
+  1.570
+  1.650
+
+Woodwind/Oboe.ff/Oboe.ff.G6.stereo.wav
+--------------------------------------
+Onset at   0.024 seconds, delay:  -4ms.
+
+False positives:
+  0.147
+  0.230
+  0.290
+  0.390
+  0.461
+  0.534
+  0.617
+  0.693
+  0.777
+  0.863
+  0.906
+  0.998
+  1.090
+  1.144
+  1.230
+  1.273
+  1.350
+  1.430
+
+Woodwind/Oboe.ff/Oboe.ff.Gb6.stereo.wav
+---------------------------------------
+Onset at   0.049 seconds, delay:  -8ms.
+
+False positives:
+  0.299
+  0.507
+  0.579
+  0.670
+  0.745
+  0.865
+  0.950
+  1.010
+  1.050
+  1.110
+  1.170
+  1.250
+  1.290
+  1.350
+  1.430
+  1.470
+
+Woodwind/SopSax.nonvib.ff/SopSax.nonvib.ff.C6.stereo.wav
+--------------------------------------------------------
+
+False negatives:
+  0.151
+
+False positives:
+  0.098
+  0.290
+  0.370
+  0.639
+  0.790
+  0.910
+  0.955
+  1.270
+  1.380
+  1.470
+  1.550
+  1.610
+  1.765
+  1.900
+  1.990
+  2.070
+  2.110
+  2.190
+  2.250
+  2.290
+  2.350
+  2.410
+  2.490
+  2.550
+  2.610
+  2.650
+  2.730
+  2.770
+  2.830
+  2.890
+  2.950
+  3.010
+
+Woodwind/SopSax.nonvib.ff/SopSax.nonvib.ff.D6.stereo.wav
+--------------------------------------------------------
+
+False negatives:
+  0.264
+
+False positives:
+  0.178
+  0.408
+  0.470
+  0.550
+  0.590
+  0.650
+  0.710
+  0.810
+  0.870
+  0.970
+  1.030
+  1.090
+  1.170
+  1.250
+  1.310
+  1.370
+  1.430
+  1.510
+  1.590
+  1.690
+  1.770
+  1.848
+  1.910
+  1.990
+  2.070
+  2.190
+  2.270
+  2.310
+  2.370
+  2.430
+  2.510
+  2.550
+  2.610
+  2.730
+  2.830
+  2.890
+  2.930
+  2.990
+  3.050
+
+Woodwind/SopSax.nonvib.ff/SopSax.nonvib.ff.E6.stereo.wav
+--------------------------------------------------------
+
+False negatives:
+  0.332
+
+False positives:
+  0.247
+  0.465
+  0.590
+  0.630
+  0.690
+  0.790
+  0.930
+  1.030
+  1.090
+  1.170
+  1.250
+  1.330
+  1.410
+  1.490
+  1.570
+  1.650
+  1.730
+  1.810
+  1.910
+  1.950
+  2.050
+  2.130
+  2.230
+  2.310
+  2.410
+  2.510
+  2.650
+  2.710
+  2.790
+  2.870
+  2.950
+  3.050
+  3.110
+
+Woodwind/SopSax.nonvib.ff/SopSax.nonvib.ff.Eb6.stereo.wav
+---------------------------------------------------------
+Onset at   0.282 seconds, delay: -22ms.
+
+False positives:
+  0.410
+  0.450
+  0.510
+  0.570
+  0.650
+  0.690
+  0.770
+  0.930
+  1.030
+  1.110
+  1.170
+  1.250
+  1.290
+  1.350
+  1.430
+  1.510
+  1.610
+  1.830
+  1.970
+  2.069
+  2.150
+  2.210
+  2.290
+  2.330
+  2.410
+  2.450
+  2.530
+  2.590
+  2.728
+  2.910
+  2.970
+
+Woodwind/SopSax.vib.ff/SopSax.vib.ff.C6.stereo.wav
+--------------------------------------------------
+
+False negatives:
+  0.178
+
+False positives:
+  0.105
+  0.372
+  0.467
+  0.590
+  0.643
+  0.770
+  0.861
+  0.970
+  1.017
+  1.130
+  1.174
+  1.250
+  1.290
+  1.387
+  1.462
+  1.530
+  1.563
+  1.640
+  1.730
+  1.764
+  1.861
+  1.959
+  2.060
+  2.130
+  2.210
+  2.252
+  2.344
+  2.410
+  2.530
+  2.620
+  2.710
+  2.740
+  2.810
+  2.890
+  2.950
+  3.010
+  3.050
+  3.130
+
+Woodwind/SopSax.vib.ff/SopSax.vib.ff.D6.stereo.wav
+--------------------------------------------------
+Onset at   0.180 seconds, delay: -27ms.
+
+False positives:
+  0.302
+  0.430
+  0.590
+  0.633
+  0.770
+  0.822
+  0.910
+  1.006
+  1.110
+  1.190
+  1.380
+  1.510
+  1.562
+  1.690
+  1.743
+  1.910
+  1.950
+  2.070
+  2.130
+  2.250
+  2.296
+  2.410
+  2.481
+  2.610
+  2.657
+  2.790
+  2.822
+  2.970
+  3.050
+  3.110
+
+Woodwind/SopSax.vib.ff/SopSax.vib.ff.E6.stereo.wav
+--------------------------------------------------
+
+False negatives:
+  0.168
+
+False positives:
+  0.083
+  0.470
+  0.590
+  0.646
+  0.770
+  0.826
+  0.950
+  1.006
+  1.130
+  1.170
+  1.270
+  1.364
+  1.490
+  1.529
+  1.630
+  1.727
+  1.890
+  1.933
+  2.070
+  2.112
+  2.230
+  2.291
+  2.430
+  2.468
+  2.610
+  2.660
+  2.790
+  2.827
+  2.930
+  2.996
+  3.150
+  3.250
+
+Woodwind/SopSax.vib.ff/SopSax.vib.ff.Eb6.stereo.wav
+---------------------------------------------------
+Onset at   0.144 seconds, delay: -37ms.
+
+False positives:
+  0.370
+  0.411
+  0.530
+  0.594
+  0.710
+  0.750
+  0.790
+  0.910
+  0.946
+  1.030
+  1.110
+  1.142
+  1.294
+  1.430
+  1.479
+  1.610
+  1.661
+  1.750
+  1.839
+  1.970
+  2.024
+  2.130
+  2.209
+  2.330
+  2.370
+  2.450
+
+
+Stats
+=====
+Total number of onsets:     1368
+Total number of detections: 8418
+Total true positives:       1300
+Total false positives:      7118
+Total erroneous detections: 7118
+
+Largest advance: -49ms
+Mean advance:    -25.000ms
+Largest delay:    49ms
+Mean delay:       20.857ms
+Mean difference:   0.168ms
+Number of advances <-15.00ms: 66
+Number of delays   > 15.00ms: 44
+
+Precision:             15.4431%
+Recall:                95.0292%
+F-measure:             26.5686%
+Precision (tot. err.): 15.4431%
+F-measure (tot. err.): 26.5686%
+

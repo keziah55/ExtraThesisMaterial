@@ -1,0 +1,3390 @@
+Check onsetdetector results
+===========================
+
+Wed Apr 24 12:55:20 2019
+
+OnsetDetector if statement: if (count >= 3 && last >= threshold),  if (last-first >= std::log(2))
+findExactTime() local min decision: if (std::isnan(current/mn) || current/mn >= 0.95) 
+OnsetDetector segment size: 20ms
+Threshold: 0.0005
+Searching for 1 frequency
+NoteDetector args:
+    EDO: 12
+    Bandwidth: 0
+    Method: Runge-Kutta
+    Freq norm: Freq unnormalized
+    Amp norm: Amp normalized
+    Damping: 0.0005
+    Gain: 25
+Onset tolerance: 50.000ms
+
+
+Percussion/Crotale/Crotale.ff.A6.stereo.wav
+-------------------------------------------
+Onset at   0.044 seconds, delay:  -2ms.
+All onsets found!
+
+Percussion/Crotale/Crotale.ff.A7.stereo.wav
+-------------------------------------------
+Onset at   0.059 seconds, delay:  -8ms.
+All onsets found!
+
+Percussion/Crotale/Crotale.ff.Ab6.stereo.wav
+--------------------------------------------
+Onset at   0.074 seconds, delay:  -3ms.
+
+False positives:
+  1.540
+  1.930
+
+Percussion/Crotale/Crotale.ff.Ab7.stereo.wav
+--------------------------------------------
+Onset at   0.069 seconds
+
+False positives:
+  0.440
+  0.719
+
+Percussion/Crotale/Crotale.ff.B6.stereo.wav
+-------------------------------------------
+Onset at   0.049 seconds, delay:  -8ms.
+All onsets found!
+
+Percussion/Crotale/Crotale.ff.B7.stereo.wav
+-------------------------------------------
+Onset at   0.036 seconds, delay:  -5ms.
+
+False positives:
+  0.133
+  0.218
+  0.300
+  0.385
+  0.560
+  0.645
+  0.739
+  0.820
+  0.904
+  0.999
+  1.080
+  1.163
+  1.258
+  1.340
+  1.423
+  1.518
+
+Percussion/Crotale/Crotale.ff.Bb6.stereo.wav
+--------------------------------------------
+Onset at   0.046 seconds, delay:  -6ms.
+
+False positives:
+  0.167
+  0.330
+  0.510
+  0.690
+
+Percussion/Crotale/Crotale.ff.Bb7.stereo.wav
+--------------------------------------------
+Onset at   0.021 seconds
+
+False positives:
+  0.240
+  0.400
+  0.561
+
+Percussion/Crotale/Crotale.ff.C6.stereo.wav
+-------------------------------------------
+Onset at   0.072 seconds, delay:  -1ms.
+
+False positives:
+  0.210
+
+Percussion/Crotale/Crotale.ff.C7.stereo.wav
+-------------------------------------------
+Onset at   0.021 seconds
+
+False positives:
+  0.200
+
+Percussion/Crotale/Crotale.ff.C8.stereo.wav
+-------------------------------------------
+Onset at   0.037 seconds, delay:  -6ms.
+
+False positives:
+  0.350
+
+Percussion/Crotale/Crotale.ff.D6.stereo.wav
+-------------------------------------------
+Onset at   0.086 seconds
+
+False positives:
+  0.250
+  0.461
+  0.710
+  0.950
+
+Percussion/Crotale/Crotale.ff.D7.stereo.wav
+-------------------------------------------
+Onset at   0.022 seconds
+All onsets found!
+
+Percussion/Crotale/Crotale.ff.Db6.stereo.wav
+--------------------------------------------
+Onset at   0.084 seconds
+All onsets found!
+
+Percussion/Crotale/Crotale.ff.Db7.stereo.wav
+--------------------------------------------
+Onset at   0.015 seconds, delay:   5ms.
+All onsets found!
+
+Percussion/Crotale/Crotale.ff.E6.stereo.wav
+-------------------------------------------
+Onset at   0.061 seconds, delay:  -2ms.
+All onsets found!
+
+Percussion/Crotale/Crotale.ff.E7.stereo.wav
+-------------------------------------------
+Onset at   0.037 seconds, delay:  -6ms.
+All onsets found!
+
+Percussion/Crotale/Crotale.ff.Eb6.stereo.wav
+--------------------------------------------
+
+False negatives:
+  0.085
+
+Percussion/Crotale/Crotale.ff.Eb7.stereo.wav
+--------------------------------------------
+Onset at   0.027 seconds, delay:  -5ms.
+All onsets found!
+
+Percussion/Crotale/Crotale.ff.F6.stereo.wav
+-------------------------------------------
+Onset at   0.094 seconds, delay:  -8ms.
+
+False positives:
+  0.262
+
+Percussion/Crotale/Crotale.ff.F7.stereo.wav
+-------------------------------------------
+Onset at   0.062 seconds
+All onsets found!
+
+Percussion/Crotale/Crotale.ff.G6.stereo.wav
+-------------------------------------------
+Onset at   0.083 seconds, delay:  -1ms.
+All onsets found!
+
+Percussion/Crotale/Crotale.ff.G7.stereo.wav
+-------------------------------------------
+Onset at   0.026 seconds
+All onsets found!
+
+Percussion/Crotale/Crotale.ff.Gb6.stereo.wav
+--------------------------------------------
+Onset at   0.077 seconds, delay:  -6ms.
+All onsets found!
+
+Percussion/Crotale/Crotale.ff.Gb7.stereo.wav
+--------------------------------------------
+Onset at   0.052 seconds, delay:  -1ms.
+All onsets found!
+
+Percussion/Marimba.cord/Marimba.cord.ff.A2.stereo.wav
+-----------------------------------------------------
+Onset at   0.075 seconds, delay: -17ms.
+All onsets found!
+
+Percussion/Marimba.cord/Marimba.cord.ff.A3.stereo.wav
+-----------------------------------------------------
+Onset at   0.059 seconds, delay:  -8ms.
+All onsets found!
+
+Percussion/Marimba.cord/Marimba.cord.ff.A4.stereo.wav
+-----------------------------------------------------
+Onset at   0.060 seconds, delay:  -4ms.
+All onsets found!
+
+Percussion/Marimba.cord/Marimba.cord.ff.A5.stereo.wav
+-----------------------------------------------------
+Onset at   0.067 seconds, delay:  -6ms.
+All onsets found!
+
+Percussion/Marimba.cord/Marimba.cord.ff.A6.stereo.wav
+-----------------------------------------------------
+Onset at   0.066 seconds, delay:  -1ms.
+All onsets found!
+
+Percussion/Marimba.cord/Marimba.cord.ff.Ab2.stereo.wav
+------------------------------------------------------
+Onset at   0.078 seconds, delay:  -7ms.
+All onsets found!
+
+Percussion/Marimba.cord/Marimba.cord.ff.Ab3.stereo.wav
+------------------------------------------------------
+Onset at   0.065 seconds, delay:  -2ms.
+All onsets found!
+
+Percussion/Marimba.cord/Marimba.cord.ff.Ab4.stereo.wav
+------------------------------------------------------
+Onset at   0.049 seconds, delay:  -6ms.
+All onsets found!
+
+Percussion/Marimba.cord/Marimba.cord.ff.Ab5.stereo.wav
+------------------------------------------------------
+Onset at   0.066 seconds, delay:  -2ms.
+All onsets found!
+
+Percussion/Marimba.cord/Marimba.cord.ff.Ab6.stereo.wav
+------------------------------------------------------
+Onset at   0.050 seconds
+All onsets found!
+
+Percussion/Marimba.cord/Marimba.cord.ff.B2.stereo.wav
+-----------------------------------------------------
+Onset at   0.063 seconds, delay:  -4ms.
+All onsets found!
+
+Percussion/Marimba.cord/Marimba.cord.ff.B3.stereo.wav
+-----------------------------------------------------
+Onset at   0.072 seconds, delay: -11ms.
+All onsets found!
+
+Percussion/Marimba.cord/Marimba.cord.ff.B4.stereo.wav
+-----------------------------------------------------
+Onset at   0.056 seconds, delay: -13ms.
+All onsets found!
+
+Percussion/Marimba.cord/Marimba.cord.ff.B5.stereo.wav
+-----------------------------------------------------
+Onset at   0.061 seconds
+All onsets found!
+
+Percussion/Marimba.cord/Marimba.cord.ff.B6.stereo.wav
+-----------------------------------------------------
+Onset at   0.052 seconds, delay:  -1ms.
+All onsets found!
+
+Percussion/Marimba.cord/Marimba.cord.ff.Bb2.stereo.wav
+------------------------------------------------------
+Onset at   0.060 seconds, delay:  -4ms.
+All onsets found!
+
+Percussion/Marimba.cord/Marimba.cord.ff.Bb3.stereo.wav
+------------------------------------------------------
+Onset at   0.044 seconds
+All onsets found!
+
+Percussion/Marimba.cord/Marimba.cord.ff.Bb4.stereo.wav
+------------------------------------------------------
+Onset at   0.075 seconds, delay: -15ms.
+All onsets found!
+
+Percussion/Marimba.cord/Marimba.cord.ff.Bb5.stereo.wav
+------------------------------------------------------
+Onset at   0.056 seconds, delay:  -5ms.
+All onsets found!
+
+Percussion/Marimba.cord/Marimba.cord.ff.Bb6.stereo.wav
+------------------------------------------------------
+Onset at   0.044 seconds
+All onsets found!
+
+Percussion/Marimba.cord/Marimba.cord.ff.C2.stereo.wav
+-----------------------------------------------------
+Onset at   0.090 seconds, delay: -19ms.
+All onsets found!
+
+Percussion/Marimba.cord/Marimba.cord.ff.C3.stereo.wav
+-----------------------------------------------------
+Onset at   0.070 seconds, delay: -12ms.
+All onsets found!
+
+Percussion/Marimba.cord/Marimba.cord.ff.C4.stereo.wav
+-----------------------------------------------------
+Onset at   0.080 seconds, delay:  -8ms.
+All onsets found!
+
+Percussion/Marimba.cord/Marimba.cord.ff.C5.stereo.wav
+-----------------------------------------------------
+Onset at   0.063 seconds, delay:  -4ms.
+All onsets found!
+
+Percussion/Marimba.cord/Marimba.cord.ff.C6.stereo.wav
+-----------------------------------------------------
+Onset at   0.050 seconds, delay:  -9ms.
+All onsets found!
+
+Percussion/Marimba.cord/Marimba.cord.ff.C7.stereo.wav
+-----------------------------------------------------
+Onset at   0.051 seconds
+All onsets found!
+
+Percussion/Marimba.cord/Marimba.cord.ff.D2.stereo.wav
+-----------------------------------------------------
+Onset at   0.070 seconds, delay:  -2ms.
+All onsets found!
+
+Percussion/Marimba.cord/Marimba.cord.ff.D3.stereo.wav
+-----------------------------------------------------
+Onset at   0.061 seconds
+All onsets found!
+
+Percussion/Marimba.cord/Marimba.cord.ff.D4.stereo.wav
+-----------------------------------------------------
+Onset at   0.089 seconds, delay:  -2ms.
+All onsets found!
+
+Percussion/Marimba.cord/Marimba.cord.ff.D5.stereo.wav
+-----------------------------------------------------
+Onset at   0.047 seconds, delay:  -3ms.
+All onsets found!
+
+Percussion/Marimba.cord/Marimba.cord.ff.D6.stereo.wav
+-----------------------------------------------------
+Onset at   0.066 seconds, delay:  -2ms.
+All onsets found!
+
+Percussion/Marimba.cord/Marimba.cord.ff.Db2.stereo.wav
+------------------------------------------------------
+Onset at   0.084 seconds, delay:  -6ms.
+All onsets found!
+
+Percussion/Marimba.cord/Marimba.cord.ff.Db3.stereo.wav
+------------------------------------------------------
+Onset at   0.056 seconds, delay: -12ms.
+All onsets found!
+
+Percussion/Marimba.cord/Marimba.cord.ff.Db4.stereo.wav
+------------------------------------------------------
+Onset at   0.055 seconds, delay:  -4ms.
+All onsets found!
+
+Percussion/Marimba.cord/Marimba.cord.ff.Db5.stereo.wav
+------------------------------------------------------
+Onset at   0.074 seconds, delay:  -3ms.
+All onsets found!
+
+Percussion/Marimba.cord/Marimba.cord.ff.Db6.stereo.wav
+------------------------------------------------------
+Onset at   0.053 seconds, delay:  -2ms.
+All onsets found!
+
+Percussion/Marimba.cord/Marimba.cord.ff.E2.stereo.wav
+-----------------------------------------------------
+Onset at   0.068 seconds, delay:  -2ms.
+All onsets found!
+
+Percussion/Marimba.cord/Marimba.cord.ff.E3.stereo.wav
+-----------------------------------------------------
+Onset at   0.084 seconds, delay:  -3ms.
+All onsets found!
+
+Percussion/Marimba.cord/Marimba.cord.ff.E4.stereo.wav
+-----------------------------------------------------
+Onset at   0.076 seconds, delay:  -5ms.
+All onsets found!
+
+Percussion/Marimba.cord/Marimba.cord.ff.E5.stereo.wav
+-----------------------------------------------------
+Onset at   0.047 seconds, delay:  -4ms.
+All onsets found!
+
+Percussion/Marimba.cord/Marimba.cord.ff.E6.stereo.wav
+-----------------------------------------------------
+Onset at   0.055 seconds, delay:  -4ms.
+All onsets found!
+
+Percussion/Marimba.cord/Marimba.cord.ff.Eb2.stereo.wav
+------------------------------------------------------
+Onset at   0.046 seconds, delay:  -6ms.
+All onsets found!
+
+Percussion/Marimba.cord/Marimba.cord.ff.Eb3.stereo.wav
+------------------------------------------------------
+Onset at   0.088 seconds, delay: -23ms.
+All onsets found!
+
+Percussion/Marimba.cord/Marimba.cord.ff.Eb4.stereo.wav
+------------------------------------------------------
+Onset at   0.070 seconds, delay: -11ms.
+All onsets found!
+
+Percussion/Marimba.cord/Marimba.cord.ff.Eb5.stereo.wav
+------------------------------------------------------
+Onset at   0.053 seconds, delay:  -2ms.
+All onsets found!
+
+Percussion/Marimba.cord/Marimba.cord.ff.Eb6.stereo.wav
+------------------------------------------------------
+Onset at   0.046 seconds, delay:  -4ms.
+All onsets found!
+
+Percussion/Marimba.cord/Marimba.cord.ff.F2.stereo.wav
+-----------------------------------------------------
+Onset at   0.089 seconds, delay: -18ms.
+All onsets found!
+
+Percussion/Marimba.cord/Marimba.cord.ff.F3.stereo.wav
+-----------------------------------------------------
+Onset at   0.063 seconds, delay: -10ms.
+All onsets found!
+
+Percussion/Marimba.cord/Marimba.cord.ff.F4.stereo.wav
+-----------------------------------------------------
+Onset at   0.058 seconds, delay: -13ms.
+All onsets found!
+
+Percussion/Marimba.cord/Marimba.cord.ff.F5.stereo.wav
+-----------------------------------------------------
+Onset at   0.049 seconds, delay:  -3ms.
+All onsets found!
+
+Percussion/Marimba.cord/Marimba.cord.ff.F6.stereo.wav
+-----------------------------------------------------
+Onset at   0.045 seconds, delay:  -9ms.
+All onsets found!
+
+Percussion/Marimba.cord/Marimba.cord.ff.G2.stereo.wav
+-----------------------------------------------------
+Onset at   0.069 seconds, delay:  -3ms.
+All onsets found!
+
+Percussion/Marimba.cord/Marimba.cord.ff.G3.stereo.wav
+-----------------------------------------------------
+Onset at   0.075 seconds, delay: -15ms.
+All onsets found!
+
+Percussion/Marimba.cord/Marimba.cord.ff.G4.stereo.wav
+-----------------------------------------------------
+Onset at   0.067 seconds
+All onsets found!
+
+Percussion/Marimba.cord/Marimba.cord.ff.G5.stereo.wav
+-----------------------------------------------------
+Onset at   0.067 seconds, delay:  -8ms.
+All onsets found!
+
+Percussion/Marimba.cord/Marimba.cord.ff.G6.stereo.wav
+-----------------------------------------------------
+Onset at   0.053 seconds, delay:  -2ms.
+All onsets found!
+
+Percussion/Marimba.cord/Marimba.cord.ff.Gb2.stereo.wav
+------------------------------------------------------
+Onset at   0.062 seconds, delay:  -1ms.
+All onsets found!
+
+Percussion/Marimba.cord/Marimba.cord.ff.Gb3.stereo.wav
+------------------------------------------------------
+Onset at   0.072 seconds, delay:  -6ms.
+All onsets found!
+
+Percussion/Marimba.cord/Marimba.cord.ff.Gb4.stereo.wav
+------------------------------------------------------
+Onset at   0.058 seconds
+All onsets found!
+
+Percussion/Marimba.cord/Marimba.cord.ff.Gb5.stereo.wav
+------------------------------------------------------
+Onset at   0.050 seconds, delay: -10ms.
+All onsets found!
+
+Percussion/Marimba.cord/Marimba.cord.ff.Gb6.stereo.wav
+------------------------------------------------------
+Onset at   0.054 seconds, delay:  -3ms.
+All onsets found!
+
+Percussion/Marimba.deadstroke/Marimba.deadstroke.ff.A2.stereo.wav
+-----------------------------------------------------------------
+Onset at   0.023 seconds, delay:  -1ms.
+All onsets found!
+
+Percussion/Marimba.deadstroke/Marimba.deadstroke.ff.A3.stereo.wav
+-----------------------------------------------------------------
+Onset at   0.074 seconds, delay: -16ms.
+All onsets found!
+
+Percussion/Marimba.deadstroke/Marimba.deadstroke.ff.A4.stereo.wav
+-----------------------------------------------------------------
+Onset at   0.036 seconds, delay:  -5ms.
+All onsets found!
+
+Percussion/Marimba.deadstroke/Marimba.deadstroke.ff.A5.stereo.wav
+-----------------------------------------------------------------
+Onset at   0.043 seconds, delay:  -8ms.
+All onsets found!
+
+Percussion/Marimba.deadstroke/Marimba.deadstroke.ff.A6.stereo.wav
+-----------------------------------------------------------------
+Onset at   0.029 seconds, delay:  -5ms.
+All onsets found!
+
+Percussion/Marimba.deadstroke/Marimba.deadstroke.ff.Ab2.stereo.wav
+------------------------------------------------------------------
+Onset at   0.031 seconds, delay: -11ms.
+All onsets found!
+
+Percussion/Marimba.deadstroke/Marimba.deadstroke.ff.Ab3.stereo.wav
+------------------------------------------------------------------
+Onset at   0.029 seconds, delay:  -9ms.
+All onsets found!
+
+Percussion/Marimba.deadstroke/Marimba.deadstroke.ff.Ab5.stereo.wav
+------------------------------------------------------------------
+Onset at   0.035 seconds, delay:  -5ms.
+All onsets found!
+
+Percussion/Marimba.deadstroke/Marimba.deadstroke.ff.Ab6.stereo.wav
+------------------------------------------------------------------
+Onset at   0.034 seconds, delay:  -4ms.
+All onsets found!
+
+Percussion/Marimba.deadstroke/Marimba.deadstroke.ff.B2.stereo.wav
+-----------------------------------------------------------------
+Onset at   0.024 seconds
+All onsets found!
+
+Percussion/Marimba.deadstroke/Marimba.deadstroke.ff.B3.stereo.wav
+-----------------------------------------------------------------
+Onset at   0.033 seconds, delay: -12ms.
+All onsets found!
+
+Percussion/Marimba.deadstroke/Marimba.deadstroke.ff.B4.stereo.wav
+-----------------------------------------------------------------
+Onset at   0.032 seconds, delay: -11ms.
+All onsets found!
+
+Percussion/Marimba.deadstroke/Marimba.deadstroke.ff.B5.stereo.wav
+-----------------------------------------------------------------
+Onset at   0.038 seconds, delay:  -9ms.
+All onsets found!
+
+Percussion/Marimba.deadstroke/Marimba.deadstroke.ff.B6.stereo.wav
+-----------------------------------------------------------------
+Onset at   0.035 seconds, delay:  -5ms.
+All onsets found!
+
+Percussion/Marimba.deadstroke/Marimba.deadstroke.ff.Bb2.stereo.wav
+------------------------------------------------------------------
+Onset at   0.022 seconds, delay:  -1ms.
+All onsets found!
+
+Percussion/Marimba.deadstroke/Marimba.deadstroke.ff.Bb3.stereo.wav
+------------------------------------------------------------------
+Onset at   0.030 seconds, delay:  -5ms.
+All onsets found!
+
+Percussion/Marimba.deadstroke/Marimba.deadstroke.ff.Bb4.stereo.wav
+------------------------------------------------------------------
+Onset at   0.039 seconds, delay:  -1ms.
+All onsets found!
+
+Percussion/Marimba.deadstroke/Marimba.deadstroke.ff.Bb5.stereo.wav
+------------------------------------------------------------------
+Onset at   0.048 seconds, delay:  -8ms.
+All onsets found!
+
+Percussion/Marimba.deadstroke/Marimba.deadstroke.ff.Bb6.stereo.wav
+------------------------------------------------------------------
+Onset at   0.031 seconds, delay:  -1ms.
+All onsets found!
+
+Percussion/Marimba.deadstroke/Marimba.deadstroke.ff.C2.stereo.wav
+-----------------------------------------------------------------
+Onset at   0.041 seconds, delay: -21ms.
+All onsets found!
+
+Percussion/Marimba.deadstroke/Marimba.deadstroke.ff.C3.stereo.wav
+-----------------------------------------------------------------
+Onset at   0.021 seconds
+All onsets found!
+
+Percussion/Marimba.deadstroke/Marimba.deadstroke.ff.C4.stereo.wav
+-----------------------------------------------------------------
+Onset at   0.034 seconds, delay:  -4ms.
+All onsets found!
+
+Percussion/Marimba.deadstroke/Marimba.deadstroke.ff.C5.stereo.wav
+-----------------------------------------------------------------
+Onset at   0.042 seconds, delay:  -6ms.
+All onsets found!
+
+Percussion/Marimba.deadstroke/Marimba.deadstroke.ff.C6.stereo.wav
+-----------------------------------------------------------------
+Onset at   0.033 seconds, delay:  -3ms.
+All onsets found!
+
+Percussion/Marimba.deadstroke/Marimba.deadstroke.ff.C7.stereo.wav
+-----------------------------------------------------------------
+Onset at   0.044 seconds, delay:  -1ms.
+All onsets found!
+
+Percussion/Marimba.deadstroke/Marimba.deadstroke.ff.D2.stereo.wav
+-----------------------------------------------------------------
+Onset at   0.037 seconds, delay: -13ms.
+All onsets found!
+
+Percussion/Marimba.deadstroke/Marimba.deadstroke.ff.D3.stereo.wav
+-----------------------------------------------------------------
+Onset at   0.022 seconds
+All onsets found!
+
+Percussion/Marimba.deadstroke/Marimba.deadstroke.ff.D4.stereo.wav
+-----------------------------------------------------------------
+Onset at   0.033 seconds, delay:  -4ms.
+All onsets found!
+
+Percussion/Marimba.deadstroke/Marimba.deadstroke.ff.D5.stereo.wav
+-----------------------------------------------------------------
+Onset at   0.036 seconds, delay:  -5ms.
+All onsets found!
+
+Percussion/Marimba.deadstroke/Marimba.deadstroke.ff.D6.stereo.wav
+-----------------------------------------------------------------
+Onset at   0.035 seconds, delay:  -5ms.
+All onsets found!
+
+Percussion/Marimba.deadstroke/Marimba.deadstroke.ff.Db2.stereo.wav
+------------------------------------------------------------------
+Onset at   0.041 seconds, delay: -19ms.
+All onsets found!
+
+Percussion/Marimba.deadstroke/Marimba.deadstroke.ff.Db3.stereo.wav
+------------------------------------------------------------------
+Onset at   0.021 seconds, delay:  -1ms.
+All onsets found!
+
+Percussion/Marimba.deadstroke/Marimba.deadstroke.ff.Db4.stereo.wav
+------------------------------------------------------------------
+Onset at   0.032 seconds, delay:  -6ms.
+All onsets found!
+
+Percussion/Marimba.deadstroke/Marimba.deadstroke.ff.Db5.stereo.wav
+------------------------------------------------------------------
+Onset at   0.034 seconds, delay:  -9ms.
+All onsets found!
+
+Percussion/Marimba.deadstroke/Marimba.deadstroke.ff.Db6.stereo.wav
+------------------------------------------------------------------
+Onset at   0.032 seconds, delay:  -2ms.
+All onsets found!
+
+Percussion/Marimba.deadstroke/Marimba.deadstroke.ff.E2.stereo.wav
+-----------------------------------------------------------------
+Onset at   0.032 seconds, delay:  -5ms.
+All onsets found!
+
+Percussion/Marimba.deadstroke/Marimba.deadstroke.ff.E3.stereo.wav
+-----------------------------------------------------------------
+Onset at   0.029 seconds, delay:  -4ms.
+All onsets found!
+
+Percussion/Marimba.deadstroke/Marimba.deadstroke.ff.E4.stereo.wav
+-----------------------------------------------------------------
+Onset at   0.026 seconds, delay:  -4ms.
+All onsets found!
+
+Percussion/Marimba.deadstroke/Marimba.deadstroke.ff.E5.stereo.wav
+-----------------------------------------------------------------
+Onset at   0.045 seconds, delay:  -5ms.
+All onsets found!
+
+Percussion/Marimba.deadstroke/Marimba.deadstroke.ff.E6.stereo.wav
+-----------------------------------------------------------------
+Onset at   0.042 seconds, delay:  -1ms.
+All onsets found!
+
+Percussion/Marimba.deadstroke/Marimba.deadstroke.ff.Eb2.stereo.wav
+------------------------------------------------------------------
+Onset at   0.022 seconds, delay:  -1ms.
+All onsets found!
+
+Percussion/Marimba.deadstroke/Marimba.deadstroke.ff.Eb3.stereo.wav
+------------------------------------------------------------------
+Onset at   0.040 seconds, delay:  -1ms.
+All onsets found!
+
+Percussion/Marimba.deadstroke/Marimba.deadstroke.ff.Eb4.stereo.wav
+------------------------------------------------------------------
+Onset at   0.032 seconds, delay: -11ms.
+All onsets found!
+
+Percussion/Marimba.deadstroke/Marimba.deadstroke.ff.Eb5.stereo.wav
+------------------------------------------------------------------
+Onset at   0.036 seconds, delay:  -5ms.
+All onsets found!
+
+Percussion/Marimba.deadstroke/Marimba.deadstroke.ff.Eb6.stereo.wav
+------------------------------------------------------------------
+Onset at   0.034 seconds, delay:  -4ms.
+All onsets found!
+
+Percussion/Marimba.deadstroke/Marimba.deadstroke.ff.F2.stereo.wav
+-----------------------------------------------------------------
+Onset at   0.027 seconds, delay:  -1ms.
+All onsets found!
+
+Percussion/Marimba.deadstroke/Marimba.deadstroke.ff.F3.stereo.wav
+-----------------------------------------------------------------
+Onset at   0.036 seconds, delay:  -5ms.
+All onsets found!
+
+Percussion/Marimba.deadstroke/Marimba.deadstroke.ff.F4.stereo.wav
+-----------------------------------------------------------------
+Onset at   0.024 seconds, delay:  -1ms.
+All onsets found!
+
+Percussion/Marimba.deadstroke/Marimba.deadstroke.ff.F5.stereo.wav
+-----------------------------------------------------------------
+Onset at   0.047 seconds, delay:  -4ms.
+All onsets found!
+
+Percussion/Marimba.deadstroke/Marimba.deadstroke.ff.F6.stereo.wav
+-----------------------------------------------------------------
+Onset at   0.030 seconds
+All onsets found!
+
+Percussion/Marimba.deadstroke/Marimba.deadstroke.ff.G2.stereo.wav
+-----------------------------------------------------------------
+Onset at   0.038 seconds, delay: -16ms.
+All onsets found!
+
+Percussion/Marimba.deadstroke/Marimba.deadstroke.ff.G3.stereo.wav
+-----------------------------------------------------------------
+Onset at   0.040 seconds, delay:  -6ms.
+All onsets found!
+
+Percussion/Marimba.deadstroke/Marimba.deadstroke.ff.G4.stereo.wav
+-----------------------------------------------------------------
+Onset at   0.039 seconds, delay: -18ms.
+All onsets found!
+
+Percussion/Marimba.deadstroke/Marimba.deadstroke.ff.G5.stereo.wav
+-----------------------------------------------------------------
+Onset at   0.034 seconds, delay:  -4ms.
+All onsets found!
+
+Percussion/Marimba.deadstroke/Marimba.deadstroke.ff.G6.stereo.wav
+-----------------------------------------------------------------
+Onset at   0.031 seconds, delay:  -1ms.
+All onsets found!
+
+Percussion/Marimba.deadstroke/Marimba.deadstroke.ff.Gb2.stereo.wav
+------------------------------------------------------------------
+Onset at   0.023 seconds
+All onsets found!
+
+Percussion/Marimba.deadstroke/Marimba.deadstroke.ff.Gb3.stereo.wav
+------------------------------------------------------------------
+Onset at   0.041 seconds, delay:  -3ms.
+All onsets found!
+
+Percussion/Marimba.deadstroke/Marimba.deadstroke.ff.Gb4.stereo.wav
+------------------------------------------------------------------
+Onset at   0.034 seconds, delay:  -8ms.
+All onsets found!
+
+Percussion/Marimba.deadstroke/Marimba.deadstroke.ff.Gb5.stereo.wav
+------------------------------------------------------------------
+Onset at   0.033 seconds, delay:  -8ms.
+All onsets found!
+
+Percussion/Marimba.deadstroke/Marimba.deadstroke.ff.Gb6.stereo.wav
+------------------------------------------------------------------
+Onset at   0.050 seconds, delay:  -8ms.
+All onsets found!
+
+Percussion/Marimba.rubber/Marimba.rubber.ff.A2.stereo.wav
+---------------------------------------------------------
+Onset at   0.042 seconds, delay:  -5ms.
+All onsets found!
+
+Percussion/Marimba.rubber/Marimba.rubber.ff.A3.stereo.wav
+---------------------------------------------------------
+Onset at   0.016 seconds, delay:   4ms.
+All onsets found!
+
+Percussion/Marimba.rubber/Marimba.rubber.ff.A4.stereo.wav
+---------------------------------------------------------
+Onset at   0.016 seconds, delay:   1ms.
+All onsets found!
+
+Percussion/Marimba.rubber/Marimba.rubber.ff.A5.stereo.wav
+---------------------------------------------------------
+Onset at   0.010 seconds, delay:  10ms.
+All onsets found!
+
+Percussion/Marimba.rubber/Marimba.rubber.ff.A6.stereo.wav
+---------------------------------------------------------
+Onset at   0.011 seconds, delay:  12ms.
+All onsets found!
+
+Percussion/Marimba.rubber/Marimba.rubber.ff.Ab2.stereo.wav
+----------------------------------------------------------
+Onset at   0.074 seconds, delay:  -3ms.
+All onsets found!
+
+Percussion/Marimba.rubber/Marimba.rubber.ff.Ab3.stereo.wav
+----------------------------------------------------------
+Onset at   0.017 seconds, delay:   2ms.
+All onsets found!
+
+Percussion/Marimba.rubber/Marimba.rubber.ff.Ab4.stereo.wav
+----------------------------------------------------------
+Onset at   0.028 seconds, delay:  -6ms.
+All onsets found!
+
+Percussion/Marimba.rubber/Marimba.rubber.ff.Ab5.stereo.wav
+----------------------------------------------------------
+Onset at   0.010 seconds, delay:   4ms.
+All onsets found!
+
+Percussion/Marimba.rubber/Marimba.rubber.ff.Ab6.stereo.wav
+----------------------------------------------------------
+Onset at   0.012 seconds
+All onsets found!
+
+Percussion/Marimba.rubber/Marimba.rubber.ff.B2.stereo.wav
+---------------------------------------------------------
+Onset at   0.060 seconds, delay: -19ms.
+All onsets found!
+
+Percussion/Marimba.rubber/Marimba.rubber.ff.B3.stereo.wav
+---------------------------------------------------------
+Onset at   0.015 seconds, delay:   5ms.
+All onsets found!
+
+Percussion/Marimba.rubber/Marimba.rubber.ff.B4.stereo.wav
+---------------------------------------------------------
+Onset at   0.016 seconds
+All onsets found!
+
+Percussion/Marimba.rubber/Marimba.rubber.ff.B5.stereo.wav
+---------------------------------------------------------
+Onset at   0.011 seconds, delay:   9ms.
+All onsets found!
+
+Percussion/Marimba.rubber/Marimba.rubber.ff.B6.stereo.wav
+---------------------------------------------------------
+
+False negatives:
+  0.010
+
+Percussion/Marimba.rubber/Marimba.rubber.ff.Bb2.stereo.wav
+----------------------------------------------------------
+Onset at   0.062 seconds, delay:  -5ms.
+All onsets found!
+
+Percussion/Marimba.rubber/Marimba.rubber.ff.Bb3.stereo.wav
+----------------------------------------------------------
+Onset at   0.018 seconds, delay:   2ms.
+All onsets found!
+
+Percussion/Marimba.rubber/Marimba.rubber.ff.Bb4.stereo.wav
+----------------------------------------------------------
+Onset at   0.016 seconds, delay:   1ms.
+All onsets found!
+
+Percussion/Marimba.rubber/Marimba.rubber.ff.Bb5.stereo.wav
+----------------------------------------------------------
+Onset at   0.010 seconds, delay:   2ms.
+All onsets found!
+
+Percussion/Marimba.rubber/Marimba.rubber.ff.Bb6.stereo.wav
+----------------------------------------------------------
+Onset at   0.013 seconds, delay:   2ms.
+All onsets found!
+
+Percussion/Marimba.rubber/Marimba.rubber.ff.C2.stereo.wav
+---------------------------------------------------------
+Onset at   0.043 seconds, delay:  -5ms.
+All onsets found!
+
+Percussion/Marimba.rubber/Marimba.rubber.ff.C3.stereo.wav
+---------------------------------------------------------
+Onset at   0.043 seconds, delay:  -6ms.
+All onsets found!
+
+Percussion/Marimba.rubber/Marimba.rubber.ff.C4.stereo.wav
+---------------------------------------------------------
+Onset at   0.017 seconds, delay:   2ms.
+All onsets found!
+
+Percussion/Marimba.rubber/Marimba.rubber.ff.C5.stereo.wav
+---------------------------------------------------------
+Onset at   0.015 seconds, delay:   2ms.
+All onsets found!
+
+Percussion/Marimba.rubber/Marimba.rubber.ff.C6.stereo.wav
+---------------------------------------------------------
+
+False negatives:
+  0.090
+
+Percussion/Marimba.rubber/Marimba.rubber.ff.C7.stereo.wav
+---------------------------------------------------------
+Onset at   0.029 seconds, delay:  -3ms.
+All onsets found!
+
+Percussion/Marimba.rubber/Marimba.rubber.ff.D2.stereo.wav
+---------------------------------------------------------
+Onset at   0.053 seconds, delay: -12ms.
+All onsets found!
+
+Percussion/Marimba.rubber/Marimba.rubber.ff.D3.stereo.wav
+---------------------------------------------------------
+Onset at   0.048 seconds, delay:  -8ms.
+All onsets found!
+
+Percussion/Marimba.rubber/Marimba.rubber.ff.D4.stereo.wav
+---------------------------------------------------------
+Onset at   0.020 seconds
+All onsets found!
+
+Percussion/Marimba.rubber/Marimba.rubber.ff.D5.stereo.wav
+---------------------------------------------------------
+Onset at   0.013 seconds, delay:   7ms.
+All onsets found!
+
+Percussion/Marimba.rubber/Marimba.rubber.ff.D6.stereo.wav
+---------------------------------------------------------
+Onset at   0.014 seconds
+All onsets found!
+
+Percussion/Marimba.rubber/Marimba.rubber.ff.Db2.stereo.wav
+----------------------------------------------------------
+Onset at   0.048 seconds, delay:  -2ms.
+All onsets found!
+
+Percussion/Marimba.rubber/Marimba.rubber.ff.Db3.stereo.wav
+----------------------------------------------------------
+Onset at   0.057 seconds, delay: -15ms.
+All onsets found!
+
+Percussion/Marimba.rubber/Marimba.rubber.ff.Db4.stereo.wav
+----------------------------------------------------------
+Onset at   0.015 seconds, delay:   4ms.
+All onsets found!
+
+Percussion/Marimba.rubber/Marimba.rubber.ff.Db5.stereo.wav
+----------------------------------------------------------
+Onset at   0.017 seconds
+All onsets found!
+
+Percussion/Marimba.rubber/Marimba.rubber.ff.Db6.stereo.wav
+----------------------------------------------------------
+Onset at   0.014 seconds
+All onsets found!
+
+Percussion/Marimba.rubber/Marimba.rubber.ff.E2.stereo.wav
+---------------------------------------------------------
+Onset at   0.062 seconds, delay:  -9ms.
+All onsets found!
+
+Percussion/Marimba.rubber/Marimba.rubber.ff.E3.stereo.wav
+---------------------------------------------------------
+Onset at   0.054 seconds, delay:  -3ms.
+All onsets found!
+
+Percussion/Marimba.rubber/Marimba.rubber.ff.E4.stereo.wav
+---------------------------------------------------------
+Onset at   0.013 seconds, delay:   7ms.
+All onsets found!
+
+Percussion/Marimba.rubber/Marimba.rubber.ff.E5.stereo.wav
+---------------------------------------------------------
+Onset at   0.023 seconds, delay:  -1ms.
+All onsets found!
+
+Percussion/Marimba.rubber/Marimba.rubber.ff.E6.stereo.wav
+---------------------------------------------------------
+Onset at   0.011 seconds, delay:   5ms.
+All onsets found!
+
+Percussion/Marimba.rubber/Marimba.rubber.ff.Eb2.stereo.wav
+----------------------------------------------------------
+Onset at   0.064 seconds
+All onsets found!
+
+Percussion/Marimba.rubber/Marimba.rubber.ff.Eb3.stereo.wav
+----------------------------------------------------------
+Onset at   0.050 seconds, delay:  -9ms.
+All onsets found!
+
+Percussion/Marimba.rubber/Marimba.rubber.ff.Eb4.stereo.wav
+----------------------------------------------------------
+Onset at   0.014 seconds, delay:   4ms.
+All onsets found!
+
+Percussion/Marimba.rubber/Marimba.rubber.ff.Eb5.stereo.wav
+----------------------------------------------------------
+Onset at   0.025 seconds, delay:  -5ms.
+All onsets found!
+
+Percussion/Marimba.rubber/Marimba.rubber.ff.Eb6.stereo.wav
+----------------------------------------------------------
+Onset at   0.014 seconds, delay:  -1ms.
+All onsets found!
+
+Percussion/Marimba.rubber/Marimba.rubber.ff.F2.stereo.wav
+---------------------------------------------------------
+Onset at   0.076 seconds, delay:  -5ms.
+All onsets found!
+
+Percussion/Marimba.rubber/Marimba.rubber.ff.F3.stereo.wav
+---------------------------------------------------------
+Onset at   0.015 seconds, delay:   6ms.
+All onsets found!
+
+Percussion/Marimba.rubber/Marimba.rubber.ff.F4.stereo.wav
+---------------------------------------------------------
+Onset at   0.017 seconds
+All onsets found!
+
+Percussion/Marimba.rubber/Marimba.rubber.ff.F5.stereo.wav
+---------------------------------------------------------
+Onset at   0.016 seconds, delay:  -1ms.
+All onsets found!
+
+Percussion/Marimba.rubber/Marimba.rubber.ff.F6.stereo.wav
+---------------------------------------------------------
+Onset at   0.014 seconds, delay:  -8ms.
+All onsets found!
+
+Percussion/Marimba.rubber/Marimba.rubber.ff.G2.stereo.wav
+---------------------------------------------------------
+Onset at   0.062 seconds, delay: -10ms.
+All onsets found!
+
+Percussion/Marimba.rubber/Marimba.rubber.ff.G3.stereo.wav
+---------------------------------------------------------
+Onset at   0.013 seconds, delay:   7ms.
+All onsets found!
+
+Percussion/Marimba.rubber/Marimba.rubber.ff.G4.stereo.wav
+---------------------------------------------------------
+Onset at   0.027 seconds, delay:  -1ms.
+All onsets found!
+
+Percussion/Marimba.rubber/Marimba.rubber.ff.G5.stereo.wav
+---------------------------------------------------------
+Onset at   0.012 seconds, delay:   2ms.
+All onsets found!
+
+Percussion/Marimba.rubber/Marimba.rubber.ff.G6.stereo.wav
+---------------------------------------------------------
+Onset at   0.011 seconds, delay:  19ms.
+All onsets found!
+
+Percussion/Marimba.rubber/Marimba.rubber.ff.Gb2.stereo.wav
+----------------------------------------------------------
+Onset at   0.063 seconds, delay:  -4ms.
+All onsets found!
+
+Percussion/Marimba.rubber/Marimba.rubber.ff.Gb3.stereo.wav
+----------------------------------------------------------
+Onset at   0.010 seconds, delay:  11ms.
+All onsets found!
+
+Percussion/Marimba.rubber/Marimba.rubber.ff.Gb4.stereo.wav
+----------------------------------------------------------
+Onset at   0.020 seconds, delay:  -2ms.
+All onsets found!
+
+Percussion/Marimba.rubber/Marimba.rubber.ff.Gb5.stereo.wav
+----------------------------------------------------------
+Onset at   0.013 seconds, delay:   1ms.
+All onsets found!
+
+Percussion/Marimba.rubber/Marimba.rubber.ff.Gb6.stereo.wav
+----------------------------------------------------------
+Onset at   0.015 seconds
+All onsets found!
+
+Percussion/Marimba.yarn/Marimba.yarn.ff.A2.stereo.wav
+-----------------------------------------------------
+Onset at   0.056 seconds, delay: -15ms.
+All onsets found!
+
+Percussion/Marimba.yarn/Marimba.yarn.ff.A3.stereo.wav
+-----------------------------------------------------
+Onset at   0.091 seconds, delay:  -2ms.
+All onsets found!
+
+Percussion/Marimba.yarn/Marimba.yarn.ff.A4.stereo.wav
+-----------------------------------------------------
+Onset at   0.067 seconds, delay: -10ms.
+All onsets found!
+
+Percussion/Marimba.yarn/Marimba.yarn.ff.A5.stereo.wav
+-----------------------------------------------------
+Onset at   0.052 seconds, delay:  -1ms.
+All onsets found!
+
+Percussion/Marimba.yarn/Marimba.yarn.ff.A6.stereo.wav
+-----------------------------------------------------
+Onset at   0.106 seconds, delay:  -1ms.
+All onsets found!
+
+Percussion/Marimba.yarn/Marimba.yarn.ff.Ab2.stereo.wav
+------------------------------------------------------
+Onset at   0.095 seconds, delay:  -9ms.
+All onsets found!
+
+Percussion/Marimba.yarn/Marimba.yarn.ff.Ab3.stereo.wav
+------------------------------------------------------
+Onset at   0.094 seconds, delay:  -8ms.
+All onsets found!
+
+Percussion/Marimba.yarn/Marimba.yarn.ff.Ab4.stereo.wav
+------------------------------------------------------
+Onset at   0.085 seconds, delay: -12ms.
+All onsets found!
+
+Percussion/Marimba.yarn/Marimba.yarn.ff.Ab5.stereo.wav
+------------------------------------------------------
+Onset at   0.053 seconds, delay:  -2ms.
+All onsets found!
+
+Percussion/Marimba.yarn/Marimba.yarn.ff.Ab6.stereo.wav
+------------------------------------------------------
+Onset at   0.083 seconds, delay: -12ms.
+All onsets found!
+
+Percussion/Marimba.yarn/Marimba.yarn.ff.B2.stereo.wav
+-----------------------------------------------------
+Onset at   0.093 seconds, delay: -27ms.
+All onsets found!
+
+Percussion/Marimba.yarn/Marimba.yarn.ff.B3.stereo.wav
+-----------------------------------------------------
+Onset at   0.080 seconds, delay: -20ms.
+All onsets found!
+
+Percussion/Marimba.yarn/Marimba.yarn.ff.B4.stereo.wav
+-----------------------------------------------------
+Onset at   0.116 seconds, delay:  -8ms.
+All onsets found!
+
+Percussion/Marimba.yarn/Marimba.yarn.ff.B5.stereo.wav
+-----------------------------------------------------
+Onset at   0.055 seconds, delay:  -4ms.
+All onsets found!
+
+Percussion/Marimba.yarn/Marimba.yarn.ff.B6.stereo.wav
+-----------------------------------------------------
+Onset at   0.072 seconds, delay:  -1ms.
+All onsets found!
+
+Percussion/Marimba.yarn/Marimba.yarn.ff.Bb2.stereo.wav
+------------------------------------------------------
+Onset at   0.079 seconds, delay: -17ms.
+All onsets found!
+
+Percussion/Marimba.yarn/Marimba.yarn.ff.Bb3.stereo.wav
+------------------------------------------------------
+Onset at   0.118 seconds, delay: -15ms.
+All onsets found!
+
+Percussion/Marimba.yarn/Marimba.yarn.ff.Bb4.stereo.wav
+------------------------------------------------------
+Onset at   0.110 seconds, delay:  -3ms.
+All onsets found!
+
+Percussion/Marimba.yarn/Marimba.yarn.ff.Bb5.stereo.wav
+------------------------------------------------------
+Onset at   0.052 seconds, delay:  -1ms.
+All onsets found!
+
+Percussion/Marimba.yarn/Marimba.yarn.ff.Bb6.stereo.wav
+------------------------------------------------------
+Onset at   0.053 seconds, delay:  -2ms.
+All onsets found!
+
+Percussion/Marimba.yarn/Marimba.yarn.ff.C2.stereo.wav
+-----------------------------------------------------
+Onset at   0.009 seconds, delay:  11ms.
+All onsets found!
+
+Percussion/Marimba.yarn/Marimba.yarn.ff.C3.stereo.wav
+-----------------------------------------------------
+Onset at   0.127 seconds
+All onsets found!
+
+Percussion/Marimba.yarn/Marimba.yarn.ff.C4.stereo.wav
+-----------------------------------------------------
+Onset at   0.103 seconds, delay:  -1ms.
+All onsets found!
+
+Percussion/Marimba.yarn/Marimba.yarn.ff.C5.stereo.wav
+-----------------------------------------------------
+Onset at   0.053 seconds, delay: -11ms.
+All onsets found!
+
+Percussion/Marimba.yarn/Marimba.yarn.ff.C6.stereo.wav
+-----------------------------------------------------
+Onset at   0.077 seconds, delay:  -6ms.
+All onsets found!
+
+Percussion/Marimba.yarn/Marimba.yarn.ff.C7.stereo.wav
+-----------------------------------------------------
+Onset at   0.062 seconds, delay: -10ms.
+All onsets found!
+
+Percussion/Marimba.yarn/Marimba.yarn.ff.D3.stereo.wav
+-----------------------------------------------------
+Onset at   0.112 seconds, delay: -18ms.
+All onsets found!
+
+Percussion/Marimba.yarn/Marimba.yarn.ff.D4.stereo.wav
+-----------------------------------------------------
+Onset at   0.080 seconds, delay:  -1ms.
+All onsets found!
+
+Percussion/Marimba.yarn/Marimba.yarn.ff.D5.stereo.wav
+-----------------------------------------------------
+Onset at   0.057 seconds, delay: -17ms.
+All onsets found!
+
+Percussion/Marimba.yarn/Marimba.yarn.ff.D6.stereo.wav
+-----------------------------------------------------
+Onset at   0.083 seconds, delay: -12ms.
+All onsets found!
+
+Percussion/Marimba.yarn/Marimba.yarn.ff.Db2.stereo.wav
+------------------------------------------------------
+Onset at   0.049 seconds, delay: -10ms.
+All onsets found!
+
+Percussion/Marimba.yarn/Marimba.yarn.ff.Db3.stereo.wav
+------------------------------------------------------
+Onset at   0.125 seconds
+All onsets found!
+
+Percussion/Marimba.yarn/Marimba.yarn.ff.Db4.stereo.wav
+------------------------------------------------------
+Onset at   0.091 seconds, delay:  -1ms.
+All onsets found!
+
+Percussion/Marimba.yarn/Marimba.yarn.ff.Db5.stereo.wav
+------------------------------------------------------
+Onset at   0.053 seconds, delay:  -2ms.
+All onsets found!
+
+Percussion/Marimba.yarn/Marimba.yarn.ff.Db6.stereo.wav
+------------------------------------------------------
+Onset at   0.071 seconds
+All onsets found!
+
+Percussion/Marimba.yarn/Marimba.yarn.ff.E2.stereo.wav
+-----------------------------------------------------
+
+False negatives:
+  0.111
+
+False positives:
+  0.059
+
+Percussion/Marimba.yarn/Marimba.yarn.ff.E3.stereo.wav
+-----------------------------------------------------
+Onset at   0.084 seconds
+All onsets found!
+
+Percussion/Marimba.yarn/Marimba.yarn.ff.E4.stereo.wav
+-----------------------------------------------------
+Onset at   0.089 seconds, delay:  -1ms.
+All onsets found!
+
+Percussion/Marimba.yarn/Marimba.yarn.ff.E5.stereo.wav
+-----------------------------------------------------
+Onset at   0.094 seconds, delay:  -6ms.
+All onsets found!
+
+Percussion/Marimba.yarn/Marimba.yarn.ff.E6.stereo.wav
+-----------------------------------------------------
+Onset at   0.069 seconds
+All onsets found!
+
+Percussion/Marimba.yarn/Marimba.yarn.ff.Eb2.stereo.wav
+------------------------------------------------------
+Onset at   0.100 seconds, delay: -39ms.
+All onsets found!
+
+Percussion/Marimba.yarn/Marimba.yarn.ff.Eb3.stereo.wav
+------------------------------------------------------
+Onset at   0.127 seconds, delay:  -4ms.
+All onsets found!
+
+Percussion/Marimba.yarn/Marimba.yarn.ff.Eb4.stereo.wav
+------------------------------------------------------
+Onset at   0.072 seconds, delay:  -1ms.
+All onsets found!
+
+Percussion/Marimba.yarn/Marimba.yarn.ff.Eb5.stereo.wav
+------------------------------------------------------
+Onset at   0.074 seconds, delay:  -3ms.
+All onsets found!
+
+Percussion/Marimba.yarn/Marimba.yarn.ff.Eb6.stereo.wav
+------------------------------------------------------
+Onset at   0.089 seconds, delay: -16ms.
+All onsets found!
+
+Percussion/Marimba.yarn/Marimba.yarn.ff.F2.stereo.wav
+-----------------------------------------------------
+Onset at   0.143 seconds, delay: -43ms.
+All onsets found!
+
+Percussion/Marimba.yarn/Marimba.yarn.ff.F3.stereo.wav
+-----------------------------------------------------
+Onset at   0.064 seconds, delay:  -5ms.
+All onsets found!
+
+Percussion/Marimba.yarn/Marimba.yarn.ff.F4.stereo.wav
+-----------------------------------------------------
+Onset at   0.095 seconds, delay: -12ms.
+All onsets found!
+
+Percussion/Marimba.yarn/Marimba.yarn.ff.F5.stereo.wav
+-----------------------------------------------------
+Onset at   0.063 seconds
+All onsets found!
+
+Percussion/Marimba.yarn/Marimba.yarn.ff.F6.stereo.wav
+-----------------------------------------------------
+Onset at   0.065 seconds, delay:  -1ms.
+All onsets found!
+
+Percussion/Marimba.yarn/Marimba.yarn.ff.G2.stereo.wav
+-----------------------------------------------------
+Onset at   0.103 seconds, delay: -31ms.
+All onsets found!
+
+Percussion/Marimba.yarn/Marimba.yarn.ff.G3.stereo.wav
+-----------------------------------------------------
+Onset at   0.083 seconds, delay: -18ms.
+All onsets found!
+
+Percussion/Marimba.yarn/Marimba.yarn.ff.G4.stereo.wav
+-----------------------------------------------------
+Onset at   0.094 seconds, delay: -21ms.
+All onsets found!
+
+Percussion/Marimba.yarn/Marimba.yarn.ff.G5.stereo.wav
+-----------------------------------------------------
+Onset at   0.049 seconds, delay:  -1ms.
+All onsets found!
+
+Percussion/Marimba.yarn/Marimba.yarn.ff.G6.stereo.wav
+-----------------------------------------------------
+Onset at   0.066 seconds, delay:  -1ms.
+All onsets found!
+
+Percussion/Marimba.yarn/Marimba.yarn.ff.Gb2.stereo.wav
+------------------------------------------------------
+Onset at   0.090 seconds, delay: -16ms.
+All onsets found!
+
+Percussion/Marimba.yarn/Marimba.yarn.ff.Gb3.stereo.wav
+------------------------------------------------------
+
+False negatives:
+  0.120
+
+False positives:
+  0.062
+
+Percussion/Marimba.yarn/Marimba.yarn.ff.Gb4.stereo.wav
+------------------------------------------------------
+Onset at   0.073 seconds, delay:  -2ms.
+All onsets found!
+
+Percussion/Marimba.yarn/Marimba.yarn.ff.Gb5.stereo.wav
+------------------------------------------------------
+Onset at   0.058 seconds, delay: -15ms.
+All onsets found!
+
+Percussion/Marimba.yarn/Marimba.yarn.ff.Gb6.stereo.wav
+------------------------------------------------------
+Onset at   0.063 seconds, delay:  -4ms.
+All onsets found!
+
+Percussion/Vibraphone.bow/Vibraphone.bow.A3.stereo.wav
+------------------------------------------------------
+
+False negatives:
+  0.393
+
+False positives:
+  0.112
+
+Percussion/Vibraphone.bow/Vibraphone.bow.A4.stereo.wav
+------------------------------------------------------
+
+False negatives:
+  0.174
+
+False positives:
+  0.022
+  0.511
+
+Percussion/Vibraphone.bow/Vibraphone.bow.A5.stereo.wav
+------------------------------------------------------
+Onset at   0.223 seconds, delay:  -8ms.
+All onsets found!
+
+Percussion/Vibraphone.bow/Vibraphone.bow.Ab3.stereo.wav
+-------------------------------------------------------
+
+False negatives:
+  0.304
+
+False positives:
+  0.022
+
+Percussion/Vibraphone.bow/Vibraphone.bow.Ab4.stereo.wav
+-------------------------------------------------------
+Onset at   0.077 seconds, delay:   5ms.
+All onsets found!
+
+Percussion/Vibraphone.bow/Vibraphone.bow.Ab5.stereo.wav
+-------------------------------------------------------
+Onset at   0.096 seconds, delay: -23ms.
+All onsets found!
+
+Percussion/Vibraphone.bow/Vibraphone.bow.B3.stereo.wav
+------------------------------------------------------
+Onset at   0.066 seconds, delay:  26ms.
+All onsets found!
+
+Percussion/Vibraphone.bow/Vibraphone.bow.B4.stereo.wav
+------------------------------------------------------
+Onset at   0.030 seconds, delay:  12ms.
+All onsets found!
+
+Percussion/Vibraphone.bow/Vibraphone.bow.B5.stereo.wav
+------------------------------------------------------
+
+False negatives:
+  0.062
+
+False positives:
+  0.120
+
+Percussion/Vibraphone.bow/Vibraphone.bow.Bb3.stereo.wav
+-------------------------------------------------------
+Onset at   0.065 seconds, delay:   5ms.
+All onsets found!
+
+Percussion/Vibraphone.bow/Vibraphone.bow.Bb4.stereo.wav
+-------------------------------------------------------
+
+False negatives:
+  0.149
+
+False positives:
+  0.071
+
+Percussion/Vibraphone.bow/Vibraphone.bow.Bb5.stereo.wav
+-------------------------------------------------------
+
+False negatives:
+  0.289
+
+False positives:
+  0.214
+
+Percussion/Vibraphone.bow/Vibraphone.bow.C3.stereo.wav
+------------------------------------------------------
+Onset at   0.000 seconds, delay:  20ms.
+All onsets found!
+
+Percussion/Vibraphone.bow/Vibraphone.bow.C4.stereo.wav
+------------------------------------------------------
+Onset at   0.055 seconds, delay: -34ms.
+All onsets found!
+
+Percussion/Vibraphone.bow/Vibraphone.bow.C5.stereo.wav
+------------------------------------------------------
+Onset at   0.040 seconds, delay: -19ms.
+All onsets found!
+
+Percussion/Vibraphone.bow/Vibraphone.bow.C6.stereo.wav
+------------------------------------------------------
+
+False negatives:
+  0.122
+
+False positives:
+  0.071
+
+Percussion/Vibraphone.bow/Vibraphone.bow.D3.stereo.wav
+------------------------------------------------------
+Onset at   0.095 seconds, delay:  30ms.
+All onsets found!
+
+Percussion/Vibraphone.bow/Vibraphone.bow.D4.stereo.wav
+------------------------------------------------------
+
+False negatives:
+  0.171
+
+False positives:
+  0.114
+  0.820
+
+Percussion/Vibraphone.bow/Vibraphone.bow.D5.stereo.wav
+------------------------------------------------------
+
+False negatives:
+  0.081
+
+False positives:
+  0.030
+
+Percussion/Vibraphone.bow/Vibraphone.bow.D6.stereo.wav
+------------------------------------------------------
+Onset at   0.181 seconds, delay:  18ms.
+All onsets found!
+
+Percussion/Vibraphone.bow/Vibraphone.bow.Db3.stereo.wav
+-------------------------------------------------------
+
+False negatives:
+  0.153
+
+False positives:
+  0.040
+
+Percussion/Vibraphone.bow/Vibraphone.bow.Db4.stereo.wav
+-------------------------------------------------------
+
+False negatives:
+  0.126
+
+False positives:
+  0.064
+  0.616
+
+Percussion/Vibraphone.bow/Vibraphone.bow.Db5.stereo.wav
+-------------------------------------------------------
+Onset at   0.106 seconds, delay: -47ms.
+
+False positives:
+  1.280
+
+Percussion/Vibraphone.bow/Vibraphone.bow.Db6.stereo.wav
+-------------------------------------------------------
+
+False negatives:
+  0.280
+
+False positives:
+  0.206
+
+Percussion/Vibraphone.bow/Vibraphone.bow.E3.stereo.wav
+------------------------------------------------------
+
+False negatives:
+  0.194
+
+False positives:
+  0.030
+
+Percussion/Vibraphone.bow/Vibraphone.bow.E4.stereo.wav
+------------------------------------------------------
+
+False negatives:
+  0.168
+
+False positives:
+  0.041
+
+Percussion/Vibraphone.bow/Vibraphone.bow.E5.stereo.wav
+------------------------------------------------------
+Onset at   0.102 seconds, delay: -31ms.
+All onsets found!
+
+Percussion/Vibraphone.bow/Vibraphone.bow.E6.stereo.wav
+------------------------------------------------------
+
+False negatives:
+  0.188
+
+False positives:
+  0.071
+
+Percussion/Vibraphone.bow/Vibraphone.bow.Eb3.stereo.wav
+-------------------------------------------------------
+
+False negatives:
+  0.151
+
+False positives:
+  0.086
+
+Percussion/Vibraphone.bow/Vibraphone.bow.Eb4.stereo.wav
+-------------------------------------------------------
+
+False negatives:
+  0.172
+
+False positives:
+  0.110
+
+Percussion/Vibraphone.bow/Vibraphone.bow.Eb5.stereo.wav
+-------------------------------------------------------
+Onset at   0.087 seconds, delay:   6ms.
+All onsets found!
+
+Percussion/Vibraphone.bow/Vibraphone.bow.Eb6.stereo.wav
+-------------------------------------------------------
+Onset at   0.111 seconds, delay: -40ms.
+All onsets found!
+
+Percussion/Vibraphone.bow/Vibraphone.bow.F3.stereo.wav
+------------------------------------------------------
+Onset at   0.141 seconds, delay: -16ms.
+
+False positives:
+  0.517
+
+Percussion/Vibraphone.bow/Vibraphone.bow.F4.stereo.wav
+------------------------------------------------------
+
+False negatives:
+  0.139
+
+False positives:
+  0.078
+
+Percussion/Vibraphone.bow/Vibraphone.bow.F5.stereo.wav
+------------------------------------------------------
+Onset at   0.080 seconds, delay: -50ms.
+
+False positives:
+  1.268
+
+Percussion/Vibraphone.bow/Vibraphone.bow.F6.stereo.wav
+------------------------------------------------------
+
+False negatives:
+  0.008
+
+False positives:
+  0.097
+
+Percussion/Vibraphone.bow/Vibraphone.bow.G3.stereo.wav
+------------------------------------------------------
+
+False negatives:
+  0.364
+
+False positives:
+  0.252
+
+Percussion/Vibraphone.bow/Vibraphone.bow.G4.stereo.wav
+------------------------------------------------------
+Onset at   0.131 seconds, delay:   8ms.
+All onsets found!
+
+Percussion/Vibraphone.bow/Vibraphone.bow.G5.stereo.wav
+------------------------------------------------------
+
+False negatives:
+  0.158
+
+False positives:
+  0.061
+
+Percussion/Vibraphone.bow/Vibraphone.bow.Gb3.stereo.wav
+-------------------------------------------------------
+
+False negatives:
+  0.156
+
+False positives:
+  0.021
+  0.770
+
+Percussion/Vibraphone.bow/Vibraphone.bow.Gb4.stereo.wav
+-------------------------------------------------------
+
+False negatives:
+  0.085
+
+False positives:
+  0.030
+
+Percussion/Vibraphone.bow/Vibraphone.bow.Gb5.stereo.wav
+-------------------------------------------------------
+
+False negatives:
+  0.155
+
+False positives:
+  0.020
+
+Percussion/Vibraphone.dampen/Vibraphone.dampen.ff.A3.stereo.wav
+---------------------------------------------------------------
+Onset at   0.006 seconds, delay:  14ms.
+All onsets found!
+
+Percussion/Vibraphone.dampen/Vibraphone.dampen.ff.A4.stereo.wav
+---------------------------------------------------------------
+Onset at   0.015 seconds, delay:   4ms.
+All onsets found!
+
+Percussion/Vibraphone.dampen/Vibraphone.dampen.ff.A5.stereo.wav
+---------------------------------------------------------------
+
+False negatives:
+  0.006
+
+Percussion/Vibraphone.dampen/Vibraphone.dampen.ff.Ab3.stereo.wav
+----------------------------------------------------------------
+Onset at   0.008 seconds, delay:  12ms.
+All onsets found!
+
+Percussion/Vibraphone.dampen/Vibraphone.dampen.ff.Ab4.stereo.wav
+----------------------------------------------------------------
+Onset at   0.013 seconds, delay:   4ms.
+All onsets found!
+
+Percussion/Vibraphone.dampen/Vibraphone.dampen.ff.Ab5.stereo.wav
+----------------------------------------------------------------
+
+False negatives:
+  0.007
+
+Percussion/Vibraphone.dampen/Vibraphone.dampen.ff.B3.stereo.wav
+---------------------------------------------------------------
+Onset at   0.005 seconds, delay:  15ms.
+All onsets found!
+
+Percussion/Vibraphone.dampen/Vibraphone.dampen.ff.B4.stereo.wav
+---------------------------------------------------------------
+Onset at   0.006 seconds, delay:  14ms.
+All onsets found!
+
+Percussion/Vibraphone.dampen/Vibraphone.dampen.ff.B5.stereo.wav
+---------------------------------------------------------------
+
+False negatives:
+  0.004
+
+Percussion/Vibraphone.dampen/Vibraphone.dampen.ff.Bb3.stereo.wav
+----------------------------------------------------------------
+Onset at   0.011 seconds, delay:   9ms.
+All onsets found!
+
+Percussion/Vibraphone.dampen/Vibraphone.dampen.ff.Bb4.stereo.wav
+----------------------------------------------------------------
+Onset at   0.021 seconds
+All onsets found!
+
+Percussion/Vibraphone.dampen/Vibraphone.dampen.ff.Bb5.stereo.wav
+----------------------------------------------------------------
+
+False negatives:
+  0.006
+
+Percussion/Vibraphone.dampen/Vibraphone.dampen.ff.C3.stereo.wav
+---------------------------------------------------------------
+Onset at   0.010 seconds, delay:  11ms.
+All onsets found!
+
+Percussion/Vibraphone.dampen/Vibraphone.dampen.ff.C4.stereo.wav
+---------------------------------------------------------------
+Onset at   0.008 seconds, delay:  12ms.
+All onsets found!
+
+Percussion/Vibraphone.dampen/Vibraphone.dampen.ff.C5.stereo.wav
+---------------------------------------------------------------
+Onset at   0.006 seconds
+All onsets found!
+
+Percussion/Vibraphone.dampen/Vibraphone.dampen.ff.C6.stereo.wav
+---------------------------------------------------------------
+Onset at   0.033 seconds, delay: -13ms.
+All onsets found!
+
+Percussion/Vibraphone.dampen/Vibraphone.dampen.ff.D3.stereo.wav
+---------------------------------------------------------------
+Onset at   0.013 seconds, delay:   8ms.
+All onsets found!
+
+Percussion/Vibraphone.dampen/Vibraphone.dampen.ff.D4.stereo.wav
+---------------------------------------------------------------
+Onset at   0.019 seconds, delay:   1ms.
+All onsets found!
+
+Percussion/Vibraphone.dampen/Vibraphone.dampen.ff.D5.stereo.wav
+---------------------------------------------------------------
+Onset at   0.008 seconds
+All onsets found!
+
+Percussion/Vibraphone.dampen/Vibraphone.dampen.ff.D6.stereo.wav
+---------------------------------------------------------------
+Onset at   0.020 seconds, delay:  -5ms.
+All onsets found!
+
+Percussion/Vibraphone.dampen/Vibraphone.dampen.ff.Db3.stereo.wav
+----------------------------------------------------------------
+Onset at   0.027 seconds, delay:  -4ms.
+All onsets found!
+
+Percussion/Vibraphone.dampen/Vibraphone.dampen.ff.Db4.stereo.wav
+----------------------------------------------------------------
+Onset at   0.009 seconds, delay:  11ms.
+All onsets found!
+
+Percussion/Vibraphone.dampen/Vibraphone.dampen.ff.Db5.stereo.wav
+----------------------------------------------------------------
+Onset at   0.003 seconds, delay:  17ms.
+All onsets found!
+
+Percussion/Vibraphone.dampen/Vibraphone.dampen.ff.Db6.stereo.wav
+----------------------------------------------------------------
+Onset at   0.014 seconds, delay:  -2ms.
+All onsets found!
+
+Percussion/Vibraphone.dampen/Vibraphone.dampen.ff.E3.stereo.wav
+---------------------------------------------------------------
+Onset at   0.008 seconds, delay:  13ms.
+All onsets found!
+
+Percussion/Vibraphone.dampen/Vibraphone.dampen.ff.E4.stereo.wav
+---------------------------------------------------------------
+Onset at   0.017 seconds, delay:   4ms.
+All onsets found!
+
+Percussion/Vibraphone.dampen/Vibraphone.dampen.ff.E5.stereo.wav
+---------------------------------------------------------------
+Onset at   0.007 seconds, delay:  11ms.
+All onsets found!
+
+Percussion/Vibraphone.dampen/Vibraphone.dampen.ff.E6.stereo.wav
+---------------------------------------------------------------
+
+False negatives:
+  0.260
+
+False positives:
+  0.025
+
+Percussion/Vibraphone.dampen/Vibraphone.dampen.ff.Eb3.stereo.wav
+----------------------------------------------------------------
+Onset at   0.011 seconds, delay:   9ms.
+All onsets found!
+
+Percussion/Vibraphone.dampen/Vibraphone.dampen.ff.Eb4.stereo.wav
+----------------------------------------------------------------
+Onset at   0.012 seconds, delay:   8ms.
+All onsets found!
+
+Percussion/Vibraphone.dampen/Vibraphone.dampen.ff.Eb5.stereo.wav
+----------------------------------------------------------------
+Onset at   0.007 seconds, delay:  -4ms.
+All onsets found!
+
+Percussion/Vibraphone.dampen/Vibraphone.dampen.ff.Eb6.stereo.wav
+----------------------------------------------------------------
+Onset at   0.026 seconds, delay:  -6ms.
+All onsets found!
+
+Percussion/Vibraphone.dampen/Vibraphone.dampen.ff.F3.stereo.wav
+---------------------------------------------------------------
+Onset at   0.014 seconds, delay:   7ms.
+All onsets found!
+
+Percussion/Vibraphone.dampen/Vibraphone.dampen.ff.F4.stereo.wav
+---------------------------------------------------------------
+Onset at   0.014 seconds, delay:   6ms.
+All onsets found!
+
+Percussion/Vibraphone.dampen/Vibraphone.dampen.ff.F5.stereo.wav
+---------------------------------------------------------------
+Onset at   0.008 seconds, delay:   6ms.
+All onsets found!
+
+Percussion/Vibraphone.dampen/Vibraphone.dampen.ff.F6.stereo.wav
+---------------------------------------------------------------
+Onset at   0.020 seconds, delay:  -6ms.
+All onsets found!
+
+Percussion/Vibraphone.dampen/Vibraphone.dampen.ff.G3.stereo.wav
+---------------------------------------------------------------
+Onset at   0.009 seconds, delay:  11ms.
+All onsets found!
+
+Percussion/Vibraphone.dampen/Vibraphone.dampen.ff.G4.stereo.wav
+---------------------------------------------------------------
+Onset at   0.014 seconds, delay:   6ms.
+All onsets found!
+
+Percussion/Vibraphone.dampen/Vibraphone.dampen.ff.G5.stereo.wav
+---------------------------------------------------------------
+
+False negatives:
+  0.004
+
+Percussion/Vibraphone.dampen/Vibraphone.dampen.ff.Gb3.stereo.wav
+----------------------------------------------------------------
+Onset at   0.014 seconds, delay:   6ms.
+All onsets found!
+
+Percussion/Vibraphone.dampen/Vibraphone.dampen.ff.Gb4.stereo.wav
+----------------------------------------------------------------
+Onset at   0.009 seconds, delay:  11ms.
+All onsets found!
+
+Percussion/Vibraphone.dampen/Vibraphone.dampen.ff.Gb5.stereo.wav
+----------------------------------------------------------------
+
+False negatives:
+  0.005
+
+Percussion/Vibraphone.shortsustain/Vibraphone.shortsustain.ff.A3.stereo.wav
+---------------------------------------------------------------------------
+Onset at   0.011 seconds, delay:   9ms.
+All onsets found!
+
+Percussion/Vibraphone.shortsustain/Vibraphone.shortsustain.ff.A4.stereo.wav
+---------------------------------------------------------------------------
+Onset at   0.009 seconds, delay:  10ms.
+All onsets found!
+
+Percussion/Vibraphone.shortsustain/Vibraphone.shortsustain.ff.A5.stereo.wav
+---------------------------------------------------------------------------
+Onset at   0.023 seconds
+All onsets found!
+
+Percussion/Vibraphone.shortsustain/Vibraphone.shortsustain.ff.Ab3.stereo.wav
+----------------------------------------------------------------------------
+Onset at   0.006 seconds, delay:  15ms.
+All onsets found!
+
+Percussion/Vibraphone.shortsustain/Vibraphone.shortsustain.ff.Ab4.stereo.wav
+----------------------------------------------------------------------------
+Onset at   0.008 seconds, delay:  12ms.
+All onsets found!
+
+Percussion/Vibraphone.shortsustain/Vibraphone.shortsustain.ff.Ab5.stereo.wav
+----------------------------------------------------------------------------
+Onset at   0.020 seconds, delay:  -5ms.
+All onsets found!
+
+Percussion/Vibraphone.shortsustain/Vibraphone.shortsustain.ff.B3.stereo.wav
+---------------------------------------------------------------------------
+Onset at   0.011 seconds, delay:   9ms.
+All onsets found!
+
+Percussion/Vibraphone.shortsustain/Vibraphone.shortsustain.ff.B4.stereo.wav
+---------------------------------------------------------------------------
+Onset at   0.012 seconds, delay:   2ms.
+All onsets found!
+
+Percussion/Vibraphone.shortsustain/Vibraphone.shortsustain.ff.B5.stereo.wav
+---------------------------------------------------------------------------
+Onset at   0.009 seconds, delay:   3ms.
+All onsets found!
+
+Percussion/Vibraphone.shortsustain/Vibraphone.shortsustain.ff.Bb3.stereo.wav
+----------------------------------------------------------------------------
+Onset at   0.012 seconds, delay:   8ms.
+All onsets found!
+
+Percussion/Vibraphone.shortsustain/Vibraphone.shortsustain.ff.Bb4.stereo.wav
+----------------------------------------------------------------------------
+Onset at   0.009 seconds, delay:   9ms.
+All onsets found!
+
+Percussion/Vibraphone.shortsustain/Vibraphone.shortsustain.ff.Bb5.stereo.wav
+----------------------------------------------------------------------------
+Onset at   0.024 seconds, delay:  -8ms.
+All onsets found!
+
+Percussion/Vibraphone.shortsustain/Vibraphone.shortsustain.ff.C3.stereo.wav
+---------------------------------------------------------------------------
+Onset at   0.005 seconds, delay:  16ms.
+All onsets found!
+
+Percussion/Vibraphone.shortsustain/Vibraphone.shortsustain.ff.C4.stereo.wav
+---------------------------------------------------------------------------
+Onset at   0.003 seconds, delay:  17ms.
+All onsets found!
+
+Percussion/Vibraphone.shortsustain/Vibraphone.shortsustain.ff.C5.stereo.wav
+---------------------------------------------------------------------------
+Onset at   0.007 seconds, delay:  -1ms.
+All onsets found!
+
+Percussion/Vibraphone.shortsustain/Vibraphone.shortsustain.ff.C6.stereo.wav
+---------------------------------------------------------------------------
+Onset at   0.012 seconds
+All onsets found!
+
+Percussion/Vibraphone.shortsustain/Vibraphone.shortsustain.ff.D3.stereo.wav
+---------------------------------------------------------------------------
+Onset at   0.001 seconds, delay:  19ms.
+All onsets found!
+
+Percussion/Vibraphone.shortsustain/Vibraphone.shortsustain.ff.D4.stereo.wav
+---------------------------------------------------------------------------
+Onset at   0.004 seconds, delay:  16ms.
+All onsets found!
+
+Percussion/Vibraphone.shortsustain/Vibraphone.shortsustain.ff.D5.stereo.wav
+---------------------------------------------------------------------------
+Onset at   0.004 seconds, delay:  16ms.
+All onsets found!
+
+Percussion/Vibraphone.shortsustain/Vibraphone.shortsustain.ff.D6.stereo.wav
+---------------------------------------------------------------------------
+Onset at   0.018 seconds, delay:  -4ms.
+All onsets found!
+
+Percussion/Vibraphone.shortsustain/Vibraphone.shortsustain.ff.Db3.stereo.wav
+----------------------------------------------------------------------------
+Onset at   0.006 seconds, delay:  14ms.
+All onsets found!
+
+Percussion/Vibraphone.shortsustain/Vibraphone.shortsustain.ff.Db4.stereo.wav
+----------------------------------------------------------------------------
+Onset at   0.005 seconds, delay:  15ms.
+All onsets found!
+
+Percussion/Vibraphone.shortsustain/Vibraphone.shortsustain.ff.Db5.stereo.wav
+----------------------------------------------------------------------------
+Onset at   0.009 seconds, delay:   5ms.
+All onsets found!
+
+Percussion/Vibraphone.shortsustain/Vibraphone.shortsustain.ff.Db6.stereo.wav
+----------------------------------------------------------------------------
+Onset at   0.015 seconds
+All onsets found!
+
+Percussion/Vibraphone.shortsustain/Vibraphone.shortsustain.ff.E3.stereo.wav
+---------------------------------------------------------------------------
+Onset at   0.009 seconds, delay:  11ms.
+All onsets found!
+
+Percussion/Vibraphone.shortsustain/Vibraphone.shortsustain.ff.E4.stereo.wav
+---------------------------------------------------------------------------
+Onset at   0.005 seconds, delay:  15ms.
+All onsets found!
+
+Percussion/Vibraphone.shortsustain/Vibraphone.shortsustain.ff.E5.stereo.wav
+---------------------------------------------------------------------------
+Onset at   0.009 seconds, delay:   4ms.
+All onsets found!
+
+Percussion/Vibraphone.shortsustain/Vibraphone.shortsustain.ff.E6.stereo.wav
+---------------------------------------------------------------------------
+Onset at   0.014 seconds
+All onsets found!
+
+Percussion/Vibraphone.shortsustain/Vibraphone.shortsustain.ff.Eb3.stereo.wav
+----------------------------------------------------------------------------
+Onset at   0.004 seconds, delay:  17ms.
+All onsets found!
+
+Percussion/Vibraphone.shortsustain/Vibraphone.shortsustain.ff.Eb4.stereo.wav
+----------------------------------------------------------------------------
+Onset at   0.007 seconds, delay:  13ms.
+All onsets found!
+
+Percussion/Vibraphone.shortsustain/Vibraphone.shortsustain.ff.Eb5.stereo.wav
+----------------------------------------------------------------------------
+Onset at   0.009 seconds, delay:   5ms.
+All onsets found!
+
+Percussion/Vibraphone.shortsustain/Vibraphone.shortsustain.ff.Eb6.stereo.wav
+----------------------------------------------------------------------------
+Onset at   0.016 seconds, delay:  -2ms.
+All onsets found!
+
+Percussion/Vibraphone.shortsustain/Vibraphone.shortsustain.ff.F3.stereo.wav
+---------------------------------------------------------------------------
+Onset at   0.006 seconds, delay:  14ms.
+All onsets found!
+
+Percussion/Vibraphone.shortsustain/Vibraphone.shortsustain.ff.F4.stereo.wav
+---------------------------------------------------------------------------
+Onset at   0.001 seconds, delay:  19ms.
+All onsets found!
+
+Percussion/Vibraphone.shortsustain/Vibraphone.shortsustain.ff.F5.stereo.wav
+---------------------------------------------------------------------------
+Onset at   0.008 seconds, delay:   8ms.
+All onsets found!
+
+Percussion/Vibraphone.shortsustain/Vibraphone.shortsustain.ff.F6.stereo.wav
+---------------------------------------------------------------------------
+Onset at   0.013 seconds, delay:  -6ms.
+All onsets found!
+
+Percussion/Vibraphone.shortsustain/Vibraphone.shortsustain.ff.G3.stereo.wav
+---------------------------------------------------------------------------
+Onset at   0.034 seconds, delay:  -4ms.
+All onsets found!
+
+Percussion/Vibraphone.shortsustain/Vibraphone.shortsustain.ff.G4.stereo.wav
+---------------------------------------------------------------------------
+Onset at   0.005 seconds, delay:  15ms.
+All onsets found!
+
+Percussion/Vibraphone.shortsustain/Vibraphone.shortsustain.ff.G5.stereo.wav
+---------------------------------------------------------------------------
+Onset at   0.008 seconds, delay:   6ms.
+All onsets found!
+
+Percussion/Vibraphone.shortsustain/Vibraphone.shortsustain.ff.Gb3.stereo.wav
+----------------------------------------------------------------------------
+Onset at   0.003 seconds, delay:  17ms.
+All onsets found!
+
+Percussion/Vibraphone.shortsustain/Vibraphone.shortsustain.ff.Gb4.stereo.wav
+----------------------------------------------------------------------------
+Onset at   0.005 seconds, delay:  15ms.
+All onsets found!
+
+Percussion/Vibraphone.shortsustain/Vibraphone.shortsustain.ff.Gb5.stereo.wav
+----------------------------------------------------------------------------
+Onset at   0.011 seconds, delay:   2ms.
+All onsets found!
+
+Percussion/Vibraphone.sustain/Vibraphone.sustain.ff.A3.stereo.wav
+-----------------------------------------------------------------
+Onset at   0.180 seconds
+All onsets found!
+
+Percussion/Vibraphone.sustain/Vibraphone.sustain.ff.A4.stereo.wav
+-----------------------------------------------------------------
+Onset at   0.018 seconds, delay:   1ms.
+All onsets found!
+
+Percussion/Vibraphone.sustain/Vibraphone.sustain.ff.A5.stereo.wav
+-----------------------------------------------------------------
+Onset at   0.020 seconds, delay:  -2ms.
+All onsets found!
+
+Percussion/Vibraphone.sustain/Vibraphone.sustain.ff.Ab3.stereo.wav
+------------------------------------------------------------------
+Onset at   0.177 seconds, delay:  -9ms.
+All onsets found!
+
+Percussion/Vibraphone.sustain/Vibraphone.sustain.ff.Ab4.stereo.wav
+------------------------------------------------------------------
+Onset at   0.045 seconds
+All onsets found!
+
+Percussion/Vibraphone.sustain/Vibraphone.sustain.ff.Ab5.stereo.wav
+------------------------------------------------------------------
+Onset at   0.018 seconds
+All onsets found!
+
+Percussion/Vibraphone.sustain/Vibraphone.sustain.ff.B3.stereo.wav
+-----------------------------------------------------------------
+Onset at   0.179 seconds, delay:  -5ms.
+All onsets found!
+
+Percussion/Vibraphone.sustain/Vibraphone.sustain.ff.B4.stereo.wav
+-----------------------------------------------------------------
+Onset at   0.004 seconds, delay:  16ms.
+All onsets found!
+
+Percussion/Vibraphone.sustain/Vibraphone.sustain.ff.B5.stereo.wav
+-----------------------------------------------------------------
+
+False negatives:
+  0.002
+
+Percussion/Vibraphone.sustain/Vibraphone.sustain.ff.Bb3.stereo.wav
+------------------------------------------------------------------
+Onset at   0.161 seconds
+All onsets found!
+
+Percussion/Vibraphone.sustain/Vibraphone.sustain.ff.Bb4.stereo.wav
+------------------------------------------------------------------
+Onset at   0.022 seconds, delay:  -1ms.
+All onsets found!
+
+Percussion/Vibraphone.sustain/Vibraphone.sustain.ff.Bb5.stereo.wav
+------------------------------------------------------------------
+Onset at   0.016 seconds, delay:   1ms.
+All onsets found!
+
+Percussion/Vibraphone.sustain/Vibraphone.sustain.ff.C3.stereo.wav
+-----------------------------------------------------------------
+Onset at   0.143 seconds
+All onsets found!
+
+Percussion/Vibraphone.sustain/Vibraphone.sustain.ff.C4.stereo.wav
+-----------------------------------------------------------------
+Onset at   0.016 seconds, delay:   4ms.
+All onsets found!
+
+Percussion/Vibraphone.sustain/Vibraphone.sustain.ff.C5.stereo.wav
+-----------------------------------------------------------------
+Onset at   0.021 seconds, delay:  -1ms.
+All onsets found!
+
+Percussion/Vibraphone.sustain/Vibraphone.sustain.ff.C6.stereo.wav
+-----------------------------------------------------------------
+Onset at   0.010 seconds, delay:   9ms.
+All onsets found!
+
+Percussion/Vibraphone.sustain/Vibraphone.sustain.ff.D3.stereo.wav
+-----------------------------------------------------------------
+Onset at   0.168 seconds, delay:  -4ms.
+All onsets found!
+
+Percussion/Vibraphone.sustain/Vibraphone.sustain.ff.D4.stereo.wav
+-----------------------------------------------------------------
+Onset at   0.057 seconds, delay: -17ms.
+All onsets found!
+
+Percussion/Vibraphone.sustain/Vibraphone.sustain.ff.D5.stereo.wav
+-----------------------------------------------------------------
+Onset at   0.008 seconds, delay:   9ms.
+All onsets found!
+
+Percussion/Vibraphone.sustain/Vibraphone.sustain.ff.D6.stereo.wav
+-----------------------------------------------------------------
+Onset at   0.060 seconds, delay:  -9ms.
+All onsets found!
+
+Percussion/Vibraphone.sustain/Vibraphone.sustain.ff.Db3.stereo.wav
+------------------------------------------------------------------
+Onset at   0.252 seconds, delay: -24ms.
+All onsets found!
+
+Percussion/Vibraphone.sustain/Vibraphone.sustain.ff.Db4.stereo.wav
+------------------------------------------------------------------
+Onset at   0.009 seconds, delay:  11ms.
+All onsets found!
+
+Percussion/Vibraphone.sustain/Vibraphone.sustain.ff.Db5.stereo.wav
+------------------------------------------------------------------
+Onset at   0.036 seconds, delay:  -5ms.
+All onsets found!
+
+Percussion/Vibraphone.sustain/Vibraphone.sustain.ff.Db6.stereo.wav
+------------------------------------------------------------------
+Onset at   0.046 seconds, delay:  -4ms.
+All onsets found!
+
+Percussion/Vibraphone.sustain/Vibraphone.sustain.ff.E3.stereo.wav
+-----------------------------------------------------------------
+Onset at   0.184 seconds, delay:  -7ms.
+All onsets found!
+
+Percussion/Vibraphone.sustain/Vibraphone.sustain.ff.E4.stereo.wav
+-----------------------------------------------------------------
+Onset at   0.015 seconds, delay:   4ms.
+All onsets found!
+
+Percussion/Vibraphone.sustain/Vibraphone.sustain.ff.E5.stereo.wav
+-----------------------------------------------------------------
+
+False negatives:
+  0.002
+
+Percussion/Vibraphone.sustain/Vibraphone.sustain.ff.E6.stereo.wav
+-----------------------------------------------------------------
+Onset at   0.031 seconds, delay:  -9ms.
+All onsets found!
+
+Percussion/Vibraphone.sustain/Vibraphone.sustain.ff.Eb3.stereo.wav
+------------------------------------------------------------------
+Onset at   0.157 seconds
+All onsets found!
+
+Percussion/Vibraphone.sustain/Vibraphone.sustain.ff.Eb5.stereo.wav
+------------------------------------------------------------------
+
+False negatives:
+  0.003
+
+Percussion/Vibraphone.sustain/Vibraphone.sustain.ff.Eb6.stereo.wav
+------------------------------------------------------------------
+Onset at   0.015 seconds, delay:  -2ms.
+All onsets found!
+
+Percussion/Vibraphone.sustain/Vibraphone.sustain.ff.F3.stereo.wav
+-----------------------------------------------------------------
+Onset at   0.194 seconds, delay:  -4ms.
+All onsets found!
+
+Percussion/Vibraphone.sustain/Vibraphone.sustain.ff.F4.stereo.wav
+-----------------------------------------------------------------
+Onset at   0.023 seconds
+All onsets found!
+
+Percussion/Vibraphone.sustain/Vibraphone.sustain.ff.F5.stereo.wav
+-----------------------------------------------------------------
+
+False negatives:
+  0.003
+
+Percussion/Vibraphone.sustain/Vibraphone.sustain.ff.F6.stereo.wav
+-----------------------------------------------------------------
+Onset at   0.018 seconds
+All onsets found!
+
+Percussion/Vibraphone.sustain/Vibraphone.sustain.ff.G3.stereo.wav
+-----------------------------------------------------------------
+Onset at   0.195 seconds, delay:  -5ms.
+All onsets found!
+
+Percussion/Vibraphone.sustain/Vibraphone.sustain.ff.G4.stereo.wav
+-----------------------------------------------------------------
+Onset at   0.014 seconds, delay:   7ms.
+All onsets found!
+
+Percussion/Vibraphone.sustain/Vibraphone.sustain.ff.G5.stereo.wav
+-----------------------------------------------------------------
+Onset at   0.007 seconds, delay:  13ms.
+All onsets found!
+
+Percussion/Vibraphone.sustain/Vibraphone.sustain.ff.Gb3.stereo.wav
+------------------------------------------------------------------
+Onset at   0.159 seconds
+All onsets found!
+
+Percussion/Vibraphone.sustain/Vibraphone.sustain.ff.Gb4.stereo.wav
+------------------------------------------------------------------
+Onset at   0.035 seconds, delay:  -5ms.
+All onsets found!
+
+Percussion/Vibraphone.sustain/Vibraphone.sustain.ff.Gb5.stereo.wav
+------------------------------------------------------------------
+Onset at   0.006 seconds, delay:  14ms.
+All onsets found!
+
+Percussion/Xylophone.gliss/Xylophone.gliss.down.stereo.wav
+----------------------------------------------------------
+Onset at   0.016 seconds, delay:  13ms.
+
+False positives:
+  0.410
+
+Percussion/Xylophone.gliss/Xylophone.gliss.up.stereo.wav
+--------------------------------------------------------
+Onset at   0.009 seconds, delay:  12ms.
+All onsets found!
+
+Percussion/Xylophone.hardrubber/Xylophone.hardrubber.ff.A4.stereo.wav
+---------------------------------------------------------------------
+Onset at   0.019 seconds, delay:   1ms.
+All onsets found!
+
+Percussion/Xylophone.hardrubber/Xylophone.hardrubber.ff.A5.stereo.wav
+---------------------------------------------------------------------
+Onset at   0.018 seconds
+All onsets found!
+
+Percussion/Xylophone.hardrubber/Xylophone.hardrubber.ff.A6.stereo.wav
+---------------------------------------------------------------------
+
+False negatives:
+  0.001
+
+Percussion/Xylophone.hardrubber/Xylophone.hardrubber.ff.A7.stereo.wav
+---------------------------------------------------------------------
+
+False negatives:
+  0.001
+
+Percussion/Xylophone.hardrubber/Xylophone.hardrubber.ff.Ab4.stereo.wav
+----------------------------------------------------------------------
+Onset at   0.027 seconds, delay:  -2ms.
+All onsets found!
+
+Percussion/Xylophone.hardrubber/Xylophone.hardrubber.ff.Ab5.stereo.wav
+----------------------------------------------------------------------
+Onset at   0.024 seconds, delay:  -1ms.
+All onsets found!
+
+Percussion/Xylophone.hardrubber/Xylophone.hardrubber.ff.Ab6.stereo.wav
+----------------------------------------------------------------------
+
+False negatives:
+  0.001
+
+Percussion/Xylophone.hardrubber/Xylophone.hardrubber.ff.Ab7.stereo.wav
+----------------------------------------------------------------------
+
+False negatives:
+  0.002
+
+Percussion/Xylophone.hardrubber/Xylophone.hardrubber.ff.B4.stereo.wav
+---------------------------------------------------------------------
+Onset at   0.025 seconds
+All onsets found!
+
+Percussion/Xylophone.hardrubber/Xylophone.hardrubber.ff.B5.stereo.wav
+---------------------------------------------------------------------
+Onset at   0.012 seconds, delay:   5ms.
+All onsets found!
+
+Percussion/Xylophone.hardrubber/Xylophone.hardrubber.ff.B6.stereo.wav
+---------------------------------------------------------------------
+
+False negatives:
+  0.002
+
+Percussion/Xylophone.hardrubber/Xylophone.hardrubber.ff.B7.stereo.wav
+---------------------------------------------------------------------
+
+False negatives:
+  0.001
+
+Percussion/Xylophone.hardrubber/Xylophone.hardrubber.ff.Bb4.stereo.wav
+----------------------------------------------------------------------
+Onset at   0.027 seconds, delay:  -5ms.
+All onsets found!
+
+Percussion/Xylophone.hardrubber/Xylophone.hardrubber.ff.Bb5.stereo.wav
+----------------------------------------------------------------------
+Onset at   0.021 seconds, delay:  -3ms.
+All onsets found!
+
+Percussion/Xylophone.hardrubber/Xylophone.hardrubber.ff.Bb6.stereo.wav
+----------------------------------------------------------------------
+
+False negatives:
+  0.001
+
+Percussion/Xylophone.hardrubber/Xylophone.hardrubber.ff.Bb7.stereo.wav
+----------------------------------------------------------------------
+
+False negatives:
+  0.001
+
+Percussion/Xylophone.hardrubber/Xylophone.hardrubber.ff.C5.stereo.wav
+---------------------------------------------------------------------
+Onset at   0.017 seconds, delay:   2ms.
+All onsets found!
+
+Percussion/Xylophone.hardrubber/Xylophone.hardrubber.ff.C6.stereo.wav
+---------------------------------------------------------------------
+Onset at   0.017 seconds, delay:  -6ms.
+All onsets found!
+
+Percussion/Xylophone.hardrubber/Xylophone.hardrubber.ff.C7.stereo.wav
+---------------------------------------------------------------------
+
+False negatives:
+  0.001
+
+Percussion/Xylophone.hardrubber/Xylophone.hardrubber.ff.C8.stereo.wav
+---------------------------------------------------------------------
+
+False negatives:
+  0.000
+
+Percussion/Xylophone.hardrubber/Xylophone.hardrubber.ff.D5.stereo.wav
+---------------------------------------------------------------------
+Onset at   0.022 seconds
+All onsets found!
+
+Percussion/Xylophone.hardrubber/Xylophone.hardrubber.ff.D6.stereo.wav
+---------------------------------------------------------------------
+Onset at   0.013 seconds, delay:   2ms.
+All onsets found!
+
+Percussion/Xylophone.hardrubber/Xylophone.hardrubber.ff.D7.stereo.wav
+---------------------------------------------------------------------
+
+False negatives:
+  0.001
+
+Percussion/Xylophone.hardrubber/Xylophone.hardrubber.ff.Db5.stereo.wav
+----------------------------------------------------------------------
+Onset at   0.021 seconds
+All onsets found!
+
+Percussion/Xylophone.hardrubber/Xylophone.hardrubber.ff.Db6.stereo.wav
+----------------------------------------------------------------------
+Onset at   0.013 seconds, delay:   3ms.
+All onsets found!
+
+Percussion/Xylophone.hardrubber/Xylophone.hardrubber.ff.Db7.stereo.wav
+----------------------------------------------------------------------
+
+False negatives:
+  0.001
+
+Percussion/Xylophone.hardrubber/Xylophone.hardrubber.ff.E5.stereo.wav
+---------------------------------------------------------------------
+Onset at   0.023 seconds
+All onsets found!
+
+Percussion/Xylophone.hardrubber/Xylophone.hardrubber.ff.E6.stereo.wav
+---------------------------------------------------------------------
+Onset at   0.013 seconds
+All onsets found!
+
+Percussion/Xylophone.hardrubber/Xylophone.hardrubber.ff.E7.stereo.wav
+---------------------------------------------------------------------
+
+False negatives:
+  0.001
+
+Percussion/Xylophone.hardrubber/Xylophone.hardrubber.ff.Eb5.stereo.wav
+----------------------------------------------------------------------
+Onset at   0.024 seconds
+All onsets found!
+
+Percussion/Xylophone.hardrubber/Xylophone.hardrubber.ff.Eb6.stereo.wav
+----------------------------------------------------------------------
+Onset at   0.011 seconds, delay:   4ms.
+All onsets found!
+
+Percussion/Xylophone.hardrubber/Xylophone.hardrubber.ff.Eb7.stereo.wav
+----------------------------------------------------------------------
+
+False negatives:
+  0.001
+
+Percussion/Xylophone.hardrubber/Xylophone.hardrubber.ff.F4.stereo.wav
+---------------------------------------------------------------------
+Onset at   0.016 seconds, delay:   4ms.
+All onsets found!
+
+Percussion/Xylophone.hardrubber/Xylophone.hardrubber.ff.F5.stereo.wav
+---------------------------------------------------------------------
+Onset at   0.024 seconds, delay:  -6ms.
+All onsets found!
+
+Percussion/Xylophone.hardrubber/Xylophone.hardrubber.ff.F6.stereo.wav
+---------------------------------------------------------------------
+Onset at   0.011 seconds, delay:   4ms.
+All onsets found!
+
+Percussion/Xylophone.hardrubber/Xylophone.hardrubber.ff.F7.stereo.wav
+---------------------------------------------------------------------
+
+False negatives:
+  0.003
+
+Percussion/Xylophone.hardrubber/Xylophone.hardrubber.ff.G4.stereo.wav
+---------------------------------------------------------------------
+Onset at   0.025 seconds, delay:  -2ms.
+All onsets found!
+
+Percussion/Xylophone.hardrubber/Xylophone.hardrubber.ff.G5.stereo.wav
+---------------------------------------------------------------------
+Onset at   0.027 seconds
+All onsets found!
+
+Percussion/Xylophone.hardrubber/Xylophone.hardrubber.ff.G6.stereo.wav
+---------------------------------------------------------------------
+Onset at   0.010 seconds, delay:  10ms.
+All onsets found!
+
+Percussion/Xylophone.hardrubber/Xylophone.hardrubber.ff.G7.stereo.wav
+---------------------------------------------------------------------
+
+False negatives:
+  0.002
+
+Percussion/Xylophone.hardrubber/Xylophone.hardrubber.ff.Gb4.stereo.wav
+----------------------------------------------------------------------
+Onset at   0.022 seconds
+All onsets found!
+
+Percussion/Xylophone.hardrubber/Xylophone.hardrubber.ff.Gb5.stereo.wav
+----------------------------------------------------------------------
+Onset at   0.024 seconds, delay:  -1ms.
+All onsets found!
+
+Percussion/Xylophone.hardrubber/Xylophone.hardrubber.ff.Gb6.stereo.wav
+----------------------------------------------------------------------
+Onset at   0.011 seconds, delay:   1ms.
+All onsets found!
+
+Percussion/Xylophone.hardrubber/Xylophone.hardrubber.ff.Gb7.stereo.wav
+----------------------------------------------------------------------
+
+False negatives:
+  0.001
+
+Percussion/Xylophone.rosewood/Xylophone.rosewood.ff.A4.stereo.wav
+-----------------------------------------------------------------
+Onset at   0.007 seconds, delay:  13ms.
+All onsets found!
+
+Percussion/Xylophone.rosewood/Xylophone.rosewood.ff.A5.stereo.wav
+-----------------------------------------------------------------
+
+False negatives:
+  0.002
+
+Percussion/Xylophone.rosewood/Xylophone.rosewood.ff.A6.stereo.wav
+-----------------------------------------------------------------
+
+False negatives:
+  0.002
+
+Percussion/Xylophone.rosewood/Xylophone.rosewood.ff.A7.stereo.wav
+-----------------------------------------------------------------
+
+False negatives:
+  0.002
+
+Percussion/Xylophone.rosewood/Xylophone.rosewood.ff.Ab4.stereo.wav
+------------------------------------------------------------------
+Onset at   0.007 seconds, delay:  13ms.
+All onsets found!
+
+Percussion/Xylophone.rosewood/Xylophone.rosewood.ff.Ab5.stereo.wav
+------------------------------------------------------------------
+
+False negatives:
+  0.002
+
+Percussion/Xylophone.rosewood/Xylophone.rosewood.ff.Ab6.stereo.wav
+------------------------------------------------------------------
+
+False negatives:
+  0.002
+
+Percussion/Xylophone.rosewood/Xylophone.rosewood.ff.Ab7.stereo.wav
+------------------------------------------------------------------
+
+False negatives:
+  0.003
+
+Percussion/Xylophone.rosewood/Xylophone.rosewood.ff.B4.stereo.wav
+-----------------------------------------------------------------
+Onset at   0.004 seconds, delay:  16ms.
+All onsets found!
+
+Percussion/Xylophone.rosewood/Xylophone.rosewood.ff.B5.stereo.wav
+-----------------------------------------------------------------
+
+False negatives:
+  0.003
+
+Percussion/Xylophone.rosewood/Xylophone.rosewood.ff.B6.stereo.wav
+-----------------------------------------------------------------
+
+False negatives:
+  0.002
+
+Percussion/Xylophone.rosewood/Xylophone.rosewood.ff.B7.stereo.wav
+-----------------------------------------------------------------
+
+False negatives:
+  0.002
+
+Percussion/Xylophone.rosewood/Xylophone.rosewood.ff.Bb4.stereo.wav
+------------------------------------------------------------------
+Onset at   0.004 seconds, delay:  16ms.
+All onsets found!
+
+Percussion/Xylophone.rosewood/Xylophone.rosewood.ff.Bb5.stereo.wav
+------------------------------------------------------------------
+
+False negatives:
+  0.003
+
+Percussion/Xylophone.rosewood/Xylophone.rosewood.ff.Bb6.stereo.wav
+------------------------------------------------------------------
+
+False negatives:
+  0.002
+
+Percussion/Xylophone.rosewood/Xylophone.rosewood.ff.Bb7.stereo.wav
+------------------------------------------------------------------
+
+False negatives:
+  0.002
+
+Percussion/Xylophone.rosewood/Xylophone.rosewood.ff.C5.stereo.wav
+-----------------------------------------------------------------
+
+False negatives:
+  0.003
+
+Percussion/Xylophone.rosewood/Xylophone.rosewood.ff.C6.stereo.wav
+-----------------------------------------------------------------
+
+False negatives:
+  0.002
+
+Percussion/Xylophone.rosewood/Xylophone.rosewood.ff.C7.stereo.wav
+-----------------------------------------------------------------
+
+False negatives:
+  0.002
+
+Percussion/Xylophone.rosewood/Xylophone.rosewood.ff.C8.stereo.wav
+-----------------------------------------------------------------
+
+False negatives:
+  0.002
+
+Percussion/Xylophone.rosewood/Xylophone.rosewood.ff.D5.stereo.wav
+-----------------------------------------------------------------
+Onset at   0.004 seconds, delay:  16ms.
+All onsets found!
+
+Percussion/Xylophone.rosewood/Xylophone.rosewood.ff.D6.stereo.wav
+-----------------------------------------------------------------
+
+False negatives:
+  0.002
+
+Percussion/Xylophone.rosewood/Xylophone.rosewood.ff.D7.stereo.wav
+-----------------------------------------------------------------
+
+False negatives:
+  0.002
+
+Percussion/Xylophone.rosewood/Xylophone.rosewood.ff.Db5.stereo.wav
+------------------------------------------------------------------
+Onset at   0.004 seconds, delay:  16ms.
+All onsets found!
+
+Percussion/Xylophone.rosewood/Xylophone.rosewood.ff.Db6.stereo.wav
+------------------------------------------------------------------
+
+False negatives:
+  0.003
+
+Percussion/Xylophone.rosewood/Xylophone.rosewood.ff.Db7.stereo.wav
+------------------------------------------------------------------
+
+False negatives:
+  0.002
+
+Percussion/Xylophone.rosewood/Xylophone.rosewood.ff.E5.stereo.wav
+-----------------------------------------------------------------
+
+False negatives:
+  0.002
+
+Percussion/Xylophone.rosewood/Xylophone.rosewood.ff.E6.stereo.wav
+-----------------------------------------------------------------
+
+False negatives:
+  0.002
+
+Percussion/Xylophone.rosewood/Xylophone.rosewood.ff.E7.stereo.wav
+-----------------------------------------------------------------
+
+False negatives:
+  0.002
+
+Percussion/Xylophone.rosewood/Xylophone.rosewood.ff.Eb5.stereo.wav
+------------------------------------------------------------------
+Onset at   0.005 seconds, delay:  15ms.
+All onsets found!
+
+Percussion/Xylophone.rosewood/Xylophone.rosewood.ff.Eb6.stereo.wav
+------------------------------------------------------------------
+
+False negatives:
+  0.002
+
+Percussion/Xylophone.rosewood/Xylophone.rosewood.ff.Eb7.stereo.wav
+------------------------------------------------------------------
+
+False negatives:
+  0.002
+
+Percussion/Xylophone.rosewood/Xylophone.rosewood.ff.F4.stereo.wav
+-----------------------------------------------------------------
+Onset at   0.005 seconds, delay:  15ms.
+All onsets found!
+
+Percussion/Xylophone.rosewood/Xylophone.rosewood.ff.F5.stereo.wav
+-----------------------------------------------------------------
+
+False negatives:
+  0.003
+
+Percussion/Xylophone.rosewood/Xylophone.rosewood.ff.F6.stereo.wav
+-----------------------------------------------------------------
+
+False negatives:
+  0.003
+
+Percussion/Xylophone.rosewood/Xylophone.rosewood.ff.F7.stereo.wav
+-----------------------------------------------------------------
+
+False negatives:
+  0.002
+
+Percussion/Xylophone.rosewood/Xylophone.rosewood.ff.G4.stereo.wav
+-----------------------------------------------------------------
+Onset at   0.005 seconds, delay:  15ms.
+All onsets found!
+
+Percussion/Xylophone.rosewood/Xylophone.rosewood.ff.G5.stereo.wav
+-----------------------------------------------------------------
+
+False negatives:
+  0.002
+
+Percussion/Xylophone.rosewood/Xylophone.rosewood.ff.G6.stereo.wav
+-----------------------------------------------------------------
+
+False negatives:
+  0.002
+
+Percussion/Xylophone.rosewood/Xylophone.rosewood.ff.G7.stereo.wav
+-----------------------------------------------------------------
+
+False negatives:
+  0.002
+
+Percussion/Xylophone.rosewood/Xylophone.rosewood.ff.Gb4.stereo.wav
+------------------------------------------------------------------
+Onset at   0.005 seconds, delay:  15ms.
+All onsets found!
+
+Percussion/Xylophone.rosewood/Xylophone.rosewood.ff.Gb5.stereo.wav
+------------------------------------------------------------------
+
+False negatives:
+  0.003
+
+Percussion/Xylophone.rosewood/Xylophone.rosewood.ff.Gb6.stereo.wav
+------------------------------------------------------------------
+
+False negatives:
+  0.002
+
+Percussion/Xylophone.rosewood/Xylophone.rosewood.ff.Gb7.stereo.wav
+------------------------------------------------------------------
+
+False negatives:
+  0.002
+
+Percussion/bells.brass/bells.brass.ff.A5.stereo.wav
+---------------------------------------------------
+Onset at   0.128 seconds, delay: -19ms.
+All onsets found!
+
+Percussion/bells.brass/bells.brass.ff.A6.stereo.wav
+---------------------------------------------------
+Onset at   0.122 seconds, delay:  -7ms.
+All onsets found!
+
+Percussion/bells.brass/bells.brass.ff.A7.stereo.wav
+---------------------------------------------------
+Onset at   0.110 seconds, delay: -38ms.
+All onsets found!
+
+Percussion/bells.brass/bells.brass.ff.Ab5.stereo.wav
+----------------------------------------------------
+Onset at   0.084 seconds, delay: -24ms.
+All onsets found!
+
+Percussion/bells.brass/bells.brass.ff.Ab6.stereo.wav
+----------------------------------------------------
+Onset at   0.106 seconds, delay: -34ms.
+All onsets found!
+
+Percussion/bells.brass/bells.brass.ff.Ab7.stereo.wav
+----------------------------------------------------
+Onset at   0.085 seconds, delay: -19ms.
+All onsets found!
+
+Percussion/bells.brass/bells.brass.ff.B5.stereo.wav
+---------------------------------------------------
+Onset at   0.092 seconds, delay: -21ms.
+All onsets found!
+
+Percussion/bells.brass/bells.brass.ff.B6.stereo.wav
+---------------------------------------------------
+Onset at   0.109 seconds, delay: -37ms.
+
+False positives:
+  1.850
+
+Percussion/bells.brass/bells.brass.ff.B7.stereo.wav
+---------------------------------------------------
+Onset at   0.121 seconds, delay: -49ms.
+All onsets found!
+
+Percussion/bells.brass/bells.brass.ff.Bb5.stereo.wav
+----------------------------------------------------
+Onset at   0.078 seconds, delay: -13ms.
+All onsets found!
+
+Percussion/bells.brass/bells.brass.ff.Bb6.stereo.wav
+----------------------------------------------------
+Onset at   0.116 seconds, delay: -24ms.
+All onsets found!
+
+Percussion/bells.brass/bells.brass.ff.Bb7.stereo.wav
+----------------------------------------------------
+Onset at   0.063 seconds, delay: -10ms.
+All onsets found!
+
+Percussion/bells.brass/bells.brass.ff.C5.stereo.wav
+---------------------------------------------------
+Onset at   0.072 seconds, delay: -17ms.
+All onsets found!
+
+Percussion/bells.brass/bells.brass.ff.C6.stereo.wav
+---------------------------------------------------
+Onset at   0.213 seconds, delay: -22ms.
+All onsets found!
+
+Percussion/bells.brass/bells.brass.ff.C7.stereo.wav
+---------------------------------------------------
+Onset at   0.094 seconds, delay: -22ms.
+All onsets found!
+
+Percussion/bells.brass/bells.brass.ff.C8.stereo.wav
+---------------------------------------------------
+
+False negatives:
+  0.125
+
+False positives:
+  0.072
+
+Percussion/bells.brass/bells.brass.ff.D5.stereo.wav
+---------------------------------------------------
+Onset at   0.603 seconds, delay: -20ms.
+All onsets found!
+
+Percussion/bells.brass/bells.brass.ff.D6.stereo.wav
+---------------------------------------------------
+
+False negatives:
+  0.171
+
+False positives:
+  0.119
+
+Percussion/bells.brass/bells.brass.ff.D7.stereo.wav
+---------------------------------------------------
+Onset at   0.078 seconds, delay: -24ms.
+
+False positives:
+  0.580
+
+Percussion/bells.brass/bells.brass.ff.D8.stereo.wav
+---------------------------------------------------
+Onset at   0.092 seconds, delay: -21ms.
+All onsets found!
+
+Percussion/bells.brass/bells.brass.ff.Db5.stereo.wav
+----------------------------------------------------
+Onset at   0.462 seconds, delay: -20ms.
+All onsets found!
+
+Percussion/bells.brass/bells.brass.ff.Db6.stereo.wav
+----------------------------------------------------
+Onset at   0.062 seconds
+All onsets found!
+
+Percussion/bells.brass/bells.brass.ff.Db7.stereo.wav
+----------------------------------------------------
+Onset at   0.087 seconds, delay: -29ms.
+All onsets found!
+
+Percussion/bells.brass/bells.brass.ff.Db8.stereo.wav
+----------------------------------------------------
+Onset at   0.085 seconds, delay: -26ms.
+All onsets found!
+
+Percussion/bells.brass/bells.brass.ff.E5.stereo.wav
+---------------------------------------------------
+Onset at   0.588 seconds, delay: -32ms.
+All onsets found!
+
+Percussion/bells.brass/bells.brass.ff.E6.stereo.wav
+---------------------------------------------------
+Onset at   0.083 seconds, delay: -26ms.
+All onsets found!
+
+Percussion/bells.brass/bells.brass.ff.E7.stereo.wav
+---------------------------------------------------
+Onset at   0.076 seconds, delay:  -9ms.
+All onsets found!
+
+Percussion/bells.brass/bells.brass.ff.E8.stereo.wav
+---------------------------------------------------
+Onset at   0.053 seconds, delay: -12ms.
+All onsets found!
+
+Percussion/bells.brass/bells.brass.ff.Eb5.stereo.wav
+----------------------------------------------------
+Onset at   0.304 seconds, delay:  -9ms.
+All onsets found!
+
+Percussion/bells.brass/bells.brass.ff.Eb6.stereo.wav
+----------------------------------------------------
+Onset at   0.061 seconds
+All onsets found!
+
+Percussion/bells.brass/bells.brass.ff.Eb7.stereo.wav
+----------------------------------------------------
+Onset at   0.096 seconds, delay: -24ms.
+All onsets found!
+
+Percussion/bells.brass/bells.brass.ff.Eb8.stereo.wav
+----------------------------------------------------
+Onset at   0.079 seconds, delay:  -9ms.
+All onsets found!
+
+Percussion/bells.brass/bells.brass.ff.F5.stereo.wav
+---------------------------------------------------
+Onset at   0.260 seconds, delay: -18ms.
+All onsets found!
+
+Percussion/bells.brass/bells.brass.ff.F6.stereo.wav
+---------------------------------------------------
+Onset at   0.054 seconds, delay:  -9ms.
+All onsets found!
+
+Percussion/bells.brass/bells.brass.ff.F7.stereo.wav
+---------------------------------------------------
+Onset at   0.079 seconds, delay: -20ms.
+All onsets found!
+
+Percussion/bells.brass/bells.brass.ff.G5.stereo.wav
+---------------------------------------------------
+Onset at   0.117 seconds, delay: -33ms.
+All onsets found!
+
+Percussion/bells.brass/bells.brass.ff.G6.stereo.wav
+---------------------------------------------------
+Onset at   0.117 seconds, delay: -44ms.
+
+False positives:
+  1.806
+
+Percussion/bells.brass/bells.brass.ff.G7.stereo.wav
+---------------------------------------------------
+Onset at   0.110 seconds, delay: -12ms.
+All onsets found!
+
+Percussion/bells.brass/bells.brass.ff.Gb5.stereo.wav
+----------------------------------------------------
+Onset at   0.165 seconds, delay: -30ms.
+All onsets found!
+
+Percussion/bells.brass/bells.brass.ff.Gb6.stereo.wav
+----------------------------------------------------
+Onset at   0.130 seconds, delay: -25ms.
+All onsets found!
+
+Percussion/bells.brass/bells.brass.ff.Gb7.stereo.wav
+----------------------------------------------------
+Onset at   0.073 seconds, delay: -16ms.
+All onsets found!
+
+Percussion/bells.plastic/bells.plastic.ff.A5.stereo.wav
+-------------------------------------------------------
+Onset at   0.063 seconds, delay:  -4ms.
+All onsets found!
+
+Percussion/bells.plastic/bells.plastic.ff.A6.stereo.wav
+-------------------------------------------------------
+Onset at   0.076 seconds, delay:  -5ms.
+All onsets found!
+
+Percussion/bells.plastic/bells.plastic.ff.A7.stereo.wav
+-------------------------------------------------------
+Onset at   0.045 seconds, delay:  -9ms.
+All onsets found!
+
+Percussion/bells.plastic/bells.plastic.ff.Ab5.stereo.wav
+--------------------------------------------------------
+Onset at   0.050 seconds, delay:  -8ms.
+All onsets found!
+
+Percussion/bells.plastic/bells.plastic.ff.Ab6.stereo.wav
+--------------------------------------------------------
+Onset at   0.109 seconds
+All onsets found!
+
+Percussion/bells.plastic/bells.plastic.ff.Ab7.stereo.wav
+--------------------------------------------------------
+Onset at   0.035 seconds, delay:  -5ms.
+All onsets found!
+
+Percussion/bells.plastic/bells.plastic.ff.B5.stereo.wav
+-------------------------------------------------------
+Onset at   0.032 seconds, delay:  -2ms.
+All onsets found!
+
+Percussion/bells.plastic/bells.plastic.ff.B6.stereo.wav
+-------------------------------------------------------
+Onset at   0.062 seconds, delay:  -8ms.
+All onsets found!
+
+Percussion/bells.plastic/bells.plastic.ff.B7.stereo.wav
+-------------------------------------------------------
+Onset at   0.060 seconds, delay:  -9ms.
+All onsets found!
+
+Percussion/bells.plastic/bells.plastic.ff.Bb5.stereo.wav
+--------------------------------------------------------
+Onset at   0.045 seconds, delay:  -3ms.
+All onsets found!
+
+Percussion/bells.plastic/bells.plastic.ff.Bb6.stereo.wav
+--------------------------------------------------------
+Onset at   0.067 seconds
+All onsets found!
+
+Percussion/bells.plastic/bells.plastic.ff.Bb7.stereo.wav
+--------------------------------------------------------
+Onset at   0.046 seconds, delay:  -1ms.
+All onsets found!
+
+Percussion/bells.plastic/bells.plastic.ff.C5.stereo.wav
+-------------------------------------------------------
+Onset at   0.058 seconds
+All onsets found!
+
+Percussion/bells.plastic/bells.plastic.ff.C6.stereo.wav
+-------------------------------------------------------
+Onset at   0.134 seconds, delay:  -4ms.
+All onsets found!
+
+Percussion/bells.plastic/bells.plastic.ff.C7.stereo.wav
+-------------------------------------------------------
+Onset at   0.113 seconds, delay: -42ms.
+All onsets found!
+
+Percussion/bells.plastic/bells.plastic.ff.C8.stereo.wav
+-------------------------------------------------------
+Onset at   0.031 seconds, delay:  -1ms.
+All onsets found!
+
+Percussion/bells.plastic/bells.plastic.ff.D5.stereo.wav
+-------------------------------------------------------
+Onset at   0.070 seconds
+All onsets found!
+
+Percussion/bells.plastic/bells.plastic.ff.D6.stereo.wav
+-------------------------------------------------------
+Onset at   0.071 seconds
+All onsets found!
+
+Percussion/bells.plastic/bells.plastic.ff.D7.stereo.wav
+-------------------------------------------------------
+Onset at   0.113 seconds, delay: -41ms.
+All onsets found!
+
+Percussion/bells.plastic/bells.plastic.ff.D8.stereo.wav
+-------------------------------------------------------
+Onset at   0.047 seconds, delay: -10ms.
+All onsets found!
+
+Percussion/bells.plastic/bells.plastic.ff.Db5.stereo.wav
+--------------------------------------------------------
+Onset at   0.063 seconds
+All onsets found!
+
+Percussion/bells.plastic/bells.plastic.ff.Db6.stereo.wav
+--------------------------------------------------------
+Onset at   0.079 seconds, delay:  -4ms.
+All onsets found!
+
+Percussion/bells.plastic/bells.plastic.ff.Db7.stereo.wav
+--------------------------------------------------------
+Onset at   0.103 seconds, delay: -31ms.
+All onsets found!
+
+Percussion/bells.plastic/bells.plastic.ff.Db8.stereo.wav
+--------------------------------------------------------
+Onset at   0.037 seconds, delay:  -6ms.
+All onsets found!
+
+Percussion/bells.plastic/bells.plastic.ff.E5.stereo.wav
+-------------------------------------------------------
+Onset at   0.013 seconds, delay:   7ms.
+All onsets found!
+
+Percussion/bells.plastic/bells.plastic.ff.E6.stereo.wav
+-------------------------------------------------------
+Onset at   0.081 seconds, delay:  -7ms.
+All onsets found!
+
+Percussion/bells.plastic/bells.plastic.ff.E7.stereo.wav
+-------------------------------------------------------
+
+False negatives:
+  0.139
+
+False positives:
+  0.073
+
+Percussion/bells.plastic/bells.plastic.ff.E8.stereo.wav
+-------------------------------------------------------
+
+False negatives:
+  0.210
+
+False positives:
+  0.021
+
+Percussion/bells.plastic/bells.plastic.ff.Eb5.stereo.wav
+--------------------------------------------------------
+Onset at   0.033 seconds, delay:  -3ms.
+All onsets found!
+
+Percussion/bells.plastic/bells.plastic.ff.Eb6.stereo.wav
+--------------------------------------------------------
+Onset at   0.080 seconds, delay:  -6ms.
+All onsets found!
+
+Percussion/bells.plastic/bells.plastic.ff.Eb7.stereo.wav
+--------------------------------------------------------
+Onset at   0.101 seconds, delay: -39ms.
+All onsets found!
+
+Percussion/bells.plastic/bells.plastic.ff.Eb8.stereo.wav
+--------------------------------------------------------
+Onset at   0.072 seconds, delay:  -2ms.
+All onsets found!
+
+Percussion/bells.plastic/bells.plastic.ff.F5.stereo.wav
+-------------------------------------------------------
+Onset at   0.064 seconds, delay: -10ms.
+All onsets found!
+
+Percussion/bells.plastic/bells.plastic.ff.F6.stereo.wav
+-------------------------------------------------------
+Onset at   0.096 seconds, delay: -37ms.
+All onsets found!
+
+Percussion/bells.plastic/bells.plastic.ff.F7.stereo.wav
+-------------------------------------------------------
+Onset at   0.105 seconds, delay: -43ms.
+All onsets found!
+
+Percussion/bells.plastic/bells.plastic.ff.G5.stereo.wav
+-------------------------------------------------------
+Onset at   0.088 seconds, delay: -17ms.
+All onsets found!
+
+Percussion/bells.plastic/bells.plastic.ff.G6.stereo.wav
+-------------------------------------------------------
+Onset at   0.126 seconds
+All onsets found!
+
+Percussion/bells.plastic/bells.plastic.ff.G7.stereo.wav
+-------------------------------------------------------
+Onset at   0.050 seconds
+All onsets found!
+
+Percussion/bells.plastic/bells.plastic.ff.Gb5.stereo.wav
+--------------------------------------------------------
+Onset at   0.072 seconds, delay:  -1ms.
+All onsets found!
+
+Percussion/bells.plastic/bells.plastic.ff.Gb6.stereo.wav
+--------------------------------------------------------
+Onset at   0.096 seconds, delay:  -6ms.
+All onsets found!
+
+Percussion/bells.plastic/bells.plastic.ff.Gb7.stereo.wav
+--------------------------------------------------------
+Onset at   0.051 seconds
+All onsets found!
+
+Percussion/thaigong/thaigong.ff.A4.stereo.wav
+---------------------------------------------
+Onset at   0.091 seconds, delay: -30ms.
+All onsets found!
+
+Percussion/thaigong/thaigong.ff.Ab4.stereo.wav
+----------------------------------------------
+Onset at   0.084 seconds
+All onsets found!
+
+Percussion/thaigong/thaigong.ff.B4.stereo.wav
+---------------------------------------------
+Onset at   0.101 seconds, delay: -16ms.
+All onsets found!
+
+Percussion/thaigong/thaigong.ff.Bb4.stereo.wav
+----------------------------------------------
+Onset at   0.104 seconds
+All onsets found!
+
+Percussion/thaigong/thaigong.ff.C4.stereo.wav
+---------------------------------------------
+Onset at   0.102 seconds
+All onsets found!
+
+Percussion/thaigong/thaigong.ff.C5.stereo.wav
+---------------------------------------------
+Onset at   0.055 seconds, delay: -11ms.
+All onsets found!
+
+Percussion/thaigong/thaigong.ff.D4.stereo.wav
+---------------------------------------------
+Onset at   0.082 seconds, delay:  -3ms.
+All onsets found!
+
+Percussion/thaigong/thaigong.ff.Db4.stereo.wav
+----------------------------------------------
+Onset at   0.054 seconds, delay:  -5ms.
+All onsets found!
+
+Percussion/thaigong/thaigong.ff.E4.stereo.wav
+---------------------------------------------
+Onset at   0.112 seconds, delay:  -2ms.
+All onsets found!
+
+Percussion/thaigong/thaigong.ff.Eb4.stereo.wav
+----------------------------------------------
+Onset at   0.085 seconds, delay: -10ms.
+All onsets found!
+
+Percussion/thaigong/thaigong.ff.F4.stereo.wav
+---------------------------------------------
+Onset at   0.086 seconds
+All onsets found!
+
+Percussion/thaigong/thaigong.ff.G4.stereo.wav
+---------------------------------------------
+Onset at   0.063 seconds
+All onsets found!
+
+Percussion/thaigong/thaigong.ff.Gb4.stereo.wav
+----------------------------------------------
+Onset at   0.138 seconds, delay: -28ms.
+All onsets found!
+
+
+Stats
+=====
+Total number of onsets:     619
+Total number of detections: 601
+Total true positives:       524
+Total false positives:      77
+Total erroneous detections: 77
+
+Largest advance: -50ms
+Mean advance:    -27.500ms
+Largest delay:    30ms
+Mean delay:       17.000ms
+Mean difference:  -1.860ms
+Number of advances <-15.00ms: 70
+Number of delays   > 15.00ms: 19
+
+Precision:             87.188%
+Recall:                84.6527%
+F-measure:             85.9016%
+Precision (tot. err.): 87.188%
+F-measure (tot. err.): 85.9016%
+

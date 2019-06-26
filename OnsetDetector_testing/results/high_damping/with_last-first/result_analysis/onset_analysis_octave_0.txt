@@ -1,0 +1,80 @@
+Check onsetdetector results
+===========================
+
+Wed Apr 24 12:55:20 2019
+
+OnsetDetector if statement: if (count >= 3 && last >= threshold),  if (last-first >= std::log(2))
+findExactTime() local min decision: if (std::isnan(current/mn) || current/mn >= 0.95) 
+OnsetDetector segment size: 20ms
+Threshold: 0.0005
+Searching for 1 frequency
+NoteDetector args:
+    EDO: 12
+    Bandwidth: 0
+    Method: Runge-Kutta
+    Freq norm: Freq unnormalized
+    Amp norm: Amp normalized
+    Damping: 0.0005
+    Gain: 25
+Onset tolerance: 50.000ms
+
+
+Piano_Guitar/Piano/Piano.ff.A0.wav
+----------------------------------
+
+False negatives:
+  4.009
+
+Piano_Guitar/Piano/Piano.ff.B0.wav
+----------------------------------
+
+False negatives:
+  4.153
+
+Piano_Guitar/Piano/Piano.ff.Bb0.wav
+-----------------------------------
+
+False negatives:
+  4.262
+
+Piano_Guitar/Piano/Piano.mf.B0.wav
+----------------------------------
+
+False negatives:
+  0.486
+
+Piano_Guitar/Piano/Piano.pp.B0.wav
+----------------------------------
+
+False negatives:
+  0.779
+
+Piano_Guitar/Piano/Piano.pp.Bb0.wav
+-----------------------------------
+
+False negatives:
+  0.400
+
+
+Stats
+=====
+Total number of onsets:     6
+Total number of detections: 0
+Total true positives:       0
+Total false positives:      0
+Total erroneous detections: 0
+
+Largest advance:   0ms
+Mean advance:      0.000ms
+Largest delay:     0ms
+Mean delay:        0.000ms
+Mean difference:   0.000ms
+Number of advances <-15.00ms: 0
+Number of delays   > 15.00ms: 0
+
+Precision:             0%
+Recall:                0%
+F-measure:             0%
+Precision (tot. err.): 0%
+F-measure (tot. err.): 0%
+

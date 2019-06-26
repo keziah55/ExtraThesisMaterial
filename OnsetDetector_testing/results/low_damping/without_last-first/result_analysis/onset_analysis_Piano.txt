@@ -1,0 +1,3701 @@
+Check onsetdetector results
+===========================
+
+Wed Apr 24 13:09:40 2019
+
+OnsetDetector if statement: if (count >= 3 && last >= threshold)
+findExactTime() local min decision: if (std::isnan(current/mn) || current/mn >= 0.95) 
+OnsetDetector segment size: 20ms
+Threshold: 0.0003
+Searching for 1 frequency
+NoteDetector args:
+    EDO: 12
+    Bandwidth: 0
+    Method: Runge-Kutta
+    Freq norm: Freq unnormalized
+    Amp norm: Amp normalized
+    Damping: 0.0001
+    Gain: 25
+Onset tolerance: 50.000ms
+
+
+Piano_Guitar/Piano/Piano.ff.A0.wav
+----------------------------------
+
+False negatives:
+  4.009
+
+Piano_Guitar/Piano/Piano.ff.A1.wav
+----------------------------------
+Onset at   0.472 seconds, delay:   1ms.
+All onsets found!
+
+Piano_Guitar/Piano/Piano.ff.A2.wav
+----------------------------------
+Onset at   0.586 seconds
+
+False positives:
+  0.810
+  0.890
+  0.970
+  1.050
+  1.130
+  1.168
+  1.270
+  1.310
+  1.390
+  1.449
+  1.510
+  1.590
+  1.630
+  1.730
+  1.790
+  1.870
+  1.930
+
+Piano_Guitar/Piano/Piano.ff.A3.wav
+----------------------------------
+Onset at   0.763 seconds, delay:  -3ms.
+
+False positives:
+  0.970
+  1.010
+  1.069
+  1.150
+  1.210
+  1.270
+  1.316
+  1.410
+  1.450
+  1.510
+  1.590
+  1.650
+  1.690
+  1.750
+  1.807
+  1.910
+
+Piano_Guitar/Piano/Piano.ff.A4.wav
+----------------------------------
+Onset at   0.280 seconds, delay:  -7ms.
+
+False positives:
+  0.470
+  0.530
+  0.570
+  0.650
+  0.690
+  0.770
+  0.830
+  0.870
+  0.930
+  0.990
+  1.050
+  1.110
+  1.190
+  1.230
+  1.290
+  1.370
+  1.430
+  1.903
+  1.998
+  2.180
+  2.261
+  2.330
+  2.410
+  2.510
+
+Piano_Guitar/Piano/Piano.ff.A5.wav
+----------------------------------
+Onset at   0.388 seconds, delay:  -6ms.
+
+False positives:
+  0.510
+  0.570
+  0.630
+  0.670
+  0.730
+  0.810
+  0.850
+  0.930
+  0.970
+  1.050
+  1.110
+  1.150
+  1.210
+  1.272
+  1.484
+  1.550
+  1.630
+  1.670
+  1.730
+
+Piano_Guitar/Piano/Piano.ff.A6.wav
+----------------------------------
+Onset at   0.494 seconds, delay: -21ms.
+All onsets found!
+
+Piano_Guitar/Piano/Piano.ff.A7.wav
+----------------------------------
+
+False negatives:
+  0.418
+
+Piano_Guitar/Piano/Piano.ff.Ab1.wav
+-----------------------------------
+
+False negatives:
+  0.592
+
+Piano_Guitar/Piano/Piano.ff.Ab2.wav
+-----------------------------------
+Onset at   0.702 seconds, delay:  -3ms.
+
+False positives:
+  0.970
+  1.030
+  1.109
+  1.210
+  1.244
+  1.330
+  1.390
+  1.470
+  1.510
+  1.590
+  1.670
+  1.730
+  1.770
+  1.830
+  1.890
+  1.970
+  2.029
+  2.130
+  2.210
+  2.270
+  2.330
+  2.370
+  2.430
+  2.510
+  2.570
+  2.610
+  2.690
+  2.750
+  2.787
+  2.850
+  2.930
+  2.990
+  3.030
+  3.110
+  3.170
+  3.210
+  3.270
+  3.330
+  3.410
+  3.470
+  3.530
+  3.590
+  3.630
+  3.710
+  3.770
+  3.830
+  3.869
+  3.950
+  4.010
+  4.070
+
+Piano_Guitar/Piano/Piano.ff.Ab3.wav
+-----------------------------------
+Onset at   0.815 seconds, delay: -14ms.
+
+False positives:
+  0.990
+  1.042
+  1.130
+  1.190
+  1.270
+  1.310
+  1.370
+  1.490
+  1.530
+  1.610
+  1.650
+  1.730
+  1.770
+  1.830
+  1.910
+  1.959
+  2.050
+  2.130
+
+Piano_Guitar/Piano/Piano.ff.Ab4.wav
+-----------------------------------
+Onset at   0.546 seconds, delay:  -4ms.
+
+False positives:
+  0.670
+  0.730
+  0.790
+  0.870
+  0.930
+  0.990
+  1.070
+  1.150
+  1.210
+  1.250
+  1.310
+  1.370
+  1.450
+  1.510
+  1.550
+  1.610
+  1.690
+  1.730
+  1.790
+  1.870
+  1.930
+  1.990
+  2.030
+  2.090
+  2.150
+
+Piano_Guitar/Piano/Piano.ff.Ab5.wav
+-----------------------------------
+Onset at   0.381 seconds
+
+False positives:
+  0.470
+  0.550
+  0.590
+  0.670
+  0.730
+  0.790
+  0.870
+  0.930
+  0.970
+  1.030
+  1.110
+  1.170
+  1.210
+  1.270
+  1.350
+  1.410
+  1.477
+  1.570
+
+Piano_Guitar/Piano/Piano.ff.Ab6.wav
+-----------------------------------
+Onset at   0.516 seconds, delay:  -6ms.
+
+False positives:
+  0.630
+  0.690
+  0.750
+  0.790
+  0.850
+  0.910
+  0.990
+  1.050
+  1.090
+  1.150
+  1.210
+  1.270
+
+Piano_Guitar/Piano/Piano.ff.Ab7.wav
+-----------------------------------
+
+False negatives:
+  0.426
+
+Piano_Guitar/Piano/Piano.ff.B0.wav
+----------------------------------
+
+False negatives:
+  4.153
+
+Piano_Guitar/Piano/Piano.ff.B1.wav
+----------------------------------
+Onset at   0.520 seconds, delay:   5ms.
+All onsets found!
+
+Piano_Guitar/Piano/Piano.ff.B2.wav
+----------------------------------
+Onset at   0.645 seconds, delay:   2ms.
+All onsets found!
+
+Piano_Guitar/Piano/Piano.ff.B3.wav
+----------------------------------
+Onset at   0.590 seconds, delay:  -3ms.
+
+False positives:
+  0.750
+  0.790
+  0.850
+  0.930
+  0.990
+  1.050
+  1.110
+  1.190
+  1.250
+  1.310
+  1.370
+  1.410
+  1.490
+  1.530
+  1.590
+  1.730
+  1.790
+  1.850
+  1.930
+
+Piano_Guitar/Piano/Piano.ff.B4.wav
+----------------------------------
+Onset at   0.494 seconds, delay:  -5ms.
+All onsets found!
+
+Piano_Guitar/Piano/Piano.ff.B5.wav
+----------------------------------
+Onset at   0.633 seconds, delay: -10ms.
+
+False positives:
+  0.790
+  0.830
+  0.890
+  0.970
+  1.010
+  1.090
+  1.130
+  1.190
+  1.270
+  1.310
+  1.370
+  1.430
+  1.490
+  1.550
+  1.630
+  1.690
+  1.730
+  1.810
+  1.850
+  1.930
+
+Piano_Guitar/Piano/Piano.ff.B6.wav
+----------------------------------
+Onset at   0.457 seconds, delay:  -7ms.
+
+False positives:
+  0.590
+  0.650
+  0.730
+  0.770
+  0.830
+  0.910
+  0.950
+  1.010
+  1.070
+  1.150
+
+Piano_Guitar/Piano/Piano.ff.B7.wav
+----------------------------------
+Onset at   0.268 seconds, delay:  -3ms.
+All onsets found!
+
+Piano_Guitar/Piano/Piano.ff.Bb0.wav
+-----------------------------------
+
+False negatives:
+  4.262
+
+Piano_Guitar/Piano/Piano.ff.Bb1.wav
+-----------------------------------
+Onset at   0.338 seconds, delay:  49ms.
+
+False positives:
+  0.909
+
+Piano_Guitar/Piano/Piano.ff.Bb2.wav
+-----------------------------------
+Onset at   0.554 seconds, delay:   5ms.
+
+False positives:
+  0.790
+  0.870
+  0.930
+  0.969
+  1.030
+  1.110
+  1.190
+  1.270
+  1.350
+  1.390
+  1.470
+  1.530
+  1.570
+  1.650
+
+Piano_Guitar/Piano/Piano.ff.Bb3.wav
+-----------------------------------
+Onset at   0.258 seconds, delay: -12ms.
+
+False positives:
+  0.464
+  0.530
+  0.604
+  0.670
+  0.750
+  0.768
+  0.870
+  0.950
+  1.010
+  1.070
+  1.150
+  1.210
+  1.282
+  1.410
+  1.470
+  1.570
+  1.630
+  1.690
+  1.750
+  1.790
+  1.850
+  1.930
+  1.990
+  2.030
+  2.110
+  2.170
+  2.210
+  2.405
+  3.766
+  4.965
+  5.090
+  5.123
+  5.230
+  5.269
+  5.370
+  5.430
+
+Piano_Guitar/Piano/Piano.ff.Bb4.wav
+-----------------------------------
+Onset at   0.460 seconds, delay:  -4ms.
+
+False positives:
+  0.565
+  0.630
+  0.710
+  0.750
+  0.810
+  0.870
+  0.930
+  1.010
+  1.050
+  1.130
+  1.210
+  1.270
+  1.330
+  1.410
+  1.470
+  1.549
+  1.669
+
+Piano_Guitar/Piano/Piano.ff.Bb5.wav
+-----------------------------------
+Onset at   0.457 seconds, delay:  -9ms.
+
+False positives:
+  0.570
+  0.610
+  0.670
+  0.750
+  0.810
+  0.870
+  0.930
+  0.970
+  1.050
+  1.090
+  1.150
+  1.210
+  1.270
+  1.330
+  1.410
+  1.450
+  1.530
+  1.561
+  1.630
+
+Piano_Guitar/Piano/Piano.ff.Bb6.wav
+-----------------------------------
+Onset at   0.424 seconds
+
+False positives:
+  0.530
+  0.610
+  0.670
+  0.730
+  0.790
+  0.830
+  0.890
+  0.950
+  1.030
+  1.070
+  1.130
+  1.190
+
+Piano_Guitar/Piano/Piano.ff.Bb7.wav
+-----------------------------------
+
+False negatives:
+  0.247
+
+Piano_Guitar/Piano/Piano.ff.C1.wav
+----------------------------------
+
+False negatives:
+  0.424
+
+Piano_Guitar/Piano/Piano.ff.C2.wav
+----------------------------------
+Onset at   0.222 seconds, delay:   6ms.
+All onsets found!
+
+Piano_Guitar/Piano/Piano.ff.C3.wav
+----------------------------------
+Onset at   0.580 seconds, delay: -12ms.
+
+False positives:
+  0.870
+  0.950
+  0.988
+  1.070
+  1.130
+  1.210
+  1.270
+  1.310
+  1.370
+  1.430
+  1.490
+  1.570
+  1.630
+  1.690
+  1.730
+  1.790
+  1.850
+  1.930
+  1.990
+
+Piano_Guitar/Piano/Piano.ff.C4.wav
+----------------------------------
+Onset at   0.547 seconds, delay:  -4ms.
+All onsets found!
+
+Piano_Guitar/Piano/Piano.ff.C5.wav
+----------------------------------
+Onset at   0.239 seconds
+
+False positives:
+  0.370
+  0.410
+  0.470
+  0.530
+  0.610
+  0.670
+  0.710
+  0.770
+  0.850
+  0.910
+  0.990
+  1.030
+  1.110
+  1.170
+  1.230
+  1.285
+  1.370
+  1.450
+  1.510
+  1.590
+  1.630
+  1.710
+  1.750
+  1.810
+  1.890
+  1.970
+  2.030
+  2.070
+  2.150
+  2.210
+  2.250
+  2.310
+
+Piano_Guitar/Piano/Piano.ff.C6.wav
+----------------------------------
+Onset at   0.474 seconds, delay:  -9ms.
+
+False positives:
+  0.570
+  0.650
+  0.690
+  0.750
+  0.830
+  0.870
+  0.950
+  0.990
+  1.050
+  1.130
+  1.170
+  1.250
+  1.290
+  1.350
+  1.410
+  1.470
+
+Piano_Guitar/Piano/Piano.ff.C7.wav
+----------------------------------
+Onset at   0.425 seconds, delay:  -1ms.
+
+False positives:
+  0.510
+  0.552
+  0.630
+  0.710
+  0.750
+  0.810
+  0.870
+  0.930
+  1.010
+
+Piano_Guitar/Piano/Piano.ff.C8.wav
+----------------------------------
+
+False negatives:
+  0.328
+
+Piano_Guitar/Piano/Piano.ff.D1.wav
+----------------------------------
+
+False negatives:
+  0.462
+
+Piano_Guitar/Piano/Piano.ff.D2.wav
+----------------------------------
+Onset at   0.427 seconds, delay:  -1ms.
+
+False positives:
+  0.710
+  0.770
+  0.868
+  0.970
+  1.050
+  1.170
+  1.250
+  1.310
+  1.358
+  1.510
+  1.570
+  1.650
+  1.710
+  1.787
+  1.830
+  1.890
+  1.970
+  2.010
+  2.070
+  2.150
+  2.190
+  2.270
+  2.329
+  2.370
+  2.450
+  2.490
+  2.550
+  2.630
+  2.670
+  2.750
+  2.810
+  2.850
+  2.929
+  2.990
+  3.070
+  3.110
+  3.190
+  3.230
+  3.290
+  3.370
+
+Piano_Guitar/Piano/Piano.ff.D3.wav
+----------------------------------
+Onset at   0.526 seconds, delay: -11ms.
+
+False positives:
+  0.750
+  0.808
+  0.890
+  0.970
+  1.070
+  1.130
+  1.210
+  1.290
+  1.370
+  1.410
+  1.470
+  1.550
+  1.630
+  1.710
+  1.790
+  1.850
+  1.890
+  1.950
+  2.030
+  2.090
+  2.130
+  2.210
+  2.250
+  2.330
+  2.370
+  2.430
+  2.490
+  2.570
+  2.630
+  2.670
+  2.730
+  2.810
+  2.870
+  2.910
+  2.970
+  3.050
+  3.110
+  3.150
+  3.230
+  3.270
+
+Piano_Guitar/Piano/Piano.ff.D4.wav
+----------------------------------
+Onset at   0.719 seconds
+All onsets found!
+
+Piano_Guitar/Piano/Piano.ff.D5.wav
+----------------------------------
+Onset at   0.436 seconds, delay:  -6ms.
+
+False positives:
+  0.590
+  0.650
+  0.730
+  0.770
+  0.850
+  0.890
+  0.950
+  1.030
+  1.090
+  1.148
+  1.207
+  1.270
+  1.330
+  1.390
+  1.450
+  1.502
+  1.570
+  1.650
+  1.690
+  1.746
+  1.810
+  1.870
+  1.930
+  2.010
+  2.070
+  2.110
+  2.190
+  2.245
+  2.288
+  2.530
+  2.590
+  2.650
+  2.710
+
+Piano_Guitar/Piano/Piano.ff.D6.wav
+----------------------------------
+Onset at   0.503 seconds, delay:  -1ms.
+
+False positives:
+  0.590
+  0.650
+  0.730
+  0.790
+  0.850
+  0.910
+  0.950
+  1.010
+  1.070
+  1.130
+  1.210
+  1.250
+  1.310
+  1.390
+  1.450
+  1.510
+  1.570
+
+Piano_Guitar/Piano/Piano.ff.D7.wav
+----------------------------------
+Onset at   0.254 seconds, delay:  -4ms.
+
+False positives:
+  0.410
+  0.450
+  0.510
+  0.590
+  0.630
+  0.710
+  0.750
+  0.830
+  0.890
+
+Piano_Guitar/Piano/Piano.ff.Db1.wav
+-----------------------------------
+
+False negatives:
+  0.679
+
+Piano_Guitar/Piano/Piano.ff.Db2.wav
+-----------------------------------
+Onset at   0.336 seconds, delay:   2ms.
+
+False positives:
+  0.629
+  0.690
+  0.788
+  0.888
+  0.970
+  1.030
+  1.090
+  1.130
+  1.230
+  1.390
+  1.450
+  1.490
+  1.570
+  1.610
+  1.670
+  1.750
+  1.810
+  1.870
+  1.928
+  1.986
+  2.070
+  2.130
+  2.188
+  2.270
+  2.330
+  2.390
+  2.448
+  2.546
+  2.604
+  2.690
+  2.749
+  2.807
+  2.947
+  3.005
+  3.090
+  3.207
+  3.265
+  3.350
+  3.410
+  3.468
+  3.550
+  3.610
+  3.670
+  3.730
+  3.810
+  3.870
+  3.930
+  3.990
+  4.050
+  4.110
+  4.150
+  4.210
+  4.269
+  4.330
+  4.410
+  4.470
+  4.530
+  4.570
+  4.630
+
+Piano_Guitar/Piano/Piano.ff.Db3.wav
+-----------------------------------
+Onset at   0.652 seconds, delay: -13ms.
+
+False positives:
+  0.870
+  0.910
+  0.970
+  1.050
+  1.150
+  1.268
+  1.370
+  1.447
+  1.550
+  1.639
+  1.750
+  1.830
+  1.907
+  1.970
+  2.050
+  2.090
+  2.170
+  2.210
+  2.269
+  2.330
+  2.410
+  2.449
+  2.510
+  2.590
+  2.650
+  2.690
+  2.750
+  2.830
+  2.870
+  2.930
+  3.010
+  3.050
+  3.110
+  3.190
+  3.230
+
+Piano_Guitar/Piano/Piano.ff.Db4.wav
+-----------------------------------
+Onset at   0.582 seconds, delay: -12ms.
+
+False positives:
+  0.750
+  0.790
+  0.850
+  0.930
+  1.010
+  1.050
+  1.110
+  1.190
+  1.250
+  1.310
+  1.350
+  1.430
+  1.470
+  1.550
+  1.610
+  1.650
+  1.730
+  1.790
+  1.830
+  1.890
+  1.970
+  2.030
+  2.090
+  2.230
+  2.622
+  2.769
+  2.902
+  3.110
+  3.190
+  3.230
+  3.310
+  3.350
+  3.410
+  3.470
+  3.550
+  3.610
+  3.650
+  3.730
+  3.770
+  3.850
+  3.890
+
+Piano_Guitar/Piano/Piano.ff.Db5.wav
+-----------------------------------
+Onset at   0.672 seconds, delay:  -2ms.
+All onsets found!
+
+Piano_Guitar/Piano/Piano.ff.Db6.wav
+-----------------------------------
+Onset at   0.572 seconds, delay:  -6ms.
+
+False positives:
+  0.670
+  0.710
+  0.790
+  0.830
+  0.890
+  0.970
+  1.030
+  1.090
+  1.130
+  1.190
+  1.250
+  1.330
+  1.370
+  1.430
+  1.510
+
+Piano_Guitar/Piano/Piano.ff.Db7.wav
+-----------------------------------
+Onset at   0.412 seconds, delay:  -2ms.
+
+False positives:
+  0.530
+  0.570
+  0.650
+  0.690
+  0.770
+  0.830
+  0.870
+  0.950
+  0.990
+  1.070
+
+Piano_Guitar/Piano/Piano.ff.E1.wav
+----------------------------------
+
+False negatives:
+  0.265
+
+Piano_Guitar/Piano/Piano.ff.E2.wav
+----------------------------------
+Onset at   0.485 seconds, delay:   4ms.
+
+False positives:
+  0.790
+  0.850
+  0.930
+  1.030
+  1.090
+  1.150
+  1.230
+  1.270
+  1.350
+  1.390
+  1.450
+  1.530
+  1.570
+  1.630
+  1.690
+  1.770
+  1.830
+  1.870
+  1.930
+  1.990
+
+Piano_Guitar/Piano/Piano.ff.E3.wav
+----------------------------------
+Onset at   0.760 seconds, delay: -23ms.
+
+False positives:
+  0.970
+  1.010
+  1.089
+  1.190
+  1.264
+  1.370
+  1.410
+  1.490
+  1.530
+  1.590
+  1.650
+  1.748
+  1.870
+  1.950
+  2.010
+  2.050
+  2.110
+  2.190
+  2.230
+  2.290
+  2.350
+  2.430
+  2.470
+  2.550
+  2.590
+  2.650
+  2.729
+  3.530
+  3.590
+  3.630
+  3.710
+  3.790
+  3.830
+  3.890
+  3.950
+  4.030
+  4.070
+  4.130
+  4.190
+  4.250
+  4.310
+  4.370
+  4.430
+  4.490
+  4.570
+
+Piano_Guitar/Piano/Piano.ff.E4.wav
+----------------------------------
+Onset at   0.698 seconds, delay: -10ms.
+
+False positives:
+  0.870
+  0.930
+  0.970
+  1.050
+  1.110
+  1.190
+  1.230
+  1.290
+  1.350
+  1.430
+  1.470
+  1.530
+  1.590
+  1.650
+  1.730
+  1.790
+  1.830
+  1.910
+  1.990
+
+Piano_Guitar/Piano/Piano.ff.E5.wav
+----------------------------------
+Onset at   0.626 seconds, delay:  -3ms.
+
+False positives:
+  0.750
+  0.790
+  0.850
+  0.910
+  0.970
+  1.050
+  1.090
+  1.150
+  1.230
+  1.290
+  1.330
+  1.410
+  1.470
+  1.510
+  1.570
+  1.630
+  1.700
+  1.770
+  1.820
+  1.910
+  1.970
+  2.030
+  2.090
+  2.150
+  2.210
+  2.354
+  2.675
+  2.770
+  2.830
+  2.890
+  2.930
+
+Piano_Guitar/Piano/Piano.ff.E6.wav
+----------------------------------
+Onset at   0.499 seconds, delay:  -2ms.
+
+False positives:
+  0.610
+  0.670
+  0.730
+  0.790
+  0.830
+  0.910
+  0.950
+  1.030
+  1.090
+  1.130
+  1.210
+  1.250
+  1.330
+  1.370
+  1.430
+  1.490
+  1.570
+  1.630
+  1.690
+
+Piano_Guitar/Piano/Piano.ff.E7.wav
+----------------------------------
+Onset at   0.481 seconds, delay:  -1ms.
+
+False positives:
+  0.570
+  0.630
+  0.670
+  0.750
+  0.790
+  0.850
+  0.910
+  0.970
+  1.050
+
+Piano_Guitar/Piano/Piano.ff.Eb1.wav
+-----------------------------------
+
+False negatives:
+  0.509
+
+Piano_Guitar/Piano/Piano.ff.Eb2.wav
+-----------------------------------
+Onset at   0.327 seconds, delay:  -2ms.
+
+False positives:
+  0.610
+  0.690
+  0.730
+  0.810
+  0.890
+  0.950
+  1.030
+  1.070
+  1.150
+  1.230
+  1.317
+  1.430
+  1.490
+  1.550
+  1.630
+  1.665
+  1.790
+  1.850
+  1.949
+  2.050
+  2.110
+  2.150
+
+Piano_Guitar/Piano/Piano.ff.Eb3.wav
+-----------------------------------
+Onset at   0.342 seconds, delay: -11ms.
+
+False positives:
+  0.550
+  0.590
+  0.650
+  0.750
+  0.810
+  0.843
+  0.930
+  0.970
+  1.050
+  1.090
+  1.170
+  1.210
+  1.290
+  1.359
+  1.450
+  1.530
+  1.590
+  1.630
+  1.690
+  1.770
+  1.810
+  1.870
+  1.930
+  2.168
+  3.070
+  3.150
+  3.210
+  3.250
+  3.310
+  3.390
+  3.430
+  3.490
+  3.570
+  4.156
+  5.550
+  5.630
+  5.730
+  5.850
+  5.890
+  5.970
+  6.030
+  6.090
+  6.130
+  6.210
+  6.270
+  6.310
+  6.390
+  6.450
+  6.510
+  6.550
+  6.610
+  6.690
+  6.730
+  6.810
+  6.850
+  6.930
+  6.970
+  7.050
+  7.110
+  7.150
+  7.210
+  7.270
+  7.350
+
+Piano_Guitar/Piano/Piano.ff.Eb4.wav
+-----------------------------------
+Onset at   0.595 seconds, delay:  -5ms.
+All onsets found!
+
+Piano_Guitar/Piano/Piano.ff.Eb5.wav
+-----------------------------------
+Onset at   0.680 seconds, delay:  -1ms.
+
+False positives:
+  0.830
+  0.910
+  0.970
+  1.010
+  1.090
+  1.130
+  1.208
+  1.268
+  1.330
+  1.410
+  1.470
+  1.530
+  1.590
+  1.650
+  1.710
+  1.750
+  1.830
+  1.890
+  1.950
+  2.030
+  2.110
+  2.189
+  2.250
+  2.310
+  2.367
+  2.450
+  2.510
+
+Piano_Guitar/Piano/Piano.ff.Eb6.wav
+-----------------------------------
+Onset at   0.405 seconds, delay:  -4ms.
+
+False positives:
+  0.510
+  0.570
+  0.610
+  0.690
+  0.750
+  0.790
+  0.870
+  0.930
+  0.970
+  1.030
+  1.090
+  1.170
+  1.230
+  1.270
+  1.330
+  1.410
+  1.470
+  1.530
+  1.590
+
+Piano_Guitar/Piano/Piano.ff.Eb7.wav
+-----------------------------------
+Onset at   0.392 seconds, delay: -13ms.
+
+False positives:
+  0.530
+  0.590
+  0.650
+  0.710
+  0.790
+  0.850
+  0.890
+  0.950
+  1.030
+  1.070
+
+Piano_Guitar/Piano/Piano.ff.F1.wav
+----------------------------------
+
+False negatives:
+  0.166
+
+Piano_Guitar/Piano/Piano.ff.F2.wav
+----------------------------------
+Onset at   0.484 seconds, delay:  -4ms.
+All onsets found!
+
+Piano_Guitar/Piano/Piano.ff.F3.wav
+----------------------------------
+Onset at   0.922 seconds, delay:  -2ms.
+
+False positives:
+  1.130
+  1.190
+  1.270
+  1.310
+  1.370
+  1.450
+  1.479
+  1.570
+  1.630
+  1.670
+  1.750
+  1.790
+  1.850
+  1.910
+  1.970
+  2.030
+  2.110
+  2.190
+  2.250
+  2.296
+  2.390
+  2.470
+  2.627
+  2.690
+  2.770
+
+Piano_Guitar/Piano/Piano.ff.F4.wav
+----------------------------------
+Onset at   0.617 seconds
+
+False positives:
+  0.770
+  0.830
+  0.870
+  0.930
+  0.990
+  1.050
+  1.110
+  1.190
+  1.270
+  1.310
+  1.370
+  1.450
+  1.510
+  1.550
+  1.630
+  1.704
+  1.790
+  1.830
+  1.910
+  1.970
+  2.010
+  2.090
+  2.150
+
+Piano_Guitar/Piano/Piano.ff.F5.wav
+----------------------------------
+Onset at   0.768 seconds
+All onsets found!
+
+Piano_Guitar/Piano/Piano.ff.F6.wav
+----------------------------------
+Onset at   0.430 seconds
+
+False positives:
+  0.530
+  0.570
+  0.650
+  0.710
+  0.790
+  0.830
+  0.890
+  0.970
+  1.030
+  1.110
+  1.150
+  1.210
+  1.270
+
+Piano_Guitar/Piano/Piano.ff.F7.wav
+----------------------------------
+Onset at   0.454 seconds, delay:  -4ms.
+
+False positives:
+  0.570
+  0.610
+  0.690
+  0.730
+  0.810
+
+Piano_Guitar/Piano/Piano.ff.G1.wav
+----------------------------------
+
+False negatives:
+  0.526
+
+Piano_Guitar/Piano/Piano.ff.G2.wav
+----------------------------------
+Onset at   0.445 seconds, delay:  -4ms.
+
+False positives:
+  0.730
+  0.810
+  0.845
+  0.950
+  1.030
+  1.110
+  1.170
+  1.210
+  1.270
+  1.330
+  1.410
+  1.485
+  1.570
+  1.630
+  1.710
+  1.770
+  1.830
+  1.870
+  1.930
+  2.010
+  2.070
+  2.130
+  2.170
+  2.230
+  2.310
+  2.370
+  2.430
+  2.498
+  2.610
+  2.670
+  2.750
+  2.810
+  2.850
+  2.910
+  2.970
+  3.050
+  3.110
+  3.150
+  3.210
+  3.270
+  3.350
+  3.410
+  3.470
+  3.510
+  3.570
+  3.650
+  3.710
+  3.750
+  3.810
+  3.870
+  3.950
+  4.010
+  4.070
+  4.110
+  4.170
+  4.250
+  4.290
+  4.350
+  4.410
+  4.470
+  4.550
+  4.610
+  4.670
+  4.730
+  4.790
+  4.850
+  4.890
+  4.970
+  5.010
+  5.070
+  5.130
+  5.210
+  5.270
+  5.310
+  5.370
+
+Piano_Guitar/Piano/Piano.ff.G3.wav
+----------------------------------
+Onset at   0.497 seconds, delay: -17ms.
+
+False positives:
+  0.690
+  0.739
+  0.830
+  0.910
+  1.008
+  1.090
+  1.170
+  1.270
+  1.330
+  1.430
+  1.490
+  1.590
+  1.690
+  1.770
+  1.850
+  1.890
+  1.970
+  2.030
+  2.070
+  2.130
+  2.210
+  2.250
+  2.310
+  2.390
+  2.430
+  2.490
+  2.570
+  2.610
+  2.670
+  2.750
+  2.810
+  2.870
+  2.910
+  2.990
+  3.050
+  3.090
+  3.170
+  3.210
+  3.270
+  3.350
+  3.390
+  3.470
+  3.530
+  3.570
+  3.650
+  3.710
+  3.750
+  3.810
+  3.890
+  3.930
+  4.010
+  4.050
+  4.110
+  4.190
+  4.230
+  4.310
+  4.370
+  4.410
+
+Piano_Guitar/Piano/Piano.ff.G4.wav
+----------------------------------
+Onset at   0.690 seconds, delay:  -2ms.
+
+False positives:
+  0.830
+  0.890
+  0.950
+  1.030
+  1.070
+  1.150
+  1.210
+  1.250
+  1.350
+  1.390
+  1.450
+  1.530
+  1.590
+  1.630
+  1.690
+  1.770
+  1.830
+  1.870
+  1.950
+  2.010
+  2.046
+  2.093
+  2.156
+  2.247
+  2.328
+  2.410
+  2.490
+  2.590
+  2.670
+  2.750
+  2.830
+
+Piano_Guitar/Piano/Piano.ff.G5.wav
+----------------------------------
+Onset at   0.475 seconds, delay:  -6ms.
+
+False positives:
+  0.610
+  0.670
+  0.730
+  0.810
+  0.870
+  0.930
+  0.970
+  1.030
+  1.110
+  1.170
+  1.230
+  1.270
+  1.350
+  1.390
+  1.470
+  1.530
+  1.586
+
+Piano_Guitar/Piano/Piano.ff.G6.wav
+----------------------------------
+Onset at   0.413 seconds, delay:  -3ms.
+
+False positives:
+  0.570
+  0.630
+  0.670
+  0.750
+  0.810
+  0.850
+  0.930
+  0.990
+  1.030
+  1.110
+  1.150
+
+Piano_Guitar/Piano/Piano.ff.G7.wav
+----------------------------------
+Onset at   0.312 seconds, delay: -13ms.
+
+False positives:
+  0.390
+  0.470
+  0.530
+  0.570
+
+Piano_Guitar/Piano/Piano.ff.Gb1.wav
+-----------------------------------
+
+False negatives:
+  0.835
+
+Piano_Guitar/Piano/Piano.ff.Gb2.wav
+-----------------------------------
+Onset at   0.392 seconds, delay:  -8ms.
+All onsets found!
+
+Piano_Guitar/Piano/Piano.ff.Gb3.wav
+-----------------------------------
+Onset at   0.375 seconds, delay:  -9ms.
+
+False positives:
+  0.530
+  0.582
+  0.650
+  0.710
+  0.790
+  0.870
+  0.950
+  1.030
+  1.068
+  1.150
+  1.193
+  1.270
+  1.350
+  1.470
+  1.530
+  1.630
+  1.710
+  1.770
+  1.850
+  1.910
+  1.990
+  2.029
+  2.090
+  2.170
+  2.210
+  2.270
+  2.350
+  2.390
+  2.470
+  2.510
+  2.570
+  2.650
+  2.690
+  2.750
+  2.810
+  2.870
+  2.950
+  2.990
+  3.050
+
+Piano_Guitar/Piano/Piano.ff.Gb4.wav
+-----------------------------------
+Onset at   0.413 seconds, delay:  -3ms.
+
+False positives:
+  0.570
+  0.610
+  0.690
+  0.730
+  0.810
+  0.870
+  0.930
+  0.990
+  1.050
+  1.110
+  1.150
+  1.230
+  1.270
+  1.350
+  1.390
+  1.470
+  1.496
+  1.590
+  1.630
+  1.710
+  1.750
+  2.046
+  2.339
+  2.428
+  2.528
+
+Piano_Guitar/Piano/Piano.ff.Gb5.wav
+-----------------------------------
+Onset at   0.478 seconds, delay:  -2ms.
+
+False positives:
+  0.590
+  0.650
+  0.690
+  0.770
+  0.830
+  0.870
+  0.950
+  0.990
+  1.070
+  1.130
+  1.190
+  1.250
+  1.310
+  1.390
+  1.450
+  1.510
+  1.550
+  1.630
+  1.690
+  1.750
+  1.846
+  1.970
+  2.030
+  2.110
+  2.169
+  2.370
+  2.450
+
+Piano_Guitar/Piano/Piano.ff.Gb6.wav
+-----------------------------------
+Onset at   0.439 seconds
+All onsets found!
+
+Piano_Guitar/Piano/Piano.ff.Gb7.wav
+-----------------------------------
+Onset at   0.484 seconds, delay:  -3ms.
+
+False positives:
+  0.610
+  0.650
+
+Piano_Guitar/Piano/Piano.mf.A1.wav
+----------------------------------
+
+False negatives:
+  0.437
+
+Piano_Guitar/Piano/Piano.mf.A2.wav
+----------------------------------
+Onset at   0.410 seconds, delay: -15ms.
+
+False positives:
+  0.630
+  0.710
+  0.786
+  0.890
+  0.950
+  0.990
+
+Piano_Guitar/Piano/Piano.mf.A3.wav
+----------------------------------
+
+False negatives:
+  0.527
+
+Piano_Guitar/Piano/Piano.mf.A4.wav
+----------------------------------
+Onset at   0.238 seconds
+
+False positives:
+  0.430
+  0.490
+  0.550
+  0.590
+  0.670
+  0.750
+  0.810
+  0.870
+  0.930
+  0.990
+  1.070
+
+Piano_Guitar/Piano/Piano.mf.A5.wav
+----------------------------------
+Onset at   0.227 seconds
+
+False positives:
+  0.390
+  0.450
+  0.490
+  0.550
+  0.630
+
+Piano_Guitar/Piano/Piano.mf.A6.wav
+----------------------------------
+Onset at   0.204 seconds
+All onsets found!
+
+Piano_Guitar/Piano/Piano.mf.A7.wav
+----------------------------------
+
+False negatives:
+  0.131
+
+Piano_Guitar/Piano/Piano.mf.Ab1.wav
+-----------------------------------
+
+False negatives:
+  0.552
+
+Piano_Guitar/Piano/Piano.mf.Ab2.wav
+-----------------------------------
+Onset at   0.666 seconds, delay:  -2ms.
+
+False positives:
+  0.930
+  0.970
+  1.030
+  1.085
+  1.170
+  1.270
+  1.350
+  1.390
+  1.470
+  1.507
+  1.590
+  1.670
+  1.729
+  1.767
+  1.830
+  1.890
+
+Piano_Guitar/Piano/Piano.mf.Ab3.wav
+-----------------------------------
+Onset at   0.542 seconds, delay: -10ms.
+
+False positives:
+  0.710
+  0.750
+  0.830
+  0.870
+  0.970
+  1.050
+  1.130
+  1.210
+  1.250
+  1.350
+
+Piano_Guitar/Piano/Piano.mf.Ab4.wav
+-----------------------------------
+Onset at   0.290 seconds
+
+False positives:
+  0.430
+  0.470
+  0.530
+  0.610
+  0.670
+  0.710
+  0.770
+  0.830
+  0.890
+  0.970
+  1.010
+  1.070
+  1.130
+  1.190
+  1.270
+  1.330
+  1.370
+
+Piano_Guitar/Piano/Piano.mf.Ab5.wav
+-----------------------------------
+Onset at   0.387 seconds, delay:  -1ms.
+
+False positives:
+  0.550
+  0.590
+  0.670
+  0.730
+  0.770
+  0.850
+  0.910
+
+Piano_Guitar/Piano/Piano.mf.Ab6.wav
+-----------------------------------
+Onset at   0.141 seconds, delay:  -4ms.
+All onsets found!
+
+Piano_Guitar/Piano/Piano.mf.Ab7.wav
+-----------------------------------
+
+False negatives:
+  0.070
+
+Piano_Guitar/Piano/Piano.mf.B0.wav
+----------------------------------
+
+False negatives:
+  0.486
+
+Piano_Guitar/Piano/Piano.mf.B1.wav
+----------------------------------
+
+False negatives:
+  0.189
+
+Piano_Guitar/Piano/Piano.mf.B2.wav
+----------------------------------
+
+False negatives:
+  0.348
+
+Piano_Guitar/Piano/Piano.mf.B3.wav
+----------------------------------
+Onset at   0.633 seconds, delay: -27ms.
+
+False positives:
+  0.790
+  0.830
+  0.910
+  0.950
+  1.010
+  1.090
+  1.130
+  1.190
+  1.270
+  1.330
+  1.410
+
+Piano_Guitar/Piano/Piano.mf.B4.wav
+----------------------------------
+Onset at   0.450 seconds, delay:  -4ms.
+
+False positives:
+  0.570
+  0.630
+  0.690
+  0.770
+  0.830
+  0.890
+  0.930
+  1.010
+  1.070
+  1.130
+  1.190
+  1.230
+  1.290
+  1.350
+  1.410
+  1.490
+  1.570
+  1.650
+  1.710
+  1.790
+  1.830
+  1.910
+
+Piano_Guitar/Piano/Piano.mf.B5.wav
+----------------------------------
+Onset at   0.571 seconds, delay:  -1ms.
+
+False positives:
+  0.730
+  0.770
+  0.830
+  0.890
+  0.950
+  1.030
+  1.070
+
+Piano_Guitar/Piano/Piano.mf.B6.wav
+----------------------------------
+
+False negatives:
+  0.217
+
+Piano_Guitar/Piano/Piano.mf.B7.wav
+----------------------------------
+
+False negatives:
+  0.257
+
+Piano_Guitar/Piano/Piano.mf.Bb1.wav
+-----------------------------------
+
+False negatives:
+  0.459
+
+Piano_Guitar/Piano/Piano.mf.Bb2.wav
+-----------------------------------
+Onset at   0.288 seconds, delay:  -2ms.
+
+False positives:
+  0.489
+  0.550
+  0.610
+  0.669
+  0.730
+
+Piano_Guitar/Piano/Piano.mf.Bb3.wav
+-----------------------------------
+Onset at   0.499 seconds, delay:  -9ms.
+
+False positives:
+  0.690
+  0.810
+  0.839
+  0.930
+  0.970
+  1.004
+  1.090
+  1.170
+  1.230
+  1.290
+  1.370
+  1.430
+  1.510
+  1.630
+  1.670
+  1.730
+
+Piano_Guitar/Piano/Piano.mf.Bb4.wav
+-----------------------------------
+Onset at   0.250 seconds, delay:  -4ms.
+All onsets found!
+
+Piano_Guitar/Piano/Piano.mf.Bb5.wav
+-----------------------------------
+Onset at   0.349 seconds, delay:  -1ms.
+
+False positives:
+  0.470
+  0.550
+  0.610
+  0.670
+  0.730
+  0.790
+  0.830
+
+Piano_Guitar/Piano/Piano.mf.Bb6.wav
+-----------------------------------
+Onset at   0.209 seconds, delay: -10ms.
+
+False positives:
+  0.330
+  0.390
+
+Piano_Guitar/Piano/Piano.mf.Bb7.wav
+-----------------------------------
+
+False negatives:
+  0.241
+
+Piano_Guitar/Piano/Piano.mf.C1.wav
+----------------------------------
+
+False negatives:
+  0.222
+
+Piano_Guitar/Piano/Piano.mf.C2.wav
+----------------------------------
+
+False negatives:
+  0.428
+
+Piano_Guitar/Piano/Piano.mf.C3.wav
+----------------------------------
+Onset at   0.556 seconds, delay: -14ms.
+
+False positives:
+  0.850
+  0.890
+  0.970
+  1.010
+  1.070
+  1.150
+  1.210
+  1.270
+  1.310
+  1.370
+  1.450
+
+Piano_Guitar/Piano/Piano.mf.C4.wav
+----------------------------------
+Onset at   0.344 seconds, delay: -25ms.
+All onsets found!
+
+Piano_Guitar/Piano/Piano.mf.C5.wav
+----------------------------------
+Onset at   0.428 seconds
+
+False positives:
+  0.530
+  0.590
+  0.650
+  0.710
+  0.770
+  0.830
+  0.890
+  0.970
+  1.030
+  1.070
+  1.150
+  1.210
+  1.270
+  1.308
+  1.370
+  1.415
+  1.478
+  1.570
+  1.623
+  1.690
+
+Piano_Guitar/Piano/Piano.mf.C6.wav
+----------------------------------
+Onset at   0.301 seconds, delay:  -2ms.
+All onsets found!
+
+Piano_Guitar/Piano/Piano.mf.C7.wav
+----------------------------------
+
+False negatives:
+  0.253
+
+Piano_Guitar/Piano/Piano.mf.C8.wav
+----------------------------------
+
+False negatives:
+  0.168
+
+Piano_Guitar/Piano/Piano.mf.D1.wav
+----------------------------------
+
+False negatives:
+  0.372
+
+Piano_Guitar/Piano/Piano.mf.D2.wav
+----------------------------------
+Onset at   0.698 seconds, delay:  -4ms.
+All onsets found!
+
+Piano_Guitar/Piano/Piano.mf.D3.wav
+----------------------------------
+Onset at   0.844 seconds, delay:  -5ms.
+
+False positives:
+  1.109
+  1.210
+  1.290
+  1.390
+  1.430
+  1.530
+  1.590
+  1.670
+  1.730
+  1.810
+  1.890
+  1.966
+  2.070
+  2.150
+  2.210
+  2.250
+  2.330
+  2.390
+  2.430
+  2.490
+  2.570
+  2.630
+  2.670
+  2.730
+  2.810
+
+Piano_Guitar/Piano/Piano.mf.D4.wav
+----------------------------------
+Onset at   0.406 seconds, delay:  -1ms.
+All onsets found!
+
+Piano_Guitar/Piano/Piano.mf.D5.wav
+----------------------------------
+Onset at   0.237 seconds, delay:  -7ms.
+All onsets found!
+
+Piano_Guitar/Piano/Piano.mf.D6.wav
+----------------------------------
+Onset at   0.249 seconds
+
+False positives:
+  0.350
+  0.410
+
+Piano_Guitar/Piano/Piano.mf.D7.wav
+----------------------------------
+
+False negatives:
+  0.210
+
+Piano_Guitar/Piano/Piano.mf.Db1.wav
+-----------------------------------
+
+False negatives:
+  0.068
+
+Piano_Guitar/Piano/Piano.mf.Db2.wav
+-----------------------------------
+Onset at   0.605 seconds, delay:  -1ms.
+
+False positives:
+  0.907
+  0.970
+  1.050
+  1.167
+  1.250
+  1.310
+  1.369
+  1.510
+  1.630
+
+Piano_Guitar/Piano/Piano.mf.Db3.wav
+-----------------------------------
+Onset at   0.440 seconds, delay:  -7ms.
+
+False positives:
+  0.650
+  0.690
+  0.766
+  0.850
+  0.910
+  0.944
+  1.030
+  1.070
+  1.170
+  1.230
+  1.270
+  1.350
+  1.426
+  1.550
+  1.630
+  1.709
+  1.810
+  1.870
+
+Piano_Guitar/Piano/Piano.mf.Db4.wav
+-----------------------------------
+Onset at   0.528 seconds, delay:  -2ms.
+All onsets found!
+
+Piano_Guitar/Piano/Piano.mf.Db5.wav
+-----------------------------------
+Onset at   0.337 seconds, delay:  -8ms.
+
+False positives:
+  0.430
+  0.490
+  0.570
+  0.630
+  0.670
+  0.750
+  0.810
+  0.850
+  0.910
+  1.444
+  1.970
+  2.030
+  2.090
+  2.150
+  2.210
+
+Piano_Guitar/Piano/Piano.mf.Db6.wav
+-----------------------------------
+Onset at   0.239 seconds, delay:  -2ms.
+
+False positives:
+  0.330
+
+Piano_Guitar/Piano/Piano.mf.Db7.wav
+-----------------------------------
+
+False negatives:
+  0.226
+
+Piano_Guitar/Piano/Piano.mf.E1.wav
+----------------------------------
+
+False negatives:
+  0.445
+
+Piano_Guitar/Piano/Piano.mf.E2.wav
+----------------------------------
+Onset at   0.687 seconds, delay:  -1ms.
+
+False positives:
+  0.990
+  1.050
+  1.110
+  1.230
+  1.290
+  1.350
+  1.430
+  1.510
+  1.590
+  1.630
+  1.710
+  1.750
+  1.810
+  1.870
+
+Piano_Guitar/Piano/Piano.mf.E3.wav
+----------------------------------
+Onset at   0.169 seconds, delay: -21ms.
+
+False positives:
+  0.370
+  0.430
+  0.490
+  0.590
+  0.666
+  0.770
+  0.810
+  0.890
+  0.950
+  0.990
+  1.050
+  1.130
+  1.180
+  1.270
+  1.350
+  1.410
+  1.450
+  1.510
+  1.590
+  1.630
+  1.690
+
+Piano_Guitar/Piano/Piano.mf.E4.wav
+----------------------------------
+Onset at   0.296 seconds, delay:  -7ms.
+
+False positives:
+  0.470
+  0.510
+  0.590
+  0.670
+  0.730
+  0.790
+  0.850
+  0.909
+  0.970
+  1.050
+  1.090
+
+Piano_Guitar/Piano/Piano.mf.E5.wav
+----------------------------------
+Onset at   0.438 seconds, delay:  -2ms.
+All onsets found!
+
+Piano_Guitar/Piano/Piano.mf.E6.wav
+----------------------------------
+Onset at   0.197 seconds, delay:  -7ms.
+All onsets found!
+
+Piano_Guitar/Piano/Piano.mf.E7.wav
+----------------------------------
+
+False negatives:
+  0.101
+
+Piano_Guitar/Piano/Piano.mf.Eb1.wav
+-----------------------------------
+
+False negatives:
+  0.448
+
+Piano_Guitar/Piano/Piano.mf.Eb2.wav
+-----------------------------------
+Onset at   0.490 seconds, delay:  -3ms.
+
+False positives:
+  0.750
+  0.830
+  0.870
+  0.950
+  0.985
+  1.050
+  1.110
+  1.190
+  1.225
+  1.290
+  1.370
+  1.474
+  1.590
+  1.650
+  1.710
+  1.810
+  1.950
+
+Piano_Guitar/Piano/Piano.mf.Eb3.wav
+-----------------------------------
+Onset at   0.147 seconds, delay: -10ms.
+
+False positives:
+  0.350
+  0.390
+  0.441
+  0.550
+  0.610
+  0.649
+  0.730
+  0.770
+  0.850
+  0.890
+  0.970
+  1.010
+  1.090
+  1.150
+  1.190
+  1.250
+  1.330
+  1.390
+  1.430
+  1.490
+
+Piano_Guitar/Piano/Piano.mf.Eb4.wav
+-----------------------------------
+Onset at   0.250 seconds
+
+False positives:
+  0.341
+  0.450
+  0.510
+  0.570
+  0.650
+  0.710
+
+Piano_Guitar/Piano/Piano.mf.Eb5.wav
+-----------------------------------
+Onset at   0.487 seconds, delay:  -1ms.
+
+False positives:
+  0.650
+  0.730
+  0.790
+  0.850
+  0.890
+  0.970
+  1.010
+  1.070
+  1.150
+  1.210
+  1.250
+
+Piano_Guitar/Piano/Piano.mf.Eb6.wav
+-----------------------------------
+Onset at   0.348 seconds
+
+False positives:
+  0.450
+  0.510
+  0.570
+  0.630
+  0.690
+  0.730
+  0.790
+
+Piano_Guitar/Piano/Piano.mf.Eb7.wav
+-----------------------------------
+
+False negatives:
+  0.127
+
+Piano_Guitar/Piano/Piano.mf.F1.wav
+----------------------------------
+
+False negatives:
+  0.507
+
+Piano_Guitar/Piano/Piano.mf.F2.wav
+----------------------------------
+Onset at   0.425 seconds, delay:  -5ms.
+
+False positives:
+  0.690
+  0.750
+  0.850
+  0.970
+  1.050
+  1.110
+  1.150
+  1.230
+  1.329
+  1.510
+  1.570
+  1.650
+  1.710
+  1.750
+  1.810
+  1.870
+  1.950
+  2.010
+  2.070
+  2.110
+  2.170
+  2.230
+  2.310
+  2.370
+  2.410
+  2.490
+  2.530
+  2.590
+  2.650
+  2.710
+  2.790
+  2.830
+  2.910
+  2.950
+  3.030
+  3.070
+  3.150
+  3.210
+  3.250
+  3.330
+  3.370
+  3.450
+  3.490
+  3.570
+  3.610
+  3.690
+  3.750
+  3.790
+  3.870
+  3.930
+  3.970
+  4.030
+  4.110
+  4.170
+  4.210
+  4.290
+  4.330
+  4.410
+  4.450
+  4.510
+  4.590
+  4.630
+  4.710
+  4.750
+  4.810
+  4.870
+  4.950
+  5.010
+  5.050
+  5.203
+  5.330
+  5.390
+  5.450
+  5.510
+  5.549
+  5.630
+  5.670
+  5.730
+  5.790
+
+Piano_Guitar/Piano/Piano.mf.F3.wav
+----------------------------------
+Onset at   0.102 seconds, delay: -44ms.
+
+False positives:
+  0.310
+  0.390
+  0.430
+  0.490
+  0.550
+  0.610
+  0.670
+  0.750
+  0.810
+  0.850
+  0.930
+  0.990
+  1.030
+  1.090
+  1.150
+  1.210
+
+Piano_Guitar/Piano/Piano.mf.F4.wav
+----------------------------------
+Onset at   0.456 seconds, delay:  -7ms.
+
+False positives:
+  0.610
+  0.690
+  0.750
+  0.830
+  0.870
+  0.950
+  0.990
+  1.050
+  1.130
+  1.170
+  1.230
+  1.310
+  1.370
+  1.410
+  1.470
+
+Piano_Guitar/Piano/Piano.mf.F5.wav
+----------------------------------
+Onset at   0.394 seconds, delay:  -6ms.
+
+False positives:
+  0.490
+  0.550
+  0.630
+  0.670
+  0.750
+  0.790
+  0.870
+  0.930
+  0.990
+  1.050
+  1.110
+  1.170
+  1.230
+  1.290
+  1.350
+  1.410
+  1.466
+
+Piano_Guitar/Piano/Piano.mf.F6.wav
+----------------------------------
+Onset at   0.208 seconds
+
+False positives:
+  0.290
+  0.350
+  0.410
+  0.490
+  0.530
+
+Piano_Guitar/Piano/Piano.mf.F7.wav
+----------------------------------
+
+False negatives:
+  0.111
+
+Piano_Guitar/Piano/Piano.mf.G1.wav
+----------------------------------
+
+False negatives:
+  0.704
+
+Piano_Guitar/Piano/Piano.mf.G2.wav
+----------------------------------
+Onset at   0.134 seconds, delay: -19ms.
+All onsets found!
+
+Piano_Guitar/Piano/Piano.mf.G3.wav
+----------------------------------
+Onset at   0.546 seconds, delay:  -2ms.
+
+False positives:
+  0.793
+  0.890
+  0.950
+  1.057
+  1.150
+  1.194
+  1.290
+  1.350
+  1.450
+  1.540
+  1.650
+  1.730
+  1.789
+  1.910
+  1.950
+  2.070
+  2.130
+  2.210
+  2.250
+  2.310
+  2.390
+  2.470
+  2.547
+  2.650
+  2.710
+  2.750
+  2.830
+  2.890
+  2.970
+  3.090
+  3.130
+  3.250
+  3.290
+  3.390
+  3.430
+
+Piano_Guitar/Piano/Piano.mf.G4.wav
+----------------------------------
+Onset at   0.363 seconds, delay:  -4ms.
+
+False positives:
+  0.490
+  0.570
+  0.650
+  0.710
+  0.770
+  0.830
+  0.890
+  0.970
+  1.030
+  1.070
+  1.150
+  1.210
+  1.270
+  1.310
+  1.390
+  1.430
+
+Piano_Guitar/Piano/Piano.mf.G5.wav
+----------------------------------
+Onset at   0.392 seconds, delay:  -3ms.
+
+False positives:
+  0.510
+  0.570
+  0.650
+  0.690
+
+Piano_Guitar/Piano/Piano.mf.G6.wav
+----------------------------------
+Onset at   0.201 seconds, delay:  -1ms.
+All onsets found!
+
+Piano_Guitar/Piano/Piano.mf.G7.wav
+----------------------------------
+
+False negatives:
+  0.279
+
+Piano_Guitar/Piano/Piano.mf.Gb1.wav
+-----------------------------------
+
+False negatives:
+  0.477
+
+Piano_Guitar/Piano/Piano.mf.Gb2.wav
+-----------------------------------
+Onset at   0.483 seconds, delay:  -5ms.
+
+False positives:
+  0.750
+  0.830
+  0.890
+  0.962
+  1.070
+  1.150
+  1.190
+  1.250
+  1.330
+  1.370
+  1.450
+  1.510
+  1.570
+  1.630
+  1.690
+  1.770
+  1.830
+  1.869
+  1.950
+  2.030
+  2.090
+  2.150
+  2.210
+  2.250
+  2.330
+  2.390
+  2.430
+  2.490
+  2.550
+  2.610
+  2.690
+  2.730
+  2.790
+  2.850
+  2.910
+  2.970
+  3.030
+  3.090
+  3.170
+  3.210
+  3.290
+  3.330
+  3.410
+
+Piano_Guitar/Piano/Piano.mf.Gb3.wav
+-----------------------------------
+Onset at   0.440 seconds, delay: -10ms.
+
+False positives:
+  0.590
+  0.650
+  0.730
+  0.770
+  0.850
+  0.930
+  1.030
+  1.110
+  1.160
+  1.230
+  1.280
+  1.350
+  1.424
+  1.550
+  1.644
+  1.750
+  1.790
+  1.870
+  1.930
+  1.990
+  2.070
+  2.110
+  2.190
+
+Piano_Guitar/Piano/Piano.mf.Gb4.wav
+-----------------------------------
+Onset at   0.443 seconds, delay:  -1ms.
+
+False positives:
+  0.590
+  0.650
+  0.710
+  0.770
+  0.830
+  0.890
+  0.970
+  1.030
+  1.070
+  1.150
+  1.190
+  1.270
+
+Piano_Guitar/Piano/Piano.mf.Gb5.wav
+-----------------------------------
+Onset at   0.380 seconds
+
+False positives:
+  0.490
+  0.550
+  0.610
+  0.650
+  0.730
+  0.770
+  0.850
+  0.890
+  0.970
+  1.050
+  1.110
+  1.190
+  1.250
+  1.290
+  1.350
+
+Piano_Guitar/Piano/Piano.mf.Gb6.wav
+-----------------------------------
+Onset at   0.229 seconds
+
+False positives:
+  0.330
+  0.390
+  0.450
+
+Piano_Guitar/Piano/Piano.pp.A1.wav
+----------------------------------
+
+False negatives:
+  0.295
+
+Piano_Guitar/Piano/Piano.pp.A2.wav
+----------------------------------
+
+False negatives:
+  0.225
+
+Piano_Guitar/Piano/Piano.pp.A3.wav
+----------------------------------
+
+False negatives:
+  0.460
+
+Piano_Guitar/Piano/Piano.pp.A4.wav
+----------------------------------
+
+False negatives:
+  0.244
+
+Piano_Guitar/Piano/Piano.pp.A5.wav
+----------------------------------
+
+False negatives:
+  0.169
+
+Piano_Guitar/Piano/Piano.pp.A6.wav
+----------------------------------
+
+False negatives:
+  0.170
+
+Piano_Guitar/Piano/Piano.pp.A7.wav
+----------------------------------
+
+False negatives:
+  0.202
+
+Piano_Guitar/Piano/Piano.pp.Ab1.wav
+-----------------------------------
+
+False negatives:
+  0.327
+
+Piano_Guitar/Piano/Piano.pp.Ab2.wav
+-----------------------------------
+Onset at   0.471 seconds, delay:  -3ms.
+All onsets found!
+
+Piano_Guitar/Piano/Piano.pp.Ab3.wav
+-----------------------------------
+
+False negatives:
+  0.721
+
+Piano_Guitar/Piano/Piano.pp.Ab4.wav
+-----------------------------------
+Onset at   0.191 seconds, delay:  -3ms.
+
+False positives:
+  0.310
+  0.370
+  0.430
+  0.530
+  0.610
+
+Piano_Guitar/Piano/Piano.pp.Ab5.wav
+-----------------------------------
+Onset at   0.189 seconds
+All onsets found!
+
+Piano_Guitar/Piano/Piano.pp.Ab6.wav
+-----------------------------------
+
+False negatives:
+  0.177
+
+Piano_Guitar/Piano/Piano.pp.Ab7.wav
+-----------------------------------
+
+False negatives:
+  0.126
+
+Piano_Guitar/Piano/Piano.pp.B0.wav
+----------------------------------
+
+False negatives:
+  0.779
+
+Piano_Guitar/Piano/Piano.pp.B1.wav
+----------------------------------
+
+False negatives:
+  0.379
+
+Piano_Guitar/Piano/Piano.pp.B2.wav
+----------------------------------
+
+False negatives:
+  0.339
+
+Piano_Guitar/Piano/Piano.pp.B3.wav
+----------------------------------
+Onset at   0.336 seconds, delay:   1ms.
+
+False positives:
+  0.490
+  0.530
+  0.610
+  0.670
+  0.710
+
+Piano_Guitar/Piano/Piano.pp.B4.wav
+----------------------------------
+Onset at   0.249 seconds, delay: -20ms.
+
+False positives:
+  0.370
+  0.430
+  0.490
+  0.570
+  0.630
+  0.690
+  0.750
+  0.810
+  0.870
+  0.930
+  0.990
+
+Piano_Guitar/Piano/Piano.pp.B5.wav
+----------------------------------
+
+False negatives:
+  0.240
+
+Piano_Guitar/Piano/Piano.pp.B6.wav
+----------------------------------
+
+False negatives:
+  0.113
+
+Piano_Guitar/Piano/Piano.pp.B7.wav
+----------------------------------
+
+False negatives:
+  0.151
+
+Piano_Guitar/Piano/Piano.pp.Bb0.wav
+-----------------------------------
+
+False negatives:
+  0.400
+
+Piano_Guitar/Piano/Piano.pp.Bb1.wav
+-----------------------------------
+
+False negatives:
+  0.668
+
+Piano_Guitar/Piano/Piano.pp.Bb2.wav
+-----------------------------------
+
+False negatives:
+  0.312
+
+Piano_Guitar/Piano/Piano.pp.Bb3.wav
+-----------------------------------
+Onset at   0.293 seconds, delay: -13ms.
+
+False positives:
+  0.470
+  0.525
+  0.590
+  0.637
+  0.730
+  0.804
+  0.890
+
+Piano_Guitar/Piano/Piano.pp.Bb4.wav
+-----------------------------------
+
+False negatives:
+  0.271
+
+Piano_Guitar/Piano/Piano.pp.Bb5.wav
+-----------------------------------
+
+False negatives:
+  0.242
+
+Piano_Guitar/Piano/Piano.pp.Bb6.wav
+-----------------------------------
+
+False negatives:
+  0.289
+
+Piano_Guitar/Piano/Piano.pp.Bb7.wav
+-----------------------------------
+
+False negatives:
+  0.129
+
+Piano_Guitar/Piano/Piano.pp.C1.wav
+----------------------------------
+
+False negatives:
+  0.272
+
+Piano_Guitar/Piano/Piano.pp.C2.wav
+----------------------------------
+
+False negatives:
+  0.470
+
+Piano_Guitar/Piano/Piano.pp.C3.wav
+----------------------------------
+
+False negatives:
+  0.482
+
+Piano_Guitar/Piano/Piano.pp.C4.wav
+----------------------------------
+Onset at   0.480 seconds, delay:  -6ms.
+All onsets found!
+
+Piano_Guitar/Piano/Piano.pp.C5.wav
+----------------------------------
+Onset at   0.458 seconds
+
+False positives:
+  0.570
+  0.630
+  0.690
+  0.750
+  0.810
+
+Piano_Guitar/Piano/Piano.pp.C6.wav
+----------------------------------
+
+False negatives:
+  0.118
+
+Piano_Guitar/Piano/Piano.pp.C7.wav
+----------------------------------
+
+False negatives:
+  0.417
+
+Piano_Guitar/Piano/Piano.pp.C8.wav
+----------------------------------
+
+False negatives:
+  0.051
+
+Piano_Guitar/Piano/Piano.pp.D1.wav
+----------------------------------
+
+False negatives:
+  0.320
+
+Piano_Guitar/Piano/Piano.pp.D2.wav
+----------------------------------
+
+False negatives:
+  0.368
+
+Piano_Guitar/Piano/Piano.pp.D3.wav
+----------------------------------
+
+False negatives:
+  0.365
+
+Piano_Guitar/Piano/Piano.pp.D4.wav
+----------------------------------
+
+False negatives:
+  0.161
+
+Piano_Guitar/Piano/Piano.pp.D5.wav
+----------------------------------
+
+False negatives:
+  0.257
+
+Piano_Guitar/Piano/Piano.pp.D6.wav
+----------------------------------
+
+False negatives:
+  0.158
+
+Piano_Guitar/Piano/Piano.pp.D7.wav
+----------------------------------
+
+False negatives:
+  0.098
+
+Piano_Guitar/Piano/Piano.pp.Db1.wav
+-----------------------------------
+
+False negatives:
+  0.314
+
+Piano_Guitar/Piano/Piano.pp.Db2.wav
+-----------------------------------
+
+False negatives:
+  0.438
+
+Piano_Guitar/Piano/Piano.pp.Db3.wav
+-----------------------------------
+
+False negatives:
+  0.210
+
+Piano_Guitar/Piano/Piano.pp.Db4.wav
+-----------------------------------
+Onset at   0.486 seconds, delay:   1ms.
+All onsets found!
+
+Piano_Guitar/Piano/Piano.pp.Db5.wav
+-----------------------------------
+
+False negatives:
+  0.242
+
+Piano_Guitar/Piano/Piano.pp.Db6.wav
+-----------------------------------
+
+False negatives:
+  0.127
+
+Piano_Guitar/Piano/Piano.pp.Db7.wav
+-----------------------------------
+
+False negatives:
+  0.204
+
+Piano_Guitar/Piano/Piano.pp.E1.wav
+----------------------------------
+
+False negatives:
+  0.272
+
+Piano_Guitar/Piano/Piano.pp.E2.wav
+----------------------------------
+Onset at   0.296 seconds, delay:  -9ms.
+
+False positives:
+  0.610
+  0.670
+  0.770
+  0.850
+  0.910
+
+Piano_Guitar/Piano/Piano.pp.E3.wav
+----------------------------------
+Onset at   0.207 seconds, delay: -20ms.
+
+False positives:
+  0.410
+  0.470
+  0.530
+  0.610
+  0.650
+  0.697
+  0.770
+  0.830
+  0.910
+  0.950
+  1.030
+  1.070
+  1.170
+  1.310
+
+Piano_Guitar/Piano/Piano.pp.E4.wav
+----------------------------------
+Onset at   0.600 seconds, delay:  -2ms.
+
+False positives:
+  0.770
+  0.810
+  0.890
+  0.950
+  1.030
+
+Piano_Guitar/Piano/Piano.pp.E5.wav
+----------------------------------
+Onset at   0.171 seconds, delay:  -1ms.
+
+False positives:
+  0.290
+  0.330
+  0.390
+  0.470
+  0.510
+  0.570
+
+Piano_Guitar/Piano/Piano.pp.E6.wav
+----------------------------------
+
+False negatives:
+  0.178
+
+Piano_Guitar/Piano/Piano.pp.E7.wav
+----------------------------------
+
+False negatives:
+  0.086
+
+Piano_Guitar/Piano/Piano.pp.Eb1.wav
+-----------------------------------
+
+False negatives:
+  0.259
+
+Piano_Guitar/Piano/Piano.pp.Eb2.wav
+-----------------------------------
+Onset at   0.282 seconds, delay:  -3ms.
+
+False positives:
+  0.530
+  0.610
+  0.650
+  0.750
+
+Piano_Guitar/Piano/Piano.pp.Eb3.wav
+-----------------------------------
+Onset at   0.329 seconds, delay:  -1ms.
+
+False positives:
+  0.530
+  0.590
+  0.631
+  0.730
+  0.770
+  0.830
+  0.890
+  0.950
+  1.050
+
+Piano_Guitar/Piano/Piano.pp.Eb4.wav
+-----------------------------------
+
+False negatives:
+  0.614
+
+Piano_Guitar/Piano/Piano.pp.Eb5.wav
+-----------------------------------
+Onset at   0.143 seconds
+
+False positives:
+  0.290
+  0.350
+  0.410
+
+Piano_Guitar/Piano/Piano.pp.Eb6.wav
+-----------------------------------
+
+False negatives:
+  0.125
+
+Piano_Guitar/Piano/Piano.pp.Eb7.wav
+-----------------------------------
+
+False negatives:
+  0.045
+
+Piano_Guitar/Piano/Piano.pp.F1.wav
+----------------------------------
+
+False negatives:
+  0.297
+
+Piano_Guitar/Piano/Piano.pp.F2.wav
+----------------------------------
+Onset at   0.392 seconds, delay:  -2ms.
+
+False positives:
+  0.670
+  0.730
+  0.810
+  0.865
+  0.990
+  1.070
+  1.110
+
+Piano_Guitar/Piano/Piano.pp.F3.wav
+----------------------------------
+Onset at   0.772 seconds, delay:   3ms.
+
+False positives:
+  0.970
+  1.030
+  1.090
+  1.170
+  1.210
+  1.310
+  1.350
+  1.430
+  1.490
+  1.530
+
+Piano_Guitar/Piano/Piano.pp.F4.wav
+----------------------------------
+Onset at   0.343 seconds, delay:  -2ms.
+
+False positives:
+  0.510
+  0.570
+  0.630
+  0.710
+  0.750
+  0.830
+  0.910
+  0.950
+
+Piano_Guitar/Piano/Piano.pp.F5.wav
+----------------------------------
+Onset at   0.187 seconds
+
+False positives:
+  0.330
+  0.390
+  0.450
+
+Piano_Guitar/Piano/Piano.pp.F6.wav
+----------------------------------
+
+False negatives:
+  0.164
+
+Piano_Guitar/Piano/Piano.pp.F7.wav
+----------------------------------
+
+False negatives:
+  0.117
+
+Piano_Guitar/Piano/Piano.pp.G1.wav
+----------------------------------
+
+False negatives:
+  0.408
+
+Piano_Guitar/Piano/Piano.pp.G2.wav
+----------------------------------
+
+False negatives:
+  0.629
+
+Piano_Guitar/Piano/Piano.pp.G3.wav
+----------------------------------
+Onset at   0.484 seconds
+
+False positives:
+  0.690
+  0.726
+  0.830
+  0.890
+  0.990
+  1.090
+  1.150
+  1.250
+  1.310
+
+Piano_Guitar/Piano/Piano.pp.G4.wav
+----------------------------------
+Onset at   0.237 seconds, delay:   1ms.
+
+False positives:
+  0.370
+  0.470
+  0.530
+  0.610
+  0.650
+  0.710
+
+Piano_Guitar/Piano/Piano.pp.G5.wav
+----------------------------------
+
+False negatives:
+  0.257
+
+Piano_Guitar/Piano/Piano.pp.G6.wav
+----------------------------------
+
+False negatives:
+  0.335
+
+Piano_Guitar/Piano/Piano.pp.G7.wav
+----------------------------------
+
+False negatives:
+  0.077
+
+Piano_Guitar/Piano/Piano.pp.Gb1.wav
+-----------------------------------
+
+False negatives:
+  0.383
+
+Piano_Guitar/Piano/Piano.pp.Gb2.wav
+-----------------------------------
+
+False negatives:
+  0.347
+
+Piano_Guitar/Piano/Piano.pp.Gb3.wav
+-----------------------------------
+Onset at   0.460 seconds, delay: -35ms.
+
+False positives:
+  0.610
+  0.670
+  0.750
+  0.790
+  0.870
+  0.950
+  1.050
+  1.130
+  1.166
+
+Piano_Guitar/Piano/Piano.pp.Gb4.wav
+-----------------------------------
+Onset at   0.354 seconds, delay:  -4ms.
+
+False positives:
+  0.510
+  0.570
+
+Piano_Guitar/Piano/Piano.pp.Gb5.wav
+-----------------------------------
+Onset at   0.098 seconds
+
+False positives:
+  0.210
+  0.270
+
+Piano_Guitar/Piano/Piano.pp.Gb6.wav
+-----------------------------------
+
+False negatives:
+  0.198
+
+Piano_Guitar/Piano/Piano.pp.Gb7.wav
+-----------------------------------
+
+False negatives:
+  0.063
+
+
+Stats
+=====
+Total number of onsets:     260
+Total number of detections: 2282
+Total true positives:       153
+Total false positives:      2129
+Total erroneous detections: 2129
+
+Largest advance: -44ms
+Mean advance:    -20.833ms
+Largest delay:    49ms
+Mean delay:       18.333ms
+Mean difference:  -2.000ms
+Number of advances <-15.00ms: 11
+Number of delays   > 15.00ms: 1
+
+Precision:             6.70465%
+Recall:                58.8462%
+F-measure:             12.0378%
+Precision (tot. err.): 6.70465%
+F-measure (tot. err.): 12.0378%
+

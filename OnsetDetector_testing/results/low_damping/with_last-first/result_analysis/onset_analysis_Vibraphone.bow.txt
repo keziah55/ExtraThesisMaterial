@@ -1,0 +1,357 @@
+Check onsetdetector results
+===========================
+
+Wed Apr 24 13:03:27 2019
+
+OnsetDetector if statement: if (count >= 3 && last >= threshold),  if (last-first >= std::log(2))
+findExactTime() local min decision: if (std::isnan(current/mn) || current/mn >= 0.95) 
+OnsetDetector segment size: 20ms
+Threshold: 0.0003
+Searching for 1 frequency
+NoteDetector args:
+    EDO: 12
+    Bandwidth: 0
+    Method: Runge-Kutta
+    Freq norm: Freq unnormalized
+    Amp norm: Amp normalized
+    Damping: 0.0001
+    Gain: 25
+Onset tolerance: 50.000ms
+
+
+Percussion/Vibraphone.bow/Vibraphone.bow.A3.stereo.wav
+------------------------------------------------------
+
+False negatives:
+  0.393
+
+False positives:
+  0.119
+
+Percussion/Vibraphone.bow/Vibraphone.bow.A4.stereo.wav
+------------------------------------------------------
+
+False negatives:
+  0.174
+
+False positives:
+  0.030
+
+Percussion/Vibraphone.bow/Vibraphone.bow.A5.stereo.wav
+------------------------------------------------------
+Onset at   0.223 seconds, delay: -10ms.
+All onsets found!
+
+Percussion/Vibraphone.bow/Vibraphone.bow.Ab3.stereo.wav
+-------------------------------------------------------
+
+False negatives:
+  0.304
+
+False positives:
+  0.022
+
+Percussion/Vibraphone.bow/Vibraphone.bow.Ab4.stereo.wav
+-------------------------------------------------------
+Onset at   0.077 seconds, delay:   5ms.
+All onsets found!
+
+Percussion/Vibraphone.bow/Vibraphone.bow.Ab5.stereo.wav
+-------------------------------------------------------
+Onset at   0.096 seconds, delay: -25ms.
+All onsets found!
+
+Percussion/Vibraphone.bow/Vibraphone.bow.B3.stereo.wav
+------------------------------------------------------
+Onset at   0.066 seconds, delay:  28ms.
+All onsets found!
+
+Percussion/Vibraphone.bow/Vibraphone.bow.B4.stereo.wav
+------------------------------------------------------
+Onset at   0.030 seconds, delay:  12ms.
+All onsets found!
+
+Percussion/Vibraphone.bow/Vibraphone.bow.B5.stereo.wav
+------------------------------------------------------
+Onset at   0.062 seconds, delay:   8ms.
+All onsets found!
+
+Percussion/Vibraphone.bow/Vibraphone.bow.Bb3.stereo.wav
+-------------------------------------------------------
+Onset at   0.065 seconds, delay: -35ms.
+All onsets found!
+
+Percussion/Vibraphone.bow/Vibraphone.bow.Bb4.stereo.wav
+-------------------------------------------------------
+
+False negatives:
+  0.149
+
+False positives:
+  0.070
+
+Percussion/Vibraphone.bow/Vibraphone.bow.Bb5.stereo.wav
+-------------------------------------------------------
+
+False negatives:
+  0.289
+
+False positives:
+  0.102
+
+Percussion/Vibraphone.bow/Vibraphone.bow.C3.stereo.wav
+------------------------------------------------------
+Onset at   0.000 seconds, delay:  20ms.
+All onsets found!
+
+Percussion/Vibraphone.bow/Vibraphone.bow.C4.stereo.wav
+------------------------------------------------------
+Onset at   0.055 seconds, delay: -34ms.
+All onsets found!
+
+Percussion/Vibraphone.bow/Vibraphone.bow.C5.stereo.wav
+------------------------------------------------------
+Onset at   0.040 seconds, delay: -19ms.
+All onsets found!
+
+Percussion/Vibraphone.bow/Vibraphone.bow.C6.stereo.wav
+------------------------------------------------------
+
+False negatives:
+  0.122
+
+False positives:
+  0.071
+
+Percussion/Vibraphone.bow/Vibraphone.bow.D3.stereo.wav
+------------------------------------------------------
+Onset at   0.095 seconds, delay:  33ms.
+All onsets found!
+
+Percussion/Vibraphone.bow/Vibraphone.bow.D4.stereo.wav
+------------------------------------------------------
+
+False negatives:
+  0.171
+
+False positives:
+  0.047
+  0.810
+
+Percussion/Vibraphone.bow/Vibraphone.bow.D5.stereo.wav
+------------------------------------------------------
+
+False negatives:
+  0.081
+
+False positives:
+  0.030
+
+Percussion/Vibraphone.bow/Vibraphone.bow.D6.stereo.wav
+------------------------------------------------------
+Onset at   0.181 seconds, delay:  12ms.
+All onsets found!
+
+Percussion/Vibraphone.bow/Vibraphone.bow.Db3.stereo.wav
+-------------------------------------------------------
+
+False negatives:
+  0.153
+
+False positives:
+  0.040
+
+Percussion/Vibraphone.bow/Vibraphone.bow.Db4.stereo.wav
+-------------------------------------------------------
+
+False negatives:
+  0.126
+
+False positives:
+  0.064
+
+Percussion/Vibraphone.bow/Vibraphone.bow.Db5.stereo.wav
+-------------------------------------------------------
+Onset at   0.106 seconds, delay: -35ms.
+
+False positives:
+  1.284
+
+Percussion/Vibraphone.bow/Vibraphone.bow.Db6.stereo.wav
+-------------------------------------------------------
+
+False negatives:
+  0.280
+
+False positives:
+  0.147
+
+Percussion/Vibraphone.bow/Vibraphone.bow.E3.stereo.wav
+------------------------------------------------------
+
+False negatives:
+  0.194
+
+False positives:
+  0.030
+
+Percussion/Vibraphone.bow/Vibraphone.bow.E4.stereo.wav
+------------------------------------------------------
+
+False negatives:
+  0.168
+
+False positives:
+  0.041
+
+Percussion/Vibraphone.bow/Vibraphone.bow.E5.stereo.wav
+------------------------------------------------------
+Onset at   0.102 seconds, delay: -31ms.
+All onsets found!
+
+Percussion/Vibraphone.bow/Vibraphone.bow.E6.stereo.wav
+------------------------------------------------------
+
+False negatives:
+  0.188
+
+False positives:
+  0.071
+
+Percussion/Vibraphone.bow/Vibraphone.bow.Eb3.stereo.wav
+-------------------------------------------------------
+
+False negatives:
+  0.151
+
+False positives:
+  0.083
+
+Percussion/Vibraphone.bow/Vibraphone.bow.Eb4.stereo.wav
+-------------------------------------------------------
+
+False negatives:
+  0.172
+
+False positives:
+  0.110
+
+Percussion/Vibraphone.bow/Vibraphone.bow.Eb5.stereo.wav
+-------------------------------------------------------
+Onset at   0.087 seconds, delay:   4ms.
+All onsets found!
+
+Percussion/Vibraphone.bow/Vibraphone.bow.Eb6.stereo.wav
+-------------------------------------------------------
+Onset at   0.111 seconds, delay: -41ms.
+All onsets found!
+
+Percussion/Vibraphone.bow/Vibraphone.bow.F3.stereo.wav
+------------------------------------------------------
+Onset at   0.141 seconds, delay: -11ms.
+
+False positives:
+  0.528
+
+Percussion/Vibraphone.bow/Vibraphone.bow.F4.stereo.wav
+------------------------------------------------------
+
+False negatives:
+  0.139
+
+False positives:
+  0.071
+
+Percussion/Vibraphone.bow/Vibraphone.bow.F5.stereo.wav
+------------------------------------------------------
+Onset at   0.080 seconds, delay: -50ms.
+
+False positives:
+  1.269
+
+Percussion/Vibraphone.bow/Vibraphone.bow.F6.stereo.wav
+------------------------------------------------------
+
+False negatives:
+  0.008
+
+False positives:
+  0.073
+
+Percussion/Vibraphone.bow/Vibraphone.bow.G3.stereo.wav
+------------------------------------------------------
+
+False negatives:
+  0.364
+
+False positives:
+  0.046
+
+Percussion/Vibraphone.bow/Vibraphone.bow.G4.stereo.wav
+------------------------------------------------------
+
+False negatives:
+  0.131
+
+False positives:
+  0.030
+
+Percussion/Vibraphone.bow/Vibraphone.bow.G5.stereo.wav
+------------------------------------------------------
+
+False negatives:
+  0.158
+
+False positives:
+  0.072
+
+Percussion/Vibraphone.bow/Vibraphone.bow.Gb3.stereo.wav
+-------------------------------------------------------
+
+False negatives:
+  0.156
+
+False positives:
+  0.021
+
+Percussion/Vibraphone.bow/Vibraphone.bow.Gb4.stereo.wav
+-------------------------------------------------------
+
+False negatives:
+  0.085
+
+False positives:
+  0.030
+
+Percussion/Vibraphone.bow/Vibraphone.bow.Gb5.stereo.wav
+-------------------------------------------------------
+
+False negatives:
+  0.155
+
+False positives:
+  0.021
+
+
+Stats
+=====
+Total number of onsets:     42
+Total number of detections: 46
+Total true positives:       18
+Total false positives:      28
+Total erroneous detections: 28
+
+Largest advance: -50ms
+Mean advance:    -32.200ms
+Largest delay:    33ms
+Mean delay:       22.000ms
+Mean difference: -11.875ms
+Number of advances <-15.00ms: 8
+Number of delays   > 15.00ms: 3
+
+Precision:             39.1304%
+Recall:                42.8571%
+F-measure:             40.9091%
+Precision (tot. err.): 39.1304%
+F-measure (tot. err.): 40.9091%
+

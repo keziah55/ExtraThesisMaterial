@@ -1,0 +1,944 @@
+Check onsetdetector results
+===========================
+
+Wed Apr 24 12:55:20 2019
+
+OnsetDetector if statement: if (count >= 3 && last >= threshold),  if (last-first >= std::log(2))
+findExactTime() local min decision: if (std::isnan(current/mn) || current/mn >= 0.95) 
+OnsetDetector segment size: 20ms
+Threshold: 0.0005
+Searching for 1 frequency
+NoteDetector args:
+    EDO: 12
+    Bandwidth: 0
+    Method: Runge-Kutta
+    Freq norm: Freq unnormalized
+    Amp norm: Amp normalized
+    Damping: 0.0005
+    Gain: 25
+Onset tolerance: 50.000ms
+
+
+Piano_Guitar/Guitar/Guitar.ff.sulA.A2.wav
+-----------------------------------------
+Onset at   0.059 seconds
+
+False positives:
+  3.570
+  7.539
+  8.272
+
+Piano_Guitar/Guitar/Guitar.ff.sulA.A3.wav
+-----------------------------------------
+Onset at   0.501 seconds, delay: -16ms.
+All onsets found!
+
+Piano_Guitar/Guitar/Guitar.ff.sulA.Ab3.wav
+------------------------------------------
+Onset at   0.402 seconds, delay: -34ms.
+All onsets found!
+
+Piano_Guitar/Guitar/Guitar.ff.sulA.B2.wav
+-----------------------------------------
+Onset at   0.193 seconds, delay: -41ms.
+
+False positives:
+  6.086
+  7.048
+  7.525
+  8.638
+  9.246
+
+Piano_Guitar/Guitar/Guitar.ff.sulA.B3.wav
+-----------------------------------------
+Onset at   0.568 seconds, delay: -47ms.
+
+False positives:
+  1.410
+
+Piano_Guitar/Guitar/Guitar.ff.sulA.Bb2.wav
+------------------------------------------
+Onset at   0.343 seconds, delay: -17ms.
+All onsets found!
+
+Piano_Guitar/Guitar/Guitar.ff.sulA.Bb3.wav
+------------------------------------------
+Onset at   0.582 seconds, delay:  -4ms.
+All onsets found!
+
+Piano_Guitar/Guitar/Guitar.ff.sulA.C3.wav
+-----------------------------------------
+Onset at   0.043 seconds, delay:   7ms.
+
+False positives:
+  1.920
+  5.074
+  6.548
+  8.045
+
+Piano_Guitar/Guitar/Guitar.ff.sulA.C4.wav
+-----------------------------------------
+Onset at   0.075 seconds, delay:  -4ms.
+All onsets found!
+
+Piano_Guitar/Guitar/Guitar.ff.sulA.D3.wav
+-----------------------------------------
+Onset at   0.309 seconds, delay: -14ms.
+
+False positives:
+  4.365
+  4.968
+  5.304
+
+Piano_Guitar/Guitar/Guitar.ff.sulA.D4.wav
+-----------------------------------------
+Onset at   0.289 seconds, delay: -23ms.
+All onsets found!
+
+Piano_Guitar/Guitar/Guitar.ff.sulA.Db3.wav
+------------------------------------------
+Onset at   0.592 seconds, delay: -18ms.
+All onsets found!
+
+Piano_Guitar/Guitar/Guitar.ff.sulA.Db4.wav
+------------------------------------------
+Onset at   0.564 seconds, delay: -27ms.
+All onsets found!
+
+Piano_Guitar/Guitar/Guitar.ff.sulA.E3.wav
+-----------------------------------------
+Onset at   0.333 seconds, delay: -12ms.
+All onsets found!
+
+Piano_Guitar/Guitar/Guitar.ff.sulA.E4.wav
+-----------------------------------------
+Onset at   0.502 seconds, delay:  -6ms.
+All onsets found!
+
+Piano_Guitar/Guitar/Guitar.ff.sulA.Eb3.wav
+------------------------------------------
+Onset at   0.586 seconds, delay: -44ms.
+
+False positives:
+  8.223
+
+Piano_Guitar/Guitar/Guitar.ff.sulA.Eb4.wav
+------------------------------------------
+Onset at   0.441 seconds, delay: -11ms.
+All onsets found!
+
+Piano_Guitar/Guitar/Guitar.ff.sulA.F3.wav
+-----------------------------------------
+Onset at   0.540 seconds, delay: -33ms.
+
+False positives:
+  5.679
+  6.495
+  6.601
+  7.262
+
+Piano_Guitar/Guitar/Guitar.ff.sulA.G3.wav
+-----------------------------------------
+Onset at   0.672 seconds, delay:  -3ms.
+All onsets found!
+
+Piano_Guitar/Guitar/Guitar.ff.sulA.Gb3.wav
+------------------------------------------
+Onset at   0.452 seconds, delay: -34ms.
+
+False positives:
+  4.473
+
+Piano_Guitar/Guitar/Guitar.ff.sulB.A4.wav
+-----------------------------------------
+
+False negatives:
+  0.427
+
+False positives:
+  0.369
+
+Piano_Guitar/Guitar/Guitar.ff.sulB.Ab4.wav
+------------------------------------------
+Onset at   0.518 seconds, delay: -12ms.
+All onsets found!
+
+Piano_Guitar/Guitar/Guitar.ff.sulB.B3.wav
+-----------------------------------------
+Onset at   0.019 seconds, delay:   1ms.
+All onsets found!
+
+Piano_Guitar/Guitar/Guitar.ff.sulB.B4.wav
+-----------------------------------------
+Onset at   0.308 seconds, delay: -37ms.
+All onsets found!
+
+Piano_Guitar/Guitar/Guitar.ff.sulB.Bb4.wav
+------------------------------------------
+Onset at   0.342 seconds, delay: -12ms.
+All onsets found!
+
+Piano_Guitar/Guitar/Guitar.ff.sulB.C4.wav
+-----------------------------------------
+Onset at   0.022 seconds
+All onsets found!
+
+Piano_Guitar/Guitar/Guitar.ff.sulB.C5.wav
+-----------------------------------------
+Onset at   0.040 seconds, delay:  -3ms.
+All onsets found!
+
+Piano_Guitar/Guitar/Guitar.ff.sulB.D4.wav
+-----------------------------------------
+Onset at   0.460 seconds, delay: -38ms.
+All onsets found!
+
+Piano_Guitar/Guitar/Guitar.ff.sulB.D5.wav
+-----------------------------------------
+
+False negatives:
+  0.473
+
+False positives:
+  0.304
+
+Piano_Guitar/Guitar/Guitar.ff.sulB.Db4.wav
+------------------------------------------
+Onset at   0.453 seconds, delay: -17ms.
+All onsets found!
+
+Piano_Guitar/Guitar/Guitar.ff.sulB.Db5.wav
+------------------------------------------
+
+False negatives:
+  0.454
+
+False positives:
+  0.367
+
+Piano_Guitar/Guitar/Guitar.ff.sulB.E4.wav
+-----------------------------------------
+Onset at   0.471 seconds, delay:  -6ms.
+All onsets found!
+
+Piano_Guitar/Guitar/Guitar.ff.sulB.E5.wav
+-----------------------------------------
+
+False negatives:
+  0.355
+
+False positives:
+  0.300
+  1.726
+  1.977
+  2.517
+  2.756
+
+Piano_Guitar/Guitar/Guitar.ff.sulB.Eb4.wav
+------------------------------------------
+Onset at   0.412 seconds, delay:  -4ms.
+
+False positives:
+  5.325
+  5.696
+
+Piano_Guitar/Guitar/Guitar.ff.sulB.Eb5.wav
+------------------------------------------
+Onset at   0.343 seconds, delay: -49ms.
+
+False positives:
+  0.890
+
+Piano_Guitar/Guitar/Guitar.ff.sulB.F4.wav
+-----------------------------------------
+Onset at   0.613 seconds, delay:  -5ms.
+
+False positives:
+  3.685
+  3.938
+
+Piano_Guitar/Guitar/Guitar.ff.sulB.F5.wav
+-----------------------------------------
+Onset at   0.347 seconds, delay: -38ms.
+All onsets found!
+
+Piano_Guitar/Guitar/Guitar.ff.sulB.G4.wav
+-----------------------------------------
+Onset at   0.577 seconds, delay: -15ms.
+All onsets found!
+
+Piano_Guitar/Guitar/Guitar.ff.sulB.Gb4.wav
+------------------------------------------
+Onset at   0.411 seconds, delay:  -1ms.
+All onsets found!
+
+Piano_Guitar/Guitar/Guitar.ff.sulB.Gb5.wav
+------------------------------------------
+Onset at   0.231 seconds, delay: -26ms.
+All onsets found!
+
+Piano_Guitar/Guitar/Guitar.ff.sulD.A3.wav
+-----------------------------------------
+Onset at   0.249 seconds, delay: -24ms.
+All onsets found!
+
+Piano_Guitar/Guitar/Guitar.ff.sulD.Ab3.wav
+------------------------------------------
+Onset at   0.720 seconds, delay: -21ms.
+All onsets found!
+
+Piano_Guitar/Guitar/Guitar.ff.sulD.Ab4.wav
+------------------------------------------
+Onset at   0.309 seconds, delay: -10ms.
+All onsets found!
+
+Piano_Guitar/Guitar/Guitar.ff.sulD.B3.wav
+-----------------------------------------
+Onset at   0.956 seconds, delay: -38ms.
+
+False positives:
+  1.374
+  2.387
+  2.910
+
+Piano_Guitar/Guitar/Guitar.ff.sulD.Bb3.wav
+------------------------------------------
+Onset at   0.240 seconds, delay: -16ms.
+All onsets found!
+
+Piano_Guitar/Guitar/Guitar.ff.sulD.C4.wav
+-----------------------------------------
+Onset at   0.018 seconds, delay:   2ms.
+All onsets found!
+
+Piano_Guitar/Guitar/Guitar.ff.sulD.D3.wav
+-----------------------------------------
+Onset at   0.027 seconds, delay:  -1ms.
+All onsets found!
+
+Piano_Guitar/Guitar/Guitar.ff.sulD.D4.wav
+-----------------------------------------
+Onset at   0.179 seconds
+All onsets found!
+
+Piano_Guitar/Guitar/Guitar.ff.sulD.Db4.wav
+------------------------------------------
+Onset at   0.963 seconds, delay: -36ms.
+
+False positives:
+  0.410
+  4.941
+  5.078
+  5.267
+  6.650
+  6.864
+  8.424
+
+Piano_Guitar/Guitar/Guitar.ff.sulD.E3.wav
+-----------------------------------------
+Onset at   0.911 seconds, delay: -27ms.
+All onsets found!
+
+Piano_Guitar/Guitar/Guitar.ff.sulD.E4.wav
+-----------------------------------------
+
+False negatives:
+  0.672
+
+False positives:
+  0.622
+
+Piano_Guitar/Guitar/Guitar.ff.sulD.Eb3.wav
+------------------------------------------
+Onset at   0.884 seconds, delay: -21ms.
+All onsets found!
+
+Piano_Guitar/Guitar/Guitar.ff.sulD.Eb4.wav
+------------------------------------------
+Onset at   0.405 seconds, delay: -30ms.
+All onsets found!
+
+Piano_Guitar/Guitar/Guitar.ff.sulD.F3.wav
+-----------------------------------------
+Onset at   0.712 seconds, delay:  -4ms.
+All onsets found!
+
+Piano_Guitar/Guitar/Guitar.ff.sulD.F4.wav
+-----------------------------------------
+Onset at   0.486 seconds, delay: -17ms.
+All onsets found!
+
+Piano_Guitar/Guitar/Guitar.ff.sulD.G3.wav
+-----------------------------------------
+Onset at   0.477 seconds, delay: -26ms.
+All onsets found!
+
+Piano_Guitar/Guitar/Guitar.ff.sulD.G4.wav
+-----------------------------------------
+Onset at   0.405 seconds, delay: -19ms.
+All onsets found!
+
+Piano_Guitar/Guitar/Guitar.ff.sulD.Gb3.wav
+------------------------------------------
+Onset at   0.583 seconds, delay: -20ms.
+All onsets found!
+
+Piano_Guitar/Guitar/Guitar.ff.sulD.Gb4.wav
+------------------------------------------
+Onset at   0.462 seconds, delay: -37ms.
+All onsets found!
+
+Piano_Guitar/Guitar/Guitar.ff.sulE.A2.wav
+-----------------------------------------
+
+False negatives:
+  0.682
+
+False positives:
+  0.606
+  3.632
+  4.292
+  5.851
+  6.452
+  9.104
+  9.383
+ 10.392
+ 10.620
+ 10.950
+ 11.556
+ 11.651
+ 12.000
+ 12.527
+
+Piano_Guitar/Guitar/Guitar.ff.sulE.A3.wav
+-----------------------------------------
+Onset at   0.486 seconds, delay: -34ms.
+
+False positives:
+  3.079
+  3.730
+  4.327
+  4.520
+  5.619
+  6.468
+  8.294
+
+Piano_Guitar/Guitar/Guitar.ff.sulE.Ab2.wav
+------------------------------------------
+Onset at   0.433 seconds, delay: -37ms.
+
+False positives:
+  3.766
+  4.322
+
+Piano_Guitar/Guitar/Guitar.ff.sulE.Ab3.wav
+------------------------------------------
+Onset at   0.451 seconds, delay:  -1ms.
+
+False positives:
+  0.345
+  2.778
+  3.008
+  3.100
+  3.643
+  3.816
+  4.271
+  4.561
+  5.048
+  5.474
+
+Piano_Guitar/Guitar/Guitar.ff.sulE.B2.wav
+-----------------------------------------
+Onset at   0.476 seconds, delay: -40ms.
+
+False positives:
+  6.425
+  6.941
+  7.105
+  7.523
+  7.601
+  7.870
+  8.015
+  8.192
+  8.310
+  8.381
+  8.484
+  8.803
+  8.975
+  9.392
+  9.785
+ 10.002
+ 10.350
+ 10.414
+ 10.482
+ 10.638
+ 10.725
+ 10.880
+ 10.999
+ 11.249
+ 11.395
+ 11.560
+
+Piano_Guitar/Guitar/Guitar.ff.sulE.B3.wav
+-----------------------------------------
+
+False negatives:
+  0.532
+
+False positives:
+  0.467
+  1.658
+  2.683
+  3.847
+  4.357
+  6.628
+
+Piano_Guitar/Guitar/Guitar.ff.sulE.Bb2.wav
+------------------------------------------
+Onset at   0.424 seconds, delay: -36ms.
+
+False positives:
+  5.738
+  5.901
+  6.270
+  6.352
+  6.488
+  6.816
+  7.101
+  7.314
+  7.572
+  7.754
+  8.158
+  8.400
+  8.640
+  9.540
+  9.800
+ 10.509
+ 10.613
+
+Piano_Guitar/Guitar/Guitar.ff.sulE.Bb3.wav
+------------------------------------------
+Onset at   0.355 seconds, delay: -48ms.
+All onsets found!
+
+Piano_Guitar/Guitar/Guitar.ff.sulE.C3.wav
+-----------------------------------------
+Onset at   0.038 seconds, delay:  -3ms.
+All onsets found!
+
+Piano_Guitar/Guitar/Guitar.ff.sulE.D3.wav
+-----------------------------------------
+Onset at   0.439 seconds, delay: -39ms.
+
+False positives:
+  2.377
+ 12.000
+
+Piano_Guitar/Guitar/Guitar.ff.sulE.Db3.wav
+------------------------------------------
+Onset at   0.483 seconds
+
+False positives:
+  0.401
+
+Piano_Guitar/Guitar/Guitar.ff.sulE.E2.wav
+-----------------------------------------
+Onset at   0.164 seconds, delay: -39ms.
+
+False positives:
+  2.564
+  3.413
+  3.505
+  3.684
+  4.356
+  5.201
+  5.298
+  5.348
+  5.671
+  5.869
+  6.210
+  6.256
+  6.406
+  6.662
+  6.754
+  6.824
+  6.929
+  7.008
+  7.293
+  7.390
+  7.501
+  7.605
+  7.760
+  7.804
+  8.315
+  8.417
+  8.536
+  8.704
+  9.009
+  9.077
+  9.170
+  9.621
+  9.755
+ 10.407
+ 10.649
+ 11.301
+ 11.377
+ 11.706
+ 12.084
+ 12.194
+ 12.415
+ 12.717
+ 12.953
+ 13.218
+ 13.379
+
+Piano_Guitar/Guitar/Guitar.ff.sulE.E3.wav
+-----------------------------------------
+Onset at   0.510 seconds, delay: -44ms.
+All onsets found!
+
+Piano_Guitar/Guitar/Guitar.ff.sulE.Eb3.wav
+------------------------------------------
+Onset at   0.409 seconds, delay: -38ms.
+
+False positives:
+  5.381
+  5.604
+  6.224
+  6.323
+  6.610
+  6.723
+  6.857
+  7.070
+  7.360
+  7.577
+  7.711
+  7.884
+  8.086
+
+Piano_Guitar/Guitar/Guitar.ff.sulE.F2.wav
+-----------------------------------------
+Onset at   0.887 seconds, delay: -21ms.
+
+False positives:
+  5.190
+  5.311
+  5.424
+  5.706
+  5.950
+  6.150
+  6.370
+  6.484
+  6.527
+  6.619
+  7.231
+  7.457
+  7.780
+  7.900
+  8.156
+  8.330
+  8.805
+  8.964
+  9.198
+  9.384
+  9.487
+  9.603
+ 10.045
+ 10.172
+ 10.240
+ 10.427
+ 11.019
+ 11.137
+ 11.603
+ 11.815
+ 12.014
+ 12.180
+ 12.299
+ 12.360
+ 12.490
+ 12.591
+ 12.734
+ 12.802
+ 12.944
+ 13.018
+ 13.091
+ 13.348
+ 13.739
+ 14.165
+ 14.254
+
+Piano_Guitar/Guitar/Guitar.ff.sulE.F3.wav
+-----------------------------------------
+Onset at   0.419 seconds, delay: -48ms.
+All onsets found!
+
+Piano_Guitar/Guitar/Guitar.ff.sulE.G2.wav
+-----------------------------------------
+Onset at   0.486 seconds, delay:  -7ms.
+
+False positives:
+  9.882
+ 11.141
+ 11.330
+ 11.820
+ 11.970
+ 12.168
+ 12.486
+
+Piano_Guitar/Guitar/Guitar.ff.sulE.G3.wav
+-----------------------------------------
+Onset at   0.352 seconds, delay: -45ms.
+All onsets found!
+
+Piano_Guitar/Guitar/Guitar.ff.sulE.Gb2.wav
+------------------------------------------
+Onset at   0.422 seconds, delay: -25ms.
+
+False positives:
+  7.270
+  8.750
+  8.836
+  9.270
+  9.430
+  9.591
+  9.764
+ 10.069
+ 10.238
+ 10.605
+ 11.146
+ 11.297
+ 11.538
+
+Piano_Guitar/Guitar/Guitar.ff.sulE.Gb3.wav
+------------------------------------------
+Onset at   0.599 seconds, delay: -43ms.
+
+False positives:
+  4.598
+  4.756
+  4.861
+  5.803
+  6.204
+  6.322
+
+Piano_Guitar/Guitar/Guitar.ff.sulG.A3.wav
+-----------------------------------------
+Onset at   0.179 seconds, delay: -12ms.
+All onsets found!
+
+Piano_Guitar/Guitar/Guitar.ff.sulG.A4.wav
+-----------------------------------------
+Onset at   0.621 seconds, delay: -18ms.
+
+False positives:
+  1.118
+
+Piano_Guitar/Guitar/Guitar.ff.sulG.Ab3.wav
+------------------------------------------
+Onset at   0.250 seconds, delay: -12ms.
+All onsets found!
+
+Piano_Guitar/Guitar/Guitar.ff.sulG.Ab4.wav
+------------------------------------------
+Onset at   0.681 seconds, delay: -21ms.
+All onsets found!
+
+Piano_Guitar/Guitar/Guitar.ff.sulG.B3.wav
+-----------------------------------------
+Onset at   0.243 seconds, delay: -19ms.
+All onsets found!
+
+Piano_Guitar/Guitar/Guitar.ff.sulG.B4.wav
+-----------------------------------------
+Onset at   0.392 seconds, delay: -39ms.
+All onsets found!
+
+Piano_Guitar/Guitar/Guitar.ff.sulG.Bb3.wav
+------------------------------------------
+Onset at   0.268 seconds, delay: -18ms.
+All onsets found!
+
+Piano_Guitar/Guitar/Guitar.ff.sulG.Bb4.wav
+------------------------------------------
+Onset at   0.492 seconds, delay: -39ms.
+All onsets found!
+
+Piano_Guitar/Guitar/Guitar.ff.sulG.C4.wav
+-----------------------------------------
+Onset at   0.023 seconds, delay:  -1ms.
+All onsets found!
+
+Piano_Guitar/Guitar/Guitar.ff.sulG.C5.wav
+-----------------------------------------
+Onset at   0.017 seconds, delay:   2ms.
+All onsets found!
+
+Piano_Guitar/Guitar/Guitar.ff.sulG.D4.wav
+-----------------------------------------
+Onset at   0.512 seconds, delay: -21ms.
+All onsets found!
+
+Piano_Guitar/Guitar/Guitar.ff.sulG.Db4.wav
+------------------------------------------
+Onset at   0.421 seconds, delay: -24ms.
+All onsets found!
+
+Piano_Guitar/Guitar/Guitar.ff.sulG.Db5.wav
+------------------------------------------
+Onset at   0.211 seconds, delay: -22ms.
+All onsets found!
+
+Piano_Guitar/Guitar/Guitar.ff.sulG.E4.wav
+-----------------------------------------
+Onset at   0.446 seconds, delay: -30ms.
+All onsets found!
+
+Piano_Guitar/Guitar/Guitar.ff.sulG.Eb4.wav
+------------------------------------------
+Onset at   0.498 seconds, delay: -32ms.
+All onsets found!
+
+Piano_Guitar/Guitar/Guitar.ff.sulG.F4.wav
+-----------------------------------------
+Onset at   0.562 seconds, delay: -12ms.
+All onsets found!
+
+Piano_Guitar/Guitar/Guitar.ff.sulG.G3.wav
+-----------------------------------------
+Onset at   0.017 seconds, delay:   2ms.
+All onsets found!
+
+Piano_Guitar/Guitar/Guitar.ff.sulG.G4.wav
+-----------------------------------------
+Onset at   0.554 seconds, delay: -23ms.
+All onsets found!
+
+Piano_Guitar/Guitar/Guitar.ff.sulG.Gb4.wav
+------------------------------------------
+Onset at   0.631 seconds, delay: -23ms.
+All onsets found!
+
+Piano_Guitar/Guitar/Guitar.ff.sul_E.A4.wav
+------------------------------------------
+Onset at   0.352 seconds, delay: -33ms.
+All onsets found!
+
+Piano_Guitar/Guitar/Guitar.ff.sul_E.A5.wav
+------------------------------------------
+Onset at   0.681 seconds, delay: -40ms.
+All onsets found!
+
+Piano_Guitar/Guitar/Guitar.ff.sul_E.Ab4.wav
+-------------------------------------------
+Onset at   0.566 seconds, delay: -35ms.
+All onsets found!
+
+Piano_Guitar/Guitar/Guitar.ff.sul_E.Ab5.wav
+-------------------------------------------
+Onset at   0.427 seconds, delay: -13ms.
+All onsets found!
+
+Piano_Guitar/Guitar/Guitar.ff.sul_E.B4.wav
+------------------------------------------
+Onset at   0.284 seconds, delay:  -2ms.
+All onsets found!
+
+Piano_Guitar/Guitar/Guitar.ff.sul_E.Bb4.wav
+-------------------------------------------
+
+False negatives:
+  0.432
+
+False positives:
+  0.377
+
+Piano_Guitar/Guitar/Guitar.ff.sul_E.Bb5.wav
+-------------------------------------------
+Onset at   0.704 seconds, delay: -20ms.
+All onsets found!
+
+Piano_Guitar/Guitar/Guitar.ff.sul_E.C5.wav
+------------------------------------------
+Onset at   0.030 seconds
+All onsets found!
+
+Piano_Guitar/Guitar/Guitar.ff.sul_E.D5.wav
+------------------------------------------
+Onset at   0.468 seconds, delay:  -4ms.
+All onsets found!
+
+Piano_Guitar/Guitar/Guitar.ff.sul_E.Db5.wav
+-------------------------------------------
+Onset at   0.496 seconds, delay: -45ms.
+All onsets found!
+
+Piano_Guitar/Guitar/Guitar.ff.sul_E.E4.wav
+------------------------------------------
+Onset at   0.019 seconds, delay:   1ms.
+All onsets found!
+
+Piano_Guitar/Guitar/Guitar.ff.sul_E.E5.wav
+------------------------------------------
+Onset at   0.356 seconds, delay: -45ms.
+All onsets found!
+
+Piano_Guitar/Guitar/Guitar.ff.sul_E.Eb5.wav
+-------------------------------------------
+Onset at   0.504 seconds, delay: -34ms.
+All onsets found!
+
+Piano_Guitar/Guitar/Guitar.ff.sul_E.F4.wav
+------------------------------------------
+Onset at   0.438 seconds, delay: -23ms.
+All onsets found!
+
+Piano_Guitar/Guitar/Guitar.ff.sul_E.F5.wav
+------------------------------------------
+Onset at   0.294 seconds, delay: -36ms.
+All onsets found!
+
+Piano_Guitar/Guitar/Guitar.ff.sul_E.G4.wav
+------------------------------------------
+Onset at   0.414 seconds, delay: -30ms.
+All onsets found!
+
+Piano_Guitar/Guitar/Guitar.ff.sul_E.G5.wav
+------------------------------------------
+Onset at   0.606 seconds, delay: -48ms.
+
+False positives:
+  4.301
+
+Piano_Guitar/Guitar/Guitar.ff.sul_E.Gb4.wav
+-------------------------------------------
+Onset at   0.356 seconds, delay: -18ms.
+All onsets found!
+
+Piano_Guitar/Guitar/Guitar.ff.sul_E.Gb5.wav
+-------------------------------------------
+Onset at   0.578 seconds, delay: -47ms.
+All onsets found!
+
+
+Stats
+=====
+Total number of onsets:     117
+Total number of detections: 372
+Total true positives:       109
+Total false positives:      263
+Total erroneous detections: 263
+
+Largest advance: -49ms
+Mean advance:    -37.400ms
+Largest delay:     7ms
+Mean delay:        7.000ms
+Mean difference: -16.364ms
+Number of advances <-15.00ms: 70
+Number of delays   > 15.00ms: 0
+
+Precision:             29.3011%
+Recall:                93.1624%
+F-measure:             44.5808%
+Precision (tot. err.): 29.3011%
+F-measure (tot. err.): 44.5808%
+

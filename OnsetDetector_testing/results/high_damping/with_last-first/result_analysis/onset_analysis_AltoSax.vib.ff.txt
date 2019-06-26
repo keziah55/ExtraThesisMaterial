@@ -1,0 +1,282 @@
+Check onsetdetector results
+===========================
+
+Wed Apr 24 12:55:20 2019
+
+OnsetDetector if statement: if (count >= 3 && last >= threshold),  if (last-first >= std::log(2))
+findExactTime() local min decision: if (std::isnan(current/mn) || current/mn >= 0.95) 
+OnsetDetector segment size: 20ms
+Threshold: 0.0005
+Searching for 1 frequency
+NoteDetector args:
+    EDO: 12
+    Bandwidth: 0
+    Method: Runge-Kutta
+    Freq norm: Freq unnormalized
+    Amp norm: Amp normalized
+    Damping: 0.0005
+    Gain: 25
+Onset tolerance: 50.000ms
+
+
+Woodwind/AltoSax.vib.ff/AltoSax.vib.ff.A3.stereo.wav
+----------------------------------------------------
+Onset at   0.218 seconds, delay: -42ms.
+All onsets found!
+
+Woodwind/AltoSax.vib.ff/AltoSax.vib.ff.A4.stereo.wav
+----------------------------------------------------
+
+False negatives:
+  0.400
+
+False positives:
+  0.322
+
+Woodwind/AltoSax.vib.ff/AltoSax.vib.ff.Ab3.stereo.wav
+-----------------------------------------------------
+Onset at   0.305 seconds, delay: -41ms.
+All onsets found!
+
+Woodwind/AltoSax.vib.ff/AltoSax.vib.ff.Ab4.stereo.wav
+-----------------------------------------------------
+
+False negatives:
+  0.301
+
+False positives:
+  0.196
+
+Woodwind/AltoSax.vib.ff/AltoSax.vib.ff.Ab5.stereo.wav
+-----------------------------------------------------
+
+False negatives:
+  0.262
+
+False positives:
+  0.071
+
+Woodwind/AltoSax.vib.ff/AltoSax.vib.ff.B3.stereo.wav
+----------------------------------------------------
+
+False negatives:
+  0.330
+
+False positives:
+  0.257
+
+Woodwind/AltoSax.vib.ff/AltoSax.vib.ff.B4.stereo.wav
+----------------------------------------------------
+
+False negatives:
+  0.348
+
+False positives:
+  0.190
+
+Woodwind/AltoSax.vib.ff/AltoSax.vib.ff.Bb3.stereo.wav
+-----------------------------------------------------
+Onset at   0.296 seconds, delay: -48ms.
+All onsets found!
+
+Woodwind/AltoSax.vib.ff/AltoSax.vib.ff.Bb4.stereo.wav
+-----------------------------------------------------
+Onset at   0.389 seconds, delay: -49ms.
+All onsets found!
+
+Woodwind/AltoSax.vib.ff/AltoSax.vib.ff.C4.stereo.wav
+----------------------------------------------------
+Onset at   0.328 seconds, delay: -19ms.
+All onsets found!
+
+Woodwind/AltoSax.vib.ff/AltoSax.vib.ff.C5.stereo.wav
+----------------------------------------------------
+
+False negatives:
+  0.300
+
+False positives:
+  0.229
+
+Woodwind/AltoSax.vib.ff/AltoSax.vib.ff.D3.stereo.wav
+----------------------------------------------------
+
+False negatives:
+  0.227
+
+False positives:
+  0.151
+
+Woodwind/AltoSax.vib.ff/AltoSax.vib.ff.D4.stereo.wav
+----------------------------------------------------
+Onset at   0.411 seconds, delay: -29ms.
+All onsets found!
+
+Woodwind/AltoSax.vib.ff/AltoSax.vib.ff.D5.stereo.wav
+----------------------------------------------------
+
+False negatives:
+  0.370
+
+False positives:
+  0.306
+
+Woodwind/AltoSax.vib.ff/AltoSax.vib.ff.Db3.stereo.wav
+-----------------------------------------------------
+
+False negatives:
+  0.297
+
+False positives:
+  0.229
+
+Woodwind/AltoSax.vib.ff/AltoSax.vib.ff.Db4.stereo.wav
+-----------------------------------------------------
+Onset at   0.370 seconds, delay: -27ms.
+All onsets found!
+
+Woodwind/AltoSax.vib.ff/AltoSax.vib.ff.Db5.stereo.wav
+-----------------------------------------------------
+Onset at   0.414 seconds, delay: -33ms.
+
+False positives:
+  1.037
+
+Woodwind/AltoSax.vib.ff/AltoSax.vib.ff.E3.stereo.wav
+----------------------------------------------------
+Onset at   0.299 seconds, delay: -14ms.
+All onsets found!
+
+Woodwind/AltoSax.vib.ff/AltoSax.vib.ff.E4.stereo.wav
+----------------------------------------------------
+Onset at   0.345 seconds, delay: -43ms.
+All onsets found!
+
+Woodwind/AltoSax.vib.ff/AltoSax.vib.ff.E5.stereo.wav
+----------------------------------------------------
+Onset at   0.266 seconds, delay: -49ms.
+All onsets found!
+
+Woodwind/AltoSax.vib.ff/AltoSax.vib.ff.Eb3.stereo.wav
+-----------------------------------------------------
+
+False negatives:
+  0.317
+
+False positives:
+  0.158
+
+Woodwind/AltoSax.vib.ff/AltoSax.vib.ff.Eb4.stereo.wav
+-----------------------------------------------------
+
+False negatives:
+  0.403
+
+False positives:
+  0.315
+
+Woodwind/AltoSax.vib.ff/AltoSax.vib.ff.Eb5.stereo.wav
+-----------------------------------------------------
+
+False negatives:
+  0.383
+
+False positives:
+  0.325
+
+Woodwind/AltoSax.vib.ff/AltoSax.vib.ff.F3.stereo.wav
+----------------------------------------------------
+
+False negatives:
+  0.265
+
+False positives:
+  0.211
+
+Woodwind/AltoSax.vib.ff/AltoSax.vib.ff.F4.stereo.wav
+----------------------------------------------------
+
+False negatives:
+  0.316
+
+False positives:
+  0.234
+
+Woodwind/AltoSax.vib.ff/AltoSax.vib.ff.F5.stereo.wav
+----------------------------------------------------
+
+False negatives:
+  0.230
+
+False positives:
+  0.152
+
+Woodwind/AltoSax.vib.ff/AltoSax.vib.ff.G3.stereo.wav
+----------------------------------------------------
+Onset at   0.237 seconds, delay: -16ms.
+All onsets found!
+
+Woodwind/AltoSax.vib.ff/AltoSax.vib.ff.G4.stereo.wav
+----------------------------------------------------
+
+False negatives:
+  0.326
+
+False positives:
+  0.248
+
+Woodwind/AltoSax.vib.ff/AltoSax.vib.ff.G5.stereo.wav
+----------------------------------------------------
+
+False negatives:
+  0.363
+
+False positives:
+  0.311
+
+Woodwind/AltoSax.vib.ff/AltoSax.vib.ff.Gb3.stereo.wav
+-----------------------------------------------------
+Onset at   0.324 seconds, delay: -42ms.
+All onsets found!
+
+Woodwind/AltoSax.vib.ff/AltoSax.vib.ff.Gb4.stereo.wav
+-----------------------------------------------------
+
+False negatives:
+  0.260
+
+False positives:
+  0.119
+
+Woodwind/AltoSax.vib.ff/AltoSax.vib.ff.Gb5.stereo.wav
+-----------------------------------------------------
+
+False negatives:
+  0.285
+
+False positives:
+  0.213
+
+
+Stats
+=====
+Total number of onsets:     32
+Total number of detections: 33
+Total true positives:       13
+Total false positives:      20
+Total erroneous detections: 20
+
+Largest advance: -49ms
+Mean advance:    -46.333ms
+Largest delay:     0ms
+Mean delay:        0.000ms
+Mean difference: -46.333ms
+Number of advances <-15.00ms: 12
+Number of delays   > 15.00ms: 0
+
+Precision:             39.3939%
+Recall:                40.625%
+F-measure:             40%
+Precision (tot. err.): 39.3939%
+F-measure (tot. err.): 40%
+

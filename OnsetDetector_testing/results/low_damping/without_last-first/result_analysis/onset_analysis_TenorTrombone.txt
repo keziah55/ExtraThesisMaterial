@@ -1,0 +1,825 @@
+Check onsetdetector results
+===========================
+
+Wed Apr 24 13:09:40 2019
+
+OnsetDetector if statement: if (count >= 3 && last >= threshold)
+findExactTime() local min decision: if (std::isnan(current/mn) || current/mn >= 0.95) 
+OnsetDetector segment size: 20ms
+Threshold: 0.0003
+Searching for 1 frequency
+NoteDetector args:
+    EDO: 12
+    Bandwidth: 0
+    Method: Runge-Kutta
+    Freq norm: Freq unnormalized
+    Amp norm: Amp normalized
+    Damping: 0.0001
+    Gain: 25
+Onset tolerance: 50.000ms
+
+
+Brass/TenorTrombone/TenorTrombone.ff.A2.stereo.wav
+--------------------------------------------------
+Onset at   0.043 seconds, delay: -16ms.
+
+False positives:
+  0.330
+  0.470
+  0.510
+  0.590
+  0.630
+  0.706
+  0.810
+  0.926
+  1.050
+  1.130
+  1.190
+  1.330
+  1.410
+  1.470
+  1.510
+  1.570
+  1.630
+  1.710
+  1.750
+  1.810
+  1.890
+  1.930
+  1.990
+  2.050
+
+Brass/TenorTrombone/TenorTrombone.ff.A3.stereo.wav
+--------------------------------------------------
+Onset at   0.042 seconds, delay: -22ms.
+
+False positives:
+  0.426
+  0.580
+  0.670
+  0.730
+  0.810
+  0.950
+  1.030
+  1.088
+  1.210
+  1.270
+  1.346
+  1.430
+  1.509
+  1.590
+  1.630
+  1.710
+  1.770
+  1.830
+  1.889
+  2.010
+  2.070
+  2.110
+  2.170
+  2.230
+  2.290
+
+Brass/TenorTrombone/TenorTrombone.ff.A4.stereo.wav
+--------------------------------------------------
+Onset at   0.038 seconds, delay:  -8ms.
+
+False positives:
+  0.530
+  0.662
+  0.782
+  0.910
+  0.990
+  1.050
+  1.093
+  1.269
+  1.450
+  1.510
+  1.585
+  1.730
+  1.810
+  1.921
+  2.050
+  2.104
+  2.210
+  2.284
+  2.350
+  2.430
+  2.510
+  2.550
+  2.630
+  2.670
+  2.750
+  2.790
+  2.850
+  2.910
+  2.990
+
+Brass/TenorTrombone/TenorTrombone.ff.Ab2.stereo.wav
+---------------------------------------------------
+Onset at   0.049 seconds, delay: -29ms.
+All onsets found!
+
+Brass/TenorTrombone/TenorTrombone.ff.Ab3.stereo.wav
+---------------------------------------------------
+Onset at   0.046 seconds, delay: -22ms.
+
+False positives:
+  0.470
+  0.529
+  0.630
+  0.670
+  0.748
+  0.850
+  0.889
+  0.986
+  1.090
+  1.228
+  1.330
+  1.369
+  1.450
+  1.509
+  1.630
+  1.690
+  1.770
+  1.810
+  1.870
+  1.930
+  2.010
+  2.050
+  2.110
+  2.170
+  2.230
+
+Brass/TenorTrombone/TenorTrombone.ff.Ab4.stereo.wav
+---------------------------------------------------
+Onset at   0.031 seconds, delay:  -9ms.
+
+False positives:
+  0.434
+  0.641
+  0.730
+  0.890
+  0.990
+  1.041
+  1.210
+  1.286
+  1.370
+  1.430
+  1.510
+  1.590
+  1.670
+  1.750
+  1.810
+  1.888
+  1.950
+  2.008
+  2.090
+  2.170
+  2.230
+  2.290
+  2.370
+  2.410
+  2.470
+  2.530
+  2.590
+  2.650
+  2.710
+  2.770
+
+Brass/TenorTrombone/TenorTrombone.ff.B2.stereo.wav
+--------------------------------------------------
+Onset at   0.052 seconds, delay: -32ms.
+
+False positives:
+  0.330
+  0.467
+  0.630
+  0.728
+  0.850
+  0.890
+  0.987
+  1.110
+  1.150
+  1.206
+  1.270
+  1.330
+  1.410
+  1.450
+  1.529
+  1.610
+  1.650
+  1.730
+  1.790
+  1.830
+  1.910
+  1.950
+  2.030
+  2.070
+  2.130
+  2.190
+  2.250
+
+Brass/TenorTrombone/TenorTrombone.ff.B3.stereo.wav
+--------------------------------------------------
+Onset at   0.049 seconds, delay: -28ms.
+All onsets found!
+
+Brass/TenorTrombone/TenorTrombone.ff.B4.stereo.wav
+--------------------------------------------------
+Onset at   0.036 seconds, delay: -13ms.
+
+False positives:
+  0.373
+  0.490
+  0.541
+  0.630
+  0.710
+  0.807
+  0.890
+  0.965
+  1.050
+  1.138
+  1.230
+  1.370
+  1.465
+  1.550
+  1.610
+  1.670
+  1.759
+  1.850
+  1.981
+  2.050
+  2.093
+  2.170
+  2.250
+  2.310
+  2.390
+  2.430
+  2.510
+  2.550
+  2.610
+  2.670
+  2.730
+  2.790
+  2.850
+
+Brass/TenorTrombone/TenorTrombone.ff.Bb2.stereo.wav
+---------------------------------------------------
+Onset at   0.039 seconds, delay: -17ms.
+
+False positives:
+  0.530
+  0.610
+  0.710
+  0.968
+  1.070
+  1.190
+  1.330
+  1.430
+  1.510
+  1.570
+  1.650
+  1.690
+  1.749
+  1.809
+  1.870
+  1.930
+  1.990
+  2.050
+  2.110
+  2.170
+  2.230
+  2.290
+  2.350
+  2.410
+
+Brass/TenorTrombone/TenorTrombone.ff.Bb3.stereo.wav
+---------------------------------------------------
+Onset at   0.042 seconds, delay: -22ms.
+All onsets found!
+
+Brass/TenorTrombone/TenorTrombone.ff.Bb4.stereo.wav
+---------------------------------------------------
+Onset at   0.044 seconds, delay:  -6ms.
+
+False positives:
+  0.425
+  0.568
+  0.710
+  0.875
+  0.970
+  1.030
+  1.130
+  1.242
+  1.410
+  1.543
+  1.630
+  1.710
+  1.808
+  1.890
+  1.980
+  2.070
+  2.210
+  2.250
+  2.330
+  2.390
+  2.470
+  2.510
+  2.570
+  2.630
+  2.710
+  2.750
+  2.810
+
+Brass/TenorTrombone/TenorTrombone.ff.C3.stereo.wav
+--------------------------------------------------
+Onset at   0.061 seconds, delay: -31ms.
+
+False positives:
+  0.429
+  0.610
+  0.670
+  0.729
+  0.867
+  0.930
+  1.067
+  1.230
+  1.328
+  1.430
+  1.489
+  1.550
+  1.590
+  1.670
+  1.749
+  1.910
+  1.970
+  2.010
+  2.070
+  2.130
+  2.190
+  2.250
+  2.330
+
+Brass/TenorTrombone/TenorTrombone.ff.C4.stereo.wav
+--------------------------------------------------
+Onset at   0.032 seconds, delay: -12ms.
+All onsets found!
+
+Brass/TenorTrombone/TenorTrombone.ff.C5.stereo.wav
+--------------------------------------------------
+Onset at   0.041 seconds, delay: -11ms.
+
+False positives:
+  0.470
+  0.511
+  0.630
+  0.750
+  0.806
+  0.890
+  0.970
+  1.009
+  1.170
+  1.230
+  1.347
+  1.470
+  1.590
+  1.650
+  1.730
+  1.810
+  1.870
+  1.990
+  2.108
+  2.264
+  2.350
+  2.430
+  2.490
+  2.550
+  2.610
+  2.670
+  2.730
+  2.810
+  2.850
+  2.930
+
+Brass/TenorTrombone/TenorTrombone.ff.D3.stereo.wav
+--------------------------------------------------
+Onset at   0.044 seconds, delay: -23ms.
+
+False positives:
+  0.386
+  0.450
+  0.570
+  0.627
+  0.750
+  0.790
+  0.870
+  0.950
+  1.050
+  1.150
+  1.270
+  1.350
+  1.410
+  1.528
+  1.610
+  1.670
+  1.750
+  1.790
+  1.850
+  1.930
+  1.970
+  2.030
+  2.090
+  2.150
+
+Brass/TenorTrombone/TenorTrombone.ff.D4.stereo.wav
+--------------------------------------------------
+Onset at   0.039 seconds, delay: -19ms.
+All onsets found!
+
+Brass/TenorTrombone/TenorTrombone.ff.Db3.stereo.wav
+---------------------------------------------------
+Onset at   0.043 seconds, delay: -20ms.
+
+False positives:
+  0.509
+  0.630
+  0.669
+  0.770
+  0.829
+  1.010
+  1.070
+  1.206
+  1.350
+  1.490
+  1.550
+  1.626
+  1.730
+  1.810
+  1.850
+  1.930
+  2.010
+  2.090
+  2.130
+  2.190
+  2.250
+  2.310
+  2.370
+
+Brass/TenorTrombone/TenorTrombone.ff.Db4.stereo.wav
+---------------------------------------------------
+Onset at   0.047 seconds, delay: -23ms.
+
+False positives:
+  0.483
+  0.584
+  0.708
+  0.809
+  0.890
+  0.913
+  1.021
+  1.110
+  1.147
+  1.269
+  1.390
+  1.470
+  1.510
+  1.590
+  1.650
+  1.710
+  1.770
+  1.870
+  1.910
+  1.990
+  2.030
+  2.090
+  2.170
+  2.210
+  2.290
+
+Brass/TenorTrombone/TenorTrombone.ff.E2.stereo.wav
+--------------------------------------------------
+Onset at   0.041 seconds, delay: -20ms.
+All onsets found!
+
+Brass/TenorTrombone/TenorTrombone.ff.E3.stereo.wav
+--------------------------------------------------
+Onset at   0.046 seconds, delay: -16ms.
+
+False positives:
+  0.370
+  0.420
+  0.510
+  0.566
+  0.669
+  0.770
+  0.890
+  0.950
+  1.050
+  1.139
+  1.270
+  1.350
+  1.410
+  1.449
+  1.570
+  1.650
+  1.710
+  1.750
+  1.810
+  1.890
+  1.930
+  1.990
+  2.050
+  2.110
+  2.170
+  2.230
+  2.290
+
+Brass/TenorTrombone/TenorTrombone.ff.E4.stereo.wav
+--------------------------------------------------
+Onset at   0.028 seconds, delay:  -8ms.
+
+False positives:
+  0.415
+  0.563
+  0.670
+  0.770
+  0.904
+  1.169
+  1.270
+  1.330
+  1.370
+  1.490
+  1.590
+  1.670
+  1.750
+  1.790
+  1.870
+  1.990
+  2.130
+  2.190
+  2.230
+  2.310
+  2.350
+  2.410
+  2.490
+  2.530
+
+Brass/TenorTrombone/TenorTrombone.ff.Eb3.stereo.wav
+---------------------------------------------------
+Onset at   0.043 seconds, delay: -22ms.
+
+False positives:
+  0.327
+  0.410
+  0.490
+  0.550
+  0.627
+  0.730
+  0.810
+  0.868
+  1.005
+  1.110
+  1.187
+  1.350
+  1.430
+  1.510
+  1.584
+  1.708
+  1.770
+  1.850
+  1.890
+  1.950
+
+Brass/TenorTrombone/TenorTrombone.ff.Eb4.stereo.wav
+---------------------------------------------------
+Onset at   0.032 seconds, delay: -11ms.
+
+False positives:
+  0.400
+  0.490
+  0.570
+  0.650
+  0.688
+  0.790
+  0.829
+  0.910
+  0.950
+  1.025
+  1.153
+  1.350
+  1.410
+  1.490
+  1.524
+  1.610
+  1.710
+  1.750
+  1.830
+  1.890
+  1.930
+  2.010
+  2.050
+  2.130
+  2.170
+  2.250
+  2.290
+  2.350
+  2.410
+
+Brass/TenorTrombone/TenorTrombone.ff.F2.stereo.wav
+--------------------------------------------------
+Onset at   0.063 seconds, delay: -43ms.
+All onsets found!
+
+Brass/TenorTrombone/TenorTrombone.ff.F3.stereo.wav
+--------------------------------------------------
+Onset at   0.042 seconds, delay: -22ms.
+All onsets found!
+
+Brass/TenorTrombone/TenorTrombone.ff.F4.stereo.wav
+--------------------------------------------------
+Onset at   0.030 seconds, delay:  -6ms.
+
+False positives:
+  0.568
+  0.690
+  0.807
+  0.890
+  0.990
+  1.069
+  1.143
+  1.230
+  1.310
+  1.410
+  1.490
+  1.550
+  1.610
+  1.689
+  1.770
+  1.870
+  1.910
+  1.989
+  2.070
+  2.150
+  2.230
+  2.290
+  2.350
+  2.430
+  2.470
+  2.550
+  2.610
+
+Brass/TenorTrombone/TenorTrombone.ff.G2.stereo.wav
+--------------------------------------------------
+Onset at   0.041 seconds, delay: -15ms.
+
+False positives:
+  0.470
+  0.570
+  0.710
+  0.770
+  0.810
+  0.870
+  0.950
+  1.024
+  1.210
+  1.270
+  1.350
+  1.444
+  1.569
+  1.630
+  1.710
+  1.783
+  1.867
+  1.950
+  1.990
+  2.070
+  2.110
+  2.170
+
+Brass/TenorTrombone/TenorTrombone.ff.G3.stereo.wav
+--------------------------------------------------
+Onset at   0.046 seconds, delay: -26ms.
+All onsets found!
+
+Brass/TenorTrombone/TenorTrombone.ff.G4.stereo.wav
+--------------------------------------------------
+Onset at   0.025 seconds, delay:  -5ms.
+
+False positives:
+  0.418
+  0.557
+  0.670
+  0.770
+  0.830
+  0.930
+  1.010
+  1.090
+  1.198
+  1.310
+  1.450
+  1.604
+  1.690
+  1.730
+  1.850
+  1.970
+  2.030
+  2.110
+  2.190
+  2.310
+  2.350
+  2.410
+  2.470
+  2.530
+  2.610
+  2.650
+
+Brass/TenorTrombone/TenorTrombone.ff.Gb2.stereo.wav
+---------------------------------------------------
+Onset at   0.043 seconds, delay: -20ms.
+
+False positives:
+  0.390
+  0.430
+  0.550
+  0.650
+  0.750
+  0.830
+  0.870
+  1.023
+  1.170
+  1.230
+  1.310
+  1.367
+  1.430
+  1.510
+  1.570
+  1.610
+  1.670
+  1.730
+  1.810
+  1.870
+  1.910
+
+Brass/TenorTrombone/TenorTrombone.ff.Gb3.stereo.wav
+---------------------------------------------------
+Onset at   0.041 seconds, delay: -21ms.
+All onsets found!
+
+Brass/TenorTrombone/TenorTrombone.ff.Gb4.stereo.wav
+---------------------------------------------------
+Onset at   0.037 seconds, delay: -11ms.
+
+False positives:
+  0.421
+  0.510
+  0.609
+  0.710
+  0.810
+  0.869
+  0.930
+  0.990
+  1.070
+  1.159
+  1.266
+  1.330
+  1.408
+  1.530
+  1.610
+  1.690
+  1.750
+  1.810
+  1.947
+  2.070
+  2.190
+  2.250
+  2.310
+  2.370
+  2.430
+  2.490
+  2.550
+  2.630
+
+
+Stats
+=====
+Total number of onsets:     33
+Total number of detections: 626
+Total true positives:       33
+Total false positives:      593
+Total erroneous detections: 593
+
+Largest advance: -43ms
+Mean advance:    -28.400ms
+Largest delay:     0ms
+Mean delay:        0.000ms
+Mean difference: -28.400ms
+Number of advances <-15.00ms: 21
+Number of delays   > 15.00ms: 0
+
+Precision:             5.27157%
+Recall:                100%
+F-measure:             10.0152%
+Precision (tot. err.): 5.27157%
+F-measure (tot. err.): 10.0152%
+

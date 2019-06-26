@@ -1,0 +1,439 @@
+Check onsetdetector results
+===========================
+
+Wed Apr 24 13:03:27 2019
+
+OnsetDetector if statement: if (count >= 3 && last >= threshold),  if (last-first >= std::log(2))
+findExactTime() local min decision: if (std::isnan(current/mn) || current/mn >= 0.95) 
+OnsetDetector segment size: 20ms
+Threshold: 0.0003
+Searching for 1 frequency
+NoteDetector args:
+    EDO: 12
+    Bandwidth: 0
+    Method: Runge-Kutta
+    Freq norm: Freq unnormalized
+    Amp norm: Amp normalized
+    Damping: 0.0001
+    Gain: 25
+Onset tolerance: 50.000ms
+
+
+Woodwind/BbClarinet.ff/BbClarinet.ff.A3.stereo.wav
+--------------------------------------------------
+
+False negatives:
+  0.667
+
+False positives:
+  0.564
+
+Woodwind/BbClarinet.ff/BbClarinet.ff.A4.stereo.wav
+--------------------------------------------------
+
+False negatives:
+  0.653
+
+False positives:
+  0.555
+
+Woodwind/BbClarinet.ff/BbClarinet.ff.A5.stereo.wav
+--------------------------------------------------
+
+False negatives:
+  0.272
+
+False positives:
+  0.071
+
+Woodwind/BbClarinet.ff/BbClarinet.ff.A6.stereo.wav
+--------------------------------------------------
+
+False negatives:
+  0.293
+
+False positives:
+  0.122
+  0.448
+
+Woodwind/BbClarinet.ff/BbClarinet.ff.Ab3.stereo.wav
+---------------------------------------------------
+
+False negatives:
+  0.567
+
+False positives:
+  0.499
+
+Woodwind/BbClarinet.ff/BbClarinet.ff.Ab4.stereo.wav
+---------------------------------------------------
+
+False negatives:
+  0.595
+
+False positives:
+  0.504
+
+Woodwind/BbClarinet.ff/BbClarinet.ff.Ab5.stereo.wav
+---------------------------------------------------
+
+False negatives:
+  0.241
+
+False positives:
+  0.070
+
+Woodwind/BbClarinet.ff/BbClarinet.ff.Ab6.stereo.wav
+---------------------------------------------------
+
+False negatives:
+  0.368
+
+False positives:
+  0.274
+
+Woodwind/BbClarinet.ff/BbClarinet.ff.B3.stereo.wav
+--------------------------------------------------
+
+False negatives:
+  0.550
+
+False positives:
+  0.472
+
+Woodwind/BbClarinet.ff/BbClarinet.ff.B4.stereo.wav
+--------------------------------------------------
+Onset at   0.671 seconds, delay: -44ms.
+All onsets found!
+
+Woodwind/BbClarinet.ff/BbClarinet.ff.B5.stereo.wav
+--------------------------------------------------
+
+False negatives:
+  0.237
+
+False positives:
+  0.105
+
+Woodwind/BbClarinet.ff/BbClarinet.ff.B6.stereo.wav
+--------------------------------------------------
+
+False negatives:
+  0.266
+
+False positives:
+  0.062
+
+Woodwind/BbClarinet.ff/BbClarinet.ff.Bb3.stereo.wav
+---------------------------------------------------
+
+False negatives:
+  0.764
+
+False positives:
+  0.645
+
+Woodwind/BbClarinet.ff/BbClarinet.ff.Bb4.stereo.wav
+---------------------------------------------------
+
+False negatives:
+  0.745
+
+False positives:
+  0.694
+
+Woodwind/BbClarinet.ff/BbClarinet.ff.Bb5.stereo.wav
+---------------------------------------------------
+
+False negatives:
+  0.287
+
+False positives:
+  0.185
+
+Woodwind/BbClarinet.ff/BbClarinet.ff.Bb6.stereo.wav
+---------------------------------------------------
+Onset at   0.256 seconds, delay: -15ms.
+All onsets found!
+
+Woodwind/BbClarinet.ff/BbClarinet.ff.C4.stereo.wav
+--------------------------------------------------
+
+False negatives:
+  0.731
+
+False positives:
+  0.664
+
+Woodwind/BbClarinet.ff/BbClarinet.ff.C5.stereo.wav
+--------------------------------------------------
+
+False negatives:
+  0.385
+
+False positives:
+  0.215
+
+Woodwind/BbClarinet.ff/BbClarinet.ff.C6.stereo.wav
+--------------------------------------------------
+
+False negatives:
+  0.341
+
+False positives:
+  0.238
+
+Woodwind/BbClarinet.ff/BbClarinet.ff.D3.stereo.wav
+--------------------------------------------------
+
+False negatives:
+  0.519
+
+False positives:
+  0.030
+
+Woodwind/BbClarinet.ff/BbClarinet.ff.D4.stereo.wav
+--------------------------------------------------
+
+False negatives:
+  0.748
+
+False positives:
+  0.690
+
+Woodwind/BbClarinet.ff/BbClarinet.ff.D5.stereo.wav
+--------------------------------------------------
+
+False negatives:
+  0.414
+
+False positives:
+  0.283
+
+Woodwind/BbClarinet.ff/BbClarinet.ff.D6.stereo.wav
+--------------------------------------------------
+
+False negatives:
+  0.482
+
+False positives:
+  0.334
+
+Woodwind/BbClarinet.ff/BbClarinet.ff.Db4.stereo.wav
+---------------------------------------------------
+
+False negatives:
+  0.593
+
+False positives:
+  0.505
+
+Woodwind/BbClarinet.ff/BbClarinet.ff.Db5.stereo.wav
+---------------------------------------------------
+
+False negatives:
+  0.473
+
+False positives:
+  0.309
+
+Woodwind/BbClarinet.ff/BbClarinet.ff.Db6.stereo.wav
+---------------------------------------------------
+
+False negatives:
+  0.296
+
+False positives:
+  0.192
+
+Woodwind/BbClarinet.ff/BbClarinet.ff.E3.stereo.wav
+--------------------------------------------------
+
+False negatives:
+  0.675
+
+False positives:
+  0.086
+
+Woodwind/BbClarinet.ff/BbClarinet.ff.E4.stereo.wav
+--------------------------------------------------
+
+False negatives:
+  0.591
+
+False positives:
+  0.528
+
+Woodwind/BbClarinet.ff/BbClarinet.ff.E5.stereo.wav
+--------------------------------------------------
+
+False negatives:
+  0.346
+
+False positives:
+  0.079
+
+Woodwind/BbClarinet.ff/BbClarinet.ff.E6.stereo.wav
+--------------------------------------------------
+
+False negatives:
+  0.143
+
+False positives:
+  0.062
+
+Woodwind/BbClarinet.ff/BbClarinet.ff.Eb3.stereo.wav
+---------------------------------------------------
+Onset at   0.659 seconds, delay: -15ms.
+All onsets found!
+
+Woodwind/BbClarinet.ff/BbClarinet.ff.Eb4.stereo.wav
+---------------------------------------------------
+
+False negatives:
+  0.420
+
+False positives:
+  0.298
+
+Woodwind/BbClarinet.ff/BbClarinet.ff.Eb5.stereo.wav
+---------------------------------------------------
+
+False negatives:
+  0.395
+
+False positives:
+  0.246
+
+Woodwind/BbClarinet.ff/BbClarinet.ff.Eb6.stereo.wav
+---------------------------------------------------
+
+False negatives:
+  0.280
+
+False positives:
+  0.109
+
+Woodwind/BbClarinet.ff/BbClarinet.ff.F3.stereo.wav
+--------------------------------------------------
+
+False negatives:
+  0.754
+
+False positives:
+  0.603
+
+Woodwind/BbClarinet.ff/BbClarinet.ff.F4.stereo.wav
+--------------------------------------------------
+
+False negatives:
+  0.479
+
+False positives:
+  0.382
+
+Woodwind/BbClarinet.ff/BbClarinet.ff.F5.stereo.wav
+--------------------------------------------------
+
+False negatives:
+  0.355
+
+False positives:
+  0.200
+
+Woodwind/BbClarinet.ff/BbClarinet.ff.F6.stereo.wav
+--------------------------------------------------
+
+False negatives:
+  0.523
+
+False positives:
+  0.425
+
+Woodwind/BbClarinet.ff/BbClarinet.ff.G3.stereo.wav
+--------------------------------------------------
+
+False negatives:
+  0.744
+
+False positives:
+  0.683
+
+Woodwind/BbClarinet.ff/BbClarinet.ff.G4.stereo.wav
+--------------------------------------------------
+
+False negatives:
+  0.408
+
+False positives:
+  0.336
+
+Woodwind/BbClarinet.ff/BbClarinet.ff.G5.stereo.wav
+--------------------------------------------------
+
+False negatives:
+  0.596
+
+False positives:
+  0.337
+
+Woodwind/BbClarinet.ff/BbClarinet.ff.G6.stereo.wav
+--------------------------------------------------
+Onset at   0.674 seconds, delay: -19ms.
+All onsets found!
+
+Woodwind/BbClarinet.ff/BbClarinet.ff.Gb3.stereo.wav
+---------------------------------------------------
+
+False negatives:
+  0.647
+
+False positives:
+  0.558
+
+Woodwind/BbClarinet.ff/BbClarinet.ff.Gb4.stereo.wav
+---------------------------------------------------
+Onset at   0.625 seconds, delay: -34ms.
+All onsets found!
+
+Woodwind/BbClarinet.ff/BbClarinet.ff.Gb5.stereo.wav
+---------------------------------------------------
+
+False negatives:
+  0.294
+
+False positives:
+  0.213
+
+Woodwind/BbClarinet.ff/BbClarinet.ff.Gb6.stereo.wav
+---------------------------------------------------
+
+False negatives:
+  0.403
+
+False positives:
+  0.349
+
+
+Stats
+=====
+Total number of onsets:     46
+Total number of detections: 47
+Total true positives:       5
+Total false positives:      42
+Total erroneous detections: 42
+
+Largest advance: -44ms
+Mean advance:    -44.000ms
+Largest delay:     0ms
+Mean delay:        0.000ms
+Mean difference: -44.000ms
+Number of advances <-15.00ms: 3
+Number of delays   > 15.00ms: 0
+
+Precision:             10.6383%
+Recall:                10.8696%
+F-measure:             10.7527%
+Precision (tot. err.): 10.6383%
+F-measure (tot. err.): 10.7527%
+

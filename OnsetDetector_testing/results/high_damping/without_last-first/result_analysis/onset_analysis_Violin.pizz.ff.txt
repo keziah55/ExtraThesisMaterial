@@ -1,0 +1,1207 @@
+Check onsetdetector results
+===========================
+
+Wed Apr 24 13:14:03 2019
+
+OnsetDetector if statement: if (count >= 3 && last >= threshold)
+findExactTime() local min decision: if (std::isnan(current/mn) || current/mn >= 0.95) 
+OnsetDetector segment size: 20ms
+Threshold: 0.0005
+Searching for 1 frequency
+NoteDetector args:
+    EDO: 12
+    Bandwidth: 0
+    Method: Runge-Kutta
+    Freq norm: Freq unnormalized
+    Amp norm: Amp normalized
+    Damping: 0.0005
+    Gain: 25
+Onset tolerance: 50.000ms
+
+
+Strings/Violin.pizz.ff.sulA/Violin.pizz.ff.sulA.A4.stereo.wav
+-------------------------------------------------------------
+Onset at   0.002 seconds, delay:  18ms.
+
+False positives:
+  0.090
+  0.150
+  0.230
+  0.310
+  0.350
+  0.430
+  0.490
+  0.550
+  0.610
+  0.690
+  0.730
+  0.790
+  0.870
+  0.930
+  0.990
+  1.050
+  1.090
+  1.150
+  1.230
+  1.290
+  1.330
+  1.410
+  1.450
+  1.510
+
+Strings/Violin.pizz.ff.sulA/Violin.pizz.ff.sulA.A5.stereo.wav
+-------------------------------------------------------------
+Onset at   0.054 seconds, delay:  -3ms.
+
+False positives:
+  0.130
+  0.210
+  0.270
+  0.310
+
+Strings/Violin.pizz.ff.sulA/Violin.pizz.ff.sulA.Ab5.stereo.wav
+--------------------------------------------------------------
+Onset at   0.037 seconds, delay: -12ms.
+
+False positives:
+  0.170
+  0.250
+  0.290
+  0.370
+  0.410
+
+Strings/Violin.pizz.ff.sulA/Violin.pizz.ff.sulA.B4.stereo.wav
+-------------------------------------------------------------
+Onset at   0.022 seconds, delay:  -2ms.
+
+False positives:
+  0.170
+  0.210
+  0.290
+
+Strings/Violin.pizz.ff.sulA/Violin.pizz.ff.sulA.B5.stereo.wav
+-------------------------------------------------------------
+
+False negatives:
+  0.167
+
+False positives:
+  0.072
+  0.290
+  0.370
+  0.430
+
+Strings/Violin.pizz.ff.sulA/Violin.pizz.ff.sulA.Bb4.stereo.wav
+--------------------------------------------------------------
+
+False negatives:
+  0.189
+
+False positives:
+  0.124
+  0.290
+  0.350
+  0.410
+  0.470
+  0.510
+  0.570
+
+Strings/Violin.pizz.ff.sulA/Violin.pizz.ff.sulA.Bb5.stereo.wav
+--------------------------------------------------------------
+Onset at   0.069 seconds, delay:  -9ms.
+
+False positives:
+  0.150
+  0.230
+  0.270
+  0.350
+  0.410
+  0.450
+  0.530
+
+Strings/Violin.pizz.ff.sulA/Violin.pizz.ff.sulA.C5.stereo.wav
+-------------------------------------------------------------
+
+False negatives:
+  0.182
+
+False positives:
+  0.112
+  0.290
+  0.330
+  0.410
+  0.470
+  0.510
+  0.570
+  0.630
+
+Strings/Violin.pizz.ff.sulA/Violin.pizz.ff.sulA.C6.stereo.wav
+-------------------------------------------------------------
+Onset at   0.087 seconds, delay: -25ms.
+
+False positives:
+  0.230
+  0.290
+  0.350
+  0.410
+
+Strings/Violin.pizz.ff.sulA/Violin.pizz.ff.sulA.D5.stereo.wav
+-------------------------------------------------------------
+Onset at   0.139 seconds, delay: -28ms.
+
+False positives:
+  0.230
+  0.290
+  0.350
+  0.410
+  0.470
+  0.530
+  0.590
+  0.650
+  0.770
+  0.850
+  0.890
+
+Strings/Violin.pizz.ff.sulA/Violin.pizz.ff.sulA.D6.stereo.wav
+-------------------------------------------------------------
+Onset at   0.053 seconds, delay: -10ms.
+
+False positives:
+  0.150
+  0.190
+  0.250
+  0.330
+  0.370
+
+Strings/Violin.pizz.ff.sulA/Violin.pizz.ff.sulA.Db5.stereo.wav
+--------------------------------------------------------------
+Onset at   0.166 seconds, delay:  -3ms.
+
+False positives:
+  0.270
+  0.330
+  0.370
+  0.450
+  0.490
+  0.570
+  0.630
+
+Strings/Violin.pizz.ff.sulA/Violin.pizz.ff.sulA.Db6.stereo.wav
+--------------------------------------------------------------
+Onset at   0.073 seconds, delay: -19ms.
+
+False positives:
+  0.170
+  0.230
+  0.290
+  0.350
+  0.410
+
+Strings/Violin.pizz.ff.sulA/Violin.pizz.ff.sulA.E5.stereo.wav
+-------------------------------------------------------------
+Onset at   0.046 seconds, delay:  -1ms.
+
+False positives:
+  0.130
+  0.210
+  0.250
+  0.330
+  0.390
+
+Strings/Violin.pizz.ff.sulA/Violin.pizz.ff.sulA.E6.stereo.wav
+-------------------------------------------------------------
+Onset at   0.078 seconds, delay: -24ms.
+
+False positives:
+  0.170
+  0.230
+  0.270
+  0.350
+  0.410
+  0.450
+
+Strings/Violin.pizz.ff.sulA/Violin.pizz.ff.sulA.Eb5.stereo.wav
+--------------------------------------------------------------
+Onset at   0.149 seconds, delay:  -1ms.
+
+False positives:
+  0.250
+  0.290
+  0.370
+  0.430
+  0.490
+  0.550
+
+Strings/Violin.pizz.ff.sulA/Violin.pizz.ff.sulA.Eb6.stereo.wav
+--------------------------------------------------------------
+
+False negatives:
+  0.127
+
+False positives:
+  0.055
+  0.230
+  0.290
+  0.330
+
+Strings/Violin.pizz.ff.sulA/Violin.pizz.ff.sulA.F5.stereo.wav
+-------------------------------------------------------------
+
+False negatives:
+  0.130
+
+False positives:
+  0.064
+  0.210
+  0.290
+  0.330
+  0.410
+  0.470
+
+Strings/Violin.pizz.ff.sulA/Violin.pizz.ff.sulA.F6.stereo.wav
+-------------------------------------------------------------
+
+False negatives:
+  0.119
+
+False positives:
+  0.060
+  0.270
+  0.310
+  0.370
+  0.450
+
+Strings/Violin.pizz.ff.sulA/Violin.pizz.ff.sulA.G5.stereo.wav
+-------------------------------------------------------------
+Onset at   0.052 seconds, delay: -10ms.
+
+False positives:
+  0.150
+  0.190
+  0.270
+  0.310
+  0.370
+  0.450
+
+Strings/Violin.pizz.ff.sulA/Violin.pizz.ff.sulA.Gb5.stereo.wav
+--------------------------------------------------------------
+Onset at   0.133 seconds, delay: -24ms.
+
+False positives:
+  0.210
+  0.290
+  0.350
+  0.390
+  0.470
+
+Strings/Violin.pizz.ff.sulD/Violin.pizz.ff.sulD.A4.stereo.wav
+-------------------------------------------------------------
+
+False negatives:
+  0.115
+
+False positives:
+  0.059
+  0.190
+  0.250
+  0.310
+  0.370
+  0.430
+  0.490
+  0.570
+  0.630
+
+Strings/Violin.pizz.ff.sulD/Violin.pizz.ff.sulD.A5.stereo.wav
+-------------------------------------------------------------
+Onset at   0.028 seconds, delay:  -8ms.
+
+False positives:
+  0.110
+  0.170
+  0.250
+  0.310
+  0.350
+  0.410
+
+Strings/Violin.pizz.ff.sulD/Violin.pizz.ff.sulD.Ab4.stereo.wav
+--------------------------------------------------------------
+
+False negatives:
+  0.112
+
+False positives:
+  0.049
+  0.190
+  0.250
+  0.330
+  0.410
+  0.450
+  0.530
+  0.610
+  0.670
+  0.710
+  0.790
+
+Strings/Violin.pizz.ff.sulD/Violin.pizz.ff.sulD.Ab5.stereo.wav
+--------------------------------------------------------------
+Onset at   0.032 seconds, delay:  -2ms.
+
+False positives:
+  0.130
+  0.170
+  0.230
+  0.290
+  0.350
+
+Strings/Violin.pizz.ff.sulD/Violin.pizz.ff.sulD.B4.stereo.wav
+-------------------------------------------------------------
+Onset at   0.102 seconds, delay: -46ms.
+
+False positives:
+  0.190
+  0.230
+  0.310
+  0.390
+  0.430
+  0.490
+  0.550
+
+Strings/Violin.pizz.ff.sulD/Violin.pizz.ff.sulD.B5.stereo.wav
+-------------------------------------------------------------
+Onset at   0.059 seconds, delay:  -8ms.
+
+False positives:
+  0.150
+  0.210
+  0.270
+  0.310
+  0.390
+
+Strings/Violin.pizz.ff.sulD/Violin.pizz.ff.sulD.Bb4.stereo.wav
+--------------------------------------------------------------
+Onset at   0.056 seconds, delay: -12ms.
+
+False positives:
+  0.150
+  0.190
+  0.270
+  0.350
+  0.410
+  0.450
+  0.530
+
+Strings/Violin.pizz.ff.sulD/Violin.pizz.ff.sulD.Bb5.stereo.wav
+--------------------------------------------------------------
+Onset at   0.132 seconds, delay: -22ms.
+
+False positives:
+  0.230
+  0.290
+  0.330
+  0.390
+  0.470
+
+Strings/Violin.pizz.ff.sulD/Violin.pizz.ff.sulD.C5.stereo.wav
+-------------------------------------------------------------
+Onset at   0.111 seconds, delay: -41ms.
+
+False positives:
+  0.210
+  0.250
+  0.330
+  0.390
+  0.450
+  0.530
+
+Strings/Violin.pizz.ff.sulD/Violin.pizz.ff.sulD.C6.stereo.wav
+-------------------------------------------------------------
+Onset at   0.042 seconds, delay:  -4ms.
+
+False positives:
+  0.130
+  0.170
+  0.230
+
+Strings/Violin.pizz.ff.sulD/Violin.pizz.ff.sulD.D4.stereo.wav
+-------------------------------------------------------------
+Onset at   0.150 seconds, delay: -24ms.
+
+False positives:
+  0.250
+  0.310
+  0.380
+  0.470
+  0.550
+  0.630
+  0.710
+  0.770
+  0.810
+  0.870
+  0.950
+  1.010
+  1.050
+  1.110
+  1.170
+
+Strings/Violin.pizz.ff.sulD/Violin.pizz.ff.sulD.D5.stereo.wav
+-------------------------------------------------------------
+Onset at   0.129 seconds
+
+False positives:
+  0.210
+  0.270
+  0.330
+  0.410
+  0.450
+  0.510
+
+Strings/Violin.pizz.ff.sulD/Violin.pizz.ff.sulD.Db5.stereo.wav
+--------------------------------------------------------------
+Onset at   0.187 seconds
+
+False positives:
+  0.270
+  0.350
+  0.390
+  0.450
+  0.530
+  0.590
+
+Strings/Violin.pizz.ff.sulD/Violin.pizz.ff.sulD.E4.stereo.wav
+-------------------------------------------------------------
+Onset at   0.099 seconds, delay: -22ms.
+
+False positives:
+  0.210
+  0.310
+  0.410
+  0.450
+  0.530
+  0.590
+  0.630
+  0.690
+  0.750
+  0.810
+  0.870
+  0.930
+  0.990
+  1.050
+  1.110
+
+Strings/Violin.pizz.ff.sulD/Violin.pizz.ff.sulD.E5.stereo.wav
+-------------------------------------------------------------
+Onset at   0.098 seconds, delay: -43ms.
+
+False positives:
+  0.190
+  0.230
+  0.310
+  0.350
+  0.410
+
+Strings/Violin.pizz.ff.sulD/Violin.pizz.ff.sulD.Eb4.stereo.wav
+--------------------------------------------------------------
+Onset at   0.158 seconds, delay: -12ms.
+
+False positives:
+  0.310
+  0.350
+  0.450
+  0.490
+  0.550
+  0.610
+  0.690
+  0.750
+  0.810
+  0.870
+  0.930
+  0.990
+  1.050
+  1.110
+  1.170
+  1.230
+  1.290
+  1.350
+  1.410
+
+Strings/Violin.pizz.ff.sulD/Violin.pizz.ff.sulD.Eb5.stereo.wav
+--------------------------------------------------------------
+Onset at   0.114 seconds, delay: -50ms.
+
+False positives:
+  0.210
+  0.270
+  0.310
+  0.370
+  0.450
+  0.490
+
+Strings/Violin.pizz.ff.sulD/Violin.pizz.ff.sulD.F4.stereo.wav
+-------------------------------------------------------------
+Onset at   0.137 seconds, delay:  -7ms.
+
+False positives:
+  0.250
+  0.290
+  0.350
+  0.410
+  0.470
+  0.530
+  0.590
+  0.650
+  0.710
+  0.790
+  0.830
+  0.910
+  0.950
+  1.010
+  1.090
+  1.150
+  1.190
+  1.270
+
+Strings/Violin.pizz.ff.sulD/Violin.pizz.ff.sulD.F5.stereo.wav
+-------------------------------------------------------------
+Onset at   0.034 seconds, delay: -14ms.
+
+False positives:
+  0.110
+  0.190
+
+Strings/Violin.pizz.ff.sulD/Violin.pizz.ff.sulD.G4.stereo.wav
+-------------------------------------------------------------
+Onset at   0.156 seconds, delay: -21ms.
+
+False positives:
+  0.242
+  0.310
+  0.370
+  0.450
+  0.530
+  0.590
+  0.650
+  0.710
+  0.770
+  0.830
+  0.890
+
+Strings/Violin.pizz.ff.sulD/Violin.pizz.ff.sulD.G5.stereo.wav
+-------------------------------------------------------------
+Onset at   0.047 seconds, delay:  -4ms.
+
+False positives:
+  0.150
+  0.210
+  0.270
+  0.330
+  0.370
+
+Strings/Violin.pizz.ff.sulD/Violin.pizz.ff.sulD.Gb4.stereo.wav
+--------------------------------------------------------------
+Onset at   0.142 seconds, delay: -29ms.
+
+False positives:
+  0.270
+  0.342
+  0.430
+  0.510
+  0.550
+  0.610
+  0.690
+  0.750
+  0.810
+  0.850
+  0.930
+  0.990
+
+Strings/Violin.pizz.ff.sulD/Violin.pizz.ff.sulD.Gb5.stereo.wav
+--------------------------------------------------------------
+Onset at   0.081 seconds, delay: -17ms.
+
+False positives:
+  0.190
+  0.250
+  0.290
+
+Strings/Violin.pizz.ff.sulE/Violin.pizz.ff.sulE.A5.stereo.wav
+-------------------------------------------------------------
+Onset at   0.006 seconds, delay:  44ms.
+
+False positives:
+  0.110
+  0.150
+
+Strings/Violin.pizz.ff.sulE/Violin.pizz.ff.sulE.A6.stereo.wav
+-------------------------------------------------------------
+Onset at   0.005 seconds, delay:  45ms.
+
+False positives:
+  0.110
+  0.150
+
+Strings/Violin.pizz.ff.sulE/Violin.pizz.ff.sulE.Ab5.stereo.wav
+--------------------------------------------------------------
+Onset at   0.007 seconds, delay:  23ms.
+
+False positives:
+  0.090
+  0.170
+  0.210
+
+Strings/Violin.pizz.ff.sulE/Violin.pizz.ff.sulE.Ab6.stereo.wav
+--------------------------------------------------------------
+Onset at   0.015 seconds, delay:  15ms.
+
+False positives:
+  0.090
+
+Strings/Violin.pizz.ff.sulE/Violin.pizz.ff.sulE.B5.stereo.wav
+-------------------------------------------------------------
+Onset at   0.011 seconds, delay:  11ms.
+
+False positives:
+  0.090
+  0.150
+
+Strings/Violin.pizz.ff.sulE/Violin.pizz.ff.sulE.B6.stereo.wav
+-------------------------------------------------------------
+Onset at   0.004 seconds, delay:  46ms.
+All onsets found!
+
+Strings/Violin.pizz.ff.sulE/Violin.pizz.ff.sulE.Bb5.stereo.wav
+--------------------------------------------------------------
+Onset at   0.005 seconds, delay:  45ms.
+
+False positives:
+  0.090
+  0.170
+
+Strings/Violin.pizz.ff.sulE/Violin.pizz.ff.sulE.Bb6.stereo.wav
+--------------------------------------------------------------
+Onset at   0.008 seconds, delay:  42ms.
+All onsets found!
+
+Strings/Violin.pizz.ff.sulE/Violin.pizz.ff.sulE.C6.stereo.wav
+-------------------------------------------------------------
+Onset at   0.024 seconds, delay:  -2ms.
+
+False positives:
+  0.110
+
+Strings/Violin.pizz.ff.sulE/Violin.pizz.ff.sulE.C7.stereo.wav
+-------------------------------------------------------------
+Onset at   0.026 seconds, delay:  -4ms.
+
+False positives:
+  0.046
+
+Strings/Violin.pizz.ff.sulE/Violin.pizz.ff.sulE.D6.stereo.wav
+-------------------------------------------------------------
+Onset at   0.017 seconds, delay:  11ms.
+All onsets found!
+
+Strings/Violin.pizz.ff.sulE/Violin.pizz.ff.sulE.D7.stereo.wav
+-------------------------------------------------------------
+
+False negatives:
+  0.005
+
+Strings/Violin.pizz.ff.sulE/Violin.pizz.ff.sulE.Db6.stereo.wav
+--------------------------------------------------------------
+Onset at   0.019 seconds, delay:   1ms.
+All onsets found!
+
+Strings/Violin.pizz.ff.sulE/Violin.pizz.ff.sulE.Db7.stereo.wav
+--------------------------------------------------------------
+Onset at   0.009 seconds, delay:  20ms.
+
+False positives:
+  0.110
+
+Strings/Violin.pizz.ff.sulE/Violin.pizz.ff.sulE.E5.stereo.wav
+-------------------------------------------------------------
+Onset at   0.017 seconds, delay:   4ms.
+
+False positives:
+  0.090
+  0.170
+  0.230
+  0.270
+  0.330
+  0.368
+  0.510
+  0.590
+  0.630
+
+Strings/Violin.pizz.ff.sulE/Violin.pizz.ff.sulE.E6.stereo.wav
+-------------------------------------------------------------
+Onset at   0.013 seconds, delay:  17ms.
+All onsets found!
+
+Strings/Violin.pizz.ff.sulE/Violin.pizz.ff.sulE.E7.stereo.wav
+-------------------------------------------------------------
+Onset at   0.050 seconds, delay: -20ms.
+
+False positives:
+  0.090
+
+Strings/Violin.pizz.ff.sulE/Violin.pizz.ff.sulE.Eb6.stereo.wav
+--------------------------------------------------------------
+Onset at   0.014 seconds, delay:  16ms.
+All onsets found!
+
+Strings/Violin.pizz.ff.sulE/Violin.pizz.ff.sulE.Eb7.stereo.wav
+--------------------------------------------------------------
+Onset at   0.007 seconds, delay:  23ms.
+
+False positives:
+  0.110
+
+Strings/Violin.pizz.ff.sulE/Violin.pizz.ff.sulE.F5.stereo.wav
+-------------------------------------------------------------
+Onset at   0.011 seconds, delay:  10ms.
+
+False positives:
+  0.110
+  0.170
+  0.210
+  0.290
+
+Strings/Violin.pizz.ff.sulE/Violin.pizz.ff.sulE.F6.stereo.wav
+-------------------------------------------------------------
+
+False negatives:
+  0.010
+
+Strings/Violin.pizz.ff.sulE/Violin.pizz.ff.sulE.G5.stereo.wav
+-------------------------------------------------------------
+Onset at   0.010 seconds, delay:  19ms.
+
+False positives:
+  0.090
+  0.170
+
+Strings/Violin.pizz.ff.sulE/Violin.pizz.ff.sulE.G6.stereo.wav
+-------------------------------------------------------------
+Onset at   0.014 seconds, delay:  16ms.
+All onsets found!
+
+Strings/Violin.pizz.ff.sulE/Violin.pizz.ff.sulE.Gb5.stereo.wav
+--------------------------------------------------------------
+Onset at   0.013 seconds, delay:  17ms.
+
+False positives:
+  0.090
+
+Strings/Violin.pizz.ff.sulE/Violin.pizz.ff.sulE.Gb6.stereo.wav
+--------------------------------------------------------------
+
+False negatives:
+  0.006
+
+Strings/Violin.pizz.ff.sulG/Violin.pizz.ff.sulG.A3.stereo.wav
+-------------------------------------------------------------
+Onset at   0.067 seconds, delay:  -2ms.
+
+False positives:
+  0.180
+  0.270
+  0.308
+  0.390
+  0.470
+  0.510
+  0.590
+  0.630
+  0.710
+  0.750
+  0.830
+
+Strings/Violin.pizz.ff.sulG/Violin.pizz.ff.sulG.A4.stereo.wav
+-------------------------------------------------------------
+Onset at   0.045 seconds
+
+False positives:
+  0.130
+  0.210
+  0.250
+  0.310
+  0.370
+  0.450
+  0.490
+
+Strings/Violin.pizz.ff.sulG/Violin.pizz.ff.sulG.Ab3.stereo.wav
+--------------------------------------------------------------
+Onset at   0.070 seconds, delay: -25ms.
+
+False positives:
+  0.167
+  0.240
+  0.321
+  0.390
+  0.470
+  0.510
+  0.570
+  0.650
+  0.710
+  0.735
+  0.870
+  0.930
+  0.990
+  1.268
+  1.490
+  1.550
+  1.610
+  1.670
+
+Strings/Violin.pizz.ff.sulG/Violin.pizz.ff.sulG.Ab4.stereo.wav
+--------------------------------------------------------------
+Onset at   0.040 seconds, delay: -20ms.
+
+False positives:
+  0.130
+  0.210
+  0.270
+  0.310
+  0.390
+  0.430
+  0.490
+
+Strings/Violin.pizz.ff.sulG/Violin.pizz.ff.sulG.B3.stereo.wav
+-------------------------------------------------------------
+Onset at   0.079 seconds, delay: -13ms.
+
+False positives:
+  0.201
+  0.290
+  0.317
+  0.410
+  0.470
+  0.510
+  0.590
+  0.630
+  0.710
+  0.750
+  0.830
+  0.890
+  0.930
+  1.010
+  1.070
+  1.110
+  1.170
+  1.230
+  1.310
+  1.350
+  1.410
+
+Strings/Violin.pizz.ff.sulG/Violin.pizz.ff.sulG.B4.stereo.wav
+-------------------------------------------------------------
+Onset at   0.028 seconds, delay:  -6ms.
+
+False positives:
+  0.130
+  0.170
+  0.250
+
+Strings/Violin.pizz.ff.sulG/Violin.pizz.ff.sulG.Bb3.stereo.wav
+--------------------------------------------------------------
+Onset at   0.085 seconds, delay: -17ms.
+
+False positives:
+  0.180
+  0.270
+  0.310
+  0.390
+  0.430
+  0.490
+  0.570
+  0.630
+  0.690
+  0.730
+  0.810
+  0.850
+  0.930
+  0.970
+  1.050
+  1.090
+  1.150
+  1.230
+  1.270
+  1.330
+  1.390
+
+Strings/Violin.pizz.ff.sulG/Violin.pizz.ff.sulG.Bb4.stereo.wav
+--------------------------------------------------------------
+Onset at   0.053 seconds, delay:  -4ms.
+
+False positives:
+  0.130
+  0.190
+  0.270
+  0.310
+
+Strings/Violin.pizz.ff.sulG/Violin.pizz.ff.sulG.C4.stereo.wav
+-------------------------------------------------------------
+Onset at   0.082 seconds, delay:  -8ms.
+
+False positives:
+  0.210
+  0.281
+  0.410
+  0.450
+  0.510
+  0.590
+  0.650
+  0.710
+  0.750
+  0.810
+  0.870
+  0.930
+  0.990
+  1.070
+  1.290
+  1.330
+  1.410
+
+Strings/Violin.pizz.ff.sulG/Violin.pizz.ff.sulG.C5.stereo.wav
+-------------------------------------------------------------
+Onset at   0.113 seconds, delay: -11ms.
+
+False positives:
+  0.190
+  0.250
+  0.330
+  0.390
+  0.450
+
+Strings/Violin.pizz.ff.sulG/Violin.pizz.ff.sulG.D4.stereo.wav
+-------------------------------------------------------------
+Onset at   0.091 seconds, delay: -40ms.
+
+False positives:
+  0.190
+  0.250
+  0.350
+  0.390
+  0.470
+  0.530
+  0.569
+  0.770
+  0.830
+  0.890
+  0.950
+  1.010
+  1.070
+  1.130
+  1.190
+  1.270
+  1.422
+  1.930
+  2.010
+  2.050
+  2.110
+  2.190
+  2.230
+  2.290
+
+Strings/Violin.pizz.ff.sulG/Violin.pizz.ff.sulG.D5.stereo.wav
+-------------------------------------------------------------
+Onset at   0.115 seconds, delay: -24ms.
+
+False positives:
+  0.210
+  0.250
+  0.330
+  0.390
+  0.430
+
+Strings/Violin.pizz.ff.sulG/Violin.pizz.ff.sulG.Db4.stereo.wav
+--------------------------------------------------------------
+Onset at   0.081 seconds, delay: -20ms.
+
+False positives:
+  0.210
+  0.290
+  0.330
+  0.410
+  0.450
+  0.510
+  0.570
+  0.613
+  0.718
+  0.810
+  0.870
+  0.910
+  0.990
+  1.050
+  1.090
+  1.150
+  1.230
+
+Strings/Violin.pizz.ff.sulG/Violin.pizz.ff.sulG.Db5.stereo.wav
+--------------------------------------------------------------
+Onset at   0.076 seconds, delay:  -6ms.
+
+False positives:
+  0.170
+  0.230
+  0.270
+  0.330
+
+Strings/Violin.pizz.ff.sulG/Violin.pizz.ff.sulG.E4.stereo.wav
+-------------------------------------------------------------
+Onset at   0.174 seconds, delay: -17ms.
+
+False positives:
+  0.270
+  0.350
+  0.430
+  0.470
+  0.530
+  0.590
+  0.670
+  0.730
+  0.770
+
+Strings/Violin.pizz.ff.sulG/Violin.pizz.ff.sulG.E5.stereo.wav
+-------------------------------------------------------------
+Onset at   0.098 seconds, delay: -27ms.
+
+False positives:
+  0.190
+  0.230
+  0.310
+  0.370
+
+Strings/Violin.pizz.ff.sulG/Violin.pizz.ff.sulG.Eb4.stereo.wav
+--------------------------------------------------------------
+Onset at   0.095 seconds, delay: -18ms.
+
+False positives:
+  0.210
+  0.250
+  0.330
+  0.390
+  0.470
+  0.510
+  0.570
+  0.630
+  0.710
+  0.750
+  0.870
+  0.950
+  0.990
+  1.050
+
+Strings/Violin.pizz.ff.sulG/Violin.pizz.ff.sulG.Eb5.stereo.wav
+--------------------------------------------------------------
+Onset at   0.059 seconds, delay: -12ms.
+
+False positives:
+  0.190
+  0.250
+  0.330
+
+Strings/Violin.pizz.ff.sulG/Violin.pizz.ff.sulG.F4.stereo.wav
+-------------------------------------------------------------
+Onset at   0.104 seconds, delay:  -8ms.
+
+False positives:
+  0.210
+  0.250
+  0.327
+  0.370
+  0.430
+  0.510
+  0.537
+  0.610
+  0.690
+
+Strings/Violin.pizz.ff.sulG/Violin.pizz.ff.sulG.G3.stereo.wav
+-------------------------------------------------------------
+Onset at   0.112 seconds, delay: -25ms.
+
+False positives:
+  0.270
+  0.310
+  0.390
+  0.430
+  0.490
+  0.570
+  0.610
+  0.670
+  0.750
+  0.790
+  0.870
+  0.910
+  0.990
+  1.050
+  1.110
+  1.150
+  1.230
+  1.290
+  1.330
+  1.410
+  1.470
+  1.510
+  1.570
+  1.650
+  1.690
+  1.750
+  1.810
+  1.870
+  1.930
+  1.990
+  2.070
+  2.110
+  2.190
+
+Strings/Violin.pizz.ff.sulG/Violin.pizz.ff.sulG.G4.stereo.wav
+-------------------------------------------------------------
+Onset at   0.030 seconds
+
+False positives:
+  0.130
+  0.190
+  0.230
+  0.310
+  0.350
+  0.430
+  0.490
+
+Strings/Violin.pizz.ff.sulG/Violin.pizz.ff.sulG.Gb4.stereo.wav
+--------------------------------------------------------------
+Onset at   0.040 seconds, delay:  -4ms.
+
+False positives:
+  0.130
+  0.210
+  0.290
+  0.350
+  0.410
+  0.450
+  0.500
+  0.564
+
+
+Stats
+=====
+Total number of onsets:     91
+Total number of detections: 688
+Total true positives:       80
+Total false positives:      608
+Total erroneous detections: 608
+
+Largest advance: -50ms
+Mean advance:    -27.333ms
+Largest delay:    46ms
+Mean delay:       38.250ms
+Mean difference:  -0.786ms
+Number of advances <-15.00ms: 26
+Number of delays   > 15.00ms: 14
+
+Precision:             11.6279%
+Recall:                87.9121%
+F-measure:             20.5392%
+Precision (tot. err.): 11.6279%
+F-measure (tot. err.): 20.5392%
+

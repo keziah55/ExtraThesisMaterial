@@ -1,0 +1,374 @@
+Check onsetdetector results
+===========================
+
+Wed Apr 24 13:09:40 2019
+
+OnsetDetector if statement: if (count >= 3 && last >= threshold)
+findExactTime() local min decision: if (std::isnan(current/mn) || current/mn >= 0.95) 
+OnsetDetector segment size: 20ms
+Threshold: 0.0003
+Searching for 1 frequency
+NoteDetector args:
+    EDO: 12
+    Bandwidth: 0
+    Method: Runge-Kutta
+    Freq norm: Freq unnormalized
+    Amp norm: Amp normalized
+    Damping: 0.0001
+    Gain: 25
+Onset tolerance: 50.000ms
+
+
+Brass/BassTrombone/BassTrombone.ff.A1.stereo.wav
+------------------------------------------------
+Onset at   0.050 seconds, delay: -20ms.
+
+False positives:
+  0.449
+  0.530
+  0.570
+  0.629
+  0.690
+  0.770
+  0.830
+  0.870
+
+Brass/BassTrombone/BassTrombone.ff.A2.stereo.wav
+------------------------------------------------
+Onset at   0.065 seconds, delay: -24ms.
+
+False positives:
+  0.470
+  0.507
+  0.608
+  0.710
+  0.770
+  0.862
+  0.970
+  1.050
+  1.230
+  1.310
+  1.390
+  1.510
+  1.617
+  1.790
+  1.830
+  1.950
+  2.010
+  2.090
+
+Brass/BassTrombone/BassTrombone.ff.Ab1.stereo.wav
+-------------------------------------------------
+
+False negatives:
+  0.076
+
+Brass/BassTrombone/BassTrombone.ff.Ab2.stereo.wav
+-------------------------------------------------
+Onset at   0.042 seconds, delay: -22ms.
+All onsets found!
+
+Brass/BassTrombone/BassTrombone.ff.B1.stereo.wav
+------------------------------------------------
+Onset at   0.068 seconds, delay: -24ms.
+All onsets found!
+
+Brass/BassTrombone/BassTrombone.ff.B2.stereo.wav
+------------------------------------------------
+
+False negatives:
+  0.077
+
+False positives:
+  0.026
+
+Brass/BassTrombone/BassTrombone.ff.Bb1.stereo.wav
+-------------------------------------------------
+Onset at   0.059 seconds, delay: -37ms.
+
+False positives:
+  0.410
+  0.490
+  0.537
+  0.630
+  0.690
+  0.979
+  1.150
+
+Brass/BassTrombone/BassTrombone.ff.Bb2.stereo.wav
+-------------------------------------------------
+Onset at   0.076 seconds, delay: -32ms.
+
+False positives:
+  0.347
+  0.530
+  0.590
+  0.629
+  0.730
+  0.810
+  0.870
+  0.970
+  1.030
+  1.110
+  1.170
+  1.250
+  1.310
+  1.370
+  1.454
+  1.573
+  1.770
+  1.870
+  1.930
+  2.010
+  2.050
+
+Brass/BassTrombone/BassTrombone.ff.C2.stereo.wav
+------------------------------------------------
+
+False negatives:
+  0.096
+
+Brass/BassTrombone/BassTrombone.ff.C3.stereo.wav
+------------------------------------------------
+Onset at   0.073 seconds, delay: -32ms.
+
+False positives:
+  0.352
+  0.570
+  0.610
+  0.690
+  0.770
+  0.810
+  0.930
+  1.029
+  1.190
+  1.318
+  1.450
+  1.490
+  1.570
+  1.622
+  1.770
+  1.867
+  2.010
+  2.070
+  2.150
+  2.190
+  2.270
+  2.310
+
+Brass/BassTrombone/BassTrombone.ff.D1.stereo.wav
+------------------------------------------------
+
+False negatives:
+  0.110
+
+False positives:
+  0.042
+  1.110
+  1.150
+  1.210
+  1.346
+  1.590
+  1.650
+  1.730
+  1.770
+
+Brass/BassTrombone/BassTrombone.ff.D2.stereo.wav
+------------------------------------------------
+Onset at   0.059 seconds, delay: -28ms.
+All onsets found!
+
+Brass/BassTrombone/BassTrombone.ff.D3.stereo.wav
+------------------------------------------------
+Onset at   0.079 seconds, delay: -32ms.
+
+False positives:
+  0.490
+  0.527
+  0.610
+  0.690
+  0.730
+  0.830
+  0.890
+  0.948
+  1.030
+  1.070
+  1.190
+  1.273
+  1.470
+  1.550
+  1.589
+  1.650
+  1.730
+  1.810
+  1.911
+  2.030
+  2.090
+
+Brass/BassTrombone/BassTrombone.ff.Db1.stereo.wav
+-------------------------------------------------
+Onset at   0.032 seconds, delay:  -2ms.
+All onsets found!
+
+Brass/BassTrombone/BassTrombone.ff.Db2.stereo.wav
+-------------------------------------------------
+
+False negatives:
+  0.080
+
+Brass/BassTrombone/BassTrombone.ff.Db3.stereo.wav
+-------------------------------------------------
+Onset at   0.082 seconds, delay: -22ms.
+All onsets found!
+
+Brass/BassTrombone/BassTrombone.ff.E1.stereo.wav
+------------------------------------------------
+
+False negatives:
+  0.087
+
+Brass/BassTrombone/BassTrombone.ff.E2.stereo.wav
+------------------------------------------------
+Onset at   0.085 seconds, delay: -42ms.
+
+False positives:
+  0.360
+  0.490
+  0.530
+  0.590
+  0.708
+  0.830
+
+Brass/BassTrombone/BassTrombone.ff.Eb1.stereo.wav
+-------------------------------------------------
+Onset at   0.084 seconds, delay: -28ms.
+All onsets found!
+
+Brass/BassTrombone/BassTrombone.ff.Eb2.stereo.wav
+-------------------------------------------------
+Onset at   0.082 seconds, delay: -42ms.
+All onsets found!
+
+Brass/BassTrombone/BassTrombone.ff.Eb3.stereo.wav
+-------------------------------------------------
+Onset at   0.063 seconds, delay: -23ms.
+
+False positives:
+  0.508
+  0.590
+  0.670
+  0.710
+  0.790
+  0.850
+  0.913
+  1.070
+  1.150
+  1.228
+  1.310
+  1.345
+  1.450
+  1.530
+  1.564
+  1.690
+  1.764
+  1.910
+  1.970
+  2.050
+  2.130
+  2.170
+
+Brass/BassTrombone/BassTrombone.ff.F1.stereo.wav
+------------------------------------------------
+
+False negatives:
+  0.084
+
+Brass/BassTrombone/BassTrombone.ff.F2.stereo.wav
+------------------------------------------------
+Onset at   0.075 seconds, delay: -34ms.
+All onsets found!
+
+Brass/BassTrombone/BassTrombone.ff.G1.stereo.wav
+------------------------------------------------
+
+False negatives:
+  0.069
+
+Brass/BassTrombone/BassTrombone.ff.G2.stereo.wav
+------------------------------------------------
+Onset at   0.067 seconds, delay: -45ms.
+
+False positives:
+  0.530
+  0.610
+  0.650
+  0.710
+  0.790
+  0.921
+  1.090
+  1.170
+  1.245
+  1.330
+  1.426
+  1.649
+  1.750
+  1.810
+  1.890
+  1.981
+  2.050
+
+Brass/BassTrombone/BassTrombone.ff.Gb1.stereo.wav
+-------------------------------------------------
+Onset at   0.072 seconds, delay: -49ms.
+
+False positives:
+  0.770
+  1.028
+  1.290
+
+Brass/BassTrombone/BassTrombone.ff.Gb2.stereo.wav
+-------------------------------------------------
+Onset at   0.069 seconds, delay: -43ms.
+
+False positives:
+  0.380
+  0.530
+  0.570
+  0.630
+  0.710
+  0.921
+  1.030
+  1.090
+  1.170
+  1.230
+  1.289
+  1.390
+  1.461
+  1.770
+  1.883
+  2.010
+  2.070
+
+
+Stats
+=====
+Total number of onsets:     27
+Total number of detections: 191
+Total true positives:       19
+Total false positives:      172
+Total erroneous detections: 172
+
+Largest advance: -49ms
+Mean advance:    -36.167ms
+Largest delay:     0ms
+Mean delay:        0.000ms
+Mean difference: -36.167ms
+Number of advances <-15.00ms: 18
+Number of delays   > 15.00ms: 0
+
+Precision:             9.94764%
+Recall:                70.3704%
+F-measure:             17.4312%
+Precision (tot. err.): 9.94764%
+F-measure (tot. err.): 17.4312%
+

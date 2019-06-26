@@ -1,0 +1,613 @@
+Check onsetdetector results
+===========================
+
+Wed Apr 24 13:14:03 2019
+
+OnsetDetector if statement: if (count >= 3 && last >= threshold)
+findExactTime() local min decision: if (std::isnan(current/mn) || current/mn >= 0.95) 
+OnsetDetector segment size: 20ms
+Threshold: 0.0005
+Searching for 1 frequency
+NoteDetector args:
+    EDO: 12
+    Bandwidth: 0
+    Method: Runge-Kutta
+    Freq norm: Freq unnormalized
+    Amp norm: Amp normalized
+    Damping: 0.0005
+    Gain: 25
+Onset tolerance: 50.000ms
+
+
+Percussion/Vibraphone.dampen/Vibraphone.dampen.ff.A3.stereo.wav
+---------------------------------------------------------------
+Onset at   0.006 seconds, delay:  14ms.
+
+False positives:
+  0.130
+  0.210
+  0.270
+  0.350
+  0.410
+  0.490
+
+Percussion/Vibraphone.dampen/Vibraphone.dampen.ff.A4.stereo.wav
+---------------------------------------------------------------
+Onset at   0.015 seconds, delay:   4ms.
+
+False positives:
+  0.110
+  0.190
+  0.250
+  0.290
+  0.350
+  0.410
+  0.470
+  0.530
+
+Percussion/Vibraphone.dampen/Vibraphone.dampen.ff.A5.stereo.wav
+---------------------------------------------------------------
+Onset at   0.006 seconds, delay:  14ms.
+
+False positives:
+  0.090
+  0.150
+  0.230
+  0.290
+  0.370
+  0.430
+  0.490
+  0.550
+
+Percussion/Vibraphone.dampen/Vibraphone.dampen.ff.Ab3.stereo.wav
+----------------------------------------------------------------
+Onset at   0.008 seconds, delay:  12ms.
+
+False positives:
+  0.150
+  0.210
+  0.270
+  0.330
+  0.410
+  0.450
+  0.510
+
+Percussion/Vibraphone.dampen/Vibraphone.dampen.ff.Ab4.stereo.wav
+----------------------------------------------------------------
+Onset at   0.013 seconds, delay:   4ms.
+
+False positives:
+  0.103
+  0.190
+  0.230
+  0.290
+  0.370
+  0.410
+  0.470
+  0.550
+
+Percussion/Vibraphone.dampen/Vibraphone.dampen.ff.Ab5.stereo.wav
+----------------------------------------------------------------
+Onset at   0.007 seconds, delay:  12ms.
+
+False positives:
+  0.090
+  0.150
+  0.230
+  0.290
+  0.350
+  0.410
+  0.470
+  0.530
+  0.590
+  0.650
+
+Percussion/Vibraphone.dampen/Vibraphone.dampen.ff.B3.stereo.wav
+---------------------------------------------------------------
+Onset at   0.005 seconds, delay:  15ms.
+
+False positives:
+  0.130
+  0.210
+  0.270
+  0.330
+  0.370
+  0.450
+  0.510
+
+Percussion/Vibraphone.dampen/Vibraphone.dampen.ff.B4.stereo.wav
+---------------------------------------------------------------
+Onset at   0.006 seconds, delay:  14ms.
+
+False positives:
+  0.130
+  0.190
+  0.250
+  0.290
+  0.370
+  0.410
+  0.490
+  0.550
+
+Percussion/Vibraphone.dampen/Vibraphone.dampen.ff.B5.stereo.wav
+---------------------------------------------------------------
+Onset at   0.004 seconds, delay:  16ms.
+
+False positives:
+  0.110
+  0.170
+  0.210
+  0.290
+  0.330
+  0.410
+  0.450
+  0.510
+  0.570
+
+Percussion/Vibraphone.dampen/Vibraphone.dampen.ff.Bb3.stereo.wav
+----------------------------------------------------------------
+Onset at   0.011 seconds, delay:   9ms.
+
+False positives:
+  0.150
+  0.230
+  0.290
+  0.350
+  0.430
+  0.470
+
+Percussion/Vibraphone.dampen/Vibraphone.dampen.ff.Bb4.stereo.wav
+----------------------------------------------------------------
+Onset at   0.021 seconds
+
+False positives:
+  0.107
+  0.190
+  0.230
+  0.290
+  0.370
+  0.410
+  0.470
+  0.530
+
+Percussion/Vibraphone.dampen/Vibraphone.dampen.ff.Bb5.stereo.wav
+----------------------------------------------------------------
+Onset at   0.006 seconds, delay:  14ms.
+
+False positives:
+  0.107
+  0.170
+  0.230
+  0.270
+  0.330
+  0.410
+  0.470
+  0.530
+  0.570
+  0.650
+
+Percussion/Vibraphone.dampen/Vibraphone.dampen.ff.C3.stereo.wav
+---------------------------------------------------------------
+Onset at   0.010 seconds, delay:  11ms.
+
+False positives:
+  0.190
+  0.270
+  0.310
+  0.370
+  0.450
+  0.510
+  0.590
+  0.650
+  0.710
+
+Percussion/Vibraphone.dampen/Vibraphone.dampen.ff.C4.stereo.wav
+---------------------------------------------------------------
+Onset at   0.008 seconds, delay:  12ms.
+
+False positives:
+  0.120
+  0.190
+  0.270
+  0.330
+  0.370
+  0.430
+  0.490
+
+Percussion/Vibraphone.dampen/Vibraphone.dampen.ff.C5.stereo.wav
+---------------------------------------------------------------
+Onset at   0.006 seconds, delay:  13ms.
+
+False positives:
+  0.130
+  0.190
+  0.250
+  0.290
+  0.370
+  0.410
+  0.490
+  0.530
+
+Percussion/Vibraphone.dampen/Vibraphone.dampen.ff.C6.stereo.wav
+---------------------------------------------------------------
+Onset at   0.033 seconds, delay: -13ms.
+
+False positives:
+  0.110
+  0.170
+  0.230
+  0.310
+  0.370
+  0.430
+  0.490
+  0.550
+
+Percussion/Vibraphone.dampen/Vibraphone.dampen.ff.D3.stereo.wav
+---------------------------------------------------------------
+Onset at   0.013 seconds, delay:   8ms.
+
+False positives:
+  0.190
+  0.270
+  0.310
+  0.370
+  0.430
+  0.490
+
+Percussion/Vibraphone.dampen/Vibraphone.dampen.ff.D4.stereo.wav
+---------------------------------------------------------------
+Onset at   0.019 seconds, delay:   1ms.
+
+False positives:
+  0.130
+  0.190
+  0.250
+  0.330
+  0.390
+  0.450
+  0.510
+
+Percussion/Vibraphone.dampen/Vibraphone.dampen.ff.D5.stereo.wav
+---------------------------------------------------------------
+Onset at   0.008 seconds, delay:   8ms.
+
+False positives:
+  0.150
+  0.230
+  0.290
+  0.330
+  0.410
+  0.470
+  0.510
+  0.570
+
+Percussion/Vibraphone.dampen/Vibraphone.dampen.ff.D6.stereo.wav
+---------------------------------------------------------------
+Onset at   0.020 seconds, delay:  -5ms.
+
+False positives:
+  0.110
+  0.162
+  0.210
+  0.290
+  0.350
+  0.410
+  0.470
+  0.510
+
+Percussion/Vibraphone.dampen/Vibraphone.dampen.ff.Db3.stereo.wav
+----------------------------------------------------------------
+Onset at   0.027 seconds, delay:  -4ms.
+
+False positives:
+  0.190
+  0.270
+  0.310
+  0.370
+  0.450
+  0.510
+  0.590
+  0.650
+
+Percussion/Vibraphone.dampen/Vibraphone.dampen.ff.Db4.stereo.wav
+----------------------------------------------------------------
+Onset at   0.009 seconds, delay:  11ms.
+
+False positives:
+  0.130
+  0.210
+  0.270
+  0.330
+  0.390
+  0.430
+  0.490
+
+Percussion/Vibraphone.dampen/Vibraphone.dampen.ff.Db5.stereo.wav
+----------------------------------------------------------------
+Onset at   0.003 seconds, delay:  17ms.
+
+False positives:
+  0.083
+  0.170
+  0.230
+  0.290
+  0.370
+  0.410
+  0.490
+  0.530
+
+Percussion/Vibraphone.dampen/Vibraphone.dampen.ff.Db6.stereo.wav
+----------------------------------------------------------------
+Onset at   0.014 seconds
+
+False positives:
+  0.110
+  0.170
+  0.210
+  0.270
+  0.330
+  0.410
+  0.470
+  0.510
+
+Percussion/Vibraphone.dampen/Vibraphone.dampen.ff.E3.stereo.wav
+---------------------------------------------------------------
+Onset at   0.008 seconds, delay:  13ms.
+
+False positives:
+  0.170
+  0.250
+  0.310
+  0.370
+  0.450
+  0.510
+
+Percussion/Vibraphone.dampen/Vibraphone.dampen.ff.E4.stereo.wav
+---------------------------------------------------------------
+Onset at   0.017 seconds, delay:   4ms.
+
+False positives:
+  0.145
+  0.190
+  0.270
+  0.330
+  0.410
+  0.470
+  0.530
+
+Percussion/Vibraphone.dampen/Vibraphone.dampen.ff.E5.stereo.wav
+---------------------------------------------------------------
+Onset at   0.007 seconds, delay:  11ms.
+
+False positives:
+  0.110
+  0.150
+  0.230
+  0.310
+  0.350
+  0.410
+  0.470
+  0.530
+
+Percussion/Vibraphone.dampen/Vibraphone.dampen.ff.E6.stereo.wav
+---------------------------------------------------------------
+Onset at   0.260 seconds, delay:  29ms.
+
+False positives:
+  0.025
+  0.130
+  0.190
+  0.225
+  0.343
+  0.410
+  0.490
+
+Percussion/Vibraphone.dampen/Vibraphone.dampen.ff.Eb3.stereo.wav
+----------------------------------------------------------------
+Onset at   0.011 seconds, delay:   9ms.
+
+False positives:
+  0.190
+  0.270
+  0.310
+  0.370
+  0.430
+  0.490
+
+Percussion/Vibraphone.dampen/Vibraphone.dampen.ff.Eb4.stereo.wav
+----------------------------------------------------------------
+Onset at   0.012 seconds, delay:   8ms.
+
+False positives:
+  0.150
+  0.210
+  0.260
+  0.350
+  0.390
+  0.450
+  0.510
+
+Percussion/Vibraphone.dampen/Vibraphone.dampen.ff.Eb5.stereo.wav
+----------------------------------------------------------------
+Onset at   0.007 seconds, delay:  11ms.
+
+False positives:
+  0.110
+  0.150
+  0.230
+  0.310
+  0.370
+  0.430
+  0.470
+  0.530
+  0.610
+
+Percussion/Vibraphone.dampen/Vibraphone.dampen.ff.Eb6.stereo.wav
+----------------------------------------------------------------
+Onset at   0.026 seconds, delay:  -6ms.
+
+False positives:
+  0.130
+  0.190
+  0.221
+  0.290
+  0.370
+  0.410
+
+Percussion/Vibraphone.dampen/Vibraphone.dampen.ff.F3.stereo.wav
+---------------------------------------------------------------
+Onset at   0.014 seconds, delay:   7ms.
+
+False positives:
+  0.190
+  0.270
+  0.330
+  0.370
+  0.430
+  0.510
+  0.570
+  0.610
+
+Percussion/Vibraphone.dampen/Vibraphone.dampen.ff.F4.stereo.wav
+---------------------------------------------------------------
+Onset at   0.014 seconds, delay:   6ms.
+
+False positives:
+  0.141
+  0.210
+  0.270
+  0.350
+  0.410
+  0.450
+  0.530
+
+Percussion/Vibraphone.dampen/Vibraphone.dampen.ff.F5.stereo.wav
+---------------------------------------------------------------
+Onset at   0.008 seconds, delay:   6ms.
+
+False positives:
+  0.090
+  0.150
+  0.230
+  0.310
+  0.370
+  0.430
+  0.490
+  0.550
+
+Percussion/Vibraphone.dampen/Vibraphone.dampen.ff.F6.stereo.wav
+---------------------------------------------------------------
+Onset at   0.020 seconds, delay:  -6ms.
+
+False positives:
+  0.110
+  0.150
+  0.230
+  0.264
+  0.350
+  0.410
+  0.450
+
+Percussion/Vibraphone.dampen/Vibraphone.dampen.ff.G3.stereo.wav
+---------------------------------------------------------------
+Onset at   0.009 seconds, delay:  11ms.
+
+False positives:
+  0.170
+  0.230
+  0.290
+  0.370
+  0.430
+  0.470
+  0.530
+
+Percussion/Vibraphone.dampen/Vibraphone.dampen.ff.G4.stereo.wav
+---------------------------------------------------------------
+Onset at   0.014 seconds, delay:   6ms.
+
+False positives:
+  0.110
+  0.170
+  0.230
+  0.290
+  0.370
+  0.410
+  0.470
+
+Percussion/Vibraphone.dampen/Vibraphone.dampen.ff.G5.stereo.wav
+---------------------------------------------------------------
+Onset at   0.004 seconds, delay:  16ms.
+
+False positives:
+  0.090
+  0.170
+  0.230
+  0.310
+  0.350
+  0.430
+  0.490
+
+Percussion/Vibraphone.dampen/Vibraphone.dampen.ff.Gb3.stereo.wav
+----------------------------------------------------------------
+Onset at   0.014 seconds, delay:   6ms.
+
+False positives:
+  0.170
+  0.230
+  0.290
+  0.370
+  0.410
+  0.470
+  0.550
+
+Percussion/Vibraphone.dampen/Vibraphone.dampen.ff.Gb4.stereo.wav
+----------------------------------------------------------------
+Onset at   0.009 seconds, delay:  11ms.
+
+False positives:
+  0.130
+  0.190
+  0.270
+  0.330
+  0.390
+  0.430
+  0.510
+  0.570
+
+Percussion/Vibraphone.dampen/Vibraphone.dampen.ff.Gb5.stereo.wav
+----------------------------------------------------------------
+Onset at   0.005 seconds, delay:  15ms.
+
+False positives:
+  0.090
+  0.150
+  0.220
+  0.290
+  0.350
+  0.410
+  0.490
+  0.530
+
+
+Stats
+=====
+Total number of onsets:     42
+Total number of detections: 359
+Total true positives:       42
+Total false positives:      317
+Total erroneous detections: 317
+
+Largest advance: -13ms
+Mean advance:    -13.000ms
+Largest delay:    29ms
+Mean delay:       18.200ms
+Mean difference:   9.750ms
+Number of advances <-15.00ms: 0
+Number of delays   > 15.00ms: 4
+
+Precision:             11.6992%
+Recall:                100%
+F-measure:             20.9476%
+Precision (tot. err.): 11.6992%
+F-measure (tot. err.): 20.9476%
+
