@@ -7,7 +7,8 @@ Documentation and installation instructions for the software â€“ DetectorBank â€
 is hosted [here](https://github.com/keziah55/DetectorBank).
 
 Each directory contains it's own readme, describing the files.
-These will be updated shortly.
+The 'OnsetDetector_testing' readme will be updated shortly.
 
-A number of the files use `SavePlot` or `SaveLegend` objects, which can 
+I've tried to tidy up the files, but let me know if anything is unclear.
+A number of the files may use `SavePlot` or `SaveLegend` objects, which can 
 be found [here](https://github.com/keziah55/save_plot).
