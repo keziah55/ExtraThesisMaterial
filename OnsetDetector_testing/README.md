@@ -2,6 +2,10 @@
 
 These files were used to test the OnsetDetector.
 The material here contibutes to Chapters 4 and 5 of the thesis.
+The `results` directory contains all results of four OnsetDetector tests,
+two at each damping factor chosen (0.0001, i.e. low damping, and 0.0005, i.e. high damping).
+At each damping factor, the OnsetDetector was run both with and without the 'last-first'
+condition.
 
 The data files were the from the 
 [University of Iowa musical instrument samples](http://theremin.music.uiowa.edu/MIS.html);
@@ -9,7 +13,13 @@ with the exception of the guitar samples, each file contains a single note
 on a given instrument. The guitar files were manually split into notes by me.
 
 To run many of these files yourself, you'll have to update paths to where you have
-saved the Iowa samples and where OnsetDetector results have been written.
+saved the Iowa samples and where you would like any output to be saved.
+I've tried to update all paths to the results, but if I have missed any, 
+`results/4_Apr_3` should be redirected to `results/low_damping/with_last-first`, 
+`results/5_Apr_1` to `results/low_damping/without_last-first`, 
+`results/6_Apr_2` to `results/high_damping/with_last-first` and 
+`results/6_Apr_3` to `results/high_damping/without_last-first`. Drop me a line if you find
+bugs like this.
 
 As stated in the main readme, many of these files use `SavePlot` or `SaveLegend` objects,
 available [here](https://github.com/keziah55/save_plot).

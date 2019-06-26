@@ -114,15 +114,17 @@ def make_legend(sl, labels):
 
 if __name__ == '__main__':
     
-    project = '/home/keziah/onsets/hsj/'
-    resultspath = os.path.join(project, 'Sandpit', 'results', 'Iowa')
+    resultspath = os.path.join('results', 'Iowa')
     resultsfile = 'onset_analysis.txt'
     
     resultssubdir = 'result_analysis'
     
-    savepath = os.path.join(project, 'Visualisation', 'Iowa')
+    savepath = '.'
     
-    dir_pairs = [('4_Apr_3', '5_Apr_1'), ('6_Apr_2', '6_Apr_3')]
+    dir_pairs = [('low_damping/with_last-first', 
+                  'low_damping/without_last-first'), 
+                 ('high_damping/with_last-first', 
+                  'high_damping/without_last-first')]
     dirs = [p[0] for p in dir_pairs]
     savedirs =  ['d_1e-4', 'd_5e-4']
     
