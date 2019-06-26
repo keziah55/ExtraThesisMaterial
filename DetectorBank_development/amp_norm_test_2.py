@@ -1,11 +1,9 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Created on Fri Nov 16 11:35:20 2018
-
-@author: keziah
+Plot the complex response with and without amplitude normalisation to correct
+orbital eccentricity.
 """
-
 
 import numpy as np
 from detectorbank import DetectorBank

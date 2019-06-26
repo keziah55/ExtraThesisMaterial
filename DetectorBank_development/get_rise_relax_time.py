@@ -4,12 +4,10 @@
 Find detector rise and relaxation times.
 """
 
-
 import numpy as np
 from detectorbank import DetectorBank
 import matplotlib.pyplot as plt
 from save_plot import SavePlot
-import os
 
 
 def formatLabelFreq(label):

@@ -8,7 +8,6 @@ damping factors for each of five amplitudes.
 import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib.ticker import MultipleLocator
-from save_plot import SavePlot, SaveLegend
 import os
 
 
@@ -114,27 +113,5 @@ for files in results:
     plt.xlabel('ln(B)')
     plt.ylabel('ln(|b|)', rotation='horizontal', labelpad=25)
     
-    savefile = '../Visualisation/amplitude_ga_out_{0:.0e}_minbw.pdf'.format(
-            float(amp))
-    sp = SavePlot(False, savefile)
-    sp.plot(plt)
-    sl = SaveLegend('../Visualisation/damping_factors_legend.pdf',
-                    auto_overwrite=True)
-    leg_clrs = [c for c, _ in pltparam.values()]
-    labels = list(pltparam.keys())
-#    sl.plot(labels, colours=leg_clrs, title='Damping factor', ncol=2)
-    
-    
-    
-#    plt.show()
-#    print('../Visualisation/amplitude_ga_out_{0:.0e}.pdf'.format(float(amp)))
-#    plt.savefig('../Visualisation/amplitude_ga_out_{0:.0e}_minbw.pdf'
-#                .format(float(amp)), format='pdf', bbox_inches='tight')
-#    plt.close()
-    
-    
-#sl = SaveLegend('../Visualisation/amplitude_ga_legend.pdf')
-#labels = list(pltparam.keys())
-#colours = [i[0] for i in pltparam.values()]
-#sl.save(labels, colours, figsize=(1,1.4), title='Damping')
-    
+    plt.show()
+    plt.close()

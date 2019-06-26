@@ -14,9 +14,7 @@ rate limitations.
 import numpy as np
 from detectorbank import DetectorBank
 import matplotlib.pyplot as plt
-from save_plot import SavePlot, SaveLegend
 import seaborn as sns
-import os.path
 
 
 def formatLabel(label):
@@ -121,11 +119,11 @@ def getResponses(sr, mode, method, f_norm):
     return r
 
 
-def plotResponses(sp, r, sr, mode, subsample=False, subFactor=None):
+def plotResponses(title, r, sr, mode, subsample=False, subFactor=None):
     """ Plot DetectorBank responses
     
-        sp : SavePlot object
-            initialised SavePlot object
+        title : str
+            plot title
         r : 2D array
             responses
         sr : int
@@ -165,10 +163,6 @@ def plotResponses(sp, r, sr, mode, subsample=False, subFactor=None):
     ax = plt.gca()
     plt.grid(True)
     
-#    ax.xaxis.set_major_locator(majorLocator)
-#    ax.xaxis.set_minor_locator(minorLocator)
-#    ax.grid(True, 'both')
-    
 #    handles, labels = ax.get_legend_handles_labels()
 #    labels, handles = zip(*sorted(zip(map(float,labels), handles)))
 #    labels = map(formatLabel, labels)
@@ -177,9 +171,11 @@ def plotResponses(sp, r, sr, mode, subsample=False, subFactor=None):
     ax.yaxis.labelpad = 13
     plt.xlabel('Time (s)')
     plt.ylabel('|z|', rotation='horizontal')
+    plt.title(title)
     
-    sp.plot(plt)
-
+    plt.show()
+    plt.close()
+    
 
 if __name__ == '__main__':
     
@@ -211,11 +207,8 @@ if __name__ == '__main__':
                     method = methods[mKey]
                     f_norm = f_norms[fKey]
                 
-                    file = 'sine_{}_{:.0f}_{}_{}.pdf'.format(mode, sr/1000,
-                                                             mKey, fKey)
-                    savefile = os.path.join(savepath, file)
-                    sp = SavePlot(False, savefile, auto_overwrite=True)
-                    
+                    title = 'sine_{}_{:.0f}_{}_{}.pdf'.format(mode, sr/1000,
+                                                              mKey, fKey)
                     r = getResponses(sr, mode, method, f_norm)
                     
                     if sr > 48000:
@@ -225,22 +218,6 @@ if __name__ == '__main__':
                         subsample = False
                         subFactor = None
                     
-                    plotResponses(sp, r, sr, mode, subsample=subsample,
+                    plotResponses(title, r, sr, mode, subsample=subsample,
                                   subFactor=subFactor)
                     
-                
-    for mode in modes:
-        
-        file = '{}_legend.pdf'.format(mode)
-        savefile = os.path.join(savepath, file)
-        sl = SaveLegend(savefile)
-        
-        f = getFrequencies(mode)
-        if mode == 'low':
-            labels = ['{:.2f} Hz'.format(freq) for freq in f]
-        else:
-            labels = [formatLabel(freq) for freq in f]
-        c = getColours(mode)
-        
-        sl.plot(labels, colours=c, figsize=legend_sizes[mode], ncol=2,
-                title="Detector frequencies")

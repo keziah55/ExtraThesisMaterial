@@ -1,9 +1,8 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Created on Tue Jan 31 11:54:02 2017
-
-@author: keziah
+Test the amplitude normalistaion feature with responses generated with 
+different gains and damping factors.
 """
 
 

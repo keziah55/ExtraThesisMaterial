@@ -1,9 +1,8 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Created on Mon Nov 19 14:15:27 2018
-
-@author: keziah
+Find peak DetectorBank repsonses at frequencies across the whole range up to 
+the Nyquit frequency.
 """
 
 from system_bandwidth import EmpiricalBandwidth

@@ -1,9 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Created on Mon Nov 12 14:31:26 2018
-
-@author: keziah
+Plot the initial response of the DetectorBank under a range of circumstances.
 """
 
 import numpy as np
@@ -11,8 +9,6 @@ import itertools as it
 from detectorbank import DetectorBank
 import matplotlib.pyplot as plt
 import seaborn as sns
-from save_plot import SavePlot, SaveLegend
-import sys
 
 
 def where(lst, condition):
@@ -112,22 +108,8 @@ def plot(t, responses, labels):
     plt.xlabel('Time (ms)')
     plt.ylabel('|z|', rotation='horizontal')
     
-    sp = SavePlot(False, '../Visualisation/compare_initial_responses_freq_diff.pdf')
-    sp.plot(plt)
-    
-#    sl = SaveLegend('../Visualisation/compare_initial_responses_legend.pdf')
-#    savecolours = []
-#    for label in labels:
-#        k = label.split(',')[-1]
-#        k = k.strip()
-#        savecolours.append(colours[k])
-#    sl.save(labels, savecolours, figsize=(8.3,2), 
-#            title='Frequency, Bandwidth, Damping factor', ncol=4)
-    
-#    plt.legend(title='Freq, Bw, Damping', loc=(0,-2.5))
-#    plt.grid()
-#    plt.show()
-#    plt.close()
+    plt.show()
+    plt.close()
     
     
 def getDiff(responses, labels):
@@ -336,19 +318,9 @@ def getSrDampingDiff(freq, sample_rates):
         plt.ylabel('Difference (%)')
 #        plt.ylabel('|z|', rotation='horizontal')
         plt.legend(title='Damping factor')
-            
-        
-        savefile = ('../Visualisation/initial_response_diff_from_undamped_{:g}kHz.pdf'
-                    .format(sr/1000))
-#        savefile = ('../Visualisation/initial_response_{:g}kHz.pdf'
-#                    .format(sr/1000))
-    #    plt.savefig(savefile, format='pdf')
     
-        sp = SavePlot(False, savefile)
-        sp.plot(plt)
-    
-#        plt.show()
-#        plt.close()
+        plt.show()
+        plt.close()
 
 
 def testSR(f, sample_rates):
@@ -395,12 +367,8 @@ def testSR(f, sample_rates):
         ax = plt.gca()
         ax.yaxis.labelpad = 10
         
-        savefile = '../Visualisation/initial_response_{:g}kHz.pdf'.format(sr/1000)
-#        plt.savefig(savefile, format='pdf')
-        sp = SavePlot(False, savefile)
-        sp.plot(plt)
-#        plt.show()
-#        plt.close()
+        plt.show()
+        plt.close()
         
         
 def testSRconstantDamping(f, sample_rates):
@@ -440,13 +408,9 @@ def testSRconstantDamping(f, sample_rates):
         
     ax = plt.gca()
     ax.yaxis.labelpad = 10
-    
-    savefile = '../Visualisation/initial_response_d1e-4.pdf'
-#        plt.savefig(savefile, format='pdf')
-    sp = SavePlot(False, savefile)
-    sp.plot(plt)
-#        plt.show()
-#        plt.close()
+
+    plt.show()
+    plt.close()
     
 
 if __name__ == '__main__':

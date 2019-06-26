@@ -11,11 +11,7 @@ import matplotlib.pyplot as plt
 from matplotlib.ticker import MultipleLocator
 import seaborn as sns
 
-from save_plot import SavePlot
-
 sns.set_style('whitegrid')
-
-sp = SavePlot(False)
 
 def formatLabelFreq(label):
     if label == 27.5:
@@ -192,5 +188,6 @@ plt.ylabel('|z|', rotation='horizontal')
 # make plot slightly wider, so the legend doesn't overlap with the line
 plt.xlim(right=3.25)
 
-sp.plot(plt)
+plt.show()
+plt.close()
 

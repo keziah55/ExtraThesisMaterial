@@ -7,8 +7,6 @@ Generate scale_values.inc file
 import numpy as np
 from detectorbank import DetectorBank
 import matplotlib.pyplot as plt
-
-from save_plot import SavePlot
 import os
 
 
@@ -67,7 +65,7 @@ def getMax(f0, sr, method, f_norm):
     return mz, m, f_adjusted
 
 
-def getMaxResp(sp, f, sr, method, f_norm):
+def getMaxResp(f, sr, method, f_norm):
     
     max_abs = np.zeros(len(f))
     max_z = np.zeros(len(f), dtype=np.complex128)
@@ -80,19 +78,13 @@ def getMaxResp(sp, f, sr, method, f_norm):
         max_z[n] = mz
         f_adjusted[n] = f_det
 
-#    plt.plot(f, max_abs, color='dodgerblue') 
-#    
-#    ax = plt.gca()
-#    ax.grid(True)
-#    
-#    plt.xlabel('Frequency (Hz)')
-#    plt.ylabel('Max(|z|)')#, rotation='horizontal')
-#    
-#    #plt.yticks([0, 0.2, 0.4, 0.6, 0.8, 1.0])
-#    
-##    ax.yaxis.labelpad = 10
-#    
-#    sp.plot(plt)
+    plt.plot(f, max_abs, color='dodgerblue') 
+    ax = plt.gca()
+    ax.grid(True)
+    plt.xlabel('Frequency (Hz)')
+    plt.ylabel('Max(|z|)')
+    plt.show()
+    plt.close()
     
     return max_z, f_adjusted
 
@@ -147,14 +139,10 @@ if __name__ == '__main__':
         for mKey in methods:
             for fKey in f_norms:
                 
-                file = 'amp_decay_{:g}_{}_{}.pdf'.format(sr/1000, mKey, fKey)
-                savefile = os.path.join(savepath, file)
-                sp = SavePlot(False)#, savefile, auto_overwrite=True)
-                
                 method = methods[mKey]
                 f_norm = f_norms[fKey]
     
-                m, f = getMaxResp(sp, f, sr, method, f_norm)
+                m, f = getMaxResp(f, sr, method, f_norm)
                 
                 fVec.append(makeVectorStr('parameter_t', f))
                 sVec.append(makeVectorStr('discriminator_t', m))

@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Created on Wed Nov 14 11:03:22 2018
-
-@author: keziah
+Plot the small oscialltions in a low frequency response by subtracting a 
+response generated at a higher frequency, where the oscillations are less
+pronounced.
 """
 
 import numpy as np
