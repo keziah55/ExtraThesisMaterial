@@ -1,9 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Created on Wed Apr 17 13:00:04 2019
-
-@author: keziah
+Get numbers from onset_analysis files.
 """
 
 import subprocess

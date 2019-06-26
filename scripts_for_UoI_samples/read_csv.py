@@ -1,10 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Created on Thu Mar 21 17:36:58 2019
-
-@author: keziah
-
 Python script to add onsets from roll csv files to main onsets csv.
 
 Commented out code at the bottom tracks how much of the onsets.csv file

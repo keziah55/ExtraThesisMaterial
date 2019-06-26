@@ -1,10 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Created on Tue Apr  9 11:00:32 2019
-
-@author: keziah
-
 Read precision, recall and onsets from all onset_analysis files in a directory
 and write a Latex table.
 """

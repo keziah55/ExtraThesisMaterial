@@ -1,19 +1,13 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Created on Thu Apr 25 12:14:59 2019
-
-@author: keziah
-
 Make LaTeX tables of results and comparison of results with functions
 make_results_tables() and make_comparison_tables()
 """
 
 import os
 from make_report import make_table
-from plot_result_diff import plot_bar_diff
 from read_onset_analysis import read_onset_analysis
-from save_plot import SavePlot
 
 
 def compare(dir1, dir2, categories, cat_name=None):
@@ -186,10 +180,7 @@ def make_comparison_tables(dirs, resultspath, outpath=None):
         make_table(d, outfile, comment=comment, fmt=':.6g', header=header,
                    mode='ctabular')
         
-#        sp = SavePlot(False)
-#        plot_bar_diff(d, sp)
-    
-    
+
 def get_categories(key):
     """ Get 'categories' list and 'cat_name' dict for given key.
     
@@ -348,14 +339,14 @@ def get_categories(key):
     
 if __name__ == '__main__':
     
-    user = os.path.expanduser('~')
-    path = os.path.join(user, 'onsets', 'hsj', 'Sandpit', 'results', 'Iowa')
-    
-    resultsdirs = ['4_Apr_3', '6_Apr_2', '5_Apr_1', '6_Apr_3']
+    resultsdirs = ['results/low_damping/with_last-first', 
+                   'results/high_damping/with_last-first',
+                   'results/low_damping/without_last-first',  
+                   'results/high_damping/without_last-first']
     
     for resultsdir in resultsdirs:
         print('Making results tables from {}'.format(resultsdir))
-        make_results_tables(os.path.join(path, resultsdir))
+        make_results_tables(resultsdir)
     
     
 #    print('Making comparison tables from {} and {}'.format(*resultsdirs))
