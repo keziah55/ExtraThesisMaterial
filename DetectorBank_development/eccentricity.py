@@ -7,9 +7,7 @@ Plot complex response, in which orbital eccentricity can be seen.
 import numpy as np
 from detectorbank import DetectorBank
 import matplotlib.pyplot as plt
-from save_plot import SavePlot
 import seaborn as sns
-import os.path
 
 
 def formatLabel(label):
@@ -103,12 +101,8 @@ def plot_complex(f0, i, nOsc, end):
     fig = plt.gcf()
     fig.set_size_inches(8, 8)
     
-    savefile = 'complex_response_{}Hz_{}{}.pdf'.format(f[0], end, nOsc)
-    savepath = '.' 
-    
-    sp = SavePlot(False, os.path.join(savepath, savefile), auto_overwrite=True)
-    
-    sp.plot(plt)          
+    plt.show()
+    plt.close()         
     
     return e
     

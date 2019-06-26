@@ -68,9 +68,10 @@ altered to take the FLC, instead of the bandwidth.
 
 - **amp_in_out.py** plots the maximum output amplitude for various input amplitudes, as seen in Figure 2.25.
 
-- **amp_norm_test.py** tests the amplitude normalisation feature and produces the graphs in Figure 2.26.
+- **amp_norm_test_1.py** tests the amplitude normalisation feature and produces the graphs in Figure 2.26.
 
-
+- **amp_norm_test_2.py** again tests amplitude normalisation, but this time plots the complex orbits 
+given in Figure 2.27 (similar to **eccentricity.py**) 
 
 
 

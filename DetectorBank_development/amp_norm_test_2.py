@@ -11,7 +11,6 @@ import numpy as np
 from detectorbank import DetectorBank
 import matplotlib.pyplot as plt
 import seaborn as sns
-from save_plot import SavePlot
 
 
 def getEllipseParams(x, y):
@@ -32,7 +31,7 @@ def getMaxima(x, y):
     return mx_x, mx_y
 
         
-def plot_complex(f0, a_norm, sp):
+def plot_complex(f0, a_norm):
     
     sr = 48000
     
@@ -45,7 +44,7 @@ def plot_complex(f0, a_norm, sp):
     f_norm = DetectorBank.freq_unnormalized
     
     d = 0.0001
-    gain = 5
+    gain = 25
     f = np.array([f0])
     bandwidth = np.zeros(len(f))
     det_char = np.array(list(zip(f, bandwidth)))
@@ -92,28 +91,20 @@ def plot_complex(f0, a_norm, sp):
     plt.ylim(-1.05,1.05)
     plt.grid(True)
     
-#    plt.title('{}Hz'.format(f0))
     plt.xlabel('real')
     plt.ylabel('imag')
         
     fig.set_size_inches(8, 8)
     
-    sp.plot(plt)
-    
-#    plt.show()
-#    plt.savefig('../Visualisation/complex_response_5Hz_last5_norm.pdf', 
-#                format='pdf')
-#    plt.close()
+    plt.show()
+    plt.close()
     
     return e
     
 if __name__ == '__main__':
     
-    plt.style.use('thesis-square-fig')
     sns.set_style('whitegrid')
     
-#    a_norms = {'Unnormalised' : DetectorBank.amp_unnormalized, 
-#               'Normalised' : DetectorBank.amp_normalized}
     a_norms = {'again' : DetectorBank.amp_unnormalized, 
                'norm' : DetectorBank.amp_normalized}
     
@@ -121,9 +112,7 @@ if __name__ == '__main__':
     
     for k in a_norms.keys():
         a_norm = a_norms[k]
-        savefile = '../Visualisation/complex_response_5Hz_last5_{}.pdf'.format(k)
-        sp = SavePlot(False, savefile)
-        e = plot_complex(f0, a_norm, sp)
+        e = plot_complex(f0, a_norm)
         print('** {} **'.format(k))
         print('Eccentricity: {:g}\n'.format(e))
         
