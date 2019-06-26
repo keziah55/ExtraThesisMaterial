@@ -1,9 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Created on Wed Nov 28 15:27:34 2018
-
-@author: keziah
+Class to test the OnsetDetector with the Iowa samples.
 """
 
 import numpy as np

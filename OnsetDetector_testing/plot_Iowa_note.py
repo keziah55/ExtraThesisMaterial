@@ -1,9 +1,8 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Created on Wed May  1 15:15:05 2019
-
-@author: keziah
+Plot the waveform of a note, optionally with manually and/or automatically
+found onsets.
 """
 
 import os.path
@@ -94,12 +93,10 @@ def plot_audio(file, sp, manual_onsets=None, found_onsets=None):
 
 if __name__ == '__main__':
     
-    plt.style.use('thesis-small-fig')
-    
     user = os.path.expanduser('~')
     audio_root_dir = os.path.join(user, 'Iowa', 'all')
     percussion_dir = os.path.join(audio_root_dir, 'Percussion')
-    savepath = '/home/keziah/Documents/writing/thesis/figures/'
+    savepath = '.'
     
     params = {
             'bow':{'file':'Vibraphone.bow/Vibraphone.bow.A4.stereo.wav',

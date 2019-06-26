@@ -10,5 +10,8 @@ Each directory contains it's own readme, describing the files.
 The 'OnsetDetector_testing' readme will be updated shortly.
 
 I've tried to tidy up the files, but let me know if anything is unclear.
-A number of the files may use `SavePlot` or `SaveLegend` objects, which can 
-be found [here](https://github.com/keziah55/save_plot).
+A number of the OnsetDetector_testing files may use `SavePlot` or `SaveLegend` 
+objects, which can be found [here](https://github.com/keziah55/save_plot).
+Alternatively, SavePlot commands can be replaced with 
+[`matplotlib.pyplot.savefig()`](https://matplotlib.org/3.1.0/api/_as_gen/matplotlib.pyplot.savefig.html)
+or similar.
