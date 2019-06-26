@@ -1,9 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Created on Thu Mar 21 10:45:31 2019
-
-@author: keziah
+Write csv file of all onset times.
 """
 
 import os
