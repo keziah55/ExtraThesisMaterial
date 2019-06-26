@@ -1,9 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Created on Sun Mar 31 21:47:29 2019
-
-@author: keziah
+Plot the mean log of audio samples, with onset marked.
 """
 
 from detectorbank import DetectorBank, NoteDetector, OnsetDict

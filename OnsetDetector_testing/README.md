@@ -26,7 +26,8 @@ available [here](https://github.com/keziah55/save_plot).
 
 - **analyse_iowa_samples.py** does all the onset analysis of the Iowa samples. It then uses 
 **do_all_onset_checking.py** to write analysis files for all the samples and by sample category,
-by calling methods from **check_onsets.py**.
+by calling methods from **check_onsets.py**. Also uses **join_results.py** to put all results in 
+a single `found_onsets.csv` file.
 
 - **count_onsets.py** contains functions to count the total number of onsets in the 
 University of Iowa musical instrument samples.
@@ -47,7 +48,16 @@ Uses functions from **make_report.py** and **read_onset_analysis.py**.
 
 - **octave_analysis.py** reports the mean, median and standard deviation of results across octaves.
 
+- **plot_mean_log.py** is used to plot the mean log of various samples, shown in a number of figures 
+in Sections 3.4 and 3.5 of the thesis.
 
 - **plot_band_responses.py** can be used to plot the responses of a whole band of detectors, given
 a sample. Manual/automatic onsets can also be plotted.
+
+- **compare_mirex.py** compares the OnsetDetector results with equivalent categories in the MIREX 2018 results.
+
+- **plot_segs_with_onsets.py** plots segment mean logs and onsets.
+
+
+
 

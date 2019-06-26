@@ -1,9 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Created on Thu Mar 28 20:06:34 2019
-
-@author: keziah
+Called by analyse_iowa_samples.py to put all results in single csv file.
 """
 
 import os
@@ -45,4 +43,4 @@ if __name__ == '__main__':
     resultsdir = os.path.join(user, 'onsets', 'hsj', 'Sandpit', 
                               'results', 'Iowa', outdir)
     
-    out = join_results(resultsdir, 'found_onsets2.csv')
+    out = join_results(resultsdir, 'found_onsets.csv')

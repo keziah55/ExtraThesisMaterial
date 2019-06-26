@@ -195,11 +195,15 @@ def _get_item_from_series(series, column, try_scalar=True):
 
 if __name__ == '__main__':
     
-#    plt.style.use('thesis-small-fig')
-    
     audiopath = '/home/keziah/Iowa/all/'
-    resultspath = '/home/keziah/onsets/hsj/Sandpit/results/Iowa/'
-    whichdir = '6_Apr_2' # '4_Apr_3' # 
+    resultspath = 'results'
+    
+    resultsdirs = ['low_damping/with_last-first', 
+                   'low_damping/without_last-first', 
+                   'high_damping/with_last-first', 
+                   'high_damping/without_last-first']
+    
+    whichdir = resultsdirs[2]
 #    dir1 = 'Piano_Guitar' # 'Strings' # 'Percussion' # 
 #    dir2 = 'Piano' #'Bass.arco.ff.sulA' # 'Xylophone.rosewood' # 'Marimba.rubber' #
 #    
