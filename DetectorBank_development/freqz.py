@@ -1,21 +1,25 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Plot frequency response curve from a whole DetectorBank driven by a 400Hz tone
+Plot frequency response curve from a whole DetectorBank driven by a 400Hz tone,
+white noise or a tone in the presence of white noise at a signal-to-noise ratio
+of either -4dB or -15dB.
 """
 
 import numpy as np
 import peakdetect as pk
 import matplotlib.pyplot as plt
-from save_plot import SavePlot
 import seaborn as sns
 import os.path
 
 sns.set_style('whitegrid')
 
-sp = SavePlot(False)
+# Choose between DetectorBank response to tone, white noise, or both noise 
+# and tone at SNR of -4dB or -15dB
+modes = ['tone', 'noise', 'snr-4', 'snr-15']
+mode = modes[0]
 
-file = os.path.join('freqz_400_48000_5e-04.csv')
+file = os.path.join('../Data', 'freqz_400_48000_5e-04_{}.csv'.format(mode))
 arr = np.loadtxt(file, delimiter='\t', skiprows=1)
 
 freq = arr[:,0]
@@ -40,4 +44,5 @@ plt.xlabel('Frequency (Hz)')
 plt.ylabel('Peak amplitude (dB)')
 plt.grid(True, which='both')
 
-sp.plot(plt)
+plt.show()
+plt.close()
