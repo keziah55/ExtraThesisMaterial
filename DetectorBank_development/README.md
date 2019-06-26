@@ -16,7 +16,7 @@ Figures 2.4 and 2.7. Requires `peakdetect.py`, originally found
 orbital eccentricity. Figures 2.5 and 2.6.
 
 - **uncertainty.py** measures how quickly an off-centre response is rejected and 
-finds the subsequent $\Delta t \Delta f$ product.
+finds the subsequent &Delta t &Delta f product.
 
 - **amp_scaling.py** generates Figure 2.12, which shows the decay in response amplitude
  as frequency increases. This script calculates this at two sample rates, for both
