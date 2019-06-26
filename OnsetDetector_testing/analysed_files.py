@@ -1,9 +1,8 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Created on Fri Mar 29 10:50:26 2019
-
-@author: keziah
+Check which files have been analysed, with results appearing in the 
+found_onsets.csv file.
 """
 
 import pandas as pd

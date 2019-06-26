@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Created on Thu May  2 19:24:40 2019
-
-@author: keziah
+Given an Iowa sample name, create a DetectorBank for a band of responses around 
+the fundamental frequency and plot all the responses. Onset times can also be
+plotted.
 """
 
 import os.path

@@ -1,9 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Created on Wed Apr 24 12:44:57 2019
-
-@author: keziah
+Check all onsets returned by the OnsetDetector, altogether and by category.
 """
 
 import pandas as pd
@@ -155,16 +153,11 @@ def make_all_reports(resultsdir, resultssubdir='result_analysis'):
     
 if __name__ == '__main__':
     
-    dirs = ['4_Apr_3', '5_Apr_1', '6_Apr_2' , '6_Apr_3']
-    resultspath = '/home/keziah/onsets/hsj/Sandpit/results/Iowa/'
+    dirs = ['low_damping/with_last-first', 'low_damping/without_last-first', 
+            'high_damping/with_last-first', 'high_damping/without_last-first']
+    resultspath = 'results'
     
     for dr in dirs:
         path = os.path.join(resultspath, dr)
         check_onsets(path)
-        
-#    check_onsets_all_breakdown(path)
-    
-    
-    
-
-        
+                

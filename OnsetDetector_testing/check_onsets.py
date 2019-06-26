@@ -507,10 +507,9 @@ if __name__ == '__main__':
     
     user = os.path.expanduser('~')
     audio_path = os.path.join(user, 'Iowa', 'all')
-    onsets_path = os.path.join(user, 'Iowa', 'onsets')
+    onsets_path = os.path.join('..', 'Data')
     
-    resultsdir = os.path.join(user, 'onsets', 'hsj', 'Sandpit', 
-                              'results', 'Iowa')
+    resultsdir = os.path.join('results')
     
     tolerance = 50
     

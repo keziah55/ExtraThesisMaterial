@@ -1,9 +1,8 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Created on Thu Nov 29 13:54:23 2018
-
-@author: keziah
+Analyse all Iowa samples, using SCOOP. If you don't want to use SCOOP, simply
+comment out the import statement
 """
 
 import numpy as np
@@ -11,11 +10,9 @@ from detectorbank import DetectorBank, NoteDetector, OnsetDict
 import soundfile as sf
 import matplotlib.pyplot as plt
 from save_plot import SavePlot
-from check_onsets import CheckOnsets
 from do_all_onset_checking import check_onsets_all_breakdown
 from join_results import join_results
 from analysed_files import get_analysed_files
-#from plot_segs import plot_segs
 import os
 import time
 from datetime import datetime
@@ -96,17 +93,20 @@ def _get_dir1_dir2(root, path):
     
         
 def analyse(file, outdir='.', audio_path='.'):
+    if 'scoop' in sys.modules:
+        print_func = scoop.logger.info
+    else:
+        print_func = print
+        
     out = []
     try:
         out = _get_onsets(file, plot_onset=False, outdir=outdir, 
                           audio_path=audio_path)
         msg = '{} completed'.format(file)
-        print(msg)
-#        scoop.logger.info(msg)
+        print_func(msg)
     except Exception as err:
         msg = '{}: {}'.format(file, err)
-        print(msg)
-#        scoop.logger.error(msg)
+        print_func(msg)
     return out
 
 
@@ -363,12 +363,18 @@ def getNDargs():
 
 if __name__ == '__main__':
     
+    import sys
+    
+    if 'scoop' in sys.modules:
+        map_func = scoop.futures.map
+    else:
+        map_func = map
+    
     user = os.path.expanduser('~')
     audio_path = os.path.join(user, 'Iowa', 'all')
-    onsets_path = os.path.join(user, 'Iowa', 'onsets')
+    onsets_path = os.path.join('..', 'Data')
     
-    resultsdir = os.path.join(user, 'onsets', 'hsj', 'Sandpit', 
-                              'results', 'Iowa')
+    resultsdir = os.path.join('results')
     
     # get directory to write to
     # outdir will be of form 26_Mar_X
@@ -415,11 +421,10 @@ if __name__ == '__main__':
     
     # 'analyse' returns a string of csv-formatted data
     func = lambda f: analyse(f, outdir=outdir, audio_path=audio_path)
-#    csvdata = list(scoop.futures.map(func, all_files))
-    csvdata = list(map(func, all_files))
+    csvdata = list(map_func(func, all_files))
         
-####    plot_segs(os.path.join(outdir, outfile), savepath=outdir)
-        
+#### if running on multiple machines, you may want to include these lines to
+#### copy results over
 #    for d in ['results', 'log']:
 #        path = os.path.join(outdir, d)
 #
@@ -428,31 +433,6 @@ if __name__ == '__main__':
 #                        path])
         
     join_results(outdir, outfile)
-    
-    check_onsets_all_breakdown(outdir)
-
-#     # do all onset analysis
-#    c = CheckOnsets(onsets_path, outdir, tolerance=tolerance)
-#    c.check(write=True, outpath=outdir)
-#    
-#    # analyse results by instrument type
-#    dirs = ['Brass', 'Percussion', 'Strings', 'Woodwind', 'Piano_Guitar']
-#    for dr in dirs:
-#        print('  Checking {} files...'.format(dr))
-#        c = CheckOnsets(onsets_path, outdir, tolerance=tolerance)
-#        c.check(condition=['Dir1', '==', dr], write=True, outpath=outdir)
-#        
-#    # analyse piano and guitar results separately
-#    dirs = ['Piano', 'Guitar']
-#    for dr in dirs:
-#        print('  Checking {} files...'.format(dr))
-#        c = CheckOnsets(onsets_path, outdir, tolerance=tolerance)
-#        c.check(condition=['Dir2', '==', dr], write=True, outpath=outdir)
-#        
-#    # analyse percursion onsets with and without rolls
-#    conditions = ['roll', 'no_roll']
-#    for condition in conditions:
-#        c = CheckOnsets(onsets_path, outdir, tolerance=tolerance)
-#        c.check(condition=condition, write=True, outpath=outdir)
-        
   
+    # check onsets and write analysis files
+    check_onsets_all_breakdown(outdir)
