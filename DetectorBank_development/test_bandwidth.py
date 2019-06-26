@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Created on Wed May 29 14:36:01 2019
-
-@author: keziah
+This script can be used to test that requesting a given bandwidth results
+in responses approximately 3dB below that of an on-centre minimum bandwidth
+detector.
 """
 
 import numpy as np
@@ -57,7 +57,7 @@ for k in range(len(r)):
     
 plt.ylabel('|z|', rotation='horizontal')
 plt.xlabel('Time (s)')
-plt.grid()
+plt.grid(True)
 plt.show()
 plt.close()
 

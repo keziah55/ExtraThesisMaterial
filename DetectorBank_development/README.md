@@ -15,6 +15,9 @@ Figures 2.4 and 2.7. Requires `peakdetect.py`, originally found
 - **eccentricity.py** plots the complex response at 5Hz and 400Hz, to illustrate
 orbital eccentricity. Figures 2.5 and 2.6.
 
+- **uncertainty.py** measures how quickly an off-centre response is rejected and 
+finds the subsequent $\Delta t \Delta f$ product.
+
 - **amp_scaling.py** generates Figure 2.12, which shows the decay in response amplitude
  as frequency increases. This script calculates this at two sample rates, for both
  numerical methods and both with and without frequency normalisation, and was originally
@@ -53,6 +56,9 @@ in Figure 2.19.
 - **test_detector_bandwidth.py** uses methods defined in **detector_bandwidth.py** to find empirical
 values for the minimum detector bandwidth at various sample rates and damping factors. Figure 2.20
 is plotted from data generated here.
+
+- **test_bandwidth.py** can be used to test that requesting a given bandwidth results in responses 
+approximately 3dB below that of an on-centre minimum bandwidth detector.
 
 - **get_rise_relax_time.py** finds the rise and relaxation times, given in Figure 2.21 and Tables 2.8
 and 2.9.

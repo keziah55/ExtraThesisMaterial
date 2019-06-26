@@ -8,20 +8,10 @@ be applied.
 import numpy as np
 from detectorbank import DetectorBank
 import matplotlib.pyplot as plt
-from save_plot import SavePlot, SaveLegend
-import os.path
-
 import seaborn as sns
+
 sns.set_style('whitegrid')
  
-savepath = '/home/keziah/onsets/hsj/Visualisation/'
-savefile = 'f_mod_rk4.pdf'
-base, ext = os.path.splitext(savefile)
-savelegend = base + '_legend' + ext
-
-sp = SavePlot(False, os.path.join(savepath, savefile))
-sl = SaveLegend(os.path.join(savepath, savelegend))
-
 sr = 48000
 
 f = np.array([1300, 1400, 1500, 1600, 1700, 1800])
@@ -74,31 +64,10 @@ plt.ylabel('|z|', rotation='horizontal')
     
 #plt.legend()
 plt.grid(True)
-#ax = plt.gca()
-#ax.grid(True)
 
-
-sp.plot(plt)
-
+plt.show()
+plt.close()
 
 for k in range(r.shape[0]):
     samp = int(((k+0.5)*dur) * sr)
     print('{}Hz, Amplitude: {:.3f}'.format(f[k], r[k][samp]))
-
-
-# making a legend with two rows (rather than four columns)
-# need to re-order colours and labels so that the legend doesn't look weird
-
-#idx = [0, 4, 1, 5, 2, 6, 3]
-idx = [0, 3, 1, 4, 2, 5]
-new_c = []
-new_l = []
-for i in idx:
-    new_c.append(c[i])
-    new_l.append(labels[i])
-
-# figsize=(4.7, 0.5) for ncol=4
-#sl.plot(new_l, colours=new_c, ncol=3, figsize=(3.6, 0.6), 
-#        title='Detector frequencies')
-
-
