@@ -1,6 +1,14 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
 """
 Interactive visualisation of DetectorBank responses in complex plane
 """
+
+## pulseaudio --kill  
+## jack_control  start
+
+## jack_control exit  
+## pulseaudio --start
 
 import numpy as np
 import pyqtgraph as pg
@@ -18,16 +26,37 @@ def getDeviceID(name='TASCAM'):
                for i in range(numdevices)]
     devices = [device for device in devices if device['maxInputChannels'] > 0]
     
-    devices = [device for device in devices if name in device['name']]
+    selected_devices = [device for device in devices if name in device['name']]
     
-    if len(devices) == 1:
-        idx = devices[0]['index']
+    if len(selected_devices) == 1:
+        idx = selected_devices[0]['index']
         return idx
-    elif len(devices) > 1:
-        print("Multiple devices match name '{}':\n{}".format(name, devices))
+    elif len(selected_devices) > 1:
+        print("Multiple devices match name '{}':\n{}".format(name, 
+              [dev['name'] for dev in selected_devices]))
     else:
-        print("No devices match name '{}'".format(name))
+        print("No devices match name '{}'. Please choose from:\n{}".format(name, 
+              [dev['name'] for dev in selected_devices]))
+
+
+def makeDetectorBank():
+    # detector parameters
+    edo = 12
+    f = np.array(list(440 * 2**(n/edo) for n in range(-48, 40)))
+    method = DetectorBank.runge_kutta 
+    f_norm = DetectorBank.freq_unnormalized
+    a_norm = DetectorBank.amp_normalized
+    dmp = 0.0001
+    gain = 5
     
+    bandwidth = np.zeros(len(f))
+    bandwidth.fill(0)
+    det_char = np.array(list(zip(f, bandwidth)))
+    
+    det = DetectorBank(sr, np.zeros(buflen, dtype=np.dtype('float32')), 4, 
+                       det_char, method|f_norm|a_norm, dmp, gain)
+    return det
+
 
 # initialise pyaudio
 fmt = pyaudio.paInt16
@@ -35,18 +64,14 @@ channels = 1
 sr = 48000
 buflen = int(sr*30e-3)
 
-# detector parameters
-f = np.array(list(440 * 2**(n/12) for n in range(-12, 13)))
-method = DetectorBank.runge_kutta 
-f_norm = DetectorBank.freq_unnormalized
-a_norm = DetectorBank.amp_unnormalized
-d = 0.0001
-gain = 5
 
-bandwidth = np.zeros(len(f))
-bandwidth.fill(5)
-det_char = np.array(list(zip(f, bandwidth)))
+det = DetectorBank("48k_12edo_amp_norm_min_bw", 
+                   np.zeros(buflen, dtype=np.dtype('float32')))
 
+#det = makeDetectorBank()
+num_chans = det.getChans()
+
+print(num_chans)
 
 QtGui.QApplication.setGraphicsSystem('raster')
 app = QtGui.QApplication([])
@@ -76,29 +101,24 @@ c = [pg.hsvColor(0/360),
      pg.hsvColor(200/360), 
      pg.hsvColor(230/360)]
 
-curves = [p.plot(pen=c[i%12]) for i in range(len(f))]
+curves = [p.plot(pen=c[i%12]) for i in range(num_chans)]
 
 p.setRange(xRange=(-axrx, axrx), yRange=(-axr, axr))
 
 
 audio = pyaudio.PyAudio()
 
-dev_id = getDeviceID('TASCAM')
+#dev_id = getDeviceID('TASCAM')
 
 stream = audio.open(format=fmt, channels=channels, rate=sr, input=True,
-                    frames_per_buffer=buflen, input_device_index=dev_id)
+                    frames_per_buffer=buflen)#, input_device_index=dev_id)
                     
     
-all_z = np.zeros((len(f), buflen), dtype=np.complex128)  
+all_z = np.zeros((num_chans, buflen), dtype=np.complex128)  
 #all_dz = np.zeros((len(f), buflen), dtype=np.complex128)
+#dz = np.zeros(buflen, dtype=np.complex128)
 
-dz = np.zeros(buflen, dtype=np.complex128)
-    
-
-det = DetectorBank(sr, np.zeros(buflen, dtype=np.dtype('float32')), 4, 
-                   det_char, method|f_norm|a_norm, d, gain)
-
-zp = np.zeros(len(f))
+zp = np.zeros(num_chans)
 
 
 def update():
@@ -112,7 +132,7 @@ def update():
 
     det.getZ(all_z)
     
-    for p in range(len(f)):
+    for p in range(num_chans):
         z = all_z[p]
         curve = curves[p]
         curve.setData(z.real, z.imag)
