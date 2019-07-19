@@ -4,9 +4,13 @@
 #include <QDateTime>
 #include <QDebug>
 #include <QPainter>
+#include <QHBoxLayout>
 #include <QVBoxLayout>
+#include <QPushButton>
 #include <QAudioDeviceInfo>
 #include <QAudioInput>
+#include <QSize>
+#include <QLabel>
 #include <qendian.h>
 
 #include "audioinput.h"
@@ -192,18 +196,44 @@ void InputTest::initializeWindow()
 
     m_canvas = new RenderArea(this);
     layout->addWidget(m_canvas);
+    
+    // layout for audio device and sample rate selection
+    QHBoxLayout *deviceLayout = new QHBoxLayout;
 
+    // make audio device selection box
     m_deviceBox = new QComboBox(this);
     const QAudioDeviceInfo &defaultDeviceInfo = QAudioDeviceInfo::defaultInputDevice();
-    m_deviceBox->addItem(defaultDeviceInfo.deviceName(), qVariantFromValue(defaultDeviceInfo));
+    m_deviceBox->addItem(defaultDeviceInfo.deviceName(), 
+                         qVariantFromValue(defaultDeviceInfo));
     for (auto &deviceInfo: QAudioDeviceInfo::availableDevices(QAudio::AudioInput)) {
-        if (deviceInfo != defaultDeviceInfo)
-            m_deviceBox->addItem(deviceInfo.deviceName(), qVariantFromValue(deviceInfo));
+        if (deviceInfo != defaultDeviceInfo) {
+            m_deviceBox->addItem(deviceInfo.deviceName(), 
+                                 qVariantFromValue(deviceInfo));
+        }
     }
 
-    connect(m_deviceBox, QOverload<int>::of(&QComboBox::activated), this, &InputTest::deviceChanged);
-    layout->addWidget(m_deviceBox);
+    connect(m_deviceBox, QOverload<int>::of(&QComboBox::activated), this, 
+            &InputTest::deviceChanged);
+    
+    // make sample rate label and textedit
+    QLabel *m_sRateLabel = new QLabel("Sample rate:");
+    
+    // user can choose between 44.1 and 48kHz
+    m_sRateBox = new QComboBox();
+    m_sRateBox->addItem("44100");
+    m_sRateBox->addItem("48000");
+    m_sRateBox->setCurrentIndex(1);
+    
+    // add device and sr widgets to local layout
+    deviceLayout->addWidget(m_deviceBox);
+    deviceLayout->addWidget(m_sRateLabel);
+    deviceLayout->addWidget(m_sRateBox);
+    
+    // add device layout to main layout
+    layout->addLayout(deviceLayout);
 
+    
+    // volume slider
     m_volumeSlider = new QSlider(Qt::Horizontal, this);
     m_volumeSlider->setRange(0, 100);
     m_volumeSlider->setValue(100);
@@ -214,9 +244,7 @@ void InputTest::initializeWindow()
     connect(m_modeButton, &QPushButton::clicked, this, &InputTest::toggleMode);
     layout->addWidget(m_modeButton);
 
-//     m_suspendResumeButton = new QPushButton(this);
-//     connect(m_suspendResumeButton, &QPushButton::clicked, this, &InputTest::toggleSuspend);
-//     layout->addWidget(m_suspendResumeButton);
+    
 
     window->setLayout(layout);
 

@@ -11,6 +11,7 @@
 #include <QObject>
 #include <QPixmap>
 #include <QPushButton>
+#include <QTextEdit>
 #include <QSlider>
 #include <QWidget>
 #include <QScopedPointer>
@@ -95,6 +96,7 @@ private:
     QPushButton *m_modeButton = nullptr;
 //     QPushButton *m_suspendResumeButton = nullptr;
     QComboBox *m_deviceBox = nullptr;
+    QTextEdit *m_sRateEdit = nullptr;
     QSlider *m_volumeSlider = nullptr;
 
     QScopedPointer<AudioInfo> m_audioInfo;
