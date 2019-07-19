@@ -66,16 +66,16 @@ class InputTest : public QMainWindow
     Q_OBJECT
 
 public:
-    /*! Make object to process input
-     * \param sr Sample rate
-     */
-    InputTest(const int sr);
+    /*! Make object to process input */
+    InputTest();
     
 protected:
     void makeDetectorBank();
+    int getSampleRateInt();
+    double getSampleRateDbl();
     
     /*! Sample rate */
-    const int sr;      
+//     const int sr;      
     /*! DetectorBank that produces values */
     std::unique_ptr<DetectorBank> db; 
 
@@ -96,7 +96,7 @@ private:
     QPushButton *m_modeButton = nullptr;
 //     QPushButton *m_suspendResumeButton = nullptr;
     QComboBox *m_deviceBox = nullptr;
-    QTextEdit *m_sRateEdit = nullptr;
+    QComboBox *m_sRateBox = nullptr;
     QSlider *m_volumeSlider = nullptr;
 
     QScopedPointer<AudioInfo> m_audioInfo;

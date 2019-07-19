@@ -1,5 +1,6 @@
 #include <stdlib.h>
 #include <math.h>
+#include <stdexcept>
 
 #include <QDateTime>
 #include <QDebug>
@@ -180,8 +181,7 @@ void RenderArea::setLevel(qreal value)
 }
 
 
-InputTest::InputTest(const int sr)
-  : sr(sr)
+InputTest::InputTest()
 {
     initializeWindow();
     initializeAudio(QAudioDeviceInfo::defaultInputDevice());
@@ -231,6 +231,9 @@ void InputTest::initializeWindow()
     
     // add device layout to main layout
     layout->addLayout(deviceLayout);
+    
+    // DetectorBank parameters layout 
+    // grid layout
 
     
     // volume slider
@@ -254,8 +257,9 @@ void InputTest::initializeWindow()
 
 void InputTest::initializeAudio(const QAudioDeviceInfo &deviceInfo)
 {
+    const int sr_int = getSampleRateInt();
     QAudioFormat format;
-    format.setSampleRate(sr);
+    format.setSampleRate(sr_int);
     format.setChannelCount(1);
     format.setSampleSize(16);
     format.setSampleType(QAudioFormat::SignedInt);
@@ -343,8 +347,8 @@ void InputTest::sliderChanged(int value)
 }
 
 void InputTest::makeDetectorBank()
-{
-    const double sr_dbl = static_cast<double>(sr);
+{    
+    const double sr_dbl = getSampleRateDbl();
     const double bandwidth {0};
     const double dmp {0.0001};
     const double gain {5.};
@@ -372,7 +376,34 @@ void InputTest::makeDetectorBank()
                                 DetectorBank::Features::amp_unnormalized), 
                               dmp, gain));  
     
-    std::cout << "Made DetectorBank with " << db->getChans() << " channels\n";
+    std::cout << "Made DetectorBank with " << db->getChans() << " channels ";
+    std::cout << "and sample rate of " << db->getSR() << "Hz\n";
+}
+
+int InputTest::getSampleRateInt()
+{
+    int sr; 
+    int srIdx { m_sRateBox->currentIndex() };
     
+    if (srIdx==0)
+        sr = 44100;
+    else if (srIdx==1)
+        sr = 48000;
+    else
+        throw std::invalid_argument("Sample rate should be 44100 or 48000.");
+    return sr;
+}
+
+double InputTest::getSampleRateDbl()
+{
+    double sr;
+    int srIdx { m_sRateBox->currentIndex() };
     
+    if (srIdx==0)
+        sr = 44100.;
+    else if (srIdx==1)
+        sr = 48000.;
+    else
+        throw std::invalid_argument("Sample rate should be 44100 or 48000.");
+    return sr;
 }
