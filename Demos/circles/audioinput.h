@@ -53,7 +53,7 @@
 
 #include <QAudioInput>
 #include <QByteArray>
-#include <QChart>
+// #include <QChart>
 #include <QComboBox>
 #include <QMainWindow>
 #include <QObject>
@@ -112,6 +112,9 @@ class InputTest : public QMainWindow
 
 public:
     InputTest();
+    
+protected:
+    void makeDetectorBank();
 
 private:
     void initializeWindow();
@@ -119,7 +122,7 @@ private:
 
 private slots:
     void toggleMode();
-    void toggleSuspend();
+//     void toggleSuspend();
     void deviceChanged(int index);
     void sliderChanged(int value);
 
@@ -127,7 +130,7 @@ private:
     // Owned by layout
     RenderArea *m_canvas = nullptr;
     QPushButton *m_modeButton = nullptr;
-    QPushButton *m_suspendResumeButton = nullptr;
+//     QPushButton *m_suspendResumeButton = nullptr;
     QComboBox *m_deviceBox = nullptr;
     QSlider *m_volumeSlider = nullptr;
 

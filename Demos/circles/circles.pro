@@ -10,4 +10,8 @@ SOURCES       = audioinput.cpp \
 
 target.path = .
 INSTALLS += target
-#include(../../shared/shared.pri)
+
+INCLUDEPATH += /usr/local/include/detectorbank
+DEPENDPATH += ./usr/local/include/detectorbank
+
+unix:!macx: PRE_TARGETDEPS += /usr/local/lib/libdetectorbank.a

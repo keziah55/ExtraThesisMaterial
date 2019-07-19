@@ -50,6 +50,8 @@
 
 #include "audioinput.h"
 
+#include "detectorbank.h"
+
 #include <stdlib.h>
 #include <math.h>
 
@@ -261,9 +263,9 @@ void InputTest::initializeWindow()
     connect(m_modeButton, &QPushButton::clicked, this, &InputTest::toggleMode);
     layout->addWidget(m_modeButton);
 
-    m_suspendResumeButton = new QPushButton(this);
-    connect(m_suspendResumeButton, &QPushButton::clicked, this, &InputTest::toggleSuspend);
-    layout->addWidget(m_suspendResumeButton);
+//     m_suspendResumeButton = new QPushButton(this);
+//     connect(m_suspendResumeButton, &QPushButton::clicked, this, &InputTest::toggleSuspend);
+//     layout->addWidget(m_suspendResumeButton);
 
     window->setLayout(layout);
 
@@ -274,7 +276,7 @@ void InputTest::initializeWindow()
 void InputTest::initializeAudio(const QAudioDeviceInfo &deviceInfo)
 {
     QAudioFormat format;
-    format.setSampleRate(8000);
+    format.setSampleRate(48000);
     format.setChannelCount(1);
     format.setSampleSize(16);
     format.setSampleType(QAudioFormat::SignedInt);
@@ -303,7 +305,7 @@ void InputTest::initializeAudio(const QAudioDeviceInfo &deviceInfo)
 void InputTest::toggleMode()
 {
     m_audioInput->stop();
-    toggleSuspend();
+//     toggleSuspend();
 
     // Change bewteen pull and push modes
     if (m_pullMode) {
@@ -329,19 +331,19 @@ void InputTest::toggleMode()
     m_pullMode = !m_pullMode;
 }
 
-void InputTest::toggleSuspend()
-{
-    // toggle suspend/resume
-    if (m_audioInput->state() == QAudio::SuspendedState || m_audioInput->state() == QAudio::StoppedState) {
-        m_audioInput->resume();
-        m_suspendResumeButton->setText(tr("Suspend recording"));
-    } else if (m_audioInput->state() == QAudio::ActiveState) {
-        m_audioInput->suspend();
-        m_suspendResumeButton->setText(tr("Resume recording"));
-    } else if (m_audioInput->state() == QAudio::IdleState) {
-        // no-op
-    }
-}
+// void InputTest::toggleSuspend()
+// {
+//     toggle suspend/resume
+//     if (m_audioInput->state() == QAudio::SuspendedState || m_audioInput->state() == QAudio::StoppedState) {
+//         m_audioInput->resume();
+//         m_suspendResumeButton->setText(tr("Suspend recording"));
+//     } else if (m_audioInput->state() == QAudio::ActiveState) {
+//         m_audioInput->suspend();
+//         m_suspendResumeButton->setText(tr("Resume recording"));
+//     } else if (m_audioInput->state() == QAudio::IdleState) {
+//         no-op
+//     }
+// }
 
 void InputTest::deviceChanged(int index)
 {
@@ -359,4 +361,11 @@ void InputTest::sliderChanged(int value)
                                                QAudio::LinearVolumeScale);
 
     m_audioInput->setVolume(linearVolume);
+}
+
+void InputTest::makeDetectorBank()
+{
+    
+    
+    
 }
