@@ -344,5 +344,7 @@ void InputTest::makeDetectorBank()
                                 DetectorBank::Features::amp_unnormalized), 
                               dmp, gain));  
     
+    std::cout << "Made DetectorBank with " << db->getChans() << " channels\n";
+    
     
 }
