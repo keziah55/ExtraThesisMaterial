@@ -14,4 +14,4 @@ INSTALLS += target
 INCLUDEPATH += /usr/local/include/detectorbank
 DEPENDPATH += ./usr/local/include/detectorbank
 
-unix:!macx: PRE_TARGETDEPS += /usr/local/lib/libdetectorbank.a
+unix:!macx: PRE_TARGETDEPS += /usr/local/lib/libdetectorbank.so

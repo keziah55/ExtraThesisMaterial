@@ -229,7 +229,7 @@ def get_note_num(note):
     
     octave = 'abcdefg'
     
-    if note[1] is 'b':
+    if note[1] == 'b':
         idx = octave.index(note[0]) - 1
         new_note = octave[idx]
         oct_num = note[2]

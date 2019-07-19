@@ -1,57 +1,3 @@
-/****************************************************************************
-**
-** Copyright (C) 2017 The Qt Company Ltd.
-** Contact: https://www.qt.io/licensing/
-**
-** This file is part of the examples of the Qt Toolkit.
-**
-** $QT_BEGIN_LICENSE:BSD$
-** Commercial License Usage
-** Licensees holding valid commercial Qt licenses may use this file in
-** accordance with the commercial license agreement provided with the
-** Software or, alternatively, in accordance with the terms contained in
-** a written agreement between you and The Qt Company. For licensing terms
-** and conditions see https://www.qt.io/terms-conditions. For further
-** information use the contact form at https://www.qt.io/contact-us.
-**
-** BSD License Usage
-** Alternatively, you may use this file under the terms of the BSD license
-** as follows:
-**
-** "Redistribution and use in source and binary forms, with or without
-** modification, are permitted provided that the following conditions are
-** met:
-**   * Redistributions of source code must retain the above copyright
-**     notice, this list of conditions and the following disclaimer.
-**   * Redistributions in binary form must reproduce the above copyright
-**     notice, this list of conditions and the following disclaimer in
-**     the documentation and/or other materials provided with the
-**     distribution.
-**   * Neither the name of The Qt Company Ltd nor the names of its
-**     contributors may be used to endorse or promote products derived
-**     from this software without specific prior written permission.
-**
-**
-** THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
-** "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
-** LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
-** A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
-** OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
-** SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
-** LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
-** DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
-** THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
-** (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
-** OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE."
-**
-** $QT_END_LICENSE$
-**
-****************************************************************************/
-
-#include "audioinput.h"
-
-#include "detectorbank.h"
-
 #include <stdlib.h>
 #include <math.h>
 
@@ -62,6 +8,9 @@
 #include <QAudioDeviceInfo>
 #include <QAudioInput>
 #include <qendian.h>
+
+#include "audioinput.h"
+#include "detectorbank.h"
 
 // TODO: fill short buffer with audio data, send to DetectorBank, call getZ
 // plot DetectorBank complex responses
@@ -227,10 +176,12 @@ void RenderArea::setLevel(qreal value)
 }
 
 
-InputTest::InputTest()
+InputTest::InputTest(int sr)
+  : sr(sr)
 {
     initializeWindow();
     initializeAudio(QAudioDeviceInfo::defaultInputDevice());
+    makeDetectorBank();
 }
 
 
@@ -276,7 +227,7 @@ void InputTest::initializeWindow()
 void InputTest::initializeAudio(const QAudioDeviceInfo &deviceInfo)
 {
     QAudioFormat format;
-    format.setSampleRate(48000);
+    format.setSampleRate(sr);
     format.setChannelCount(1);
     format.setSampleSize(16);
     format.setSampleType(QAudioFormat::SignedInt);
@@ -365,7 +316,32 @@ void InputTest::sliderChanged(int value)
 
 void InputTest::makeDetectorBank()
 {
+    const double bandwidth {0};
+    const double dmp {0.0001};
+    const double gain {5.};
+    float buffer[1];
+    buffer[0] = 0;
     
+    const double edo {12.};
+    const int lwr {-12};
+    const int upr {13};
+    
+    double freq[upr-lwr];
+    for (int i {0}; i<upr-lwr; i++) {
+        double k = static_cast<double>(lwr+i);
+        freq[i] = 440. * std::pow(2, (k/edo));
+    }
+    
+    std::size_t len = sizeof(freq)/sizeof(freq[0]);
+    double bw[len];
+    std::fill_n(bw, len, bandwidth); 
+    
+    db.reset(new DetectorBank(sr, buffer, 1, 0, freq, bw, len,
+                              static_cast<DetectorBank::Features>(
+                                DetectorBank::Features::runge_kutta|
+                                DetectorBank::Features::freq_unnormalized|
+                                DetectorBank::Features::amp_unnormalized), 
+                              dmp, gain));  
     
     
 }
