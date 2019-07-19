@@ -176,7 +176,7 @@ void RenderArea::setLevel(qreal value)
 }
 
 
-InputTest::InputTest(int sr)
+InputTest::InputTest(const int sr)
   : sr(sr)
 {
     initializeWindow();
@@ -316,11 +316,12 @@ void InputTest::sliderChanged(int value)
 
 void InputTest::makeDetectorBank()
 {
+    const double sr_dbl = static_cast<double>(sr);
     const double bandwidth {0};
     const double dmp {0.0001};
     const double gain {5.};
-    float buffer[1];
-    buffer[0] = 0;
+    const float buffer[] = {0.};
+    const std::size_t bufLen {1};
     
     const double edo {12.};
     const int lwr {-12};
@@ -332,11 +333,11 @@ void InputTest::makeDetectorBank()
         freq[i] = 440. * std::pow(2, (k/edo));
     }
     
-    std::size_t len = sizeof(freq)/sizeof(freq[0]);
+    const std::size_t len = sizeof(freq)/sizeof(freq[0]);
     double bw[len];
     std::fill_n(bw, len, bandwidth); 
     
-    db.reset(new DetectorBank(sr, buffer, 1, 0, freq, bw, len,
+    db.reset(new DetectorBank(sr_dbl, buffer, bufLen, 0, freq, bw, len,
                               static_cast<DetectorBank::Features>(
                                 DetectorBank::Features::runge_kutta|
                                 DetectorBank::Features::freq_unnormalized|

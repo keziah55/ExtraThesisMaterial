@@ -68,13 +68,13 @@ public:
     /*! Make object to process input
      * \param sr Sample rate
      */
-    InputTest(int sr);
+    InputTest(const int sr);
     
 protected:
     void makeDetectorBank();
     
     /*! Sample rate */
-    int sr;      
+    const int sr;      
     /*! DetectorBank that produces values */
     std::unique_ptr<DetectorBank> db; 
 
