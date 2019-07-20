@@ -93,7 +93,7 @@ private:
     
     // Owned by layout
     RenderArea *canvas = nullptr;
-    QPushButton *modeButton = nullptr;
+//     QPushButton *modeButton = nullptr;
 //     QPushButton *suspendResumeButton = nullptr;
     QComboBox *deviceBox = nullptr;
     QComboBox *sRateBox = nullptr;
@@ -105,8 +105,9 @@ private:
     QTextEdit *lwrEdit = nullptr;
     QTextEdit *uprEdit = nullptr;
     
+    QPushButton *startButton = nullptr;
     
-    QSlider *volumeSlider = nullptr;
+//     QSlider *volumeSlider = nullptr;
 
     QScopedPointer<AudioInfo> audioInfo;
     QScopedPointer<QAudioInput> audioInput;

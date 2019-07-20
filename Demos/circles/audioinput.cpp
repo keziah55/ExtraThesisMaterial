@@ -16,8 +16,7 @@
 #include <QAudioInput>
 #include <QLabel>
 #include <qendian.h>
-#include <QSize>
-
+#include <QSpacerItem>
 #include <QVector>
 
 #include "audioinput.h"
@@ -297,20 +296,25 @@ void InputTest::initializeWindow()
         detBankParamLabels[i]->setAlignment(Qt::AlignRight);
     }
     
-    // add grid of detbank params to main layout
+    // button to make DetectorBank and start visualisation
+    row++;
+    startButton = new QPushButton("Start!");
+    detBankParamLayout->addWidget(startButton, row, 5, Qt::AlignRight);
+    
+    // add grid of detbank params (and start button) to main layout
     layout->addLayout(detBankParamLayout);
     
     
     // volume slider
-    volumeSlider = new QSlider(Qt::Horizontal, this);
-    volumeSlider->setRange(0, 100);
-    volumeSlider->setValue(100);
-    connect(volumeSlider, &QSlider::valueChanged, this, &InputTest::sliderChanged);
-    layout->addWidget(volumeSlider);
-
-    modeButton = new QPushButton(this);
-    connect(modeButton, &QPushButton::clicked, this, &InputTest::toggleMode);
-    layout->addWidget(modeButton);
+//     volumeSlider = new QSlider(Qt::Horizontal, this);
+//     volumeSlider->setRange(0, 100);
+//     volumeSlider->setValue(100);
+//     connect(volumeSlider, &QSlider::valueChanged, this, &InputTest::sliderChanged);
+//     layout->addWidget(volumeSlider);
+// 
+//     modeButton = new QPushButton(this);
+//     connect(modeButton, &QPushButton::clicked, this, &InputTest::toggleMode);
+//     layout->addWidget(modeButton);
 
     
 
@@ -345,7 +349,7 @@ void InputTest::initializeAudio(const QAudioDeviceInfo &deviceInfo)
     qreal initialVolume = QAudio::convertVolume(audioInput->volume(),
                                                 QAudio::LinearVolumeScale,
                                                 QAudio::LogarithmicVolumeScale);
-    volumeSlider->setValue(qRound(initialVolume * 100));
+//     volumeSlider->setValue(qRound(initialVolume * 100));
     audioInfo->start();
     toggleMode();
 }
@@ -357,10 +361,10 @@ void InputTest::toggleMode()
 
     // Change bewteen pull and push modes
     if (pullMode) {
-        modeButton->setText(tr("Enable push mode"));
+//         modeButton->setText(tr("Enable push mode"));
         audioInput->start(audioInfo.data());
     } else {
-        modeButton->setText(tr("Enable pull mode"));
+//         modeButton->setText(tr("Enable pull mode"));
         auto io = audioInput->start();
         connect(io, &QIODevice::readyRead,
             [&, io]() {
