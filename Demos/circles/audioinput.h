@@ -70,7 +70,6 @@ public:
     InputTest();
     
 protected:
-    void makeDetectorBank();
     int getSampleRateInt();
     double getSampleRateDbl();
     
@@ -88,6 +87,7 @@ private slots:
 //     void toggleSuspend();
     void deviceChanged(int index);
     void sliderChanged(int value);
+    void makeDetectorBank();
 
 private:
     

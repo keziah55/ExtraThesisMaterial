@@ -190,7 +190,7 @@ InputTest::InputTest()
 {
     initializeWindow();
     initializeAudio(QAudioDeviceInfo::defaultInputDevice());
-    makeDetectorBank();
+//     makeDetectorBank();
 }
 
 
@@ -299,6 +299,7 @@ void InputTest::initializeWindow()
     // button to make DetectorBank and start visualisation
     row++;
     startButton = new QPushButton("Start!");
+    connect(startButton, SIGNAL(clicked()), this, SLOT(makeDetectorBank()));
     detBankParamLayout->addWidget(startButton, row, 5, Qt::AlignRight);
     
     // add grid of detbank params (and start button) to main layout
