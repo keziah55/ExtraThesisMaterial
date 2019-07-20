@@ -11,7 +11,7 @@
 #include <QObject>
 #include <QPixmap>
 #include <QPushButton>
-#include <QTextEdit>
+#include <QLineEdit>
 #include <QSlider>
 #include <QWidget>
 #include <QScopedPointer>
@@ -98,12 +98,12 @@ private:
     QComboBox *deviceBox = nullptr;
     QComboBox *sRateBox = nullptr;
     
-    QTextEdit *bandwidthEdit = nullptr;
-    QTextEdit *dampingEdit = nullptr;
-    QTextEdit *gainEdit = nullptr;
-    QTextEdit *edoEdit = nullptr;
-    QTextEdit *lwrEdit = nullptr;
-    QTextEdit *uprEdit = nullptr;
+    QLineEdit *bandwidthEdit = nullptr;
+    QLineEdit *dampingEdit = nullptr;
+    QLineEdit *gainEdit = nullptr;
+    QLineEdit *edoEdit = nullptr;
+    QLineEdit *lwrEdit = nullptr;
+    QLineEdit *uprEdit = nullptr;
     
     QPushButton *startButton = nullptr;
     

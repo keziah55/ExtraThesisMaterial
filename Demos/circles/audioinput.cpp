@@ -11,7 +11,8 @@
 #include <QVBoxLayout>
 #include <QGridLayout>
 #include <QPushButton>
-#include <QTextEdit>
+// #include <QTextEdit>
+#include <QLineEdit>
 #include <QAudioDeviceInfo>
 #include <QAudioInput>
 #include <QLabel>
@@ -252,16 +253,16 @@ void InputTest::initializeWindow()
     QLabel *lwrLabel = new QLabel("Lower note:");
     QLabel *uprLabel = new QLabel("Upper note:");
     
-    bandwidthEdit = new QTextEdit("0");
-    dampingEdit = new QTextEdit("0.0001");
-    gainEdit = new QTextEdit("25");
-    edoEdit = new QTextEdit("12");
-    lwrEdit = new QTextEdit("A3");
-    uprEdit = new QTextEdit("A5");
+    bandwidthEdit = new QLineEdit("0");
+    dampingEdit = new QLineEdit("0.0001");
+    gainEdit = new QLineEdit("25");
+    edoEdit = new QLineEdit("12");
+    lwrEdit = new QLineEdit("A3");
+    uprEdit = new QLineEdit("A5");
     
     QVector<QLabel*> detBankParamLabels = {bandwidthLabel, dampingLabel, gainLabel, 
                                           edoLabel, lwrLabel, uprLabel} ;
-    QVector<QTextEdit*> detBankParamEdits = {bandwidthEdit, dampingEdit, gainEdit, 
+    QVector<QLineEdit*> detBankParamEdits = {bandwidthEdit, dampingEdit, gainEdit, 
                                          edoEdit, lwrEdit, uprEdit} ;
     
     // fill first row of labels and edits                                      
@@ -286,10 +287,10 @@ void InputTest::initializeWindow()
     }
     
     // set max height for textedits (otherwise they'll be huge)
-    int height {33};
-    for (int i{0}; i<detBankParamEdits.size(); i++) {
-        detBankParamEdits[i]->setFixedHeight(height);
-    }
+//     int height {33};
+//     for (int i{0}; i<detBankParamEdits.size(); i++) {
+//         detBankParamEdits[i]->setFixedHeight(height);
+//     }
     
     // align all labels to the right
     for (int i{0}; i<detBankParamLabels.size(); i++) {
