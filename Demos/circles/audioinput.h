@@ -72,9 +72,8 @@ public:
 protected:
     int getSampleRateInt();
     double getSampleRateDbl();
-    
-    /*! Sample rate */
-//     const int sr;      
+    int getNoteNum(QString name, double EDO, int A4);
+       
     /*! DetectorBank that produces values */
     std::unique_ptr<DetectorBank> db; 
 

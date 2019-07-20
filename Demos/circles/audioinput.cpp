@@ -18,6 +18,7 @@
 #include <qendian.h>
 #include <QVector>
 #include <QString>
+#include <QList>
 
 #include "audioinput.h"
 #include "detectorbank.h"
@@ -444,6 +445,15 @@ void InputTest::makeDetectorBank()
     
     std::cout << "Made DetectorBank with " << db->getChans() << " channels ";
     std::cout << "and sample rate of " << db->getSR() << "Hz\n";
+}
+
+int InputTest::getNoteNum(QString name, double EDO=12, int A4=49)
+{
+    name = name.toLower();
+    QList<QString> pitches  = {"c", "c#","d", "d#", "e", "f", "f#", "g", "g#", 
+                               "a", "a#", "b"};
+    QChar pitch_class = name[0];
+//     int octave { }
 }
 
 int InputTest::getSampleRateInt()
