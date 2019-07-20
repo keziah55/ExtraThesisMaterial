@@ -11,14 +11,13 @@
 #include <QVBoxLayout>
 #include <QGridLayout>
 #include <QPushButton>
-// #include <QTextEdit>
 #include <QLineEdit>
 #include <QAudioDeviceInfo>
 #include <QAudioInput>
 #include <QLabel>
 #include <qendian.h>
-#include <QSpacerItem>
 #include <QVector>
+#include <QString>
 
 #include "audioinput.h"
 #include "detectorbank.h"
@@ -286,12 +285,6 @@ void InputTest::initializeWindow()
         widgetNum++;
     }
     
-    // set max height for textedits (otherwise they'll be huge)
-//     int height {33};
-//     for (int i{0}; i<detBankParamEdits.size(); i++) {
-//         detBankParamEdits[i]->setFixedHeight(height);
-//     }
-    
     // align all labels to the right
     for (int i{0}; i<detBankParamLabels.size(); i++) {
         detBankParamLabels[i]->setAlignment(Qt::AlignRight);
@@ -420,13 +413,15 @@ void InputTest::sliderChanged(int value)
 void InputTest::makeDetectorBank()
 {    
     const double sr_dbl = getSampleRateDbl();
-    const double bandwidth {0};
-    const double dmp {0.0001};
-    const double gain {5.};
+    // TODO method to convert cents to Hz for bandwidth
+    const double bandwidth {bandwidthEdit->text().toDouble()};
+    const double dmp {dampingEdit->text().toDouble()};
+    const double gain {gainEdit->text().toDouble()};
     const float buffer[] = {0.};
     const std::size_t bufLen {1};
     
-    const double edo {12.};
+    const double edo {edoEdit->text().toDouble()};
+    // TODO method to take note name and convert to number relative to A4
     const int lwr {-12};
     const int upr {13};
     
