@@ -11,7 +11,6 @@ SOURCES       = audioinput.cpp \
 target.path = .
 INSTALLS += target
 
-
 unix:!macx: PRE_TARGETDEPS += /usr/local/lib/libdetectorbank.so
 
 unix:!macx: LIBS += -L/usr/local/lib/ -ldetectorbank -lfftw3f

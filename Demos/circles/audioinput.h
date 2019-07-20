@@ -28,15 +28,15 @@ public:
     void start();
     void stop();
 
-    qreal level() const { return m_level; }
+    qreal getLevel() const { return level; }
 
     qint64 readData(char *data, qint64 maxlen) override;
     qint64 writeData(const char *data, qint64 len) override;
 
 private:
-    const QAudioFormat m_format;
-    quint32 m_maxAmplitude = 0;
-    qreal m_level = 0.0; // 0.0 <= m_level <= 1.0
+    const QAudioFormat format;
+    quint32 maxAmplitude = 0;
+    qreal level = 0.0; // 0.0 <= level <= 1.0
 
 signals:
     void update();
@@ -56,8 +56,8 @@ protected:
     void paintEvent(QPaintEvent *event) override;
 
 private:
-    qreal m_level = 0;
-    QPixmap m_pixmap;
+    qreal level = 0;
+    QPixmap pixmap;
 };
 
 
@@ -92,16 +92,25 @@ private slots:
 private:
     
     // Owned by layout
-    RenderArea *m_canvas = nullptr;
-    QPushButton *m_modeButton = nullptr;
-//     QPushButton *m_suspendResumeButton = nullptr;
-    QComboBox *m_deviceBox = nullptr;
-    QComboBox *m_sRateBox = nullptr;
-    QSlider *m_volumeSlider = nullptr;
+    RenderArea *canvas = nullptr;
+    QPushButton *modeButton = nullptr;
+//     QPushButton *suspendResumeButton = nullptr;
+    QComboBox *deviceBox = nullptr;
+    QComboBox *sRateBox = nullptr;
+    
+    QTextEdit *bandwidthEdit = nullptr;
+    QTextEdit *dampingEdit = nullptr;
+    QTextEdit *gainEdit = nullptr;
+    QTextEdit *edoEdit = nullptr;
+    QTextEdit *lwrEdit = nullptr;
+    QTextEdit *uprEdit = nullptr;
+    
+    
+    QSlider *volumeSlider = nullptr;
 
-    QScopedPointer<AudioInfo> m_audioInfo;
-    QScopedPointer<QAudioInput> m_audioInput;
-    bool m_pullMode = true;
+    QScopedPointer<AudioInfo> audioInfo;
+    QScopedPointer<QAudioInput> audioInput;
+    bool pullMode = true;
 };
 
 #endif // AUDIOINPUT_H

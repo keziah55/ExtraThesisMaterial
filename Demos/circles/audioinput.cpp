@@ -2,17 +2,23 @@
 #include <math.h>
 #include <stdexcept>
 
+#include <Qt>
+
 #include <QDateTime>
 #include <QDebug>
 #include <QPainter>
 #include <QHBoxLayout>
 #include <QVBoxLayout>
+#include <QGridLayout>
 #include <QPushButton>
+#include <QTextEdit>
 #include <QAudioDeviceInfo>
 #include <QAudioInput>
-#include <QSize>
 #include <QLabel>
 #include <qendian.h>
+#include <QSize>
+
+#include <QVector>
 
 #include "audioinput.h"
 #include "detectorbank.h"
@@ -21,28 +27,28 @@
 // plot DetectorBank complex responses
 
 AudioInfo::AudioInfo(const QAudioFormat &format)
-    : m_format(format)
+    : format(format)
 {
-    switch (m_format.sampleSize()) {
+    switch (format.sampleSize()) {
     case 8:
-        switch (m_format.sampleType()) {
+        switch (format.sampleType()) {
         case QAudioFormat::UnSignedInt:
-            m_maxAmplitude = 255;
+            maxAmplitude = 255;
             break;
         case QAudioFormat::SignedInt:
-            m_maxAmplitude = 127;
+            maxAmplitude = 127;
             break;
         default:
             break;
         }
         break;
     case 16:
-        switch (m_format.sampleType()) {
+        switch (format.sampleType()) {
         case QAudioFormat::UnSignedInt:
-            m_maxAmplitude = 65535;
+            maxAmplitude = 65535;
             break;
         case QAudioFormat::SignedInt:
-            m_maxAmplitude = 32767;
+            maxAmplitude = 32767;
             break;
         default:
             break;
@@ -50,15 +56,15 @@ AudioInfo::AudioInfo(const QAudioFormat &format)
         break;
 
     case 32:
-        switch (m_format.sampleType()) {
+        switch (format.sampleType()) {
         case QAudioFormat::UnSignedInt:
-            m_maxAmplitude = 0xffffffff;
+            maxAmplitude = 0xffffffff;
             break;
         case QAudioFormat::SignedInt:
-            m_maxAmplitude = 0x7fffffff;
+            maxAmplitude = 0x7fffffff;
             break;
         case QAudioFormat::Float:
-            m_maxAmplitude = 0x7fffffff; // Kind of
+            maxAmplitude = 0x7fffffff; // Kind of
         default:
             break;
         }
@@ -89,10 +95,10 @@ qint64 AudioInfo::readData(char *data, qint64 maxlen)
 
 qint64 AudioInfo::writeData(const char *data, qint64 len)
 {
-    if (m_maxAmplitude) {
-        Q_ASSERT(m_format.sampleSize() % 8 == 0);
-        const int channelBytes = m_format.sampleSize() / 8;
-        const int sampleBytes = m_format.channelCount() * channelBytes;
+    if (maxAmplitude) {
+        Q_ASSERT(format.sampleSize() % 8 == 0);
+        const int channelBytes = format.sampleSize() / 8;
+        const int sampleBytes = format.channelCount() * channelBytes;
         Q_ASSERT(len % sampleBytes == 0);
         const int numSamples = len / sampleBytes;
 
@@ -100,34 +106,34 @@ qint64 AudioInfo::writeData(const char *data, qint64 len)
         const unsigned char *ptr = reinterpret_cast<const unsigned char *>(data);
 
         for (int i = 0; i < numSamples; ++i) {
-            for (int j = 0; j < m_format.channelCount(); ++j) {
+            for (int j = 0; j < format.channelCount(); ++j) {
                 quint32 value = 0;
 
-                if (m_format.sampleSize() == 8 && m_format.sampleType() == QAudioFormat::UnSignedInt) {
+                if (format.sampleSize() == 8 && format.sampleType() == QAudioFormat::UnSignedInt) {
                     value = *reinterpret_cast<const quint8*>(ptr);
-                } else if (m_format.sampleSize() == 8 && m_format.sampleType() == QAudioFormat::SignedInt) {
+                } else if (format.sampleSize() == 8 && format.sampleType() == QAudioFormat::SignedInt) {
                     value = qAbs(*reinterpret_cast<const qint8*>(ptr));
-                } else if (m_format.sampleSize() == 16 && m_format.sampleType() == QAudioFormat::UnSignedInt) {
-                    if (m_format.byteOrder() == QAudioFormat::LittleEndian)
+                } else if (format.sampleSize() == 16 && format.sampleType() == QAudioFormat::UnSignedInt) {
+                    if (format.byteOrder() == QAudioFormat::LittleEndian)
                         value = qFromLittleEndian<quint16>(ptr);
                     else
                         value = qFromBigEndian<quint16>(ptr);
-                } else if (m_format.sampleSize() == 16 && m_format.sampleType() == QAudioFormat::SignedInt) {
-                    if (m_format.byteOrder() == QAudioFormat::LittleEndian)
+                } else if (format.sampleSize() == 16 && format.sampleType() == QAudioFormat::SignedInt) {
+                    if (format.byteOrder() == QAudioFormat::LittleEndian)
                         value = qAbs(qFromLittleEndian<qint16>(ptr));
                     else
                         value = qAbs(qFromBigEndian<qint16>(ptr));
-                } else if (m_format.sampleSize() == 32 && m_format.sampleType() == QAudioFormat::UnSignedInt) {
-                    if (m_format.byteOrder() == QAudioFormat::LittleEndian)
+                } else if (format.sampleSize() == 32 && format.sampleType() == QAudioFormat::UnSignedInt) {
+                    if (format.byteOrder() == QAudioFormat::LittleEndian)
                         value = qFromLittleEndian<quint32>(ptr);
                     else
                         value = qFromBigEndian<quint32>(ptr);
-                } else if (m_format.sampleSize() == 32 && m_format.sampleType() == QAudioFormat::SignedInt) {
-                    if (m_format.byteOrder() == QAudioFormat::LittleEndian)
+                } else if (format.sampleSize() == 32 && format.sampleType() == QAudioFormat::SignedInt) {
+                    if (format.byteOrder() == QAudioFormat::LittleEndian)
                         value = qAbs(qFromLittleEndian<qint32>(ptr));
                     else
                         value = qAbs(qFromBigEndian<qint32>(ptr));
-                } else if (m_format.sampleSize() == 32 && m_format.sampleType() == QAudioFormat::Float) {
+                } else if (format.sampleSize() == 32 && format.sampleType() == QAudioFormat::Float) {
                     value = qAbs(*reinterpret_cast<const float*>(ptr) * 0x7fffffff); // assumes 0-1.0
                 }
 
@@ -136,8 +142,8 @@ qint64 AudioInfo::writeData(const char *data, qint64 len)
             }
         }
 
-        maxValue = qMin(maxValue, m_maxAmplitude);
-        m_level = qreal(maxValue) / m_maxAmplitude;
+        maxValue = qMin(maxValue, maxAmplitude);
+        level = qreal(maxValue) / maxAmplitude;
     }
 
     emit update();
@@ -163,10 +169,10 @@ void RenderArea::paintEvent(QPaintEvent * /* event */)
                            painter.viewport().top()+10,
                            painter.viewport().right()-20,
                            painter.viewport().bottom()-20));
-    if (m_level == 0.0)
+    if (level == 0.0)
         return;
 
-    int pos = ((painter.viewport().right()-20)-(painter.viewport().left()+11))*m_level;
+    int pos = ((painter.viewport().right()-20)-(painter.viewport().left()+11))*level;
     painter.fillRect(painter.viewport().left()+11,
                      painter.viewport().top()+10,
                      pos,
@@ -176,7 +182,7 @@ void RenderArea::paintEvent(QPaintEvent * /* event */)
 
 void RenderArea::setLevel(qreal value)
 {
-    m_level = value;
+    level = value;
     update();
 }
 
@@ -194,58 +200,117 @@ void InputTest::initializeWindow()
     QWidget *window = new QWidget;
     QVBoxLayout *layout = new QVBoxLayout;
 
-    m_canvas = new RenderArea(this);
-    layout->addWidget(m_canvas);
+    canvas = new RenderArea(this);
+    layout->addWidget(canvas);
     
     // layout for audio device and sample rate selection
     QHBoxLayout *deviceLayout = new QHBoxLayout;
 
     // make audio device selection box
-    m_deviceBox = new QComboBox(this);
+    deviceBox = new QComboBox(this);
     const QAudioDeviceInfo &defaultDeviceInfo = QAudioDeviceInfo::defaultInputDevice();
-    m_deviceBox->addItem(defaultDeviceInfo.deviceName(), 
+    deviceBox->addItem(defaultDeviceInfo.deviceName(), 
                          qVariantFromValue(defaultDeviceInfo));
     for (auto &deviceInfo: QAudioDeviceInfo::availableDevices(QAudio::AudioInput)) {
         if (deviceInfo != defaultDeviceInfo) {
-            m_deviceBox->addItem(deviceInfo.deviceName(), 
+            deviceBox->addItem(deviceInfo.deviceName(), 
                                  qVariantFromValue(deviceInfo));
         }
     }
 
-    connect(m_deviceBox, QOverload<int>::of(&QComboBox::activated), this, 
+    connect(deviceBox, QOverload<int>::of(&QComboBox::activated), this, 
             &InputTest::deviceChanged);
     
     // make sample rate label and textedit
-    QLabel *m_sRateLabel = new QLabel("Sample rate:");
+    QLabel *sRateLabel = new QLabel("Sample rate:");
+    sRateLabel->setAlignment(Qt::AlignRight);
     
     // user can choose between 44.1 and 48kHz
-    m_sRateBox = new QComboBox();
-    m_sRateBox->addItem("44100");
-    m_sRateBox->addItem("48000");
-    m_sRateBox->setCurrentIndex(1);
+    sRateBox = new QComboBox();
+    sRateBox->addItem("44100");
+    sRateBox->addItem("48000");
+    sRateBox->setCurrentIndex(1);
     
     // add device and sr widgets to local layout
-    deviceLayout->addWidget(m_deviceBox);
-    deviceLayout->addWidget(m_sRateLabel);
-    deviceLayout->addWidget(m_sRateBox);
+    deviceLayout->addWidget(deviceBox);
+    deviceLayout->addWidget(sRateLabel);
+    deviceLayout->addWidget(sRateBox);
     
     // add device layout to main layout
     layout->addLayout(deviceLayout);
     
     // DetectorBank parameters layout 
-    // grid layout
-
+    // two rows of three parameters
+    // (including QLabels, the grid should tbe 2x6)
+    QGridLayout *detBankParamLayout = new QGridLayout();
+    
+    // label and textedit for each
+    
+    QLabel *bandwidthLabel = new QLabel("Bandwidth (cents):");
+    QLabel *dampingLabel = new QLabel("Damping:");
+    QLabel *gainLabel = new QLabel("Gain:");
+    QLabel *edoLabel = new QLabel("EDO:");
+    QLabel *lwrLabel = new QLabel("Lower note:");
+    QLabel *uprLabel = new QLabel("Upper note:");
+    
+    bandwidthEdit = new QTextEdit("0");
+    dampingEdit = new QTextEdit("0.0001");
+    gainEdit = new QTextEdit("25");
+    edoEdit = new QTextEdit("12");
+    lwrEdit = new QTextEdit("A3");
+    uprEdit = new QTextEdit("A5");
+    
+    QVector<QLabel*> detBankParamLabels = {bandwidthLabel, dampingLabel, gainLabel, 
+                                          edoLabel, lwrLabel, uprLabel} ;
+    QVector<QTextEdit*> detBankParamEdits = {bandwidthEdit, dampingEdit, gainEdit, 
+                                         edoEdit, lwrEdit, uprEdit} ;
+    
+    // fill first row of labels and edits                                      
+    int row {0};
+    int widgetNum {0};
+    
+    for (int i{0}; i<3; i++) {
+        detBankParamLayout->addWidget(detBankParamLabels[i], row, widgetNum);
+        widgetNum++;
+        detBankParamLayout->addWidget(detBankParamEdits[i], row, widgetNum);
+        widgetNum++;
+    }
+    
+    // fill second row of labels and edits   
+    row++;
+    widgetNum = 0;
+    for (int i{3}; i<detBankParamLabels.size(); i++) {
+        detBankParamLayout->addWidget(detBankParamLabels[i], row, widgetNum);
+        widgetNum++;
+        detBankParamLayout->addWidget(detBankParamEdits[i], row, widgetNum);
+        widgetNum++;
+    }
+    
+    // set max height for textedits (otherwise they'll be huge)
+    int height {33};
+    for (int i{0}; i<detBankParamEdits.size(); i++) {
+        detBankParamEdits[i]->setFixedHeight(height);
+    }
+    
+    // align all labels to the right
+    for (int i{0}; i<detBankParamLabels.size(); i++) {
+        detBankParamLabels[i]->setAlignment(Qt::AlignRight);
+    }
+    
+    // add grid of detbank params to main layout
+    layout->addLayout(detBankParamLayout);
+    
     
     // volume slider
-    m_volumeSlider = new QSlider(Qt::Horizontal, this);
-    m_volumeSlider->setRange(0, 100);
-    m_volumeSlider->setValue(100);
-    connect(m_volumeSlider, &QSlider::valueChanged, this, &InputTest::sliderChanged);
-    layout->addWidget(m_volumeSlider);
+    volumeSlider = new QSlider(Qt::Horizontal, this);
+    volumeSlider->setRange(0, 100);
+    volumeSlider->setValue(100);
+    connect(volumeSlider, &QSlider::valueChanged, this, &InputTest::sliderChanged);
+    layout->addWidget(volumeSlider);
 
-    m_modeButton = new QPushButton(this);
-    connect(m_modeButton, &QPushButton::clicked, this, &InputTest::toggleMode);
-    layout->addWidget(m_modeButton);
+    modeButton = new QPushButton(this);
+    connect(modeButton, &QPushButton::clicked, this, &InputTest::toggleMode);
+    layout->addWidget(modeButton);
 
     
 
@@ -271,35 +336,35 @@ void InputTest::initializeAudio(const QAudioDeviceInfo &deviceInfo)
         format = deviceInfo.nearestFormat(format);
     }
 
-    m_audioInfo.reset(new AudioInfo(format));
-    connect(m_audioInfo.data(), &AudioInfo::update, [this]() {
-        m_canvas->setLevel(m_audioInfo->level());
+    audioInfo.reset(new AudioInfo(format));
+    connect(audioInfo.data(), &AudioInfo::update, [this]() {
+        canvas->setLevel(audioInfo->getLevel());
     });
 
-    m_audioInput.reset(new QAudioInput(deviceInfo, format));
-    qreal initialVolume = QAudio::convertVolume(m_audioInput->volume(),
+    audioInput.reset(new QAudioInput(deviceInfo, format));
+    qreal initialVolume = QAudio::convertVolume(audioInput->volume(),
                                                 QAudio::LinearVolumeScale,
                                                 QAudio::LogarithmicVolumeScale);
-    m_volumeSlider->setValue(qRound(initialVolume * 100));
-    m_audioInfo->start();
+    volumeSlider->setValue(qRound(initialVolume * 100));
+    audioInfo->start();
     toggleMode();
 }
 
 void InputTest::toggleMode()
 {
-    m_audioInput->stop();
+    audioInput->stop();
 //     toggleSuspend();
 
     // Change bewteen pull and push modes
-    if (m_pullMode) {
-        m_modeButton->setText(tr("Enable push mode"));
-        m_audioInput->start(m_audioInfo.data());
+    if (pullMode) {
+        modeButton->setText(tr("Enable push mode"));
+        audioInput->start(audioInfo.data());
     } else {
-        m_modeButton->setText(tr("Enable pull mode"));
-        auto io = m_audioInput->start();
+        modeButton->setText(tr("Enable pull mode"));
+        auto io = audioInput->start();
         connect(io, &QIODevice::readyRead,
             [&, io]() {
-                qint64 len = m_audioInput->bytesReady();
+                qint64 len = audioInput->bytesReady();
                 const int BufferSize = 4096;
                 if (len > BufferSize)
                     len = BufferSize;
@@ -307,34 +372,34 @@ void InputTest::toggleMode()
                 QByteArray buffer(len, 0);
                 qint64 l = io->read(buffer.data(), len);
                 if (l > 0)
-                    m_audioInfo->write(buffer.constData(), l);
+                    audioInfo->write(buffer.constData(), l);
             });
     }
 
-    m_pullMode = !m_pullMode;
+    pullMode = !pullMode;
 }
 
 // void InputTest::toggleSuspend()
 // {
 //     toggle suspend/resume
-//     if (m_audioInput->state() == QAudio::SuspendedState || m_audioInput->state() == QAudio::StoppedState) {
-//         m_audioInput->resume();
-//         m_suspendResumeButton->setText(tr("Suspend recording"));
-//     } else if (m_audioInput->state() == QAudio::ActiveState) {
-//         m_audioInput->suspend();
-//         m_suspendResumeButton->setText(tr("Resume recording"));
-//     } else if (m_audioInput->state() == QAudio::IdleState) {
+//     if (audioInput->state() == QAudio::SuspendedState || audioInput->state() == QAudio::StoppedState) {
+//         audioInput->resume();
+//         suspendResumeButton->setText(tr("Suspend recording"));
+//     } else if (audioInput->state() == QAudio::ActiveState) {
+//         audioInput->suspend();
+//         suspendResumeButton->setText(tr("Resume recording"));
+//     } else if (audioInput->state() == QAudio::IdleState) {
 //         no-op
 //     }
 // }
 
 void InputTest::deviceChanged(int index)
 {
-    m_audioInfo->stop();
-    m_audioInput->stop();
-    m_audioInput->disconnect(this);
+    audioInfo->stop();
+    audioInput->stop();
+    audioInput->disconnect(this);
 
-    initializeAudio(m_deviceBox->itemData(index).value<QAudioDeviceInfo>());
+    initializeAudio(deviceBox->itemData(index).value<QAudioDeviceInfo>());
 }
 
 void InputTest::sliderChanged(int value)
@@ -343,7 +408,7 @@ void InputTest::sliderChanged(int value)
                                                QAudio::LogarithmicVolumeScale,
                                                QAudio::LinearVolumeScale);
 
-    m_audioInput->setVolume(linearVolume);
+    audioInput->setVolume(linearVolume);
 }
 
 void InputTest::makeDetectorBank()
@@ -383,7 +448,7 @@ void InputTest::makeDetectorBank()
 int InputTest::getSampleRateInt()
 {
     int sr; 
-    int srIdx { m_sRateBox->currentIndex() };
+    int srIdx { sRateBox->currentIndex() };
     
     if (srIdx==0)
         sr = 44100;
@@ -397,7 +462,7 @@ int InputTest::getSampleRateInt()
 double InputTest::getSampleRateDbl()
 {
     double sr;
-    int srIdx { m_sRateBox->currentIndex() };
+    int srIdx { sRateBox->currentIndex() };
     
     if (srIdx==0)
         sr = 44100.;
