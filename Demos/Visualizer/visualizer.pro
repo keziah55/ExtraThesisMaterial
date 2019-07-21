@@ -1,7 +1,7 @@
 TEMPLATE = app
 TARGET = visualizer
 
-QT += multimedia widgets
+QT += multimedia widgets charts
 
 HEADERS       = visualizer.h \
                 plotdata.h

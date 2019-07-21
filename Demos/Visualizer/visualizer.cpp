@@ -352,7 +352,7 @@ void Visualizer::start()
 {
     makeDetectorBank();
     plotData.reset(new PlotData(*db));
-//     plotData.show();
+    plotData->show();
 }
 
 void Visualizer::toggleMode()
