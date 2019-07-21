@@ -70,8 +70,22 @@ public:
     InputTest();
     
 protected:
-    int getNoteNum(QString name, const double EDO, const int A4);
+    /*! Find number of semitones between note 'name' and A4 
+     *  \param name Note name, as pitch class, sharp or flat ('#' or 'b') and octave number
+     *  \param EDO Number of division per octave. Defaults to 12.
+     * Note: currently only implemented for EDO=12.
+     */
+    int getNoteNum(QString name, const double EDO);
+    /*! Convert a bandwidth given in cents to Hertz 
+     *  \param f0 Centre frequency, around which the bandwidth will be calculated
+     *  \param cents Bandwidth in cents
+     *  \param EDO Number of division per octave. Defaults to 12.
+     */
+    double centsToHz(const double f0, const double cents,
+                     const double EDO);
+    /*! Return the sample rate as a integer */
     int getSampleRateInt();
+    /*! Return the sample rate as a double */
     double getSampleRateDbl();
     
        

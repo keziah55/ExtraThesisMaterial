@@ -411,12 +411,13 @@ void InputTest::sliderChanged(int value)
     audioInput->setVolume(linearVolume);
 }
 
-int InputTest::getNoteNum(QString name, const double EDO=12, const int A4=49)
+int InputTest::getNoteNum(QString name, const double EDO=12)
 {
+    // TODO update so that EDO values other than 12 work
 //     std::cout << "getNoteNum('" << name.toStdString() << "') = "; 
     name = name.toLower();
     const QList<QString> pitches  = {"c", "c#","d", "d#", "e", "f", "f#", "g", "g#", 
-                               "a", "a#", "b"};
+                                     "a", "a#", "b"};
                                
     // get pitch class, octave number and alter (i.e. sharp or flat) from `name`
     const QString pitch_class {name.left(1)};
@@ -442,45 +443,61 @@ int InputTest::getNoteNum(QString name, const double EDO=12, const int A4=49)
     int pitch_diff = a_idx-pitch_idx;
     
     // find total chromatic steps between given and A4
-    int note_num {A4 - (octave_diff + pitch_diff)};
+//     int note_num {A4 - (octave_diff + pitch_diff)};
+    int note_num {-(octave_diff + pitch_diff)};
     
     // adjust if given note was sharp or flat
     if (alter == "b")
         note_num--;
     else if (alter == "#")
         note_num++;
-    else
-        throw std::invalid_argument("Accidentals should only be given as 'b' or '#'.");
     
 //     std::cout << note_num << "\n";
     
     return note_num;
 }
 
+double InputTest::centsToHz(const double f0, const double cents, const double EDO=12)
+{
+    double h_cents {cents/200.};
+    double semitone {std::pow(2, (1/EDO))};
+    return 2*f0*h_cents*(semitone-1);    
+}
+
 void InputTest::makeDetectorBank()
 {    
     const double sr_dbl = getSampleRateDbl();
-    // TODO method to convert cents to Hz for bandwidth
-    const double bandwidth {bandwidthEdit->text().toDouble()};
+    const double bandwidth_cents {bandwidthEdit->text().toDouble()};
     const double dmp {dampingEdit->text().toDouble()};
     const double gain {gainEdit->text().toDouble()};
     const float buffer[] = {0.};
     const std::size_t bufLen {1};
     
     const double edo {edoEdit->text().toDouble()};
-    // TODO method to take note name and convert to number relative to A4
-    const int lwr {getNoteNum(lwrEdit->text())};
-    const int upr {getNoteNum(uprEdit->text())};
+    const int lwr {getNoteNum(lwrEdit->text(), edo)};
+    const int upr {getNoteNum(uprEdit->text(), edo) + 1}; // include upr 
     
+    // calculate detector frequencies
     double freq[upr-lwr];
     for (int i {0}; i<upr-lwr; i++) {
         double k = static_cast<double>(lwr+i);
         freq[i] = 440. * std::pow(2, (k/edo));
     }
     
+    // make empty array for bandwidths
     const std::size_t len = sizeof(freq)/sizeof(freq[0]);
     double bw[len];
-    std::fill_n(bw, len, bandwidth); 
+    
+    // if minimum bandwidth detectors have been requested, fill with zeros
+    if (bandwidth_cents == 0.) {
+        std::fill_n(bw, len, 0.);
+    }
+    // otherwise calculate B in Hz from the given value in cents
+    else {
+        for (std::size_t i{0}; i<len; i++) {
+            bw[i]  = centsToHz(freq[i], bandwidth_cents, edo);
+        }
+    }
     
     db.reset(new DetectorBank(sr_dbl, buffer, bufLen, 0, freq, bw, len,
                               static_cast<DetectorBank::Features>(
