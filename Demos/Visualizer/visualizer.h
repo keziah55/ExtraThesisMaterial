@@ -18,12 +18,12 @@
 
 #include "detectorbank.h"
 
-class AudioInfo : public QIODevice
+class AudioDevice : public QIODevice
 {
     Q_OBJECT
 
 public:
-    AudioInfo(const QAudioFormat &format);
+    AudioDevice(const QAudioFormat &format);
 
     void start();
     void stop();
@@ -123,7 +123,7 @@ private:
     
 //     QSlider *volumeSlider = nullptr;
 
-    QScopedPointer<AudioInfo> audioInfo;
+    QScopedPointer<AudioDevice> audioInfo;
     QScopedPointer<QAudioInput> audioInput;
     bool pullMode = true;
 };

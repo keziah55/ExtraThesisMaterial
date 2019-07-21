@@ -24,7 +24,7 @@
 #include "detectorbank.h"
 
 
-AudioInfo::AudioInfo(const QAudioFormat &format)
+AudioDevice::AudioDevice(const QAudioFormat &format)
     : format(format)
 {
     switch (format.sampleSize()) {
@@ -73,17 +73,17 @@ AudioInfo::AudioInfo(const QAudioFormat &format)
     }
 }
 
-void AudioInfo::start()
+void AudioDevice::start()
 {
     open(QIODevice::WriteOnly);
 }
 
-void AudioInfo::stop()
+void AudioDevice::stop()
 {
     close();
 }
 
-qint64 AudioInfo::readData(char *data, qint64 maxlen)
+qint64 AudioDevice::readData(char *data, qint64 maxlen)
 {
     Q_UNUSED(data)
     Q_UNUSED(maxlen)
@@ -91,7 +91,7 @@ qint64 AudioInfo::readData(char *data, qint64 maxlen)
     return 0;
 }
 
-qint64 AudioInfo::writeData(const char *data, qint64 len)
+qint64 AudioDevice::writeData(const char *data, qint64 len)
 {
     if (maxAmplitude) {
         Q_ASSERT(format.sampleSize() % 8 == 0);
@@ -333,8 +333,8 @@ void Visualizer::initializeAudio(const QAudioDeviceInfo &deviceInfo)
         format = deviceInfo.nearestFormat(format);
     }
 
-    audioInfo.reset(new AudioInfo(format));
-    connect(audioInfo.data(), &AudioInfo::update, [this]() {
+    audioInfo.reset(new AudioDevice(format));
+    connect(audioInfo.data(), &AudioDevice::update, [this]() {
         canvas->setLevel(audioInfo->getLevel());
     });
 
