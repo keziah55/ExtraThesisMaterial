@@ -1,4 +1,4 @@
-# Visualisation
+# Visualizer
 
 The files here will create an interactive visualisation of DetectorBank output.
 
@@ -11,7 +11,7 @@ Currently work-in-progress.
 ## Building
 
 ```
-qmake circles.pro
+qmake visualizer.pro
 make
 ```
 
