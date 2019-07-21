@@ -22,7 +22,7 @@
 
 #include "visualizer.h"
 #include "detectorbank.h"
-
+#include "plotdata.h"
 
 // This class is mostly taken from the AudioInput example
 AudioDevice::AudioDevice(const QAudioFormat &format)
@@ -292,7 +292,7 @@ void Visualizer::initializeWindow()
     // button to make DetectorBank and start visualisation
     row++;
     startButton = new QPushButton("Start!");
-    connect(startButton, SIGNAL(clicked()), this, SLOT(makeDetectorBank()));
+    connect(startButton, SIGNAL(clicked()), this, SLOT(start()));
     detBankParamLayout->addWidget(startButton, row, 5, Qt::AlignRight);
     
     // add grid of detbank params (and start button) to main layout
@@ -348,6 +348,13 @@ void Visualizer::initializeAudio(const QAudioDeviceInfo &deviceInfo)
     toggleMode();
 }
 
+void Visualizer::start()
+{
+    makeDetectorBank();
+    plotData.reset(new PlotData(*db));
+//     plotData.show();
+}
+
 void Visualizer::toggleMode()
 {
     audioInput->stop();
@@ -363,7 +370,7 @@ void Visualizer::toggleMode()
         connect(io, &QIODevice::readyRead,
             [&, io]() {
                 qint64 len = audioInput->bytesReady();
-                const int BufferSize = 4096; //  change to 30ms?
+                const int BufferSize = static_cast<int>(0.03 * getSampleRateDbl()); 
                 if (len > BufferSize)
                     len = BufferSize;
 

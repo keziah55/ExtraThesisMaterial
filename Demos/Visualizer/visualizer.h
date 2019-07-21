@@ -16,6 +16,7 @@
 #include <QScopedPointer>
 
 #include "detectorbank.h"
+#include "plotdata.h"
 
 class AudioDevice : public QIODevice
 {
@@ -86,10 +87,16 @@ protected:
     int getSampleRateInt();
     /*! Return the sample rate as a double */
     double getSampleRateDbl();
+    /*! Make DetectorBank from current parameters */
+    void makeDetectorBank();
     
-       
     /*! DetectorBank that produces values */
-    std::unique_ptr<DetectorBank> db; 
+    std::unique_ptr<DetectorBank> db;
+    /*! Widget to plot DetectorBank data */
+    std::unique_ptr<PlotData> plotData;
+    
+protected slots:
+    void start();
 
 private:
     void initializeWindow();
@@ -100,7 +107,7 @@ private slots:
 //     void toggleSuspend();
     void deviceChanged(int index);
     void sliderChanged(int value);
-    void makeDetectorBank();
+    
 
 private:
     
