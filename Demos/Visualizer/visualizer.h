@@ -123,7 +123,7 @@ private:
     
 //     QSlider *volumeSlider = nullptr;
 
-    QScopedPointer<AudioDevice> audioInfo;
+    QScopedPointer<AudioDevice> audioDevice;
     QScopedPointer<QAudioInput> audioInput;
     bool pullMode = true;
 };

@@ -24,6 +24,7 @@
 #include "detectorbank.h"
 
 
+// This class is mostly taken from the AudioInput example
 AudioDevice::AudioDevice(const QAudioFormat &format)
     : format(format)
 {
@@ -323,9 +324,9 @@ void Visualizer::initializeAudio(const QAudioDeviceInfo &deviceInfo)
     QAudioFormat format;
     format.setSampleRate(sr_int);
     format.setChannelCount(1);
-    format.setSampleSize(16);
-    format.setSampleType(QAudioFormat::SignedInt);
-    format.setByteOrder(QAudioFormat::LittleEndian);
+    format.setSampleSize(32);
+    format.setSampleType(QAudioFormat::Float);
+    format.setByteOrder(QAudioFormat::LittleEndian); // is this right? and/or is it necessary?
     format.setCodec("audio/pcm");
 
     if (!deviceInfo.isFormatSupported(format)) {
@@ -333,9 +334,9 @@ void Visualizer::initializeAudio(const QAudioDeviceInfo &deviceInfo)
         format = deviceInfo.nearestFormat(format);
     }
 
-    audioInfo.reset(new AudioDevice(format));
-    connect(audioInfo.data(), &AudioDevice::update, [this]() {
-        canvas->setLevel(audioInfo->getLevel());
+    audioDevice.reset(new AudioDevice(format));
+    connect(audioDevice.data(), &AudioDevice::update, [this]() {
+        canvas->setLevel(audioDevice->getLevel());
     });
 
     audioInput.reset(new QAudioInput(deviceInfo, format));
@@ -343,7 +344,7 @@ void Visualizer::initializeAudio(const QAudioDeviceInfo &deviceInfo)
                                                 QAudio::LinearVolumeScale,
                                                 QAudio::LogarithmicVolumeScale);
 //     volumeSlider->setValue(qRound(initialVolume * 100));
-    audioInfo->start();
+    audioDevice->start();
     toggleMode();
 }
 
@@ -355,21 +356,21 @@ void Visualizer::toggleMode()
     // Change bewteen pull and push modes
     if (pullMode) {
 //         modeButton->setText(tr("Enable push mode"));
-        audioInput->start(audioInfo.data());
+        audioInput->start(audioDevice.data());
     } else {
 //         modeButton->setText(tr("Enable pull mode"));
         auto io = audioInput->start();
         connect(io, &QIODevice::readyRead,
             [&, io]() {
                 qint64 len = audioInput->bytesReady();
-                const int BufferSize = 4096;
+                const int BufferSize = 4096; //  change to 30ms?
                 if (len > BufferSize)
                     len = BufferSize;
 
                 QByteArray buffer(len, 0);
                 qint64 l = io->read(buffer.data(), len);
                 if (l > 0)
-                    audioInfo->write(buffer.constData(), l);
+                    audioDevice->write(buffer.constData(), l);
             });
     }
 
@@ -392,7 +393,7 @@ void Visualizer::toggleMode()
 
 void Visualizer::deviceChanged(int index)
 {
-    audioInfo->stop();
+    audioDevice->stop();
     audioInput->stop();
     audioInput->disconnect(this);
 
