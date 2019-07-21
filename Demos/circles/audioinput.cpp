@@ -411,6 +411,52 @@ void InputTest::sliderChanged(int value)
     audioInput->setVolume(linearVolume);
 }
 
+int InputTest::getNoteNum(QString name, const double EDO=12, const int A4=49)
+{
+//     std::cout << "getNoteNum('" << name.toStdString() << "') = "; 
+    name = name.toLower();
+    const QList<QString> pitches  = {"c", "c#","d", "d#", "e", "f", "f#", "g", "g#", 
+                               "a", "a#", "b"};
+                               
+    // get pitch class, octave number and alter (i.e. sharp or flat) from `name`
+    const QString pitch_class {name.left(1)};
+    const int octave {name.right(1).toInt()};
+    
+    QString alter;
+    if (name.size() == 3)
+        alter = name.mid(1, 1); // from index 1, get 1 character
+    else
+        alter = "";
+    
+    // find number of notes between A4 and given 
+    
+    // number of notes between given octave and fourth octave
+    int octave_diff {4-octave};
+    octave_diff *= EDO;
+    
+    // position of pitch in pitches list
+    int pitch_idx = pitches.indexOf(pitch_class);
+    // position of A in pitches list
+    int a_idx = pitches.indexOf("a");
+    // number of chromatic steps between given pitch class and A
+    int pitch_diff = a_idx-pitch_idx;
+    
+    // find total chromatic steps between given and A4
+    int note_num {A4 - (octave_diff + pitch_diff)};
+    
+    // adjust if given note was sharp or flat
+    if (alter == "b")
+        note_num--;
+    else if (alter == "#")
+        note_num++;
+    else
+        throw std::invalid_argument("Accidentals should only be given as 'b' or '#'.");
+    
+//     std::cout << note_num << "\n";
+    
+    return note_num;
+}
+
 void InputTest::makeDetectorBank()
 {    
     const double sr_dbl = getSampleRateDbl();
@@ -423,8 +469,8 @@ void InputTest::makeDetectorBank()
     
     const double edo {edoEdit->text().toDouble()};
     // TODO method to take note name and convert to number relative to A4
-    const int lwr {-12};
-    const int upr {13};
+    const int lwr {getNoteNum(lwrEdit->text())};
+    const int upr {getNoteNum(uprEdit->text())};
     
     double freq[upr-lwr];
     for (int i {0}; i<upr-lwr; i++) {
@@ -445,15 +491,6 @@ void InputTest::makeDetectorBank()
     
     std::cout << "Made DetectorBank with " << db->getChans() << " channels ";
     std::cout << "and sample rate of " << db->getSR() << "Hz\n";
-}
-
-int InputTest::getNoteNum(QString name, double EDO=12, int A4=49)
-{
-    name = name.toLower();
-    QList<QString> pitches  = {"c", "c#","d", "d#", "e", "f", "f#", "g", "g#", 
-                               "a", "a#", "b"};
-    QChar pitch_class = name[0];
-//     int octave { }
 }
 
 int InputTest::getSampleRateInt()

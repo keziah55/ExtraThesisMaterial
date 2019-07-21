@@ -70,9 +70,10 @@ public:
     InputTest();
     
 protected:
+    int getNoteNum(QString name, const double EDO, const int A4);
     int getSampleRateInt();
     double getSampleRateDbl();
-    int getNoteNum(QString name, double EDO, int A4);
+    
        
     /*! DetectorBank that produces values */
     std::unique_ptr<DetectorBank> db; 
