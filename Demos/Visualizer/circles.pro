@@ -1,11 +1,11 @@
 TEMPLATE = app
-TARGET = audioinput
+TARGET = visualizer
 
 QT += multimedia widgets
 
-HEADERS       = audioinput.h 
+HEADERS       = visualizer.h 
 
-SOURCES       = audioinput.cpp \
+SOURCES       = visualizer.cpp \
                 main.cpp 
 
 target.path = .

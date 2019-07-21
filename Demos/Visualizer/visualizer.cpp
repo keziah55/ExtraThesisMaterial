@@ -20,11 +20,9 @@
 #include <QString>
 #include <QList>
 
-#include "audioinput.h"
+#include "visualizer.h"
 #include "detectorbank.h"
 
-// TODO: fill short buffer with audio data, send to DetectorBank, call getZ
-// plot DetectorBank complex responses
 
 AudioInfo::AudioInfo(const QAudioFormat &format)
     : format(format)
@@ -187,15 +185,14 @@ void RenderArea::setLevel(qreal value)
 }
 
 
-InputTest::InputTest()
+Visualizer::Visualizer()
 {
     initializeWindow();
     initializeAudio(QAudioDeviceInfo::defaultInputDevice());
-//     makeDetectorBank();
 }
 
 
-void InputTest::initializeWindow()
+void Visualizer::initializeWindow()
 {
     QWidget *window = new QWidget;
     QVBoxLayout *layout = new QVBoxLayout;
@@ -219,7 +216,7 @@ void InputTest::initializeWindow()
     }
 
     connect(deviceBox, QOverload<int>::of(&QComboBox::activated), this, 
-            &InputTest::deviceChanged);
+            &Visualizer::deviceChanged);
     
     // make sample rate label and textedit
     QLabel *sRateLabel = new QLabel("Sample rate:");
@@ -305,11 +302,11 @@ void InputTest::initializeWindow()
 //     volumeSlider = new QSlider(Qt::Horizontal, this);
 //     volumeSlider->setRange(0, 100);
 //     volumeSlider->setValue(100);
-//     connect(volumeSlider, &QSlider::valueChanged, this, &InputTest::sliderChanged);
+//     connect(volumeSlider, &QSlider::valueChanged, this, &Visualizer::sliderChanged);
 //     layout->addWidget(volumeSlider);
 // 
 //     modeButton = new QPushButton(this);
-//     connect(modeButton, &QPushButton::clicked, this, &InputTest::toggleMode);
+//     connect(modeButton, &QPushButton::clicked, this, &Visualizer::toggleMode);
 //     layout->addWidget(modeButton);
 
     
@@ -320,7 +317,7 @@ void InputTest::initializeWindow()
     window->show();
 }
 
-void InputTest::initializeAudio(const QAudioDeviceInfo &deviceInfo)
+void Visualizer::initializeAudio(const QAudioDeviceInfo &deviceInfo)
 {
     const int sr_int = getSampleRateInt();
     QAudioFormat format;
@@ -350,7 +347,7 @@ void InputTest::initializeAudio(const QAudioDeviceInfo &deviceInfo)
     toggleMode();
 }
 
-void InputTest::toggleMode()
+void Visualizer::toggleMode()
 {
     audioInput->stop();
 //     toggleSuspend();
@@ -379,7 +376,7 @@ void InputTest::toggleMode()
     pullMode = !pullMode;
 }
 
-// void InputTest::toggleSuspend()
+// void Visualizer::toggleSuspend()
 // {
 //     toggle suspend/resume
 //     if (audioInput->state() == QAudio::SuspendedState || audioInput->state() == QAudio::StoppedState) {
@@ -393,7 +390,7 @@ void InputTest::toggleMode()
 //     }
 // }
 
-void InputTest::deviceChanged(int index)
+void Visualizer::deviceChanged(int index)
 {
     audioInfo->stop();
     audioInput->stop();
@@ -402,7 +399,7 @@ void InputTest::deviceChanged(int index)
     initializeAudio(deviceBox->itemData(index).value<QAudioDeviceInfo>());
 }
 
-void InputTest::sliderChanged(int value)
+void Visualizer::sliderChanged(int value)
 {
     qreal linearVolume = QAudio::convertVolume(value / qreal(100),
                                                QAudio::LogarithmicVolumeScale,
@@ -411,7 +408,7 @@ void InputTest::sliderChanged(int value)
     audioInput->setVolume(linearVolume);
 }
 
-int InputTest::getNoteNum(QString name, const double EDO=12)
+int Visualizer::getNoteNum(QString name, const double EDO=12)
 {
     // TODO update so that EDO values other than 12 work
 //     std::cout << "getNoteNum('" << name.toStdString() << "') = "; 
@@ -457,22 +454,22 @@ int InputTest::getNoteNum(QString name, const double EDO=12)
     return note_num;
 }
 
-double InputTest::centsToHz(const double f0, const double cents, const double EDO=12)
+double Visualizer::centsToHz(const double f0, const double cents, const double EDO=12)
 {
+    // Work out the difference in Hertz between f0 and f0+cents/2 (i.e. upper half)
+    // and double it, as we want to be centred on f0 
     double h_cents {cents/200.};
     double semitone {std::pow(2, (1/EDO))};
     return 2*f0*h_cents*(semitone-1);    
 }
 
-void InputTest::makeDetectorBank()
+void Visualizer::makeDetectorBank()
 {    
+    // get values from GUI
     const double sr_dbl = getSampleRateDbl();
     const double bandwidth_cents {bandwidthEdit->text().toDouble()};
     const double dmp {dampingEdit->text().toDouble()};
     const double gain {gainEdit->text().toDouble()};
-    const float buffer[] = {0.};
-    const std::size_t bufLen {1};
-    
     const double edo {edoEdit->text().toDouble()};
     const int lwr {getNoteNum(lwrEdit->text(), edo)};
     const int upr {getNoteNum(uprEdit->text(), edo) + 1}; // include upr 
@@ -499,6 +496,10 @@ void InputTest::makeDetectorBank()
         }
     }
     
+    // empty input buffer to initialise DetectorBank
+    const float buffer[] = {0.};
+    const std::size_t bufLen {1};
+    
     db.reset(new DetectorBank(sr_dbl, buffer, bufLen, 0, freq, bw, len,
                               static_cast<DetectorBank::Features>(
                                 DetectorBank::Features::runge_kutta|
@@ -510,7 +511,7 @@ void InputTest::makeDetectorBank()
     std::cout << "and sample rate of " << db->getSR() << "Hz\n";
 }
 
-int InputTest::getSampleRateInt()
+int Visualizer::getSampleRateInt()
 {
     int sr; 
     int srIdx { sRateBox->currentIndex() };
@@ -524,7 +525,7 @@ int InputTest::getSampleRateInt()
     return sr;
 }
 
-double InputTest::getSampleRateDbl()
+double Visualizer::getSampleRateDbl()
 {
     double sr;
     int srIdx { sRateBox->currentIndex() };

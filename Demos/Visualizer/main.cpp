@@ -1,14 +1,14 @@
 #include <QtWidgets>
 
-#include "audioinput.h"
+#include "visualizer.h"
 
 int main(int argv, char **args)
 {
     QApplication app(argv, args);
-    app.setApplicationName("Audio Input Test");
+    app.setApplicationName("Visualizer");
 
-    InputTest input;
-    input.show();
+    Visualizer viz;
+    viz.show();
 
     return app.exec();
 }

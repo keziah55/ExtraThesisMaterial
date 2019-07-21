@@ -61,13 +61,13 @@ private:
 };
 
 
-class InputTest : public QMainWindow
+class Visualizer : public QMainWindow
 {
     Q_OBJECT
 
 public:
     /*! Make object to process input */
-    InputTest();
+    Visualizer();
     
 protected:
     /*! Find number of semitones between note 'name' and A4 
