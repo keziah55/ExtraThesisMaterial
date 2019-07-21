@@ -1,11 +1,10 @@
-#ifndef AUDIOINPUT_H
-#define AUDIOINPUT_H
+#ifndef VISUALIZER_H
+#define VISUALIZER_H
 
 #include <memory>
 
 #include <QAudioInput>
 #include <QByteArray>
-// #include <QChart>
 #include <QComboBox>
 #include <QMainWindow>
 #include <QObject>
@@ -128,4 +127,4 @@ private:
     bool pullMode = true;
 };
 
-#endif // AUDIOINPUT_H
+#endif // VISUALIZER_H_H
