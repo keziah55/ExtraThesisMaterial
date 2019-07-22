@@ -3,8 +3,9 @@
 
 #include <memory>
 
-#include <QAudioInput>
 #include <QAudioBuffer>
+#include <QAudioInput>
+#include <QAudioProbe>
 #include <QByteArray>
 #include <QComboBox>
 #include <QMainWindow>

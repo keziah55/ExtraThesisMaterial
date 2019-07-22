@@ -6,20 +6,26 @@
 
 #include <QDateTime>
 #include <QDebug>
-#include <QPainter>
+
 #include <QHBoxLayout>
 #include <QVBoxLayout>
 #include <QGridLayout>
+
 #include <QPushButton>
 #include <QLineEdit>
+#include <QLabel>
+
+#include <QAudioBuffer>
 #include <QAudioDeviceInfo>
 #include <QAudioInput>
-#include <QAudioBuffer>
-#include <QLabel>
+#include <QAudioProbe>
+
 #include <qendian.h>
+
 #include <QVector>
 #include <QString>
 #include <QList>
+
 #include <QTimer>
 
 #include "visualizer.h"
