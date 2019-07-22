@@ -163,7 +163,6 @@ qint64 AudioDevice::writeData(const char *data, qint64 len)
 Visualizer::Visualizer()
 {
     initializeWindow();
-    initializeAudio(QAudioDeviceInfo::defaultInputDevice());
 }
 
 
@@ -295,6 +294,8 @@ void Visualizer::initializeWindow()
 void Visualizer::initializeAudio(const QAudioDeviceInfo &deviceInfo)
 {
     const int sr_int = getSampleRateInt();
+    setBufLen(static_cast<int>(getSampleRateDbl() * 0.04)); // 40ms buffer
+    
     QAudioFormat format;
     format.setSampleRate(sr_int);
     format.setChannelCount(1);
@@ -317,13 +318,22 @@ void Visualizer::initializeAudio(const QAudioDeviceInfo &deviceInfo)
     qreal initialVolume = QAudio::convertVolume(audioInput->volume(),
                                                 QAudio::LinearVolumeScale,
                                                 QAudio::LogarithmicVolumeScale);
-//     volumeSlider->setValue(qRound(initialVolume * 100));
+
+    audioBuffer.reset(new QAudioBuffer(setBufLen, format));
+    
+    audioProbe.reset(new QAudioProbe(this));
+    
+    if (audioProbe->setSource(audioInput)) {
+        connect(audioProbe, SIGNAL(audioBufferProbed(audioBuffer)), this,
+                SLOT(getDetBankData(audioBuffer)));
+    }
+    
     audioDevice->start();
-    toggleMode();
 }
 
 void Visualizer::start()
 {
+    initializeAudio(QAudioDeviceInfo::defaultInputDevice());
     makeDetectorBank();
     plotData.reset(new PlotData(*db));
     plotData->show();
@@ -517,4 +527,14 @@ double Visualizer::getSampleRateDbl()
     else
         throw std::invalid_argument("Sample rate should be 44100 or 48000.");
     return sr;
+}
+
+void Visualizer::getBufLen()
+{
+    return buflen;
+}
+
+int Visualizer::setBufLen(int newBuflen)
+{
+    buflen = newBuflen;
 }

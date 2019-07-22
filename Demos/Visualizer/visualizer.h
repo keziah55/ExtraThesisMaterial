@@ -76,7 +76,14 @@ protected:
     double getSampleRateDbl();
     /*! Make DetectorBank from current parameters */
     void makeDetectorBank();
+    /*! Get number of samples in buffer */
+    int getBufLen();
+    /*! Set number of samples in buffer */
+    void setBuflen(int newBuflen);
     
+    
+    /*! Number of samples in buffer (or frames for a stereo buffer) */
+    int buflen = 4096;
     /*! DetectorBank that produces values */
     std::unique_ptr<DetectorBank> db;
     /*! Widget to plot DetectorBank data */
@@ -91,7 +98,7 @@ private:
     void initializeWindow();
     void initializeAudio(const QAudioDeviceInfo &deviceInfo);
     void startAudio();
-    void getDetBankData();
+    void getDetBankData(QAudioBuffer buffer);
 
 private slots:
 //     void toggleSuspend();
@@ -119,8 +126,10 @@ private:
     
 //     QSlider *volumeSlider = nullptr;
 
-    QScopedPointer<AudioDevice> audioDevice;
-    QScopedPointer<QAudioInput> audioInput;
+    std::unique_ptr<AudioDevice> audioDevice;
+    std::unique_ptr<QAudioInput> audioInput;
+    std::unique_ptr<QAudioBuffer> audioBuffer;
+    std::unique_ptr<QAudioProbe> audioProbe;
 };
 
 #endif // VISUALIZER_H
