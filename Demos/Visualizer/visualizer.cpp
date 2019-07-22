@@ -14,11 +14,13 @@
 #include <QLineEdit>
 #include <QAudioDeviceInfo>
 #include <QAudioInput>
+#include <QAudioBuffer>
 #include <QLabel>
 #include <qendian.h>
 #include <QVector>
 #include <QString>
 #include <QList>
+#include <QTimer>
 
 #include "visualizer.h"
 #include "detectorbank.h"
@@ -149,41 +151,7 @@ qint64 AudioDevice::writeData(const char *data, qint64 len)
     return len;
 }
 
-RenderArea::RenderArea(QWidget *parent)
-    : QWidget(parent)
-{
-    setBackgroundRole(QPalette::Base);
-    setAutoFillBackground(true);
 
-    setMinimumHeight(30);
-    setMinimumWidth(200);
-}
-
-void RenderArea::paintEvent(QPaintEvent * /* event */)
-{
-    QPainter painter(this);
-
-    painter.setPen(Qt::black);
-    painter.drawRect(QRect(painter.viewport().left()+10,
-                           painter.viewport().top()+10,
-                           painter.viewport().right()-20,
-                           painter.viewport().bottom()-20));
-    if (level == 0.0)
-        return;
-
-    int pos = ((painter.viewport().right()-20)-(painter.viewport().left()+11))*level;
-    painter.fillRect(painter.viewport().left()+11,
-                     painter.viewport().top()+10,
-                     pos,
-                     painter.viewport().height()-21,
-                     Qt::red);
-}
-
-void RenderArea::setLevel(qreal value)
-{
-    level = value;
-    update();
-}
 
 
 Visualizer::Visualizer()
@@ -353,50 +321,48 @@ void Visualizer::start()
     makeDetectorBank();
     plotData.reset(new PlotData(*db));
     plotData->show();
+    
+    startAudio();
+    connect(&timer, &QTimer::timeout, this, plotData->update());
+    timer.setInterval(30);
+    timer.start();
 }
 
-void Visualizer::toggleMode()
+void Visualizer::startAudio()
 {
-    audioInput->stop();
+//     audioInput->stop();
 //     toggleSuspend();
 
     // Change bewteen pull and push modes
-    if (pullMode) {
+//     if (pullMode) {
 //         modeButton->setText(tr("Enable push mode"));
-        audioInput->start(audioDevice.data());
-    } else {
+//         audioInput->start(audioDevice.data());
+//     } else {
 //         modeButton->setText(tr("Enable pull mode"));
-        auto io = audioInput->start();
-        connect(io, &QIODevice::readyRead,
-            [&, io]() {
-                qint64 len = audioInput->bytesReady();
-                const int BufferSize = static_cast<int>(0.03 * getSampleRateDbl()); 
-                if (len > BufferSize)
-                    len = BufferSize;
+    
+    // push mode
+    auto io = audioInput->start();
+    connect(io, &QIODevice::readyRead,
+        [&, io]() {
+            qint64 len = audioInput->bytesReady();
+            const int BufferSize = static_cast<int>(0.03 * getSampleRateDbl()); 
+            if (len > BufferSize)
+                len = BufferSize;
 
-                QByteArray buffer(len, 0);
-                qint64 l = io->read(buffer.data(), len);
-                if (l > 0)
-                    audioDevice->write(buffer.constData(), l);
-            });
-    }
-
-    pullMode = !pullMode;
+            QByteArray buffer(len, 0);
+            qint64 l = io->read(buffer.data(), len);
+            if (l > 0)
+                audioDevice->write(buffer.constData(), l);
+        });
+//     }
+//     pullMode = !pullMode;
 }
 
-// void Visualizer::toggleSuspend()
-// {
-//     toggle suspend/resume
-//     if (audioInput->state() == QAudio::SuspendedState || audioInput->state() == QAudio::StoppedState) {
-//         audioInput->resume();
-//         suspendResumeButton->setText(tr("Suspend recording"));
-//     } else if (audioInput->state() == QAudio::ActiveState) {
-//         audioInput->suspend();
-//         suspendResumeButton->setText(tr("Resume recording"));
-//     } else if (audioInput->state() == QAudio::IdleState) {
-//         no-op
-//     }
-// }
+void Visualizer::getDetBankData()
+{
+    
+    audioDevice->readData();
+}
 
 void Visualizer::deviceChanged(int index)
 {

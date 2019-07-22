@@ -4,6 +4,7 @@
 #include <memory>
 
 #include <QAudioInput>
+#include <QAudioBuffer>
 #include <QByteArray>
 #include <QComboBox>
 #include <QMainWindow>
@@ -17,6 +18,9 @@
 
 #include "detectorbank.h"
 #include "plotdata.h"
+
+typedef std::complex<double> discriminator_t;
+
 
 class AudioDevice : public QIODevice
 {
@@ -40,24 +44,6 @@ private:
 
 signals:
     void update();
-};
-
-
-class RenderArea : public QWidget
-{
-    Q_OBJECT
-
-public:
-    explicit RenderArea(QWidget *parent = nullptr);
-
-    void setLevel(qreal value);
-
-protected:
-    void paintEvent(QPaintEvent *event) override;
-
-private:
-    qreal level = 0;
-    QPixmap pixmap;
 };
 
 
@@ -94,6 +80,8 @@ protected:
     std::unique_ptr<DetectorBank> db;
     /*! Widget to plot DetectorBank data */
     std::unique_ptr<PlotData> plotData;
+    /*! Timer which updates PlotData */
+    QTimer timer;
     
 protected slots:
     void start();
@@ -101,9 +89,10 @@ protected slots:
 private:
     void initializeWindow();
     void initializeAudio(const QAudioDeviceInfo &deviceInfo);
+    void startAudio();
+    void getDetBankData();
 
 private slots:
-    void toggleMode();
 //     void toggleSuspend();
     void deviceChanged(int index);
     void sliderChanged(int value);
@@ -131,7 +120,6 @@ private:
 
     QScopedPointer<AudioDevice> audioDevice;
     QScopedPointer<QAudioInput> audioInput;
-    bool pullMode = true;
 };
 
-#endif // VISUALIZER_H_H
+#endif // VISUALIZER_H

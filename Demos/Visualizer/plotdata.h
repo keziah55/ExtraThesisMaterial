@@ -7,9 +7,6 @@
 #include <QXYSeries>
 #include <QTimer>
 
-#include "detectorbank.h"
-
-typedef std::complex<double> discriminator_t;
 
 class PlotData : public QWidget
 {
@@ -40,10 +37,8 @@ public slots:
                 std::size_t chans, std::size_t numFrame); 
     
 protected:
-     /*! The DetectorBank which produces the results */
-    DetectorBank& db;
 //     QXYSeries *series = nullptr;
-    QTimer timer;
+    
 };
 
 #endif
