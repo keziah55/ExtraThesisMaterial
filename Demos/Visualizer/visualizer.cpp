@@ -166,7 +166,6 @@ void Visualizer::initializeAudio(const QAudioDeviceInfo &deviceInfo)
     audioInput.reset(new QAudioInput(deviceInfo, format));
     
     connect(audioDevice.get(), SIGNAL(audioDevice->update()), this, SLOT(getDetBankData()));
-//     audioInput->start(*audioDevice);
 }
 
 void Visualizer::start()
@@ -200,6 +199,7 @@ void Visualizer::startAudio()
 //         modeButton->setText(tr("Enable pull mode"));
     
     // push mode
+    audioDevice->start();
     auto io = audioInput->start();
     connect(io, &QIODevice::readyRead,
         [&, io]() {
