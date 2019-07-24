@@ -6,6 +6,8 @@ Currently work-in-progress.
 
 ## Requirements
 - Qt5
+- Qwt
+- [DetectorBank](https://github.com/keziah55/DetectorBank) 
 
 
 ## Building

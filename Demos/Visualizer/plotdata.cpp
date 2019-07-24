@@ -8,78 +8,70 @@
 #include <QVBoxLayout>
 #include <QColor>
 #include <QVector>
-#include <QChart>
-#include <QChartView>
-#include <QScatterSeries>
-#include <QValueAxis>
 
-PlotData::PlotData(const std::size_t chans, const int offset)
+PlotData::PlotData(const std::size_t numChans, const int offset, 
+                   QWidget *parent)
+  : QWidget(parent)
 {
+    QWidget *window = new QWidget;
     setWindowTitle("Live Visualizer");
+    
+    QwtPlot *plot = new QwtPlot(parent);
       
     QVBoxLayout *layout = new QVBoxLayout;
-      
-    chart = new QChart();
-    chart->setTheme(QChart::ChartThemeDark);
-    chart->legend()->hide();
-      
-    std::size_t c_idx; // colour index
+    
     // colours for an octave
-    QVector<QColor> colourVector = {QColor(255,0,0),
-                                    QColor(255,0,255),
-                                    QColor(255,136,0),
-                                    QColor(255,255,0),
-                                    QColor(85,255,0),
-                                    QColor(128,0,255),
-                                    QColor(0,153,0),
-                                    QColor(255,255,255),
-                                    QColor(0,178,178),
-                                    QColor(178,178,36),
-                                    QColor(0,170,255),
-                                    QColor(0,43,255)};
+    QVector<QColor> colours = {QColor(255,0,0),
+                               QColor(255,0,255),
+                               QColor(255,136,0),
+                               QColor(255,255,0),
+                               QColor(85,255,0),
+                               QColor(128,0,255),
+                               QColor(0,153,0),
+                               QColor(255,255,255),
+                               QColor(0,178,178),
+                               QColor(178,178,36),
+                               QColor(0,170,255),
+                               QColor(0,43,255)};
       
     // instead of seriesVector, store a vector of QVector<QPointF>
       
-    QValueAxis *axisX = new QValueAxis;
-    axisX->setRange(-50, 50);
-    axisX->setLabelFormat("%g");
-//     axisX->setTitleText("Samples");
-    QValueAxis *axisY = new QValueAxis;
-    axisY->setRange(-50, 50);
-//     axisY->setTitleText("Audio level");
-    chart->addAxis(axisX, Qt::AlignBottom);
-    chart->addAxis(axisY, Qt::AlignLeft);
                                     
     // make all the required series and set their colours
-    for (std::size_t i{0}; i<chans; i++) {
-        QScatterSeries *series = new QScatterSeries();
+    std::size_t c_idx; // colour index
+    for (std::size_t i{0}; i<numChans; i++) {
+        QwtPlotCurve *curve = new QwtPlotCurve();
         c_idx = (static_cast<int>(i)+offset) % 12;
-        series->setMarkerSize(2);
-        series->setColor(colourVector[c_idx]);
-        seriesVector.append(series);
-        chart->addSeries(series);
-        series->attachAxis(axisX);
-        series->attachAxis(axisY);
+        curve->setPen(colours[c_idx], 1.0);
+        curves.append(curve);
+        curve->attach(plot);
     }
-      
-    QChartView *chartView = new QChartView(chart);
-    layout->addWidget(chartView);
+
+    plot->setAxisScale(0, -50, 50);
+    plot->setAxisScale(2, -50, 50);
+    plot->updateAxes();
+    
     showMaximized();
+    layout->addWidget(plot);
     setLayout(layout);
+    window->setLayout(layout);
+    window->show();
 }
 
 void PlotData::update(const discriminator_t* frames,
-                      const std::size_t chans, 
+                      const std::size_t numChans, 
                       const std::size_t numFrames)
 {
-    for (std::size_t i{0}; i<chans; i++) {
-        seriesVector[i]->clear();
-        
+    double x[numFrames];
+    double y[numFrames];
+    
+    for (std::size_t i{0}; i<numChans; i++) {
         for (std::size_t n{0}; n<numFrames; n++){
-            // get current value
-            discriminator_t z {frames[(i*chans)+n]};
-            seriesVector[i]->append(z.real(), z.imag());
-//             std::cout << "x=" << z.real() << ", y=" << z.imag() << "\n";
+            discriminator_t z {frames[(i*numFrames)+n]};
+            x[n] = z.real();
+            y[n] = z.imag();
         }
+        curves[i]->setSamples(x, y, numFrames);
     }
+//     plot->replot();
 }

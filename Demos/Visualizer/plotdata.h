@@ -4,10 +4,16 @@
 #include <complex>
 
 #include <qwt_plot_canvas.h>
+#include <qwt_plot.h>
 #include <qwt_legend.h>
 #include <qwt_plot_grid.h>
 #include <qwt_plot_curve.h>
 #include <qwt_symbol.h>
+
+#include <QWidget>
+#include <QVector>
+
+typedef std::complex<double> discriminator_t;
 
 class PlotData : public QWidget
 {
@@ -15,12 +21,13 @@ class PlotData : public QWidget
     
 public:
     /*! Make a PlotData window 
-     *  \param chans Number of channels in the DetectorBank
+     *  \param numChans Number of channels in the DetectorBank
      *  \param offset Offset between A and the lowest note in the DetectorBank.
      *  Defaults to zero.
      */
-    PlotData(const std::size_t chans, 
-             const int offset=0);
+    PlotData(const std::size_t numChans, 
+             const int offset=0,
+             QWidget *parent=nullptr);
     
 public slots:
     // TODO figure out how data is passed from Visualizer to PlotData
@@ -34,16 +41,17 @@ public slots:
     // call setInputBuffer() and PlotData knows about it?
     
     /*! Update chart from getZ data
-     * \param frames Output array
-     * \param chans Height of output array
-     * \param numFrames Length of output array
+     * \param frames Input array
+     * \param numChans Height of input array
+     * \param numFrames Length of input array
      */
     void update(const discriminator_t* frames,
-                const std::size_t chans, const std::size_t numFrames); 
+                const std::size_t numChans,
+                const std::size_t numFrames); 
     
 protected:
-    QChart *chart;
-    QVector<QScatterSeries*> seriesVector;
+    QwtPlot *plot;
+    QVector<QwtPlotCurve*> curves;
     
 };
 

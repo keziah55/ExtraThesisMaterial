@@ -180,9 +180,9 @@ void Visualizer::start()
     std::cout << "Making DetectorBank\n";
     makeDetectorBank();
     std::cout << "Making PlotData object\n";
-    plotData.reset(new PlotData(db->getChans(), pitchOffset));
-    std::cout << "Opening PlotData window\n";
-    plotData->show();
+    plotData.reset(new PlotData(db->getChans(), pitchOffset, this));
+//     std::cout << "Opening PlotData window\n";
+//     plotData->show();
     
     std::cout << "Starting audio\n";
     startAudio();
