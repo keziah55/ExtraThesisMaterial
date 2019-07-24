@@ -2,6 +2,7 @@
 #define VISUALIZER_H
 
 #include <memory>
+#include <utility>
 
 #include <QAudioInput>
 #include <QByteArray>
@@ -31,11 +32,13 @@ public:
     
 protected:
     /*! Find number of semitones between note 'name' and A4 
+     *  and between the pitch class of the note and A
      *  \param name Note name, as pitch class, sharp or flat ('#' or 'b') and octave number
      *  \param EDO Number of division per octave. Defaults to 12.
+     *  \returns Number of semitones between 'name' and A4, and between pitch class of 'name' and A
      * Note: currently only implemented for EDO=12.
      */
-    int getNoteNum(QString name, const double EDO);
+    std::pair<int, int> getNoteNum(QString name, const double EDO);
     /*! Convert a bandwidth given in cents to Hertz 
      *  \param f0 Centre frequency, around which the bandwidth will be calculated
      *  \param cents Bandwidth in cents
@@ -53,17 +56,15 @@ protected:
     int getBufLen();
     /*! Set number of samples in buffer */
     void setBufLen(int newBuflen);
-    
-    
+    /*! Picth class offset between the lowest note in the DetectorBank and A */ 
+    std::size_t pitchOffset;
     /*! Number of samples in buffer (or frames for a stereo buffer) */
     int buflen = 4096;
     /*! DetectorBank that produces values */
     std::unique_ptr<DetectorBank> db;
     /*! Widget to plot DetectorBank data */
     std::unique_ptr<PlotData> plotData;
-    /*! Timer which updates PlotData */
-    QTimer timer;
-    
+
 protected slots:
     void start();
 

@@ -4,10 +4,19 @@
 #include <complex>
 
 #include <QWidget>
-#include <QXYSeries>
-#include <QTimer>
+#include <QVector>
+#include <QScatterSeries>
+#include <QChart>
+#include <QChartView>
+
+QT_CHARTS_BEGIN_NAMESPACE
+class QChartView;
+class QChart;
+QT_CHARTS_END_NAMESPACE
 
 typedef std::complex<double> discriminator_t;
+
+QT_CHARTS_USE_NAMESPACE
 
 class PlotData : public QWidget
 {
@@ -15,8 +24,12 @@ class PlotData : public QWidget
     
 public:
     /*! Make a PlotData window 
+     *  \param chans Number of channels in the DetectorBank
+     *  \param offset Offset between A and the lowest note in the DetectorBank.
+     *  Defaults to zero.
      */
-    PlotData();
+    PlotData(const std::size_t chans, 
+             const int offset=0);
     
 public slots:
     // TODO figure out how data is passed from Visualizer to PlotData
@@ -34,11 +47,12 @@ public slots:
      * \param chans Height of output array
      * \param numFrames Length of output array
      */
-    void update(discriminator_t* frames,
-                std::size_t chans, std::size_t numFrame); 
+    void update(const discriminator_t* frames,
+                const std::size_t chans, const std::size_t numFrames); 
     
 protected:
-//     QXYSeries *series = nullptr;
+    QChart *chart;
+    QVector<QScatterSeries*> seriesVector;
     
 };
 

@@ -1,16 +1,16 @@
 TEMPLATE = app
 TARGET = visualizer
 
-QT += multimedia widgets charts
+QT += charts multimedia widgets
 
-HEADERS       = visualizer.h \
-                audiodevice.h \
-                plotdata.h
+HEADERS += visualizer.h \
+           audiodevice.h \
+           plotdata.h
 
-SOURCES       = visualizer.cpp \
-                audiodevice.cpp \
-                plotdata.cpp \
-                main.cpp 
+SOURCES += visualizer.cpp \
+           audiodevice.cpp \
+           plotdata.cpp \
+           main.cpp 
 
 target.path = .
 INSTALLS += target

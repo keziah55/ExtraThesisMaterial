@@ -1,6 +1,7 @@
 #include <stdlib.h>
 #include <math.h>
 #include <stdexcept>
+#include <utility>
 
 #include <Qt>
 
@@ -14,6 +15,7 @@
 #include <QPushButton>
 #include <QLineEdit>
 #include <QLabel>
+#include <QKeySequence>
 
 #include <QAudioDeviceInfo>
 #include <QAudioInput>
@@ -131,7 +133,8 @@ void Visualizer::initializeWindow()
     
     // button to make DetectorBank and start visualisation
     row++;
-    startButton = new QPushButton("Start!");
+    startButton = new QPushButton("&Start!");
+//     startButton->setShortcut(QKeySequence(Qt::Key_S));
     connect(startButton, SIGNAL(clicked()), this, SLOT(start()));
     detBankParamLayout->addWidget(startButton, row, 5, Qt::AlignRight);
     
@@ -175,7 +178,7 @@ void Visualizer::start()
     std::cout << "Making DetectorBank\n";
     makeDetectorBank();
     std::cout << "Making PlotData object\n";
-    plotData.reset(new PlotData());
+    plotData.reset(new PlotData(db->getChans(), pitchOffset));
     std::cout << "Opening PlotData window\n";
     plotData->show();
     
@@ -245,7 +248,7 @@ void Visualizer::sliderChanged(int value)
     audioInput->setVolume(linearVolume);
 }
 
-int Visualizer::getNoteNum(QString name, const double EDO=12)
+std::pair<int, int> Visualizer::getNoteNum(QString name, const double EDO=12)
 {
     // TODO update so that EDO values other than 12 work
 //     std::cout << "getNoteNum('" << name.toStdString() << "') = "; 
@@ -288,7 +291,7 @@ int Visualizer::getNoteNum(QString name, const double EDO=12)
     
 //     std::cout << note_num << "\n";
     
-    return note_num;
+    return std::make_pair(note_num, pitch_diff);
 }
 
 double Visualizer::centsToHz(const double f0, const double cents, const double EDO=12)
@@ -308,8 +311,10 @@ void Visualizer::makeDetectorBank()
     const double dmp {dampingEdit->text().toDouble()};
     const double gain {gainEdit->text().toDouble()};
     const double edo {edoEdit->text().toDouble()};
-    const int lwr {getNoteNum(lwrEdit->text(), edo)};
-    const int upr {getNoteNum(uprEdit->text(), edo) + 1}; // include upr 
+    const int lwr {getNoteNum(lwrEdit->text(), edo).first};
+    const int upr {getNoteNum(uprEdit->text(), edo).first + 1}; // include upr 
+    
+    pitchOffset = getNoteNum(lwrEdit->text(), edo).second;
     
     // calculate detector frequencies
     double freq[upr-lwr];
