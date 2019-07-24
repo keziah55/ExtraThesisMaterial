@@ -30,6 +30,8 @@ public:
     /*! Make object to process input */
     Visualizer();
     
+    ~Visualizer();
+    
 protected:
     /*! Find number of semitones between note 'name' and A4 
      *  and between the pitch class of the note and A
@@ -76,7 +78,6 @@ private:
 private slots:
 //     void toggleSuspend();
     void deviceChanged(int index);
-    void sliderChanged(int value);
     void getDetBankData();
     
 

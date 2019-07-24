@@ -2,6 +2,7 @@
 #include "visualizer.h"
 
 #include <complex>
+#include <iostream>
 
 #include <QWidget>
 #include <QVBoxLayout>
@@ -10,10 +11,11 @@
 #include <QChart>
 #include <QChartView>
 #include <QScatterSeries>
+#include <QValueAxis>
 
 PlotData::PlotData(const std::size_t chans, const int offset)
 {
-    setWindowTitle("Live Vizualizer");
+    setWindowTitle("Live Visualizer");
       
     QVBoxLayout *layout = new QVBoxLayout;
       
@@ -36,14 +38,28 @@ PlotData::PlotData(const std::size_t chans, const int offset)
                                     QColor(0,170,255),
                                     QColor(0,43,255)};
       
+    // instead of seriesVector, store a vector of QVector<QPointF>
       
+    QValueAxis *axisX = new QValueAxis;
+    axisX->setRange(-50, 50);
+    axisX->setLabelFormat("%g");
+//     axisX->setTitleText("Samples");
+    QValueAxis *axisY = new QValueAxis;
+    axisY->setRange(-50, 50);
+//     axisY->setTitleText("Audio level");
+    chart->addAxis(axisX, Qt::AlignBottom);
+    chart->addAxis(axisY, Qt::AlignLeft);
+                                    
     // make all the required series and set their colours
     for (std::size_t i{0}; i<chans; i++) {
         QScatterSeries *series = new QScatterSeries();
         c_idx = (static_cast<int>(i)+offset) % 12;
+        series->setMarkerSize(2);
         series->setColor(colourVector[c_idx]);
         seriesVector.append(series);
         chart->addSeries(series);
+        series->attachAxis(axisX);
+        series->attachAxis(axisY);
     }
       
     QChartView *chartView = new QChartView(chart);
@@ -63,6 +79,7 @@ void PlotData::update(const discriminator_t* frames,
             // get current value
             discriminator_t z {frames[(i*chans)+n]};
             seriesVector[i]->append(z.real(), z.imag());
+//             std::cout << "x=" << z.real() << ", y=" << z.imag() << "\n";
         }
     }
 }

@@ -1,11 +1,8 @@
 #include <stdlib.h>
 #include <math.h>
-#include <stdexcept>
 #include <utility>
 
 #include <Qt>
-
-#include <QDateTime>
 #include <QDebug>
 
 #include <QHBoxLayout>
@@ -24,8 +21,6 @@
 #include <QString>
 #include <QList>
 
-#include <QTimer>
-
 #include "visualizer.h"
 #include "audiodevice.h"
 #include "detectorbank.h"
@@ -37,6 +32,12 @@ Visualizer::Visualizer()
     initializeWindow();
 }
 
+Visualizer::~Visualizer()
+{
+    audioDevice->stop();
+    audioInput->stop();
+    audioInput->disconnect(this);
+}
 
 void Visualizer::initializeWindow()
 {
@@ -150,6 +151,7 @@ void Visualizer::initializeWindow()
 void Visualizer::initializeAudio(const QAudioDeviceInfo &deviceInfo)
 {
     const int sr_int = getSampleRateInt();
+    
     setBufLen(static_cast<int>(getSampleRateDbl() * 0.04)); // 40ms buffer
     
     QAudioFormat format;
@@ -168,12 +170,12 @@ void Visualizer::initializeAudio(const QAudioDeviceInfo &deviceInfo)
     audioDevice.reset(new AudioDevice(format));
     audioInput.reset(new QAudioInput(deviceInfo, format));
     
-    connect(audioDevice.get(), SIGNAL(audioDevice->update()), this, SLOT(getDetBankData()));
+    connect(audioDevice.get(), SIGNAL(update()), this, SLOT(getDetBankData()));
 }
 
 void Visualizer::start()
 {
-    std::cout << "Initialsing audio..\n";
+    std::cout << "Initialising audio..\n";
     initializeAudio(QAudioDeviceInfo::defaultInputDevice());
     std::cout << "Making DetectorBank\n";
     makeDetectorBank();
@@ -228,6 +230,7 @@ void Visualizer::getDetBankData()
     
     db->setInputBuffer(audioDevice->audioBuffer.get(), numFrames);
     db->getZ(results.get(), chans, numFrames);
+    plotData->update(results.get(), chans, numFrames);
 }
 
 void Visualizer::deviceChanged(int index)
@@ -237,15 +240,6 @@ void Visualizer::deviceChanged(int index)
     audioInput->disconnect(this);
 
     initializeAudio(deviceBox->itemData(index).value<QAudioDeviceInfo>());
-}
-
-void Visualizer::sliderChanged(int value)
-{
-    qreal linearVolume = QAudio::convertVolume(value / qreal(100),
-                                               QAudio::LogarithmicVolumeScale,
-                                               QAudio::LinearVolumeScale);
-
-    audioInput->setVolume(linearVolume);
 }
 
 std::pair<int, int> Visualizer::getNoteNum(QString name, const double EDO=12)

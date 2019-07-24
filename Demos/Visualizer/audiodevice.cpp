@@ -2,6 +2,8 @@
 
 #include <qendian.h>
 
+#include <iostream>
+
 // This class is mostly taken from the AudioInput example
 AudioDevice::AudioDevice(const QAudioFormat &format)
     : format(format)
@@ -131,7 +133,6 @@ qint64 AudioDevice::writeData(const char *data, qint64 len)
 //         maxValue = qMin(maxValue, maxAmplitude);
 //         level = qreal(maxValue) / maxAmplitude;
     }
-
     emit update();
     return len;
 }

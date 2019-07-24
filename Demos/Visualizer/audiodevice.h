@@ -22,14 +22,15 @@ public:
     qint64 writeData(const char *data, qint64 len) override;
     
     std::unique_ptr<float[]> audioBuffer;
+    
+signals:
+    void update();
 
 private:
     const QAudioFormat format;
     quint32 maxAmplitude = 0;
     qreal level = 0.0; // 0.0 <= level <= 1.0
 
-signals:
-    void update();
 };
 
 
