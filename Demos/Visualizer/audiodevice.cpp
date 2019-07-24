@@ -1,5 +1,6 @@
 #include "audiodevice.h"
 
+#include <qendian.h>
 
 // This class is mostly taken from the AudioInput example
 AudioDevice::AudioDevice(const QAudioFormat &format)
@@ -53,7 +54,7 @@ AudioDevice::AudioDevice(const QAudioFormat &format)
 
 void AudioDevice::start()
 {
-    open(QIODevice::WriteOnly);
+    open(QIODevice::ReadWrite);
 }
 
 void AudioDevice::stop()
@@ -72,16 +73,23 @@ qint64 AudioDevice::readData(char *data, qint64 maxlen)
 qint64 AudioDevice::writeData(const char *data, qint64 len)
 {
     if (maxAmplitude) {
+        
         Q_ASSERT(format.sampleSize() % 8 == 0);
         const int channelBytes = format.sampleSize() / 8;
         const int sampleBytes = format.channelCount() * channelBytes;
         Q_ASSERT(len % sampleBytes == 0);
         const int numSamples = len / sampleBytes;
+        
+        audioBuffer.reset(new float[numSamples]);
 
-        quint32 maxValue = 0;
+//         quint32 maxValue = 0;
         const unsigned char *ptr = reinterpret_cast<const unsigned char *>(data);
 
         for (int i = 0; i < numSamples; ++i) {
+            
+            // if multiple channels, take the max at  each sample
+            quint32 maxValue = 0;
+            
             for (int j = 0; j < format.channelCount(); ++j) {
                 quint32 value = 0;
 
@@ -116,10 +124,12 @@ qint64 AudioDevice::writeData(const char *data, qint64 len)
                 maxValue = qMax(value, maxValue);
                 ptr += channelBytes;
             }
+            // put value in audioBuffer
+            audioBuffer[i] = maxValue;
         }
 
-        maxValue = qMin(maxValue, maxAmplitude);
-        level = qreal(maxValue) / maxAmplitude;
+//         maxValue = qMin(maxValue, maxAmplitude);
+//         level = qreal(maxValue) / maxAmplitude;
     }
 
     emit update();

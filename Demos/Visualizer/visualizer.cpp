@@ -18,8 +18,6 @@
 #include <QAudioDeviceInfo>
 #include <QAudioInput>
 
-#include <qendian.h>
-
 #include <QVector>
 #include <QString>
 #include <QList>
@@ -139,20 +137,6 @@ void Visualizer::initializeWindow()
     
     // add grid of detbank params (and start button) to main layout
     layout->addLayout(detBankParamLayout);
-    
-    
-    // volume slider
-//     volumeSlider = new QSlider(Qt::Horizontal, this);
-//     volumeSlider->setRange(0, 100);
-//     volumeSlider->setValue(100);
-//     connect(volumeSlider, &QSlider::valueChanged, this, &Visualizer::sliderChanged);
-//     layout->addWidget(volumeSlider);
-// 
-//     modeButton = new QPushButton(this);
-//     connect(modeButton, &QPushButton::clicked, this, &Visualizer::toggleMode);
-//     layout->addWidget(modeButton);
-
-    
 
     window->setLayout(layout);
 
@@ -179,22 +163,10 @@ void Visualizer::initializeAudio(const QAudioDeviceInfo &deviceInfo)
     }
 
     audioDevice.reset(new AudioDevice(format));
-
     audioInput.reset(new QAudioInput(deviceInfo, format));
-    qreal initialVolume = QAudio::convertVolume(audioInput->volume(),
-                                                QAudio::LinearVolumeScale,
-                                                QAudio::LogarithmicVolumeScale);
-
-    audioBuffer.reset(new QAudioBuffer(getBufLen(), format));
     
-    audioProbe.reset(new QAudioProbe(this));
-    
-    if (audioProbe->setSource(audioInput)) {
-        connect(audioProbe, SIGNAL(audioBufferProbed(*audioBuffer)), this,
-                SLOT(getDetBankData(audioBuffer)));
-    }
-    
-    audioDevice->start();
+    connect(audioDevice.get(), SIGNAL(audioDevice->update()), this, SLOT(getDetBankData()));
+//     audioInput->start(*audioDevice);
 }
 
 void Visualizer::start()
@@ -232,9 +204,9 @@ void Visualizer::startAudio()
     connect(io, &QIODevice::readyRead,
         [&, io]() {
             qint64 len = audioInput->bytesReady();
-//             const int BufferSize = static_cast<int>(0.03 * getSampleRateDbl()); 
-            if (len > buflen)
-                len = buflen;
+            const int buflenBytes = buflen*4; // a float is 4 bytes  
+            if (len > buflenBytes)
+                len = buflenBytes;
 
             QByteArray buffer(len, 0);
             qint64 l = io->read(buffer.data(), len);
@@ -245,18 +217,14 @@ void Visualizer::startAudio()
 //     pullMode = !pullMode;
 }
 
-void Visualizer::getDetBankData(QAudioBuffer buffer)
+void Visualizer::getDetBankData()
 {
-    QAudioBuffer::S32F *data = audioBuffer->constData<QAudioBuffer::S32F>();
-    float monoData[buflen];
-    if (buflen != audioBuffer.frameCount()) {
-        std::cout << "buflen != audioBuffer.frameCount()\n";
-        std::cout << "buflen = " << buflen << ", frameCount = " << audioBuffer.frameCount() << "\n";
-    }
-        
-    // get left channel 
-    for (int i{0}; i<buflen; i++) 
-        monoData[i] = data[i].left;
+    const std::size_t chans {db->getChans()};
+    const std::size_t numFrames {static_cast<std::size_t>(buflen)};
+    std::unique_ptr<discriminator_t[]> results(new discriminator_t[chans*numFrames]);
+    
+    db->setInputBuffer(audioDevice->audioBuffer.get(), numFrames);
+    db->getZ(results.get(), chans, numFrames);
 }
 
 void Visualizer::deviceChanged(int index)
@@ -408,12 +376,12 @@ double Visualizer::getSampleRateDbl()
     return sr;
 }
 
-void Visualizer::getBufLen()
+int Visualizer::getBufLen()
 {
     return buflen;
 }
 
-int Visualizer::setBufLen(int newBuflen)
+void Visualizer::setBufLen(int newBuflen)
 {
     buflen = newBuflen;
 }

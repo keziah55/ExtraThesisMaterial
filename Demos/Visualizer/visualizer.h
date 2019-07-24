@@ -3,9 +3,7 @@
 
 #include <memory>
 
-#include <QAudioBuffer>
 #include <QAudioInput>
-#include <QAudioProbe>
 #include <QByteArray>
 #include <QComboBox>
 #include <QMainWindow>
@@ -18,6 +16,7 @@
 #include <QScopedPointer>
 
 #include "detectorbank.h"
+#include "audiodevice.h"
 #include "plotdata.h"
 
 typedef std::complex<double> discriminator_t;
@@ -77,7 +76,7 @@ private slots:
 //     void toggleSuspend();
     void deviceChanged(int index);
     void sliderChanged(int value);
-    void getDetBankData(QAudioBuffer buffer);
+    void getDetBankData();
     
 
 private:
@@ -101,8 +100,6 @@ private:
 
     std::unique_ptr<AudioDevice> audioDevice;
     std::unique_ptr<QAudioInput> audioInput;
-    std::unique_ptr<QAudioBuffer> audioBuffer;
-    std::unique_ptr<QAudioProbe> audioProbe;
 };
 
 #endif // VISUALIZER_H

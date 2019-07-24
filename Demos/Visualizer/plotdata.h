@@ -7,6 +7,7 @@
 #include <QXYSeries>
 #include <QTimer>
 
+typedef std::complex<double> discriminator_t;
 
 class PlotData : public QWidget
 {

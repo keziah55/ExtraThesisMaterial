@@ -21,7 +21,8 @@ PlotData::PlotData()
       
 }
 
-void PlotData::update()
+void PlotData::update(discriminator_t* frames,
+                std::size_t chans, std::size_t numFrame)
 {
     
 }
