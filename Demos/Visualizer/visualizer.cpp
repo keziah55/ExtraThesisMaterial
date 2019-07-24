@@ -336,7 +336,7 @@ void Visualizer::makeDetectorBank()
     const float buffer[] = {0.};
     const std::size_t bufLen {1};
     
-    db.reset(new DetectorBank(sr_dbl, buffer, bufLen, 0, freq, bw, len,
+    db.reset(new DetectorBank(sr_dbl, buffer, bufLen, 4, freq, bw, len,
                               static_cast<DetectorBank::Features>(
                                 DetectorBank::Features::runge_kutta|
                                 DetectorBank::Features::freq_unnormalized|

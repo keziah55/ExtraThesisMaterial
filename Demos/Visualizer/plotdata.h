@@ -3,20 +3,11 @@
 
 #include <complex>
 
-#include <QWidget>
-#include <QVector>
-#include <QScatterSeries>
-#include <QChart>
-#include <QChartView>
-
-QT_CHARTS_BEGIN_NAMESPACE
-class QChartView;
-class QChart;
-QT_CHARTS_END_NAMESPACE
-
-typedef std::complex<double> discriminator_t;
-
-QT_CHARTS_USE_NAMESPACE
+#include <qwt_plot_canvas.h>
+#include <qwt_legend.h>
+#include <qwt_plot_grid.h>
+#include <qwt_plot_curve.h>
+#include <qwt_symbol.h>
 
 class PlotData : public QWidget
 {
