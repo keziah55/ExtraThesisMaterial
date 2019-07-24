@@ -15,10 +15,8 @@
 #include <QLineEdit>
 #include <QLabel>
 
-#include <QAudioBuffer>
 #include <QAudioDeviceInfo>
 #include <QAudioInput>
-#include <QAudioProbe>
 
 #include <qendian.h>
 
@@ -29,135 +27,9 @@
 #include <QTimer>
 
 #include "visualizer.h"
+#include "audiodevice.h"
 #include "detectorbank.h"
 #include "plotdata.h"
-
-// This class is mostly taken from the AudioInput example
-AudioDevice::AudioDevice(const QAudioFormat &format)
-    : format(format)
-{
-    switch (format.sampleSize()) {
-    case 8:
-        switch (format.sampleType()) {
-        case QAudioFormat::UnSignedInt:
-            maxAmplitude = 255;
-            break;
-        case QAudioFormat::SignedInt:
-            maxAmplitude = 127;
-            break;
-        default:
-            break;
-        }
-        break;
-    case 16:
-        switch (format.sampleType()) {
-        case QAudioFormat::UnSignedInt:
-            maxAmplitude = 65535;
-            break;
-        case QAudioFormat::SignedInt:
-            maxAmplitude = 32767;
-            break;
-        default:
-            break;
-        }
-        break;
-
-    case 32:
-        switch (format.sampleType()) {
-        case QAudioFormat::UnSignedInt:
-            maxAmplitude = 0xffffffff;
-            break;
-        case QAudioFormat::SignedInt:
-            maxAmplitude = 0x7fffffff;
-            break;
-        case QAudioFormat::Float:
-            maxAmplitude = 0x7fffffff; // Kind of
-        default:
-            break;
-        }
-        break;
-
-    default:
-        break;
-    }
-}
-
-void AudioDevice::start()
-{
-    open(QIODevice::WriteOnly);
-}
-
-void AudioDevice::stop()
-{
-    close();
-}
-
-qint64 AudioDevice::readData(char *data, qint64 maxlen)
-{
-    Q_UNUSED(data)
-    Q_UNUSED(maxlen)
-
-    return 0;
-}
-
-qint64 AudioDevice::writeData(const char *data, qint64 len)
-{
-    if (maxAmplitude) {
-        Q_ASSERT(format.sampleSize() % 8 == 0);
-        const int channelBytes = format.sampleSize() / 8;
-        const int sampleBytes = format.channelCount() * channelBytes;
-        Q_ASSERT(len % sampleBytes == 0);
-        const int numSamples = len / sampleBytes;
-
-        quint32 maxValue = 0;
-        const unsigned char *ptr = reinterpret_cast<const unsigned char *>(data);
-
-        for (int i = 0; i < numSamples; ++i) {
-            for (int j = 0; j < format.channelCount(); ++j) {
-                quint32 value = 0;
-
-                if (format.sampleSize() == 8 && format.sampleType() == QAudioFormat::UnSignedInt) {
-                    value = *reinterpret_cast<const quint8*>(ptr);
-                } else if (format.sampleSize() == 8 && format.sampleType() == QAudioFormat::SignedInt) {
-                    value = qAbs(*reinterpret_cast<const qint8*>(ptr));
-                } else if (format.sampleSize() == 16 && format.sampleType() == QAudioFormat::UnSignedInt) {
-                    if (format.byteOrder() == QAudioFormat::LittleEndian)
-                        value = qFromLittleEndian<quint16>(ptr);
-                    else
-                        value = qFromBigEndian<quint16>(ptr);
-                } else if (format.sampleSize() == 16 && format.sampleType() == QAudioFormat::SignedInt) {
-                    if (format.byteOrder() == QAudioFormat::LittleEndian)
-                        value = qAbs(qFromLittleEndian<qint16>(ptr));
-                    else
-                        value = qAbs(qFromBigEndian<qint16>(ptr));
-                } else if (format.sampleSize() == 32 && format.sampleType() == QAudioFormat::UnSignedInt) {
-                    if (format.byteOrder() == QAudioFormat::LittleEndian)
-                        value = qFromLittleEndian<quint32>(ptr);
-                    else
-                        value = qFromBigEndian<quint32>(ptr);
-                } else if (format.sampleSize() == 32 && format.sampleType() == QAudioFormat::SignedInt) {
-                    if (format.byteOrder() == QAudioFormat::LittleEndian)
-                        value = qAbs(qFromLittleEndian<qint32>(ptr));
-                    else
-                        value = qAbs(qFromBigEndian<qint32>(ptr));
-                } else if (format.sampleSize() == 32 && format.sampleType() == QAudioFormat::Float) {
-                    value = qAbs(*reinterpret_cast<const float*>(ptr) * 0x7fffffff); // assumes 0-1.0
-                }
-
-                maxValue = qMax(value, maxValue);
-                ptr += channelBytes;
-            }
-        }
-
-        maxValue = qMin(maxValue, maxAmplitude);
-        level = qreal(maxValue) / maxAmplitude;
-    }
-
-    emit update();
-    return len;
-}
-
-
 
 
 Visualizer::Visualizer()
@@ -171,9 +43,6 @@ void Visualizer::initializeWindow()
     QWidget *window = new QWidget;
     QVBoxLayout *layout = new QVBoxLayout;
 
-    canvas = new RenderArea(this);
-    layout->addWidget(canvas);
-    
     // layout for audio device and sample rate selection
     QHBoxLayout *deviceLayout = new QHBoxLayout;
 
@@ -310,21 +179,18 @@ void Visualizer::initializeAudio(const QAudioDeviceInfo &deviceInfo)
     }
 
     audioDevice.reset(new AudioDevice(format));
-    connect(audioDevice.data(), &AudioDevice::update, [this]() {
-        canvas->setLevel(audioDevice->getLevel());
-    });
 
     audioInput.reset(new QAudioInput(deviceInfo, format));
     qreal initialVolume = QAudio::convertVolume(audioInput->volume(),
                                                 QAudio::LinearVolumeScale,
                                                 QAudio::LogarithmicVolumeScale);
 
-    audioBuffer.reset(new QAudioBuffer(setBufLen, format));
+    audioBuffer.reset(new QAudioBuffer(getBufLen(), format));
     
     audioProbe.reset(new QAudioProbe(this));
     
     if (audioProbe->setSource(audioInput)) {
-        connect(audioProbe, SIGNAL(audioBufferProbed(audioBuffer)), this,
+        connect(audioProbe, SIGNAL(audioBufferProbed(*audioBuffer)), this,
                 SLOT(getDetBankData(audioBuffer)));
     }
     
@@ -333,15 +199,20 @@ void Visualizer::initializeAudio(const QAudioDeviceInfo &deviceInfo)
 
 void Visualizer::start()
 {
+    std::cout << "Initialsing audio..\n";
     initializeAudio(QAudioDeviceInfo::defaultInputDevice());
+    std::cout << "Making DetectorBank\n";
     makeDetectorBank();
-    plotData.reset(new PlotData(*db));
+    std::cout << "Making PlotData object\n";
+    plotData.reset(new PlotData());
+    std::cout << "Opening PlotData window\n";
     plotData->show();
     
+    std::cout << "Starting audio\n";
     startAudio();
-    connect(&timer, &QTimer::timeout, this, plotData->update());
-    timer.setInterval(30);
-    timer.start();
+//     connect(&timer, &QTimer::timeout, this, plotData->update());
+//     timer.setInterval(30);
+//     timer.start();
 }
 
 void Visualizer::startAudio()
@@ -361,9 +232,9 @@ void Visualizer::startAudio()
     connect(io, &QIODevice::readyRead,
         [&, io]() {
             qint64 len = audioInput->bytesReady();
-            const int BufferSize = static_cast<int>(0.03 * getSampleRateDbl()); 
-            if (len > BufferSize)
-                len = BufferSize;
+//             const int BufferSize = static_cast<int>(0.03 * getSampleRateDbl()); 
+            if (len > buflen)
+                len = buflen;
 
             QByteArray buffer(len, 0);
             qint64 l = io->read(buffer.data(), len);
@@ -374,10 +245,18 @@ void Visualizer::startAudio()
 //     pullMode = !pullMode;
 }
 
-void Visualizer::getDetBankData()
+void Visualizer::getDetBankData(QAudioBuffer buffer)
 {
-    
-    audioDevice->readData();
+    QAudioBuffer::S32F *data = audioBuffer->constData<QAudioBuffer::S32F>();
+    float monoData[buflen];
+    if (buflen != audioBuffer.frameCount()) {
+        std::cout << "buflen != audioBuffer.frameCount()\n";
+        std::cout << "buflen = " << buflen << ", frameCount = " << audioBuffer.frameCount() << "\n";
+    }
+        
+    // get left channel 
+    for (int i{0}; i<buflen; i++) 
+        monoData[i] = data[i].left;
 }
 
 void Visualizer::deviceChanged(int index)

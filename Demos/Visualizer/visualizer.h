@@ -22,32 +22,6 @@
 
 typedef std::complex<double> discriminator_t;
 
-
-class AudioDevice : public QIODevice
-{
-    Q_OBJECT
-
-public:
-    AudioDevice(const QAudioFormat &format);
-
-    void start();
-    void stop();
-
-    qreal getLevel() const { return level; }
-
-    qint64 readData(char *data, qint64 maxlen) override;
-    qint64 writeData(const char *data, qint64 len) override;
-
-private:
-    const QAudioFormat format;
-    quint32 maxAmplitude = 0;
-    qreal level = 0.0; // 0.0 <= level <= 1.0
-
-signals:
-    void update();
-};
-
-
 class Visualizer : public QMainWindow
 {
     Q_OBJECT
@@ -79,7 +53,7 @@ protected:
     /*! Get number of samples in buffer */
     int getBufLen();
     /*! Set number of samples in buffer */
-    void setBuflen(int newBuflen);
+    void setBufLen(int newBuflen);
     
     
     /*! Number of samples in buffer (or frames for a stereo buffer) */
@@ -98,18 +72,17 @@ private:
     void initializeWindow();
     void initializeAudio(const QAudioDeviceInfo &deviceInfo);
     void startAudio();
-    void getDetBankData(QAudioBuffer buffer);
 
 private slots:
 //     void toggleSuspend();
     void deviceChanged(int index);
     void sliderChanged(int value);
+    void getDetBankData(QAudioBuffer buffer);
     
 
 private:
     
     // Owned by layout
-    RenderArea *canvas = nullptr;
 //     QPushButton *modeButton = nullptr;
 //     QPushButton *suspendResumeButton = nullptr;
     QComboBox *deviceBox = nullptr;

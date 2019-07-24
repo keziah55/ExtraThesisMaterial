@@ -4,9 +4,11 @@ TARGET = visualizer
 QT += multimedia widgets charts
 
 HEADERS       = visualizer.h \
+                audiodevice.h \
                 plotdata.h
 
 SOURCES       = visualizer.cpp \
+                audiodevice.cpp \
                 plotdata.cpp \
                 main.cpp 
 
