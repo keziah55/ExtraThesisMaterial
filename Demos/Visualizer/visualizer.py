@@ -167,11 +167,11 @@ class Visualizer(QMainWindow):
         self.initializeAudio(device)
         
         print('Making DetectorBank...')
-        self.makeDetectorBank()
+        pitchOffset = self.makeDetectorBank()
         
         print('Making PlotData object...')
-        pd = PlotData()
-        pd.show()
+        self.pd = PlotData(self.db.getChans(), pitchOffset)
+        self.pd.show()
         
         print('Starting audio...')
         self.startAudio()
@@ -185,11 +185,13 @@ class Visualizer(QMainWindow):
         data = np.array(data/2**15, dtype=np.dtype('float32'))
         
         # set DetectorBank input
-        self.det.setInputBuffer(data)
+        self.db.setInputBuffer(data)
         # create empty output array
-        z = np.zeros((int(self.det.getChans()),self.buflen), dtype=np.complex128)  
+        z = np.zeros((int(self.db.getChans()),self.buflen), dtype=np.complex128)  
         # fill z with detector output
-        self.det.getZ(z)
+        self.db.getZ(z)
+        
+        self.pd.update(z)
         
         
     def makeDetectorBank(self):
@@ -203,7 +205,7 @@ class Visualizer(QMainWindow):
         lwr = self.lwrEdit.text()
         upr = self.uprEdit.text()
         
-        lwr, picthOffset = getNoteNum(lwr, edo)
+        lwr, pitchOffset = getNoteNum(lwr, edo)
         upr, _ = getNoteNum(upr, edo)
         upr += 1 # include upr note in DetectorBank
         
@@ -228,11 +230,13 @@ class Visualizer(QMainWindow):
         f_norm = DetectorBank.freq_unnormalized
         a_norm = DetectorBank.amp_unnormalized
         
-        self.det = DetectorBank(sr, buffer, 4, det_char, method|f_norm|a_norm, 
+        self.db = DetectorBank(sr, buffer, 4, det_char, method|f_norm|a_norm, 
                                 dmp, gain)
         
         print("Made DetectorBank with {} channels, with a sample rate of {}Hz"
-              .format(self.det.getChans(), self.det.getSR()))
+              .format(self.db.getChans(), self.db.getSR()))
+        
+        return pitchOffset
         
     ## get and/or set various values
     def getSampleRate(self, returnType=int):
