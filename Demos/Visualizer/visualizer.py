@@ -169,7 +169,9 @@ class Visualizer(QMainWindow):
         print('Making DetectorBank...')
         self.makeDetectorBank()
         
-#        print('Making PlotData object...')
+        print('Making PlotData object...')
+        pd = PlotData()
+        pd.show()
         
         print('Starting audio...')
         self.startAudio()
