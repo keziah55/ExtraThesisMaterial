@@ -5,18 +5,17 @@ Live visualisation of DetectorBank
 """
 
 import sys
-import os
 
-from PyQt5.QtGui import QIcon, QKeySequence
-from PyQt5.QtCore import Qt, QVariant
-from PyQt5.QtWidgets import (QAction, 
-                             QApplication, QComboBox, QDesktopWidget, 
+from PyQt5.QtGui import QKeySequence
+from PyQt5.QtCore import Qt
+from PyQt5.QtWidgets import (QApplication, QComboBox,  
                              QGridLayout, QHBoxLayout, QLabel, QLineEdit,
-                             QMainWindow, QMessageBox, QPushButton,
+                             QMainWindow, QPushButton,
                              QVBoxLayout, QWidget)
 from PyQt5.QtMultimedia import (QAudio, QAudioDeviceInfo, QAudioFormat, 
                                 QAudioInput)
 
+from plotdata import PlotData
 from detectorbank import DetectorBank
 import numpy as np
 from musicfuncs import getNoteNum, centsToHz
@@ -130,14 +129,13 @@ class Visualizer(QMainWindow):
         
     def initializeAudio(self, deviceInfo):
         """ Make a QAudioInput from the given device """
-        
+                
         # make buffers of 40ms of samples
-        sr = self.getSampleRate()
-        self.buflen = int(sr*0.04)
+        self.refRate = 0.04
         
         # mono, 32-bit float audio
         fmt = QAudioFormat()
-        fmt.setSampleRate(sr)
+        fmt.setSampleRate(self.getSampleRate())
         fmt.setChannelCount(1)
         fmt.setSampleSize(32)
         fmt.setSampleType(QAudioFormat.Float)
@@ -148,11 +146,14 @@ class Visualizer(QMainWindow):
             fmt = deviceInfo.nearestFormat(fmt)
             
         self.audioInput = QAudioInput(deviceInfo, fmt)
+#        self.audioInput.setNotifyInterval(int(1000*self.refRate))
+        self.audioInput.setBufferSize(4*self.buflen) # set size in bytes
 
         
     def startAudio(self):
         self.audioDevice = self.audioInput.start()
-        ## connect(audioDevice.get(), SIGNAL(update()), this, SLOT(getDetBankData()));
+#        self.audioInput.notify.connect(self.getDetBankData)
+        self.audioDevice.readyRead.connect(self.getDetBankData)
         
         
     def start(self):
@@ -173,6 +174,21 @@ class Visualizer(QMainWindow):
         print('Starting audio...')
         self.startAudio()
         
+    
+    def getDetBankData(self):
+        
+        # get data as float32
+        data = self.audioDevice.read(4*self.buflen)
+        data = np.frombuffer(data, dtype=np.int16)
+        data = np.array(data/2**15, dtype=np.dtype('float32'))
+        
+        # set DetectorBank input
+        self.det.setInputBuffer(data)
+        # create empty output array
+        z = np.zeros((int(self.det.getChans()),self.buflen), dtype=np.complex128)  
+        # fill z with detector output
+        self.det.getZ(z)
+        
         
     def makeDetectorBank(self):
         """ Make DetectorBank from given parameters """
@@ -190,7 +206,7 @@ class Visualizer(QMainWindow):
         upr += 1 # include upr note in DetectorBank
         
         # make and fill frequency and bandwidth arrays
-        freq = np.zeros(upr-lwr)
+        freq = np.zeros(int(upr-lwr))
         bw = np.zeros(len(freq))
         for i in range(len(freq)):
             k = lwr+i
@@ -221,12 +237,21 @@ class Visualizer(QMainWindow):
         return returnType(self.sRateBox.currentText())
     
     @property
+    def refreshRate(self):
+        return self._refRate
+    
+    @refreshRate.setter
+    def refreshRate(self, value):
+        self._refRate = value
+        self.buflen = self._refRate * self.getSampleRate()
+    
+    @property
     def buflen(self):
         return self._buflen
         
     @buflen.setter
     def buflen(self, value):
-        self._buflen = value
+        self._buflen = int(value)
 
 
 if __name__ == '__main__':
@@ -234,3 +259,4 @@ if __name__ == '__main__':
     app = QApplication(sys.argv)
     window = Visualizer()
     sys.exit(app.exec_())
+        
