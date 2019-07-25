@@ -62,7 +62,7 @@ void Visualizer::initializeWindow()
     connect(deviceBox, QOverload<int>::of(&QComboBox::activated), this, 
             &Visualizer::deviceChanged);
     
-    // make sample rate label and textedit
+    // make sample rate label and combobox
     QLabel *sRateLabel = new QLabel("Sample rate:");
     sRateLabel->setAlignment(Qt::AlignRight);
     
@@ -82,10 +82,10 @@ void Visualizer::initializeWindow()
     
     // DetectorBank parameters layout 
     // two rows of three parameters
-    // (including QLabels, the grid should tbe 2x6)
+    // (including QLabels, the grid should be 2x6)
     QGridLayout *detBankParamLayout = new QGridLayout();
     
-    // label and textedit for each
+    // label and lineedit for each
     
     QLabel *bandwidthLabel = new QLabel("Bandwidth (cents):");
     QLabel *dampingLabel = new QLabel("Damping:");
