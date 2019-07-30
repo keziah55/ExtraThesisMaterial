@@ -171,7 +171,7 @@ class Visualizer(QMainWindow):
         
         print('Making PlotData object...')
         self.pd = PlotData(self.db.getChans(), pitchOffset)
-        self.pd.show()
+#        self.pd.show()
         
         print('Starting audio...')
         self.startAudio()
@@ -192,6 +192,8 @@ class Visualizer(QMainWindow):
         self.db.getZ(z)
         
         self.pd.update(z)
+        
+#        self.close()
         
         
     def makeDetectorBank(self):
