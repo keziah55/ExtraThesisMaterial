@@ -161,7 +161,7 @@ class Visualizer(QMainWindow):
             start audio 
         """
         
-        print('Initalising audio...')
+        print('Initalizing audio...')
         deviceIdx = self.deviceBox.currentIndex()
         device = self.availableDevices[deviceIdx]
         self.initializeAudio(device)

@@ -83,5 +83,6 @@ class PlotData(QWidget):
             data = z[k]
             x = np.random.rand(len(data))
             y = np.random.rand(len(data))
-            plotItem.listDataItems()[k].setData(x,y)
+            # could take slice of x and y arrays, a[::2] for half the data points
+            plotItem.listDataItems()[k].setData(x[::2],y[::2])
             
