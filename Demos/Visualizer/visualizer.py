@@ -146,14 +146,12 @@ class Visualizer(QMainWindow):
             fmt = deviceInfo.nearestFormat(fmt)
             
         self.audioInput = QAudioInput(deviceInfo, fmt)
-#        self.audioInput.setNotifyInterval(int(1000*self.refRate))
         self.audioInput.setBufferSize(4*self.buflen) # set size in bytes
 
         
     def startAudio(self):
         self.audioDevice = self.audioInput.start()
-#        self.audioInput.notify.connect(self.getDetBankData)
-        self.audioDevice.readyRead.connect(self.getDetBankData)
+        self.audioDevice.readyRead.connect(self.updatePlot)
         
         
     def start(self):
@@ -177,17 +175,17 @@ class Visualizer(QMainWindow):
         self.startAudio()
         
     
-    def getDetBankData(self):
+    def updatePlot(self):
         
         # get data as float32
+        # 4*buflen is number of bytes
         data = self.audioDevice.read(4*self.buflen)
         data = np.frombuffer(data, dtype=np.int16)
         data = np.array(data/2**15, dtype=np.dtype('float32'))
         
         # set DetectorBank input
         self.db.setInputBuffer(data)
-        # create empty output array
-        z = np.zeros((int(self.db.getChans()),self.buflen), dtype=np.complex128)  
+          
         # fill z with detector output
         self.db.getZ(z)
         
@@ -234,6 +232,10 @@ class Visualizer(QMainWindow):
         
         self.db = DetectorBank(sr, buffer, 4, det_char, method|f_norm|a_norm, 
                                 dmp, gain)
+        
+        # create empty output array
+        self.z = np.zeros((int(self.db.getChans()),self.buflen), 
+                          dtype=np.complex128)
         
         print("Made DetectorBank with {} channels, with a sample rate of {}Hz"
               .format(self.db.getChans(), self.db.getSR()))

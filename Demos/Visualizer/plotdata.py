@@ -38,8 +38,8 @@ class PlotData(QWidget):
         # Enable antialiasing for prettier plots
 #        pg.setConfigOptions(antialias=True)
         
-        axr = 0.015
-        axrx = 0.02
+        axr = 1 #0.015
+        axrx = 1 #0.02
         
         self.c = [pg.hsvColor(0/360), 
                   pg.hsvColor(300/360),
@@ -54,12 +54,12 @@ class PlotData(QWidget):
                   pg.hsvColor(200/360), 
                   pg.hsvColor(230/360)]
         
-#        self.plotItem.setRange(xRange=(-axrx, axrx), yRange=(-axr, axr))
-        
         plotWidget = pg.PlotWidget()
         for i in range(self.numChans):
             colour = self.c[(i+self.offset)%12]
             plotWidget.plot(pen=colour)
+            
+        plotWidget.getPlotItem().setRange(xRange=(-axrx, axrx), yRange=(-axr, axr))
             
         layout.addWidget(plotWidget)
         self.setLayout(layout)
@@ -80,9 +80,11 @@ class PlotData(QWidget):
         plotItem = plotWidget.getPlotItem()
         
         for k in range(self.numChans):
-            data = z[k]
-            x = np.random.rand(len(data))
-            y = np.random.rand(len(data))
+            x = z[k].real #[::2]
+            y = z[k].imag #[::2]
+#            data = z[k]
+#            x = np.random.rand(len(data))
+#            y = np.random.rand(len(data))
             # could take slice of x and y arrays, a[::2] for half the data points
-            plotItem.listDataItems()[k].setData(x[::2],y[::2])
+            plotItem.listDataItems()[k].setData(x, y)
             
