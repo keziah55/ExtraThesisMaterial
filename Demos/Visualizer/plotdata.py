@@ -6,17 +6,8 @@ Created on Thu Jul 25 15:48:23 2019
 @author: keziah
 """
 
-from PyQt5.QtGui import QKeySequence
-from PyQt5.QtCore import Qt
-from PyQt5.QtWidgets import (QApplication, QComboBox, QDesktopWidget, 
-                             QGridLayout, QHBoxLayout, QLabel, QLineEdit,
-                             QMainWindow, QPushButton,
-                             QVBoxLayout, QWidget)
-
+from PyQt5.QtWidgets import QDesktopWidget, QVBoxLayout, QWidget
 import pyqtgraph as pg
-#from pyqtgraph.Qt import QtGui, QtCore
-
-import numpy as np
 
 
 class PlotData(QWidget):
@@ -24,8 +15,6 @@ class PlotData(QWidget):
     def __init__(self, numChans, offset):
         super().__init__()
         
-#        global plotWidget
-
         self.numChans = numChans
         self.offset = offset
         
@@ -36,7 +25,7 @@ class PlotData(QWidget):
         #win.resize(700,700)
         
         # Enable antialiasing for prettier plots
-#        pg.setConfigOptions(antialias=True)
+        pg.setConfigOptions(antialias=True)
         
         axr = 0.4 #1 #0.015
 #        axrx = 1 #0.02
