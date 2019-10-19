@@ -26,7 +26,7 @@ class Visualizer(QMainWindow):
         
         super().__init__()
         self.initUI()
-        self._buflen = 4096
+        self._buflen = 1440 # 4096
 
 
     def initUI(self):
@@ -187,9 +187,11 @@ class Visualizer(QMainWindow):
         self.db.setInputBuffer(data)
           
         # fill z with detector output
-        self.db.getZ(z)
+        self.db.getZ(self.z)
         
-        self.pd.update(z)
+#        self.db.absZ(self.r, self.z)
+        
+        self.pd.update(self.z)
         
 #        self.close()
         
@@ -236,6 +238,8 @@ class Visualizer(QMainWindow):
         # create empty output array
         self.z = np.zeros((int(self.db.getChans()),self.buflen), 
                           dtype=np.complex128)
+        
+        self.r = np.zeros(self.z.shape)
         
         print("Made DetectorBank with {} channels, with a sample rate of {}Hz"
               .format(self.db.getChans(), self.db.getSR()))

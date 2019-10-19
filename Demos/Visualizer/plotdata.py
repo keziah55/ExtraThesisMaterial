@@ -24,7 +24,7 @@ class PlotData(QWidget):
     def __init__(self, numChans, offset):
         super().__init__()
         
-        global plotWidget
+#        global plotWidget
 
         self.numChans = numChans
         self.offset = offset
@@ -38,8 +38,8 @@ class PlotData(QWidget):
         # Enable antialiasing for prettier plots
 #        pg.setConfigOptions(antialias=True)
         
-        axr = 1 #0.015
-        axrx = 1 #0.02
+        axr = 0.4 #1 #0.015
+#        axrx = 1 #0.02
         
         self.c = [pg.hsvColor(0/360), 
                   pg.hsvColor(300/360),
@@ -54,14 +54,17 @@ class PlotData(QWidget):
                   pg.hsvColor(200/360), 
                   pg.hsvColor(230/360)]
         
-        plotWidget = pg.PlotWidget()
+        self.plotWidget = pg.PlotWidget()
         for i in range(self.numChans):
             colour = self.c[(i+self.offset)%12]
-            plotWidget.plot(pen=colour)
+            self.plotWidget.plot(pen=colour)
             
-        plotWidget.getPlotItem().setRange(xRange=(-axrx, axrx), yRange=(-axr, axr))
+        self.plotWidget.setRange(xRange=(-axr, axr), yRange=(-axr, axr))
             
-        layout.addWidget(plotWidget)
+        plotItem = self.plotWidget.getPlotItem()
+        self.dataItems = plotItem.listDataItems()
+        
+        layout.addWidget(self.plotWidget)
         self.setLayout(layout)
         self.show()
         
@@ -77,14 +80,10 @@ class PlotData(QWidget):
         
     def update(self, z):
         
-        plotItem = plotWidget.getPlotItem()
-        
         for k in range(self.numChans):
-            x = z[k].real #[::2]
-            y = z[k].imag #[::2]
-#            data = z[k]
-#            x = np.random.rand(len(data))
-#            y = np.random.rand(len(data))
-            # could take slice of x and y arrays, a[::2] for half the data points
-            plotItem.listDataItems()[k].setData(x, y)
+#            self.dataItems[k].setData(z[k])
+            
+            x = z[k].real[::2]
+            y = z[k].imag[::2]
+            self.dataItems[k].setData(x, y)
             
