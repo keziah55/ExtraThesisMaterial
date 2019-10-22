@@ -56,7 +56,7 @@ signal = subsample(signal, 100)
 # get Hough transform and write the accumulator to a file
 ht = HoughTransformer()
 ht.transform(signal, q_steps=1000)
-acc_csv = "hough.csv"
+acc_csv = "../data/hough.csv"
 ht.write(acc_csv)
 
 # load the HT accumulator
@@ -73,5 +73,5 @@ r_max = acc.shape[1]/2
 y = np.arange(0, np.pi, np.pi/180)
 x = np.arange(-r_max, r_max, 1)
 
-#pa.mpl(x, y, acc, projection='2D')
+pa.mpl(x, y, acc, projection='3D')
 #pa.ply(x, y, acc)

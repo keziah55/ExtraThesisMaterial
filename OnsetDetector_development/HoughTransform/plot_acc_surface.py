@@ -12,9 +12,9 @@ from matplotlib import cm, colors, colorbar
 from matplotlib.ticker import LinearLocator, FormatStrFormatter
 import seaborn as sns
 
-import plotly.plotly as py
-import plotly
-import plotly.graph_objs as go
+#import plotly.plotly as py
+#import plotly
+#import plotly.graph_objs as go
 
 import os.path
 import sys
@@ -24,46 +24,46 @@ u_rho = '\u03C1'
 u_theta = '\u03B8'
 
     
-def ply(x, y, acc, fname_base='acc'):
-    
-    X, Y = np.meshgrid(x, y)
-    
-    data = [go.Surface(x=X, y=Y, z=acc, reversescale=True, colorscale='Blues',
-                       showscale=False)]
-    
-    yticks = np.linspace(min(y), max(y), num=7)
-    
-    layout = go.Layout(
-#        title='Hough Transform',
-        scene=dict(
-            xaxis=dict(
-                title = u_rho
-                ),
-            yaxis=dict(
-                title=u_theta,
-                tickvals=yticks,
-#                ticktext=list('{:.2f}'.format(n) for n in yticks),
-                ticktext = ['0', u_pi+'/6', u_pi+'/3', u_pi+'/2',
-                            '2'+u_pi+'/3', '5'+u_pi+'/6', u_pi]
-                ),
-            zaxis=dict(
-                title='accumulator',
-                ),
-            camera=dict(
-                center=dict(x=0, y=0, z=-0.25),
-                eye=dict(x=1.25, y=1.25, z=0.5)
-                ),
-            ),
-    )
-    fig = go.Figure(data=data, layout=layout)
-#    py.sign_in('keziah', 'LpFUWs0bg7RQCBvmdJvR')
-#    py.image.save_as(fig, filename='db_scc.png')
-    py.iplot(fig, filename='{}.html'.format(fname_base))
-#    plotly.offline.plot(fig,
-#        filename='{}.html'.format(fname_base),
-#        image='png', image_width=1000, image_height=800)
-    #py.plot(fig, filename='Hough Transform.html')
-
+#def ply(x, y, acc, fname_base='acc'):
+#    
+#    X, Y = np.meshgrid(x, y)
+#    
+#    data = [go.Surface(x=X, y=Y, z=acc, reversescale=True, colorscale='Blues',
+#                       showscale=False)]
+#    
+#    yticks = np.linspace(min(y), max(y), num=7)
+#    
+#    layout = go.Layout(
+##        title='Hough Transform',
+#        scene=dict(
+#            xaxis=dict(
+#                title = u_rho
+#                ),
+#            yaxis=dict(
+#                title=u_theta,
+#                tickvals=yticks,
+##                ticktext=list('{:.2f}'.format(n) for n in yticks),
+#                ticktext = ['0', u_pi+'/6', u_pi+'/3', u_pi+'/2',
+#                            '2'+u_pi+'/3', '5'+u_pi+'/6', u_pi]
+#                ),
+#            zaxis=dict(
+#                title='accumulator',
+#                ),
+#            camera=dict(
+#                center=dict(x=0, y=0, z=-0.25),
+#                eye=dict(x=1.25, y=1.25, z=0.5)
+#                ),
+#            ),
+#    )
+#    fig = go.Figure(data=data, layout=layout)
+##    py.sign_in('keziah', 'LpFUWs0bg7RQCBvmdJvR')
+##    py.image.save_as(fig, filename='db_scc.png')
+#    py.iplot(fig, filename='{}.html'.format(fname_base))
+##    plotly.offline.plot(fig,
+##        filename='{}.html'.format(fname_base),
+##        image='png', image_width=1000, image_height=800)
+#    #py.plot(fig, filename='Hough Transform.html')
+#
 
 
 def mpl(x, y, acc, projection='3D', fname_base='acc'):
@@ -132,8 +132,7 @@ def mpl(x, y, acc, projection='3D', fname_base='acc'):
     # created above
     fig.colorbar(smap, shrink=0.5, aspect=5)
 
-#    plt.show()
-    plt.savefig('../before_acc_2D.pdf', format='pdf')
+    plt.show()
     plt.close()
 
 

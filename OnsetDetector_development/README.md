@@ -1,7 +1,8 @@
 # OnsetDetector development
 
 These files were used in the initial development and testing of the OnsetDetector
-and generated the figures found in Chapter 3 of the thesis.
+and generated the figures found in Chapter 3 of the thesis. The directories here correspond
+to the three onset detection methods prototyped.
 
 - **threshold.py** generates Figures 3.2 and 3.3, which show detectors 
 with different damping factors, responding to a piano melody.
@@ -20,8 +21,9 @@ fits two lines to the shape, using functions from **HoughTransform/ht_funcs.py**
 
 - **HoughTransform/ht_single_note.py** takes the Hough transform of the single sung note, using 
 [this Hough transformer](https://github.com/keziah55/HoughTransformer). It also uses 
-**HoughTransform/plot_acc_surface.py** to plot this (Figure 3.10); however, [Plotly](https://plot.ly/) have
-changed their interface, so this currently doesn't work. 
+**HoughTransform/plot_acc_surface.py** to plot this (Figure 3.10); [Plotly](https://plot.ly/) have
+changed their interface, so the function using thi library currently doesn't work, but the 
+[Matplotlib](https://matplotlib.org/) function does work (and can plot in either 2D or 3D).
 
 - **HoughTransform/plot_before_band.py** generates Figure 3.11 - a critical band of responses to a sung melody.
 
