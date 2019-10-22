@@ -38,13 +38,13 @@ if __name__ == '__main__':
     
     # these times correspond to different Figures
     # make sure to set the corresponding `onset_t` too!
-    start_time = 13.185 # 13.125 # 4 #  0.06 # 10.5 # 8.5 #0 # 
-    end_time = 13.285 # 13.3 #  4.4 # 0.16 # 13.285 # 12 # 9.1 #len(audio)/sr # 
+    start_time = 0.06 # 13.185 # 13.125 # 4 #  10.5 # 8.5 #0 # 
+    end_time = 0.16 # 13.285 # 13.3 #  4.4 # 13.285 # 12 # 9.1 #len(audio)/sr # 
     i0 = int(sr*start_time)
     i1 = int(sr*end_time)
     
     # time of onset to mark with dashed red line
-    onset_t = 13.236 # 13.241 #  0.111 # 
+    onset_t = 0.111 # 13.236 # 13.241 #  
 
     method = DetectorBank.runge_kutta
     f_norm = DetectorBank.freq_unnormalized
@@ -85,7 +85,7 @@ if __name__ == '__main__':
     # length 0.075 # of span (10ms or 75ms)
     span_t = 0.01 # 
     # for Fig 3.17a, span needs to end at 13.241
-    onset = int(13.241*sr)
+#    onset = int(13.241*sr)
     spans = [(onset-int(span_t*sr), onset)]
     # alternatively, hard code span times (Fig 3.15)
 #    spans = [(197760, 201600), (203520, 206400)]
