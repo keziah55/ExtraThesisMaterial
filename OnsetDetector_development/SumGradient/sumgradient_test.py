@@ -18,30 +18,22 @@ import seaborn as sns
 
 sns.set_style('whitegrid')
 
-
 fname = 'dre48'
 
-file = os.path.join('data', fname + '.wav')
+file = os.path.join('..', 'data', fname + '.wav')
 
 sr, audio = scipy.io.wavfile.read(file)
 
 if audio.dtype == 'int16':
     audio = audio / 2**15
 
-# zoom in at the missed onset time
+## uncomment this to generate Fig 3.6
+## zoom in at the missed onset time
 #ts0 = 8.4
 #ts1 = 10
 #t0 = int(ts0*sr)
 #t1 = int(ts1*sr)
 #audio = audio[t0:t1]
-
-#sr = 48000
-#f0 = 440
-#
-#x = np.linspace(0, 2*np.pi*f0, sr)
-#audio = np.sin(x)
-#audio = np.append(audio, np.zeros(4800))
-
 
 method = DetectorBank.runge_kutta
 f_norm = DetectorBank.freq_unnormalized
@@ -54,18 +46,12 @@ f0 = 440 * 2**(-2/12)
 hwidth = 10
 step = 1
 f = np.arange(f0-hwidth, f0+hwidth+step, step)
-#f = np.arange(f0-10, f0+3, 1)
 
-#f = np.array([384.995, 385.995, 391.995])
 
 bandwidth = np.zeros(len(f))
 det_char = np.array(list(zip(f, bandwidth)))
 det = DetectorBank(sr, audio.astype(np.float32), 4, det_char,
                    method|f_norm|a_norm, d, gain)
-#z = np.zeros((len(f),len(audio)), dtype=np.complex128)
-#r = np.zeros(z.shape)
-#det.getZ(z)
-#det.absZ(r, z)
 
 p = Producer(det)
 seg_len = sr//2
@@ -75,8 +61,6 @@ channels = det.getChans()
 N = 1000
 prep = Preprocessor(cache, seg_len, np.arange(channels, dtype=np.int_), N)
 
-#gradient = np.array([prep.getGradient(n) for n in range(det.getBuflen())])
-
 od = OnsetDetector(prep, np.arange(channels, dtype=np.int_), sr)
 
 gradient = np.array([od.do_stuff(n) for n in range(det.getBuflen())])
@@ -84,9 +68,7 @@ gradient = np.array([od.do_stuff(n) for n in range(det.getBuflen())])
 onsets = od.onsets
 offsets = od.offsets
 
-
-#det = DetectorBank(sr, audio.astype(np.float32), 4, det_char,
-#                   method|f_norm|a_norm, d, gain)
+# reset DetectorBank to beginning and get values (for plotting)
 z = np.zeros((len(f),len(audio)), dtype=np.complex128)
 r = np.zeros(z.shape)
 det.seek(0)
@@ -94,12 +76,8 @@ det.getZ(z)
 det.absZ(r, z)
 
 
-#plt.plot(gradient)
-#sp.plot(plt)
-
 t = np.linspace(0, len(audio)/sr, len(audio))
 
-# colours = ['purple', 'dodgerblue', 'firebrick']
 c = ['black', 'blue', 'chocolate', 'cyan', 'darkmagenta', 'darkorange',
      'deeppink', 'dodgerblue', 'khaki', 'firebrick', 'green',
      'lightslategrey', 'aquamarine', 'magenta', 'mediumvioletred', 
@@ -107,15 +85,11 @@ c = ['black', 'blue', 'chocolate', 'cyan', 'darkmagenta', 'darkorange',
 for k in range(channels):
     plt.plot(t, r[k], label='{:.3f}'.format(f[k]), color=c[k])
 
+## uncomment this to generate Fig 3.6
 ## x ticks when 'zooming in' on missed onset
 #xtick_loc = np.linspace(0, ts1-ts0, 9)
 #xtick_lab = np.linspace(ts0, ts1, 9)
 #plt.xticks(xtick_loc, xtick_lab)
-
-#
-#plt.legend(bbox_to_anchor=(1, 1))
-#plt.show()
-#plt.close()
 
 
 # plot increasing and decreasing gradient by colouring in background
@@ -158,16 +132,10 @@ while n < len(gradient):
 
 for on in onsets:
     plt.axvline(on/sr, color='lime')
-# for off in offsets:
-#     plt.axvline(off/sr, color='red')
 
 ### draw dashed red line at missed onset
-missed = 8.98133 #- ts0
+missed = 8.98133 # - ts0
 plt.axvline(missed, color='red', linestyle='--')
-
-#handles, labels = ax.get_legend_handles_labels()
-#ax.legend(handles[::-1], labels[::-1], bbox_to_anchor=(1, 1))
-#plt.legend(bbox_to_anchor=(1, 1))
 
 plt.xlabel('Time(s)')
 plt.ylabel('|z|', rotation='horizontal')
@@ -178,9 +146,5 @@ plt.grid(False)
 ax = plt.gca()
 ax.yaxis.labelpad = 10
 
-sp.plot(plt)
-
-#plt.savefig(os.path.join(savepath, savename+'.pdf'), format='pdf')
-#            , bbox_inches='tight')
-#plt.show()
-#plt.close()
+plt.show()
+plt.close()
