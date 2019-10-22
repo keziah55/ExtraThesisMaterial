@@ -23,7 +23,7 @@ fits two lines to the shape, using functions from **HoughTransform/ht_funcs.py**
 - **HoughTransform/ht_single_note.py** takes the Hough transform of the single sung note, using 
 [this Hough transformer](https://github.com/keziah55/HoughTransformer). It also uses 
 **HoughTransform/plot_acc_surface.py** to plot this (Figure 3.10); [Plotly](https://plot.ly/) have
-changed their interface, so the function using thi library currently doesn't work, but the 
+changed their interface, so the function using this library currently doesn't work, but the 
 [Matplotlib](https://matplotlib.org/) function does work (and can plot in either 2D or 3D).
 
 - **MeanLog/plot_before_band.py** generates Figures 3.11 and 3.13b - a critical band of responses to a sung melody.
