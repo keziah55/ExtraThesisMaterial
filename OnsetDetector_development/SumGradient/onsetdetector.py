@@ -1,14 +1,10 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Created on Tue Oct 24 12:46:44 2017
-
-@author: keziah
+OnsetDetector implemented with sum gradient method 
 """
 
 import numpy as np
-from gradient_range import get_range
-
 import os
 import time
 

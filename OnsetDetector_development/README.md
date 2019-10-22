@@ -11,5 +11,5 @@ singing voice to a MIDI rendering.
 
 - **SumGradient/sumgradient_test.py** generates Figures 3.5 and 3.6, which test the OnsetDetector
 prototype which uses the sum gradient method. This is implemented in **SumGradient/preprocessor.py**
-and **SumGradient/onsetdetector.py**.
+and **SumGradient/onsetdetector.py**. (The latter of these also uses **SumGradient/gradient_range.py**.)
 

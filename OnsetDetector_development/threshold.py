@@ -1,11 +1,9 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Created on Mon Apr 23 15:16:25 2018
-
-@author: keziah
+Plot response at different damping factors to see the effect on required 
+threshold.
 """
-
 
 import numpy as np
 from detectorbank import DetectorBank
@@ -39,7 +37,7 @@ method = DetectorBank.runge_kutta
 f_norm = DetectorBank.freq_unnormalized
 a_norm = DetectorBank.amp_unnormalized
 d = 0.0001
-gain = 100
+gain = 50
 
 threshold = 0.8 #  0.3 # 
 

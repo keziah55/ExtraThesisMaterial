@@ -1,9 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Created on Tue Oct 17 10:49:27 2017
-
-@author: keziah
+Test the sum gradient onset detector
 """
 
 import numpy as np
