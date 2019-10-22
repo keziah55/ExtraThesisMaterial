@@ -10,6 +10,7 @@ from PyQt5.QtWidgets import QDesktopWidget, QVBoxLayout, QWidget
 import pyqtgraph.opengl as gl
 import pyqtgraph as pg
 
+import numpy as np
 
 class PlotData(QWidget):
     
@@ -44,15 +45,20 @@ class PlotData(QWidget):
                   pg.hsvColor(200/360), 
                   pg.hsvColor(230/360)]
         
-        self.plotWidget = pg.PlotWidget()
+        self.plotWidget = gl.GLViewWidget()
+        
         for i in range(self.numChans):
             colour = self.c[(i+self.offset)%12]
-            self.plotWidget.plot(pen=colour)
+            zeros = np.zeros((0,3))
+            plotItem = gl.GLScatterPlotItem(pos=zeros, color=colour,
+                                            size=0.1, pxMode=False)
+
+            self.plotWidget.addItem(plotItem)
+#            
+#        self.plotWidget.setRange(xRange=(-axr, axr), yRange=(-axr, axr))
             
-        self.plotWidget.setRange(xRange=(-axr, axr), yRange=(-axr, axr))
-            
-        plotItem = self.plotWidget.getPlotItem()
-        self.dataItems = plotItem.listDataItems()
+#        plotItem = self.plotWidget.getPlotItem()
+        self.dataItems = self.plotWidget.itemsAt()
         
         layout.addWidget(self.plotWidget)
         self.setLayout(layout)
@@ -75,5 +81,7 @@ class PlotData(QWidget):
             
             x = z[k].real[::2]
             y = z[k].imag[::2]
-            self.dataItems[k].setData(x, y)
+            zeros = np.zeros(len(x))
+            data = np.stack((x,y,zeros), axis=-1)
+            self.dataItems[k].setData(data)
             
