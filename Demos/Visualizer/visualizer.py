@@ -84,8 +84,8 @@ class Visualizer(QMainWindow):
         self.dampingEdit = QLineEdit("0.0001")
         self.gainEdit = QLineEdit("25")
         self.edoEdit = QLineEdit("12")
-        self.lwrEdit = QLineEdit("A3")
-        self.uprEdit = QLineEdit("A5")
+        self.lwrEdit = QLineEdit("A1")
+        self.uprEdit = QLineEdit("A7")
         
         # store all in lists
         detBankParamLabels = [bandwidthLabel, dampingLabel, gainLabel, 
