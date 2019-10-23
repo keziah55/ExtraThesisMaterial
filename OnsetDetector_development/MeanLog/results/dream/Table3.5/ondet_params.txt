@@ -1,0 +1,10 @@
+Wed Jun  6 10:30:49 2018
+
+Input: dre48
+seg_len: 20ms
+Without stop/start <= 0.8 criterion
+No backtracking with local min
+Log threshold/seg avg.
+Critical band: 21 detectors, EDO
+Threshold: 0.2
+C++

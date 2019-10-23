@@ -1,0 +1,221 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Measure the gaps and overlaps between critical bands, at different bandwidths.
+"""
+
+import numpy as np
+
+
+def get_f(f0, b=0.922, edo=12):
+    """ Get array of frequencies in a critical band
+    
+        Parameters
+        ----------
+        f0 : float
+            centre frequency
+        b : float
+            detector bandwidth (default is 1.16Hz)
+        edo : int
+            number of divisions in octave (default is 12)
+            
+        Returns
+        -------
+        array for critical band frequencies around f0
+    """
+    
+    # denominator for half a semitone in given EDO
+    # eg for 12EDO, f=f0*2**(1/24)
+    half_semitone = 2*edo
+    
+    # make output array
+    freq = np.zeros(0)
+    
+    # get frequencies from centre +/- half a semitone
+    for i in (-1, 1):
+        
+        f = f0
+        f1 = f0 * 2**(i/half_semitone)
+        
+        # difference between current and stop frequency
+        diff = i*(f1-f) # keep diff positive
+
+        # until diff is at minimum or f is within b/4 of stop value
+        while i*(f1-f) <= diff and i*(f1-f) > b/4:
+            diff = i*(f1-f)
+            f += (i*b) # when i == -1, b will be subtracted
+            freq = np.append(freq, f)
+                        
+    freq = np.append(freq, f0)
+    
+    freq.sort()
+        
+    return freq
+
+
+def analyse_boundaries(note_range=(1,88), bw=1.16):
+    """ Analyse the boundary points to find investiagte the overlap/gaps
+    
+        Parameters
+        ----------
+        note_range : tuple
+            Tuple of lowest and highest note numbers for analysis (inclusive). 
+            Default is (1,88), i.e. full piano keyboard
+        bw : float
+            Bandiwdth
+    """
+    
+    note_range = [n-49 for n in note_range]
+    note_range[1] += 1
+    frequencies = np.array(list(440*2**(k/12) for k in range(*note_range)))
+    
+    boundaries = _get_gaps(frequencies, bw)
+    
+    split = _split_boundaries(boundaries, frequencies)
+     
+    gaps, gap_f, overlaps, overlap_f, exact_f = split
+     
+    if exact_f:
+         funcs = (_get_max, _get_mean)
+         
+    else:
+        funcs = (_get_min, _get_max, _get_mean)
+    
+    stats = {}
+    stats['gap'] = {'array':gaps, 'freqs':gap_f}
+    stats['overlap'] = {'array':overlaps, 'freqs':overlap_f}
+    
+    if len(funcs) == 2:
+        out = report_exact(exact_f)
+        print(out)
+    
+    for key in stats.keys():
+        data = stats[key]
+        array = data['array']
+        freqs = data['freqs']
+        
+        if len(array) > 0:
+            statistics = [func(array) for func in funcs]
+            out = report(key, statistics, freqs)
+            print(out)    
+    
+    return boundaries
+
+
+def _split_boundaries(boundaries, frequencies):
+    idx0, gaps, gap_f = _split(np.greater, boundaries, frequencies)
+    idx1, overlaps, overlap_f = _split(np.less, boundaries, frequencies)
+    
+    idx2 = np.where(boundaries==0)[0]
+    exact_f = None
+    
+    if len(idx2) > 0:
+        exact_f = frequencies[idx2]
+    
+    return gaps, gap_f, overlaps, overlap_f, exact_f
+
+    
+def _split(func, boundaries, frequencies):
+    idx = np.where(func(boundaries, 0))[0]
+    gaps = boundaries[idx]
+    freqs = frequencies[idx]
+    return idx, gaps, freqs
+    
+    
+def _get_gaps(frequencies, bw):
+    
+    prev_max = 0
+    gaps = np.zeros(0)
+    
+    for f in frequencies:
+        freq = get_f(f, b=bw, edo=12)
+        if prev_max != 0:
+            gap = freq[0] - prev_max
+            gaps = np.append(gaps, gap)
+        prev_max = freq[-1]
+        
+    return gaps
+
+
+def get_next_freq(f):
+    return f * 2**(1/12)
+
+
+def report_exact(freq):
+    f1 = freq[0]
+    f2 = get_next_freq(f1)
+    out = 'Boundary is exact between {:8.3f}, {:8.3f} Hz\n'.format(f1, f2)
+    return out
+        
+        
+def report(name, stats, frequencies):
+    
+    try:
+        mn, mx, mean = stats
+        
+        mnmx = [mn, mx]
+        key = ['Minimum', 'Maximum']
+        
+    except ValueError:
+        mx, mean = stats
+        mnmx = [mx]
+        key = ['Maximum']
+    
+    out = ''
+    
+    for n in range(len(mnmx)):
+        
+        which = key[n]
+        stat = mnmx[n][0]
+        
+        i = mnmx[n][1]
+        f1 = frequencies[i]
+        f2 = get_next_freq(f1)
+        
+        out += ('{} {} is {:.6f} Hz and occurs between {:8.3f} and {:8.3f} Hz\n'
+                .format(which, name, stat, f1, f2))
+        
+    out += 'Mean {} is {:.6f} Hz\n'.format(name, mean)
+    
+    return out
+    
+        
+
+def _get_stat(a, func):
+    abs_a = np.abs(a)
+    abs_result = func(abs_a)
+    idx = np.where(abs_a==abs_result)[0][0]
+    sgn = np.sign(a[idx])
+    return sgn*abs_result, idx
+
+def _get_min(a):
+    return _get_stat(a, np.min)
+
+def _get_max(a):
+    return _get_stat(a, np.max)
+
+def _get_mean(a):
+    return np.mean(a)
+
+
+if __name__ == '__main__':
+    
+#    sys.stdout = open('critical_band_gaps.txt', 'w')
+#    print('This file was generated by {}\n'.format(__file__))
+    
+    def print_array(a):
+        for i in range(len(a)-1):
+            print('{:.3f}, '.format(a[i]), end='')
+        print('{:.3f}'.format(a[-1]))
+        
+    bandwidths = [0.922, 1.832, 2.752, 3.660, 4.860]
+
+    note_range = (1,88)
+    
+    for bw in bandwidths:
+        bw_str = 'BANDWIDTH: {}Hz'.format(bw)
+        print(bw_str + '\n' + '-'*len(bw_str))
+        print('bw/2 = {:.3f}Hz; bw/4 = {:.3f}Hz\n'.format(bw/2, bw/4))
+        
+        boundaries = analyse_boundaries(note_range, bw=bw)
+        print()

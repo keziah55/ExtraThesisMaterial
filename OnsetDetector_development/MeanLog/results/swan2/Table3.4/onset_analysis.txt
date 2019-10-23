@@ -1,0 +1,194 @@
+Check onsetdetector results
+===========================
+
+Wed Jun  6 09:56:06 2018
+
+Input: sw2_48
+seg_len: 30ms
+Without stop/start <= 0.8 criterion
+No backtracking with local min
+Log threshold/seg avg.
+Critical band: 21 detectors, EDO
+Threshold: 0.1
+C++
+
+116Hz
+-----
+
+False positives:
+ 0.060    (spillover from 123Hz band)
+ 8.130    (spillover from 123Hz band)
+
+123Hz
+-----
+Onset at  8.168 seconds, delay: -37ms.
+
+False negatives:
+ 0.091
+
+False positives:
+ 0.000
+ 0.810    (spillover from 146Hz band)
+
+130Hz
+-----
+
+False positives:
+ 0.000
+ 0.300
+ 7.860
+ 8.130    (spillover from 123Hz band)
+
+138Hz
+-----
+Onset at  0.352 seconds, delay: -21ms.
+Onset at  7.940 seconds, delay: -20ms.
+Onset at  8.421 seconds, delay: -21ms.
+All onsets found!
+
+146Hz
+-----
+Onset at  0.843 seconds, delay: -32ms.
+Onset at  7.643 seconds, delay: -22ms.
+Onset at  8.875 seconds, delay: -24ms.
+
+False positives:
+ 7.890
+
+155Hz
+-----
+
+False positives:
+ 1.320    (spillover from 164Hz band)
+ 7.620    (spillover from 146Hz band)
+ 7.800
+15.420    (spillover from 164Hz band)
+
+164Hz
+-----
+Onset at  1.344 seconds, delay: -24ms.
+Onset at  9.381 seconds, delay: -21ms.
+Onset at 15.467 seconds, delay: -16ms.
+All onsets found!
+
+184Hz
+-----
+Onset at  3.389 seconds, delay: -28ms.
+Onset at  9.856 seconds, delay: -16ms.
+Onset at 11.453 seconds, delay: -22ms.
+
+False negatives:
+ 1.856
+ 7.430
+
+False positives:
+ 1.800
+ 7.380
+
+195Hz
+-----
+Onset at  2.123 seconds, delay: -22ms.
+Onset at  3.120 seconds, delay: -30ms.
+Onset at  3.872 seconds, delay: -32ms.
+Onset at  5.440 seconds, delay: -10ms.
+Onset at 11.179 seconds, delay: -18ms.
+Onset at 11.912 seconds, delay: -31ms.
+Onset at 13.427 seconds, delay: -16ms.
+Onset at 15.189 seconds, delay: -39ms.
+Onset at 16.003 seconds, delay: -42ms.
+
+False negatives:
+10.139
+
+False positives:
+10.050
+
+207Hz
+-----
+Onset at 17.401 seconds, delay: -31ms.
+All onsets found!
+
+220Hz
+-----
+Onset at  2.378 seconds, delay: -38ms.
+Onset at  5.157 seconds, delay: -27ms.
+Onset at  5.936 seconds, delay: -25ms.
+Onset at 10.405 seconds, delay: -25ms.
+Onset at 12.160 seconds, delay: -40ms.
+Onset at 13.152 seconds, delay: -12ms.
+Onset at 13.904 seconds, delay: -44ms.
+
+False negatives:
+ 4.139
+
+False positives:
+ 4.080
+
+233Hz
+-----
+
+False positives:
+ 7.110    (spillover from 246Hz band)
+
+246Hz
+-----
+Onset at  4.432 seconds, delay: -22ms.
+Onset at  6.197 seconds, delay: -17ms.
+Onset at  7.157 seconds, delay: -17ms.
+Onset at 12.437 seconds, delay: -47ms.
+Onset at 14.147 seconds, delay: -17ms.
+
+False positives:
+ 0.000
+ 8.130    (spillover from 123Hz band)
+16.200    (spillover from 261Hz band)
+
+261Hz
+-----
+Onset at 16.245 seconds, delay: -45ms.
+
+False negatives:
+14.469
+
+False positives:
+ 4.410    (spillover from 246Hz band)
+ 6.180    (spillover from 246Hz band)
+ 7.110    (spillover from 246Hz band)
+12.390    (spillover from 246Hz band)
+14.400
+17.640    (spillover from 277Hz band)
+
+277Hz
+-----
+Onset at  6.459 seconds, delay:  -8ms.
+Onset at 16.604 seconds, delay: -14ms.
+Onset at 17.680 seconds, delay: -39ms.
+
+False positives:
+ 0.330    (spillover from 138Hz band)
+ 7.620    (spillover from 146Hz band)
+ 7.920    (spillover from 138Hz band)
+ 8.400    (spillover from 138Hz band)
+14.400
+16.200    (spillover from 261Hz band)
+
+
+Stats
+=====
+Total number of onsets:     45
+Total number of detections: 72
+Total true positives:       39
+Total false positives:      33
+Total erroneous detections: 13
+
+Largest advance: -47ms
+Mean advance:    -41.800ms
+Largest delay:     0ms
+Mean delay:        0.000ms
+Mean difference: -41.800ms
+Number of advances <-15ms: 35
+Number of delays   > 15ms: 0
+
+Precision: 54%
+Recall:    86%
+F-measure: 66%

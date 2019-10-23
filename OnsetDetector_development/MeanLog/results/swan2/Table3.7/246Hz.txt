@@ -1,0 +1,12 @@
+Onsets
+------
+sample 213090,  4.439 seconds
+sample 298330,  6.215 seconds
+sample 343427,  7.155 seconds
+sample 393289,  8.194 seconds
+sample 597190, 12.441 seconds
+sample 679296, 14.152 seconds
+sample 779930, 16.249 seconds
+
+Offsets
+-------

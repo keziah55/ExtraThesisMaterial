@@ -1,0 +1,189 @@
+Check onsetdetector results
+===========================
+
+Wed Jun  6 09:55:14 2018
+
+Input: sw1_48
+seg_len: 30ms
+Without stop/start <= 0.8 criterion
+No backtracking with local min
+Log threshold/seg avg.
+Critical band: 21 detectors, EDO
+Threshold: 0.1
+C++
+
+48Hz
+----
+
+False negatives:
+ 6.000
+14.321
+
+61Hz
+----
+
+False negatives:
+ 1.083
+ 5.187
+ 5.723
+ 6.544
+ 9.651
+13.558
+14.070
+14.885
+
+False positives:
+ 8.280
+
+65Hz
+----
+
+False positives:
+ 1.350    (spillover from 69Hz band)
+ 8.310    (spillover from 69Hz band)
+ 9.870
+13.770    (spillover from 73Hz band)
+
+69Hz
+----
+Onset at  1.391 seconds, delay: -41ms.
+Onset at  8.331 seconds, delay: -20ms.
+Onset at  9.925 seconds, delay: -25ms.
+
+False positives:
+ 3.000    (spillover from 73Hz band)
+ 4.080    (spillover from 73Hz band)
+ 5.430    (spillover from 73Hz band)
+ 6.240    (spillover from 73Hz band)
+ 8.040    (spillover from 73Hz band)
+11.430    (spillover from 73Hz band)
+12.510    (spillover from 73Hz band)
+13.770    (spillover from 73Hz band)
+14.550    (spillover from 73Hz band)
+
+73Hz
+----
+Onset at  1.637 seconds, delay: -17ms.
+Onset at  3.013 seconds, delay: -13ms.
+Onset at  4.101 seconds, delay: -21ms.
+Onset at  5.461 seconds, delay: -31ms.
+Onset at  6.245 seconds, delay:  24ms.
+Onset at 10.187 seconds, delay:  13ms.
+Onset at 11.471 seconds, delay: -41ms.
+Onset at 12.528 seconds, delay:  11ms.
+Onset at 13.803 seconds, delay:  -2ms.
+
+False negatives:
+ 8.075
+14.555
+
+False positives:
+ 1.350    (spillover from 69Hz band)
+ 7.980
+ 9.900    (spillover from 69Hz band)
+14.610
+
+77Hz
+----
+
+False positives:
+ 1.620    (spillover from 73Hz band)
+ 1.920    (spillover from 82Hz band)
+ 3.000    (spillover from 73Hz band)
+ 4.080    (spillover from 73Hz band)
+ 5.430    (spillover from 73Hz band)
+ 6.240    (spillover from 73Hz band)
+ 7.740    (spillover from 82Hz band)
+ 8.040    (spillover from 73Hz band)
+10.200    (spillover from 73Hz band)
+10.500    (spillover from 82Hz band)
+11.430    (spillover from 73Hz band)
+12.510    (spillover from 73Hz band)
+13.800    (spillover from 73Hz band)
+14.550    (spillover from 73Hz band)
+
+82Hz
+----
+Onset at  1.920 seconds
+Onset at  7.776 seconds, delay: -35ms.
+
+False negatives:
+10.496
+
+False positives:
+ 6.210    (spillover from 73Hz band)
+10.440
+13.770    (spillover from 73Hz band)
+
+87Hz
+----
+
+False positives:
+ 0.060    (spillover from 92Hz band)
+ 1.890    (spillover from 82Hz band)
+ 2.190    (spillover from 92Hz band)
+ 3.300    (spillover from 92Hz band)
+ 4.350
+ 7.740    (spillover from 82Hz band)
+ 8.280
+ 9.900    (spillover from 69Hz band)
+10.440
+10.680    (spillover from 92Hz band)
+11.730    (spillover from 92Hz band)
+12.780    (spillover from 92Hz band)
+
+92Hz
+----
+Onset at  0.085 seconds, delay: -25ms.
+Onset at  2.209 seconds, delay: -18ms.
+Onset at  3.339 seconds, delay: -38ms.
+Onset at  4.411 seconds
+Onset at  8.635 seconds, delay: -24ms.
+Onset at 10.729 seconds, delay: -18ms.
+Onset at 11.755 seconds, delay:   5ms.
+Onset at 12.816 seconds, delay: -36ms.
+
+False positives:
+ 1.350    (spillover from 69Hz band)
+ 5.430    (spillover from 73Hz band)
+ 7.740    (spillover from 82Hz band)
+ 8.040    (spillover from 73Hz band)
+ 8.310    (spillover from 69Hz band)
+
+97Hz
+----
+
+False positives:
+ 0.060    (spillover from 92Hz band)
+ 2.190    (spillover from 92Hz band)
+ 3.300    (spillover from 92Hz band)
+ 4.380    (spillover from 92Hz band)
+ 5.430    (spillover from 73Hz band)
+ 5.970    (spillover from 48Hz band)
+ 8.010
+ 8.610    (spillover from 92Hz band)
+10.680    (spillover from 92Hz band)
+11.730    (spillover from 92Hz band)
+12.810    (spillover from 92Hz band)
+14.310    (spillover from 48Hz band)
+
+
+Stats
+=====
+Total number of onsets:     35
+Total number of detections: 86
+Total true positives:       22
+Total false positives:      64
+Total erroneous detections: 9
+
+Largest advance: -41ms
+Mean advance:    -41.000ms
+Largest delay:    24ms
+Mean delay:       24.000ms
+Mean difference:  -4.250ms
+Number of advances <-15ms: 14
+Number of delays   > 15ms: 1
+
+Precision: 25%
+Recall:    62%
+F-measure: 36%

@@ -1,0 +1,10 @@
+Wed Jun  6 10:31:35 2018
+
+Input: ali48
+seg_len: 20ms
+Without stop/start <= 0.8 criterion
+No backtracking with local min
+Log threshold/seg avg.
+Critical band: 21 detectors, EDO
+Threshold: 0.08
+C++

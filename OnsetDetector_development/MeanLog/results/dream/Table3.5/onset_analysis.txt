@@ -1,0 +1,112 @@
+Check onsetdetector results
+===========================
+
+Wed Jun  6 10:30:49 2018
+
+Input: dre48
+seg_len: 20ms
+Without stop/start <= 0.8 criterion
+No backtracking with local min
+Log threshold/seg avg.
+Critical band: 21 detectors, EDO
+Threshold: 0.2
+C++
+
+293Hz
+-----
+Onset at 11.392 seconds, delay: -11ms.
+
+False positives:
+11.560
+
+311Hz
+-----
+Onset at  9.952 seconds, delay: -12ms.
+All onsets found!
+
+329Hz
+-----
+Onset at  1.445 seconds, delay: -25ms.
+Onset at  5.387 seconds, delay: -26ms.
+Onset at  6.896 seconds, delay: -16ms.
+Onset at  9.280 seconds
+Onset at 11.728 seconds, delay:  -7ms.
+All onsets found!
+
+369Hz
+-----
+Onset at  0.613 seconds, delay: -13ms.
+Onset at  1.141 seconds, delay: -20ms.
+Onset at  2.440 seconds, delay: -20ms.
+Onset at  4.597 seconds, delay: -17ms.
+Onset at  5.093 seconds, delay: -12ms.
+Onset at  6.576 seconds, delay: -16ms.
+All onsets found!
+
+391Hz
+-----
+Onset at  0.101 seconds, delay: -21ms.
+Onset at  0.953 seconds, delay: -13ms.
+Onset at  1.637 seconds, delay: -16ms.
+Onset at  4.139 seconds, delay: -19ms.
+Onset at  4.906 seconds, delay: -25ms.
+Onset at  8.475 seconds, delay: -14ms.
+Onset at  8.981 seconds
+Onset at  9.760 seconds, delay: -19ms.
+Onset at 10.272 seconds, delay: -12ms.
+Onset at 11.920 seconds, delay: -39ms.
+Onset at 13.232 seconds, delay: -11ms.
+
+False positives:
+ 1.740
+ 4.240
+ 8.580
+12.020
+
+415Hz
+-----
+Onset at  5.595 seconds, delay: -14ms.
+Onset at  6.374 seconds, delay: -13ms.
+All onsets found!
+
+440Hz
+-----
+Onset at  8.021 seconds, delay: -21ms.
+Onset at  8.805 seconds, delay:  -4ms.
+Onset at  9.451 seconds, delay: -11ms.
+Onset at 12.213 seconds, delay: -12ms.
+Onset at 12.910 seconds, delay:  -9ms.
+
+False positives:
+13.000
+
+466Hz
+-----
+Onset at 12.428 seconds, delay:  -8ms.
+All onsets found!
+
+493Hz
+-----
+Onset at  5.925 seconds, delay: -24ms.
+All onsets found!
+
+
+Stats
+=====
+Total number of onsets:     33
+Total number of detections: 39
+Total true positives:       33
+Total false positives:      6
+Total erroneous detections: 6
+
+Largest advance: -39ms
+Mean advance:    -22.600ms
+Largest delay:     0ms
+Mean delay:        0.000ms
+Mean difference: -16.143ms
+Number of advances <-15ms: 15
+Number of delays   > 15ms: 0
+
+Precision: 84%
+Recall:    100%
+F-measure: 91%

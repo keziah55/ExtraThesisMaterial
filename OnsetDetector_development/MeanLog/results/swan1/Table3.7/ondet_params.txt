@@ -1,0 +1,10 @@
+Fri Jun  8 16:02:35 2018
+
+Input: sw1_48
+seg_len: 20ms, 100 segments
+With stop-start >= log(2) criterion
+Backtracking with local min
+Log threshold/seg avg.
+Critical band: 21 detectors, EDO
+Threshold: 0.1
+C++
