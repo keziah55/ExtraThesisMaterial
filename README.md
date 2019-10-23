@@ -7,11 +7,13 @@ Documentation and installation instructions for the software â€“ DetectorBank â€
 is hosted [here](https://github.com/keziah55/DetectorBank).
 
 Each directory contains it's own readme, describing the files.
-OnsetDetector development files and scripts for preprocessing the test samples 
-will be uploaded shortly.
+The OnsetDetector development and testing directories also contain results
+directories, from which tables in Chapters 3 and 4 of the thesis can be reconstructed.
 
 I've tried to tidy up the files, but let me know if anything is unclear.
-A number of the OnsetDetector_testing files may use `SavePlot` or `SaveLegend` 
+A number of the 
+[OnsetDetector_testing](https://github.com/keziah55/ExtraThesisMaterial/tree/master/OnsetDetector_testing) 
+files may use `SavePlot` or `SaveLegend` 
 objects, which can be found [here](https://github.com/keziah55/save_plot).
 Alternatively, SavePlot commands can be replaced with 
 [`matplotlib.pyplot.savefig()`](https://matplotlib.org/3.1.0/api/_as_gen/matplotlib.pyplot.savefig.html)
