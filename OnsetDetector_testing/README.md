@@ -54,7 +54,8 @@ in Sections 3.4 and 3.5 of the thesis.
 - **plot_band_responses.py** can be used to plot the responses of a whole band of detectors, given
 a sample. Manual/automatic onsets can also be plotted.
 
-- **compare_mirex.py** compares the OnsetDetector results with equivalent categories in the MIREX 2018 results.
+- **compare_mirex.py** compares the OnsetDetector results with equivalent categories in the MIREX 2018 results,
+and generates Table 5.2.
 
 - **plot_segs_with_onsets.py** plots segment mean logs and onsets.
 
