@@ -30,7 +30,9 @@ def plot_spectrogram(audio, sr, colour):
     sns.set_style('white')  
     
     fig, ax = plt.subplots()
-    _, _, _, cax = ax.specgram(audio, Fs=sr, NFFT=256, noverlap=128, cmap=colour)
+    NFFT=256
+    _, _, _, cax = ax.specgram(audio, Fs=sr, NFFT=NFFT, noverlap=128, cmap=colour,
+                               window=np.blackman(NFFT))
     fig.colorbar(cax).set_label('Intensity (dB)')
     
     plt.xlabel('Time (s)')
