@@ -13,8 +13,7 @@ from plot_ss_oo import plot_wave_spec
 
 def get_audio():
     """ Read 'stood_mono.wav' and return the audio data and sample rate """
-    audio_path = os.path.join('..', 'Data')
-    audio_file = os.path.join(audio_path, 'stood_mono.wav')
+    audio_file = os.path.join('data/stood_mono.wav')
     audio, sr = sf.read(audio_file)
     
     if audio.dtype == 'int16':
